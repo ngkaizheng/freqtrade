@@ -12,6 +12,43 @@ user_data/*
 user_data/freqaimodels/*
 user_data/models/*
 user_data/notebooks/*
+
+# ── OUR DELIVERED STRATEGIES MUST NEVER BE SILENTLY EXCLUDED ────────────────
+# `user_data/*` above excludes the whole tree, which means it also excluded
+# user_data/strategies/ and user_data/strategies_frontier/. That is how the
+# deployed strategies nearly went uncommitted a second time: docs-myself was
+# never tracked either, and when the workspace was lost twice there was no git
+# copy to restore from. `git add` reported nothing wrong; the files were simply
+# ignored, and the only symptom was a clean-looking `git status`.
+# These two lines make the strategies ordinary tracked source code again, so
+# plain `git add -A` is enough and no one has to remember `git add -f`.
+!user_data/strategies/
+!user_data/strategies_frontier/
+#
+# NOT re-included, on purpose. These are enforced rules, not a comment: a
+# comment that reads like a guard is worse than no guard. See
+# EXCLUDED_FROM_VCS.md for the file-by-file list and the reason for each.
+# Nothing here has been deleted; every file is still on disk.
+docs-myself/Note-From-Wechat.pdf
+docs-myself/_xref_pdfs/
+docs-myself/_xref_pdfs
+tools/carry/docs/
+tools/carry/docs
+tools/carry/_doc/
+tools/carry/_doc
+tools/carry/_src/
+tools/carry/_src
+tools/carry/*.pdf
+tools/carry/*.csv.gz
+tmp_audit/*.pdf
+tmp_audit/redteam/*.pdf
+tmp_paper/*.pdf
+protocols.json
+#
+# TRADING CONFIGS STAY EXCLUDED (`config*.json`, above). The deployed configs
+# hold exchange API credentials - currently empty, but that is the one file type
+# where an empty string today becomes a real key tomorrow. Their full field list
+# is documented in docs-myself/DELIVERABLE_SPEC_2026-09-30.md section 3.
 freqtrade-plot.html
 freqtrade-profit-plot.html
 freqtrade/rpc/api_server/ui/*
