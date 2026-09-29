@@ -1,0 +1,38 @@
+SOURCE_URL: https://r.jina.ai/https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Position-Information-V3
+HTTP: 200  LEN: 623
+
+Title: Trade - Futures (USDⓈ-M) REST API
+
+URL Source: https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Position-Information-V3
+
+Markdown Content:
+Ask AI about this page
+Feedback
+Welcome to the new Binance API documentation.
+Looking for the previous version?
+Switch to the legacy docs
+Search
+Ask AI
+Legacy Docs
+Language
+Documentation
+API Reference
+SDKs & Tools
+Agent Native
+Dev Forum
+Binance.com
+Resources
+Announcements
+Terms
+Privacy
+Support
+24/7 Chat Support
+Support Center
+Product Feedback
+Fees
+Agent Native
+llms.txt
+llms-full.txt
+Agent Native
+
+© 2026 Binance.com. All rights reserved.

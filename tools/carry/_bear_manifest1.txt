@@ -1,0 +1,10 @@
+cftc_8482_22	https://www.cftc.gov/PressRoom/PressReleases/8482-22
+cftc_fed_8469_20	https://www.cftc.gov/PressRoom/PressReleases/8469-20
+cftc_digital_assets_primer	https://www.cftc.gov/sites/default/files/2021-01/DigitalAssetsPrimer.pdf
+mica_eurlex	https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1114
+fsb_digital_assets_2022	https://www.fsb.org/2022/07/the-financial-stability-implications-of-digital-assets/
+doj_ftx_press	https://www.justice.gov/opa/pr/ftx-trading-firm
+binance_faq_360033162192	https://www.binance.com/en/support/faq/360033162192
+sec_bittrex	https://www.sec.gov/news/press-release/2023-84
+iosco_leverage_report	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD688.pdf
+esma_mica_ps	https://www.esma.europa.eu/press-news/esma-news/esma-publishes-statement-mica-review-crypto-assets

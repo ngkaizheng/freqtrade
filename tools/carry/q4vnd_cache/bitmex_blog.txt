@@ -1,0 +1,25 @@
+### URL: https://www.bitmex.com/blog
+### STATUS: 200 CT: text/html
+
+Log In 
+
+ ⚠ 
+ 
+ BitMEX will never ask for your private keys, seed phrases, or any
+ payment in connection with fund distributions. If someone has
+ contacted you claiming to help recover your funds, do not engage.
+ Report it to
+ support@bitmex.com .
+
+ Blog
+
+ BitMEX ceased trading on 23 September 2026. New posts are published
+ only for wind-down updates and official communications.
+
+ ä¸­æ 
+ Ð ÑÑÑÐºÐ¸Ð¹ 
+ íêµ­ì´ 
+
+ HDR Global Trading Limited, incorporated in the Republic of Seychelles.
+ For legal and compliance matters see
+ our legal page .

@@ -1,0 +1,2973 @@
+
+
+=== PAGE 1 ===
+Leveraged Loans and CLOs 
+Good Practices for Consideration 
+Consultation Report 
+ 
+ 
+ 
+ 
+ 
+ 
+The Board  
+OF THE 
+INTERNATIONAL ORGANIZATION OF SECURITIES COMMISSIONS 
+ 
+CR05/2023 SEPTEMBER 2023 
+ 
+      This paper is for public consultation purposes only.  It has not been approved for any 
+other purpose by the IOSCO Board or any of its members. 
+  
+
+
+=== PAGE 2 ===
+   
+ii 
+ 
+ 
+Foreword 
+The Board of the International Organization of Securities Commissions (IOSCO) has published 
+this Consultation Report with a view to proposing a set of good practices for LL and CLO 
+industry participants to consider. 
+How to Submit Comments 
+IOSCO welcomes input from all stakeholders as part of this consultation process.  
+Please submit consultation responses to LL -CLOconsultation@iosco.org by 15 December 
+2023.  
+Your comment letter should indicate prominently that it is a ‘Public Comment on Leveraged 
+Loans and CLOs – Good Practices for Consideration.” 
+All comments will be made available publicly unless  anonymity is specifically requested. 
+Comments will be converted to PDF format and posted on the IOSCO website. Personal 
+identifying information will not be edited from submissions. 
+  
+
+=== PAGE 3 ===
+   
+iii 
+ 
+ 
+Contents 
+FOREWORD.................................................................................................................................................. II 
+1. EXECUTIVE SUMMARY .................................................................................................................... 1 
+2. INTRODUCTION .................................................................................................................................. 6 
+2.1 MANDATE FROM IOSCO BOARD ........................................................................................................... 6 
+2.1.1 Original mandate .............................................................................................................................. 6 
+2.1.2 Phase 1 – Exploratory Analysis ........................................................................................................ 6 
+2.1.3 Phase 2 – Development of a Consultation Report on Good Practices ............................................. 6 
+2.2 MARKETS OVERVIEW OF LL AND CLO MARKETS ................................................................................. 7 
+2.2.1 LL markets ........................................................................................................................................ 7 
+2.2.2 CLO markets ..................................................................................................................................... 8 
+2.3 MARKET DEVELOPMENTS ...................................................................................................................... 9 
+2.3.1 Growth in the LL and CLO markets ................................................................................................. 9 
+2.3.2 Evolution of the type of LL borrowers .............................................................................................. 9 
+2.3.3 Evolution of the LL investor base ................................................................................................... 10 
+2.3.4 LLs emulating High Yield Bonds .................................................................................................... 10 
+2.3.5 Erosion of lender protections and the rise in covenant-lite LLs ..................................................... 10 
+2.3.6 Complexity of LL documentation .................................................................................................... 11 
+2.3.7 Higher Leverage Raised to Fund Buyout Valuations ..................................................................... 12 
+2.3.8 Increased use of EBITDA adjustments............................................................................................ 12 
+2.3.9 Sharp increase in borrowing costs since last year.......................................................................... 12 
+3. PROPOSED GOOD PRACTICES ...................................................................................................... 13 
+3.1 THEME A – ORIGINATION AND REFINANCING BASED ON A SOUND BUSINESS PREMISE ......................... 13 
+3.1.1 Measure 1 - Debt repayment capacity ............................................................................................ 13 
+3.1.2 Measure 2 – Dividend recaps ......................................................................................................... 17 
+3.1.3 Measure 3 – Enterprise Values ....................................................................................................... 18 
+3.2 THEME B – EBITDA AND LOAN DOCUMENTATION TRANSPARENCY .................................................... 21 
+3.2.1 Measure 4 – EBITDA complexity and opacity ................................................................................ 21 
+3.2.2 Measure 5 - Transparency on covenants’ limitations ..................................................................... 25 
+3.3 THEME C – STRENGTHENING ALIGNMENT OF INTEREST FROM LOAN ORIGINATION TO END INVESTORS29 
+3.3.1 Measure 6 – Transparency and fairness during underwriting and syndication ............................. 29 
+3.3.2 Measure 7 - Alignment of interests between underwriting entities and investors ........................... 33 
+3.4 THEME D – ADDRESSING INTERESTS OF DIFFERENT MARKET PARTICIPANTS THROUGHOUT THE 
+INTERMEDIATION CHAIN ................................................................................................................................... 36 
+3.4.1 Measure 8 - Reducing restrictions on transferability of loans ........................................................ 36 
+3.4.2 Measure 9 - Managing conflicts of interest where PE sponsors also act as lenders ...................... 39 
+3.4.3 Measure 10 - Managing conflicts of interest in management of CLOs ........................................... 40 
+3.5 THEME E -  DISCLOSURE OF INFORMATION ON AN ONGOING BASIS ...................................................... 43 
+3.5.1 Measure 11 - Disclosure in CLOs .................................................................................................. 43 
+3.5.2 Measure 12 - Disclosure on underlying loans ................................................................................ 45 
+4. CONCLUSION .................................................................................................................................... 47 
+APPENDICES .............................................................................................................................................. 48 
+APPENDIX 1: LIST OF PROPOSED GOOD PRACTICES ............................................................................................ 48 
+APPENDIX 2: LIST OF CONSULTATION QUESTIONS ............................................................................................. 52 
+APPENDIX 3: KEY MARKET PARTICIPANTS IN LL AND CLO MARKETS .............................................................. 56 
+PE sponsors ................................................................................................................................................. 56 
+Bank lenders/bank arrangers ....................................................................................................................... 57 
+CLO managers ............................................................................................................................................. 57 
+CLO investors .............................................................................................................................................. 57 
+Credit rating agencies (CRAs) ..................................................................................................................... 57  
+
+=== PAGE 4 ===
+ 
+1 
+ 
+1. Executive summary  
+The Leveraged Loan (LL) and Collateralized Loan Obligation (CLO) markets have historically 
+had low default rates and performed well during the Global Financial Crisis (GFC). However, 
+the structure of LLs and the LL market itself have evolved markedly since the GFC and globally 
+both LL and CLO markets have experienced significant growth driven by an expanding 
+economy and the low interest rate environment which characterised the post-GFC period until 
+early 2022. 
+The LL market has experienced an evolution in both the  characteristics of the borrowers and 
+in the investor base. The former has partially shifted from traditional industrial sectors towards 
+technology and healthcare, and on average , the credit quality of corporate borrowers has 
+deteriorated. Meanwhile, the investor base has shifted from banks to non- banks (especially 
+CLOs) and has diversified across a large number of CLO managers. These changes in the 
+market participants combined with a  prolonged borrower -friendly environment have led to 
+significant developments in market practices including the rise in covenant-lite LLs, increasing 
+complexity of LL documentation and the use of EBITDA1 adjustments which are often shown 
+to be overly optimistic.2  
+IOSCO has been following the evolution of the LL and CLO markets and examining the impact 
+of fewer and looser covenants on investor protections, whether there is adequate transparency 
+in the LL and CLO markets and whether potential conduct-related issues have arisen as a result 
+of recent market developments . IOSCO’s analysis is based on extensive engagement with 
+market participants, credit rating agencies , academics and legal professionals , as well as a 
+review of relevant research and literature. It also draws on input from a survey of IOSCO 
+members as well as public surveys of indus try participants. IOSCO identified some 
+vulnerabilities in the LL and CLO markets which may be exacerbated by the behavior of certain 
+participants and market practices. 
+This consultation report: 
+• Provides an overview of the LL and CLO markets and their evolution since the GFC; 
+• Explains why the vulnerabilities identified in the LL and CLO markets could impact 
+IOSCO’s objectives of (i) protecting investors, (ii) ensuring that markets are fair, 
+efficient and transparent, and (iii) reducing systemic risk; 
+• Describes in detail the following twelve proposed good practices grouped into five 
+themes: i) Origination and refinancing based on a sound business premise; ii) EBITDA 
+and loan documentation transparency; iii) Strengthening alignment of interest from loan 
+origination to end investors; iv) Addressing interests of different market participants 
+throughout the intermediation chain; and v) Disclosure of information on an ongoing 
+basis.  
+• Seeks feedback on the proposed good practices and the consultation questions, as set 
+out in the report. 
+ 
+1  Earnings before interest, taxes, depreciation and amortization 
+2  S&P (2023) Leveraged Finance: Fifth Annual Study Of EBITDA Addbacks Finds Management 
+Continues To Regularly Miss Projections: 
+ https://www.spglobal.com/ratings/en/research/articles/230216-leveraged-finance-fifth-annual-study-
+of-ebitda-addbacks-finds-management-continues-to-regularly-miss-project-12643170 
+
+=== PAGE 5 ===
+ 
+2 
+ 
+This consultation report offers a set of good practices for the consideration of market 
+participants. This is in line with IOSCO’s objectives. While the good practices do not comprise 
+either standards or recommendations as per IOSCO’s taxonomy, they are designed to support 
+market participants in their decision making when operating in the LL and CLO markets. 
+Theme A Origination and refinancing based on sound business premise 
+ 
+Measure 1 Debt repayment capacity test 
+Leveraged loans offered to the market in both new originations, debt 
+refinancings and debt restructurings should be  underpinned by sound 
+business and financial risk assumptions. Borrowers should be able  to 
+demonstrate sufficient debt repayment capacity . An adequate debt 
+repayment capacity is considered the ability to repay 100% of senior debt 
+or 50% of total debt over the medium term.  For example, some regulatory 
+agencies and other market practitioners measure the debt repayment 
+capacity test over a 5 to 7 year period. Where this is not evident, a credible 
+explanation should be provided.  It is  also considered good practice to 
+disclose debt repayment capacity in  term sheets and supporting 
+documentation at the time of debt offering and refinancing. A robust 
+assessment of cash flows including stress testing should inform debt 
+repayment capacity assessments. 
+ 
+Measure 2 Dividend Recaps 
+Dividend recapitalisations should be considered with reference to the level 
+of remaining equity support, degree of leverage  and debt repayment 
+capacity. The use of incremental debt to affect a dividend recapitalisation 
+should be limited.  In addition, borrowers are encouraged to clear ly 
+disclose dividend distribution policy and strategy. 
+ 
+Measure 3 Enterprise Values (EVs) 
+The calculation of EVs which support the capitalisation structures of LBOs 
+should be based on a well -constructed financial model. Underwriting 
+entities are encouraged to clearly disclose the key assumptions 
+underpinning the financial model. It is good practice that any EV model 
+(DCF3 or otherwise) is reviewed and validated by a function independent 
+of the origination unit.   
+ 
+Where possible, the basis for EV should be under -pinned by multi -year 
+forecasted cashflows and not based only on comparable multiples of 
+EBITDA derived from other LBO transactions. It is good practice that 
+DCF valuations which are heavily influenced by ter minal values 
+extrapolated from final year forecasted cashflows be credible and 
+challenged. 
+ 
+Theme B EBITDA and loan documentation transparency 
+ 
+Measure 4 EBITDA complexity and opacity 
+EBITDA definitions should avoid unnecessary complexity. Pro-forma 
+EBITDA adjustments based on future synergies, earnings and asset 
+ 
+3  Discounted cash flow (DCF) modelling is one methodology used to calculate EVs 
+
+=== PAGE 6 ===
+ 
+3 
+ 
+disposals should be made on a reasonable basis  and borrowers are 
+encouraged to provide clear justifications of these adjustments to investors. 
+Borrowers are encouraged to subject forecasted cost savings and synergies 
+to prudent time horizons and caps.  
+ 
+Underwriting entities are encouraged to subject all  EBITDA adjustments 
+to independent review by an appropriate second line control function as 
+part of the underwriting process with periodic back-testing thereafter. 
+ 
+Measure 5 Transparency on covenants’ limitations  
+It is good practice for material covenants and associated terms contained 
+in term sheets and loan documentation to be written and presented in a 
+clear, concise and effective manner that can be readily understood by the 
+contracting parties, including under what circumstances covenants can be 
+triggered.   
+ 
+Where relevant, industry participants are encouraged to consider best 
+practice guidance for transparency when drafting key marketing materials 
+(e.g., term sheets). It is good practice for borrowers and underwriting 
+entities to provide marketing materials that clearly disclose key terms that 
+could materially impact a borrower’s credit risk, including terms that could 
+result in subordination, structural or otherwise, of lenders. In this regard, it 
+is considered good practice to provide clear disclosures of the quantity of 
+incremental debt and associated baskets that can be raised and the ability 
+to move assets beyond the reach of the lender group.  
+ 
+Detailed disclosures of key risks including documentation risk, through a 
+risk factors disclosure, could be provided in a loan document. 
+ 
+Theme C Strengthening alignment of interest from loan origination to end 
+investors 
+Measure 6 Transparency and fairness during underwriting and syndication 
+Underwriting entities are encouraged to: 
+• provide sufficient and clear information to investors early in the 
+syndication process with the aim of achieving a fair and efficient 
+market in which investors have sufficient time and a fair 
+opportunity to negotiate and to make well-informed investment 
+decisions.  
+• review the full loan documentation thoroughly before signing the 
+commitment letter and engage in negotiation so that they are 
+satisfied that the risk posed by a failed syndication is within their 
+risk appetite.  
+• provide anonymised feedback on investors’ documentation points 
+to all investors in a transparent way. 
+• highlight to investors new flexibilities built into loan 
+documentation as well as those which have previously faced 
+opposition from the investor base. 
+ 
+
+=== PAGE 7 ===
+ 
+4 
+ 
+Measure 7  Alignment of interest between underwriting entities and investors 
+Underwriting entities are encouraged to demonstrate how they have 
+aligned their interests with LL investors, through risk retention or other 
+means. Implementation of robust risk management of leveraged lending 
+activities can strengthen alignment of interests as well as prevent the build-
+up of systemic risks. Underwriting entities and LL investors are 
+encouraged to obtain independent and impartial lega l advice which 
+represents their interests and strengthens their ability to negotiate loan 
+terms and influence market evolution. 
+ 
+Theme D Addressing interests of different market participants throughout the 
+intermediation chain 
+Measure 8  Reducing restrictions on transferability of loans 
+Transferability of loans  within a pool of potential investors should be as 
+broad as possible to support a liquid secondary market. It is considered 
+good practice that where lists  of approved and disqualified lender s are 
+used, they should only be created based on clear and documented reasons.  
+It is expected that investors be provided with transparency early in the  
+syndication process on transferability restrictions and how these might 
+evolve during the life of the loan. In particular, it is expected that investors 
+are provided with sufficient clarity on the precise definition of an event of 
+default, which will cause limitations on transferability to no longer apply. 
+ 
+Measure 9 Managing conflicts of interest where PE sponsors also act as lenders 
+Conflicts of interest which can arise from a group’s investments in 
+different parts of a borrower’s capital structure, should be appropriately 
+identified and managed. It is expected that participants in a syndication and 
+LL investors be properly informed of the instances where a group is 
+acquiring the debt of a borrower while also acting as the borrower’s 
+sponsor or holdi ng other classes of debt of that borrower. In such cases, 
+the use of a sponsor disenfranchisement clause or similar  clause is 
+encouraged. 
+ 
+Measure 10 Managing conflicts of interest in management of CLOs 
+Potential conflicts of interest in the management of CLOs should be 
+appropriately identified and managed.   
+ 
+It is expected that policies governing the purchase of distressed assets, 
+cross-sales and trading / valuation of CCC/Caa rated loans and the related 
+policies be clearly set out in a CLO indenture to enable investors to make 
+an informed investment decision. It is considered good practice that trustee 
+reports regularly disclose the trading activity and valuation of assets of a 
+CLO to enhance transparency to investors. 
+ 
+It is considered good practice that investors are provided with sufficient 
+opportunity to conduct due diligence on the valuation methodology and 
+results produced by the CLO manager and assess the strategy and rationale 
+for management of assets when performance tests are at risk of being 
+breached. 
+ 
+
+=== PAGE 8 ===
+ 
+5 
+ 
+Theme E Disclosure of information on an ongoing basis 
+ 
+Measure 11 Disclosure in CLOs 
+CLO investors should be provided with all materially relevant information 
+on the valuation, credit quality and performance of the portfolio of a CLO, 
+consistent with jurisdictional regulatory requirements. It is expected that 
+such data is  made available on a regular basis ( e.g., monthly) to CLO 
+investors in order for them to make an informed judgement of their 
+investment decisions and that potential CLO investors be provided access 
+to such information upon request. 
+ 
+Measure 12 Disclosure on underlying loans 
+LL borrowers are encouraged to provide their investors on a timely basis  
+with their latest financial information and status, for example, the audited 
+financial statements, periodic management financial information and 
+financial forecast and budget in relation to its business plan. LL borrowers 
+are also encouraged to  inform their investors within a reasonable 
+timeframe of occurrence of any events that may invalidate any assumptions 
+originally applied in the EBITDA addbacks (including any activities that 
+are outside the normal course of business) and potential implications  and 
+impact on the projected EBITDA. 
+ 
+We invite comments generally on the proposed good practices, as well as views regarding 
+the consultation questions set out in Section 3 on each of the measures (see also Appendix 
+2 for the full list of consultation questions). Following the public consultation period, 
+IOSCO will develop a final good practices report for publication. 
+  
+
+=== PAGE 9 ===
+ 
+6 
+ 
+2. Introduction 
+2.1 Mandate from IOSCO Board 
+2.1.1 Original mandate 
+IOSCO has been monitoring the  growth in the closely inter -connected LL and CLO markets 
+and their marked evolution over the years since the Global Financial Crisis (‘GFC').4 In March 
+2020 the IOSCO Board mandated a review  of potential conduct-related issues in the LL and 
+CLO markets and any impacts on IOSCO’s objectives of (i) protecting investors, (ii) ensuring 
+that markets are fair, efficient and transparent, and (iii) reducing systemic risk.  
+ 
+To conduct this assessment , IOSCO’s Committee 3 on Regulation of Market Intermediaries 
+and Committee 5 on Investment Management delegated the work to a working group (‘WG ’) 
+composed of market expert representatives from both Committees. 
+ 
+The purpose of the mandate was to review intermediation chains and origination practices in 
+LL and CLO markets, including the transmission of risk along the intermediation chain from 
+LL origination to sale of CLOs. Specific areas identified for further analysis included  the 
+impact of fewer and looser covenants on investor protections, whether there is adequate 
+transparency in the LL and CLO markets and whether potential conduct -related issues have 
+arisen because of recent market developments.  
+ 
+2.1.2 Phase 1 – Exploratory Analysis 
+The WG undertook an exploratory analysis in 2021 and presented an internal report to the 
+IOSCO board in March 2022 based on surveys to IOSCO members and LL and CLO industry 
+participants, industry roundtables and academic research.  
+ 
+This report highlighted a number of possible vulnerabilities in both the LL and CLO markets 
+which could impact IOSCO’s objectives. Among these were the potentially increased risk of 
+default in the LL sector due to the large and growing proportion of lower -rated borrowers, a 
+situation which could be exacerbated by the recent changes in monetary policy in key LL and 
+CLO market jurisdictions. The report also highlighted a potentially increased risk of loss given 
+default that may stem from a shift in loan contr act terms in favour of the borrowers over the 
+last decade (through so-called covenant-lite loans).  
+ 
+The report also suggested that these vulnerabilities may be exacerbated by the behaviour of 
+certain participants and market practices. In particular, the potentially aggressive use of 
+EBITDA adjustments and permissive contract clauses may provide private equity (‘ PE’) 
+sponsors and corporate borrowers with increased flexibility in periods of stress that may work 
+to the detriment of LL investors. Further to this, the potential misalignment of interests between 
+bank lenders and LL investors raises further conc erns, especially if it results in an imbalance 
+in negotiating powers between borrowers and lenders. Finally, it was highlighted that certain 
+CLO managers may have an incentive to manage their CLOs to maximise return on equity 
+rather than protect debt investors in periods of stress. 
+ 
+2.1.3 Phase 2 – Development of a Consultation Report on Good Practices 
+Based on the report from the Phase 1 exploratory analysis , in June 2022 the IOSCO Board 
+approved a second mandate for the  WG to develop a public consultation report on “good 
+ 
+4   The Global Financial Crisis of 2007 - 2008 
+
+=== PAGE 10 ===
+ 
+7 
+ 
+practices” for market participants to consider implementing in the LL and CLO markets which 
+would seek to mitigate some of the vulnerabilities identified. 
+ 
+Examples of areas to be addressed at the outset of Phase 2 were the accurate use of EBITDA 
+add-backs and other contractual terms of LL agreements, conflicts of interest management 
+across market participants throughout the intermediation chain, greater and clearer disclosure 
+of certain key financial terms in the LL contracts, and improvements in on-going disclosure to 
+investors of financial information on corporate borrowers. 
+ 
+The WG complemented the Phase 1 exploratory analysis  with a second outreach programme 
+which included (i) review of existing regulatory guidance for leveraged finance markets and 
+engagement with the responsible regulators, (ii) engagement with trade bodies on existing 
+guides for LL term sheet completeness, and (iii) further industry roundtables with 
+representation from banks, credit rating agencies, CLO managers, CLO investors, academia 
+and law firms. This second round of industry roundtables provided a valuable opportunity to 
+gain feedback about potential good practices. 
+ 
+This consultation report is the output from this second part of the WG’s mandate from the 
+IOSCO Board. 
+ 
+2.2 Markets Overview of LL and CLO markets 
+2.2.1 LL markets 
+Broadly speaking, LLs are loans to highly indebted, non- investment grade, non- financial 
+corporate issuers. LLs are commonly used to fund mergers and acquisitions (M&A), for capital 
+distributions and/or dividend recapitalization, to refinance prior loans , or to fund general 
+corporate purposes. LLs also commonly finance leveraged buyouts (LBOs), which may involve 
+one or more financial firms that sponsor the loan. LLs usually carry a floating rate of interest 
+and, in contrast to high yield bonds, are secured by the borrower’s assets.5  
+LLs are typically structured as a debt package that includes a revolving loan with traditional 
+financial covenants (revolving credit facility or RCF) and a longer term, bullet repayment loan 
+referred to as “Term Loan B” (TLB).6 In some cases a short-term amortising loan often referred 
+to as “Term Loan A” (TLA) is also part of the debt package, but this became less common in 
+recent years. Typically, bank lenders keep the RCF and TLA loans on their balance sheet and 
+distribute part or all of the TLB to institutional investors including CLOs, insurance companies 
+and other banks.   
+Broadly syndicated loans (BSL) have tended to be the most common type of LL, but in the past 
+few years LL funding has increasingly come from private credit .7 BSL are typically 
+underwritten by banks but widely distributed across various institutional investors, while 
+private credit investors, such as credit -focused private or public funds, make loans directly to 
+a borrower without any intermediation from banks.  
+ 
+5   In contrast to high-yield bonds, leveraged loans are usually secured with a first lien against the 
+corporates’ assets and are characterized by a floating interest rate. Because most high-yield bonds are 
+unsecured, they are subordinated to leveraged loans within the borrower’s capital structure. 
+6   Frederick Tung (2021). “Do Lenders Still Monitor - Leveraged Lending and the Search for Covenants” 
+7   Credit Markets Update Q4 2022, KPMG Corporate Finance 
+
+=== PAGE 11 ===
+ 
+8 
+ 
+There is no agreed upon standardised definition for a LL, and this leads to differing estimates 
+and characteristics of the market even within the same jurisdictions. Based on the methodology 
+used by the FSB, the global LL market estimated size was $4.6 trillion at the end of 2022.8  
+ 
+2.2.2 CLO markets 
+CLOs are a type of securitisation in which a portfolio of LL assets is typically bought by a 
+bankruptcy remote special purpose vehicle (SPV) that finances the portfolio by the issuance of 
+financial instruments in the form of bonds. These financial instruments are ‘tranched’, which 
+means that they carry different levels of risk and return to suit the appetite of different investors. 
+Cash received from interest and principal payments on the underlying LLs is paid to investors 
+in order of priority (senior investors first, then mezzanine and any cash left to the equity). The 
+order of payment and allocation of cash received are determined by what is commonly known 
+as a “waterfall”.   
+ 
+CLOs are managed by an investment management firm (typically called the CLO manager). 
+CLO managers select the LLs to be included in the portfolio and can actively manage the loan 
+portfolio during the reinvestment period. CLO structures are subject to contractual rules 
+described in the CLO indenture, which ensure minimum credit quality of the portfolio. CLO 
+structures also include performance tests which, if breached, divert cash to the most senior 
+noteholders. 
+ 
+Within the last few years, CLOs have been increasingly allocated within institutional 
+investment portfolios by asset/portfolio managers. This is due to CLOs offering higher returns 
+than similarly rated corporate bonds and other structured products, in addition to their resilience 
+through multiple market cycles.9  The amount outstanding of CLOs globally at the end of 2022 
+stood at around $1.3 trillion.10  
+ 
+CLOs are the largest purchasers of broadly-syndicated LLs. CLOs purchased nearly 65% of all 
+institutional LLs that were syndicated in 2021 and held 25% of global outstanding LLs in 
+2020.11  
+ 
+The issuance of a LL as well as the structuring, distribution and management of a CLO involve 
+many different market participants, including private equity (PE) sponsors, bank lenders / bank 
+arrangers, CLO managers, CLO investors and Credit Rating Agencies (CRA). The roles of 
+these key participants are explained in more detail in Appendix 3. 
+ 
+ 
+ 
+ 
+ 
+ 
+8   Based on Bloomberg data and applying the FSB’s approach taken in this 2019 publication: “FSB report 
+assesses vulnerabilities of leveraged loans and CLOs”. The $4.6 trillion estimate includes institutional 
+loans (Term Loan Bs), Term Loan As and Revolving Credit Facilities, but excludes private debt as per 
+the FSB’s top of the range estimate. 
+9   Frederick Tung (2021). “Do Lenders Still Monitor - Leveraged Lending and the Search for Covenants”  
+10   Based on data from BoA Global Research 
+11   S&P (2019) “Leveraged Commentary and Data”, International Monetary Fund (2020) “Risky Credit 
+Markets: Interconnecting the Dots”. 
+
+=== PAGE 12 ===
+ 
+9 
+ 
+ 
+2.3 Market Developments 
+2.3.1 Growth in the LL and CLO markets 
+At around $4.6 trillion outstanding, the current size of the global LL market is close  to record 
+high levels.12 Since the GFC, the US LL market has grown almost 130%, twice the rate of GDP 
+in the same period 13 and s imilar growth has been observed in Europe. Other regions have 
+smaller but growing LL markets.14 The global CLO market has grown in parallel with the LL 
+market, and the total amount of outstanding CLOs globally has more than doubled since 2010. 
+The growth of the LL market has predominantly been driven by an expanding economy since 
+the GFC and the low interest rate environment which prevailed until 2022.15  
+ 
+These market conditions have driven activity on two different fronts. Firstly, low interest rates 
+have encouraged institutional investors to chase higher yields, causing an increased demand 
+for riskier investment products, and thus enabling companies to become further leveraged. 
+Secondly, accommodative monetary policies have increased liquidity available in the financial 
+system, allowing PE firms to increase their M&A activity and demand for LLs. LLs and CLOs 
+are particularly attractive as floating rate instruments in a rising interest rate environment.   
+ 
+2021 was a record year for new  LL and CLO  issuance,16 but higher borrowing costs and 
+increased recessionary risks to the economy since early 2022 have driven a significant 
+reduction in volumes since.17 
+ 
+2.3.2 Evolution of the type of LL borrowers 
+LL borrowers have increased in numbers while decreasing in size, and the average credit 
+quality of corporate borrowers has deteriorated with the number in the B/B - rated categories 
+exceeding those in the BB-rated category.18 Since 2008 the share of the US LL index rated BB 
+has declined from 49% to 24%, while the share rated B has doubled from approx. 30% to over 
+60% today.19 Moreover, the sectors to which these corporate borrowers belong has shifted over 
+time, from traditional industrial sectors to technology, software and healthcare, providing 
+higher returns but lower tangible collateral.  
+ 
+ 
+12   Based on Bloomberg data and applying the FSB’s approach taken in this 2019 publication: “FSB report 
+assesses vulnerabilities of leveraged loans and CLOs”. The $4.6 trillion estimate includes institutional 
+loans (Term Loan Bs), Term Loan As and Revolving Credit Facilities, but excludes private debt as per 
+the FSB’s top of the range estimate. 
+13   S&P Global Market Intelligence: “Leveraged loan market continues to shatter records amid hunt for 
+yield” 
+14   Bloomberg Markets (2022): “Asia’s Fledgling Leveraged Loan Market is Doing Just Fine” 
+15   Reuters: 2021Mid Year trend in large cap & mid-market loans  
+16   Credit Markets Update Q4 2021, KPMG Corporate Finance 
+17  Credit Markets Update Q4 2022, KPMG Corporate Finance 
+18   S&P Global Ratings: “How Weakening Debt Structures and Loan Terms Diluted First-Lien Credit 
+Quality” 
+19  Pitchbook LCD data: Morningstar LSTA US Leveraged Loan Index 
+
+=== PAGE 13 ===
+ 
+10 
+ 
+2.3.3 Evolution of the LL investor base 
+Post GFC, and in part due to prudential constraints on their balance sheets and tighter risk 
+management/allocation of their capital, banks have moved towards a business model where 
+they underwrite the LLs and distribute them almost entirely to other institutional investors, 
+only keeping the less risky and less capital-intensive revolving credit facility (RCF) and short-
+term amortising loans (TLA) on their balance sheets. Some market participants have argued,  
+during industry roundtables with IOSCO, that this may have lowered the alignment of interests 
+between banks and non-bank-investors in contract term negotiations.  
+ 
+Stepping into their place, CLOs have grown to be the largest investor group in the broadly-
+syndicated LL market. At the same time, direct lending by credit funds has also grown rapidly, 
+providing financing to borrowers seeking quick execution. The rise of institutional investors 
+has led to greater demand for non-amortising bullet loans (TLB) which allow funds to be fully 
+invested at relatively high yields for longer. 
+Overall, the growth and diversification of the investor base s eems to have improved the 
+liquidity of the LL secondary market while decreasing the individual bargaining power of 
+investors in the terms of the LL. 
+ 
+2.3.4 LLs emulating High Yield Bonds 
+LL borrowers, especially those backed by a PE sponsor ,20 have taken advantage of robust 
+demand for LLs and an accommodative credit environment to issue loans that are increasingly 
+structured like high yield debt. This is not just in terms of the characteristics of the loan itself 
+(weaker covenants, bullet maturi ty and lower collateral backing) but the structures have also 
+evolved from LLs being typically supported by a debt cushion (often in the form of a 
+concomitant issuance of high yield debt ranking subordinated to the lenders of the LL) to loan-
+only issuances.  
+ 
+2.3.5 Erosion of lender protections and the rise in covenant-lite LLs 
+Strong investor demand has also resulted in the terms of the loans moving markedly in favour 
+of borrowers. This is evident through the increased issuance of covenant-lite loans, which now 
+make up 90% of LL market share up from 1% in 2000. 21  Covenant-lite loans are loan 
+agreements that often do not contain any financial covenants or contain much weaker financial 
+covenants that are put in place to protect lenders.22 Although each LL is structured differently, 
+covenant-lite loans generally  offer few financial covenant protections, including relaxing 
+constraints on certain financial ratios and imposing fewer restrictions on the borrower’s ability 
+to: transfer collateral beyond the reach of the lender, use asset sale proceeds to pay down second 
+lien debt ahead of first lien debt , and/or to issue new pari -passu debt secured on the same 
+collateral as the existing LL investors, thereby potentially diluting investors’ rights to the 
+collateral.23  
+ 
+20  Moody’s – convergence of bonds and loans sets the stage for worse recoveries in the next downturn, 16 
+August 2018.  The  trend cited in this Moody’s research from 2018 was confirmed in the IOSCO 
+roundtables as being still current.   
+21  S&P Global Market Intelligence. “Covenant-lite deals exceed 90% of leveraged loan issuance, setting 
+new high” 
+22 Shohini Kundu (2021). “The Anatomy of Collateralized Loan Obligations: On the Origins of Covenants 
+and Contract Design” 
+23  See Bo Becker & Victoria Ivashina (2016) “Covenant -Light Contracts and Creditor Coordination .”- 
+“Contrary to what their name might suggest, covenant -lite loans do not have fewer covenants. What 
+ 
+
+=== PAGE 14 ===
+ 
+11 
+ 
+In favour of covenant-lite loans, some market participants noted that they  offer the corporate 
+borrower flexibility to manage extreme financial stress situations, like the one seen during the 
+COVID-19 pandemic. It may indeed be costly and time -consuming to agree to waivers of 
+covenant breaches across a large number of investors in a stress situation, which could arguably 
+increase the likelihood of pushing corporate borrowers into insolvency. 
+  
+However, the removal of lender protections has the effect of potentially lowering the amount 
+of assets available to secure the lenders in the event of a default and is likely to result in lower 
+recovery rates. 
+ 
+There are several explanations for the rise of covenant -lite issuance including the imbalance 
+between the supply and demand for LLs, pushing terms in favour of the borrowers. Such 
+imbalance is in part driven by the strong demand by CLOs and other institutional investors in 
+search of yield in a low interest rate environment. The diversification of the investor base makes 
+the negotiation of covenants more difficult and may also have played a part in the increase of 
+covenant-lite loans.  But research 24 indicates that the most important factor explaining the 
+dominance of covenant-lite loans is the shift in the LL investor base from banks to institutional 
+investors including CLOs, credit-focused private and public funds, hedge funds, and securities 
+firms, and to a lesser degree, insurance companies and pension funds. The investor base for 
+LLs today looks more akin to the investor base for high-yield bonds, which typically have few 
+covenants. 
+ 
+2.3.6 Complexity of LL documentation 
+The LL market is highly idiosyncratic and loan documentation is usually tailored for each 
+transaction with varying degrees of investor protection.  Covenant packages and 
+leverage/EBITDA calculations (including addbacks) are typically disclosed in the loan 
+documentation. However, loan documents are increasingly complex and lengthy, and relatedly, 
+issues have been identified with respect to the clarity of drafting.  
+ 
+Market participants have reported that more flexible terms are negotiated by corporate 
+borrowers’ sponsors on stronger credits but may be used as precedent for other borrowers 
+thereafter.  
+ 
+There is also a lack of standardisation of loan documents, with large variations reported to exist 
+between each deal, making comparison challenging for investors. Equally, this makes it harder 
+for lenders to identify new or relevant clauses which may further erode their protections. 
+ 
+ 
+differentiates these loans and makes them riskier is weaker covenant enforcement. A covenant -lite 
+contract (equivalently, a contract with incurrence provisions) requires the firm to comply with its 
+financial covenants only if  a firm pursues (incurs ) an active event, such as issuance of additional 
+financing, sale of assets, or merger. In contrast, a “cov -heavy” contract (a contract with maintenance 
+provisions) requires the issuer to maintain its compliance with contractual financial covenants at all 
+points in time.”  
+24   Bo Becker and Victoria Ivashina (2016). “Covenant-Light Contracts and Creditor Coordination” 
+
+=== PAGE 15 ===
+ 
+12 
+ 
+2.3.7 Higher Leverage Raised to Fund Buyout Valuations 
+The long run average Enterprise Value (EV)25 to EBITDA multiples have risen from 8-10x to 
+11-12x in more recent years.26  This was partly fuelled by lower interest rates and significant 
+market demand.  To fund these higher buyout multiples, more debt has been raised at greater 
+than 6x total debt to EBITDA, i.e., beyond a leverage multiple which is already considered to 
+represent a highly leveraged transaction (6x).  For the reasons outlined under separate points, 
+the inherent leverage and financial risk are even higher due to the sometimes aggressive 
+assumptions under-pinning EBITDA and the flexibility to raise more debt due to covenant-lite 
+transactions.  A rising interest rate environment is likely to result in a correction in these buyout 
+valuations. In the past year , there has already been media coverage of  significant corrections 
+in certain private equity valuations, particularly in the venture capital segment of the industry. 
+ 
+2.3.8 Increased use of EBITDA adjustments 
+Alongside looser covenants, there is evidence that headline debt -to-EBITDA may be 
+understated. The rationale for M&A and private equity buyouts often includes synergies or 
+operational improvements, and it is standard practice to recognise these as adjustme nts (add-
+backs) to EBITDA, which is used to measure compliance with incurrence covenants. These 
+add-backs, however, are uncertain, both in magnitude and timing, and may overstate EBITDA 
+and thus understate debt-to-EBITDA leverage multiples. There is also evidence that incurrence 
+covenants have become less restrictive to borrowers  and allow for greater flexibility on the 
+inclusion of add-backs. Market estimates indicate that incurrence covenants in current 27 deals 
+are subject to EBITDA adjustments of 15- 30%. CRAs found that most borrowers  in the US 
+leveraged finance markets missed EBITDA and deleveraging projections28 Thus, actual levels 
+of debt-to-EBITDA ratios may be higher than covenants would otherwise imply. Indeed, CRAs 
+found that for deals originated from 2015 -2019, borrowers have under -projected leverage by 
+an average of 2.2x EBITDA in the first year and 2.9x EBITDA in the second year.29 
+ 
+2.3.9 Sharp increase in borrowing costs since last year 
+Interest rates have increased sharply in many jurisdictions throughout 2022 and the first half 
+of 2023 as many major central banks responded to high inflation. The average yield to maturity 
+on US leveraged loans has more than doubled from 4.2% at the end of 2021 to 10% by the end 
+of 2022.30  
+ 
+While interest rates were low there may have been an assumption that TLB bullet loans could 
+be easily refinanced approaching maturity, but lower -rated borrowers are likely to struggle to 
+ 
+25   Enterprise Value (EV) measures a company’s total valuation which should equal a valuation of equity (private or 
+public) plus total short- and long-term debt minus cash and cash equivalents.  Adjustments may have to be made to 
+account for other liabilities including unfunded pension liabilities or minority interest holdings in companies.  EV is 
+often represented as a multiple of EBITDA to summarise the purchase price for a business e.g., 10 times purchase 
+multiple, and the degree of debt and equity used to finance the business is a key measure of financial risk. 
+26   Pitchbook LCD data 
+27   Discussion of “current” levels is based on year-end 2018 data. 
+28   S&P (2023) Leveraged Finance: Fifth Annual Study Of EBITDA Addbacks Finds Management 
+Continues To Regularly Miss Projections, 
+ https://www.spglobal.com/ratings/en/research/articles/230216-leveraged-finance-fifth-annual-study-
+of-ebitda-addbacks-finds-management-continues-to-regularly-miss-project-12643170 
+29   Ibid 
+30   Pitchbook LCD data 
+
+=== PAGE 16 ===
+ 
+13 
+ 
+refinance at the new higher borrowing costs.31 Borrowers rated B- and lower are likely to show 
+the most refinancing vulnerability. Many borrowers took advantage of favourable conditions 
+to refinance in 2021, in which case refinancing is not yet needed but there will be growing 
+demand for refinancing from 2024 onwards due to significant maturity walls.32 33 
+ 
+Where refinancing is challenging some borrowers may be able to execute ‘amend-and-extend’ 
+transactions allowing them to push out part of their loan maturities through an amendment, 
+rather than a full-out refinancing. However, some of the weakest borrowers may not be able to 
+execute an ‘amend -and-extend’ and ultimately fall into financial distress and enter a 
+restructuring of their debt.34 35 
+ 
+3. Proposed good practices 
+3.1 Theme A – Origination and refinancing based on a sound business premise 
+Credit risk in the LL market has increased over the last decade, marked by a shift towards lower 
+rated and more highly leveraged borrowers. This has been supported by benign financing 
+conditions, a decreased focus on borrowers’ cash generation and debt repayment capacity and 
+an increased reliance on borrowers’ ability to refinance based on growth of EV and EBITDA. 
+In some cases, increased leverage is used to fund dividends or to repay private equity sponsors. 
+These developments pose an increased systemic risk to the LL market, particularly in the event 
+of a prolonged period of tougher financing conditions. 
+ 
+3.1.1 Measure 1 - Debt repayment capacity 
+The LL market , as part of the wider l everaged finance (LF)  market, plays a key role  in 
+supporting acquisition finance and LBOs by the private equity industry.  The LF market has a 
+good track record in terms of average default rates over the long term and even during the GFC 
+demonstrated a degree of stability compared to other asset classes.   However, in recent years, 
+the LF market has evolved towards lower-rated borrowers, higher leverage and less protection 
+for lenders, which combined with the significant growth of the sector, has raised concerns 
+among regulators and has become the focus of IOSCO and other regulatory bodies.   
+ 
+Over the past decade, the LF market has become less focused on the fundamentals of 
+demonstrable debt repayment capacity and  on forward looking cashflows that can robustly 
+under-pin an EV. During the same period, the investor base for LLs has shifted from banks to 
+non-bank institutional investors ( including CLO managers ).36  Meanwhile the LF market  
+overall, and the LL market in particular, has transitioned to debt structures that rely almost 
+entirely on interest only bullet loans and / or bond instruments that do not amortise but often 
+ 
+31   Moody’s Investor Services (November 2022): “Rising rates, refinancing needs will hit lower-rated 
+companies hardest” 
+32   S&P (2022) Credit Trends: Global Refinancing – Rising Rates and Slowing Issuance Drag on Corporate 
+Funding Conditions 
+33  There are approximately $640 billion in LLs due to mature in the US and Europe over 2024-2026 
+according to Pitchbook LCD data. 
+34   White & Case (2023): Ready for Restructuring  
+35   Moody’s Investors Service (November 2022) “Rising rates, refinancing needs will hit lower-rated 
+companies hardest” 
+36   FSB (2019): Vulnerabilities associated with leveraged loans and collateralised loan obligations 
+
+=== PAGE 17 ===
+ 
+14 
+ 
+rely on being refinanced in the medium to long term.37  The rationale for a debt refinancing is 
+that it will be supported by an expansion in the EV of the business and a rise in EBITDA, which 
+implies “de-leveraging” or expansion in the value of the equity, without debt reduction.  While 
+borrowing costs remain ed very low, borrowers often effected refinancings with a higher 
+leveraged debt structure after 3 to 5 years to either facilitate a further acquisition and/or to fund 
+a dividend payout and/or to repay money to their PE sponsors. 
+Assessing debt repayment capacity of a borrower is important not only for newly originated 
+loans, but also in refinancing transactions of existing debt structures. In some cases, debt 
+refinancings known as “amend-and-extends”, might more accurately be described as debt 
+restructurings since amendments are made which suggest the borrower may have insufficient 
+operating cash flow available to service and repay the debt. For example, some “amend -and-
+extend” refinancings include a combination of fresh equity injected by the PE sponsor in 
+exchange for a conversion of cash interest to “payment in kind” (PIK) 38 and an extension of 
+maturity.  
+Following IOSCO’s roundtable engagement with market participants, the following concerns 
+have been raised:  
+• In recent years, low interest rates and demand from investors looking for relatively 
+higher yield has continued to support LBOs with greater than 5-6x leverage.  Given the 
+higher interest rate environment since last year there is a risk that some highly leveraged 
+borrowers will be left with insufficient cashflow to sustainably repay their debt 
+obligations. 
+• EBITDA is normally “proforma”39 with adjustments and has limitations due to complex 
+definitions and occasionally aggressive assumptions around synergies and cost 
+deductions (see Theme B) emphasising the importance of focusing on cash flow 
+available for debt service (CFADS).   
+• The market has grown to accept debt service cover being measured by EBITDA to 
+interest cover, but EBITDA does not repay debt and may mask  the real degree of 
+financial risk.  CFADS (where capex, tax and other key deductions are made to 
+EBITDA) to interest / debt service cover is considered by many market practitioners as 
+ 
+37   Ashurst (2018) High yield bonds and leveraged loans: a convergence of terms, Ashurst website. 
+Available at: https://www.ashurst.com/en/news-and-insights/insights/high-yield-bonds-and-leveraged-
+loans-a-convergence-of-terms/ 
+38   Payment In Kind (PIK) structures are debt where interest is “rolled-up” into the debt and is repaid at 
+refinancing or maturity.  Such  structures provide borrowers with more financial flexibility.  They  are 
+generally subordinated to senior secured / senior unsecured debt e.g., second lien, mezzanine, and are 
+charged at a higher margin.  But sometimes an “Amend and Extend” will seek to refinance and extend 
+an existing senior secured / unsecured debt cash interest loan structure into a new debt structure and 
+maturity where the cash interest is replaced with a “partial” or “full” PIK interest rate structure to provide 
+further financial flexibility.   Hence,  sometimes these “Amend and Extends” are in reality distressed 
+restructures.  
+39   Pro-forma EBITDA is a non-GAAP financial measure. It means EBITDA of the company adjusted to strip out the 
+effects of non-recurring or extraordinary gains or losses, or to include projected future synergies or revenue gains 
+associated with significant transactions that have occurred or are expected to occur, but which are not reflected in 
+historical financial statements. For example, it can represent the combination of businesses that have been purchased 
+or a stripping out of the effects of extraordinary or once off-costs, as some companies recently did in respect of some 
+COVID-19 related costs.  Often it is supported by financial due diligence assumptions. Measures such as pro-forma 
+EBITDA may have names and meanings that differ from those provided here. 
+
+=== PAGE 18 ===
+ 
+15 
+ 
+a more realistic assessment of financial risk.  It is also used to assess d ebt service 
+coverage ratios and loan life coverage ratios.40 
+• The reduction in the use of amortising terms loans can result in borrowers  being less 
+focused on debt repayment which could potentially lead to less financial discipline. 
+• Credit rating downgrades began to exceed upgrades in the US l everaged finance 
+markets since May 2022. CRAs note that c ash flow deficits are the most significant 
+concern for borrowers rated B and lower.41 
+• As market conditions have tightened, there has been an increase in the use of preferred 
+equity and PIK notes to support companies whose cash flows are under pressure.42 
+• The type of borrowers accessing the LL market has evolved and now includes 
+companies with less predictable cashflow. 
+ 
+Proposed Good Practices  
+Measure 1 Debt repayment capacity test  
+Leveraged loans offered to the market in both new originations, debt 
+refinancings and debt restructurings should be  underpinned by sound 
+business and financial risk assumptions. Borrowers should be able  to 
+demonstrate sufficient debt repayment capacity . An adequate debt 
+repayment capacity is considered the ability to repay 100% of senior debt 
+or 50% of total debt over the medium term.  For example, some regulatory 
+agencies and other market practitioners measure the debt repayment 
+capacity test over a 5 to 7 year period. Where this is not evident, a credible 
+explanation should be provided.  It is also considered good pra ctice to 
+disclose debt repayment capacity in  term sheets and supporting 
+documentation at the time of debt offering and refinancing. A robust 
+assessment of cash flows including stress testing should inform debt 
+repayment capacity assessments. 
+ 
+ 
+Existing regulatory guidance identifies debt repayment capacity as a critical element of the 
+underwriting process.43 The Board of Governors of the Federal Reserve System (FRB), Office 
+of the Comptroller of the Currency (OCC), Federal Deposit Insurance Corporation (FDIC) and 
+European Central Bank ( ECB) have issued leveraged lending guidance, in their respective 
+jurisdictions which identifies a debt repayment test of 5- 7 years.44 In the US  the FRB, OCC 
+and FDIC issued their Interagency Guidance on Leveraged Lending in 2013 (“US Interagency 
+Guidance”). The guidance identifies the ability to fully amortize senior secured debt or the 
+ability to repay at least 50% of total debt over a 5- 7 year period as representing an adequate 
+ 
+40   Debt service coverage ratio measures a company’s available cash flow to pay current debt obligations while loan 
+life coverage ratio is used to estimate the ability of a borrowing company to repay an outstanding loan by dividing 
+the net present value of the money available for debt repayment by the amount of outstanding debt. 
+41   S&P Global Ratings: ‘US BSL CLO and Leveraged Finance Quarterly: Navigating the Rough ‘CCCs’ Q1 2023 
+42   Pitchbook (2023): “Private credit borrowers turn to structured capital, PIK with debt costs on the rise” 
+43   Debt repayment capacity guidance is set out as part of the US Interagency guidance on leveraged lending (2013) 
+and the ECB’s Guidance on Leveraged Transactions (2017) 
+44   The ability to fully amortize senior secured debt and repay at least 50% of total debt over a 5–7-year period is 
+identified as an adequate repayment capacity in both the US Interagency guidance and the ECB’s Guidance on 
+Leveraged Transactions.  
+
+=== PAGE 19 ===
+ 
+16 
+ 
+repayment capacity .45 The ECB’s 2017 Guidance on Leveraged Transactions  (“ECB 
+guidance”) also identified the ability to fully amortise senior secured debt or repay at least 
+50% of total debt over a period of 5-7 years as an adequate repayment capacity.46 
+ 
+This type of debt repayment capacity test is employed by underwriting entities as a common 
+risk management tool, where transactions are considered to be highly leveraged. For instance, 
+where gross leverage of a transaction (i.e., based on total committed debt to EBITDA) exceeds 
+6 times, then key risk mitigations based on the strength and predictability of cash flow are often 
+assessed. Many investors believe a further key risk analysis is to assess the capacity of a 
+business to repay 100% of the senior debt or 50% of the total debt over a 7 year period.47  
+ 
+Many loan investors build their own base case cash flow model to assess debt repayment 
+capacity and deleveraging over a 7 year or longer period. In addition, varying cash flow 
+modelling scenarios and sensitivities are applied (i.e., interest rate increases, incremental debt 
+raised, revenue and profit sensitivities).   When a debt investor does not have access to the cash 
+flow model, they have to make an estimate of future cash flow by examining historic cash flow 
+statements and then estimating base, upside and downside scenarios to assess debt repayment 
+capacity. 
+ 
+As such, it  is considered good practice to clearly disclose the borrower’s ability to repay its 
+debt based on projected free cash -flows available to service debt after cash interest has been 
+paid.48 Given the increasing prevalence of bullet loan structures and limited / no amortising 
+loans, the following may be explicitly disclosed in the term sheet: 
+Total Committed Debt Repayment Test 
+• By year 7, the percentage of total committed drawn and undrawn debt49 that can be 
+repaid from base case50 free cash flows projections after interest. 
+• By year 7, what percentage of total committed drawn and undrawn senior debt can 
+be repaid from base case free cash flows projections after interest. 
+Total Funded Debt Repayment Test 
+• By year 7, the percentage of total funded drawn debt  that can be repaid from base 
+case free cash flows projections after interest. 
+• By year 7, what percentage of total funded senior debt can be repaid from base case 
+free cash flows projections after interest. 
+ 
+ 
+45   Board of Governors of the Federal Reserve System, Federal Deposit Insurance & Corporation Office of the 
+Comptroller of the Currency (2013) Interagency Guidance on Leveraged Lending 
+46   ECB (2017) Guidance on Leveraged Transactions 
+47   Based on observations of IOSCO members during supervisory reviews of LL lenders/investors 
+48   Free Cash flow projections should capture refinancing risk and not assume favourable refinancing conditions going 
+forward. Facilities with balloon payment features such as bullet loans, should be considered to be fully due on the 
+maturity date.   
+49   Total debt refers to total committed debt including all drawn and undrawn debt and any additional debt the loan 
+agreements may permit. Committed undrawn liquidity facilities, according to the Basel Committee on Banking 
+Supervision’s Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools (BCBS 238), are excluded. 
+Cash should not be netted against debt. Drawn portions of uncommitted facilities are also included in the calculation 
+of total debt.  
+50   Based on underwriting bank base case cash flow modelled projections. In either case the methodology should be 
+clearly disclosed.  
+
+=== PAGE 20 ===
+ 
+17 
+ 
+It is considered good practice for b ase case free cash flow projections to be  supported by 
+analysis of historic cash flow statements; forward looking adjustments which are credible and 
+justifiable; multi-year forecasts including their assumptions that can then be stress tested under 
+different scenarios.  Leveraged finance is often underpinned by a forward looking estimate of 
+deleveraging51 by maturity date which will then support a debt refinance at that date or an 
+earlier date.  Some market participants only focus on funded debt and not gross drawn and 
+undrawn debt, but it is critical to assess the potential for committed debt to be drawn and 
+incremental debt to be raised.  A sale of assets can also be assessed in addition to cash flow 
+forecasting, but if an asset is sold it is considered good practice to assess the impact on future 
+cash flow generating capacity. 
+ 
+The importance of being transparent on debt repayment capacity is that it clearly puts the focus 
+on cash generative capacity rather than EBITDA which is typically subject to multiple add-
+backs and adjustments that often prove to be overly optimistic.52   
+ 
+Question 1 
+Would a consistent debt sustainability disclosure within the term sheet based on the borrowers’ 
+base case cash flow modelled projections assist investors during the negotiation and investor 
+assessment phase? Should this debt repayment capacity test disclosure be based on 2 measures: 
+both total committed and total funded debt? 
+ 
+Question 2 
+Should there be a further debt repayment capacity test based on permissible incremental debt 
+and if so, should incremental cash flow generated from the incremental debt (if applicable as 
+some incremental debt is used to pay out a dividend) also be included? 
+ 
+Question 3 
+To what extent should debt repayment capacity be linked to a financial covenant in a loan 
+document and how should this be constructed? Does a debt service ratio covenant need to be 
+reintroduced into loan documentation or adapted to measure debt repayment capacity test?   
+3.1.2 Measure 2 – Dividend recaps 
+In recent years, numerous refinancing transactions with high leverage were completed to allow 
+for dividend payment or capital distribution.53 This is to take advantage of value generated by 
+the business , for example from an increase in underlying cashflows  arising from business 
+growth, synergies achieved or cost savings.  But market stakeholders have raised concerns that 
+in some cases these synergies and cost savings do not materialise54 (See Theme B), and higher 
+ 
+51   Deleveraging can mean actual de-leveraging i.e., debt repaid, or implied based on an estimate of future debt as a 
+multiple of EBITDA e.g., leverage has improved from 6x in 2023 to 4x at maturity in 2028.  The problem with only 
+looking at leverage using EBITDA is that there may not be sufficient cash flow to sustainably repay debt, which is 
+why the debt repayment test at origination and ongoing during the life of the deal is essential. 
+52   S&P (2023) Leveraged Finance: Fifth Annual Study Of EBITDA Addbacks Finds Management Continues To 
+Regularly Miss Projections, https://www.spglobal.com/ratings/en/research/articles/230216-leveraged-finance-fifth-
+annual-study-of-ebitda-addbacks-finds-management-continues-to-regularly-miss-project-12643170 
+53   In particular, 2017 and 2021 were particularly active years in the European LL market for dividend recapitalisations 
+with approximately €15 – 20 billion of those transactions in each year which accounted for ~15% of total loan 
+volume in each of those years. Based on data from Pitchbook LCD 
+54   S&P (2023) Leveraged Finance: Fifth Annual Study Of EBITDA Addbacks Finds Management Continues To 
+Regularly Miss Projections, https://www.spglobal.com/ratings/en/research/articles/230216-leveraged-finance-fifth-
+annual-study-of-ebitda-addbacks-finds-management-continues-to-regularly-miss-project-12643170 
+
+=== PAGE 21 ===
+ 
+18 
+ 
+EV to EBITDA multiples may have been  fuelled by lower interest rates and easy  financing 
+conditions.  
+ 
+PE sponsors and borrowers have in some cases sought flexibility to make dividend payments 
+ahead of senior loan holders’ repayment using dedicated incremental debt baskets.   There have 
+also been some cases where litigation has been brought by lenders who are contesting the 
+legality of such a transfer as well as disputing the appropriateness of EBITDA add-backs used 
+to size the debt capacity under covenant baskets. 
+ 
+Proposed Good Practices 
+Measure 2 Dividend Recaps  
+Dividend recapitalisations should be considered with reference to the level 
+of remaining equity support, degree of leverage and debt repayment 
+capacity. The use of incremental debt to affect  a dividend recapitalisation 
+should be limited.  In addition, borrowers are encouraged to clearly 
+disclose dividend distribution policy and strategy. 
+ 
+ 
+The following practices are encouraged in respect of dividend recapitalisations: 
+• It is considered good practice to avoid dividend recapitalisations in c ircumstances 
+where equity is less than 40% 55 of the total capital structure, total committed leverage 
+is greater than 6x or the debt repayment test is not met.   
+• The use of incremental  debt facilities to support dividend recapitalisations  should be 
+discouraged, as existing leveraged finance investors may not wish to participate in the 
+incremental facilities. Consideration could be given to limiting d ividend 
+recapitalisations to the time of an initial origination or a full debt refinancing.  
+• Borrowers are encouraged to provide clear  disclosures with regards to dividend 
+distribution policy and strategy at the time of the initial origination of the transaction. 
+ 
+Question 4 
+Should limitations be placed on the ability to effect debt -financed dividend recapitalisations 
+e.g., based on minimum equity, total leverage, debt repayment test? 
+ 
+Question 5 
+Should dividend recapitalisations only be permitted based on an initial origination or full debt 
+refinancing (and not  be permitted using incremental facilities in which  all existing loan 
+investors may not wish to participate)? 
+ 
+3.1.3 Measure 3 – Enterprise Values 
+Buyout multiples, typically represented as EV as a multiple of EBITDA, have trended upwards 
+in recent years to average levels of 11 -12x (compared to the long run average of 8 -10x) for 
+ 
+55  Equity contribution in US LBOs has ranged between 30% and 47% over the period from 2005 to 2020. 
+From 2005 to 2007 lower equity contribution of 30% to 32% was typical, but since 2008 equity 
+contribution has generally been higher and ranged between 37% and 51%. In LBOs since 2015 the 
+average equity contribution has ranged between 42% and 47%. In both 2019 and 2020 the average equity 
+contribution was 47%.  
+Source: S&P Global (2021) “As LBOs surged in Q4’20, US purchase price multiples hit new heights” 
+
+=== PAGE 22 ===
+ 
+19 
+ 
+both the large corporate and middle market leveraged loan sectors.56  Higher EV multiples have 
+been supported by higher levels of debt above 5- 6x57 (excluding additional leverage from 
+incremental debt capacity), lower interest rates and easy financing conditions.  
+Valuation through use of EVs is an established practice which provides benchmark multiples 
+to compare buyouts in similar industries.  But EVs need to be supported by a credible forward-
+looking financial cash flow model. The ability of a business to service the interest and 
+sustainably repay debt is a critical consideration. Some roundtable participants identified 
+insufficient cash flow and debt service capacity as an area of concern  for the most highly 
+leveraged borrowers, given increased borrowing costs and general market conditions since 
+2022. An argument could be made that some market participants have relied on an assumption 
+that the EV can cover debt based on a forward-looking EV / EBITDA multiple, when a detailed 
+cash flow model might show a lack of debt repayment capacity. Even so, discounted cash flow 
+(‘DCF’) models may also be subject to  optimistic assumptions, for example including a 
+terminal value using the perpetual growth methodology based on inappropriate forecasts of 
+final year unlevered free cash flows or discounting with an inappropriate weighted average cost 
+of capital.  
+ 
+Proposed Good Practices 
+Measure 3 Enterprise Values 
+The calculation of EVs which support the capitalisation structures of LBOs 
+should be based on a well -constructed financial model. Underwriting 
+entities are encouraged to clearly disclose the key assumptions 
+underpinning the financial model. It is good practice that any EV model 
+(DCF or otherwise) is reviewed and validated by a function independent 
+of the origination unit.   
+ 
+Where possible, the basis for EV should be under -pinned by multi -year 
+forecasted cashflows and not based only on comparable multiples of 
+EBITDA derived from other LBO transactions. It is good practice that 
+DCF valuations which are heavily influenced by terminal values 
+extrapolated from final year forecasted cashflows be credible and 
+challenged.  
+ 
+EV is a widely used metric for valuing a company and as a proxy for determining debt 
+sustainability in leveraged finance transactions. Underwriting entities are encouraged to 
+disclose the EV calculation for all originations, debt refinancings, “ amend-and-extends” and 
+raising of incremental debt. Regarding EV calculations, the following are considered good 
+practices: 
+• Market participants should review and challenge the EV calculation methodology (i.e., 
+Discounted Cash Flows / Income Method, Asset Valuation, Market Based, etc.).58  
+ 
+ 
+56   Pitchbook LCD 
+57   Ibid 
+58   EVs are commonly calculated using a number of different methodologies including the discounted cash 
+flow method which calculates value based on future unlevered free cash flows or market-based 
+approaches which rely on prices of comparable enterprises. 
+
+=== PAGE 23 ===
+ 
+20 
+ 
+• Disclosure of the key underlying assumptions , including any adjustments to EBITDA 
+and calculations of total debt , if not the same as used for the debt sustainability or 
+leverage multiple calculations.  
+ 
+• For EV calculations based on DCF models, market participants are encouraged to 
+scrutinise the unlevered free cash flow forecasts for the initial years and the final year, 
+which forms the basis of the terminal valu e under the perpetual growth methodology.  
+Appropriate discount and growth rates should be applied to the assessment of perpetuity 
+cashflows.  If the debt repayment test cannot be met and other indictors of default are 
+evident, then a terminal value based on an assumption of perpetual growth may not be 
+relevant and instead a limited multiple of final year cash flow may be more appropriate.  
+It may also be appropriate to include no multiple of final year cash flow (year 5/6/7) in 
+the assessment of EV where no confidence can be instilled in the long term cash 
+generative capacity of the business. 
+ 
+• It is good practice for underwriting entities to prepare a weighted average upside, base 
+and downside calculation of EVs compared to the relevant debt structure to measure a 
+potential credit loss , assuming the borrower is deemed to be a going concern. This 
+analysis may highlight that in some cases a right-sizing of debt may be required based 
+on the debt repayment capacity of the borrower and a realistic assessment of future debt 
+servicing costs.   
+ 
+• US Interagency and ECB guidance state that EVs should be calculated or validated by 
+a team independent of the loan origination team59 
+ 
+Question 6 
+Would a clearer disclosure of the arranging banks’  calculation of the borrower’s EV ,60 
+including high level methodology ( i.e., Discounted Cash Flows / Income Method, Asset 
+Valuation, Market Based etc.) and key underlying assumptions (i.e., EBITDA adjustment and 
+total debt) assist investors to make more informed decisions? 
+ 
+Question 7 
+Should EV to EBITDA multiples be highlighted in term sheets and on which basis of EBITDA 
+i.e., proforma, adjusted,61 historic or forward looking? 
+ 
+Question 8 
+Do you agree that the basis for E Vs should be under-pinned by multi-year forecast cashflows 
+and not simply based only on multiples of EBITDA comparable in other acquisitions or 
+buyouts? 
+ 
+ 
+59  Board of Governors of the Federal Reserve System, Federal Deposit Insurance Corporation, Office of 
+the Comptroller of the Currency: “Interagency Guidance on Leveraged Lending”, March 21, 2013 & 
+ECB (2017) Guidance on Leveraged Transactions 
+60   Typically, the arranging banks include an EV of the borrower in the Information Memorandum shared 
+early in the syndication process with potential investors 
+61   Adjusted EBITDA is a form of EBITDA that includes adjustments for amounts in the historical financial 
+statements beyond those related to interest, taxes, depreciation, and amortization. Pro forma EBITDA is 
+a form of EBITDA that includes adjustments for significant transactions that have occurred or are 
+expected to occur but are not reflected in the historical financial statements. .  
+
+=== PAGE 24 ===
+ 
+21 
+ 
+3.2 Theme B – EBITDA and loan documentation transparency 
+Increased use of EBITDA adjustments coupled with the opacity and complexity of loan 
+documentation may be undermining investors’ ability to assess credit risk in LLs. It has been 
+widely acknowledged by market participants , in industry roundtables with IOSCO , that 
+EBITDA marketed by borrowers may significantly underestimate leverage at deal inception 
+due to inappropriate EBITDA adjustments. This issue may be exacerbated by the increasing 
+complexity of loan documentation, which has made it more difficult for investors to assess 
+lender protections. These developments  could potentially undermine the  principle of fair, 
+efficient and transparent markets and expose the market to increased systemic risk.  
+ 
+3.2.1 Measure 4 – EBITDA complexity and opacity  
+EBITDA is a gross proxy for cash flows and is commonly used to assess the ability of the 
+borrower to service its debt. However, EBITDA is  generally not subject to strict accountancy 
+rules and commonly accepted definitions and as such is more exposed to the potential for 
+inappropriate adjustments.  
+ 
+There have  been growing concerns among market stakeholders that EBITDA projections 
+marketed at deal inception may have disguised the inherent credit risk of borrowers in the LL 
+market. As previously noted, the significant growth in reported leverage multiples, while 
+concerning, also likely underestimate total leverage as marketed EBITDA is often based on 
+overly optimistic assumptions.  
+ 
+EBITDA is a concept that can be defined in numerous ways and is often based on a diverse 
+and esoteric range of add- backs or adjustments defined by borrowers. These adjustments are 
+intended to strip out the effects of non- recurring or extraordinary gains or losses but also to 
+include projected future synergies associated with M&A activity and LBOs. While these add-
+backs can account for up to a third of EBITDA borrower projections in larger M&A and LBO 
+deals,62 they generally prove to be overly optimistic, as evidenced below.  
+ 
+Since 2018, S&P has conducted annual studies on the accuracy of US  speculative grade 
+borrowers’ EBITDA projections. The studies have tracked EBITDA performance for deals 
+originated from 2015- 2019 and found that 66% and 61% of borrowers missed EBITDA 
+projections by at least 25% in year 1 and year 2 post inception, respect ively.63 In addition, 
+borrowers failed to meet deleveraging projections. For deals originated from 2015-2017, 75% 
+of borrowers missed debt projections, while for deals originated in 2018 and 2019, 67% of 
+borrowers missed debt reduction projections .64 This underperformance has significant 
+implications for leverage multiples. S&P has found that for deals originated from 2015- 2019, 
+borrowers have under projected leverage by an average of 2.2 times EBITDA in the first year 
+and 2.9 times EBITDA in the second year.65  
+ 
+ 
+62   S&P (2023) Leveraged Finance: Fifth Annual Study Of EBITDA Addbacks Finds Management Continues To 
+Regularly Miss Projections, https://www.spglobal.com/ratings/en/research/articles/230216-leveraged-finance-fifth-
+annual-study-of-ebitda-addbacks-finds-management-continues-to-regularly-miss-project-12643170 
+63   Ibid. The study compared marketing EBITDA at deal inception versus actual reported EBITDA in year 1 and year 
+2 post inception.  
+64   Ibid: S&P explain that the improvement in the 2018 and 2019 vintage was a result of companies hoarding cash 
+during the COVID-19 pandemic. This had an effect of reducing net debt which was used as the basis of S&P’s debt 
+definition.  
+65   Ibid 
+
+=== PAGE 25 ===
+ 
+22 
+ 
+EBITDA and leverage misses are often caused by the inaccuracies associated with synergy and 
+cost saving projections, which account for approximately a third of total add-backs.66 However, 
+these items are considered among the most difficult add- backs to accurately predict. In 
+addition, S&P found a positive correlation between the magnitude of EBITDA add-backs and 
+the size of management projection misses. It was found that for deals with the largest projected 
+leverage misses, add -backs were approximately double those of the best performing deals .67 
+This longitudinal study indicated that marketing EBITDA is an inaccurate proxy for future 
+profitability and cash flows, which at deal inception can significantly disguise a borrowers’ 
+credit risk.  
+ 
+These findings were echoed by feedback received from industry stakeholders as part of 
+roundtable discussions. Marketed EBITDA was considered to be an inaccurate indicator of 
+future revenues and cash flows. While private side LL investors relied on their own EBITDA 
+projections based on financial data provided by the borrower , there was agreement that 
+additional transparency would support the development of more informed and accurate 
+forecasts and increased market efficiency.68  
+ 
+Proposed good practices 
+Measure 4 – EBITDA complexity and opacity 
+EBITDA definitions should avoid unnecessary complexity. Pro-forma EBITDA adjustments 
+based on future synergies, earnings and asset disposals should be made on a reasonable basis 
+and borrowers are encouraged to provide clear justifications of these adjustments to 
+investors. Borrowers are encouraged to subject  forecasted cost savings and synergies  to 
+prudent time horizons and caps.  
+ 
+Underwriting entities are encouraged to subject all  EBITDA adjustments to independent 
+review by an appropriate second line control function as part of the underwriting process  
+with periodic back-testing thereafter. 
+ 
+ 
+EBITDA calculations 
+Existing regulatory guidance emphasises the importance of closely scrutinising EBITDA 
+calculations and associated adjustments. For instance, the ECB Guid ance states that any 
+enhancements to EBITDA should be duly justified and reviewed by a function independent of 
+the front office function.  
+These principles are commonly observed in bank underwriting policies, which generally 
+include provisions for assessing EBITDA and associated pro-forma adjustments. These include 
+requirements for pro -forma EBITDA adjustments to be scrutinised by the leveraged finance 
+syndication desk’ with independent review by risk management. Other good practices observed 
+include establishing time horizons for EBITDA calculations such as the most recent 12-months 
+ 
+66   Ibid 
+67  Ibid 
+68   Loan markets rely on both public and private buy-side participants. Investors participating on the private 
+side receive additional financial information from the borrower including management projections 
+during the syndication process. Separate marketing materials are prepared for public side investors which 
+exclude management projections. Private side investors also receive enhanced on-going reporting 
+including monthly or quarterly financial reporting, financial projections, covenant compliance reports 
+and plans for acquisitions and disposals. Such information is subject to confidentiality agreements.  
+
+=== PAGE 26 ===
+ 
+23 
+ 
+(TTL69 or LTM70) and requiring additional scrutiny to be applied to add-backs associated with 
+cost-savings and synergies that are forecast to occur beyond 12-months. 
+Bank underwriting standards also generally include provisions to remove adjustments based 
+on assets sales / disposals where these sales / disposals are not legally contracted or not due to 
+occur within a reasonable timeframe (i.e., 12-months). 
+Many banks also include provisions whereby borrowers can be designated as a weak credit 
+where a certain percentage of EBITDA ( i.e., 20%) is based on synergies and cost saving not 
+yet realised or other inappropriate add-backs based on cash costs.  
+In this regard, t he following practices are encouraged in relation to EBITDA calculation 
+methodologies: 
+ 
+Where pro forma EBITDA is based on asset sales or disposals these be based on legal contracts 
+or similar arrangements that provide reasonable assurances on asset values and be forecast to 
+occur in reasonable timeframe (i.e., within the next 12-months). 
+ 
+• Pro-forma EBITDA based on future synergies or future earnings  should be based on 
+reasonable assumptions  and borrowers are encouraged to disclose these key 
+assumptions to investors.   
+• Where projected synergies and cost savings are included in pro -forma EBITDA, it is 
+considered good practice that these be subject to clearly defined and prudent ca ps set 
+as a percentage of trailing EBITDA ( i.e., last four quarters summed or trailing 12-
+months summed, as sourced from the borrower’s financial statements / earnings 
+results). Historically add-backs for synergies and cost savings were capped at between 
+5% and 25% of EBITDA.71 While appropriate caps should be set in the context of each 
+deal, caps above this range are not considered prudent and for many deals prudent caps 
+may be set at lower levels . In all cases caps should be supported by appropriate 
+assumptions.   
+• Inclusion of add-backs associated with restructuring costs should be treated in a prudent 
+manner and the borrower should be able to demonstrate that these restructuring costs 
+do not relate to a company’s normal operations, strategy, or industry and regulatory 
+environment. It is good practice that  restructuring costs  which could be reasonably 
+expected to be included in operational costs (i.e., those needed to restructure operations 
+to remain competitive) are not included in add-backs.  
+• Borrowers are encouraged not to include cost saving or synergies forecast to occur 
+beyond 24-months in pro-forma EBITDA marketed at deal inception.72 
+• It is considered good practice that underwriting entities subject any cost saving or 
+synergies forecast to occur beyond 12-months to enhanced scrutiny.  
+ 
+69   Trailing twelve months 
+70   Last twelve months 
+71   Historically loan or bond documentation would cap EBITDA add-backs / adjustments between 5%-25% of the 
+previous 12-months EBITDA. However, according to research from Fitch, among others, there has been a trend 
+towards eliminating EBITDA add-back caps from loan documentation.  
+https://www.fitchratings.com/research/corporate-finance/coronavirus-related-ebitda-addbacksenhance-flexibility-
+adjustments-increase-covenant-cushion-add-extra-financial-flexibility-for-issuers-18-11-2021  
+72   It is common practice for loan documents to include cut-offs of 12-24 months for add-backs to be 
+realised. Add-backs forecast beyond this threshold are not included. White & Case (2019) ‘Synergising 
+synergies’ https://www.whitecase.com/insight-alert/synergising-synergies 
+
+=== PAGE 27 ===
+ 
+24 
+ 
+• Any pro-forma adjustments included in EBITDA to produce an updated normalised 
+EBITDA should be closely scrutinised. It is considered good practice that 
+enhancements to EBITDA be reviewed by a function independent of the front office 
+function (i.e., risk function) of the underwriting banks.   
+ 
+EBITDA Disclosures 
+Adequate disclosure of EBITDA definitions and assumptions is a critical factor in ensuring 
+investors have sufficient information to make informed investment decisions. In this regard, 
+trade bodies, the European Leveraged Finance Association (ELFA) and the Loan Market 
+Association (LMA) published a best practice guide for loan term sheet completeness in 2022, 
+hereafter referred to as the ELFA/LMA best practice guide. 73 The guide calls for clear 
+disclosures on EBITDA including: (i) full definitions of consolidated EBITDA and 
+Consolidated Net Income, (ii) full details of any add backs, run rate adjustments or similar as 
+well as cap levels, (iii) presentation of add backs /  run rate adjustments in the borrower Base 
+Case Model and (iv) clarification of whether EBITDA has been adjusted for IFRS 16 and its 
+impact on consolidated indebtedness.74  
+ 
+The following practices are encouraged in relation to EBITDA disclosures: 
+ 
+• Borrowers are encouraged to disclose f ull details of any add- backs, run- rate 
+adjustments, or similar, with cap levels as part of a financial calculations covenant and 
+in the loan term-sheets. EBITDA definitions should avoid unnecessary complexity.  
+• To support more prudent investment decisions, borrowers are encouraged to also 
+disclose a more prudent pro- forma EBITDA in marketing materials based on a more 
+prudent adjustment basis (i.e., removal of add-backs associated with synergies and cost 
+savings and supported by historic EBITDA actuals). 
+ 
+Question 9 
+What key disclosures would assist market participants to come to a more accurate view of pro-
+forma EBITDA and projected leverage (e.g., what key assumptions should be disclosed in 
+relation to pro- forma adjustments, should there be a disclosure of a more prudent pro -forma 
+adjusted EBITDA with the exclusion of synergies and costs savings)? 
+ 
+Question 10 
+Is a 25% cap based trailing EBITDA or previous year EBITDA an appropriate cap for add -
+backs based on cost savings and synergies? It was noted that historically it was common 
+practice for caps to be set at between 10%-15%. 
+ 
+Question 11 
+Is 24-months an appropriate threshold for the exclusion of add-backs based on cost savings and 
+synergies? It was noted that it is a common practice for deals to include 12- 24 months 
+thresholds. 
+ 
+ 
+73   European Leveraged Finance Association and the Loan Market Association (2022) Best Practice Guide 
+for Term Sheet Completeness 
+74   European Leveraged Finance Association and the Loan Market Association (2022) Best Practice Guide 
+for Term Sheet Completeness 
+
+=== PAGE 28 ===
+ 
+25 
+ 
+3.2.2 Measure 5 - Transparency on covenants’ limitations  
+Covenant Limitations and Loan Documentation Transparency 
+Over the past decade there has been a steady reduction  in the credit protections available in 
+loan documentation as leveraged loans increasingly adopt ed features typical of the high yield 
+bond market. As a result, there has been a move away from more standardised loan 
+documentation based on the LMA  style documentation and terms towards covenant -lite 
+structures associated with the high yield bond market. Traditionally term loans were amortizing 
+facilities that included financial maintenance covenants, design ed to ensure that the debtor 
+maintained agreed financial ratios. However, in recent years the covenants have been gradually 
+replaced with incurrence covenants associated with high yield bonds, which provide borrowers 
+with greater flexibility.  For instance , covenant-lite facilities have grown from approximately 
+32% of the US LSTA Leveraged Loan Index in 2013 to almost 90% of the index by the end of 
+2022.75 The change has been even more profound in Europe where covenant-lite facilities have 
+grown from approximately 6% of the European Leveraged Loan Index in 2013, to almost 95% 
+of the index by the end of 2022.76 
+ 
+As previously discussed, m acro-economic factors have played a significant role in this 
+transition. The prolonged period of low interest rates and the resulting search for yield 
+increased risk appetites and dr ove supply-demand imbalances that have contributed to more 
+borrower friendly terms. This has been coupled with the change in the LL investor base, from 
+banks to institutional investors, the associated move from a lend-to-hold to an originate-to-sell 
+origination model and the rising influence of PE sponsors.77  
+ 
+This change has seen the proliferation of terms that offer borrowers significant additional 
+flexibility to raise incremental debt;  make significant adjustments to pro -forma EBITDA ; 
+reduce the collateral available to lenders through the exclusion of key subsidiaries’ assets from 
+the reach of lenders as well as to allow for greater flexibility on restricted payments. In addition, 
+loan documents now allow for greater flexibility for borrowers in the event of default. In some 
+cases, grace periods have been extended for missed interest payments to 30 calendar days, 
+while covenant breaches have been extended to 60 days.78  
+ 
+Incremental debt 
+ 
+Incurrence terms now generally allow issuers to incur incremental debt subject to a financial 
+ratio test plus free and clear baskets (incremental debt facilities that do not require compliance 
+with pro-forma financial ratio) that often allow for additional debt based on a full turn of the 
+borrower’s EBITDA.79 Traditionally debt covenants restricted debt incurrence to 2x Fixed Cost 
+Coverage Ratio (FCCR) plus some additional baskets such as revolving credit facilities and 
+ 
+75  Pitchbook Leveraged Commentary & Data, 2023, LLI Factsheet, 
+https://www.lcdcomps.com/lcd/idx/index.html?rid=10  
+76  Pitchbook Leveraged Commentary & Data, 2023, ELLI Factsheet, 
+https://www.lcdcomps.com/lcd/idx/index.html?rid=20  
+77   Ashurst (2018) High yield bonds and leveraged loans: a convergence of terms, Ashurst website. 
+Available at: https://www.ashurst.com/en/news-and-insights/insights/high-yield-bonds-and-leveraged-
+loans-a-convergence-of-terms/ 
+78  Ibid 
+79   Ibid 
+
+=== PAGE 29 ===
+ 
+26 
+ 
+limited general permitted debt baskets.80 As part of industry engagement, IOSCO found that in 
+some cases incremental debt could be raised at up to 9x total debt to EBITDA. 
+ 
+Concerns associated with borrowers’ ability to raise incremental debt are exacerbated by 
+additional flexibilities now afforded to borrowers when calculating pro-forma EBITDA. Term 
+loans place only limited restrictions on the inclusion of EBITDA add- backs that strip out the 
+effects of extraordinary or unusual items as well as adjustments that account for projected 
+synergies and savings81. Research suggests that these pro-forma adjustments are often missed, 
+this can lead to uncertainty regarding leverage ratios and debt sustainability. 82 This can be 
+further compounded when incremental debt is raised based on pro- forma compliance with a 
+financial ratio, generally a leverage ratio. An inappropriately elevated EBITDA figure may 
+ensure compliance with the ratio, while disguising true leverage multiples and credit risk.83  
+ 
+Asset stripping 
+ 
+The flexibilities associated with the current covenant- lite structures have gained industry and 
+media attention in the wake of a series of high profile cases, which have illustrated the potential 
+weaknesses in the credit protections available to investors. In particular, liability management 
+techniques such as ‘trap doors’ and ‘up-tiering’ have gained widespread attention as a result of 
+the potential significant structural subordination imposed on senior lender s. ‘Trap door’ or 
+‘asset stripping’ manoeuvres have become well known following a series of high profile cases 
+whereby borrowers moved key assets outside the guarantor group to an unrestricted non -
+guarantor subsidiary, resulting in a structural subordination of the restricted group lenders. 
+Similarly, ‘up-tiering’ or ‘priming' are manoeuvres  can result in material contractual 
+subordination for existing senior lenders, when super-senior debt is raised without the consent 
+of many of the senior lenders.  
+ 
+Document opacity 
+ 
+The risks highlighted above have been further exacerbated by a lack of transparency in the loan 
+documents and key marketing materials such as term sheets, which further undermines the 
+efficient functioning of the market. In particular, investors have point ed out that term sheets 
+lack sufficient standardisation in terms of content and sufficiency of disclosures in respect of 
+material terms investors rely on to make investment decisions.84 
+ 
+According to research carried out by trade bodies ELFA and LMA, not only is there a lack of 
+detail on disclosed terms but in some cases some material terms are omitted and subsequently 
+ 
+80   Ibid. FCCR is a measure of a company’s ability to meet fixed charges out of cash flows generated. It is 
+expressed as a ratio of cash flows to fixed charges (i.e., interest and principal costs, leases / rent, capital 
+expenses, etc.) 
+81  Ibid 
+82   S&P (2023) Leveraged Finance: Fifth Annual Study Of EBITDA Addbacks Finds Management 
+Continues To Regularly Miss Projections,  
+https://www.spglobal.com/ratings/en/research/articles/230216-leveraged-finance-fifth-annual-study-of-
+ebitda-addbacks-finds-management-continues-to-regularly-miss-project-12643170 
+83   Ibid. S&P research has shown widespread underperformance against marketing EBITDA, across the US 
+speculative grade market. This has resulted in leverage multiples being on average almost 3 turns greater 
+than forecasted when the deal was marketed.   
+84   European Leveraged Finance Association and the Loan Market Association (2022) Best Practice Guide 
+for Term Sheet Completeness 
+
+=== PAGE 30 ===
+ 
+27 
+ 
+included in the loan documentation. ELFA and the LMA have confirmed that these practices 
+are impacting investors’ ability to appropriately assess risk during the syndication process and 
+are undermining the proper functioning of the loan market .85 Much of these concerns were 
+echoed by industry participants  as part of IOSCO’s industry engagement. LL and CLO 
+investors were supportive of increased transparency in respect of key loan terms including debt 
+incurrence covenants and associated financial ratio tests, permitted debt baskets as well as 
+covenant terms that enable liability management manoeuvres  such as ‘priming’ or ‘asset 
+stripping’.  
+The material dilution in lende r protections coupled with increased leverage at origination are 
+likely to have an impact on future recovery rates and result in increased systemic risk. A 2020 
+study by S&P, found that recovery rates were materially lower for US  covenant-lite loan 
+facilities compared to non-covenant-lite facilities emerging from bankruptcy between 2014 and 
+2020. The average and median recovery rates for covenant -lite US leveraged loans were 11% 
+and 34% lower than non-covenant-lite facilities, respectively.86  
+ 
+Furthermore, the lack  of transparency on key terms  of covenant -lite loan facilities may be 
+undermining investors’ ability to assess the inherent credit risk associated with the loans, which 
+in turn undermines investors’ ability to accurately price credit risk.  
+ 
+Proposed good practices 
+Measure 5: Transparency on covenants’ limitations  
+It is good practice for material covenants and associated terms contained in term sheets and 
+loan documentation to be written and presented in a clear, concise and effective manner that 
+can be readily understood by the contracting parties, including under what circumstances 
+covenants can be triggered.   
+ 
+Where relevant, industry participants are encouraged to consider best practice guidance for 
+transparency when drafting key marketing materials ( e.g., term sheets). It is good practice 
+for borrowers and underwriting entities to provide marketing materials that clearly disclose 
+key terms that could materially impact a borrower’s credit risk, including terms that could 
+result in subordination, structural or otherwise, of lenders. In this regard, it is considered 
+good practice to provide clear disclosures of the quantity of incremental debt and associated 
+baskets that can be raised and the ability to move assets beyond the reach of the lender group.  
+ 
+Detailed disclosures of key risks including documentation risk, through a risk factors 
+disclosure, could be provided in a loan document. 
+ 
+ 
+Transparency on key loan provisions is considered critical in ensuring that  investors have the 
+necessary information to effectively analyse the risk associated with a  transaction and its 
+ 
+85   Ibid 
+86   The research captured 67 credits which exited chapter 11 bankruptcy between 2014 and H1 2020. It 
+found the average recovery rate was 78.5% for non-covenant-lite loans compared to 67.5% for covenant-
+lite loans. Median recovery rates for non-covenant-lite loans was 98.7% compared with 64.8% for 
+covenant-lite loans. Source: S&P Global Ratings (2020) ‘Settling for less: Covenant-lite loans have lower 
+recoveries, higher event and pricing risk’. Available at:  
+https://www.spglobal.com/ratings/en/research/articles/201013-settling-for-less-covenant-lite-loans-
+have-lower-recoveries-higher-event-and-pricing-risks-11687612.  
+
+=== PAGE 31 ===
+ 
+28 
+ 
+material covenants. Given loan term sheets are provided early in the syndication process, 
+additional clarity on terms strengthens investors’ ability to challenge those that materially 
+weaken lender protections. 
+ 
+In recent years there have been industry led initiatives aimed at increasing transparency in the 
+LL syndication process, resulting in the development of the ELFA/LMA best practice guide.87 
+The guide  calls for clearer disclosures on material covenants and terms such as: (i) debt 
+incurrence, (ii) incremental facilities, (iii) clear definitions of key financial ratios components 
+including potential exclusions of certain debt baskets, (iv) the ability of  non-guarantor 
+subsidiaries to incur debt, (v) asset sales and transfer covenants, (vi) restricted payments and 
+(vii) EBITDA margin ratchets and associated reporting. 
+In this regard, it is good practice that material covenant and associated terms contained in term 
+sheets and loan documentation are written and presented in a clear, concise and effective 
+manner that can  be readily understood by the contracting parties , including under what 
+circumstances covenants can be triggered. 
+ 
+In addition, t he following practices are encouraged in relation to disclosures in loan 
+documentation and marketing materials: 
+ 
+• Where available and applicable to a jurisdiction, i ndustry participants are encouraged 
+to have regards to relevant best practice guidelines, for example the  ELFA/LMA best 
+practice guide. 
+• Material covenant terms in loan term sheets  should be clearly disclosed. It is good 
+practice that such disclosures capture material terms including but not limited to:  
+o The quantity of incremental debt that can be raised 
+o Calculation of debt baskets including relevant caps 
+o Definition of restricted payments and retained cash. Restricted payment 
+disclosures should capture any flexibilities afforded to the borrower to use 
+available debt bucket capacity for restricted payments 
+o Debt incurrence provisions and calculation of associated financial covenants 
+including the leverage ratio 
+o Existence of ‘trap door’ or ‘asset stripping’ clauses 
+o Existence of ‘up-tiering’ or ‘priming’ clauses 
+• It is considered good practice that  material terms of the debt incurrence covenant , 
+including but not limited to the following, be clearly disclosed: 
+o Existence of clauses allowing the borrower to use available r estricted payment 
+capacity to incur incremental debt. Where these clauses exist, borrowers are 
+encouraged to disclose the ratio at which this debt can be incurred.  
+o Existence of clauses allowing the borrower to incur additional debt based on 
+equity contributions. Where these clauses exist, borrowers are encouraged to 
+disclose the ratio at which this debt can be incurred. 
+• Borrowers are encouraged to disclose clauses imposing a cap on overall non-guarantor 
+debt incurrence.  
+• Where a ratio debt basket is based on a leverage ratio, it is considered a prudent 
+approach to calculate the leverage ratio on both a steady state EBITDA and base case 
+pro-forma EBITDA.  
+• Risk factor disclosure s could be considered for inclusion in loan documentation as a 
+method to support increased transparency. It is considered good practice for such risk 
+ 
+87   Ibid 
+
+=== PAGE 32 ===
+ 
+29 
+ 
+factor disclosures to capture all the risks that could conceivably occur. Borrowers  are 
+encouraged to capture documentation risk and subordination risk associated with 
+incremental debt facilities.88 
+ 
+Question 12 
+Would a disclosure of the calculation of the marketed leverage ratio assist investors in 
+analysing borrower credit risk? 
+ 
+Question 13 
+Do you agree with the  Measure 5 good  practice, and what are the other key term -sheet 
+disclosures that would enhance investor analysis of borrower credit risk? 
+ 
+3.3 Theme C – Strengthening alignment of interest from loan origination to end investors 
+As the LL investor base has shifted from banks towards non- banks, there has arguably been a 
+concurrent shift towards an ‘originate-to-distribute’ model and a weakening of the alignment 
+of interests between the intermediary banks and the LL lender syndicate. It is good practice for 
+banks to be able to demonstrate that they have aligned their interest with end investors, through 
+risk retention or other means, such as robust risk management and reference to independent 
+and impartial legal advice.  
+ 
+3.3.1 Measure 6 – Transparency and fairness during underwriting and syndication 
+Background on the syndication process 
+A borrower or potential acquirer in an  LBO solicits bids from potential arranging banks and 
+awards a mandate to the preferred syndicate. Negotiation between the borrower and the banks 
+on terms, fees and pricing feed into this decision.  
+ 
+The arranging banks sign the commitment letter, in advance of any investor engagement, from 
+which point they are committed to underwriting the debt on the agreed terms and become 
+exposed to the risk of failed syndication, i.e.,  market conditions in which they struggle to sell 
+the loans into the market. It is therefore in their interests for the book- building, pricing and 
+final allocation to be completed quickly to minimise their exposure to underwriting risk. 
+The arranging banks prepar e the information memorandum (IM) or l ender presentation 
+describing the terms of the transaction. This typically includes an executive summary, 
+investment considerations, a list of terms and conditions ( i.e., a preliminary term sheet), an 
+industry overview, and a financial model. For investors who wish to have the option to invest 
+in public securities of the same issuer, if any, a public version of the IM is produced which 
+strips out private information such as the financial model and financial projections. 
+CRAs receive transaction information early on, generally ahead of investors, to  provide their 
+rating to the transaction. They generally receive the term sheet in advance of the ‘bank 
+meeting’89 with investors and receive the full loan documentation around 10 days in advance 
+of the rating committee meeting. 
+ 
+88   Clarity should be provided on covenants that allow non-guarantors of the restricted group to incur 
+incremental debt. In many cases this debt is considered senior to the parent credit facility.  
+89   The syndication process proper begins with a ‘bank meeting’, ‘management meeting’ or ‘lender 
+presentation’ at which the borrower (and sponsor, if applicable) present the transaction to potential 
+lenders. 
+
+=== PAGE 33 ===
+ 
+30 
+ 
+While the IM is being prepared, the syndicate will look for informal feedback from potential 
+investors on their appetite to invest and the price at which they are willing to invest in the loan. 
+This could be through a pre -launch (‘early bird’) marketing phase in which some larger 
+potential investors are asked to provide feedback on the structure, pricing and potentially some 
+of the terms of the deal. Taking into account the feedback received, the syndicate will formally 
+market the deal to potential investor s. This usually begins with a ‘bank meeting’ or 
+‘management meeting’ at which the borrower (and sponsor, if any) present the transaction to 
+potential investors. Usually, the potential investors receive the term sheet 2 to 4 days following 
+the bank meeting. 
+Allocation and final pricing of the loan is determined through a ‘book-building’ process which 
+allows for pricing of the loan to increase or decrease depending on investor demand. A loan 
+will be launched to market at a target spread or range of spreads ref erred to as ‘price talk’. 
+Investors can then make commitments to invest in certain amounts at a certain spread; these 
+commitments can be made contingent on changes being made to certain documentation points 
+but at the risk of receiving no allocation if the deal is over-subscribed by investors who accept 
+the original terms as they understand them. At the end of the process the arrangers will 
+determine the final allocation and pricing based on the amounts committed and associated 
+spread levels as well as the level of over- or under- subscription.  
+Draft full loan documentation is typically shared with investors close to the deal close. Once 
+the loan is closed, the final terms are then documented in detailed credit and security 
+agreements which are distributed to the investors. Between the bank meeti ng and deal close, 
+the syndication process typically lasts around 2 weeks. 
+ 
+Timing of term sheet 
+There is variability in the timing at which investors receive a term sheet and in the level of 
+detail provided in that term sheet . When the term sheet is received later in the syndication 
+timeline or lacks sufficient detail, investors’ opportunity to make a well- informed investment 
+decision is sometimes squeezed into an unmanageable timeframe. For example, investors are 
+sometimes waiting as long as four days after the bank meeting to view an initial term sheet. 
+ 
+Negotiation power and documentation points 
+The final loan agreement should reflect a negotiation on price and terms between the borrower 
+and the ultimate investors in the loan, mediated by the bank syndicate. Through industry 
+outreach, IOSCO learned that investors find it difficult to know whether other investors share 
+common concerns about the introduction of specific terms and conditions which are more 
+borrower-friendly or erode their protections. Investors further explained that because loans are 
+syndicated to a broad range of investors, each individual investor has a small marginal power 
+of negotiation. Rules against market collusion and the  risk of a breach limit the ability for 
+investors to discuss their opposition to certain terms or to negotiate jointly. IOSCO was also 
+informed that there was a lack of transparency on how investor opposition to certain terms is 
+considered by the bank syndicate where common concerns emerge.  
+Some market participants indicated to IOSCO that the bank syndicate is in a better position to 
+negotiate the terms with the borrower before the syndication process even begins, because by 
+the time syndication starts the banks have already signed off on the terms and agreed to the 
+underwriting risk associated with those.  
+On occasion , there have been reports of LBO transactions whe re investors have achieved 
+changes in terms by pushing back against the flexibility given to the borrower where 
+
+=== PAGE 34 ===
+ 
+31 
+ 
+particularly egregious terms have been introduced allowing the borrower to raise extra debt 
+and to shift assets beyond the reach of lenders. However, such instances have been rare. 
+Supply and demand and the wider macroeconomic backdrop feed into the negotiation and 
+pricing considerations. During the long period of very low interest rates which prevailed until 
+2022 there was strong demand for investments with a relatively high yield a nd this demand 
+contributed to the ease with which more borrower -friendly terms could be introduced. 
+However, this dynamic changed in 2022 when central banks started to increase interest rates 
+sharply to tackle high inflation, credit spreads widened, and underwriting banks dealt with 
+several high profile ‘hung’ transactions staying on their balance sheets 
+ 
+Timing and complexity of full documentation 
+Before the syndication commences , banks sign the commitment letter based on a term sheet 
+and full suite of documentation. IOSCO  received feedback during  industry roundtables 
+indicating that banks typically have 24-36 hours in which to provide comments and 5 or 6 days 
+overall to review these documents which may run to 1000 or 2000 pages. This  contrasts with 
+the longer time period of approximately 6 weeks which used to be typical twenty years ago and 
+which allowed for a more thorough analysis of the underwriting risk and a greater opportunity 
+for negotiation between the banks and the borrower. 
+Full loan documentation is typically shared with investors close to the deal close, sometimes 
+only 24 hours prior to commitments being due. This short time window as well as the length 
+and complexity of the loan documentation means that in practice investors may not have 
+adequate time to read the full documentation but rely instead on the term sheet circulated 
+earlier. Some investors employ third party legal (covenant review) services to review the full 
+documentation and provide feedback.  
+ 
+Prevention of using third party  
+In some instances, particularly in the US, examples were mentioned where sponsors inserted clauses 
+into documentation to prohibit sharing documents with third parties (e.g., covenant review services) 
+even when those third parties would be bound by strict non-disclosure agreements.  
+ 
+Proposed good practices 
+ 
+Measure 6 – Transparency and fairness during underwriting and syndication  
+ Underwriting entities are encouraged to: 
+• provide sufficient and clear information to investors early in the syndication 
+process with the aim of achieving a fair and efficient market in which investors 
+have sufficient time and a fair opportunity to negotiate and to make well-informed 
+investment decisions.  
+• review the full loan documentation thoroughly before signing the commitment 
+letter and engage in negotiation so that they are satisfied that the risk posed by a 
+failed syndication is within their risk appetite.  
+• provide anonymised feedback on investors’ documentation points to all investors 
+in a transparent way. 
+• highlight to investors new flexibilities built into loan documentation as well as 
+those which have previously faced opposition from the investor base. 
+ 
+
+=== PAGE 35 ===
+ 
+32 
+ 
+ 
+Timing of term sheet 
+The underwriting entity is encouraged to allow a reasonable amount of time for potential 
+investors to review term sheets early in the syndication and as it evolves during the syndication 
+process. Potential investors should be provided with a comprehensive draft term sheet and the 
+information memorandum (lender presentation) no less than 48 hours before the bank meeting. 
+The underwriting entity is encouraged to promptly provide redline updated versions of the term 
+sheet to investors and allow adequate time for them to review the proposed changes.  
+ 
+Negotiation power and documentation points 
+Underwriting entities should review the full loan documentation thoroughly before signing the 
+commitment letter and engage in negotiation so that they are satisfied that the risk posed by a 
+failed syndication is within their risk appetite. Underwriting entities are encouraged to highlight 
+to investors new flexibilities built into loan documentation as well as those which have 
+previously faced opposition from the investor base. 
+ 
+Responsible underwriting banks  are encouraged to  address investors’ documentation points 
+fairly and transparently during book- building, particularly where there are shared concerns 
+among several investors. This could be achieved by disclosure by the underwriting syndicate, 
+on an anonymised basis, to investors of any material investor feedback on the draft S enior 
+Facilities Agreement and Intercreditor Agreement (where available) at least 24 hours prior to 
+commitments being due. Material investors’ feedback may include points that were raised by 
+multiple investors. Transparency on these lines could help the investor base to form a stronger 
+negotiation position. 
+ 
+Timing and complexity of full documentation 
+Underwriting entities are expected to build in a reasonable amount of time ( e.g., minimum 2 
+weeks90) for review by a function independent of the first line (i.e., risk management function) 
+of loan documentation prior to signing the commitment letter. 
+Investors are expected to  be given a reasonable amount of time ( e.g., minimum 5 days 91) to 
+review and consider the full loan documentation. 
+Borrowers, underwriting banks and their legal counsel are encouraged to work towards simpler 
+and more standardised covenants and loan documents.   
+ 
+Use of third party services 
+Investors should not be prevented from employing third party legal services to support them in 
+reviewing and understanding loan documentation provided there are arrangements in place to 
+protect private and confidential information about the borrower. 
+ 
+Question 14 
+Do you agree with the proposed good practices outlined in Measure 6 regarding circulation of 
+a comprehensive term sheet no less than 48 hours before the bank meeting? 
+ 
+Question 15 
+Do you agree with the proposed good practices regarding time for underwriting entities 
+(minimum 2 weeks) and investors (minimum 5 days) to review the full loan documentation? 
+ 
+ 
+90   Timing based on feedback from IOSCO’s roundtable engagement with industry participants 
+91   Ibid 
+
+=== PAGE 36 ===
+ 
+33 
+ 
+Question 16 
+What other good practices have been or could be put in place to provide transparency and 
+fairness to investors during underwriting and syndication?  
+ 
+3.3.2 Measure 7 - Alignment of interests between underwriting entities and investors 
+ 
+Shift from ‘Originate-to-retain’ to ‘Originate-to-distribute’ 
+Prior to the GFC, banks tended to retain on their balance sheet the credit exposure to the LLs 
+they originated. However, post GFC, and in part due to prudential constraints on their balance 
+sheets and tighter risk management/allocation of their capital, ba nks have moved towards a 
+business model where they underwrite the LLs and aim to distribute them almost entirely to 
+other institutional investors, only keeping the less capital-intensive revolving credit facility and 
+short-term amortising loans on their ba lance sheets, where applicable. Some market 
+participants have argued that this may have lowered the alignment of interests between banks 
+and non- bank-investors which may have resulted in a lack of incentive to negotiate more 
+lender-friendly loan terms. Furthermore, institutional investors raised concerns that banks’ 
+interest may be more aligned with the PE sponsor on the grounds that they generate fees from 
+a finite cohort of PE sponsors.  
+ 
+It is important to note that banks typically underwrite the entire LL, on a firm commitment 
+basis, and therefore are exposed to the risk of not being able to distribute it to other institutional 
+investors or to distribute it at a lower price.  It is arguable whether the risk of hung transactions 
+has been a strong incentive in aligning interests between banks and investors during the period 
+of low interest rates and high demand for LLs which prevailed for a long period until early 
+2022. Some underwriting banks which had arranged transactions in benign conditions found 
+themselves with hung debt and have since realised losses on the sale of loans at discounted 
+prices. While this risk was a possibility in the years leading up to 2022 when interest rates were 
+very low, there may have been a sense of complacency around the possibility of interest rates 
+rising given the prolonged period during which central banks pursued low interest rate policies. 
+CLOs were in high demand due to their relatively high yield and seemingly strong track record.  
+ 
+Risk retention 
+‘Alignment of interests’ has a specific meaning in the context of securitisation markets 
+including the CLO market. In the wake of the GFC which was caused in part by high risk 
+‘originate to distribute’ residential mortgages packaged into RMBS 92, some jurisdictions 
+introduced risk retention obligations whereby originators or sponsors are required to retain a 
+5% exposure to the credit risk of the securitisation or underlying loans for the life of the 
+securitisation. This is designed to ensure that they are exposed to the performance of the loans 
+alongside the securitisation investors , thereby aligning the interests of the  originators or 
+sponsors with the securitisation investors. 
+ 
+The way in which this risk retention requirement has been implemented varies depending on 
+jurisdiction. In the EU and UK, securitisation regulations impose a 5% risk retention 
+requirement on original lenders or on CLO managers. In practice, typically the C LO manager 
+or a so-called ‘third party originator’ fulfils the role of the risk retention holder rather than the 
+original lenders. In the US, following the GFC, regulators adopted risk retention requirements 
+that applied to CLOs and other asset -backed securities. The risk retention rule in the US  as 
+applied to open-market CLOs was, however, successfully challenged in court, and since April 
+ 
+92   Residential mortgage-backed securities 
+
+=== PAGE 37 ===
+ 
+34 
+ 
+2018 open-market CLOs (which form the majority of CLOs) no longer have to comply with 
+US risk retention requirements. 
+ 
+Alignment of interest may also be achieved through other means including management fees 
+linked to the performance of the portfolio. 
+ 
+Designated counsel 
+Designated counsel is a practice, prevalent mostly in the European market, where the PE 
+sponsor selects the law firm on behalf of the bank lenders. The law firm is selected often even 
+before the lenders are themselves selected by the PE sponsor. In the Eur opean market the 
+sponsor typically pays the legal fees on behalf of the banks. This contrasts with the US market 
+where the banks in the syndicate choose their own legal counsel, pay their own legal fees and 
+are usually represented by separate law firms or at least separate legal teams from the same 
+firm. 
+ 
+The justification for the designated counsel approach is that it allows the PE sponsor to rely on 
+law firms that are familiar with their LL structure and documentation, thereby facilitating a 
+faster and smoother syndication. Through industry roundtables , IOSCO heard concerns from 
+some market participants that this practice limits their choice of legal counsel and may not 
+serve to ensure that the advice they receive is independent. Further concerns were raised that 
+conflicts of interest may arise whereby law yers representing the banks might be reluctant to 
+push back against sponsor lawyers due to the risk they could be excluded from the market for 
+lender-side work. 
+ 
+In 2022 it was reported that some lenders in the direct lending portion of the market have started 
+to appoint their own ‘shadow’ legal counsel alongside the counsel designated by the sponsor 
+because they had concerns about the independence of the designated representation. 
+ 
+Proposed good practices  
+Measure 7 – Alignment of interest between underwriting entities and investors 
+Underwriting entities are encouraged to demonstrate how they have aligned their interests 
+with LL investors, through risk retention or other means. Implementation of robust risk 
+management of leveraged lending activities can strengthen alignment of interests as well as 
+prevent the build- up of systemic risks. Underwriting entities and LL investors are 
+encouraged to obtain independent and impartial legal advice which represents their interests 
+and strengthens their ability to negotiate loan terms and influence market evolution. 
+ 
+ 
+Risk management within banks 
+Both US interagency guidance93 and ECB guidance94 include key elements which banks need 
+to incorporate into the management of risks arising from their leveraged lending activities. 
+Adopting robust risk management around leveraged lending helps to align interests between 
+banks and investors as well as preventing a build-up of systemic risks in the economy. 
+ 
+According to the existing US interagency guidance and ECB guidance, some of the key 
+elements which underpin robust risk management in leveraged lending include: 
+ 
+93   Board of Governors of the Federal Reserve System, Federal Deposit Insurance & Corporation Office of 
+the Comptroller of the Currency (2013) Interagency Guidance on Leveraged Lending 
+94   ECB (2017) Guidance on Leveraged Transactions 
+
+=== PAGE 38 ===
+ 
+35 
+ 
+• A clear and consistent definition of leveraged lending. 
+• A sound governance structure which enables senior management to have a 
+comprehensive and consistent oversight of all leveraged lending. 
+• Sound management information systems which allow accurate and timely aggregation 
+of leveraged loan exposures. 
+• Well-defined risk appetite and strategy for leveraged lending which is subject to regular 
+review. 
+• Well-defined underwriting standards which are applied uniformly whether the loans are 
+underwritten to hold or to distribute. 
+• Review and approval of all transactions by an independent risk function to ensure 
+transactions are in line with risk appetite. Sufficient time should be permitted for this 
+review (minimum 2 weeks). 
+• A stress- testing approach which captures the impact of market disruption on 
+transactions in the pipeline as well as policies and procedures for defining and 
+managing ‘hung’ transactions. 
+• Dedicated procedures and confidentiality requirements to ensure that potential conflicts 
+of interest are identified and managed and that private information is kept confidential. 
+ 
+Risk retention 
+Market participants (as originators, sponsors or original lenders) are encouraged to make 
+adequate disclosures on retained credit risk exposures (either voluntarily or as meaningful 
+compliance with risk retention requirements where applicable), to allow investors to assess the 
+alignment of interest and whether the method chosen actually aligns interests as intended. 
+ 
+Independence of legal advice 
+Underwriting entities and LL investors  are encouraged to obtain  independent and impartial 
+legal advice which represents their interests and strengthens their ability to negotiate loan terms 
+on individual transactions and to influence the overall evolution of the market, both on 
+documentation and processes. In doing so, they will be in a better position to shape the risks 
+they could be exposed to in the event of failed syndications or a market downturn, and also 
+strengthen their alignment of interest with the ultimate LL investors who will be exposed to 
+the credit risk of the loans for the long term. 
+ 
+Question 17 
+Do the considerations as set out above accurately reflect the key issues regarding alignment of 
+interests between the underwriting banks and investors? 
+ 
+Question 18 
+Do you agree with the measures proposed to help strengthen the alignment of interest between 
+underwriting entities and investors? 
+ 
+Question 19 
+What other good practices have been or could be put in place to strengthen risk management 
+of leveraged lending activities by underwriting entities? 
+ 
+Question 20 
+Do the considerations as set out above accurately reflect the key issues regarding the practice 
+of designated counsel being chosen by the sponsor? 
+ 
+
+=== PAGE 39 ===
+ 
+36 
+ 
+3.4 Theme D – Addressing interests of different market participants throughout the 
+intermediation chain 
+A long and complex intermediation chain, coupled with a complex design and distribution 
+process for securiti sed assets, create potential for heightened conflicts of interest in LL and 
+CLO markets. Furthermore, market participants raised concerns  during industry roundtables  
+about current market practice in LL transfer provisions which could be  seen as harmful to 
+secondary market liquidity. It is important that market participants identify, disclose and 
+manage conflicts of interest which can arise from their activities in these markets, for example 
+PE groups investing in equity and debt (or in different classes of debt) of the same borrower or 
+CLO managers holding certain tranches of a CLO. Market participants should also make efforts 
+to support LL secondary market liquidity by reducing transferability restrictions. 
+ 
+3.4.1 Measure 8 - Reducing restrictions on transferability of loans 
+Transfer provisions in LLs 
+Prior to the GFC,  leveraged loans were typically originated as ‘lend to hold’ investments 
+retained by the underwriting banks with limited occasion to transfer the loans. In the period 
+following the GFC, when banks began to distribute more loans to a non- bank investor base, 
+some standard transfer provisions emerged.  
+ 
+In the European market, borrower consent to a transfer is generally required subject to a set of 
+exceptions. Borrowers are not permitted to withhold consent unreasonably and consent is 
+deemed given after a certain number of business days. Transfers between  affiliates, existing 
+lenders and related funds is a common exception where borrower consent is not required. 
+European loans typically include an agreed list  (or approved list) of lenders that can buy the 
+loans without borrower consent. Often the borrower can update the agreed list throughout the 
+life of the loan and remove a certain number of names per year. A further exception where 
+borrower consent to a transfer is not usually required is if the transfer is made while an event 
+of default is continuing.   
+ 
+The US market differs in that it usually relies on a disqualified lender list , which expressly 
+sets out those institutions that cannot become lenders even during an event of a default. As a 
+general rule, borrower consent is required, unless an event of default is occurring, and borrower 
+consent is deemed given after a certain number of business days.  
+ 
+Agreed and disqualified lender lists impinge on not only the lenders who can participate in the 
+primary loan market, but also the pool of lenders who might acquire loans in the secondary 
+market. 
+ 
+In contrast with the LL transfer provisions, the only restrictive transfer provision which 
+generally applies in the HY bond market relates to the transfer of the bond to an investor who 
+holds a net short position, i.e., a short position in a credit derivative exceeding any long position 
+held in the bond. 
+ 
+Impact on liquidity 
+During engagement with industry participants, IOSCO  heard that the use of agreed lists may  
+restrict the ability of investors to find liquidity when they need it, especially in a period of 
+market stress. Some market participants expressed a view that the use of agreed lists amounts  
+to market collusion and could not see a justification for the practice. There were also concerns 
+
+=== PAGE 40 ===
+ 
+37 
+ 
+that this practice is sometimes used to coerce investors into accepting borrower -friendly loan 
+terms at the risk of being taken off agreed lists on future transactions.  
+ 
+The types of lenders that may be omitted or removed from the agreed list or included in the 
+disqualified lender list include industry competitors 95 or distressed debt 96 funds (including 
+those who might pursue loan-to-own97 strategies). These restrictions are sometimes expressed 
+in overly expansive definitions which further limit the pool of potential lenders. 
+ 
+During IOSCO’s engagement with industry participants, some participants indicated that it is 
+often the case that the agreed list is not available at the launch of the syndication which means 
+that investors may lack transparency and the opportunity to negotiate on transferability of the 
+loans. 
+ 
+In more recent years the borrower -friendly market dynamic has led to borrowers seeking to 
+take and retain even greater control over the composition of the lenders by introducing further 
+restrictions on loan transferability, particularly in the European market, such as: 
+• Limitations on transfers staying in place even in an event of default or only falling away 
+upon certain specified material events of default, namely non-payment and insolvency 
+defaults;  
+• Restrictions on a new lender and its affiliates from holding more than a certain amount 
+(e.g., 10%) of the total commitments, to  prevent a single lender from acquiring a 
+blocking minority; 
+• No overall cap on the number of names that can be removed from the agreed list during 
+the life of the loan and no requirement to attempt to insert replacement names; 
+• Blanket carve-outs to any entity on the agreed list that is a distressed debt fund, loan-
+to-own investor or industry competitor;  
+• Requirements for lenders to notify a borrower prior to any transfer, even if the 
+transferee is on the agreed list; and, 
+• Requirement for the borrower to act reasonably on any consent request for transfer is 
+often no longer included and when it is, the period for deemed consent is longer ( e.g., 
+10 instead of 5 business days). 
+ 
+While such restrictions are favourable to the borrower, they may detract further from liquidity 
+in the secondary market for LLs. 
+ 
+ 
+ 
+ 
+95   Sponsors are keen to ensure a competitor sponsor is not able to acquire debt in its investee company, to avoid the 
+risk that the competitor may gain a potentially valuable insight into the terms of the borrower’s debt and 
+the company’s performance. 
+96   Distressed debt investors aim to identify debt securities trading at a larger discount than is justified given 
+the potential for a turnaround. The investor acquires a stake in the debt to gain influence in the 
+reorganisation of the borrower. Distressed debt investors have the potential to generate strong returns via 
+short-term price recovery or through ‘loan-to-own” strategies. 
+97   Loan-to-own strategies are used by lenders seeking to take control of a borrower by converting debt 
+obligations into an equity stake in a post-restructured entity. Typically, the intention is to de-lever the 
+company in question, strengthen its financial resilience and realise value in a subsequent sale of its equity. 
+A loan-to-own transaction usually occurs when a borrower company is, or is expected to be, highly 
+leveraged, experiencing financial distress, or is considering undergoing a refinancing or filing for 
+bankruptcy. 
+
+=== PAGE 41 ===
+ 
+38 
+ 
+Measure 8 – Reducing restrictions on transferability of loans 
+Transferability of loans within a pool of potential investors should be as broad as possible to 
+support a liquid secondary market. It is considered good practice that where lists of approved 
+and disqualified lenders are used, they should only be created based on clear and documented 
+reasons.  It is expected that investors be provided with transparency early in the syndication 
+process on transferability restrictions and how these might evolve during the life of the loan. 
+It is expected that investors are pro vided with sufficient clarity on the precise definition of 
+an event of default, which will cause limitations on transferability to no longer apply. 
+ 
+ 
+Supporting a liquid secondary market 
+The LL market has evolved from its origins and exhibits more liquidity in a secondary market 
+than in the past . Given these developments, some of the current restrictions on loan 
+transferability no longer appear congruent with IOSCO’s objectives of reducing systemic risk, 
+protecting investors and ensuring that markets are fair, efficient and transparent.  
+ 
+As a general principle, it is good practice that the potential pool of investors who are able to 
+participate in the secondary markets for LLs be as broad as possible to support market liquidity 
+and efficiency. This principle also has a bearing on transparency of loan pricing since prices 
+can only be observed when transactions actually occur.  
+ 
+The use of borrower consent and lists of approved or disqualified lenders is discouraged.  It is 
+suggested they only be used in a limited context to exclude particular types of investors based 
+on clear and documented reasons. As such it is considered good practice that any such lists are 
+created and updated based on a defined set of criteria supported by a documented rationale. An 
+effort needs to be made to avoid overly expansive definitions which limit the investor pool 
+unnecessarily.  
+ 
+Underwriting entities and borrowers are encouraged to provide investors with transparency 
+early in the  syndication on transferability restrictions , including t he precise definition of an 
+event of default which will cause limitations on transferability to fall away ( e.g., the agreed 
+list). Underwriting entities and borrowers are encouraged to provide investors with any agreed 
+list or disqualified lender list at an early stage of the syndication, for example in the term sheet 
+circulated around the time of the bank meeting, and at least annually thereafter if there is a 
+possibility of the list changing.  
+ 
+The removal of names from the initial agreed list is discouraged. Where names are removed it 
+is considered good practice that these be subject to an annual cap ( e.g., 3 per annum). Such 
+removals should refer to those same clear and documented reasons used to prepare the initial 
+list and be notified to investors. Where names have been removed, borrowers are encouraged 
+to add replacement names  to the agreed list  to support secondary market liquidity. Where 
+agreed lists are used, it is suggested to eliminate restrictions during an event of default.  
+ 
+Where a period for borrower deemed consent  exists, it is considered good practice that this 
+period be as short as reasonably possible. A period of 3 business days is considered adequate.  
+ 
+Question 21 
+Do the considerations as set out above accurately reflect the issues surrounding transfer 
+provisions in the LL market? 
+ 
+
+=== PAGE 42 ===
+ 
+39 
+ 
+Question 22 
+Do you agree with the proposed good practice to ease restrictions on the transferability of LLs 
+to support liquidity in the secondary market? Is there a justification for transferability to be 
+more limited in the LL market as compared to the HY bond market? 
+ 
+3.4.2 Measure 9 - Managing conflicts of interest where PE sponsors also act as lenders 
+Several private equity (PE) groups have expanded into the business of private debt investing 
+either by setting up funds to provide direct lending to highly leveraged borrowers or by 
+managing CLOs or other types of investment vehicles focusing on LLs . Such activities have 
+grown substantially over the past few years.  
+ 
+Where PE groups are invested in different parts of the borrower’s capital structure, there are 
+potential conflicts of interest which could arise through the exercise of voting rights against the 
+interests of other lenders or through leakage of confidential  information within the group. In 
+practice the sponsor lender’s interests may be more likely to be aligned with the borrower’s 
+than a third-party lender’s would be. 
+ 
+The LMA leveraged facilities agreement includes a “sponsor disenfranchisement” clause. This 
+provision is designed to allow a “sponsor affiliate” to acquire the debt, but to prevent it from 
+then being classed as a lender for the purpose of voting on amendments and waivers, attending 
+lender meetings or receiving information sent to lenders.  
+ 
+Through IOSCO’s engagement with market participants, IOSCO received feedback indicating 
+that when such situations arose in the past, the potential conflict of interest was managed using 
+the “sponsor disenfranchisement” clause, but that this is no longer widespread practice in recent 
+years and this protection for lenders has been eroded away as part of the general trend towards 
+more borrower-friendly terms. In contrast, it is still normal in the HY bond market that an 
+affiliate of the borrower who purchases the debt of the borrower will be subject to 
+disenfranchisement.  
+ 
+Some market participants noted the potential benefits of sponsors having the ability to purchase 
+debt and reduce the borrower’s leverage, for example at times when loans were trading at 
+discounted levels in secondary markets.  
+ 
+Proposed good practices 
+Measure 9 – Managing conflicts of interest where PE sponsors also act as lenders 
+Conflicts of interest which can arise from a group’s investments in different parts of a 
+borrower’s capital structure, should be appropriately identified and managed. It is expected 
+that participants in a syndication and LL investors be properly informed of the instances 
+where a group is acquiring the debt of a borrower while also acting as the borrower’s sponsor 
+or holdi ng other classes of debt of that borrower. In such cases, the use of a sponsor 
+disenfranchisement clause or similar clause is encouraged. 
+ 
+ 
+PE groups should identify the conflicts of interest arising from different arms of their group 
+investing in different parts of a borrower’s capital structure including the equity and various 
+classes of debt which may have been issued by the borrower.  Arrangements to manage those 
+conflicts of interest appropriately should then be put in place.  
+ 
+
+=== PAGE 43 ===
+ 
+40 
+ 
+Conflicts of interest should be clearly disclosed to LL market participants as well as to the 
+investors of funds managed by those PE groups. If instances arise where a PE group is investing 
+in debt and equity of the same borrower  or in different class es of debt of the same borrower , 
+appropriate disclosures should be made . Such an instance might arise, for example, if a CLO 
+manager which is part of a PE group is purchasing the debt of a borrower where the same PE 
+group is the sponsor to that borrower or owns a different class of debt issued by that borrower. 
+ 
+The use of the sponsor disenfranchisement clause is encouraged to better manage the potential 
+conflicts of interest arising when PE groups hold both the debt and equity of a borrower. Where 
+no such clause is applied, third party lenders need to carefully consider the associated risks 
+which will depend on the proportion of total debt commitments held by the sponsor group, or 
+which could be held by the sponsor group in the future. 
+ 
+Question 23 
+Do you agree with the proposed good practice to mitigate conflicts of interest which may arise 
+from PE groups investing in the debt and equity of the same borrower?  
+ 
+Question 24 
+What other good practices have been or could be put in place to help manage conflicts of 
+interest arising for the reason described here? 
+ 
+3.4.3 Measure 10 - Managing conflicts of interest in management of CLOs 
+CLO managers, acting on behalf of the CLO, arrange the purchase of LLs from originating 
+banks and sell the CLO tranches to a range of investors. Depending on the jurisdiction, CLO 
+managers may be regulated firms or not. For example,  in the EU/UK, the majority of CLO 
+managers have a MiFID II authorisation, although not all.  
+ 
+Alignment of interest 
+CLO managers owe a standard of care 98 to the CLO investors requiring them to manage the 
+CLO with reasonable care and in good faith in the best interests of all the investors. They 
+therefore must consider how they can balance the competing incentives and interests of the 
+multiple investors in each of the tranches of risk, including the equity piece.   
+ 
+Post-GFC reforms have imposed a level of risk retention in some jurisdictions – whereby the 
+original lender or CLO manager is obligated to retain a net economic interest in the transaction 
+- to better align its interests with those of the investors. Often this results in the CLO manager 
+retaining exposure to the equity tranche, aligning their interest more with those of the equity 
+holders than the debt holders.  
+ 
+Separately, the fee structure is also a mechanism to better align interests between the CLO 
+manager and the investors. CLO managers typically earn three types of management fees: (i) 
+senior management fees paid near the top of the waterfall, (ii) subordinated management fees 
+paid near the bottom of the waterfall, and (iii) performance fees 99 which are only paid if the 
+equity tranche reaches a specified internal rate of return threshold.  Th is fee structure is 
+ 
+98   The standard of care is typically defined in the collateral management agreement entered into between 
+the CLO and the collateral manager. 
+99   Performance or incentive fees are more typical in the US CLO market but not widely used in the 
+European CLO market. 
+
+=== PAGE 44 ===
+ 
+41 
+ 
+intended to incentivise the manager to manage the portfolio in a way that  maximises the 
+performance of the transaction.   
+ 
+Managing in favour of equity holders 
+Conflicts between equity and debt holders are not new in CLOs. The discussion existed prior 
+to the GFC, particularly as to how CLO managers managed the conflicting interests, 
+specifically, whether CLO managers managed the CLO so as to favour the equity hol der by 
+facilitating cash being paid down to the equity tranche and in subordinated fees.    
+ 
+CLO structures include performance tests and metrics (such as the overcollateralization (O/C), 
+interest coverage (I/C) tests and CCC/Caa bucket threshold)100 which, when breached, divert 
+cash received from the underlying LLs to the senior debt holders instead of being paid through 
+the waterfall to the equity holders.  
+ 
+Equity holders have a keen interest for the O/C tests to be maintained above the threshold, 
+thereby allowing to maximise their return. O/C tests are measured using the notional amount 
+of a loan even if it trades below par. It could be therefore in the interest of the equity holders 
+for distressed assets to be bought at a price below par and yet valued at par against the O/C 
+test. As CLO managers typically hold part of the equity, they may be incentivised to manage 
+the LL portfolio using their ability to buy distressed assets to help pass O/C tests. However, it 
+is acknowledged that this risk is reduced by the limits to the percentage of  CCC/Caa or lower 
+rated assets that can be held by the CLO. When these so-called CCC/Caa buckets are exceeded, 
+the excess CCC/Caa rated assets are valued on a mark -to-market basis, which in turn erodes 
+the O/C test. 
+ 
+IOSCO received feedback during industry roundtables indicating that market volatility sparked 
+by the COVID-19 pandemic in 2020 highlighted the management style of CLO managers and 
+allowed investors to differentiate among managers and identify those who managed the CLO 
+to the benefit of all investors and those which se emed to have a bias in favour of the equity 
+holders.  
+ 
+Valuation 
+The price at which a LL is either valued for purposes of the O/C tests (where relevant) or when 
+sold is key to the performance of the CLO. IOSCO received feedback during industry 
+roundtables indicating that CLO investors do not typically check every valuation and/or sale 
+of a LL but rather focus on making sure, as part of their initial due diligence, that the CLO 
+manager has policies and procedures in place, including for cross sales, i.e., sales between two 
+CLOs (or funds) managed by the same CLO manager. 
+In addition, prices of LLs are normally published by third party vendors allowing investors to 
+check for clear outliers. Investors also can ask questions to the CLO managers, particularly on 
+cross sales. 
+ 
+Valuation of CCC/Caa  assets is particularly key to the performance of O/C tests when the 
+CCC/Caa bucket threshold is breached, which may happen in times of stress. It is particularly 
+challenging to value a CCC/Caa asset in a market stress because it is highly dependent on the 
+ 
+100   Overcollateralization test (O/C) - being the par value of the loan portfolio divided by the principal amount 
+of the outstanding CLO tranches. Interest coverage ratio (I/C) - being the income generated by the loan 
+portfolio divided by the interest due on the outstanding CLO debt tranches. CCC/Caa bucket threshold – 
+being the percentage of the CLO portfolio that can be rated CCC/Caa or below. 
+
+=== PAGE 45 ===
+ 
+42 
+ 
+liquidity of the asset at that point. Although the valuation of an asset by a CLO manager is 
+disclosed in the investor report, how the CLO manager arrived at this valuation is not required 
+to be disclosed.   
+ 
+Proposed good practices 
+Measure 10 – Managing conflicts of interest in management of CLOs  
+Potential conflicts of interest in the management of CLOs should be appropriately identified 
+and managed.   
+ 
+It is expected that policies governing the purchase of distressed assets, cross -sales and 
+trading / valuation of CCC/Caa rated loans and the related policies be clearly set out in a 
+CLO indenture to enable investors to make an informed investment decision. It is considered 
+good practice that truste e reports regularly disclose the trading activity and valuation of 
+assets of a CLO to enhance transparency to investors. 
+ 
+It is considered good practice that investors are provided with sufficient opportunity to 
+conduct due diligence on the valuation methodology and results produced by the CLO 
+manager and assess the strategy and rationale for management of assets when performance 
+tests are at risk of being breached. 
+ 
+ 
+Alignment of interest 
+CLO managers should identify and appropriately manage potential conflicts of interest to fulfil 
+the standard of care they owe to all  the CLO investors. In doing so they should consider the 
+alignment of their own incentives with investors as a whole or with particular categories of 
+investors and potential conflicts of interest this may cause. For example, if the CLO manager 
+itself is an investor in some CLO tranches, either voluntarily or because of the applicable risk 
+retention requirement, this might pose a conflict of interest which should not supersede  the 
+standard of care to the whole investor base. 
+ 
+The structure of CLO management and performance fees play an important role in incentivising 
+the strategy of the CLO manager and should be designed to create an effective alignment of 
+interest which incentivises the CLO manager to act in the best interest of the CLO investors as 
+a whole. 
+ 
+Transparency on trading activity in distressed assets or CCC/Caa-rated assets 
+The purchase of distressed assets is typically constrained by the CLO structure to protect CLO 
+note holders. Hence, investors’ understanding and negotiation of the terms of the CLO structure 
+is important to understand/limit the flexibility of CLO managers to hold and/or buy distressed 
+obligations.  
+ 
+CLO managers are encouraged to disclose to investors how they manage the CLO’s exposure 
+to CCC/Caa-rated loans in relation to the CCC/Caa -bucket test and the rationale for trading 
+activity in CCC/Caa -rated loans and how this activity serves the best interests of all CLO 
+investors.  
+ 
+It is expected that the CLO manager disclose to investors policies governing its ability to 
+engage in cross-sales of investments between the CLOs it manages and rationale for doing so. 
+Existing good practice is to include information on individual purchases and sales in regular 
+
+=== PAGE 46 ===
+ 
+43 
+ 
+trustee reports, including the purchase/sales prices and reasons for sale (if applicable) and 
+highlighting any purchases/sales involving an affiliate (i.e., cross-sales). 
+ 
+Many CLO managers also explain in response to due diligence questionnaires 101 the policy 
+they follow regarding cross trades and how they demonstrate adherence. 
+ 
+Transparency on valuation 
+It is good practice for CLO managers to have appropriate policies and procedures embedded 
+in their operations which equips them to determine appropriate valuations of the individual 
+assets in the CLO. Details of the valuation methodology should be made known to investors 
+upon request. It is expected that these policies and procedures include specific approaches for 
+the valuation of defaulted assets, illiquid assets and the assets in excess of the CCC/Caa bucket 
+which must be carried at the mark-to-market value.  
+ 
+A good practice observed in trustee reports  is including a market value report showing the 
+current market value of assets alongside the original purchase price for all holdings as well as 
+a valuation report on the CCC/Caa assets showing their current market value. 
+ 
+Investors should have the opportunity to perform their own due diligence upon initial 
+investment and on an ongoing basis including (i) familiarizing themselves with the valuation 
+policies of the CLO manager, (ii) using other pricing services to perform independent checks 
+and identify any outliers  in pricing, and (iii) understanding and questioning the valuation 
+approach and outcomes for defaulted and illiquid assets where there is little or no trading 
+activity. 
+ 
+Question 25 
+Have the considerations above captured the key considerations regarding potential conflicts of 
+interest which may arise between the CLO manager and the CLO investors? 
+ 
+Question 26 
+Do you agree with the proposed good practices? What other good practices have been or could 
+be put in place to help manage such conflicts of interest? 
+ 
+3.5 Theme E -  Disclosure of information on an ongoing basis 
+Market participants expressed concerns , through industry roundtables  with IOSCO,  that 
+deficiencies in transparency at LL deal inception may be exacerbated by insufficient on-going 
+disclosure of key financial and management information to investors. In some cases, investors 
+noted that critical information supporting key assumptions such as evolution of EBITDA and 
+leverage ratios was not disclosed in a timely manner. Ongoing disclosure of such information 
+to the lender  syndicate is important in ensuring that investors have sufficient information to 
+make informed investment decisions. Equally, ongoing disclosure to CLO investors via regular 
+trustee reports is important for the same reason. 
+ 
+3.5.1 Measure 11 - Disclosure in CLOs 
+CLO investors normally have access to information about the composition of the portfolio and 
+the underlying LLs. They do not, however, have detailed information about the credit of each 
+ 
+101   It is typical for CLO investors to send due diligence questionnaires (DDQs) to CLO managers to gather 
+information to feed into their due diligence assessment prior to investing. 
+
+=== PAGE 47 ===
+ 
+44 
+ 
+underlying LL nor do they see the credit agreement for each loan. They explained that this is 
+because, being exposed to a statistical risk rather than an idiosyncratic risk (except for the 
+equity holder), they may not need to review the underlying loan doc uments themselves. 
+Instead, they rely on the ratings of the individual loans, the structural protection of the CLO , 
+and on the due diligence process, credit analysis and portfolio management carried out by the 
+CLO manager . Some CLO investors in the roundta bles looked at the information of the 
+underlying LLs such as the prices, ratings, liquidity and industries for a high- level/tail risk 
+assessment. 
+ 
+Some CLO investors noted that the most important consideration in investing in a CLO is not 
+whether the loan agreements include financial covenants but whether the businesses are viable 
+and the nuances of the loan documents in relation to collateral stripping. In this regard, CLO 
+investors rely exclusively on the CLO managers to pay close attention to the relevant clauses.  
+ 
+The emphasis on the management style and skills of the CLO managers has increased recently 
+and particularly through the COVID-19 crisis. Market participants in the roundtables however 
+reported that COVID-19 had provided CLO investors with more channels and opportunities to 
+interact with CLO managers. CLO investors could conduct virtual due diligence meetings with 
+their managers to make instant queries, check and monitor the portfolio more closely, allowing 
+more in depth understanding of their portfolio. Calls with CLO managers are the most common 
+means to gather information. CLO managers were informally differentiated based on their 
+responsiveness and preparation in meetings.  
+ 
+Measure 11 - Disclosure in CLOs  
+CLO investors should be provided with all materially relevant information on the valuation, 
+credit quality and performance of the portfolio of a CLO, consistent with jurisdictional 
+regulatory requirements. It is expected that such data is made available on a regular basis 
+(e.g., monthly) to CLO investors in order for them to make an informed judgement of their 
+investment decisions and that potential CLO investors be provided access to such 
+information upon request. 
+  
+In the EU and the UK, the securitisation regulation implemented in 2019 requires detailed 
+disclosure to CLO investors about the portfolio and on- going performance, as well as CLO 
+manager actions. This requirement applies whether the CLO is done through a public offering 
+or is a private transaction.   
+ 
+To enable CLO investors to make an informed investment decision and continue to assess their 
+investments, information on valuation, credit quality and performance of the loan portfolio in 
+the CLO should be accessible by CLO investors on a  regular basis. Also, it is  encouraged to 
+provide regular updates to investors on the following information concerning the underlying 
+loans:  
+• Prices and liquidity status 
+• Leverage ratios 
+• Debt service coverage ratio and debt repayment capacity test 
+ 
+While the presentation of the above information may take different formats, it is expected that 
+CLO managers present the above information in a manner that can facilitate the assessment by 
+CLO investors and for their ease of understanding. CLO  managers are encouraged to clearly 
+
+=== PAGE 48 ===
+ 
+45 
+ 
+disclose signs of credit deterioration in the loan portfolio in monthly trustee reports shared with 
+the CLO investors.  
+ 
+In addition, it is considered good practice to provide investors with timely updates on key 
+performance tests and asset concentration limits , which are key structural protection features  
+in CLOs . In making available the information to investors and potential investors, it is  
+suggested to provide the following: 
+ 
+• The latest overcollateralization (O/C) ratio (being the par value of the loan portfolio 
+divided by the principal amount of the outstanding CLO tranches), interest coverage 
+(I/C) ratio (being the income generated by the loan portfolio divided by the interest due 
+on the outstanding CLO debt tranches), and CCC/Caa concentration ratio (being the 
+value of loan rated as CCC/Caa or below divided by the value of the loan portfolio). 
+• The underlying loan portfolio may be presented to the CLO investors in a manner that 
+can help investors to understand whether the loan portfolio is in compliance with its 
+limits as specified in the CLO documents (e.g., the percentage of second lien, covenant-
+lite, single issuer, industry, etc.) 
+Information on portfolio turnover, credit selection, portfolio liquidity etc . could also be 
+included to facilitate CLO investors in understanding and evaluating the performance of a CLO 
+manager. 
+ 
+Question 27 
+Have the above factors captured the necessary information that are important considerations to 
+investors for their CLO investment decision and evaluation of CLO managers’ performance? 
+ 
+Question 28 
+What additional good practices in disclosure can be put in place to help investors better 
+understand and evaluate their CLO investments?  
+ 
+3.5.2 Measure 12 - Disclosure on underlying loans 
+Leveraged lending is a highly idiosyncratic market and loan documentation is usually tailored 
+for each transaction with varying degrees of investor protection. Covenant packages and 
+leverage/EBITDA calculations (including addbacks) are typically disclosed in the loan 
+documentation but subject to interpretations and judgements. 
+During industry roundtables, some bank lenders reported that the amount and quality of 
+information about the financial position of borrowers is deteriorating, particularly with respect 
+to on-going performance, and that access to the management of the compa ny is limited. As a 
+result, investors are relying on third party documentation review providers and on the CRAs to 
+conduct more detailed due diligence. 
+ 
+LL investors, primarily CLO managers, also noted the diminishing amount of information they 
+receive about the business of the company, its financial strategy and on- going performance. 
+They very rarely have access to the management of the company to ask relevant questions and 
+increasingly rely on CRAs , who generally meet the management before the initial rating and 
+periodically thereafter.  
+ 
+Measure 12 - Disclosure on underlying loans 
+LL borrowers are encouraged to  provide their investors  on a timely basis  with their latest 
+financial information and status, for example, the audited financial statements, periodic 
+
+=== PAGE 49 ===
+ 
+46 
+ 
+management financial information and financial forecast and budget in relation to its 
+business plan. LL borrowers are also encouraged to  inform their investors within a 
+reasonable timeframe of occurrence of any events that may invalidate any assumptions 
+originally applied in the EBITDA addbacks (including any activities that are outside the 
+normal course of business) and potential implications and impact on the projected EBITDA. 
+ 
+While LL investors in the roundtables mentioned that they have access to financial information 
+of the LL borrowers, some LL investors express concern that because of the very private nature 
+of the LL market, it is challenging to obtain information on the on- going performance of the 
+credit (for example, how the leverage ratio has evolved over time). 
+ 
+In this case, it is suggested that: 
+• LL borrowers inform their lenders within a reasonable timeframe of occurrence of any 
+events that may invalidate any assumptions originally applied in the EBITDA 
+addbacks. The LL borrowers are also encouraged to indicate the likely impact of such 
+event(s) on the projected EBITDA and their ability to pay interest and repay debt.  
+• In cases where the actual EBITDA may deviate significantly from the projected figures, 
+LL borrowers inform their lenders as soon as practicable of the impact on the projected 
+EBITDA and whether any material deviation from the projected EBITDA is expected.  
+Such cases may occur when  LL borrowers engage in activities outside their ordinary 
+course of business that may have a financial impact on the projected figures.  
+• LL borrowers provide updates on the debt repayment capacity test and whether there is 
+any deviation from what was disclosed in the loan document. 
+Some LL investors reported that the amount and quality of information about the financial 
+position of borrowers is deteriorating, particularly with respect to business of the company, 
+financial strategy and on -going performance, and that access to the management of the 
+company is limited. 
+The following practices are encouraged in relation to disclosures: 
+• LL borrowers establish appropriate practices and communication channels with their 
+lenders to provide regular updates on their financial position and an explanation of any 
+material deviation from the projected EBITDA, if applicable. 
+• Whenever audited financial information is available, LL borrowers  disseminate the 
+same to their lenders  to keep them abreast of their latest financial positions and 
+conditions.  
+• LL borrowers share their budgeting information with the lender s with explanation on 
+how such budgeting information may be understood in conjunction with the projected 
+EBITDA, subject to applicable laws, regulations and rules in the disclosure of such 
+information. 
+ 
+Question 29 
+Have the above practices captured the necessary information that are important considerations 
+for investors to evaluate the on-going financial performance of LL borrowers? 
+ 
+Question 30 
+What additional good practices in disclosure can be put in place to help investors better 
+understand the financial position and status of LL borrowers?  
+
+=== PAGE 50 ===
+ 
+47 
+ 
+4. Conclusion 
+The proposed good practices are intended to guide market participants in their decision making 
+when operating in the LL and CLO markets, as well as to encourage the development of these 
+markets and the behaviour of market participants in ways which support the fulfilment of 
+IOSCO’s objectives. 
+The Consultation Report does not comprise either standards or recommendations as per 
+IOSCO’s taxonomy. Following the public consultation period, IOSCO will develop final good 
+practices report for publication. 
+  
+
+=== PAGE 51 ===
+ 
+48 
+ 
+Appendices 
+Appendix 1: List of proposed good practices  
+Measure 1 Debt repayment capacity test  
+Leveraged loans offered to the market in both new originations, debt 
+refinancings and debt restructurings should be underpinned by sound 
+business and financial risk assumptions. Borrowers  should be able to 
+demonstrate sufficient debt repayment capacity. An adequate debt 
+repayment capacity is considered the ability to repay 100% of senior 
+debt or 50% of total debt over the medium term.  For example, some 
+regulatory agencies and other market  practitioners measure the debt 
+repayment capacity test over a 5 to 7  year period. Where this is not 
+evident, a credible explanation should be provided.  It is also considered 
+good practice to disclose debt repayment capacity in term sheets and 
+supporting documentation at the time of debt offering and refinancing. 
+A robust assessment of cash flows including stress testing should inform 
+debt repayment capacity assessments. 
+Measure 2  Dividend Recaps 
+ Dividend recapitalisations should be considered with reference to the 
+level of remaining equity support, degree of leverage and debt 
+repayment capacity. The use of incremental debt to affect a dividend 
+recapitalisation should be limited.  In addition, borrowers are 
+encouraged to clearly disclose dividend distribution policy and strategy. 
+Measure 3 Enterprise Values (EVs) 
+ The calculation of EVs which support the capitalisation structures of 
+LBOs should be based on a well -constructed financial model. 
+Underwriting entities are encouraged to clearly disclose the key 
+assumptions underpinning the financial model. It is good practic e that 
+any EV model (DCF or otherwise) is reviewed and validated by a 
+function independent of the origination unit.   
+Where possible, the basis for EV should be under-pinned by multi-year 
+forecasted cashflows and not based only on comparable multiples of 
+EBITDA derived from other LBO transactions. It is good practice that 
+DCF valuations which are heavily influenced by ter minal values 
+extrapolated from final year forecasted cashflows be credible and 
+challenged.   
+ 
+ 
+ 
+Origination and refinancing based on sound business premise 
+
+=== PAGE 52 ===
+ 
+49 
+ 
+Measure 4  EBITDA complexity and opacity 
+EBITDA definitions should avoid unnecessary complexity. Pro- forma 
+EBITDA adjustments based on future synergies, earnings and asset 
+disposals should be made on a reasonable basis and borrowers are 
+encouraged to provide clear justifications of these adjustme nts to 
+investors. Borrowers are encouraged to subject forecasted cost savings 
+and synergies to prudent time horizons and caps.  
+Underwriting entities are encouraged to subject all EBITDA 
+adjustments to independent review by an appropriate second line control 
+function as part of the underwriting process with periodic back- testing 
+thereafter. 
+Measure 5 Transparency on covenants’ limitations 
+It is good practice for material covenants and associated terms contained 
+in term sheets and loan documentation to be written and presented in a 
+clear, concise and effective manner that can be readily understood by 
+the contracting parties, including under what circumstances covenants 
+can be triggered.   
+Where relevant, industry participants are encouraged to consider best 
+practice guidance for transparency when drafting key marketing 
+materials ( e.g., term sheets). It is good practice for borrowers and 
+underwriting entities to provide marketing materials that clearly disclose 
+key terms that could materially impact a borrower’s credit risk, 
+including terms that could result in subordination, structural or 
+otherwise, of lenders. In this regard, it is considered good practice to 
+provide clear disclosures of the quantity of incremental debt and 
+associated baskets that can be raised and the ability to move assets 
+beyond the reach of the lender group.  
+Detailed disclosures of key risks including documentation risk, through 
+a risk factors disclosure, could be provided in a loan document. 
+Measure 6  Transparency and fairness during underwriting and syndication 
+   Underwriting entities are encouraged to: 
+• provide sufficient and clear information to investors early in the 
+syndication process with the aim of achieving a fair and efficient 
+market in which investors have sufficient time and a fair 
+opportunity to negotiate and to make well-informed investment 
+decisions.  
+Strengthening alignment of interest from loan origination to end investors 
+ 
+EBITDA and loan documentation transparency 
+ 
+
+=== PAGE 53 ===
+ 
+50 
+ 
+• review the full loan documentation thoroughly before signing 
+the commitment letter and engage in negotiation so that they are 
+satisfied that the risk posed by a failed syndication is within their 
+risk appetite.  
+• provide anonymised feedback on investors’ documentation 
+points to all investors in a transparent way. 
+• highlight to investors new flexibilities built into loan 
+documentation as well as those which have previously faced 
+opposition from the investor base. 
+Measure 7  Alignment of interest between underwriting entities and investors 
+Underwriting entities are encouraged to demonstrate how they have 
+aligned their interests with LL investors, through risk retention or other 
+means. Implementation of robust risk management of leveraged lending 
+activities can strengthen alignment of interes ts as well as prevent the 
+build-up of systemic risks. Underwriting entities and LL investors are 
+encouraged to obtain independent and impartial legal advice which 
+represents their interests and strengthens their ability to negotiate loan 
+terms and influence market evolution. 
+Measure 8  Reducing restrictions on transferability of loans 
+Transferability of loans within a pool of potential investors should be as 
+broad as possible to support a liquid secondary market. It is considered 
+good practice that where lists of approved and disqualified lenders are 
+used, they should only be created based on clear and documented 
+reasons.  It is expected that investors be provided with transparency 
+early in the syndication process on transferability restrictions and how 
+these might evolve during the life of the loan. investors are provided 
+with sufficient clarity on the precise definition of an event of default, 
+which will cause limitations on transferability to no longer apply. 
+Measure 9 Managing conflicts of interest where PE sponsors also act as lenders 
+Conflicts of interest which can arise from a group’s investments in 
+different parts of a borrower’s capital structure, should be appropriately 
+identified and managed. It is expected that participants in a syndication 
+and LL investors be properly informed of the instances where a group is 
+acquiring the debt of a borrower while also acting as the borrower’s 
+sponsor or holding other classes of debt of that borrower. In such cases, 
+the use of a sponsor disenfranchisement clause or similar clause is 
+encouraged. 
+Measure 10  Managing conflicts of interest in management of CLOs 
+Potential conflicts of interest in the management of CLOs should be 
+appropriately identified and managed.   
+Addressing interests of different market participants throughout the intermediation 
+chain 
+ 
+
+=== PAGE 54 ===
+ 
+51 
+ 
+It is expected that policies governing the purchase of distressed assets, 
+cross-sales and trading / valuation of CCC/Caa rated loans and the 
+related policies be clearly set out in a CLO indenture to enable investors 
+to make an informed investment decision. It is considered good practice 
+that trustee reports regularly disclose the trading activity and valuation 
+of assets of a CLO to enhance transparency to investors. 
+It is considered good practice that investors are provided with sufficient 
+opportunity to conduct due diligence on the valuation methodology and 
+results produced by the CLO manager and assess the strategy and 
+rationale for management of assets when performance tests are at risk of 
+being breached. 
+Measure 11  Disclosure in CLOs 
+CLO investors should be provided with all materially relevant 
+information on the valuation, credit quality and performance of the 
+portfolio of a CLO, consistent with jurisdictional regulatory 
+requirements. It is expected that such data is made available on a regular 
+basis ( e.g., monthly) to CLO investors in order for them to make an 
+informed judgement of their investment decisions and that potential 
+CLO investors be provided access to such information upon request. 
+Measure 12  Disclosure on underlying loans 
+LL borrowers are encouraged to provide their investors on a timely basis 
+with their latest financial information and status, for example, the 
+audited financial statements, periodic management financial 
+information and financial forecast and budget in relation to its business 
+plan. LL borrowers are also encouraged to inform their investors within 
+a reasonable timeframe of occurrence of any events that may invalidate 
+any assumptions originally applied in the EBITDA addbacks (including 
+any activities that are outside the normal course of business) and 
+potential implications and impact on the projected EBITDA. 
+  
+Disclosure of information on an ongoing basis 
+
+=== PAGE 55 ===
+ 
+52 
+ 
+Appendix 2: List of consultation questions  
+Measure 1 Debt repayment capacity test 
+Question 1  
+- Would a consistent debt sustainability disclosure within the term 
+sheet based on the borrowers ’ base case cash flow modelled 
+projections assist investors during the negotiation and investor 
+assessment phase? Should this debt repayment capacity test 
+disclosure be based on 2 measures: both total committed and  total 
+funded debt? 
+Question 2 
+- Should there be a further debt repayment capacity test based on 
+permissible incremental debt and if so, should incremental cash flow 
+generated from the incremental debt (if applicable as some 
+incremental debt is used to pay out a dividend) also be included? 
+Question 3 
+- To what extent should debt repayment capacity be linked to a 
+financial covenant in a loan document and how should this be 
+constructed? Does a debt service ratio covenant need to be 
+reintroduced into loan documentation or adapted to measure debt 
+repayment capacity test?   
+Measure 2  Dividend Recaps 
+ Question 4  
+- Should limitations be placed on the ability to effect debt -financed 
+dividend recapitalisations e.g., based on minimum equity, total 
+leverage, debt repayment test? 
+Question 5 
+- Should dividend recapitalisations only be permitted based on an 
+initial origination or full debt refinancing (and not be permitted using 
+incremental facilities in which all existing loan investors may not 
+wish to participate)? 
+Measure 3 Enterprise Values (EVs) 
+ Question 6 
+- Would a clearer disclosure of the arranging banks’ calculation of the 
+borrower’s EV, including high level methodology (i.e., Discounted 
+Cash Flows / Income Method, Asset Valuation, Market Based etc.) 
+and key underlying assumptions (i.e., EBITDA adjustment and total 
+debt) assist investors to make more informed decisions? 
+Question 7  
+Origination and refinancing based on sound business premise 
+ 
+
+=== PAGE 56 ===
+ 
+53 
+ 
+- Should EV to EBITDA multiples be highlighted in term sheets and 
+on which basis of EBITDA i.e., proforma, adjusted, historic or 
+forward looking? 
+Question 8 
+- Do you agree that the basis for EVs should be under -pinned by 
+multi-year forecast cashflows and not simply based only on 
+multiples of EBITDA comparable in other acquisitions or buyouts? 
+Measure 4  EBITDA complexity and opacity 
+   Question 9 
+- What key disclosures would assist market participants to come to a 
+more accurate view of pro -forma EBITDA and projected leverage 
+(e.g., what key assumptions should be disclosed in relation to pro-
+forma adjustments, should there be a disclosure of a more prudent 
+pro-forma adjusted EBITDA with the exclusion of synergies and 
+costs savings)? 
+Question 10 
+- Is a 25% cap based trailing EBITDA or previous year EBITDA an 
+appropriate cap for add-backs based on cost savings and synergies?  
+Question 11 
+- Is 24-months an appropriate threshold for the exclusion of add-backs 
+based on cost savings and synergies? 
+Measure 5 Transparency on covenants’ limitations 
+Question 12  
+- Would a disclosure of the calculation of the marketed leverage ratio 
+assist investors in analysing borrower credit risk? 
+Question 13 
+- Do you agree with the Measure 5 good practice, and what are the 
+other key term -sheet disclosures that would enhance investor 
+analysis of borrower credit risk? 
+Measure 6  Transparency and fairness during underwriting and syndication 
+Question 14 
+- Do you agree with the proposed good practices outlined in Measure 
+6 regarding circulation of a comprehensive term sheet no less than 
+48 hours before the bank meeting? 
+ 
+EBITDA and loan documentation transparency 
+Strengthening alignment of interest from loan origination to end investors 
+ 
+
+=== PAGE 57 ===
+ 
+54 
+ 
+Question 15 
+- Do you agree with the proposed good practices regarding time for 
+underwriting entities (minimum 2 weeks) and investors (minimum 
+5 days) to review the full loan documentation? 
+ 
+Question 16 
+- What other good practices have been or could be put in place to 
+provide transparency and fairness to investors during underwriting 
+and syndication?  
+Measure 7  Alignment of interest between underwriting entities and investors 
+Question 17 
+- Do the considerations as set out above accurately reflect the key 
+issues regarding alignment of interests between the underwriting 
+banks and investors? 
+Question 18 
+- Do you agree with the measures proposed to help strengthen the 
+alignment of interest between underwriting entities and investors? 
+Question 19 
+- What other good practices have been or could be put in place to 
+strengthen risk management of leveraged lending activities by 
+underwriting entities? 
+Question 20 
+- Do the considerations as set out above accurately reflect the key 
+issues regarding the practice of designated counsel being chosen by 
+the sponsor? 
+Measure 8  Reducing restrictions on transferability of loans 
+   Question 21 
+- Do the considerations as set out above accurately reflect the issues 
+surrounding transfer provisions in the LL market? 
+Question 22 
+- Do you agree with the proposed good practice to ease restrictions on 
+the transferability of LLs to  support liquidity in the secondary 
+market? Is there a justification for transferability to be more limited 
+in the LL market as compared to the HY bond market? 
+Measure 9  Managing conflicts of interest where PE sponsors also act as lenders 
+   Question 23 
+Addressing interests of different market participants throughout the intermediation 
+ 
+
+=== PAGE 58 ===
+ 
+55 
+ 
+- Do you agree with the proposed good practice to mitigate conflicts 
+of interest which may arise from PE groups investing in the debt and 
+equity of the same borrower?  
+Question 24 
+- What other good practices have been or could be put in place to help 
+manage conflicts of interest arising for the reason described here? 
+Measure 10  Managing conflicts of interest in management of CLOs 
+   Question 25 
+- Have the considerations above captured the key considerations 
+regarding potential conflicts of interest which may arise between the 
+CLO manager and the CLO investors? 
+Question 26 
+- Do you agree with the proposed good practices? What other good 
+practices have been or could be put in place to help manage such 
+conflicts of interest? 
+Measure 11  Disclosure in CLOs 
+   Question 27 
+- Have the above factors captured the necessary information that are 
+important considerations to investors for their CLO investment 
+decision and evaluation of CLO managers’ performance? 
+Question 28 
+- What additional good practices in disclosure can be put in place to 
+help investors better understand and evaluate their CLO 
+investments?  
+Measure 12  Disclosure on underlying loans 
+   Question 29 
+- Have the above practices captured the necessary information that are 
+important considerations for investors to evaluate the on -going 
+financial performance of LL borrowers? 
+Question 30 
+- What additional good practices in disclosure can be put in place to 
+help investors better understand the financial position and status of 
+LL borrowers?  
+   
+Disclosure of information on an ongoing basis 
+
+=== PAGE 59 ===
+ 
+56 
+ 
+Appendix 3: Key market participants in LL and CLO markets 
+Figure 1 shows the interconnection between the LL and CLO markets. 
+Figure 1 – LL and CLO ecosystem  
+Source: Financial Stability Board & Shohini Kundu102 
+ 
+PE sponsors 
+Many leveraged companies are controlled by one or more private equity (PE) firms, or a fund 
+managed by a PE firm.103 A large part of the LLs are issued by corporate borrowers as a result 
+of LBOs, and M&A activity more generally. An LBO is a type of acquisition whereby the cost 
+of buying a company is financed primarily with borrowed funds. LBOs are often executed by 
+PE firms which in addition to injecting equity into the company, raise funds by leveraging the 
+company, i.e., having the company borrow through a LL. As such, a large proportion of broadly 
+syndicated LLs are backed by a PE sponsor. 
+  
+ 
+102   Shohini Kundu (2021). “The Anatomy of Collateralized Loan Obligations: On the Origins of Covenants 
+and Contract Design” 
+Pipeline risks - Banks may be left holding unsold leveraged loans (pipeline exposure) for long periods 
+after a transaction’s closing if investor interest in those loans dries up. This will not only increase the risk 
+of their loan books, but also deplete part of their liquidity buffer to finance unsold loans.  
+Bookrunning warehousing risk - Banks may face delays in repayment on warehouse facilities extended 
+to CLO issuers and may ultimately be forced to absorb loans residing in such facilities. 
+103   “Many leveraged companies are owned by one or more private equity firms. These firms, such as 
+Blackstone, KKR, or Carlyle Group, invest in companies that have leveraged capital structures. To the 
+extent that the sponsor group has a strong following among loan investors, a loan will be easier to 
+syndicate, and can therefore be priced lower.”- S&P (2019) “Leveraged Commentary& Data (LCD): 
+Leveraged Loan Primer” 
+
+
+=== PAGE 60 ===
+ 
+57 
+ 
+Bank lenders/bank arrangers 
+Banks play various roles in the underwriting of LLs. One or a small number of banks arrange, 
+lead the issuance of a LL, and then syndicate it to institutional investors such as CLOs, 
+insurance companies and financial institutions. Together they play different roles in the 
+syndication process such as administrative agent, syndication agent, documentation agent, 
+agent, co-agent or managing agent, and lead arranger or bookrunner. Banks earn fees for 
+arranging, underwriting and syndicating the LLs.  
+Banks also provide structuring and distribution services to CLO managers as well as financing 
+the underlying loans during the warehouse period. They may also act as the initial purchaser 
+of the notes and often serve as market makers in the CLO secondary market.  
+CLO managers 
+CLO managers purchase the LLs on behalf of the CLO SPV and actively manage the LL s on 
+behalf of the CLO investors. They are responsible for meeting the CLO’s portfolio tests which 
+are designed to protect the senior noteholders. CLO managers are often regulated firms, 
+especially where their investments comprise securities, though their r egulatory status varies 
+across jurisdictions. 
+Over the last decade, the number of CLO managers entering the market has increased and in 
+2021 around 135 managers have managed a CLO transaction. 104 According to Fitch Ratings’ 
+data, the largest 30 managers represented 60% of all CLO issuance. Many of the managers are 
+affiliated with PE firms or investment banks.105 
+CLO investors  
+A wide range of financial institutions invest in CLOs. The IMF reports that 37% of CLO 
+investors are banks, 17% are insurers, 10% are pension funds, 9% are mutual funds, 6% are 
+hedge funds, 5% are CLO managers, and 15% are not identifiable as a group. In the US, banks 
+primarily invest in AAA tranches, whereas insurance companies and asset managers invest 
+across the capital structure and are most exposed to riskier tranches of CLOs.106 
+There are different reasons why investors are attracted by CLOs. One of the main drivers is 
+that CLOs offer exposure to a diversified portfolio of loans with higher yield offerings relative 
+to other financial products, while being perceived as more resilie nt, given historically low 
+default rates.  
+Credit rating agencies (CRAs) 
+CRAs rate both the underlying LL s and the CLO notes. Most CLO notes, with the exception 
+of the equity tranche, are rated by one or two agencies. CRAs monitor CLO performance over 
+its lifetime and may, correspondingly, upgrade or downgrade the rating of notes. With respect 
+to LLs, ratings are particularly important to measure the quality and concentration limits of the 
+CLO. 
+ 
+104   Based up data collected from: BofA Global Research, Bloomberg, S&P LCD, Intex, Markit 
+105   See Fitch: The Anatomy of Collateralized Loan Obligations: On the Origins of Covenants and Contract 
+Design 
+106   IMF (2020): Global Financial Stability Report, April 2020: Markets in the time of COVID-19 

@@ -1,0 +1,2266 @@
+
+
+=== PAGE 1 ===
+   
+ 
+  
+ 
+ Thematic Analysis: Emerging Risks in  
+Private Finance 
+ Final Report 
+ 
+ 
+            The Board of the 
+International Organization of Securities 
+Commissions 
+ 
+ 
+ 
+FR10/23 September 2023 
+ 
+  
+
+
+=== PAGE 2 ===
+ ii
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Copies of publications are available from: The International Organization of Securities 
+Commissions website www.iosco.org   
+© International Organization of Securities Commissions 2023. All rights reserved. Brief 
+excerpts may be reproduced or translated provided the source is stated. 
+  
+
+=== PAGE 3 ===
+ iii
+ 
+   
+ 
+EXECUTIVE SUMMARY ............................................................................................... 1 
+INTRODUCTION ............................................................................................................. 3 
+BOX 1: PRIVATE INVESTMENT FUND INDUSTRY IN CHINA ............................................... 7 
+PRIVATE FINANCE IN A CHANGING MACRO-FINANCIAL ENVIRONMENT ............................. 8 
+CURRENT MACROECONOMIC CONTEXT AND ITS POTENTIAL IMPACT ............................... 12 
+BOX 2: THE EMERGENCE OF PRIVATE CREDIT ............................................................... 13 
+CHAPTER 1: AN OPAQUE MARKET ....................................................................... 19 
+OPAQUE VALUATIONS .................................................................................................... 20 
+VULNERABILITIES FROM VALUATION PRACTICES............................................................ 21 
+CONFLICTS OF INTEREST ................................................................................................. 22 
+VULNERABILITIES FROM CONFLICTS OF INTEREST .......................................................... 25 
+CHAPTER 2: THE USE OF LEVERAGE IN PRIVATE FINANCE ....................... 26 
+PORTFOLIO COMPANY LEVERAGE ................................................................................... 26 
+LEVERAGE AT THE FUND LEVEL ...................................................................................... 28 
+VULNERABILITIES FROM LEVERAGE ............................................................................... 29 
+BOX 3: COLLATERALIZED FUND OBLIGATIONS .............................................................. 30 
+CHAPTER 3: THREATS TO MARKET INTEGRITY ............................................. 31 
+POTENTIAL ISSUES IN THE PRIVATE CREDIT MARKET ...................................................... 31 
+PORTFOLIO REBALANCING .............................................................................................. 32 
+SECONDARY MARKETS ................................................................................................... 35 
+RETAIL INVESTORS ......................................................................................................... 36 
+CHAPTER 4: POTENTIAL RISK TRANSMISSION TO PUBLIC MARKETS .... 39 
+THE LINES BETWEEN PUBLIC AND PRIVATE MARKETS ARE BLURRING ............................. 39 
+RISK TRANSMISSION CHANNELS .................................................................................... 40 
+INCREASING CREDIT RISK IN A HIGH INTEREST ENVIRONMENT ..................................... 41 
+CAPITAL COSTS AND AVAILABILITY .............................................................................. 42 
+CONCLUSIONS .............................................................................................................. 44 
+ABBREVIATIONS .......................................................................................................... 46 
+
+=== PAGE 4 ===
+ 1
+ 
+   
+Executive Summary  
+Global private finance is experiencing rapid growth, with annualized growth at nearly 18% 
+since 2017 and private market assets under management (AUM) reaching $12.8  trillion 
+USD in June 2022. 1 US companies have raised more money in private markets than in 
+public markets in each year since 2009. 2 Certain types of funds, including private credit 
+and private equity funds, have grown to an increasingly  significant share of overall 
+financial markets and, in doing so, are taking on ever more important roles in financing the 
+real economy.  
+Private finance activities can be beneficial to the economy. Private credit industry 
+practitioners state that they are financing key growth areas, particularly where banks are 
+unwilling or unable to provide credit. 3 The geographic expansion of private equity and 
+venture capital also provides key sources of developmental finance, for example through 
+funding the expansion of established companies  and start -ups in the Association of 
+Southeast Asian Nations ( ASEAN) countries.4 More generally, academic literature 
+describes the positive spillover effects of private equity and venture capital investments on 
+firm-level productivity, employment and economic growth.5   
+Yet with this increasing role come potential risks. IOSCO has undertaken this work to 
+better understand the potential vulnerabilities that might arise from private financing 
+activities, including the ways in which risks in this sphere could touch on public capital 
+markets and IOSCO’s objectives,6 including potential harm to investors, risks to market 
+integrity, or potentially giving rise to financial instability and systemic risk. The outcomes 
+of this report are based on an extensive review of literature, market research, and benefits 
+from roundtable discussions held with private finance market participants, academics, and 
+credit rating agencies.7 
+While the inherent opacity in private finance provides investors with some insulation from 
+the transparency costs faced in public markets, it could also jeopardize availability of 
+information that regulators and investors require to effectively assess risks.  This includes 
+risks that could arise due to the way in which private finance firms conduct their activities 
+(e.g., valuations, conflicts of interest), from their interconnections with the wider financial 
+system, and from how macro-financial developments could impact the sector, the portfolio 
+companies that receive finance, and the real economy.   
+ 
+1   Bain (2023) Global Private Equity Report 2023 
+2   See Morgan Stanley, Public to Private Equity in the United States: A Long-Term Look (Aug. 4, 
+2020) 
+3   Block et al (2023) A Survey of Private Debt Funds  
+4   ASEAN (2022) ASEAN Investment Report 2022 
+5   Samila and Sorenson, 2011; Davis et al., 2011; Bernstein et al., 2017 
+6   IOSCO Objectives and Principles 
+7   The external engagement is referred to as “market” or “roundtable” participants, or “external 
+stakeholders” throughout the report. 
+
+=== PAGE 5 ===
+ 2
+ 
+   
+The investment landscape has changed dramatically with the return of inflation and the 
+rapid shift to interest rate normalisation. This creates prospective challenges to funding 
+models within private finance sectors that have relied on continuing access to cheap and 
+secure sources of debt funding. Potential questions therefore arise in terms of these sectors’ 
+ability to navigate this transition to the “new normal”. 
+If interest rates stay at (or near) current levels (or increase further) for longer than expected, 
+it is likely that there will be a reduction in the availability of funding to support private 
+finance activities. Portfolio companies are likely to face higher rates on existing borrowing, 
+which is typically floating rate, as well as on new and refinanced borrowing.  Market 
+participants noted that these risks were especially stark over the medium to long- term.  
+Although private finance firms have accumulated a significant amount of “dry powder” 
+(i.e., capital committed by investors , but not yet invested) , the extent to which this could 
+mitigate this risk is unclear.  F lexibility of financing in private credit  arrangements may 
+also help portfolio companies navigate short -term market strains, but defaults are 
+nonetheless expected to increase over the medium to long- term.  Overall, there could be 
+significant impacts on concentrated sectors that have become reliant on a constant flow of 
+affordable funding.  
+There are also conflicts of interest in private finance, for example, between a fund 
+manager’s investors in different investment products, such as when one of the manager’s 
+debt funds lends to portfolio companies in one of its equity funds. There are also conflicts 
+of interest in some aspects of valuations, transaction negotiation practices and general 
+partner (GP) led secondary markets. 8 However, it is difficult to assess the scale of these 
+risks, the frequency in which these issues arise and the extent to which they are managed 
+effectively. 
+Should the relative increase in the cost of debt lead to a renewed interest in equity financing, 
+such valuation concerns could be unearthed under a scenario where portfolio companies 
+and their sponsors would need to face the prospect of raising capital thr ough the public 
+equity markets (e.g., through IPOs or perhaps SPACs).  
+More broadly, t he connections between private markets and other parts of the financial 
+system may also provide avenues for the transmission of risk into public markets . There 
+has been a significant increase in market-based credit intermediation, at the same time as a 
+contraction in loans and bonds held by banks in advanced economies. 9 External 
+stakeholders have emphasized the interchangeability of public and private markets. Some 
+roundtable participants remarked that the size and growth of private markets meant that 
+private finance  was now a critical component to the functioning of the real economy, 
+especially for specific sectors, such as technology and healthcare.  
+ 
+8   A private equity secondary market (or “secondaries” as it is known) allows investors to sell their 
+private equity fund positions. A transaction in this “over-the-counter” market encompasses the 
+transfer of a limited partnership interest from the selling Limited Partner  to the new owner, who 
+assumes all rights and obligations of the Seller (see Chartered Alternative Investment Association 
+- https://caia.org/sites/default/files/AIAR_Q3_2016_01_Secondaries.pdf)  
+9   OECD (2020) Structural developments in global finance intermediation – the rise of debt and non-
+bank credit intermediaries 
+
+=== PAGE 6 ===
+ 3
+ 
+   
+The lack of available data covering all aspects of private finance activities makes mapping 
+risk transmission challenging, however, the market participants in both public and private 
+markets overlap, bridging banking and non- bank sectors. On one side, investment banks 
+play an intricate role in nearly all phases of a leveraged buy -out and/or private credit 
+transaction, primarily through the provision of leverage. On the investor side, large 
+institutional investors such as pension funds and insurance companies are dominant players 
+in both private finance investments and in public debt markets. 
+Private market participants also appear keen to push toward new sources of capital, such 
+as through retail investors. Such a shift would inherently come at the cost of the investment 
+products being subject to greater  regulation and higher standards of governance and 
+oversight than those required when involving institutional investors. Nonetheless, retail 
+investors could be more exposed to risks given the lower transparency  of the investments 
+compared to those in public markets.  Retail investors would also have relatively poorer 
+access to information and resources. M any of the liquidity risks associated with private 
+finance activities are traditionally mitigated by the closed -end nature of the investments, 
+yet retail investors may ultimately demand greater access to liquidity. 
+Private finance has largely grown in a period of accommodative macro- financial 
+conditions. This has now changed. The sector may be tested in the medium to long term 
+and could respond in ways that uncover hidden risks . It is evident that private and public 
+markets are intertwined to the degree that any one market event could have implications 
+across both markets and, potentially, the broader financial system.   
+Introduction 
+The term “private finance” is broad, and definitions can vary across jurisdictions. However, 
+it generally encompasses activities relating to capital raising and lending provided by non-
+bank investors to companies through bilateral transactions.  
+Private finance is mainly arranged through private investment funds, including private 
+equity and private credit funds, although direct investment is possible by large institutions. 
+These funds, in turn, raise capital from investors such as pension funds, insurers and 
+endowments, as well as high net worth individuals and family offices. Investors are usually 
+required to commit significant capital (the standard minimum investment in private equity, 
+for example, sits at about $25 million  USD) for a significant time period (5 -10 years). In 
+certain jurisdictions, certain private finance funds may also raise capital from “retail 
+investors” (i.e., individual and non- professional investors, who typically invest in funds 
+with no or low -income threshold) and correspondingly require a much lower minimum 
+investment. Furthermore, some private finance funds may be perpetual in life (i.e., 
+“permanent capital”) and do not have a specified investment time period.  
+This report focusses on private equity and private credit. Private equity includes strategies 
+such as venture capital or leveraged buyouts . Private equity investments are achieved by 
+acquiring an ownership stake in a company through purchasing equit y securities that are 
+subsequently not listed or actively traded on a market or exchange. Private credit is used to 
+describe the provision of credit to (typically small- and mid-sized) businesses by non-bank 
+
+=== PAGE 7 ===
+ 4
+ 
+   
+lenders on a bilaterally negotiated basis .10 In other words, the credit is originated without 
+bank intermediation, and can take various forms, including loans, bonds, notes or private 
+securitizations.11 Examples of strategies include direct lending, distressed debt, mezzanine 
+financing, venture debt and structured financing. The term “ private credit” is often used 
+interchangeably with terms such as “private debt”, “direct lending”, “alternative lending” 
+or “non-bank lending”.  
+Table 1 describes some key characteristics that distinguish private equity and private credit 
+from other forms of finance. Private equity and credit  can be closely interconnected, and 
+their activities can overlap  and/or relate with activities of public securities markets or 
+banks. For instance, banks may engage in lending activities with  private equity and credit 
+funds, and private credit funds  may invest directly in leveraged loans  without bank 
+intermediation, providing an alternative to the broadly syndicated lending market.  
+General characteristics of private finance funds 
+Private equity and credit investments are generally illiquid and held to maturity in a closed-
+end fund structure (Figure 2). These funds are typically structured in the form of a limited 
+partnership or equivalent vehicle. Generally, a private equity fund’s contractual initial term 
+is 10 years (which may be extended), with t he first 4-6 years corresponding to the fund’s 
+investment period. A private credit fund’s contractual term is typically 5 -8 years with 
+approximately the first 3 -4 years constituting the fund’s investment period (Table 1) . 
+During the investment period, the fund manager sources investments for the fund and draws 
+down capital committed by investors (“dry powder”) to fund such investments. Following 
+the investment period, the manager can generally no longer draw down unused committed 
+capital other than for certain approved items, such as  fees, expenses, and follow -on 
+investments. During this period, the manager focuses on “harvesting” or realizing exit 
+events for the fund’s investments and distributing proceeds to investors. 
+ 
+10   See, for example, the definition provided by AIMA 
+11   See, for example, AIMA 
+
+=== PAGE 8 ===
+ 5
+ 
+   
+Figure 1: Typical fund structure 
+  
+Source: IOSCO (2023) 
+Liquidity transformation is limited in private markets (Figure 2). Capital and profits are not 
+generally distributed to investors until investments are realized ( e.g., underlying 
+investments are sold or liquidated, for example through going public  or exit on secondary 
+markets). The fund manager, and not the fund investors, controls the timing of investment 
+drawdowns and distributions , although certain investors may negotiate “side letter” 
+provisions affecting some of their rights in this regard (see “Conflicts of Interest”, below).12  
+Importantly, private finance funds generally do not offer redemption rights to investors 
+(other than in the case of certain limited types of funds). Prior to fund liquidation, there is 
+generally no way for an investor to dispose of their fund interests other than through a 
+secondary market transaction.  
+Activity is focused in North America, Europe, and growing in Asia 
+The scale and scope of private financing activities varies considerably by jurisdiction. The 
+US market accounts for over 54% of the private market AUM.13 However, there are also 
+ 
+12   For instance, an investor may negotiate an opt-out or “excuse” right from obligations to fund 
+particular investments. This could be for regulatory or investment policy reasons.  
+13   McKinsey (2023) Private Markets Annual Review, Exhibit 2  
+Private Fund
+Management
+CompanyInvestors
+Investment InvestmentInvestmentFees
+Management
+Investment
+Investment Investment
+Figure 2: Liquidity scale 
+ 
+Source: IOSCO (2023) 
+Less liquid More liquid
+Venture 
+Capital
+Buyout
+Growth Credit
+Other Alternative 
+Investments
+Hedge Funds Cash
+Public Stocks/Bonds
+
+=== PAGE 9 ===
+ 6
+ 
+   
+sizeable investment footprints across  the European and Asian markets (20% and 22% 
+respectively) (Figure 3).  
+In 2022, only 48 of the largest 300 private equity firms and none of the largest 20 (by 
+fundraising volume) were based in  the Asia Pacific region .14 While relatively small, the 
+Asian private credit market has grown by almost 30 times over the past two decades, from 
+USD $3.2 billion in 2000, to over USD $90 billion in June 2022.15  
+In particular, the Chinese private investment funds sector has grown significantly in recent 
+years and has become an important part of the Chinese financial system, particularly as 
+providers of direct financing for technological innovation, supporting corporate equity 
+financing, and by introducing more institutional investors into the market. 
+By the end of April 2023, there were 22,300 private investment fund managers, with assets 
+under management (AUM) of nearly RMB 21 trillion yuan (approximately $2.9 trillion 
+USD). Among them, the AUM of private securities investment funds, which mainly invest 
+in secondary markets , stood at nearly RMB 6 trillion yuan (approximately $800 billion 
+USD), the AUM of private equity investment funds reached RMB 11 trillion yuan 
+(approximately $1.5 trillion USD), and the AUM of venture capital funds rose to RMB 3 
+trillion yuan (approximately $400 billion USD). 16  
+By the end of 2022, there were nearly 400 private investment fund managers in China 
+whose AUM were above RMB 10 billion yuan (approximately $1.4 billion USD) . There 
+were 38 foreign private securities fund managers, with a total AUM of RMB 67.3 billion 
+yuan (approximately $9 billion USD). Their parent companies covered major global capital 
+markets such as North America, Asia, Europe and Africa.17 
+Private finance activities are not generally well established in emerging economies. For 
+example, in Africa, private finance investments are still a tiny fraction of those elsewhere 
+in the world.18  
+On the other hand, activity in South America experienced substantial growth following the 
+Global Financial Crisis (GFC), and between 2008 and 2013, major international private 
+equity firms including TPG, KKR and Ajax Partners opened offices in Latin America .19 
+However, a steep recession during the COVID -19 pandemic and an environment of 
+political uncertainty saw investors increasingly divest from the region20 such that by 2021, 
+each of these offices had closed. In addition, central bank interest rate hikes in Brazil were 
+earlier and more rapid than in other regions, possibly owing to the country’s history of 
+ 
+14   Private Equity International (2022) PEI 300 | The Largest Private Equity Firms in the World  
+15   MAS (2023) Private Credit - The Next Key Driver of Growth in Private Markets  
+16    Asset Management Association of China (AMAC),Monthly Report on Private Investment Fund 
+Managers Registration and Private Investment Fund  Filing  (April 2023) 
+17   Asset Management Association of China (AMAC),Overview of Private Investment Fund 
+Registration and Filing in 2022 
+18    S&P (2023) African private equity activity surges to 5-year high in 2022  
+19   IMF (2023) IMF Data Mapper; The Lauder Institute (2022) Private-Equity-in-Latin-America-
+GBIR2022.pdf (upenn.edu) 
+20   Covid’s Shockwaves Took Poverty in Latin America to a New Nadir - Bloomberg 
+
+=== PAGE 10 ===
+ 7
+ 
+   
+hyperinflation. Private equity activity in the region picked up somewhat in 2020, but there 
+remains an environment of considerable uncertainty.21  
+ 
+Box 1: Private Investment Fund Industry in China 
+In response to market growth, relevant rules have been issued  in China such as 
+Securities Investment Fund Law 22 and Interim Measures for the Supervision and 
+Administration of Privately Offered Investment Funds. A bundle of self -discipline 
+rules carried out by Asset Management Association of China (AMCC) have also been 
+implemented in areas such as fund raising, internal control and information disclosure.  
+In January 2021, Provisions on Strengthening the Supervision of Private Investment 
+Funds were released, further clarifying the bottom -line requirements of registration 
+and investment operation. More recently, o n July 7th, 2023, China published the 
+Regulations on Supervision and Administration of Private Investment Funds, which 
+will come into effect on September 1, 2023. This is the country's first administrative 
+regulation in the sector.23 
+The new regulation aims to strengthen risk control from its source, clarify bottom line 
+requirements of regulation, and promote the standardized operation of private 
+investment funds. 
+ 
+ 
+ 
+21   Intralinks (2022) Private Investment in Latin America 
+22   See Securities Investment Fund Law of the People’s Republic of China 
+23   See China unveils regulation on private investment funds 
+Figure 3. Private market assets under management, H1 2022. (USD billion) 
+ 
+Source: McKinsey (2023) Private Markets Annual Review, Exhibit 2  
+388
+494
+640
+829
+854
+1068
+2016
+57
+109
+394
+362
+368
+201
+849
+71
+525
+118
+91
+177
+1201
+344
+19
+91
+122
+52
+62
+109
+80
+0 500 1000 1500 2000 2500 3000
+Other
+Growth
+Infrastructure &
+natural resources
+Private debt
+Real estate
+Venture capital
+Buyout
+North America Europe Asia Rest of world
+
+=== PAGE 11 ===
+ 8
+ 
+   
+Private finance in a changing macro-financial environment 
+Globally, private financing activities exhibited unprecedented growth in the period 
+following the GFC. Global AUM for private funds nearly doubled in the four years to 2022 
+and trebled over the decade leading to 2022 to reach $12.8 trillion  USD in H2 2022. 24 
+Although total fundraising fell more than 10%  in 2022, down to $1.4 trillion USD, it was 
+still the second highest year on record, and nearly three times higher than fundraising 
+volumes seen a decade earlier.25 
+Figure 4. Assets Under Management Breakdown (USD billion) 
+ 
+Source: Preqin (2023) 
+ 
+ 
+ 
+ 
+24   Bain (2023) Global Private Equity Report 2023 
+25   Preqin Ltd (2023) Charts and league tables, accessed May 2023 
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+Private Equity Real Estate Infrastructure Private Debt Natural Resources
+
+=== PAGE 12 ===
+   
+ 
+  
+ 
+Table 1: Private equity and private credit versus other forms of finance  
+ Private equity and private credit  Public equity, public debt, and 
+securitizations 
+Private finance when intermediated 
+by banks  
+Type of 
+instruments  
+Unlisted equities; loans; bonds; notes; may also 
+include private securitizations. 
+Listed equities; corporate and 
+government bonds; public 
+securitization issues  
+Includes, for example, broadly 
+syndicated loans (BSL s, also known 
+as leveraged loans) and private 
+securitization issues, including CLOs 
+Public prospectus  No, with exceptions – e.g., funds investing in 
+private credit could have a public prospectus 
+Yes No, with exceptions  - e.g., funds 
+investing in private credit could have 
+a public prospectus 
+Typical investors  Mainly arranged by private investment funds , 
+which typically source capital from non- bank 
+investors. However, capital  can also be provided 
+directly. Mainly wholesale investors, although 
+retail investors can invest in some markets.  
+Banks and non -bank investors - 
+Wholesale and retail.  
+Banks and non -bank investors – 
+Generally wholesale 
+Distribution/ 
+intermediation  
+Narrowly distributed  (bilateral, direct) – not 
+intermediated by banks. Private funds typically 
+arrange the finance, although direct investment by 
+large institutions is possible.   
+Broadly distributed - Typically 
+bank-intermediated.  
+Moderately distributed - Typically 
+bank-intermediated.  
+Typical borrower  Private credit – SMEs or mid -market companies, 
+although they have started to target larger, more 
+established companies as well.   
+Private equity – SMEs, mid-market companies and 
+large businesses  
+Large businesses  
+  
+BSL - Non-investment grade 
+businesses on the higher end of mid-
+market and larger corporates. Varies 
+for private securitization  
+Cost of capital 
+and yield  
+Typically, higher - e.g., private credit typically 
+offers a premium over syndicated loan yields and 
+public debt  
+Typically lower  Varies - BSL yields are typically 
+higher than for public debt, but lower 
+than for private debt. 
+
+=== PAGE 13 ===
+ 10    
+Time horizons  Longer – investors usually commit capital for a 
+number of years .   (5-10, typically, for private 
+equity, and 5- 8 years or perpetual for private 
+credit) 
+Shorter  Varies   
+Active secondary 
+market?  
+No –investments are  typically non -tradeable 
+Secondary market opportunities are  generally 
+limited. Lower liquidity.  
+Yes - Instruments are tradeable, 
+and liquidity is generally higher. 
+Varies - Secondary markets are active 
+for some segments , e.g. BSL and 
+CLOs. Less liquid than public finance 
+markets.  
+Valuations and 
+price discovery  
+Infrequently updated - lagged repricing  Frequent - e.g., mark-to-market  Varies - e.g., relatively frequent for 
+BSLs  
+Use of ratings  Not rated  Rated/usually rated  Varies – BSLs and CLOs are usually 
+rated  
+Transparency  
+(reporting and 
+disclosure) 
+Low to none 
+ 
+High  Varies 
+  
+  
+Typical 
+borrowing terms  
+More flexible, customized terms  Standardized Standardized  
+Execution time 
+for deals  
+Shorter  Longer  Variable 
+
+=== PAGE 14 ===
+   
+ 
+  
+ 
+This unprecedented growth has led to private finance activities contributing a greater share 
+of firm financing  (Figure 5) and financial markets more broadly. The combined global 
+AUM of p rivate equity and private credit funds has grown by a factor of 15 since 2000, 
+significantly outpacing the growth in the market capitalization of global public stock 
+markets, which have roughly trebled over the same period.26 However, in terms of volumes, 
+private markets are significantly smaller than the public equity and debt markets (Figure 5). 
+Academic and market literature cites two main factors underpinning the growth of private 
+finance. Firstly, the period from the GFC up until  2022 was characterized by 
+accommodative monetary policy, including prolonged low interest rates and quantitative 
+easing. This fostered a search for yield environment, in which investors were willing to 
+invest for longer terms and assume greater credit and illiquidity risk in exchange for higher 
+potential returns.27 
+Private credit benefitted from this search for yield as investors were attracted by higher 
+returns compared to other  fixed income assets (see Box 2, “the emergence of private 
+credit”).28 Rate floors also provided floating-rate investors with protection against falling 
+rates. Monetary easing also led to credit growth, which supported private finance activities 
+more broadly, given the positive relationship between the availability of credit, and buyout 
+and merger and acquisition activity.29  
+ 
+26   Based on comparing private assets under management (AUM in private equity and private credit) 
+and public market capitalisation (data from World Bank, WFE). 
+27   See, for example, BIS (2021) The rise of private markets, BIS Quarterly Review, December 2021 , 
+Moody’s (Private credit opportunity for lenders comes with opaque, systemic risks. May 2022) 
+and CEPR.  
+28   BIS (2021) The rise of private markets, BIS Quarterly Review, December 2021  
+29   CEPR 
+Figure 5. Comparing Growth in Global Markets 2000-2022 
+  
+Sources: Preqin, World Bank, BIS. Notes: Data on private assets under management came from 
+Preqin. Data on market capitalization of listed companies is only provided to 2020. Public debt 
+series were constructed from BIS data on amounts outstanding of public debt to non- financial 
+corporates issued in all markets in countries where data was available. 
+
+
+=== PAGE 15 ===
+ 12
+ 
+   
+Secondly, the regulation of private finance funds is generally considered relatively light, 
+for example,  relative to  banks.30,31 Recalibration of business models and regulatory 
+changes,32 particularly since the GFC, have led banks to withdraw from certain types of 
+lending. This has created an opportunity for private funds to step into many of these 
+markets, particularly in lending to middle-market businesses. 
+The tax advantages that private finance firms can offer through their structure are also 
+likely to have contributed to growth.  For example, fund managers receive much of their 
+income in the form of carried interest, which is taxed at capital gains rates in certain 
+jurisdictions, rather than income tax rates which tend to be higher. 
+It is also notable that private finance markets navigated the COVID -19 crisis without 
+experiencing significant losses . However, it is difficult to know the full extent of the 
+COVID-19 market impact due to limited transparency in the private finance market as well 
+as the extraordinary government support measures that were enacted to support market 
+segments vulnerable to the pandemic . These measures also helped enable private finance 
+activities to bounce back in the period that followed.33 
+Current macroeconomic context and its potential impact 
+Global macroeconomic conditions have changed significantly in recent years as a result of 
+the COVID- 19 pandemic and geopolitical tensions, most notably Russia’s invasion of 
+Ukraine.  Interest rates and inflation have risen, while prospects for economic growth have 
+declined. These conditions, which continue to persist, have placed private (and public) 
+markets under increasing pressure.34 More restrictive monetary policy is also beginning to 
+impact the credit availability that underpinned the recent surge in private finance activities. 
+Reports point to additional challenges posed by geopolitical and market uncertainties, 
+dislocation in capital markets, debt market closures, and reduced investor sentiment.35  
+ 
+ 
+30   BIS (2021) The rise of private markets, BIS Quarterly Review, December 2021  
+31   There are some exceptions to this, such as, for example, US registered funds are subject to 
+comprehensive regulatory requirements under the Investment Company Act of 1940 and other 
+rules and regulations. 
+32   The literature refers, for example, US leveraged lending guidelines and Basel III. See, for 
+example, PGIM, Fitch and Moody’s (Private credit opportunity for lenders comes with opaque, 
+systemic risks. 4 May 2022)  
+33   See, for example, the IMF Global Financial Stability Report, which note that leveraged buyout 
+activity boomed following policies aimed at reopening capital markets and supporting the flow of 
+credit to households and firms.  
+34   For example, more than half of respondents to a survey of fund managers by AIMA, identified 
+inflation and macroeconomic risk as the biggest challenge for their portfolios and future lending 
+activity. A survey of 100 private equity firms by Dechert produced similar findings. AIMA (2022) 
+Dechert (2022) 
+35   See, for example, Deloitte, EIF, and PwC  
+
+=== PAGE 16 ===
+ 13
+ 
+   
+Box 2: The Emergence of Private Credit  
+Over the past decade, middle-market companies, which are typically too small to access 
+public markets for financing, have increasingly turned to private credit funds for 
+funding. The global private credit market grew from less than USD $60 billion in 2002 
+to over USD $1.3 trillion in H1 2022 (figure 4) – the approximate size of the bank 
+leveraged loan market in the US. This growth is expected to continue, with Preqin 
+forecasting global private credit AUM to reach USD $2.3 trillion by 2027.36 In recent 
+years, private credit funds have also started to target larger, more established companies 
+(see Table 2, below) .37 This change in dynamics has been driven by several factors, 
+including: 
+• Increased competition in the middle-market space: As more private credit funds have 
+entered the market, competition for deals has increased, leading some funds to look 
+for opportunities in larger deal sizes. Growth in the amount of capital available to 
+private credit funds has also enabled them to pursue larger deals. 
+• Tailored financing solutions: Private credit funds generally have the flexibility to 
+tailor financing arrangements to the needs of larger companies. For example, some 
+private credit funds offer unitranche financing, which combines both senior and 
+subordinated debt into a single instrument, allowing companies to acce ss a larger 
+amount of capital without having to deal with multiple lenders. In addition, private 
+lenders may offer greater certainty of execution and speed of closing compared to 
+public markets. 
+• A close relationship between direct lenders and borrowers: These funds typically 
+hold the loans till maturity thus, if borrowers get into financial distress, they may 
+find it relatively easier to work with direct lenders who may often have expertise in 
+restructuring matters, e.g., to refinance their debt or reorganize the company. 38 A 
+recent academic study finds that, in the U.K., private equity sponsored companies 
+outperformed non- private equity sponsored companies during the COVID -19 
+pandemic, as their sponsors provided various managerial and operational expertise 
+as well as access to capital.39  
+Overall, market participants generally predict that the trend towards larger deals in the 
+private credit market is likely to continue.  
+ 
+  
+ 
+36   Preqin (2023) Global Report 2023 – Private Debt 
+37   AIMA ((2022) Financing the Economy  
+38   S&P (2021) Private Debt: A Lesser-Known Corner Of Finance Finds The Spotlight 
+39   Lavery and Wilson (2022) The Performance of Private Equity Portfolio Companies During the 
+COVID-19 Pandemic 
+
+=== PAGE 17 ===
+ 14
+ 
+   
+ 
+Table 2: Scale and complexity of Private Debt 
+ Syndicated Debt  Private Debt 
+Number of Lenders  Dozens  1-6  
+Deal Size USD  200 million – 5 billion 20 million - 2 billion.  
+Middle market (> 50 million EBITDA) 
+and lower market  
+Interest Charged   Higher than syndicated 
+Covenants  Mostly (>91%) Cov-lite  Most deals have a covenant but no more 
+than one 
+Borrowers Rating  BB to B+ Mostly unrated  
+Secondary Market 
+Liquidity  
+Possible unless stressed 
+market conditions 
+Less liquid. Lenders hold debt to maturity 
+Leveraged lending 
+guidelines  
+Typically, up to 6x 
+EBITDA  
+Subject to negotiation, may be higher 
+than leveraged lending guidelines 
+Speed to execution  Two months or more  30-75 days  
+Source: S&P Financial Services. 
+Challenges for portfolio companies  
+Changes in the macroeconomic environment directly impact portfolio companies  held by 
+private funds. For instance, many companies face increased operating costs due to inflation. 
+Furthermore, these portfolio companies  tend to be more highly leveraged than issuers in 
+other markets,40 and may face increased debt servicing costs at the same time as worsening 
+economic prospects may negatively impact their revenues. Conditions could also tighten 
+for new financings and refinancing, both in terms of cost and availability.41 
+In a rising rate environment, investors may see private credit funds as a n attractive option 
+since private credit loans are typically provided at a floating rate42 and with a higher coupon 
+compared to broadly syndicated debt . However, in this same environment  portfolio 
+companies will pay more for their own floating -rate debt,43 and firms’ hedging of this 
+borrowing may be limited.44 
+Private credit portfolios are also disproportionately comprised of smaller, less established 
+companies, although in recent years funds have targeted larger companies as well (Box 2). 
+Small firms may be less resilient to higher inflation and interest rates, and more impacted 
+ 
+40   See, for example, Haque (S) Does Private Equity Over-Lever Portfolio Companies, or  Block et al 
+(2023) A Survey of Private Debt Funds 
+41   For example, Reuters report that the cost of a $1 billion loan from a private equity firm for a non-
+investment grade company now averages an interest rate of up to 12%, versus 7.5% in 2021.  
+42   Preqin (2023) Global Report 2023 – Private Debt 
+43   See, for example, AIMA and Fitch 
+44   See, for example, Fitch Ratings  
+
+=== PAGE 18 ===
+ 15
+ 
+   
+by the decline in fiscal support as economies  have emerged from the pandemic. 45 There 
+are some signs of small firm bankruptcies starting to increase,46 as well as of portfolio write 
+downs, although roundtable participants noted t hat this would also be true for public 
+markets.47  
+These factors could lead to higher risks of default, which may also be observed through the 
+restructuring of deals rather than corporate insolvencies. Roundtable participants noted that 
+this risk would increase significantly if the environment of higher interest rates persists 
+beyond 2024. According to some industry observers, there is a growing imbalance between 
+the protection provided to investors by floating rate loans and the impact of higher rates on 
+borrowers’ ability to repay them. 48 Still, private credit lenders may have expertise in 
+restructuring loans in troubled times, thus helping their portfolio companies avoid defaults 
+and bankruptcies. 
+A lack of transparency in this sector makes it difficult for investors and regulators to assess 
+such risks. Private finance investments are generally valued by the managers themselves  
+(and are  typically validated by independent valuation agents and audited by external 
+parties), at regular intervals (typically quarterly), based on internal models, and adjust more 
+slowly than in public markets. Furthermore, flexibility in loan terms, and the ability to 
+restructure deals, may delay the impact of rising borrowing costs and postpone or prevent 
+insolvencies.  
+This could be positive, as it would allow more time for firms to respond to macroeconomic 
+changes, yet it could also prolong issues and exacerbate their impact (see  also, “Stale 
+valuations”). 
+Challenges for fund managers 
+Growth in private equity markets slowed in 2022, compared to the prior year , and is 
+expected to slow further in 2023.49 For example, private equity fundraising fell by 13% last 
+year, and is predicted to fall by 2.7% this year .50  Private credit fundraising also fell, by 
+8%. Furthermore, in the same period , new private equity and credit fund launches fell by 
+33% (21%). Private equity deal volumes were also lower with global buyout value and deal 
+counts, for example, falling by 22% and 17% respectively. Private credit deal volumes fell 
+substantially (39%) but aggregate deal value only decreased by 18%, due to an increase in 
+the average deal size.51 
+Historically high returns 
+ 
+45   IMF, Moody’s (Growing leveraged finance liquidity risks are harbinger for private credit. 16 May 
+2022) 
+46   See, for example, IMF 
+47   See, for example, EIF/Invest Europe and Bain (2023) Global Private Equity Report 2023.   
+48   AIMA (2022) Financing the Economy 
+49   Preqin Ltd (2023) Global Report 2023 –Private Equity and Preqin Ltd (2023) Charts and league 
+tables, accessed May 2023, see also Bain, Global Private Equity Report 2023 
+50   Preqin Ltd (2023) Global Report 2023 –Private Equity and Preqin Ltd (2023) Charts and league 
+tables, accessed May 2023 
+51   Preqin Ltd (2023) Charts and league tables, accessed May 2023 
+
+=== PAGE 19 ===
+ 16
+ 
+   
+Private markets have historically achieved greater returns, on average. According to recent 
+Pitchbook data, aggregated public benchmark performance generated cumulative 18.8% 
+return between Q1 2020 and September 2022, compared with an 84.0% Net Asset Value 
+(NAV) increase in private equity over the same period. Likewise, one recent study by the 
+asset manager Cliffwater found that over the 22-year period ending June 30, 2022, net-of-
+fee returns of state pensions’ private equity allocations were 11.4% on an annualized basis, 
+compared with the 5.8% annualized return for public stocks.52 Investors may be expecting 
+similar returns in the future, with managers finding it more difficult to match or exceed 
+them in times of worsening economic conditions. 
+Figure 6. Private credit deals 2000-2022 
+ 
+Source: Preqin Ltd (2023) Charts and league tables (accessed May 2023)  
+Lower allocations to private finance, and more selectivity by investors 
+In the same way as lower interest rates drove a search -for-yield environment in the years 
+leading up to 2022, higher interest rates would be expected to impact investor risk appetite 
+and could reduce the relative attractiveness of private finance markets.  Constraints on the 
+availability of capital will likely be a key challenge, and some industry stakeholders have 
+indicated that portfolio companies of both private equity and private credit funds may face 
+refinancing risk, especially if the high-rate environment persists beyond 2024 (see “lending 
+standards and loan terms”, below).53  
+There is also some evidence of fund investors becoming more selective in their allocation 
+to private finance strategies.54 Indeed, Preqin data for the first three quarters of 2022 shows 
+a substantial decline in the number of funds that closed (137 up to Q3 2022, versus 273 for 
+ 
+52  See Cliffwater report, February 28, 2023 
+53   See, for example Pitchbook (2023)  
+54   See, for example, Bain (2023) Global Private Equity Report 2023 
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023 YTD
+Deal Value (USD bn)
+Number of deals
+Aggregate Deal Value (USD bn) Number of deals
+
+=== PAGE 20 ===
+ 17
+ 
+   
+all 2021), with larger commitments going to fewer managers, and the top 10 funds 
+accounting for a larger proportion of aggregate capital raised (50% versus 36% in 2021).55 
+Increased selectivity may also manifest itself in other ways. For example, bargaining power 
+may shift from private finance firms to investors in terms of fees and the sharing of rents.56 
+Investors may also seek more transparency of fees and performance, or more control over 
+the direction of portfolio companies. 57 Finally, there may be industry consolidation, 
+potentially affecting competition.  
+Changing strategies 
+The exit environment is increasingly challenging. The aggregate value of global exits 
+decreased by 32% in 2022 compared with 2021 (figure 7), and the value of private equity-
+backed IPOs decreased by more than 68%, following steep declines in public markets .58 
+This may lengthen investment  holding periods, particularly if IPO market illiquidity 
+persists.59 New exit routes may be used, with predictions, for example, of increased deal 
+flow in the secondaries market .60, 61 Funds may also look to raise finance in other ways, 
+such as through NAV financing62 and offering their products to retail investors.63 Finally, 
+there may be more focus on adding value to portfolio companies through operational and 
+strategic improvements, rather than generating returns through rising valuations or high 
+leverage.64  
+Procyclicality  
+Views differ on whether private markets are procyclical or magnify the fluctuations in an 
+economic cycle. Some market participants  contend that private credit tends to remain 
+“open” and support s resilience through providing diversification in sources of funding,  
+while traditional sources of finance tend to retrench during times of stress. Some i ndustry 
+ 
+55   2023 Preqin Global Private Debt Report 2023 
+56   See, for example, CEPR and CEPR2 
+57   See, for example, Dechert’s 2022 Global Private Equity Outlook, where 47% of respondents 
+indicated that LPs are expressing a desire for greater control over the direction of portfolio 
+companies.  
+58   S&P (2023) Private equity exits plummet in 2022 | S&P Global Market Intelligence 
+(spglobal.com) 
+59   See, for example, Bain (2023) Global Private Equity Report 2023 and EIF’s Venture Capital 
+Survey 2022. 
+60   Secondary funds, commonly referred to as secondaries or continuation transactions, purchase 
+existing interests or assets from primary private fund investors. For example, a primary private 
+equity fund may purchase a stake in a private company, and then sel l that interest to a secondary 
+buyer. 
+61   For example, Preqin’s November investor survey revealed that over half (52%) of respondents 
+view use of private secondaries as presenting the best opportunities over the next 12 months.  
+62   See, for example, Deloitte and Bloomberg  
+63   For example, Dechert’s 2023 Global Private Equity Outlook reports that 37% of surveyed senior 
+PE executives believe that retail access to PE vehicles will expand.  
+64   See, for example, The Economist and Bain (2023) Global Private Equity Report 2023 
+
+=== PAGE 21 ===
+ 18
+ 
+   
+commentators also point to the long horizons of private market investors, which can mean 
+that borrowers are less impacted by short-term market volatility.65 
+On the other hand, the Bank for International Settlements (BIS) concludes that private 
+markets “appear every bit as procyclical as public markets”, with BIS quantitative research 
+finding that capital deployment in private equity and private credit is positively correlated 
+with stock market returns.66 This relationship is similar to the procyclicality of leveraged 
+loans and equity capital raising  and could be linked to the lower risk premia that 
+accompanies periods of high stock returns. T he leverage involved in private equity may 
+also contribute to procyclicality, with fund managers able to support more debt when their 
+net asset value rises.  
+Private markets’ performance during past downturns.  
+There is some research to  suggest that private equity investors who did not retreat and 
+continued allocating capital during times of stress fared well during market turbulence in 
+the last two decades. Indeed, private equity generated some of its best performance results 
+during the dot-com crash of 2001 and the 2008- 2009 GFC.67 These results coincide with 
+others showing that during the dot-com crash and GFC, private equity recorded less severe 
+hits on the investment multiple compared to public equity indices.68 
+Figure 7. Private equity-backed exits by type, 2020- 2022 
+Aggregate exit value (USD Billion) 
+ 
+Source: S&P (2023); Data compiled Jan. 4, 2023. *Includes bankruptcy or write -off, 
+private placement or follow on, sale to management, and unspecified exits.  
+In addition, there is some evidence to show that private equity-backed companies operating 
+during the GFC increased capital expenditure compared with peers without this backing. 
+ 
+65   For example, Moody’s (Growing leveraged finance liquidity risks are harbinger for private credit. 
+May 2022). 
+66   BIS (2021) The rise of private markets, BIS Quarterly Review, December 2021  
+67   Pitch book (2023) Q2 2020 Private Market Playbook  
+68   Bernstein, Lerner and Mezzanotti, (2017) Private Equity and Financial Fragility during the Crisis 
+4.9
+10.2 12.7 21.3 13.7 21.1 11.7 7.3
+3.3
+4.4
+2.6 2.9
+5.7
+11.4 12.7
+16.6 24.8 19.7
+16.7 13.4 13.1 6.4
+3.5 0.7
+19.9
+0.7 25.9
+16.5 25.5
+36.6
+26.7 45.1
+20.4
+13.9 9.1 8.6
+20.3
+5.0
+43.0
+64.5 51.8
+68.9
+62.1
+131.6
+84.4 104.0
+52.2 61.9
+Q1 2020 Q2 2020 Q3 2020 Q4 2020 Q1 2021 Q2 2021 Q3 2021 Q4 2021 Q1 2022 Q2 2022 Q3 2022 Q4 2022
+Other exits*
+IPO
+Secondary Sale
+Trade Sale
+
+=== PAGE 22 ===
+ 19
+ 
+   
+As a result, those companies were able to increase market share and experience higher asset 
+growth during the crisis. A  Stanford University and The Kellogg School of Management 
+study indicated that the positive investment effects of private equity were particularly large 
+in companies which would have been otherwise more likely to be financially constrained 
+at the time of the crisis. The study, which included analysis of almost 500 private equity-
+backed companies in the UK during the GFC, found that these firms recovered faster from 
+the crisis and captured more market share relative to comparable non-private equity-backed 
+competitors. 
+These studies suggest that  private equity backed companies are more resilient to market 
+falls. Private equity fund managers are also not compelled to sell illiquid assets to satisfy 
+redemption requests from exiting investors. Yet limited partners may have pressure to re-
+balance their portfolios by reducing exposures in alternative assets. Therefore, an abrupt 
+correction in public markets may slow the inflow of funds to private markets , impairing 
+the capital available for small and medium-sized companies.  
+Chapter 1: An Opaque Market 
+Private funds have considerably fewer reporting obligations to the public than, for example, 
+publicly listed or registered funds. 69,70However, many jurisdictions collect detailed  
+recurrent data at the fund and portfolio levels, including on private finance activities, even 
+if that data is only reported to regulators. Still, certain parts of the private finance markets, 
+such as  information on portfolio companies, may remain opaque. Furthermore, unlike 
+investments in the portfolios of public counterparts, private finance investments  are 
+generally not rated by credit rating agencies, and valuations are generally periodic though 
+infrequent (e.g., quarterly).  
+Transparency is not costless. T he costs associated with  public market reporting and 
+disclosures, along with other compliance issues, are cited as one of the drivers of growth 
+in private finance activities. In contrast, while compliance costs in private markets are 
+considerably lower, investors are more reliant on specialist intermediaries such as private 
+equity and private credit firms to conduct more bespoke  and costly due diligence on their 
+behalf.71  On one hand, while this opacity provides investors with some insulation from the 
+transparency costs faced in public markets, it also jeopardizes availability of information  
+for investors and regulators to use in effectively assess ing risks. This includes risks that 
+could arise due to the way in which private finance firms conduct their activities (for 
+example valuations, conflicts of interest), from their interconnections with the wider 
+financial system, and from how macro- financial developments could impact the sector, 
+portfolio companies, and the real economy (see Chapter 4 on risk transmission to public 
+markets).   
+ 
+69   See for example, Table 1 
+70    It should be noted that the US SEC recently adopted new rules and rule amendments to 
+enhance the regulation of private fund advisers  (see https://www.sec.gov/news/press-
+release/2023-155)  
+71   Phalippou, L. (2020) An Inconvenient Fact: Private Equity Returns & The Billionaire Factory  
+
+=== PAGE 23 ===
+ 20
+ 
+   
+Opaque Valuations 
+Fund valuations have the potential to be a key contributor to risks in private finance 
+activities. In recent years, valuation gaps between public and private assets have arisen .72 
+There may be several explanations for this gap:  
+• Private assets may have a higher value than public assets due to some characteristic 
+that is correlated with the private finance business model.  
+• Private valuations are inevitably stale. For example, w here listed equities can be  
+valued by investors many times a minute, private funds may value their assets as 
+infrequently as quarterly, or even annually, and do not have active secondary 
+markets. This may lead to a gap where there is a large change in valuations in public 
+markets in the period between valuations.  
+• While private fund managers often follow third- party guidelines around valuation 
+principles, there is a greater level of uncertainty regarding valuations – see below. 
+Stale valuations 
+Valuation of private market assets, which tend to be periodically , though infrequently, 
+repriced, moves at a different pace compared to the typical daily price movements in public 
+investments. Though the pace may be indicative of the general “buy to hold” nature of 
+private finance investments, the difference in valuation timing can result in a staleness in 
+valuations. There is usually a 2 or 3 quarter lag between a decline in  public market  
+valuations and the impact becoming fully evident in private markets. For example, during 
+the GFC in 2008, while the S&P 500 declined 30% between the first and third quarter, new 
+private capital continued to be invested during this period. Similarly, as the listed stock 
+market valuations began to recover in the third quarter of 2009, private capital invested 
+remained depressed for two more quarters.73  
+Staleness of valuations has dual effects. Over the past decade, buyout funds have exited 
+assets at valuations exceeding their last quarterly mark nearly 70% of the time.74 The Bain 
+report in which this figure was published cites this as evidence that private equity firms 
+may undervalue their assets. However,  this may also be a function of timing, since when 
+markets are rising on average, valuations that are stale tend to be low. 
+By contrast, when public markets are down materially, as in 2022, this could raise questions 
+about private capital overvaluations. 75 In extreme cases, this could lead investors to seek 
+to exit the fund before it is revalued downwards (a “ first mover advantage”), although in 
+practice this risk is mitigated by the fact that private funds are, typically, closed -end and 
+do not allow redemptions by investors during the fund’s lifespan.  
+ 
+72   Pitchbook (2023) Q1 2023 PitchBook Analyst Note: How Macro Risks Are Shaping the Outlook 
+for US Private Markets | PitchBook 
+73   How the Current Public Equity Downturn Could Work Its Way Through Private Markets Lessons 
+From the 2000 Dotcom Debacle and the 2008 Global Financial Crisis. Dushyan Shahrawat, 
+Udayveer Singh Chawla, Vikas Shah 
+74   Bain (2023) Global Private Equity Report 2023 
+75   Institutional Investor and SP Global  
+
+=== PAGE 24 ===
+ 21
+ 
+   
+Valuation methodology 
+In preparing financial statements, private fund managers are generally required to follow 
+accounting principles found in the US Generally Accepted Accounting Principles (GAAP) 
+or International Financial Reporting Standards ( IFRSs) (collectively, “applicable 
+accounting standards”) in valuing fund investments. Determining which to apply (i.e., US 
+GAAP or IFRS) depends on a variety of factors, including the user of the financial 
+statements. 
+For investments that lack an observable market, the applicable accounting standards do not 
+require any single valuation technique to be applied. Instead, they discuss several broad  
+valuation approaches and specify principles that must be followed when measuring fund 
+investments at fair value in accordance with these standards.76  However, the fair value of 
+investments that lack an observable market generally have a greater level of uncertainty 
+than those that have an observable market.  For example, analysts have reported that, in the 
+US, the sheer size of the valuation gap between public and private assets has primarily been 
+caused “by extreme markups in private valuations that have little chance of ever being fully 
+realized.”77  
+Vulnerabilities from valuation practices 
+Valuations of private finance investments are subjective because of their illiquid nature and 
+lack of secondary market, with many managers designating such investments as “buy and 
+hold.” Managers may be incentivized to maintain their (higher) valuations on private 
+finance inves tments despite falling prices in public markets or use improper valuation 
+methodologies to achieve such a goal. 
+Stale or inaccurate valuations could negatively impact market integrity and, in some cases, 
+may cause or exacerbate investor losses. By definition, stale valuations may impede price 
+discovery and can lead to inefficient capital allocation.  This could have direct implications 
+for institutional investors that  are obliged to maintain certain allocations to private and 
+public markets. In particular, i nflated valuation s would result in investors becoming 
+overexposed to private finance activities.  
+Uncertainty around valuation accuracy could also become a trigger for a broader loss of 
+confidence. Risks arising from valuation uncertainty can be exacerbated by a general lack 
+of transparency since, in the absence of objective and readily available data, there is an 
+increased likelihood that new information c ould come as a shock to some market 
+participants. A negative valuation shock could lead to discounted sales on secondary 
+markets or, where available, attempted withdrawals from the fund, particularly where 
+investors believe that the real value of assets may be lower than the book value. 
+Valuation concerns and associated conflicts of interest (see Conflict of interest, below) 
+could also be unearthed under a scenario where portfolio companies and their sponsors 
+ 
+76   For example, when applying a given valuation technique, the applicable accounting standards 
+require entities to maximize the use of observable inputs and minimize the use of unobservable 
+inputs. For US GAAP, see 820-10-35-24 (ASC Topic 820, Fair Value Measurement). For IFRS, 
+see IFRS 13 para 67 (IFRS 13, Fair Value Measurement). 
+77   Preqin (2023) Q1 2023 PitchBook Analyst Note: How Macro Risks Are Shaping the Outlook for 
+US Private Markets  
+
+=== PAGE 25 ===
+ 22
+ 
+   
+return more prominently to raising capital through the public equity markets (e.g., through 
+IPOs or SPACs).  
+Conflicts of interest 
+Conflicts of interest often arise in relation to private finance activities , and investors and 
+other interested parties may not be fully informed about the ways and extent to which these 
+conflicts are managed. Conflicts  may arise at several points throughout the lifecycle of a 
+private equity or private credit fund, and at different levels of the fund structure. They can 
+occur at the fund level (e.g., pressure to deploy capital), between different types of investors 
+(e.g., private equity and private credit funds investing in the same portfolio company, or 
+between buyers and sellers in continuation vehicles) , and for individuals in the firm. The 
+following summary describes select ed conflicts of interest faced by private finance 
+managers.  
+Fees and Fee Structure  
+Typically, fund managers charge an annual management fee of 1% to 2% of committed 
+capital (though in some funds the fee is charged on invested capital), which is used to cover 
+the fund's operating expenses. 78,79 This fee is charged regardless of performance and can 
+represent a significant source of revenue for the firm. Managers may have less incentive to 
+generate strong returns if they  can earn a substantial fee simply by maintaining  the fund. 
+However, in such cases the manager may be less incentivized to rely solely on management 
+fees for their economic compensation, as they would be foregoing a lucrative performance 
+fee (described below). 
+Another potential conflict arises from the carried interest or performance fee that private 
+finance managers receive when the fund generates certain returns . Typically, managers 
+receive a percentage of the fund's profits above a certain threshold, such as an 8% hurdle 
+rate. This fee is intended to align the manager’s interests with those of the investors, as the 
+manager only receives a fee if the fund generates strong returns. However, investors could 
+be concerned that the manager has an incentive to take excessive risks or pursue short-term 
+gains in order to generate a performance fee, rather than focusing on long- term value 
+creation80(though such risks are somewhat mitigated by “ clawback” provisions). Further 
+to this, performance is often measured using internal rate of return ( IRR), which some 
+research shows may be subject to manipulation, such as through use of subscription credit 
+facilities. In one survey, 30% of private equity executives said that the greatest advantage 
+of subscription credit facilities or net asset value financing was that it boosted IRR by 
+allowing funds to call capital at later dates.81 
+ 
+78   Private credit management fees are traditionally 1%. Block et al (2023) A Survey of Private Debt 
+Funds 
+79   The “2 & 20” structure or 2% management fee and 20% performance fee is common in private 
+equity. See, for example, Fried (2017) Only One Type of Private-Equity Fund of Funds Earns Its 
+Fees 
+80  The-Alignment-of-Interests-between-the-General-and-the-Limited-Partner-in-a-Private-Equity-
+Fund__Full-Article-1.pdf (harvard.edu)  
+81    Dechert (2023) 2023 Global Private Equity Outlook  
+
+=== PAGE 26 ===
+ 23
+ 
+   
+The mix of management fees, performance fees, hurdle rates and clawback provisions are 
+intended to balance the economic incentives a manager may have in managing their fund, 
+although their effectiveness can be debated. 
+There can also be conflicts of interest related to transaction fees and expenses, as managers, 
+particularly in private equity, may receive fees from portfolio companies for services such 
+as financing or consulting. The manager could prioritize its own interests over those of the 
+fund and its investors when negotiating these fees and/or providing such services. 
+Competing funds and investments 
+Many private credit funds are sponsored by private equity firms 82 and invest in private 
+equity sponsored deals.83 Conflicts are likely to arise when the private credit fund of a firm 
+finances a portfolio company of the same firm’s private equity fund, or where the portfolio 
+company is otherwise related to the firm. This conflict may become more acute in times of 
+stress, where the equity and debt holders have competing interests while seeking to protect 
+their investments. Some industry stakeholders have indicated that conflict of the equity 
+investors’ interests with the debt investors’ interests would be  avoided, and generally 
+covered by internal policies that stipulate that fund-sponsoring firms should not favor one 
+set of investors over another. In some cases, regulations place restrictions on transactions 
+(e.g., in the U.S., the Investment Company Act of 1940 places restrictions on affiliated 
+transactions involving registered funds). 
+Some industry stakeholders highlighted that the se practices may occur with some funds 
+when investing in middle -market companies (partly driven by investors’ demands) or in 
+companies that are in distress. In the latter case, conflicts of interests are more relevant if 
+both equity and debt holders contest the assets.  Moreover, a firm that is both a private debt 
+and private equity investor may, for example, use its voting rights ( e.g., in a default 
+situation) as a debt holder to support its  equity position, to the detriment of other debt 
+investors (though fiduciary obligations may mitigate this risk) . Nonetheless, it is difficult 
+to identify where these investments occur and how often related conflicts materialize.  
+Preferential treatment of some investors  
+Private funds, including private equity and private credit funds, may negotiate individual 
+terms with select investors such as fees, preferential redemption rights, portfolio reporting, 
+and excuse rights from funding certain types of investments, among others. These are often 
+granted through side letters, which may not be visible to other investors.  
+Some jurisdictions are proposing to mandate disclosing such preferential treatments to 
+prospective and existing investors. Private funds may prefer to avoid making such 
+bilaterally negotiated terms known to other investors as they could in turn demand similar 
+rights.  
+ 
+82   In a recent survey by Block of 38 U.S. and 153 European private credit firms found that 25% of 
+the U.S. and 40% of the European respondents are affiliated with a private equity firm. Block et al 
+(2023) A Survey of Private Debt Funds 
+83   Block survey also found that 78% of U.S. and 42% of European private credit funds invest 
+significantly greater fraction of capital in PE-sponsored deals. Block et al (2023) A Survey of 
+Private Debt Funds 
+
+=== PAGE 27 ===
+ 24
+ 
+   
+Continuation funds 
+Conflicts can also arise between the interests of existing and new investors in continuation 
+funds, due to ambiguity about valuations. In a continuation fund, the private equity fund 
+will raise new capital from investors to purchase the remaining portfolio  companies from 
+the original fund. The valuation of the portfolio companies is an important step in the 
+process of creating a continuation fund, as it is used to determine the amount of capital that 
+will be needed to purchase the remaining investments from the original fund.  
+This process can result in conflicts of interests, as the private equity  firm and investors in 
+the original fund may have differing opinions on the value of the remaining investments, 
+and there may be disagreements about the price at which the investments should be sold to 
+the continuation fund.  
+There could also be a misalignment of interests between the private equity firm and the 
+fund's investors in the creation of a continuation fund. There is no standard methodology 
+for valuing private equity investments ( see “Valuation”, above), which can lead to 
+inconsistencies in the reported valuations of different firms. While price discovery is a  
+concern in continuation funds, there are certain ways in which these conflicts may be 
+mitigated, including through use of a third party such as a valuation agent or an unaffiliated 
+investor, or via auction. As noted above  (“changing strategies”), the current challenging 
+exit environment may contribute to increasing use of continuation funds.   
+Investment opportunities 
+Dry powder refers to the amount that has been committed to the fund by the investors but 
+has not yet been called. As the fund manager identifies investment opportunities, it issues 
+a capital call to investors, after which investors have a short period (e.g., two weeks) to 
+transfer funds to the manager.  
+Dry powder can provide liquidity to the market and be a stabilizing factor,84 but it can also 
+incentivize managers to deploy capital inefficiently if under pressure to invest. This 
+pressure could increase private debt financing of riskier deals.  Similarly, pressure to 
+deploy capital could result in private equity funds overpaying for firms.85  
+The availability of dry powder could also have an impact on loan terms. On one hand, the 
+potential speed and certainty of access to financing could lead borrowers to accept stricter 
+covenants86 but, on the other hand, pressure to deploy could lead to looser covenants in 
+private credit deals (see below).87  
+ 
+84  Bloomberg and  Financial Times  
+85   Relatedly, banks financing private equity buyouts in the broadly syndicated loan market could 
+struggle to offload the debt and bonds financing the buyouts due to changing market conditions; 
+see, for instance, Financial Times  
+86   Guilford and Unmack (2022) Private credit’s main threat is itself, Reuters, July 8 2022 
+87   Brooke (2019) Lack of, or looser, covenants could prove costly for funds and their investors 
+Reuters  
+
+=== PAGE 28 ===
+ 25
+ 
+   
+Vulnerabilities from conflicts of interest 
+Conflicts of interest could incentivize market participants to make decisions that erode trust 
+in the market  or lead to an inefficient allocation of capital . Such conflicts can also 
+exacerbate other potential risks in private markets. 
+For example, in many jurisdictions, regulators have limited visibility into  portfolio 
+company leverage. In the absence of conflicts of interest, this may not be of great concern, 
+since private equity fund managers should, in theory, choose a level of leverage that 
+balances the benefits of leverage against the cost of credit and the increased default risk , 
+resulting in an optimal outcome for fund managers and investors. Any departures from this 
+balance would be incidental. By contrast, where conflicts of interest incentiv ize fund 
+managers to choose risky levels of leverage, the lack of transparency c ould become a 
+significant concern for investors and for the market. Investors, for their part, could choose 
+a portfolio that is riskier than intended. Industry stakeholders suggest that firms typically 
+have mechanisms in place to manage conflicts, but this may not always be the case, or such 
+mechanisms may not be sufficient and/or tested.   
+
+=== PAGE 29 ===
+ 26
+ 
+   
+Chapter 2: The use of leverage in private finance 
+Leverage is an inherent part of private financing activity. Both private equity and private 
+credit rely on the use of leverage, primarily at the level of the portfolio company, but also 
+in particular at that of the fund (Figure 8). LBOs, in particular (and as the name suggests), 
+induce significant debt exposures.88  
+Figure 8: Private equity and credit financing and leverage sources 
+ 
+Source: IOSCO 
+Portfolio company leverage 
+Target companies are generally prompted by private equity fund managers to go into more 
+debt.89 In particular, portfolio company leverage is typically significant ly greater after a 
+leveraged buyout and  continues to be greater even five years after the event  (figure 9, 
+below).90 There are a range of views as to why this is the case.  
+One explanation, according to sponsors and academics, is that the optimal level of debt 
+increases after a buyout, since private equity management aligns the incentives of portfolio 
+company managers and of their shareholders. This is said to lead to more efficient firm 
+organisation, and limits costs and raises firm value (not only shareholder value).91   
+ 
+88   Arguably, venture capital is fundamentally less prone to leverage its returns, also due to the cost of 
+related debt. This point remains to be assessed on a more factual basis. 
+89  Axelson, U., P. Strömberg, M. Weisbach (2009) Why Are Buyouts Levered? The Financial 
+Structure of Private Equity Funds,   
+90   Haque, S (2022) Does Private Equity Over-Lever Portfolio Companies? 
+91   Guo S., E. Hotchkiss, W. Song, 2009 
+(iv) Portfolio company leverage (e.g., debt incurrence)
+Fund
+Management Company
+Fund-Owned 
+Borrowing Vehicle 
+(SPV/ HoldCo)
+Leverage Provider 
+(e.g., banks, 
+syndicates, debt 
+funds)
+Operating Company 
+(OpCo)
+Leverage
+(ii) Fund leverage (e.g., subscription facility)
+Financial/tax structure setup by the fund
+Acquisition of fund shares 
+(with different rights)
+Fund Ownership
+Investors
+(iii) SPV/Holding Company leverage (e.g., asset-backed facility)
+(i) Management Company 
+and/or investor leverage of 
+investment in Fund
+Legend:
+Co-investment
+Investment via equity (PE), credit (PC) or combination of both
+
+=== PAGE 30 ===
+ 27
+ 
+   
+In addition, some stakeholders and academics have reported greater incentives for flexible 
+solutions in the event that  firms need to restructure. 92 More generally, it is assumed that 
+the risk from higher leverage is matched by a rise in efficiency and returns – in other words 
+the argument is based on a risk-return trade-off.93 
+However, some academics have argued that buyout leverage is not primarily determined 
+by firm-specific factors, but rather the market -wide condition of the credit markets at the 
+time of the buyout.94 This implies that any risk-return trade-off is also not firm-specific and 
+may therefore be higher than optimal for some firms.  Other academics have noted that the 
+risk-return trade-off may not fully incorporate the wider  cost of firm failure, especially in 
+cases of private equity ownership, since fund managers capture much of the gains 
+associated with leverage, but do not bear the full costs of bankruptcy.95  
+Figure 9: Leverage Ratio in Companies before and after PE Investment 
+ 
+Notes: This chart plots Leverage Ratio (Net Debt/Asset) of a large sample of portfolio 
+companies each year since PE-takeover. Source: Bureau Van Djik and Haque, S (2022) Does 
+Private Equity Over-Lever Portfolio Companies?  
+It is difficult to establish the relationship between  portfolio company leverage and fund 
+performance using empirical analysis, and commonly used metrics have been criticised as 
+overly simplistic .96 Generalizations are particularly problematic since leverage has 
+multiple uses. For example, leverage is often used for external growth (M&A) deals, where 
+private equity ownership is commonly thought to add value in handling. 97 By contrast, 
+ 
+92   Jensen M., 1989 Eclipse of the Public Corporation 
+93  Jensen M., 1989 Eclipse of the Public Corporation 
+94   Axelson, Borrow Cheap, Buy High? The Determinants of Leverage and Pricing in Buyouts  
+95   See, for example, Magnussen S. The Public Cost of Private Equity (tamu.edu)  
+96   See, for example, KPMG; 2016 Evaluating private equity’s performance (kpmg.com) on the limits 
+of the value bridge framework’s capacity to assess the contribution of leverage to firm value 
+creation. 
+97   See, for example, Kaplan and Stromberg Leveraged Buyouts and Private Equity - American 
+Economic Association (aeaweb.org) 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+Years Relative to Deal Year
+Interquartile
+range
+Q 50
+
+=== PAGE 31 ===
+ 28
+ 
+   
+portfolio company debt often finances dividend recapitalization, whereby portfolio 
+companies take on additional debt in order to pay special dividends to private equity fund 
+shareholders. In such cases the benefits of the leverage to the portfolio firm are less clear.98  
+Regulators have limited visibility of portfolio fund leverage 
+There is only limited administrative data on the extent of portfolio company leverage. 
+Banks may have visibility over portfolio company leverage, but supervisory evidence on 
+portfolio company leverage varies by jurisdiction. For example, in the US, SEC reporting 
+(Form PF) requires large private equity fund advisors to report on a range of indicators on 
+the indebtedness of their controlled portfolio companies’ (CPCs).99 In Europe, by contrast, 
+the Alternative Investments Fund Managers Directive (AIFMD) framework specifically 
+excludes reporting on leverage at the level of a portfolio company.100 
+Available evidence suggests that there has been a meaningful rise in leverage ratios, 
+especially for leveraged buyouts (Figure 10, below ). S&P Global Ratings reports that the 
+median corporate debt ratio rose continuously between 2003 to 2021. Ratios increased in 
+the US from 4 to 6 times, and in the EU the increase was from 4 to 7 times debt to equity.101 
+Leverage at the fund level 
+While some f und-level leverage is relatively common, leverage ratios are generally 
+relatively low  and exposures at the fund level are subject to US, the UK and the EU 
+reporting rules.    
+However, fund-level leverage is generally not borne directly by the fund but by a holding 
+company or special purpose vehicle ( SPV) (figure 8, above), via which the fund invests 
+into portfolio companies. Such vehicles are often set up to take advantage of offshore tax 
+benefits.102  
+For private equity funds, in principle, the debt of such vehicles is secured by portfolio 
+company asset collateral so that net fund debt does not exceed the value of their assets , 
+since investors are not liable to fund debts in excess of their investment amount. In Europe, 
+this characteristic enables the debt to be excluded from  European reporting requirements 
+under AIFMD rules.103 Such debt is also exempt from reporting requirements in the U.S. 
+As a result, it remains challenging for regulators and most market participants to assess the 
+risks associated with fund-level leverage. 
+ 
+98   The New York Times Private Equity Firms Are Piling On Debt to Pay Dividends; Dividend 
+recaps, (…) long condemned for loading up companies with debt (…), has surged. 19 Feb. 2021.  
+99   Form PF requires disclosure of a fund’s CPCs’ weighted average debt-to-equity ratio, highest and 
+lowest debt-to-equity ratio of any CPC and the type and amount of CPC borrowings (e.g., current 
+or long-term), among other disclosure requirements.  
+100   AIFMD Recital 78 
+101   S&P Global Ratings 
+102   Vehicles incorporated in offshore jurisdictions (e.g., Cayman or Virgin Islands) are typically not 
+subject to any direct income tax on their income, nor any withholding or similar income tax on 
+distributions to their investors. However, this does not normally apply to taxes on their investment 
+activities in other (e.g., onshore) jurisdictions. 
+103   AIFMD Delegated regulation  231/2013, Art. 6 3 
+
+=== PAGE 32 ===
+ 29
+ 
+   
+Other sources of leverage have also been increasingly relied upon by private equity funds. 
+This includes newer forms of borrowing, such as NAV financing and c ollateralised fund 
+obligations (CFOs) (See Box 3).  Innovation in areas such as these may lead to new risks 
+arising in respect of borrowing/leverage, including where transparency is lacking. More 
+typically, a rising reliance on subscription bridge financing and credit lines (SCLs) 104 has 
+been noted (see conflicts of interest, above). SCLs consist of short -term debt (e.g., up to 
+three years) and are generally used as a cash flow management tool, typically to smooth 
+and make LP capital calls more predictable. The scope of the use of such credit sources has 
+however been questioned, particularly due to the ability for fund managers to use  them to 
+enhance fund performance (i.e., IRR) metrics.105  
+SCLs may affect fund performance. Private equity firms commonly use the internal rate of 
+return (IRR) as a measure of performance which can be increased by bringing forward the 
+timing of distributions or delaying capital calls, thus shortening the investor’s holding 
+period for the applicable investment.106 This can affect manager decision-making and can 
+be a source of conflict of interests, since fees are often paid based on performance and 
+strong “on paper” performance may support fundraising. On balance, however, BlackRock 
+has found the impact on IRR to be modest, and SCLs are more useful in simplifying fund 
+operations than boosting performance.107 
+Fund level leverage is also relatively common in credit funds.108 A 2021 survey of investors 
+for 119 European and 38 US firms, with AUM dedicated to private debt of at least €180 
+billion and $136 billion respectively, found that 95% of US funds and 33% of European 
+funds used some leverage.109  
+Vulnerabilities from leverage 
+Leverage is an inherent characteristic of private markets, and although unlikely to be 
+concentrated in any one entity, multiple layers of leverage could pose risks. For instance, 
+portfolio companies of private equity funds are highly levered, on average. Similarly, credit 
+funds may lend to borrowers that incur higher levels of leverage than a bank would 
+generally finance. In the current inflationary environment, highly levered portfolio 
+companies would expect to see increased costs and may also see decreased output in the 
+event of a broader downturn.  
+In addition, several leverage sources may impact cumulatively along financing chains. For 
+example, deleveraging of a portfolio company could impact on the ability of its holding 
+fund to refinance its own debt (if it was leveraged), and, further, on GPs and fund managers 
+ 
+104   See e.g. BlackRock, Understanding the impact of subscription lines on private equity funds. 
+105   Braun R., J. Cornel, P. Schillinger (2019) stress their distorting effects, namely their “potential to 
+increase time-sensitive return measures substantially” and thereby to alter also fund rankings. 
+106   See, for example, Internal rate of return: A cautionary tale | McKinsey and How do private equity 
+funds measure performance? - Financial Advisers - Schroders 
+107   See e.g. BlackRock, Understanding the impact of subscription lines on private equity funds. 
+108   AIMA (2022) Financing the Economy 
+109   Block et al (2023) A Survey of Private Debt Funds 
+
+=== PAGE 33 ===
+ 30
+ 
+   
+that would have gone into debt to finance their own investments in the fund. Accordingly, 
+leverage sources should be considered from a network/system-wide perspective. 
+ 
+Box 3: Collateralized Fund Obligations110 
+Collateralised Fund Obligations (CFOs) are a re- emerging securitization strategy that 
+allows private equity funds to free up cash flows and access a wider investor base by 
+creating an alternative channel for secondary sales. They can be composed of a variety 
+of private assets and allow a fund t o re-allocate or re-balance its holdings. CFOs offer 
+more favorable pricing and the ability to tranche a senior, mezzanine, and equity piece, 
+which allows the sponsor to bring in a wider swath of interested investors with different 
+investment goals. 
+CFOs provide a way for institutional investors to gain exposure to private financial assets 
+in a structured and capital-efficient rated format. For insurers and pension funds, CFOs 
+can lower the carrying costs or tax implications by converting equity positions to debt 
+holdings. In a PE fund securitization: 
+• The transaction sponsor transfers LP interests in private equity funds into a 
+special purpose vehicle (SPV) 
+• The SPV then issues tranches of debt and equity that are sold to various investors, 
+typically including a portion retained by the sponsor.  
+• Proceeds of the sale are used to pay the sponsor for the initial transfer of LP 
+interests.  
+• Cash distributions from the underlying funds over time are used to pay for capital 
+calls from the funds, the expenses of the SPV, interest and principal of the notes, 
+with the remainder going to the equity. 
+ 
+CFOs may build upon existing leverage at the fund and portfolio company levels, where 
+funds may be borrowing against investor’s commitments, and lenders’ claims on fund 
+assets could interrupt cash flows to bondholders. Due to their opaque structure and low  
+transparency on their asset base, CFOs may amplify risks of private finance to a wider 
+asset base.    
+CFOs are likely to be an area of continued innovation and variety— with structures as 
+variegated as the assets underlying the transactions — and demand driven by 
+sophisticated, regulated investors. These features, while generally designed to manage 
+risk, may come at the cost of transparency. 
+ 
+  
+ 
+110   Dechert (2022) Collateralized Fund Obligations (CFOs): The Technicolor Dreamcoat of Fund 
+Finance; Wiggins (2022) “Collateralised fund obligations: how private equity securitised itself”, 
+Financial Times (25 November 2022); and, Fitch Ratings (2019) PE CFOs: Securitizing Private 
+Equity Fund Interests,. 
+
+=== PAGE 34 ===
+ 31
+ 
+   
+Chapter 3: Threats to Market Integrity  
+Potential issues in the private credit market  
+For firms that face liquidity needs and are otherwise unable to access the public capital 
+markets, private credit has a reputation as “ bear market capital” available during periods 
+of market stress, albeit at a price. 
+More generally, industry practitioners state that private credit provides financing in key 
+growth areas, particularly where or to whom banks are unwilling or unable to provide 
+credit.111  Increasingly, larger private credit fund sizes and new loan structures are enabling 
+lending that was not feasible in the past (see Box 2). 112 In these ways, private credit is 
+growing and in many ways filling a gap left as banks tighten credit. 
+Lending standards and loan terms 
+Roundtable participants argued that deal multiples – which increased significantly during 
+the period of expansionary monetary policy and are beginning to decrease – reflected value 
+for money, and therefore could be an appropriate proxy for lending standards in debt -
+financed deal (figure 10). 
+The vast majority of leveraged loans issued in recent years are classified as covenant -lite, 
+meaning that they contain fewer restrictions on the borrower and fewer protections for the 
+lender. The share of covenant -lite loans in the institutional loan market reached 91% in 
+October 2021. For loans backing leveraged buyouts, this figure was even greater (figure 
+11). 
+In private credit, unlike in the broadly syndicated loan market, covenants are still written 
+into most loan agreements, although the number of covenants declined in the low-rate years 
+leading up to the beginning of 2022, to include an average just over one in many deals since 
+ 
+111   Block et al (2023) A Survey of Private Debt Funds  
+112    Private Debt: A Lesser-Known Corner Of Finance Finds The Spotlight: SP Global  
+Figure 10: Average EBITDA purchase price multiple for leveraged buyout transactions 
+ 
+Source: Bain (2023) Global Private Equity Report 2023 
+0
+2
+4
+6
+8
+10
+12
+2000 2005 2010 2015 2020
+US
+EU
+11.9x 
+10.7x 
+
+=== PAGE 35 ===
+ 32
+ 
+   
+2015.113 Private credit funds primarily utilize cash flow-based covenants as they are largely 
+cash flow-based lenders.114  
+ 
+Possible vulnerabilities in debt servicing   
+Rising inflation and the rising interest rate environment since early 2022 could impact 
+private credit loans as they are typically based on variable rates such that borrower 
+servicing costs rise as interest rate rise. A private credit default index compiled by 
+Proskauer shows an upward trend throughout 2022. 116 As interest rates adjust upward, 
+floating rate loans provide protection for the lenders but potentially make it difficult for 
+borrowers to meet their obligations. According to Proskauer, the private credit default rate 
+ended 2022 at 2.06% -  the second straight month of increases. Companies with EBITDA 
+less than $25 million had a 2.7% default rate, up from 1.5% in Q3 2022. While these are 
+notable increases, default rates remained well below the peak of 8.1% in that index, reached 
+in Q2 2020. Further, one of the perceived benefits of private  credit is the ability and 
+willingness of lenders to work with stressed borrowers in debt restructuring, such that 
+defaults would be avoided. 
+Portfolio rebalancing 
+Institutional investors have continued to increase their allocations to private assets. In the 
+past five years to 2022, the global average private equity allocation across different types 
+of investors increased from 8.4% in 2017 to 11.2% in 2022 (see Figure 12). This trend has 
+been most evident among insurance companies, which have doubled their average 
+investments in private equity. The search for yield by these investors during the low -rate 
+ 
+113  Block et al (2023) A Survey of Private Debt Funds 
+114   Block et al (2023) A Survey of Private Debt Funds 
+115   S&P Global (2021) Covenant-lite deals exceed 90% of leveraged loan issuance, setting new high 
+116   Proskauer (2023) Proskauer’s Q4 2022 Private Credit Default Index Reveals Default Rate of 
+2.06%, Increasing 0.5% over Previous Period - Insights - Proskauer Rose LLP 
+Figure 11. Covenant-lite new-issue volume and share: LBOs 
+ 
+Data to October 4, 2021 
+Source: LCD, an offering of S&P Global Market Intelligence115 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+0
+20
+40
+60
+80
+100
+120
+140
+2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021
+Volume Share (RHS)
+
+=== PAGE 36 ===
+ 33
+ 
+   
+period was a central  factor in the growth of private finance and remains a key source of 
+capital.    
+The most active investors in global private credit are pension funds.117 On average, private 
+and public pension plans’ allocation to private credit is about 5.5% and 4.9%, respectively.  
+As these large capital providers re -evaluate their strategies in the changing economic 
+environment, the potential unwinding of positions or reduced re -investment in private 
+assets may present key risks over the coming years. The risk- return profile of leveraged 
+assets that became appealing for these investors under the low -rate environment has 
+changed, with portfolio companies subject to increased cost pressures due to inflation and 
+rising interest rates.  
+ 
+ 
+117   Preqin (2023) Global Report – Private Debt 
+Figure 12: Average private equity exposure by institution type (in USD million), 2017 – 
+2022  
+ 
+Source: Private Equity International Investor Report FY-2022 
+ -
+ 500
+ 1,000
+ 1,500
+ 2,000
+ 2,500
+ 3,000
+ 3,500
+ 4,000
+ 4,500
+2017 2018 2019 2020 2021 2022
+Allocation to private equity ($m)
+Private pension fund Public pension fund Insurance company
+Foundation/endowment All institutions
+
+=== PAGE 37 ===
+ 34
+ 
+   
+When rebalancing is required, time and cost are key variables. Fund limited partners  may 
+choose to: 
+• Remain over-allocated, adjust targets or wait for market corrections. 
+• Offload their private assets from semi-liquid funds or potentially engage in sales in 
+secondary markets.  
+• Halt new purchases and/or re-investments.  
+Sentiment among institutional investors towards private assets is moderating, though this 
+may be transitory as markets adjust. The fixed income assets these funds traditionally held 
+against their liabilities are presently providing higher yields than previously and , in some 
+cases, inflation-protection, and may be seen as safer  and more liquid options to private 
+assets. A December 2022 survey found that 24% of these investors believed their funds to 
+be over-allocated to private equity, a significant increase from 2017 when only 4% felt that 
+way. Despite this, investing intentions remain strong with 79% of respondents planning to 
+sustain or increase investment over the next year.118  
+Institutional investors may need to rebalance asset allocations for a variety of reasons, 
+including:  
+• Denominator effect: When values of other portfolio elements decline, private equity 
+or credit may exceed the investor’s target allocation due to the denominator effect. 
+Depending on the prevailing investment guidelines, the portfolio manager may be 
+forced to sell some private finance positions (to the extent possible, as they are 
+typically illiquid) to rebalance the portfolio. However, valuations of private assets 
+in the portfolio may lag public market valuations considerably; situations may 
+occur where rebalancing is triggered without full knowledge of changes in the 
+underlying private asset pricing and adjustments could be premature.  
+ 
+118   PEI LP Perspectives 2023 Study 
+Figure 13: Average private credit exposure by institution type (%)  
+ 
+Source: Private Debt Investor (2022) 2022 Investor Report 
+ 1.0  2.0  3.0  4.0  5.0  6.0
+Private pension fund
+Sovereign Wealth Fund
+Public pension fund
+Insurance Company
+Foundation / Endowment
+All institutions
+
+=== PAGE 38 ===
+ 35
+ 
+   
+• Liquidity demands: Institutional investors have fiduciary responsibilities to ensure 
+their investment strategies align with their liabilities. In the event of significant 
+market downturns, insurers or pension plans may face liquidity constraints to meet 
+their regular liabilities and this may prompt unplanned withdrawals. Private assets, 
+which are frequently illiquid, may be unattractive to investors when their liquidity 
+requirements rise (see, for example the gating of withdrawals by some real estate 
+funds in 2022 amid higher redemption requests).119  
+• Regulatory changes : Insurers and pension funds are highly regulated entities, 
+subject to regular reporting to various supervisory bodies. Changes to their 
+investment policies, regulations or accounting standards may require changes in 
+their exposure to private assets.  
+Secondary Markets  
+As noted in earlier sections, l iquidity transformation is limited in private markets and 
+investments are generally held to maturity in closed-end funds, with exit strategies typically 
+involving, for example, public listings or trade sales. Yet the current exit environment is 
+challenging, and some market participants have identified secondary markets as an 
+increasingly attractive option for fund exits (see “Changing exit strategies”, above). 
+Meanwhile, secondaries are stratifying beyond straight sales. For e xample, the following 
+types of secondary transactions have recently become more prevalent:  
+• Tender offer plus staple: GP-led secondary deals negotiated at a pre -set price and 
+incentivized through additional capital committed fr om the buyer ( e.g., “stapled” 
+to the tender offer). Volume in such deals increased in 2022 alongside the onset of 
+tighter financing conditions . Denominator effect and investor over -allocation to 
+private equity has been a key driver, while this option has been more beneficial to 
+high demand funds.120   
+• Multi-buyer (“mosaic”) sales: Selective bidding behaviour has also made “mosaic 
+sales” more attractive, where portfolios are sold in parts to targeted buyers. Mosaic 
+sales can lead to better pricing for the seller  than a straight sale, where buyers are 
+looking to take parts of the portfolio to gain spe cific or strategic exposures. The 
+average number of buyers in such transactions rose in 2022 to  3.5, up from 2.4 in 
+2021.121   
+• Continuation funds: New private equity funds raise new capital from investors to 
+purchase the remaining portfolio companies from the original fund. These funds are 
+also a potential source of conflict of interest (See “continuation funds” above).  
+ 
+119   Burgess (2023) Investors face up to private funds’ illiquidity as rates rise, Advisor’s Edge, 26 
+January 
+120   “Tender Offers: An industry staple”, PEI  https://www.privateequityinternational.com/tender-
+offers-an-industry-staple 
+121   Jeffries, Global Secondary Market Review (January 2023); 
+https://www.jefferies.com/CMSFiles/Jefferies.com/files/IBBlast/Jefferies-
+Global_Secondary_Market_Review-January_2023.pdf 
+
+=== PAGE 39 ===
+ 36
+ 
+   
+However, capital costs and availability have been identified as key risks in the current 
+macroeconomic environment.122 There is also a risk amplification concern with reduced 
+liquidity where certain participants may have come to expect that they may sell their private 
+holdings at a later date, whether through a fund exit or secondary sale of units.  
+Furthermore, where they do occur, transactions on secondary markets tend to be at a 
+discount. Academic research on the liquidity cost of private equity investments found that 
+the average and median transaction prices in the secondary market were 86.2% and 85.6% 
+of NAV, respectively, for the sample of 2,226 secondary market transactions carried out in 
+the period 2006- 2014.123 This characteristic – generally considered to be an illiquidity 
+premium – could have the effect of amplifying any downwards pressure on prices. The 
+research also highlights the high transaction costs incurred in secondary markets, most 
+likely because of a limited number of participants and the asymmetric information about 
+both funds and their portfolio firms. The authors found that transactions costs are highe r 
+during poor economic times, when the fund is smaller, when the stake of the fund being 
+transacted is smaller, and when funds have lower public market equivalent prices as of the 
+transaction date.    
+Retail investors 
+Most investors in private finance activities are institutions as opposed to individual or retail 
+investors. Compared with individual  or retail investors, institutional investors can have a 
+greater capacity to invest for longer time horizons, reducing the likelihood of liquidity 
+mismatches. They also tend to be better informed and may have greater bargaining power 
+with fund managers, which reduces problems associated with informational  asymmetry. 
+Yet increasingly, private fund managers are looking to expand their offerings to retail 
+investors.  
+For fund managers, retail investors represent a large, untapped pool of capital. While 
+individual investors hold about half of the estimated $275-295 trillion USD in global assets 
+under management, that same group only holds about 16% of alternative investment 
+funds.124 Fund managers are looking to retail and individual investors to support continued 
+growth, particularly as the flow of institutional capital slows. A December 2022 survey of 
+100 fund managers by Dechert ,125 found that about 40% of respondents had seen an 
+increased level of interest in setting up funds raising capital from retail investors over the 
+preceding 12-24 months. In a 2021 survey by EY, 74% of fund managers responded that 
+retail investors should, with some conditions, have more access to private markets.126  
+Muted demand from individual  and retail investors for private finance products  has been 
+attributed to variety of reasons, including: 
+ 
+122   Pitchbook (2023) Q1 2023 Quantitative Perspectives: US Market Insights  
+123   Nadauld, Sensoy and Weisbach (2016) The Liquidity Cost of Private Equity Investments: 
+Evidence from Secondary Market Transactions 
+124   Bain (2023) Global Private Equity Report 2023 
+125   Dechert (2022) 2023 Global Private Equity Outlook (dechert.com) 
+126  Y (2022) The future of Private Equity: embracing the "retail revolution"? 
+
+=== PAGE 40 ===
+ 37
+ 
+   
+• Regulatory restrictions: Many jurisdictions restrict the ability of private equity and 
+private credit funds to offer their products to retail investors. 
+• High minimum investments : The standard minimum investment in private funds 
+traditionally sits at a threshold most individual investors cannot meet.  
+• Liquidity: Most investments are illiquid and held to maturity in closed -end funds, 
+making them less attractive to individual investors who cannot afford to lock up 
+their cash for multiple years at a time.  
+• Distribution channels : Private finance products have not been set up for mass 
+distribution, with most funds dealing directly with only a handful of institutional 
+investors.127 Retail investors would also need advice on suitability. 
+Increasing interest in retail investor participation   
+In recent years, retail investor participation in private finance has increased in many 
+jurisdictions. In the US, for example, retail investors increasingly participate via registered 
+funds such as business development companies (BDCs) which typically focus on private 
+credit.  
+Similarly, regulators have expanded access to retail investors via a series of new investment 
+vehicles including European Long-term Investment Funds (ELTIFs) and Long-Term Asset 
+Funds (LTAFs) in the UK. These funds have lower minimum investment requirements and 
+are designed to allow controlled access for some retail investors , thus lowering the 
+regulatory and minimum investment barriers. Many investors may also be able to gain 
+exposure to private finance activities through a pension fund or through, for example, listed 
+investment companies. 
+Wealth barriers to accredited investor status (which, while not strictly retail, solicits less 
+stringent requirements than for typical institutional investors) have also lessened as a 
+mechanical function of inflation. In some cases, these effects are significant. For example, 
+in Australia, investors with a gross annual income of $250,000 AUD or net assets of at 
+least $2.5 million AUD (including the primary residence) qualify as accredited investors. 
+When this policy was  introduced in 2002, approximately 1.9% of the population met the 
+criteria for wholesale investor status. In 2021, that figure had increased to about 11.3% of 
+the population.128  
+Some funds are also experimenting with innovative ways to reduce distribution costs, such 
+as through the use of tokenization which has been flagged as a way to reduce both private 
+market transaction costs and the size of minimum investments .129 Such innovations may 
+someday have a direct impact on retail investors’ participation in private markets.  
+On one hand, retail investor participation offers consumers the chance to invest in funds 
+that have achieved almost double the annualized returns of their public equivalent for the 
+past two decades. Yet there are significant risks. For example, informational asymmetry is 
+of greater concern where investors are retail , rather than institutional. For example, 
+ 
+127   See, for example Bain (2023) Global Private Equity Report 2023, McKinsey (2023)  
+128   Phillips (2021) Sophisticated Investor Projections  
+129   Bain (2023) Global Private Equity Report 2023 
+
+=== PAGE 41 ===
+ 38
+ 
+   
+academic research has found that, while “poorly performing” asset managers appear to 
+overstate NAVs around the time they are raising a follow -on fund, this effect is reduced 
+where investors have the ability to detect bias.130 This implies that retail investors could be 
+more exposed to risks associated with a lack of transparency (see “Transparency”, above), 
+given relatively poorer access to information and resources. Furthermore, many of the 
+liquidity risks associated with private finance activities are traditionally mitigated by the 
+closed-end nature of the investments, yet retail investors may demand greater access to 
+liquidity. 
+Some industry analysts have also argued that fund managers may be looking to retail 
+investors to fill the funding gaps left by retreating institutional investors .131 Where 
+institutional investors are retreating due to risk aversion, by implication retail investors that 
+step in could be exposed to higher than appropriate levels of risk.  
+ 
+  
+ 
+130   Block et al (2023) A Survey of Private Debt Funds 
+131   Pitchbook (2023) Q1 2023 PitchBook Analyst Note: How Macro Risks Are Shaping the Outlook 
+for US Private Markets | PitchBook 
+
+=== PAGE 42 ===
+ 39
+ 
+   
+Chapter 4: Potential Risk Transmission to Public Markets  
+The interconnections between public and private markets are strong and complex, and any 
+significant stress event in either market could have spillover effects on the other. Common 
+information flows affect both public and private markets because expectations in each 
+market are influenced by macroeconomic and/or industry- specific news.  For example, 
+expectations of a downturn could lead both banks and private credit funds to be more 
+cautious with their lending. Information that affects expectations in one market can also 
+impact trading and volatility in other markets because investors commonl y diversify their 
+holdings across both public and private markets. As such, a change of demand in one 
+market could flow through to other markets, including through hedging behavior  or sell-
+offs.132   
+The lines between public and private markets are blurring 
+There has been  a significant increase in market -based credit intermediation, at the same 
+time as a contraction in loans and bonds held by banks in advanced economies.133 External 
+stakeholders have emphasized the interchangeability of public and private markets. Some 
+participants remarked that the size and growth of private markets meant it was now a 
+critical component to the functioning of the real economy, especially for specific sectors, 
+such as technology and healthcare . These comments echo views expressed by certain 
+industry analysts and academics.134  
+External stakeholders also emphasized the potential productivity gains of private finance 
+activity. For example, some noted that private credit in particular was not just substituting 
+for bank financing, but also reflected an industry innovation, whereby credit is provided in 
+ways that were previously not available.  
+While there was no consensus on the level of risk in private finance activities, there was a 
+general agreement among all external stakeholders that the public and private markets are 
+now sufficiently intertwined that it is difficult to distinguish risks unique to one market and 
+not the other : any one market event could have implications across both markets and, 
+potentially, the broader financial system.   
+Modelling these risks is challenging because of the lack of transparency in many 
+jurisdictions, limited data, and the intricacy of financial systems that involve many different 
+types of institutions, with complex inter-relationships. Given the increasing importance of 
+private finance activities, the lack of transparency is a particular concern,  interfering with 
+the ability of various stakeholders to fully contextualize applicable risks. However, there 
+are two points of interconnection that stand out. Firstl y, the investors in both public and 
+private markets typically overlap, apart from retail investors which do not, with some 
+limited exceptions, directly access private markets. Secondly, banks and investment banks, 
+play a crucial role in both public and private markets.  
+ 
+132   Fleming et al 
+133   OECD (2020) Structural developments in global finance intermediation – the rise of debt and non-
+bank credit intermediaries 
+134   See, for example, BIS (2021) The rise of private markets, BIS Quarterly Review, December 2021 
+
+=== PAGE 43 ===
+ 40
+ 
+   
+Risk Transmission Channels  
+A lack of available data covering all aspects of private finance activities makes mapping 
+risk transmission challenging. However, one option is to focus on those market participants 
+that provide the bridge between the public and private markets.  
+For instance, investment banks  provide leverage to private credit funds . As illustrated in 
+Figure 13, below, investment banks  are critical nodes in the financial system, and  their 
+provision of leverage and exposures to a wide range of financial counterparties have proven 
+to be a key risk transmission channel in the past. There is a risk that , if not properly 
+managed, leverage in private finance could amplify losses and trigger wider market stress.  
+On the investor side, large institutional investors such as pension funds and insurance 
+companies are dominant players in both private finance investments and in public debt 
+markets, such as corporate bond markets. Clients of banks are also significant investors in 
+private finance. 135 Greater-than-expected losses could also have significant implications 
+for these investors, amplified by asset liability matching.136  
+In contrast, some industry stakeholders have indicated that they are unconcerned by the use 
+of leverage in private markets. Some remarked that the use of credit lines or revolvers for 
+speculative investment would naturally reduce given the higher interest rate environment , 
+and that the use of leverage was not significant or material to a credit fund’s ability to lend. 
+Similarly, participants did not think that investors used leverage when committing capital 
+to private investments.  
+ 
+135    See Preqin Special Report: Banks as Investors in Private Equity 
+136   Aramonte (2020) Private credit: recent developments and long-term trends, BIS 
+Figure 13: The role of banks in Private Finance 
+ 
+Source: IOSCO (2023) 
+Levered Corporate /
+CRE / or other asset
+Private Equity Fund
+BanksPension funds / other
+investors
+Private Credit Fund
+Public Markets
+Debt
+Private Markets
+Leverage
+Investment
+
+=== PAGE 44 ===
+ 41
+ 
+   
+However, given the opacity of some leverage information, it is unlikely that any one market 
+participant has a complete view on the amount and scale of leverage deployed. There is 
+also likely to be jurisdictional variation.  
+Increasing Credit Risk in a High Interest Environment 
+This interconnectedness between different types of market participants through the use of 
+credit facilities can amplify potential spillover  risks from private to public markets, as a 
+default by one market participant could trigger a cascade of defaults throughout the system.  
+Portfolio company defaults 
+Private credit portfolio companies  are directly affected by monetary tightening since the 
+majority of private credit is issued with floating rate agreements, and firms tend to be more 
+highly leveraged than equivalent public companies.137 This increases the relative likelihood 
+that firms default on payments to the private credit fund. For example, recent analysis from 
+Moody’s analytics, which set up a portfolio of public and private debt and tested it against 
+a range of economic scenarios , concluded that the private credit segment of the portfolio 
+contributed materially to portfolio risk, despite accounting for a relatively small portion of 
+exposures.138 A large increase in portfolio company defaults could lead a private credit 
+fund to default on its debt . It may then look to promptly sell assets at a discount , which 
+could result in losses for investors, including institutional investors, such as pension funds 
+or insurance companies, who have invested in the fund.  
+If the losses are significant enough, these investors may need to sell other assets to meet 
+redemption requests, potentially leading to forced selling in public markets. In addition, if 
+the debt is secured by private credit investments as collateral, the leverage provider to the 
+private credit fund may seize that collateral upon default (though the debt may be worked 
+out before that). Similarly, in the current inflationary environment, highly levered private 
+equity portfolio companies would expect to see increased costs and may also see decreased 
+output in the event of a broader downturn. Debt service coverage ratios for new loans will 
+reduce as a mechanical function of increased interest rates, increasing the likelihood of 
+payment default.  
+Reduction in investor payments 
+There are several ways in which investors could see an unexpected shortfall in payments , 
+for example, if the portfolio company default s. Also, and as noted above (“Current 
+macroeconomic context and its potential impacts”), the challenging exit environment for 
+private equity firms could lead  to extended fund holding periods, resulting in unexpected 
+delays before the distributions of a fund are realized and shared with investors.  
+Investors in private funds may rely on these payments. For example, in North America, 
+many pension funds are investors in private credit funds, with more than $100 billion USD 
+invested in private credit .139 Globally, about 5.5% of private and 4.9% of public pension 
+ 
+137   See, for example, S&P Global (2023) Look Forward Journal. This was also noted by external 
+engagement participants 
+138   Moody’s Analytics (2023) Private Debt: How much is too much in a credit portfolio 
+139   Pension Investments in Private Credit Hit Eight-Year High, Heather Gillers, WSJ, January 29, 
+2023 
+
+=== PAGE 45 ===
+ 42
+ 
+   
+fund assets are allocated towards private credit. About 13% of public pension funds in the 
+US are allocated towards private equity. 140 If portfolio companies in the fund default, the 
+pension funds may be forced to offload more liquid assets to meet their obligations to 
+members. Unexpected delays in fund closures could see pension funds forced to sell (more 
+liquid) assets from the public book to meet their obligations. Alternatively, such pension 
+funds may seek to sell their private fund interests in the secondary market, which, if actually 
+done, may be accompanied with a significant haircut to their value.  
+Other institutional investors that hold both private and public assets could face similar 
+pressures in the event that distributions or repayments dry up. For example, some investors 
+may have to adjust how they fund capital calls. Historically, investors wi th a mature 
+private-asset program have been able to fund capital calls of young vintages entirely with 
+distributions from older  vintages.  However, if distributions slow down more than 
+committed capital contributions, that option will no longer be possible . This may force 
+investors to raise liquidity by selling assets from the public book at unfavorable valuations, 
+amplifying the effects of a downturn.  
+Investors could seek early exits 
+In addition to those identified, a range of other situations could lead investors to seek early 
+exits from private markets. Such situations may include  losses in public markets . In 
+particular, due to the lag in private equity valuations, losses in public markets may have 
+the effect of leaving investors overexposed to private markets ( See Chapter 3, “Portfolio 
+rebalancing”).  
+Alternatively, s hocks to confidence may arise from sharp revaluations or limits on 
+redemptions for semi-liquid funds. A valuation shock, or the prospect of one, could lead 
+private investors to exercise a potential first mover advantage. Alternatively, a large gap 
+between public and private valuations may lead investors who are looking to raise capital 
+to “sell high”, in preference to crystallizing  losses in public markets.  (See Chapter 1, 
+"Valuations”).  
+Early exits from private markets are generally only possible though secondary markets, 
+which could incur larger than usual discounts in times of stress (see Chapter 3, “Secondary 
+markets”, above).  
+Capital Costs and Availability  
+The current economic slowdown has led to a slowdown in fund raising ( see “challenges 
+for fund managers”, above). Banks have pulled back from funding leveraged transactions, 
+and some analysts have reported a clear pivot towards lower risk across asset classes. 141 
+This could have two main effects  as well as potential longer -term impacts on financing 
+behavior if the higher interest rate environment persists.  
+Firstly, a drying- up of new inflows to private capital markets may alter the funding 
+dynamics of start-up companies and corporate deals. This is especially the case for sectors 
+ 
+140   See, Pension fund allocation to private equity under target in 2023, S&P Global Market 
+Intelligence 
+141   See, for example, Dechert (2022) 2023 Global Private Equity Outlook (dechert.com) 
+
+=== PAGE 46 ===
+ 43
+ 
+   
+and companies which are highly dependent on private capital , such as the technology and 
+health sectors, or with lesser access to banking lending or public capital markets.  
+Secondly, the pullback in bank lending may affect private finance portfolio companies’ 
+abilities to refinance. If a large number of funds operating in the same area were unable to 
+provide refinancing, assets may have to be sold at discounts or projects would stall, with 
+direct implications for the real economy. External stakeholders argued that this would not 
+be a concern for high quality assets, since private fund managers would step in to provide 
+credit to firms in their portfolios, if needed ,142 however they noted that it could be a risk 
+for lower quality firms.  
+In the longer term, should the cost of private credit increase and the availability of private 
+credit decrease, firms that were previously overly reliant on its availability may need to 
+consider other options for raising capital. One scenario could mean that these firms would 
+turn to public markets, if available to them, particularly if the balance between the cost of 
+debt vs. equity shifts toward equity under a normalizing interest rate environment. 143 The 
+prospect of having to raise capital through public markets, such as through an IPO,  or 
+possibly through a Special Purpose Acquisition Company (SPAC) process , could bring 
+conduct concerns into the public sphere. 144 For instance, inconsistencies with valuation 
+practices may crystallize when portfolio companies need to adhere to public listing 
+requirements.  
+More generally, the increased dependency of small and middle-sized companies on private 
+finance145 means that a decrease in the availability of private capital may have a significant 
+impact on such companies' growth, although the magnitude of this is uncertain.  
+In contrast, the March 2023 collapse of several regional banks in the United States may 
+have presented an  opportunity for private credit funds and private credit investors. 
+Depending on how this banking stress plays out , regional banks may pull back from  
+providing finance to the mid- market segments that they have traditionally specialized in. 
+For instance, the California Public Employees’ Retirement System (CalPERs), the largest 
+public pension fund in the United States, has signaled a willingness to step in to provide 
+financing to fill the gaps left behind by the banks.146 
+Some external stakeholders have  shared similar views. I ncreasing interest rates are 
+expected to make floating rate loan portfolios more profitable and, given a broad portfolio, 
+the increase in profit could offset the financial risks from portfolio company defaults. 
+However, refinancing risks were highlighted as pivotal, especially over the long- term 
+horizon. 
+ 
+142   Although, most external stakeholders noted that they did not lend to themselves, since this would 
+result in a conflict of investors’ interests (see "Debt vs. equity investors of the same firm", above). 
+143  See, for example, IOSCO (2020) Conflicts of interest and associated conduct risks during the 
+equity capital raising process. This could also have implications for private debt vs. public debt 
+costs.   
+144   See,for example, IOSCO (2023) Special Purpose Acquisition Companies  
+ 
+145   BIS (2021) The rise of private markets, BIS Quarterly Review, December 2021  
+146   Drean (2023) Silicon Valley Bank Collapse And Credit Suisse Rescue Are A Boon For Private 
+Equity, Forbes.com, 5 April 2023  
+
+=== PAGE 47 ===
+ 44
+ 
+   
+Conclusions 
+Private finance markets have grown rapidly since the GFC due to accommodative monetary 
+policy, bank retrenchment, and cost advantages versus other sources of finance. Global 
+macro-financial conditions have significantly changed in the near -term. Higher int erest 
+rates in particular could expose vulnerabilities in private markets. However, private finance 
+is inherently opaque and consequently there is a lack of clear understanding of the level of 
+risk in private finance activities.  Nonetheless, it is evident that private and public markets 
+are intertwined to the degree that any one market event could have implications across both 
+markets and, potentially, the broader financial system.   
+Private markets lack transparency when compared with publicly listed markets. This gives 
+rise to greater asymmetries of information. Listing and disclosure requirements are 
+designed to give investors and the market sufficiently reliable public information to 
+effectively assess corporate profitability and assess risks. While transparency in public 
+markets comes at a cost to issuers and their shareholders, it helps to support efficient price 
+formation and reduces search costs for investors. In contrast, while regulatory compliance 
+costs in private markets are lower, investors are more reliant on specialist intermediaries 
+such as private equity and private credit firms to conduct more bespoke and costly due 
+diligence on their behalf.  Though not straightforward, it is clear that any attempts to 
+increase transparency (either for regulators or market participants) in a market built with 
+opacity as a key functional feature would need to carefully balance the increased costs to 
+market participants, with the benefits to the financial system more broadly. 
+While this opacity provides investors with some insulation from transparency costs , and 
+volatility faced in public markets, it could also jeopardize availability of information that  
+investors and regulators require to effectively assess risks.  This includes risks that could 
+arise due to the way in which private finance firms conduct their activities (e.g., valuations, 
+conflicts of interest), from their interconnections with the wider financial system, and from 
+how macro-financial developments could impact the sector, the portfolio companies that 
+receive finance, and the real economy.   
+The investment landscape is changing dramatically with the return of inflation and the rapid 
+shift to interest rate normalisation. This creates a number of prospective challenges to 
+funding models within certain sectors, in terms of continuing access to cheap, secure 
+sources of debt funding. Potential questions therefore arise in terms of these sectors’ ability 
+to navigate this transition to the “new normal”. 
+If interest rates stay at current levels for longer than expected, it is highly likely that there 
+will be a reduction in the availability of funding to support private finance activities. While 
+private finance firms have accumulated a significant amount of  dry powder, the extent to 
+which this could mitigate this risk is unclear.  In addition, portfolio companies are likely to 
+face higher rates on existing borrowing, which is typically floating rate, as well as on new 
+and refinanced borrowing.  Market partic ipants noted that these risks were particularly 
+stark over the medium to long-term.  Portfolio companies will also be subject to increased 
+cost pressures due to  elevated inflation. While flexibility on the financing arrangements 
+may help portfolio companies navigate short-term market strains, defaults are expected to 
+increase over the medium to long- term.  Overall, there could be significant impacts on 
+concentrated sectors (e.g., t echnology and healthcare) that have become reliant on a 
+constant flow of affordable financing.  
+
+=== PAGE 48 ===
+ 45
+ 
+   
+The lack of reliable insight into the risks of these private finance investments means that it 
+is difficult to determine with any certainty whether the impact of higher defaults would be 
+worse than what may occur in public markets. However, the impact coul d nonetheless be 
+significant, and in public markets, financial risks particularly around refinancing, are better 
+known and actively monitored by regulators and investors.  
+There are conflicts of interest, for example, between a fund manager’s investors in different 
+investment products, such as  where one of its debt funds lends to portfolio companies in 
+one of its equity funds. There are also  conflicts of interest in some aspects of valuations, 
+transaction negotiation practices and GP-led secondary markets. However, it is difficult to 
+assess the scale of these risks, the frequency in which these issues arise and the extent to 
+which they are managed effectively. Should the relative increase in the cost of debt lead to 
+a renewed interest in equity financing, such valuation concerns could be unearthed under a 
+scenario where portfolio companies and their sponsors would need to face the prospect of 
+raising capital through the public equity markets (e.g., through IPOs or SPACs).  
+The relative lack of transparency in private finance markets is especially relevant when 
+considering any increased participation by retail investors. Private market participants 
+appear keen to push toward new sources of capital, but this move would naturally come at 
+the cost of the investment products being subject to more regulation and higher standards 
+of governance and oversight than those required when selling to institutional investors. 
+Similarly, characteristics of the products and the market may need to change to enable this 
+(e.g., to offer liquidity, more information, and to ensure investors receive suitable advice). 
+While private finance activities present potential risks , including to IOSCO objectives, 
+there are areas where they could provide benefits to the financial system and the real 
+economy. Increasingly, private companies and their private equity sponsors use private 
+markets to meet their funding needs, either in preference to banks or because banks  are 
+unwilling or unable to provide credit. Some market participants argue that this has 
+considerable benefits, for example, private credit providers may be able to provide more 
+bespoke, flexible covenants, higher risk tolerance, and a longer investment horizon than 
+banks are willing to support. 147 Private credit providers could also be more flexible than 
+banks in helping borrowers avoid default and restructuring debt i n times of stress. 
+However, private finance has largely grown in a period of accommodative macro-financial 
+conditions, which has now changed. The sector may be tested in the medium to long term 
+(e.g., as portfolio companies seek to refinance), and could respond in ways that uncover 
+hidden risks.  
+ 
+ 
+   
+ 
+147   Block et al (2023) A Survey of Private Debt Funds 
+
+=== PAGE 49 ===
+ 46
+ 
+   
+Abbreviations 
+AIFMD  Alternative Investment Fund Managers Directive 
+AIMA Alternative Investment Management Association 
+BDC Business development company 
+BSL Broadly syndicated loans 
+CDO Collateralised debt obligation 
+CFO Collateralised fund obligation 
+CLO Collateralised loan obligations 
+CPC Controlled portfolio company 
+EBITDA Earnings before interest, taxes, depreciation and amortization 
+ELTIF European Long-Term Investment Fund 
+GFC Global financial crisis 
+GFCF Gross fixed capital formation 
+GP General Partner 
+ICO Initial Coin Offering 
+IFRS International Financial Reporting Standards 
+IOSCO International Organization of Securities Commissions 
+IPO Initial Public Offering 
+IRR Internal Rate of Return 
+LBO Leveraged buyout 
+LP Limited partnership 
+LTAFs Long Term Asset Fund 
+M&A Mergers & Acquisitions 
+NAV Net asset value 
+SMA Separately managed account 
+SMEs Small and medium-sized enterprises 
+SPV Special purpose vehicle 
+ 

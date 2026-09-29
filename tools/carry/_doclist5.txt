@@ -1,0 +1,12 @@
+deribit_feed	https://insights.deribit.com/feed/
+glassnode_basis	https://r.jina.ai/https://insights.glassnode.com/the-basis-trade-is-alive-and-well
+glassnode_404	https://r.jina.ai/https://insights.glassnode.com/
+a16z_crypto	https://a16zcrypto.com/
+bis_qtr2212	https://www.bis.org/publ/qtrpdf/r_qt2212.htm
+iosco_688	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD688.pdf
+esma_mica	https://www.esma.europa.eu/press-news/esma-news/esma-publishes-final-guidelines-mica
+cftc_binance	https://www.cftc.gov/PressRoom/PressReleases/8482-22
+sec_202278	https://www.sec.gov/newsroom/press-releases/2022-78
+kaiko_blog	https://blog.kaiko.com/
+galaxy_research	https://www.galaxy.com/insights/research
+paradigm	https://www.paradigm.xyz/

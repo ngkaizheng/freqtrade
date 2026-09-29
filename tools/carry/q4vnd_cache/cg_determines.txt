@@ -1,0 +1,64 @@
+### URL: https://www.coinglass.com/en/learn/what-determines-funding-rate
+### STATUS: 200 CT: text/html; charset=utf-8
+
+Legend
+ NEW
+
+ API 
+ Download APP 
+
+ Market
+ Stocks
+ Exchanges
+ Open Interest Funding Rate
+ Liquidation
+ Data
+ Supercharts
+ Legend
+ Watchlist More
+
+ Search
+
+ /
+
+ Login 
+
+ Learning Center 
+ ›
+ Cryptocurrency Futures Guide 
+ 
+ What determines funding rate?
+
+ Related Content
+
+ What determines funding rate?
+ The funding rate is determined by two components: the interest rate and the premium. 
+ The interest rate component is a fixed rate that is assumed to be higher for holding cash than holding an equivalent value of Bitcoin. By default, this rate is set to 0.03% per day, but the exchange reserves the right to adjust this rate according to market conditions.
+ The premium component reflects why the price of perpetual contracts tends to follow the trend of the underlying asset. During periods of high volatility, the price of the perpetual contract and the mark price may diverge. The premium index is used to encourage the contract market price to converge with the spot price. The premium index is calculated using the formula:
+ Premium Index (P) = [Max(0, Impact Bid Price - Index Price) - Max(0, Index Price - Impact Ask Price)] / Index Price
+ Where:
+ Impact Bid Price is the average price at which the buy queue reaches the "impact margin amount"
+Impact Ask Price is the average price at which the sell queue reaches the "impact margin amount"
+Index Price is the weighted average price of the underlying asset on major cryptocurrency exchanges
+Impact Margin Amount (IMA) is used to locate the average price of the impact bid or ask price in the order book. For U.S. dollar-denominated perpetual contracts, IMA is the amount that can be traded with 200 US dollars of margin. For coin-margined perpetual contracts, IMA is the amount that can be traded with 200 units of the underlying cryptocurrency as margin.
+In summary, the funding rate is determined by the interest rate and premium components, while the funding fee is the actual amount paid or received by traders based on their positions and the funding rate at a given point in time.
+
+ Market
+
+ Exchanges
+
+ Search
+
+ More
+
+ APP
+
+ About About Us Contact Us Disclaimer Terms of Use Privacy Policy 
+
+ Products Stocks Legend APP API Chart 
+
+ More Learning Center Alerts Cookie Preferences 
+
+ Community X(Twitter) Telegram 
+
+ © 2026 CoinGlass, all rights reserved

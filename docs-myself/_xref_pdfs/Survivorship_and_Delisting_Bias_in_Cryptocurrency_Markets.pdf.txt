@@ -1,0 +1,3151 @@
+
+Survivorship and Delisting Bias in Cryptocurrency
+
+Markets∗
+
+Manuel Ammann†, Tom Burdorf‡, Luca J. Liebi§, Sebastian Stöckl¶
+
+November 28, 2022
+
+ABSTRACT
+
+This study quantifies performance measure distortions in a cryptocurrency sample truncated
+
+by survivorship and delisting bias. Previous research shows that the attrition rate in cryp-
+
+tocurrency markets is high. However, the survivorship and delisting bias in cryptocurrencies
+
+lacks empirical research. Using data for 3’904 cryptocurrencies during the 2014-2021 period,
+
+we estimate an annualized bias of 0.93% (62.19%) for value-weighted (equal-weighted) portfo-
+
+lios. After controlling for survivorship and delisting bias, we revisit the relationship between
+
+average returns, size, past performance, market β, liquidity, and downside risk. Our results
+
+confirm the size effect, but the premium is overestimated by 50% in a survival-conditioned
+
+sample. In contrast, we find no evidence of a positive relationship between average returns,
+
+one-week momentum, market β, and downside risk. Our results suggest that the survivorship
+
+and delisting bias are important biases that ought to be omitted.
+
+Keywords: Cryptocurrency, Survivorship bias, Delisting bias, Size premium, Momentum,
+
+Downside risk, Market β
+
+JEL Classifications: G12
+
+∗We are grateful for the helpful comments of Tobias Hemauer, Marlene Koch (discussant), Jonathan
+Chassot (discussant), Micha l Bernardelli (discussant), and participants of the SFI Research Days (2022), the
+PiF Seminar at the University of St. Gallen (2022), the Finance Research Seminar at the University of St.
+Gallen (2022) and the World Finance Conference (2022).
+
+†University of St. Gallen, Swiss Institute of Banking and Finance, Unterer Graben 21, CH-9000 St.
+Gallen, Switzerland; Tel.: +41 71 224 70 80; E-mail address: manuel.ammann@unisg.ch.
+
+‡University of St. Gallen, Swiss Institute of Banking and Finance, Unterer Graben 21, CH-9000 St.
+Gallen, Switzerland; Tel.: +41 71 224 70 05; E-mail address: tom.burdorf2@unisg.ch.
+
+§University of St. Gallen, Swiss Institute of Banking and Finance, Unterer Graben 21, CH-9000 St.
+Gallen, Switzerland; Tel.: +41 71 224 70 15; E-mail address: luca.liebi@unisg.ch.
+
+¶University of Liechtenstein. Institute of Finance, Fürst-Franz-Josef-Strasse, LI-9490 Vaduz, E-mail
+address: sebastian.stoeckl@uni.li.
+
+mailto:luca.liebi@unisg.ch
+
+
+I. Introduction
+
+The astonishing performance of a handful of cryptocurrencies attracts much interest by re-
+
+tail as well as institutional investors.1 As an example, at the beginning of 2021, Shiba Inu
+
+(SHIB) was trading at $0.000000000119. At the end of 2021, SHIB closed at $0.00003341,
+
+which equals a return of 280’755%. Similar success stories include Terra (Luna), Axie Infinity
+
+(AXS), and Solana (SOL). However, such eye-popping returns of a few cryptocurrencies are
+
+mistakenly regarded as representative of the whole cryptocurrency market. Rialto (XRL),
+
+Bit20 (BTWTY), and Smoke (SMOKE) are three examples of unsuccessful cryptocurrencies
+
+that were delisted in 2019. The delisting of the cryptocurrencies mentioned above resulted in
+
+a total loss for investors. Importantly, delistings of cryptocurrencies are not an irregularity.
+
+The opposite is true. Overall, 39.5% of all cryptocurrencies delist with 76% incuring a total
+
+loss.
+
+Figure 1. Number of Delisted Cryptocurrencies
+This figure depicts the number of delisted (black) and currently listed cryptocurrencies (gold); 07-
+January-2014 to 28-December-2021, 417 weeks. During our sample period, 3’904 cryptocurrencies have
+been traded. 2’682 cryptocurrencies are listed at the end of the sample period. 1’222 cryptocurrencies
+have been delisted.
+
+0
+10
+
+00
+20
+
+00
+30
+
+00
+40
+
+00
+
+N
+u
+m
+
+b
+er
+
+of
+C
+
+ry
+p
+to
+
+cu
+rr
+
+en
+ci
+
+es
+
+Jan-2014 Dec-2015 Dec-2017 Dec-2019 Dec-2021
+
+D
+el
+
+is
+te
+
+d
+S
+u
+rv
+
+iv
+or
+
+s
+
+Figure 1 visualizes this frequently overlooked characteristic of the cryptocurrency mar-
+
+ket. From January 7th, 2014 to December, 28th, 2021 3’904 cryptocurrencies were traded.
+
+1As of 2020, 45% (27%) of institutional investors in Europe (U.S.) already have exposure to cryptocur-
+rencies, either directly or via future contracts. In the coming years, over 91% of all institutional investors
+surveyed by Fidelity (774 in total) are planning to invest in cryptocurrencies (Fidelity Investments (2020))
+
+1
+
+
+
+At the end of 2021, 2’682 cryptocurrencies are still listed, and 1’222 cryptocurrencies have
+
+been delisted. In other words, every third cryptocurrency dissolves. Performance measures
+
+are distorted when delisted cryptocurrencies are excluded from an index due to survivorship.
+
+This survivorship bias is widely known and well-documented in various performance studies
+
+on mutual funds, hedge funds, commodity trading advisors, and stocks.2 To the best of our
+
+knowledge, a similar study is missing for cryptocurrencies. Obtaining a survivorship bias-
+
+free dataset is a common challenge for cryptocurrency researchers. Historical data for listed
+
+coins is readily available. However, obtaining data for delisted cryptocurrency is an issue
+
+and time-consuming. Moreover, because the ten largest cryptocurrencies account for nearly
+
+80% of the total market capitalization, it may be legitimate to question the necessity of a
+
+survivorship-bias-free dataset for empirical studies on cryptocurrencies. Importantly, even
+
+when the sample is survivorship bias-free, the delisting bias is the second source of perfor-
+
+mance measure distortion. Cryptocurrencies do not represent ownership of a corporation or
+
+any other physical asset. Thus, the delisting of a cryptocurrency is in most cases associated
+
+with a total loss of the investment. Empirical studies on cryptocurrencies can be affected
+
+by one or both of the mentioned biases. This is of special concern since the empirical liter-
+
+ature on cryptocurrencies is growing fast. Previous studies frequently exclude coins with a
+
+market capitalization below a prespecified threshold or focus on the largest cryptocurrencies
+
+by the end of the sample period. Both forms of survivor-only conditioning bias the results.
+
+The academic literature has not yet broached the issue of survivorship and delisting bias in
+
+cryptocurrency studies. More importantly, the characteristics of delisted cryptocurrencies
+
+remains an open question. For example, the attrition rate may vary among cryptocurrencies
+
+of different sizes. Previous studies have documented a significant size premium in cryptocur-
+
+rency markets. Cryptocurrencies with a low market capitalization (small coins) outperform
+
+cryptocurrencies with a high market capitalization (big coins). Average weekly size premias
+
+range from 22.26% (Liu, Liang, and Cui, 2020) to 5.8% per week (Liu, Tsyvinski, and Wu,
+
+2022). Liebi (2022) documents that small coins outperform large coins by 6.83% per week.
+
+However, when cryptocurrencies with smaller sizes exhibit a higher attrition rate and a lower
+
+performance, survival-conditioning leads to an inflated size premium. In the extreme case,
+
+the size effect in cryptocurrency markets is spurious and results from how researchers com-
+
+pile their sample. Thus, the question arises to what extent the survivorship and delisting
+
+bias affects the results of previous studies.
+
+2See Malkiel (1995), Brown, Goetzmann, Ibbotson, and Ross (1992), Rohleder, Scholz, and Wilkens
+(2011), Rohleder et al. (2011) Armin and Hat (2003), Fung and Hsieh (1997), Davis (1996) and Elfakhani
+and Wei (2003).
+
+2
+
+
+
+This paper closes this gap and has three goals. First, we study the effect of survivorship
+
+and delisting bias on estimates of average performance. We can empirically shed light on
+
+this open question using a unique cryptocurrency dataset. We obtain a survivorship-bias-free
+
+dataset and manually collect delisting reason and delisting returns for all delisted cryptocur-
+
+rencies. Our sample includes 3’904 cryptocurrencies from the 7th of January 2014 to the
+
+28th of December 2021. We estimate the survivorship and delisting bias by comparing the
+
+weekly returns of a portfolio containing only surviving cryptocurrencies to a survivorship
+
+and delisting bias-free portfolio. We estimate a weekly value-weighted (equal-weighted) bias
+
+of 0.018% (0.934%). This equals an annualized bias of 0.93% (62.19%) for value-weighted
+
+(equal-weighted) portfolios. The first result suggests that the effect of the bias is highly
+
+weighting-scheme dependent.
+
+Second, we determine the characteristics of delisted cryptocurrencies. Dissolved cryp-
+
+tocurrencies exhibit a lower market capitalization, lower trading volume, and a shorter list-
+
+ing age than surviving cryptocurrencies. Third, we revisit the relationship between average
+
+returns, size, momentum, and market β in cryptocurrency markets. Thereby, we test the
+
+conjecture that the size and momentum premium in cryptocurrency markets is spurious
+
+and a result of the researcher’s sample compilation. We reexamine the size effect on a
+
+survivorship-bias-free dataset by univariately sorting portfolios at the end of each Tuesday.
+
+Sorted on size, we confirm a negative relation between size and average returns. The long-
+
+short portfolio, which is long in the lowest level of size and short in the highest level of size,
+
+yields an average value-weighted return of 1.89% per week. In a survivors-only conditioned
+
+sample, the size premium equals 2.84%. Thus, survivor-only conditioning inflates the size
+
+premium by 50.3%. Our results confirm the size effect in cryptocurrency markets. We are
+
+turning to performance persistence. We document momentum (reversal) within large (small)
+
+cryptocurrencies.
+
+To the best of our knowledge, we are the first to quantify the survivorship and delisting
+
+bias in cryptocurrency markets. Overall, our results have a significant implication. The
+
+survivorship and delisting bias are important biases in cryptocurrency studies that ought
+
+to be omitted. Future research can significantly improve the robustness of their findings by
+
+using a survivorship and delisting bias-free dataset.
+
+3
+
+
+
+II. Related Literature
+
+The survivorship bias is widely known by academics and well-documented in various per-
+
+formance studies on mutual funds, hedge funds, commodity trading advisors, and stocks.
+
+Exemplary, Malkiel (1995) reports an annual survivorship bias of 1.5% per year for mutual
+
+funds. The extensive literature on the survivorship bias in various asset classes stands in
+
+stark contrast to the current literature on cryptocurrencies. Lansky (2019) points towards
+
+the high attrition rate in the cryptocurrency markets. The delisting bias has also previously
+
+been investigated for stocks (Shumway and Warther, 1999). The growing literature on cryp-
+
+tocurrencies can be subdivided into five main strands: bubble dynamics, regulation, cyber
+
+criminality, diversification, and asset pricing studies. Below, we will focus on the empiri-
+
+cal asset pricing studies in cryptocurrency markets, as this strand of academic literature is
+
+mostly related to our research question. Additionally, our results have the strongest impli-
+
+cation on this strand of literature.
+
+Considering cryptocurrencies’ high attrition rate, the survivorship bias becomes a major
+
+concern for empirical studies. The bias amplifies when sampling techniques exclude coins
+
+with a minimum trading period of one year or a market capitalization above a prespecified
+
+threshold. Empirical studies on cryptocurrencies frequently rely on data from Coinmarket-
+
+cap.com. However, less well known is that Coinmarketcap.com only provides historical data
+
+of currently listed cryptocurrencies, inducing the bias. To the best of our knowledge, Kaiser
+
+and Stöckl (2020) is the only empirical study on cryptocurrencies that uses a survivorship-
+
+bias-free dataset. The authors investigate 2’026 cryptocurrencies and document significant
+
+herding behavior in the crypto market. Empirical asset pricing studies in cryptocurrencies of-
+
+ten do not consider delisted cryptocurrencies. Moreover, studies seldom provide an overview
+
+of all assets included in their analysis, making the replication of previous results difficult.3
+
+Moreover, paper-specific sampling methods inevitably lead to a dispersion of results. Most
+
+commonly, researchers in the cryptocurrency field try to replicate equity risk factors. The
+
+empirical asset pricing literature on cryptocurrencies is growing. See for example Zhang and
+
+Li (2020),Li, Zhang, Xiong, and Wang (2020), Liu et al. (2020),Liu and Tsyvinski (2021),
+
+and Liebi (2022). The two most frequently analyzed asset pricing regularities in stock mar-
+
+kets are the size effect, and the momentum effect.
+
+Panel A in Figure 2 depicts the size premium estimates of the literature. Each estimate
+
+equals the weekly return of a long position in the smallest and a short position in the largest
+
+3An exception is Kaiser and Stöckl (2020).
+
+4
+
+
+
+cryptocurrencies. All studies find that small cryptocurrencies yield higher average returns
+
+than large cryptocurrencies. However, there is a considerable variation in size premium
+
+estimates ranging from 1.65% to 22.3%. The figure provides stylized evidence that paper-
+
+specific sampling techniques considerably affect size premium estimates. For example, Liu
+
+et al. (2020) investigate 78 cryptocurrencies from August 7th, 2015 to December 31st, 2018
+
+and document a size premium of 22.26% per week, the highest premium in the literature
+
+known to us. The authors univariately sorted all cryptocurrencies at the end of each Tuesday
+
+(t) and held them until the consecutive Tuesday (t+1). Liebi (2022) uses the same portfolio
+
+formation day but a larger sample of 653 assets from July 4th, 2017 to October 6th, 2020
+
+and reports a considerably lower size premium of 6.83% per week. Zhang and Li (2020),Li
+
+et al. (2020), and Liu et al. (2022) document size premiums of 14.4%, 6.16% and 5.80%, re-
+
+spectively.4 Besides, it is noteworthy that all of the depicted studies are survivorship-biased,
+
+and the sorting methods vary from quintiles to deciles. Our survivorship-biased free size
+
+premium equals 1.89%.
+
+Panel B in Figure 2 depicts the average weekly momentum premium of a portfolio that
+
+is long in winners and short in loser cryptocurrencies. Contrary to the size premium, there
+
+exists no consensus if past winners outperform past losers. On the one hand, Zhang and Li
+
+(2020) and Liu et al. (2022) show that past winners outperform past losers in the consecutive
+
+week by 12% and 4.87%, respectively. Liu et al. (2022) finds a smaller one-week momentum
+
+effect of only 2.50%. Liebi (2022) documents that past winners outperform past losers by
+
+0.98% (t=0.72) in the consecutive week. Our survivorship-biased free non-significant mo-
+
+mentum premium is 0.13% (t=0.13).
+
+4Zhang and Li (2020) sample includes 500 assets from January 2014 to September 2019. Li et al. (2020)
+sample comprises 1803 assets from January 2014 to May 2019.
+
+5
+
+
+
+Figure 2. Size and Momentum Premium in Previous Studies
+This figure depicts size premium (Panel A) and momentum premium (Panel B) estimates of previous
+studies. Panel A visualizes the average weekly returns of a portfolio which is long in the smallest level
+of size and short in the highest level of size. Panel B shows the average weekly returns of a portfolio
+that is long in winners and short in loser cryptocurrencies. The superscript s (d) indicates that portfolio
+sorts are based on sixtiles (deciles). The additional superscript EW indicates that portfolios are equal-
+weighted. If there is no superscript, the HML portfolio is based on value-weighted quintile sorts. From
+top to bottom, the legend includes Zhang and Li (2020), Li et al. (2020), Liebi (2022), Liu et al. (2020),
+Liu et al. (2022), and this paper.
+
+(a) Size Premia in Previous Studies
+
+0 1000 2000 3000 4000
+
+0
+5
+
+10
+15
+
+20
+25
+
+Sample size
+
+W
+ee
+
+k
+ly
+
+S
+iz
+
+e
+P
+
+re
+m
+
+iu
+m
+
+E
+st
+
+im
+at
+
+e
+(i
+
+n
+p
+
+er
+ce
+
+n
+t)
+
+14.4d
+
+6.16d,EW6.83
+
+22.26 s
+
+5.8
+
+1.89
+
+Zhang and Li (2020)
+Li et al. (2020)
+Liebi (2022)
+Liu, Liang, Cui (2020)
+Liu, Tsyvinski, Wu (2022)
+Ammann et al. (2022)
+
+(b) Momentum Premium in Previous Studies
+
+0 1000 2000 3000 4000
+
+0
+2
+
+4
+6
+
+8
+10
+
+12
+14
+
+Sample size
+
+W
+ee
+
+k
+ly
+
+M
+om
+
+en
+tu
+
+m
+P
+
+re
+m
+
+iu
+m
+
+E
+st
+
+im
+at
+
+e
+(i
+
+n
+p
+
+er
+ce
+
+n
+t)
+
+12
+
+0.98
+
+4.87
+
+2.5
+
+0.13
+
+Zhang and Li (2020)
+Liebi (2022)
+Liu, Liang, Cui (2020)
+Liu, Tsyvinski, Wu (2022)
+Ammann et al. (2022)
+
+6
+
+
+
+III. Data and Variables
+
+This section describes the data sources, outlines the variable construction, and provides
+
+the sample descriptive statistics.
+
+A. Data on Cryptocurrencies
+
+Coinmarketcap is one of the leading sources for cryptocurrency information. Every
+
+minute, Coinmarketcap queries the market data directly from the official APIs of 296 cryp-
+
+tocurrency exchanges and reports volume-weighted prices across all exchanges and cryptocur-
+
+rency pairs. Coinmarketcap provides historical cryptocurrency data from April 29th, 2013
+
+onwards. The data includes open, high, low, closing prices, and market capitalization. Daily
+
+trading volume is reported since December 27th, 2013. For academic research, Coinmarket-
+
+cap has become a prime data source due to high data quality and historical price data.5
+
+Figure A1 in the Appendix provides the procedure of Coinmarketcap to decide whether to
+
+list a cryptocurrency. Most importantly, the cryptocurrency must be traded publicly and
+
+actively on at least one exchange tracked by Coinmarketcap. Moreover, the asset must be
+
+classified as a cryptocurrency, have a functional website, and have a blockchain explorer.
+
+Cryptocurrencies that do not meet all of these guidelines are classified as untracked.6 If a
+
+cryptocurrency meets Coinmarketcaps’ listing criteria and fulfills further qualitative project
+
+requirements, the cryptocurrency will be listed on the official website. Next, Coinmarketcap
+
+regularly tracks each cryptocurrency and evaluates if the asset must be delisted. Criteria
+
+that positively influence the delisting probability include low liquidity, business activity ces-
+
+sation, or if the project’s listing resulted from false information.
+
+What is less known about Coinmarketcap is that the official website only provides infor-
+
+mation on currently listed cryptocurrencies. This data presentation of Coinmarketcap leads
+
+to a systemic survivorship bias in empirical studies that use Coinmarketcap as the primary
+
+data source. One approach to obtain price data for delisted cryptocurrencies is through
+
+historical snapshots of the webpage.7 Lansky (2019) uses this approach to obtain data on
+
+delisted cryptocurrencies. However, historical snapshots of the webpage are only available
+
+on a weekly basis. Overall, with the historical website approach, coins listed for several days
+
+5A selection of papers that use Coinmarketcap as data source: Zhang and Li (2020), Li et al. (2020), Liu
+and Tsyvinski (2021), Liu et al. (2020), Gkillas and Katsiampa (2018), Liebi (2022), Hu, Parlour, and Rajan
+(2019), Griffin and Shams (2020),Grobys and Sapkota (2019), and Long, Zaremba, Demir, Szczygielski, and
+Vasenin (2020).
+
+6A selection of untracked cryptocurrencies include BitBar, WorldCoin, and Mincoin. Although, these
+cryptocurrencies are untracked, in some cases historical data is still available.
+
+7Historical snapshots are provided under a different URL: Coinmarketcap Historical Snapshots
+
+7
+
+https://coinmarketcap.com/
+https://coinmarketcap.com/
+https://bitbar.co
+hhttp://www.worldcoin.global/index.html
+https://www.mincoin.us/de/
+https://coinmarketcap.com/de/historical/
+
+
+remain excluded from the sample. Moreover, this approach is inefficient, time-consuming,
+
+and prone to errors.
+
+We obtain historical cryptocurrency data through the official API. Thus, we retrieve price
+
+data for all coins that were listed between January 7st, 2014 and December 28th, 2021. The
+
+start date coincides with when Coinmarketcap reports trading volume. In our analysis, we
+
+focus on weekly returns. Returns are calculated from Tuesday’s close price to Tuesday in
+
+the consecutive week. From our original sample, we apply several filters. First, we exclude
+
+all coins that are classified as untracked by Coinmarketcap. Second, we exclude all stable-
+
+coins that mimic real-world assets such as fiat currencies (e.g. Gemini Dollar, Binance USD,
+
+Tether, TrueUSD, and CryptoFranc), commodities (e.g. Tether Gold, and Paxos Gold), or
+
+other securities (e.g. Mirrored Google, Mirrored Netflix). Third, derivative coins (e.g. 3X
+
+Short ETH) and trading sets (e.g. ETH/BTC RSI Ratio Trading Set) are excluded from
+
+the sample. Forth, all cryptocurrencies with no reported trading volume are omitted. Im-
+
+portantly, we exclude Innovative Bioresearch Classic (INNBCL) and Starname (IOV) due
+
+to highly unplausible data points. The market cap of INNBCL jumps to $21’944 trillion on
+
+June 24th, 2020. One week later, the market cap equals zero, which also holds true for IOV.
+
+If historical data contains reporting gaps, we delete the following-week return as it rep-
+
+resents a cumulative return over the reporting gap. After applying these filters, our sample
+
+includes 3’904 coins from January 7st, 2014 and December 28th, 2021. During the sample
+
+period, 1’222 (i.e. 39.5%) coins were delisted, and 2’682 survived until 2021.
+
+B. Delisting Returns for Cryptocurrencies
+
+Delisted cryptocurrencies are often not only delisted from Coinmarketcap (CMC), but
+
+also from all tracked cryptocurrency exchanges. We manually collect delisting returns for
+
+all 1’222 delisted cryptocurrencies. For 932, that is 76.3%, of all delisted coins, the delisting
+
+return equals -100%. This leads to an average delisting return of -77.8%. Comparing the
+
+delisting return of cryptocurrencies to stocks, cryptocurrencies exhibit a much lower delist-
+
+ing return. As a comparison, Shumway and Warther (1999) estimate a performance-related
+
+delisting return of -55% for Nasdaq listed stocks. Thus, the delisting return for cryptocur-
+
+rencies is much higher compared to stocks.
+
+Delisting from CMC is a complex process, as CMC is not an exchange itself but rather
+
+an aggregator and provider of market data gathered from other exchanges via their internet
+
+8
+
+
+
+Application Programming Interface (API). In summary, a coin is delisted from CMC, when a
+
+variety of reasons are fulfilled, which include low liquidity or fraud, cessation of development,
+
+regulatory action or other reasons not further detailed by CMC. Ìn practice, delisting often
+
+happened at the same time as when a coin was delisted from one of the major exchanges.
+
+We use a group-approach to mine several online resources such as forums and dedicated
+
+websites (e.g. bitcointalk.org) to classify delisting reasons as well as delisting returns for all
+
+cryptocurrencies that once had the status ”tracked” on CMC and subsequently have been
+
+delisted (untracked or completely removed) from the platform. All individuals were either
+
+volunteers from the University of Liechtenstein or hired from an online freelancing platform.
+
+All volunteers had previous knowledge about webscraping/data search and have been trained
+
+before they started. Each delisted cryptocurrency is classified by at least 3 persons.
+
+Fig. 3 depicts the methodology to obtain delisting returns for all cryptocurrency. We iden-
+
+tify six delisting reasons: commitment, scam, technical issue, CMC regulatory, swaps, or not
+
+available. A detailed explanation of all delisting reasons can be found in Table A1 in the
+
+Appendix.
+
+Table I provides summary statistics of delisting reasons and delisting returns for all
+
+cryptocurrencies in our sample. The majority of cryptocurrencies (> 64%) were delisted
+
+because they were abandoned by the developers. In these cases the average delisting return
+
+equals -97%. The second most important reason for delisting is due to CMC regulatory
+
+without any further reason given (23%). The average delisting return equals −29%.
+
+Table I Delisting Returns
+This table summarizes the delisting returns. The first column indicates the delisting code and delisting reason, the second
+indicates the number of cryptocurrencies in that group, the third (forth) column reports the mean (median) delisting
+return in the group.
+
+Delisting Reason Number of Cryptocurrencies Mean Median
+
+10 Commitment 787 -0.97 -1
+12 CMC Regulatory 280 -0.29 0
+11 Swap 73 -0.26 0
+
+40 Not available 49 -1 -1
+20 Scam 25 -0.92 -1
+
+30 Technical Issue 8 -1 -1
+All 1222 -0.77 -1
+
+9
+
+
+
+Figure 3. Delisting Return Methodology
+This figure depicts our methodology to collect delisting returns. As a starting point, we use information
+provided by Coinmarketcap (CMC). If Coinmarketcap provides a delisting reason, we use this infor-
+mation to classify the delising into six categories. If no information is available, we use Coinopsy and
+Bitcointalk to obtain more information. Overall, we define six delisting reasons. The delisting return is
+then computed based on the delisting classification.
+
+10
+
+
+
+C. Variable Construction & Descriptive Statistics
+
+Our primary analysis focuses on weekly cryptocurrency returns. We construct weekly re-
+
+turns and characteristics from daily data for each cryptocurrency on a rolling-window scheme.
+
+Table II defines the dependent and all explanatory variables. We calculate weekly returns
+
+from Tuesday’s close price to Tuesday in the consecutive week, following Liu et al. (2020) and
+
+Liebi (2022). Overall, we construct five cryptocurrency-specific measures to forecast 1-week
+
+returns. The first characteristic equals the market β, which is the slope coefficient when
+
+regressing excess returns of a cryptocurrency on the excess market return. The market β is
+
+estimated on a rolling-window scheme with a window length of 365 days. The market return
+
+equals the value-weighted return of all coins in our sample. The one-month U.S. Treasury
+
+bill rate defines the risk-free rate. Size is the natural logarithm of the market capitalization
+
+at time t. Momentum equals the cumulative return in cryptocurrency returns from t-7 days
+
+to t. Trading volume equals the weekly trading volume in USD, and age equals the number
+
+of weeks the cryptocurrency has been traded since the first trading day.
+
+Table II Variable Description
+This table provides an overview of the dependent variable and all explanatory variables. The table includes notation,
+category, and the corresponding definition.
+
+Variable Notation Category Definition
+
+Dependent Variable
+Excess weekly return ri - Weekly returns are measured from Tues-
+
+day’s closing price at time t until Tuesday
+in the following week at time t+1. The ex-
+cess return is defined as the weekly return
+minus the weekly risk-free rate (one-month
+U.S. Treasury bill rate).
+
+Explanatory variables
+Market beta βMKT Volatility Slope coefficient in the excess returns of
+
+cryptocurrencies on the excess market re-
+turn from t-365 days until t. The market
+return equals the value-weighted return of
+the 3’904 cryptocurrencies. The risk-free
+rate is defined by the one-month U.S. Trea-
+sury bill rate.
+
+Size size Size Natural logarithm of the market capitalisa-
+tion at the portfolio formation day (=t).
+
+Momentum mom Momentum Cumulative return over the past 7 days
+from t-7 until portfolio formation day t (Liu
+and Tsyvinski, 2021), (Liebi, 2022).
+
+Trading volume vol Liquidity Weekly trading volume in USD measured
+over the past 7 days from t-7 until portfolio
+formation day t.
+
+Age age Financial Visibility Number of weeks the cryptocurrency has
+been traded measured from the first trading
+day to the portfolio formation day t.
+
+11
+
+
+
+We start our analysis with descriptive statistics of all variables for three subgroups. Table
+
+III reports means for three different samples. Each column represents a specific sample. The
+
+first column includes all 3’904 cryptocurrencies. The second column only includes cryptocur-
+
+rencies that have survived until the end of the sample period. The last sample represents only
+
+coins that have been delisted during the sample period. Comparing surviving and delisted
+
+cryptocurrencies, we document a significant return difference. The average weekly return of
+
+the surviving (delisted) sample equals 2.24% (0.56%). Moreover, delisted cryptocurrencies
+
+tend to have a significantly lower market cap and trading volume, momentum, and a shorter
+
+listing age. Surviving coins have a 393 times bigger weekly trading volume and an almost
+
+145 times greater weekly market cap than delisted coins. Age equals the number of weeks
+
+passed from the first listing until the delisting or end of the sample period. Delisted coins
+
+are, on average, listed for 75 weeks. In short, delisted cryptocurrencies are characterized by
+
+low performance, low market capitalization, low trading volume, and tend to be young in
+
+terms of trading history.
+
+Table III Summary Statistics by Group
+Averages of the overall sample, the survivorsip-biased sample, and the delisted sample, 07-January-2014 to 28-December-
+2021, 417 weeks, 3’904 cryptocurrencies. Variables include weekly returns (in per cent), size (natural logarithm of market
+cap), market beta (estimated from t-365 days until t on a rolling-window), momentum (cumulative return from t-7 days
+until t), weekly trading volume (in million USD), and market capitalization (in million USD), age (number of trading
+weeks), and number of coins. Weekly returns are trimmed at the 99% level.
+
+All Cryptocurrencies Surviving Cryptocurrencies Delisted Cryptocurrencies
+
+Weekly Return (in %) 1.96 2.24 0.56
+Size 13.89 14.50 10.87
+
+Market Beta 0.87 0.86 1.02
+
+Momentum (in %) 2.19 2.26 1.85
+Volume (in Million USD) 241.46 286.54 0.73
+
+Market Cap (in Million USD) 334.54 401.47 2.77
+
+Age (in weeks) 120.61 141.22 75.37
+Number of Coins 3904 2682 1222
+
+We calculate the attrition rate in cryptocurrency markets each year to get a clear pic-
+
+ture of the number of delistings. Table A2 tabulates the number of cryptocurrencies listed
+
+at the start and end of each year. The number of cryptocurrencies at the end of the year
+
+equals the number of coins listed at the beginning of the year, plus the newly listed assets,
+
+minus all dissolutions. Note that year-end equals the last Tuesday of the year. The year
+
+start equals the first Tuesday of the year. Thus, the number of assets at the start does not
+
+necessarily have to equal the number at the end of the previous year. The sixth column
+
+reports the number of cryptocurrencies listed and delisted in the same year. The attrition
+
+rate in year t equals the ratio of the number of delisted cryptocurrencies in year t minus
+
+the number of coins that were listed/ delisted in the same year t, divided by the number
+
+of coins at the beginning of the year. For example, at the beginning (end) of 2019, 1’290
+
+12
+
+
+
+(1’516) cryptocurrencies exist. 166 coins dissolved during 2019, of which three were listed
+
+and delisted in the same year. Thus, the attrition rate for 2019 equals 166−3
+1′290
+
+= 12.64%. For
+
+2014 the attrition rate equals zero because the total number of dissolutions equals the num-
+
+ber of listed and delisted coins in 2014. Looking at the attrition rate column, we document
+
+that the attrition rate was especially high between 2015 and 2018. For 2018, the attrition
+
+rate in cryptocurrency markets equals 32.44%. Interestingly, the attrition rate has become
+
+extremely low after 2019. In the year 2020 (2021), the rate is 0.46% (0.23%). Altogether,
+
+the average attrition rate over the analyzed eight years equals 14.65%. This number is con-
+
+siderably lower compared to the attrition rate over the whole sample period of 31%. The
+
+discrepancy arises since Table A2 only incorporates coins that are listed and delisted in the
+
+same year. We have already pointed out that delisted cryptocurrencies tend to have a short
+
+life cycle. 332 coins are listed and delisted within the same year. Table A4 in the Appendix
+
+provides a more granular analysis of the number of weeks coins are listed. We document
+
+that 51% of all dissolved coins delist within the first 60 weeks of trading.
+
+Table IV presents the dissolution in cryptocurrency markets differently. Similarly to
+
+Fung and Hsieh (1997), we calculate dissolution rates of cryptocurrencies for multi-year
+
+intervals. As the endpoint, we specify the December 28th, 2021. The starting points equal
+
+the last Tuesday of each year from 2014 until 2020. The mortality rate for year t equals the
+
+ratio of the number of cryptocurrencies that did not survive until the end of 2021, divided
+
+by the number of cryptocurrencies that existed at the end of year t. As an example, 511
+
+cryptocurrencies were traded at the end of 2014, and 127 are still listed at the end of 2021.
+
+The mortality rate for year 2014 equals 511−127
+511
+
+= 75.15%. In other words, only every fourth
+
+cryptocurrency that existed in 2014 is still listed today. From 2014 until 2020, the average
+
+mortality rate of cryptocurrencies is 37.06%. The mortality rate is lower than the average
+
+mortality rate in CTA funds of 52.3% during 1989 until 1994 (Fung and Hsieh (1997)).
+
+Mechanically, mortality rates are higher than attrition rates as the latter are dissolution
+
+rates over a single year. Nevertheless, the results presented in Table A2 and IV show that
+
+cryptocurrencies dissolve frequently.
+
+In this Section, we have shown that cryptocurrencies dissolve frequently. Only every
+
+fourth cryptocurrency that existed in 2014 is still listed today. To what extent excluding
+
+delisted cryptocurrencies distort performance measures are part of the next Section.
+
+13
+
+
+
+Table IV Mortality Rate of Cryptocurrencies by Year
+This table mortality rates of cryptocurrencies for each year; 07-January-2014 to 28-December-2021, 417 weeks. For each
+year, the mortality rate is calculated by dividing the number of cryptocurrencies that did not survive until the end of 2021
+with the number of listed cryptocurrency at the end of each year
+
+Year End Number of Cryptocurrencies Number of Cryptocurrencies
+surviving until 2021
+
+Mortality rate (%)
+
+2014 511 127 75.15
+2015 592 184 68.92
+
+2016 584 255 56.34
+
+2017 968 539 44.32
+2018 1285 1111 13.54
+
+2019 1516 1504 0.79
+
+2020 2150 2143 0.33
+
+Average 37.06
+
+14
+
+
+
+IV. Findings
+
+A. Survivorship & Delisting Bias
+
+Table V quantifies the survivorship bias in cryptocurrency markets. We report the aver-
+
+age weekly returns of three portfolios. The first (second) column reports weekly returns of a
+
+portfolio containing all (only surviving) cryptocurrencies. As a reference point, column three
+
+equals the average Bitcoin return. We quantify the survivorship bias by comparing the weekly
+
+returns of the surviving portfolio with a portfolio that contains all cryptocurrencies.8 Consid-
+
+ering the portfolio containing all 3’904 cryptocurrencies, the average weekly value-weighted
+
+(equal-weighted) return equals 1.40% (1.60%) per week. In contrast, the average return of a
+
+value-weighted (equal-weighted) survivorship-biased portfolio equals 1.42% (2.53%). Thus,
+
+survivor only conditioning positively biases performance measures. The return difference be-
+
+tween the surviving portfolio and the portfolio including all cryptocurrencies quantifies the
+
+survivorship and delisting bias in cryptocurrency markets. The weekly survivorship bias is
+
+reported in column four. We estimate a weekly bias of 0.018% (0.934%) for a value-weighted
+
+(equal-weighted) weighting scheme, which equals an annualized survivorship bias of 0.93%
+
+for value-weighted portfolios. For value-weighted portfolios, the survivorship bias plays a
+
+minor role. In contrast, the annualized bias for equal-weighted portfolios equals 62.19%.
+
+Table V Estimates of the Survivorship & Delisting Bias
+This table compares the average weekly returns (in per cent) from 2014 through 2021 of all cryptocurrencies in existence
+with the returns for all cryptocurrencies that survived until the end of 2021; 07-January-2014 to 28-December-2021, 417
+weeks. Column 3 reports the average weekly Bitcoin return. The estimated survivorship and delisting bias is reported in
+column 4. The bias equals the average return difference between the surviving and all ever existing cryptocurrencies. The
+last column reports the annualized bias. The bias is estimated using value-weighted and equal-weighted portfolios.
+
+All Cryptocur-
+
+rencies in
+Existence (%)
+
+Cryptocurrencies
+
+that survived
+until 2021 (%)
+
+Bitcoin (%) Weekly Bias
+
+(%)
+
+Annualised
+
+Bias (%)
+
+Value-weighted: 1.402 1.419 1.515 0.018 0.933
+
+Equal-weighted: 1.595 2.53 1.515 0.934 62.188
+
+Number of Coins: 3904 2682 1 1222
+
+We conclude that performance measures distortion in a cryptocurrency sample truncated
+
+by survivorship is weighting-scheme dependent. The survivorship bias only slightly distorts
+
+returns for value-weighted portfolios but significantly affects equal-weighted portfolios. The
+
+bias is highly weighting-scheme-dependent due to the market structure of cryptocurrencies.
+
+Figure 4 depicts the market concentration of cryptocurrencies. The market is highly concen-
+
+trated around a few cryptocurrencies with high market capitalization. At the end of 2021,
+
+8This definition is in line with Goetzmann, Ibbotson, and Brown (1999), and Fung and Hsieh (2000).
+
+15
+
+
+
+Bitcoin (Ether) alone accounts for 40% (20%) of the total market capitalization of the cryp-
+
+tocurrency market. The market dominance of Bitcoin fluctuated around 90% before 2016.
+
+Thus, it is unsurprising that survivor-only conditioning results in an economically small per-
+
+formance measure distortion in value-weighted portfolios. As soon as the weighting scheme
+
+in portfolios is changed, the exclusion of the 1’222 delisted cryptocurrencies significantly
+
+biases performance measures.
+
+Figure 4. Market Share of the Largest Cryptocurrencies
+This figure depicts the market share of the largest cryptocurrencies in percent of the total market
+capitalization; 27-January-2014 to 27-December-2021, 96 months. The visualized coins include Bitcoin
+(BTC), Ether (ETH), Binance Coin (BNB), Cardano (ADA), Ripple (XRP), Solana (SOL), Doge Coin
+(DOGE), Polkadot (DOT), Shiba (SHIB), and all other cryptocurrencies (Other coins).
+
+0.
+0
+
+0.
+2
+
+0.
+4
+
+0.
+6
+
+0.
+8
+
+1.
+0
+
+M
+ar
+
+ke
+t
+
+C
+ap
+
+(i
+n
+
+p
+er
+
+ce
+n
+t
+
+of
+to
+
+ta
+l
+
+m
+ar
+
+ke
+t
+
+ca
+p
+)
+
+Jan-2014 Dec-2015 Dec-2017 Dec-2019 Dec-2021
+
+BTC
+ETH
+BNB
+ADA
+XRP
+
+SOL
+DOGE
+DOT
+SHIB
+Other Coins
+
+16
+
+
+
+B. Characteristics of Delisted Cryptocurrencies
+
+Subsequently, we use logistic regressions to determine the characteristics of cryptocur-
+
+rencies that precipitate a delisting. Eq. 1 represents the full model:
+
+Pi,T (Delist = 1) = α+β1Agei,T+β2Returni,T−1+β3Sizei,T−1+β4ln(V olume)i,T−1+εi,T (1)
+
+where, Delist = 1 if cryptocurrency i is delisted and Delist = 0 if the cryptocurrency i
+
+is still listed at the end of 2021. Agei,T equals the number of weeks a cryptocurrency has
+
+been traded, Reti,T−1 is the lagged weekly return (in percent) of cryptocurrency i measured
+
+from Tuesday (T-2) to Tuesday (T-1). Sizei,T−1 equals the natural logarithm of the market
+
+capitalization of cryptocurrency i at time T-1. ln(V olume)T−1 equals the one-week lagged
+
+weekly natural logarithm of the trading volume of cryptocurrency i. The cryptocurrency
+
+characteristics are regressed on the binary Delist variable.
+
+Table VI reports the results from logistic regressions. We specify five models. In models
+
+one to four, the characteristics are regressed individually. Model 5 equals the full model from
+
+Eq. 1. In the first column of each model, we report coefficients and standard errors in paren-
+
+theses below the coefficients. The second column of each model, reports the marginal effects.
+
+The marginal effect equals the partial effect of the explanatory variable on the probability
+
+of delisting. In model one, the age variable is negative and significant at the 1% level (co-
+
+efficient = -0.011; standard error = 0.001). This confirms the negative relationship between
+
+age and the probability of delisting. The marginal effect of the size variable equals -0.002,
+
+implying that a unit increase in size decreases the delisting probability by 0.2%, on average.
+
+The magnitude of the effect is economically large as the age variable equals the number of
+
+weeks the cryptocurrency is listed. Model two shows that smaller coins exhibit a higher
+
+probability of being delisted. The size coefficient equals -0.535 (SE=0.019). Models three
+
+and four equally exhibit high significance for the lagged return and trading volume variables.
+
+The coefficients are -1.037 (SE=0.144) and -0.238 (SE=0.010), respectively. Model five rep-
+
+resents the full model. The coefficients for trading age, weekly trading volume and market
+
+capitalization are significant and the 1% level. The weekly return becomes insignificant. The
+
+marginal effect of the age variable in the full model, as a discrete variable, equals 0.11%.
+
+This means that the delisting probability decreases by 1.1% with a ten weeks increase in
+
+listing age, all other factors being constant. The marginal effects of the volume and size
+
+variables, as continuous variables, are -0.013 and -0.030, which means that a 1% increase in
+
+trading volume and market capitalization decreases the delisting probability by 1.3% and
+
+17
+
+
+
+3%, respectively.
+
+Overall, the regression results imply that a cryptocurrency that has a longer trading his-
+
+tory, higher trading volume, and a larger market capitalization exhibit a lower probability
+
+of being delisted. Our findings are similar to Kashefi Pour and Lasfer (2013) who analyze
+
+equity characteristics at the IPO and ex-post at the delisting date for stocks, with a logistic
+
+regression. (Kashefi Pour and Lasfer (2013)) find that continuing high leverage, low trading
+
+volume, growth opportunities, and profitability are defining factors for voluntary delistings
+
+of companies.
+
+18
+
+
+
+Table VI Factors Determining Delistings
+This table depicts results of a logistic regression where the dependent variable equals 1 for delisted coins and is 0 otherwise; 07-January-2014 to 28-December-2021, 417
+weeks. Model 5 is defined as follows:
+
+Pi,T (Delist = 1) = α+ β1Agei,T + β2Returni,T−1 + β3Sizei,T + β4ln(V olume)i,T−1 + εi,T
+
+Standard errors (S.E) are reported below the coefficient estimates in parentheses. *, **, *** indicate statistical significance levels at the 10%, 5%, 1% levels respectively,
+using Wald test.
+
+Dependent variable:
+
+Delist Dummy
+
+(1) (2) (3) (4) (5)
+
+Coefficient Marginal Coefficient Marginal Coefficient Marginal Coefficient Marginal Coefficient Marginal
+
+(S.E) Effect (S.E) Effect (S.E) Effect (S.E) Effect (S.E) Effect
+
+Age −0.011∗∗∗ -0.002 −0.013∗∗∗ -0.001
+(0.001) (0.001)
+
+Sizet−1 −0.535∗∗∗ -0.065 −0.394∗∗∗ -0.030
+(0.019) (0.026)
+
+Returnt−1 −1.037∗∗∗ -0.194 −0.287 -0.022
+(0.144) (0.181)
+
+ln(V olume)t−1 −0.238∗∗∗ -0.031 −0.167∗∗∗ -0.013
+(0.010) (0.017)
+
+Constant 0.310∗∗∗ 5.585∗∗∗ −1.076∗∗∗ 0.850∗∗∗ 6.565∗∗∗
+
+(0.061) (0.233) (0.039) (0.088) (0.313)
+
+Observations 3,904 3,586 3,571 3,434 3,387
+
+Nagelkerke R2 0.171 0.499 0.023 0.307 0.570
+
+Note: ∗p<0.1; ∗∗p<0.05; ∗∗∗p<0.01
+
+19
+
+
+
+V. Revisiting previous Findings
+
+This section revisits the relationship between average returns, size, past performance, and
+
+market β using a survivorship and delisting bias-free dataset. Specifically, we aim to answer
+
+if size, momentum, and market β carry a positive return premium or if these premiums are
+
+spurious and the result of how researchers compile their data.
+
+A. Size Premium
+
+We revisit the magnitude of a size premium in cryptocurrency markets using a survivor-
+
+ship and delisting bias-free dataset. At the end of each Tuesday (t), we rank cryptocurren-
+
+cies into five size groups and calculate portfolio returns from Tuesday (t) to Tuesday in the
+
+consecutive week (t+1) (Liu et al., 2020), (Liebi, 2022). Table VII reports value-weighted
+
+(Panel A) and equal-weighted (Panel B) weekly returns for quintile portfolios sorted on size.
+
+For each weighting scheme, we compare the results when all cryptocurrencies are consid-
+
+ered and compare the results to a survivorship-biased dataset. The small-minus-big (SMB)
+
+row reports average weekly returns of a portfolio that is long in the first and short in the
+
+fifth size quintile. Additionally, Table VII shows portfolio returns adjusted for systematic
+
+risk. The alpha equals the intercept from regressing the excess SMB returns on the excess
+
+cryptocurrency market return.
+
+Table VII Survivorship Bias and the Size Premium
+Averages of weekly percent excess returns for value-weighted (Panel A: VW) and equal-weighted (Panel B: EW) portfolios
+formed on size; 07-January-2014 to 28-December-2021, 417 weeks. At the end of each Tuesday (=t), cryptocurrencies are
+sorted into quintiles based on size. Then, value-weighted and equal-weighted portfolio returns are calculated from t to
+t+1. The small-minus-big (SMB) row reports the average weekly return of the 1-5 portfolio. The alpha is the intercept
+obtained from a regression of SMB returns on the excess market return. T-statistics are reported in parenthesis below the
+coefficients. *, **, *** indicate statistical significance levels at the 10%, 5%, 1% levels, respectively.
+
+Panel A: VW Return (in per cent) Panel B: EW Return (in per cent)
+
+Size All Cryptocur-
+
+rencies
+
+Surviving
+
+Cryptocurren-
+cies
+
+Size All Cryptocur-
+
+rencies
+
+Surviving
+
+Cryptocurren-
+cies
+
+Small 3.30*** 4.26*** Small 4.63*** 5.88***
+
+(5.74) (6.63) (7.78) (8.98)
+2 1.38** 2.12*** 2 1.62*** 2.36***
+
+(2.40) (3.56) (2.72) (3.87)
+
+3 0.72 1.72*** 3 0.75 1.92***
+(1.24) (2.68) (1.28) (2.96)
+
+4 0.55 1.25** 4 0.66 1.45**
+
+(0.91) (2.02) (1.07) (2.31)
+Big 1.41*** 1.42*** Big 0.82 1.19*
+
+(2.70) (2.73) (1.35) (1.93)
+
+SMB 1.89*** 2.84*** SMB 3.81*** 4.69***
+(4.75) (5.79) (8.95) (9.07)
+
+Alpha 2.15*** 3.09*** Alpha 3.99*** 4.88***
+(5.50) (6.36) (9.39) (9.43)
+
+20
+
+
+
+Looking at Panel A in Table VII, we find that within each quintile portfolio, average
+
+returns of the survivorship bias-free dataset are lower compared to the survivorship biased
+
+sample. For the smallest size quintile, the average return difference between the surviving
+
+and the unbiased sample equals 0.36% per week. Except for the 5th quintile, average returns
+
+are decreasing from the first to the fifth quintile. Thus, smaller coins tend to outperform
+
+large coins. This result is independent of the sample. However, the unbiased sample’s value-
+
+weighted SMB return equals 1.89% (t=4.75). The survivorship and delisting biased SMB
+
+portfolio yields an average weekly return of 2.84% (t=5.79). The average return difference
+
+of the SMB portfolios equals 0.95% per week. Economically, this is a large bias. The value-
+
+weighted size premium is overestimated by 50.3% per week in a survivorship biased sample.
+
+The risk-adjusted alpha of the unbiased (biased) SMB size portfolio equals 2.15% (3.09%)
+
+for value-weighted portfolios. Importantly, both samples confirm a size premium in cryp-
+
+tocurrency markets. Panel B of Table VII reports equal-weighted returns. Overall, we find a
+
+similar picture. Average returns are smaller for the unbiased sample than the biased sample
+
+within each size quintile. Average returns decrease with increasing size. Interestingly, the
+
+size premium is underestimated for equal-weighted portfolios in a biased sample due to the
+
+large bias in the largest size quintile, where the return difference equals 0.34% per week.
+
+Overall, Table VII confirms the findings of previous studies. Small cryptocurrencies yield
+
+higher average returns than big cryptocurrencies. Importantly, this result holds when a sur-
+
+vivorship and delisting bias-free dataset is used. We conclude that the size premium is not
+
+spurious. Comparing our estimated size premium to other studies, we find that our estimate
+
+is considerably lower than previously documented. The value-weighted size premium equals
+
+1.89%. Liu et al. (2020) document a size premium of 22.26% per week. The authors use
+
+sixtile sorts, which might be a potential explanation for the higher premium. Liebi (2022)
+
+finds a size premium of 6.53%, and Liu et al. (2022) estimate a premium of 3.4% per week.
+
+Both authors use quintile portfolio sorts. Li et al. (2020) and Zhang and Li (2020) use decile
+
+sorts resulting in a size premium of 6.16 and 14.4%, respectively.
+
+Besides the portfolio sorting technique, two other reasons might explain the large varia-
+
+tion in estimated size premiums. The first one is different cryptocurrency samples, and the
+
+second reason is the sample period. Next, we want to evaluate if size filters may drive the
+
+variation in the estimated size premiums. As an example, Liu et al. (2022) and Liebi (2022)
+
+use a size filter of $1 Million. We examine the dependence of the size premium and the size
+
+filter. We rank all cryptocurrencies on survival dummy and the market capitalization at
+
+the end of 2021. We start with a sample of 100 cryptocurrencies with the highest market
+
+21
+
+
+
+capitalization at the end of 2021. Then, we sort these cryptocurrencies into size quintiles and
+
+calculate the weekly SMB return. This portfolio sorting method is iterated by sequentially
+
+adding 200 cryptocurrencies to the sample. Importantly, we add surviving coins with the
+
+highest market capitalization at the end of the sample period first. In a second phase, we
+
+add delisted cryptocurrencies. Again, delisted cryptocurrencies with a high market capital-
+
+ization at the last trading day are added first. This method provides insights into how size
+
+filters and sample sizes affect the size premium.
+
+Figure 5. Selection Bias and the Size Premium
+This figure depicts the size premium for different sample sizes. The size premium is defined as the high-
+minus-low quintile portfolio that is long in the lowest level of size and short in the highest level of size.
+At the end of each Tuesday (t), coins are sorted on size and held until the consecutive Tuesday (t+1).
+Portfolio returns are value-weighted and portfolios are weekly rebalanced. The sample size starts with
+100 coins and is step-wise increased by 200 coins. First, only surviving coins are added to the sample.
+Second, we add the delisted coins. Importantly, we add coins sequentially according to their market
+capitalization on the last trading day. Thus, larger coins are always added first within the surviving
+and delisted group. We label the maximum, the survivorship-biased, and the true estimate of the size
+premium. T-statistics are reported in parentheses below the coefficients. The darkgray area between
+the dashed lines represents 95% confidence intervals.
+
+0 1000 2000 3000
+
+1
+2
+
+3
+4
+
+5
+
+Sample Size
+
+S
+iz
+
+e
+P
+
+re
+m
+
+iu
+m
+
+(i
+n
+
+p
+er
+
+ce
+n
+t)
+
+DelistedSurviving
+
+Estimate
+
+3.38
+
+(7.49)
+2.84
+
+(5.79)
+
+1.89
+
+(4.75)
+
+22
+
+
+
+Figure 5 depicts the sample size on the x-axis and the weekly value-weighted SMB return
+
+on the y-axis. In the light red area, only survivors are added to the sample. In the light
+
+blue area, we sequentially add delisted cryptocurrencies. Three specific points are labeled in
+
+Figure 5. The first equals the highest SMB return. The second point equals the SMB return
+
+in the survivorship-biased sample. The last point equals the SMB return in a survivorship-
+
+bias free sample, including all cryptocurrencies. T-values are reported in parenthesis below
+
+the coefficients. Note that the second and third labels are consistent with Panel A in Table
+
+VII. Figure 5 depicts that the size premium is positive in all subsamples. The highest size
+
+premium of 3.38% (t=7.46) results when the 1700 largest cryptocurrencies are in the sample.
+
+Including all surviving cryptocurrencies, the size premium equals 2.84% (t=5.79). Including
+
+also delisted cryptocurrencies, the size premium falls to 1.89% (t=4.75). Since we sequen-
+
+tially add cryptocurrencies with smaller market capitalization, one might expect that the
+
+value-weighted SMB return might not change significantly. Delisted coins are characterized
+
+by large losses at the delisting date and small with respect to market capitalization. Hence,
+
+when sorting on size, the delisted coins end up in the small quintile, resulting in a lower re-
+
+turn than without delisted coins. Thus, it is not surprising that with increasing sample size,
+
+the size premium decreases. Overall, Figure 5 indicates that the size premium is strongly
+
+dependent on the way researchers compile their data. The size premium can be inflated by
+
+one percentage point per week. This result should raise awareness of the survivorship and
+
+delisting bias in cryptocurrency studies.
+
+Finally, we ask if the sample period may cause the large variety of documented size
+
+premiums in previous studies. Figure 6 visualizes the average value-weighted SMB return for
+
+each year. We report the returns for the whole as well as a survivorship-biased sample. The
+
+first finding is that the size premium inflation due to survivorship bias is especially profound
+
+in 2014. The size premium is overestimated by 5 percentage points, which similarly holds
+
+for 2015. During the ICO boom, the effect of the bias reverses. The size premium is larger
+
+in the whole sample than the biased one. In more recent years, survivorship bias does not
+
+result in a large difference between the two samples, mainly due to the small number of
+
+delistings in 2020 and 2021.
+
+23
+
+
+
+Figure 6. Average Weekly Size Premium by Year
+This figure reports average value-weighted weekly returns per year of a SMB portfolio that is long in
+the smallest and short in the highest size quintile.
+
+All
+Survivor
+
+M
+ea
+
+n
+w
+
+ee
+k
+ly
+
+si
+ze
+
+p
+re
+
+m
+iu
+
+m
+(i
+
+n
+p
+
+er
+ce
+
+n
+t)
+
+-2
+0
+
+2
+4
+
+6
+
+20
+14
+
+20
+15
+
+20
+16
+
+20
+17
+
+20
+18
+
+20
+19
+
+20
+20
+
+20
+21
+
+24
+
+
+
+B. Momentum
+
+Similarly, we revisit the momentum effect in cryptocurrency markets. We use one-week
+
+momentum in cryptocurrency returns, i.e. the cumulative return from t-7 days to t for each
+
+cryptocurrency. The one-year horizon is chosen according to Jegadeesh and Titman (1993),
+
+Carhart (1997), and Liu and Tsyvinski (2021). At the end of each Tuesday (t), cryptocur-
+
+rencies are sorted for momentum into quintile portfolio. Each portfolio is held for one week.
+
+Thus, portfolio returns are calculated from Tuesday (t) until Tuesday in the consecutive
+
+week (t+1).
+
+Table VIII reports value-weighted (Panel A) and equal-weighted (Panel B) weekly returns
+
+for quintile portfolios sorted on one-week momentum. Independent of the weighting scheme
+
+and the dataset, we cannot confirm that past winners outperform past losers in the consecu-
+
+tive week. The HML portfolio yields negative returns, long in past winners and short in past
+
+losers. For value-weighted returns, the average return difference is indistinguishable from
+
+zero. Regarding equal-weighted portfolios, the HML portfolio yields -11.46% (t=-32.91) per
+
+week for all cryptocurrencies. These results suggest no momentum effect in cryptocurrency
+
+markets and stand in contrast to previous findings. Surprisingly, no momentum effect is
+
+documented even when a survivorship-biased sample is used.
+
+Table VIII Survivorship Bias and Momentum
+Averages of weekly percent excess returns for value-weighted (Panel A: VW) and equal-weighted (Panel B: EW) portfolios
+formed on one-week momentum; 07-January-2014 to 28-December-2021, 417 weeks. At the end of each Tuesday (=t),
+cryptocurrencies are sorted into quintiles based on momentum. In the sort time t, momentum equals the cumulative
+weekly return over the previous 7 days. Then, value-weighted and equal-weighted portfolio returns are calculated from
+t to t+1. The high-minus-low (HML) column reports the average weekly returns of the 5-1 portfolio. The alpha is the
+intercept obtained from a regression of HML returns on the excess market return. T-statistics are reported in parenthesis
+below the coefficients. *, **, *** indicate statistical significance levels at the 10%, 5%, 1% levels, respectively.
+
+Panel A: VW Return (in per cent) Panel B: EW Return (in per cent)
+
+Momentum All Cryptocur-
+rencies
+
+Surviving
+Cryptocurren-
+
+cies
+
+Momentum All Cryptocur-
+rencies
+
+Surviving
+Cryptocurren-
+
+cies
+
+Low 1.38 1.04 Low 8.53*** 8.04***
+( 1.69) (1.33) ( 13.72) ( 12.27)
+
+2 1.08 1.07 2 2.18*** 2.34***
+( 1.51) (1.56) ( 3.72) ( 3.79)
+
+3 0.79 1.02 3 1.46** 1.82***
+( 1.32) (1.62) ( 2.46) ( 3.10)
+
+4 1.93*** 1.88*** 4 1.42** 2.24***
+
+( 2.99) (3.02) ( 2.41) ( 3.57)
+
+High 1.51 1.82* High -2.93*** -0.36
+( 1.64) (1.92) ( -5.13) ( -0.59)
+
+HML 0.13 0.78 HML -11.46*** -8.40***
+( 0.13) (0.77) (-32.91) (-19.19)
+
+Alpha -0.06 0.61 Alpha -11.32*** -8.24***
+
+(-0.06) (0.60) (-32.56) (-18.81)
+
+25
+
+
+
+Figure 7 displays that the resulting momentum premium depends significantly on the
+
+way researchers may compile their data. If the entire sample is considered, the momentum
+
+effect is only 0.13%, which is in line with Table VIII. Considering all surviving cryptocur-
+
+rencies, the momentum premia is 0.78%. Within the surviving cryptocurrencies, there is
+
+considerable variation of the momentum premium. The sample of the largest 100 surviving
+
+cryptocurrencies exhibits the greatest momentum effect with 2.51%.
+
+Figure 7. Selection Bias and the Momentum Premium
+This figure depicts the momentum premium for different sample sizes. The momentum premium is
+defined as a high-minus-low portfolio that is long in the highest quintile coins and short in the lowest
+momentum quintile. Momentum equals the cumulative return over the past 7 days. At the end of each
+Tuesday (t), coins are sorted on size and held until the consecutive Tuesday (t+1). Portfolio returns
+are value-weighted and portfolios are weekly rebalanced. The sample size starts with 100 coins and is
+step-wise increased by 200 coins. First, only surviving coins are added to the sample. Second, we add
+the delisted coins. Importantly, we add coins sequentially according to their market capitalization at
+the last trading day. Thus, larger coins are always added first within the surviving and delisted group.
+We label the maximum, the survivorship-biased, and the true estimate of the momentum premium.
+T-statistics are reported in parentheses below the coefficients. The darkgray area between the dashed
+lines represents 95% confidence intervals.
+
+0 1000 2000 3000
+
+-2
+-1
+
+0
+1
+
+2
+3
+
+4
+5
+
+Sample Size
+
+M
+om
+
+en
+tu
+
+m
+P
+
+re
+m
+
+iu
+m
+
+(i
+n
+
+p
+er
+
+ce
+n
+t)
+
+DelistedSurviving
+
+Estimate
+
+2.51
+
+(2.3)
+
+0.78
+
+(0.77) 0.13
+
+(0.13)
+
+Finally, Figure 8 demonstrates that there is a momentum premium for the years 2014,
+
+2017, and 2021 and a momentum reversal effect for the years 2015 and 2016. This consid-
+
+erable difference could help explain the unsettled consensus of the literature regarding the
+
+momentum effect.
+
+26
+
+
+
+Figure 8. Average Weekly Momentum Premium by Year
+This figure reports average weekly returns per year of a HML portfolio that is long in the highest and
+short in the lowest momentum quintile.
+
+All
+Survivor
+
+M
+ea
+
+n
+w
+
+ee
+k
+ly
+
+m
+om
+
+en
+tu
+
+m
+p
+re
+
+m
+iu
+
+m
+(i
+
+n
+p
+
+er
+ce
+
+n
+t)
+
+-6
+-4
+
+-2
+0
+
+2
+4
+
+6
+
+20
+14
+
+20
+15
+
+20
+16
+
+20
+17
+
+20
+18
+
+20
+19
+
+20
+20
+
+20
+21
+
+Table IX Two-dimensional Sorts on Momentum and Size
+Averages of weekly percent excess returns for value-weighted (Panel A: VW) and equal-weighted (Panel B: EW) portfolios
+formed on size; 07-January-2014 to 28-December-2021, 417 weeks. At the end of each Tuesday, crypotcurrencies are
+allocated into terciles portfolios on momentum. Cryptocurrencies are allovated independently to terciles portfolios based
+on size. The intersections of the two sorts results in nine portfolios. Panel A (B) reports value-weighted (equal-weighted)
+weekly percent returns in excess of the one-month Treasury bill rate. Excess returns are calculated from Tuesday (t)
+until Tuesday in the following week (t+1). The HML column (row) is a long-short portfolio, which is long in the third
+column (row) and short in the first column (row). T-statistics are reported in paranthesis below the coefficients. *, **,
+*** indicate statistical significance levels at the 10%, 5%, 1% levels, respectively.
+
+A: VW B: EW
+
+Mom-size Loser Neutral Winner HML Mom-size Loser Neutral Winner HML
+
+Small 8.09*** 4.92*** 2.02*** -6.07*** Small 10.98*** 5.64*** 2.7*** -8.28***
+
+(12.10) (7.53) (2.59) (-9.09) (16.35) (8.71) (3.98) (-19.50)
+Neutral 2.95*** 2.17*** 1.79*** -1.16*** Neutral 4.14*** 2.28*** 1.56** -2.58***
+
+(4.52) (3.38) (2.99) (-2.65) (6.45) (3.54) (2.38) (-6.11)
+Big -1.68*** -0.63 2*** 3.68*** Big -1.6*** -0.99 1.28* 2.89***
+
+(-2.76) (-0.96) (2.72) (5.69) (-2.68) (-1.58) (1.89) (6.18)
+
+HML -9.77*** -5.54*** -0.02 HML -12.58*** -6.63*** -1.42***
+(-22.39) (-14.00) (-0.03) (-33.43) (-18.23) (-4.01)
+
+27
+
+
+
+C. Market β
+
+Subsequently, we analyse the relationship between market betas and the survivorship
+
+bias. At the end of each Tuesday (=t), cryptocurrencies are sorted into quintiles based on
+
+the market beta. Market beta equals the slope coefficient when regressing excess returns of
+
+cryptocurrencies on the excess market return from t-365 days until t. The market return
+
+equals the value-weighted return of all cryptocurrencies in our sample. Table X reports
+
+value-weighted (Panel A) and equal-weighted (Panel B) weekly returns for quintile portfolios
+
+sorted one-year market betas. Depending on the weighting scheme, the HML portfolio has
+
+a positive return for the value-weighted and a negative return for the equal-weighted. The
+
+HML portfolio is long in high market beta cryptocurrencies and short in low market beta
+
+cryptocurrencies. Our findings are not significant, which is consistent with the existing
+
+literature, for example, Liu and Tsyvinski (2021).
+
+Table X Market Beta and Survivorship Bias
+Averages of weekly percent excess returns for value-weighted (Panel A: VW) and equal-weighted (Panel B: EW) portfolios
+formed on market beta; 07-January-2014 to 28-December-2021, 417 weeks. At the end of each Tuesday (=t), cryptocur-
+rencies are sorted into quintiles based on market beta. In the sort time t, market beta is estimated from t-365 days until
+t. Then, value-weighted and equal-weighted portfolio returns are calculated from t to t+1. The high-minus-low (HML)
+row reports the average weekly return of the 5-1 portfolio.The alpha is the intercept obtained from a regression of HML
+returns on the excess market return. T-statistics are reported in parenthesis below the coefficients. *, **, *** indicate
+statistical significance levels at the 10%, 5%, 1% levels, respectively.
+
+Panel A: VW Return (in per cent) Panel B: EW Return (in per cent)
+
+Market beta All Cryptocur-
+
+rencies
+
+Surviving
+
+Cryptocurren-
+
+cies
+
+Market beta All Cryptocur-
+
+rencies
+
+Surviving
+
+Cryptocurren-
+
+cies
+
+Low 0.31 0.69 Low 2.40*** 3.08***
+
+(0.37) (0.80) (3.19) ( 3.62)
+
+2 1.69* 1.39 2 2.97*** 2.28***
+(1.87) (1.46) (3.44) ( 2.63)
+
+3 1.38 1.55* 3 2.15*** 2.63***
+
+(1.62) (1.84) (2.61) ( 2.96)
+4 1.84* 2.43** 4 2.53*** 2.91***
+
+(1.94) (2.39) (2.97) ( 3.13)
+High 1.79** 1.81** High 3.25*** 2.93***
+
+(2.01) (2.08) (3.73) ( 3.30)
+HML 1.48 1.11 HML 0.85 -0.15
+
+(1.50) (1.09) (1.07) (-0.17)
+
+Alpha 0.72 0.42 Alpha 0.52 -0.36
+
+(0.74) (0.41) (0.65) (-0.41)
+
+As before for the size and momentum premium, Figure 9 displays that the resulting
+
+market betas depend on the way researchers compile their sample. The weekly market beta
+
+premium for the total sample is 1.48%. Considering all surviving cryptocurrencies, it is
+
+1.11%. The largest market beta premium in our case exists with a sample size of 300 sur-
+
+viving cryptocurrencies with 2.56%.
+
+28
+
+
+
+Figure 9. Selection Bias and Market β
+This Figure depicts the market beta premium for different sample sizes. The market beta premium
+is defined as a high-minus-low portfolio that is long in the highest quintile coins and short in the
+lowest market beta quintile. Market beta equals the slope coefficient when regressing excess returns
+of cryptocurrencies on the excess market return from t-365 days until t. At the end of each Tuesday
+(t), coins are sorted on size and held until the consecutive Tuesday (t+1). Portfolio returns are value-
+weighted and portfolios are weekly rebalanced. The sample size starts with 100 coins and is step-wise
+increased by 200 coins. First, only surviving coins are added to the sample. Second, we add the delisted
+coins. Importantly, we add coins sequentially according to their market capitalization at the last trading
+day. Thus, larger coins are always added first within the surviving and delisted group. We label the
+maximum, the survivorship-biased, and the true estimate of the market β premium. T-statistics are
+reported in parentheses below the coefficients. The darkgray area between the dashed lines represents
+95% confidence intervals.
+
+0 1000 2000 3000
+
+-2
+0
+
+2
+4
+
+6
+
+Sample Size
+
+M
+ar
+
+ke
+t
+
+B
+et
+
+a
+P
+
+re
+m
+
+iu
+m
+
+(i
+n
+
+p
+er
+
+ce
+n
+t) DelistedSurviving
+
+Estimate
+
+2.56
+
+(1.78)
+
+1.11
+
+(1.09)
+
+1.48
+
+(1.5)
+
+In Figure 10 we exhibit the market beta premium by year; again, no consistent pattern
+
+occurs. The premium is highly negative for 2015, then for 2016-2019, the premium is mostly
+
+smaller than 2%, while for 2020 and 2021, the average weekly market beta premiums are
+
+large; greater than 5% and 2%, respectively.
+
+29
+
+
+
+Figure 10. Average Weekly Market Beta Premium by Year
+This figure reports average weekly returns per year of a HML portfolio that is long in the highest and
+short in the lowest market β quintile.
+
+All
+Survivor
+
+M
+ea
+
+n
+w
+
+ee
+k
+ly
+
+m
+ar
+
+ke
+t
+
+b
+et
+
+a
+p
+re
+
+m
+iu
+
+m
+(i
+
+n
+p
+
+er
+ce
+
+n
+t)
+
+-4
+-2
+
+0
+2
+
+4
+6
+
+20
+15
+
+20
+16
+
+20
+17
+
+20
+18
+
+20
+19
+
+20
+20
+
+20
+21
+
+30
+
+
+
+D. Other Cross-Sectional Return Predictors
+
+Table XI revisits additional cross-sectional return predictors. Importantly, all predictors
+
+investigated have been examined in previous studies. Each predictor is classified into one
+
+of four categories: momentum (MOM), downside risk (DOWN), upside risk (UP), liquidity
+
+(LIQ), or volatility (VOL). In Sec. 7, we show that one-week momentum premium only
+
+exists within large cryptocurrency portfolios. Liu et al. (2022) document that also for two-,
+
+three-, and four-week momentum strategies, average returns are monotonically increasing.
+
+Table XI confirms this result for two-week and four-week momentum. Importantly, for these
+
+two predictors, the relationship is almost in all cases monotonic increasing. The average
+
+return difference between the highest and lowest level of two-week (four-week) momentum
+
+equals 2.87% (2.43%) per week. Liu et al. (2022) document a similar return difference of
+
+3.1% (2.2%) for two-week (four-week) momentum. In short, we confirm the existence of
+
+profitable momentum strategies for two and four-week return measures. We do not find
+
+a statistically significant relationship between 1-year momentum and future returns. We
+
+turn to downside risk as a cross-sectional return predictor. Zhang, Li, Xiong, and Wang
+
+(2021) find a positive cross-sectional relation between downside risk and cryptocurrency
+
+returns. This result is consistent with loss aversion preferences according to Kahneman
+
+and Tversky (1979). If investors dislike losses more than gains, an asset with a higher
+
+downside risk must exhibit higher expected returns than an asset with a low downside risk.
+
+However, when cryptocurrency investors prefer risky assets a higher downside risk would
+
+be associated with a lower expected return (see Conlon and McGee (2020) and Pelster,
+
+Breitmayer, and Hasso (2019)). Following Zhang et al. (2021), we measure downside risk
+
+using the value-at-risk. The 5%VaR is estimated from t-90 days until t and equals the
+
+5th percentile of daily returns multiplied by 1. Thus, a higher 5%VaR implies a higher
+
+downside risk. We find a negative relationship between downside risk and future returns.
+
+The average value-weighted return difference between cryptocurrencies with the highest, and
+
+cryptocurrencies with the lowest level of 5%VAR equals -3.01% (t=-3.48). When downside
+
+risk is measured using the 1%VAR, the return difference equals -2.71% (t=-3.04).9 The
+
+preference of cryptocurrency investors for risk investments is also reflected in the upside risk
+
+and volatility row. Cryptocurrencies with a higher level of upside risk have lower expected
+
+returns. Finally, we turn to illiquidity measures as cross-sectional return predictors for
+
+cryptocurrencies. We use the amihud (Amihud (2002)) and EDGE (Ardia, Guidotti, and
+
+Kroencke (2021)) to estimate illiquidity. For both measures, we do not find that higher
+
+illiquidity is associated with higher returns.
+
+9A similar relationship has been documented in equity markets: Atilgan, Bali, Demirtas, and Gunaydin
+(2019), Atilgan, Bali, Demirtas, and Gunaydin (2020a), and Atilgan, Demirtas, and Gunaydin (2020b)
+
+31
+
+
+
+Table XI One-dimensional weekly sorts
+Averages of weekly percent excess return for value-weighted portolios fromed on the past two-week, three-week, four-week, five-week 52-week return measures, 5% Value
+at Risk, 1% Value at Risk, Amihud illiquidity measure, standard deviation of daily returns in the portfolio formation week (RETVOL) maximum return in the portfolio
+formation week (MAXRET); 07-January-2014 to 28-December-2021, 417 weeks. At the end of each Tuesday (=t), crypotcurrencies are sorted into quintiles based on
+corresponding variable. In the sort time t, Value at Riks is estimated from t-90 days until t and EDGE is estimated from t-60 days until t. Then, value-weighted portfolio
+returns are calculated from t to t+1. The high-minus-low (HML) column reports average weekly returns of the 5-1 portfolio. The alpha is the intercept obtained from
+regression of HML returns on the market return. T-statistics are reported in parenthesis below the coefficients. *, **, *** indicate statistical significance levels at the 10%,
+5%, 1% levels, respectively.
+
+Category Predictor Low 2 3 4 High HML α Reference Confirm
+
+MOM 2-week MOM -0.01 0.43 1.09 2.17 2.86 2.87*** 2.75*** Liu et al. (2022) X
+(-0.01) (0.66) (1.79) (3.37) (3.49) (2.85) (2.71)
+
+MOM 3-week MOM 0.93 0.62 0.97 2.17 2.65 1.72* 1.58 Liu et al. (2022) X
+(1.03) (0.88) (1.47) (3.27) (3.42) (1.72) (1.57)
+
+MOM 4-week MOM 0.1 0.43 1.04 2.19 2.62 2.52*** 2.43*** Liu et al. (2022) X
+(0.12) (0.61) (1.67) (3.29) (3.55) (2.89) (2.76)
+
+MOM 5-week MOM 0.64 1.48 0.98 2.1 1.61 0.97 0.93 -
+
+(0.76) (2.04) (1.53) (3.07) (2.21) (1.14) (1.08)
+MOM 6-week MOM 0.72 1.49 1.07 1.62 2.22 1.51* 1.27 -
+
+(0.90) (2.21) (1.58) (2.53) (3.04) (1.87) (1.57)
+MOM 1-year MOM 1.45 1.35 1.22 2.18 2.31 0.87 0.68 Cong, Karolyi, Tang, and Zhao (2022) X
+
+(1.74) (1.85) (1.84) (3.27) (3.07) (1.03) (0.80)
+DOWN 5% VAR 1.68 1.52 0.02 -0.1 -1.71 -3.39*** -3.01*** Zhang et al. (2021) 7
+
+(3.19) (2.08) (0.02) (-0.10) (-1.82) (-3.92) (-3.48)
+DOWN 1% VAR 1.56 1.06 0.6 1.31 -1.21 -2.77*** -2.71*** Zhang et al. (2021) 7
+
+(3.03) (1.41) (0.79) (1.31) (-1.22) (-3.15) (-3.04)
+UP 95% VAR 1.69 1.83 0.96 -0.17 -2.28 -3.97*** -3.75*** -
+
+(3.21) (2.41) (1.06) (-0.20) (-2.24) (-4.27) (-3.99)
+UP 99% VAR 1.65 1.93 0.89 0.83 -1.81 -3.46*** -3.42*** -
+
+(3.12) (2.70) (1.12) (0.87) (-1.78) (-3.77) (-3.68)
+
+LIQ Amihud 1.51 0.31 0.93 0.04 -0.36 -1.87** -1.63* Wei (2018) X
+(2.89) (0.42) (1.32) (0.05) (-0.36) (-2.07) (-1.79)
+
+LIQ EDGE 1.31 1.65 2.29 -0.05 0.44 -0.87 -0.71 -
+
+(2.28) (2.32) (3.02) (-0.08) (0.53) (-1.23) (-0.99)
+VOL RETVOL 1.55 1.71 1.75 -0.77 -5.18 -6.73*** -6.53*** Liu et al. (2022) and Ang, Hodrick, Xing, and Zhang (2006) X
+
+(2.88) (2.36) (1.97) (-0.91) (-4.74) (-6.61) (-6.37)
+
+VOL MAXRET 1.45 1.92 1.59 0.24 -4.14 -5.59*** -5.38*** Liu et al. (2022) and Bali, Cakici, and Whitelaw (2011) 7
+
+(2.58) (2.67) (2.17) (0.26) (-3.67) (-5.13) (-4.90)
+
+32
+
+
+
+VI. Conclusion
+
+Cryptocurrencies vanish frequently. Every third cryptocurrency listed between 2014 and
+
+2021 delisted before the end of 2021. Hence, empirical studies on cryptocurrencies that
+
+exclude delisted coins are biased. Survival-only conditioning can occur in many forms but
+
+is present in nearly every cryptocurrency study. The survivorship and delisting bias leads
+
+to distorted performance measures and results. Notably, cryptocurrencies do not repre-
+
+sent ownership of a corporation or any other physical asset. Therefore, the delisting of a
+
+cryptocurrency is frequently associated with a total loss for investors. The combination of
+
+survivorship and delisting bias in empirical studies raises several concerns. In this paper, we
+
+address three major issues. First, we quantify the effect of survivorship and delisting bias
+
+on estimates of average cryptocurrency market performance. Thereby, we manually collect
+
+delisting return of all delisted cryptocurrencies and classify their delisting reason. Second, we
+
+determine the characteristics of delisted cryptocurrencies. Third, we revisit previous findings
+
+that document a relationship between size, momentum, downside risk and average returns.
+
+Quantifying the magnitude of the survivorship and delisting bias, we find that the annual-
+
+ized value-weighted (equal-weighted) bias equals 0.933% (62.188%). The estimate equals the
+
+average return difference between the surviving and all ever existing cryptocurrencies. Ana-
+
+lyzing delisted cryptocurrencies closer, we find they are characterized by low trading volume,
+
+small market capitalization, and young trading age. After controlling for the survivorship
+
+and delisting bias, we revisit the relationship between average returns, size, momentum, and
+
+market β. Our results confirm the existence of a size premium in cryptocurrency markets.
+
+However, there exists a high variation of reported size premiums in the cryptocurrency lit-
+
+erature. Size premium estimates range from 5.8% (Liu et al. (2022)) to 22.3% (Liu et al.
+
+(2020)) per week. Importantly, we find that survival-only conditioning overestimates the size
+
+premium by 50%. In contrast, we find no evidence of a one-week momentum effect. Neither
+
+the complete sample nor a survivorship-biased sample displays past winners outperforming
+
+past losers. However, we confirm two- and four-week momentum. A higher market β is not
+
+associated with higher expected returns, which is in line with existing literature. Unlike
+
+Zhang et al. (2021), we find a negative relationship between downside risk and expected re-
+
+turns. This negative relationship also exists between upside risk and expected return. These
+
+results imply that cryptocurrency investors have a preference for risky investments.
+
+Empirical studies that use portfolio sorts based on cryptocurrency characteristics are
+
+significantly affected by the survivorship and delisting bias. The extraordinary high number
+
+of delistings in cryptocurrency markets makes it particularly important to correct for both
+
+33
+
+
+
+biases and avoids spurious findings.
+
+34
+
+
+
+REFERENCES
+
+Amihud, Yakov, 2002, Illiquidity and stock returns: Cross-section and time-series effects,
+
+Journal of Financial Markets 5, 31–56.
+
+Ang, Andrew, Robert J. Hodrick, Yuhang Xing, and Xiaoyan Zhang, 2006, The cross-section
+
+of volatility and expected returns, Journal of Finance 61, 259–299.
+
+Ardia, David, Emanuele Guidotti, and Tim Alexander Kroencke, 2021, Efficient Estimation
+
+of Bid-Ask Spreads from Open, High, Low, and Close Prices, Working paper, University
+
+of Neuchatel .
+
+Armin, Gaurav S, and Harry M. Hat, 2003, Welcome to the Dark Side, The Journal of
+
+Alternative Investments 6, 57–73.
+
+Atilgan, Yigit, Turan G. Bali, K. Ozgur Demirtas, and A. Doruk Gunaydin, 2019, Global
+
+downside risk and equity returns, Journal of International Money and Finance 98, 102065.
+
+Atilgan, Yigit, Turan G Bali, K Ozgur Demirtas, and A Doruk Gunaydin, 2020a, Left-tail
+
+momentum: Underreaction to bad news, costly arbitrage and equity returns, Journal of
+
+Financial Economics 135, 725–753.
+
+Atilgan, Yigit, K. Ozgur Demirtas, and A. Doruk Gunaydin, 2020b, Downside beta and
+
+the cross section of equity returns: A decade later, European Financial Management 26,
+
+316–347.
+
+Bali, Turan G., Nusret Cakici, and Robert F. Whitelaw, 2011, Maxing out: Stocks as lotteries
+
+and the cross-section of expected returns, Journal of Financial Economics 99, 427–446.
+
+Brown, Stephen J., William Goetzmann, Roger G. Ibbotson, and Stephen A. Ross, 1992,
+
+Survivorship Bias in Performance Studies, Review of Financial Studies 5, 553–580.
+
+Carhart, Mark M., 1997, On persistence in mutual fund performance, Journal of Finance
+
+52, 57–82.
+
+35
+
+
+
+Cong, Lin William, George Andrew Karolyi, Ke Tang, and Weiyi Zhao, 2022, Value Pre-
+
+mium, Network Adoption, and Factor Pricing of Crypto Assets, Working Paper, Cornell
+
+University .
+
+Conlon, Thomas, and Richard J. McGee, 2020, Betting on Bitcoin: Does gambling volume
+
+on the blockchain explain Bitcoin price changes?, Economics Letters 191, 108727.
+
+Davis, James L., 1996, The cross-section of stock returns and survivorship bias: Evidence
+
+from delisted stocks, Quarterly Review of Economics and Finance 36, 365–375.
+
+Elfakhani, Said, and Jason Wei, 2003, The survivorship bias, share price effect, and small
+
+firm effect in Canadian markets, Review of Financial Economics 12, 397–411.
+
+Fidelity Investments, 2020, Growing Number of Institutional Investors Believe That Digital
+
+Assets Should Be a Part of Their Investment Portfolios.
+
+Fung, William, and David A. Hsieh, 1997, Survivorship bias and investment style in the
+
+returns of CTAs, Journal of Portfolio Management 24, 30–41.
+
+Fung, William, and David A. Hsieh, 2000, Performance Characteristics of Hedge Funds and
+
+Commodity Funds: Natural vs. Spurious Biases, The Journal of Financial and Quantita-
+
+tive Analysis 35, 291.
+
+Gkillas, Konstantinos, and Paraskevi Katsiampa, 2018, An application of extreme value
+
+theory to cryptocurrencies, Economics Letters 164, 109–111.
+
+Goetzmann, William N., Roger G. Ibbotson, and Stephen J. Brown, 1999, Offshore Hedge
+
+Funds: Survival & Performance 1989-1995, Journal of Business 72, 91–117.
+
+Griffin, John M., and Amin Shams, 2020, Is Bitcoin Really Untethered?, Journal of Finance
+
+75, 1913–1964.
+
+Grobys, Klaus, and Niranjan Sapkota, 2019, Cryptocurrencies and momentum, Economics
+
+Letters 180, 6–10.
+
+36
+
+
+
+Hu, Albert S., Christine A. Parlour, and Uday Rajan, 2019, Cryptocurrencies: Stylized facts
+
+on a new investible instrument, Financial Management 48, 1049–1068.
+
+Ince, Ozgur S., and R. Burt Porter, 2006, Individual Equity Return Data from Thomson
+
+Datastream: Handle with Care!, Journal of Financial Research 29, 463–479.
+
+Jegadeesh, Narasimhan, and Sheridan Titman, 1993, Returns to Buying Winners and Selling
+
+Losers: Implications for Stock Market Efficiency, Journal of Finance 48, 65–91.
+
+Kahneman, Daniel, and Amos Tversky, 1979, Prospect theory: An analysis of decision under
+
+risk, Econometrica 47, 363–391.
+
+Kaiser, Lars, and Sebastian Stöckl, 2020, Cryptocurrencies: Herding and the transfer cur-
+
+rency, Finance Research Letters 33, 101214.
+
+Kashefi Pour, Eilnaz, and Meziane Lasfer, 2013, Why do companies delist voluntarily from
+
+the stock market?, Journal of Banking & Finance 37, 4850–4860.
+
+Lansky, Jan, 2019, Cryptocurrency Survival Analysis, The Journal of Alternative Invest-
+
+ments 22, 55–64.
+
+Li, Yi, Wei Zhang, Xiong Xiong, and Pengfei Wang, 2020, Does size matter in the cryp-
+
+tocurrency market?, Applied Economics Letters 27, 1141–1149.
+
+Liebi, Luca J., 2022, Is there a value premium in cryptoasset markets?, Economic Modelling
+
+109, 105777.
+
+Liu, Weiyi, Xuan Liang, and Guowei Cui, 2020, Common risk factors in the returns on
+
+cryptocurrencies, Economic Modelling 86, 299–305.
+
+Liu, Yukun, and Aleh Tsyvinski, 2021, Risks and Returns of Cryptocurrency, The Review
+
+of Financial Studies 34, 2689–2727.
+
+37
+
+
+
+Liu, Yukun, Aleh Tsyvinski, and Xi Wu, 2022, Common Risk Factors in Cryptocurrency,
+
+Journal of Finance 77, 1133–1177.
+
+Long, Huaigang, Adam Zaremba, Ender Demir, Jan Jakub Szczygielski, and Mikhail Vas-
+
+enin, 2020, Seasonality in the Cross-Section of Cryptocurrency Returns, Finance Research
+
+Letters 35, 101566.
+
+Malkiel, Burton G., 1995, Returns from Investing in Equity Mutual Funds 1971 to 1991,
+
+Journal of Finance 50, 549–572.
+
+Pelster, Matthias, Bastian Breitmayer, and Tim Hasso, 2019, Are cryptocurrency traders
+
+pioneers or just risk-seekers? Evidence from brokerage accounts, Economics Letters 182,
+
+98–100.
+
+Rohleder, Martin, Hendrik Scholz, and Marco Wilkens, 2011, Survivorship Bias and Mu-
+
+tual Fund Performance: Relevance, Significance, and Methodical Differences, Review of
+
+Finance 15, 441–474.
+
+Schmidt, Peter S., Urs von Arx, Andreas Schrimpf, Alexander F. Wagner, and Andreas
+
+Ziegler, 2019, Common risk factors in international stock markets, Financial Markets and
+
+Portfolio Management 33, 213–241.
+
+Shumway, Tyler, and Vincent A. Warther, 1999, The Delisting Bias in CRSP’s Nasdaq Data
+
+and Its Implications for the Size Effect, Journal of Finance 54, 2361–2379.
+
+Wei, Wang Chun, 2018, Liquidity and market efficiency in cryptocurrencies, Economics
+
+Letters 168, 21–24.
+
+Zhang, Wei, and Yi Li, 2020, Is idiosyncratic volatility priced in cryptocurrency markets?,
+
+Research in International Business and Finance 54, 101252.
+
+Zhang, Wei, Yi Li, Xiong Xiong, and Pengfei Wang, 2021, Downside risk and the cross-
+
+section of cryptocurrency returns, Journal of Banking & Finance 133, 106246.
+
+38
+
+
+
+VII. Appendix
+
+Figure A1. Coinmarketcap Listing Criterias
+This table provides an overview of Coinmarketcap listing criteria. Panel A depicts the guidelines for
+an asset to be classified as a cryptocurrency. Panel B reports the possible project status. Panel C
+documents how Coinmarketcap decides on delisting a project.
+
+A: Does the asset meet the following criteria?
+
+1. Leverage cryptography, consensus algorithms or distributed
+ledgers, peer-to-peer technology and/or smart contracts to func-
+tion as a store of value, medium of exchange, unit of account,
+or decentralized application.
+
+2. Must have a functional website and block explorer.
+
+3. Must be traded publicly, and actively traded on at least one
+exchange (with material volume) that has tracked listing status
+on CoinMarketCap.
+
+4. Provide a representative from the project with whom we can
+
+establish open lines of communication for any clarifications.
+
+Listed Untracked
+
+B: Should the asset be delisted?
+
+– Low liquidity or suspicious trading activity.
+– The project’s cessation of development and/or business activity.
+– The project’s listing on CMC was the result of misleading,
+
+incomplete, or false information.
+– The project (and/or its associates) is under investigation, on
+
+regulator watchlists, or is found guilty of a breach of law(s),
+statute(s), and regulation(s).
+
+– Extraordinarily poor implementation or reception by the
+project’s community.
+
+– Any other factor that CoinMarketCap deems risky for its users.
+
+Delisted
+
+Yes No
+
+No
+
+Yes
+
+39
+
+https://support.coinmarketcap.com/hc/en-us/articles/360043659351-Listings-Criteria
+
+
+Table A1 Delisting Classification
+This table summarizes all delisting reasons and the corresponding classification. Overall, we identify six delisting reasons
+a cryptocurrency can be delisted. For each reasons, we provide the id, classification, description and the delisting return.
+
+Id Classification Description Delisting Return
+
+10 Commitment (abandoned) Neither the developer nor anyone else does want to continue main-
+taining and developing the cryptoasset. Reasons might either be,
+that the contract is not very well designed, the payoff does not com-
+pensate the amount of work or generally no one is interested in the
+cryptoasset. This leads to abandonment of the project and eventual
+delisting from exchanges
+
+-1
+
+11 Swap Another reason is, that a contract is not well designed and needs to
+be changed or upgraded, which makes a relaunch necessary - possibly
+on a new blockchain (e.g. summercoin −→ summercoin2 −→ navajo-
+coin). In this case the developers will announce the relaunch (usually
+this involves the emission of a new cryptoasset with its own symbol)
+and offer holders of the coin a swap to the new contract. Depending
+on the reach of this announcement, the time allowed for the swap as
+well as the difficulty of the swapping procedure, some asset holders
+with swap their contract and potentially not lose money (depending
+on the design and marketing of the new contract this might actually
+be generating a profit for the swapping party). Others might not
+notice the limited swapping time, or fail with the procedure. Even-
+tually, once the original cryptoasset is abandoned by the developers,
+the asset will be delisted and whoever did not swap might lose his
+investment. The delisting return assigned by us depends crucially on
+whether the swapped asset is available on CMC latest 30 days after
+the delisting (delisting return of 0), available elsewhere (if data is
+available calculate detailed delisting return using 30 days of data. If
+no data is available, we set the delisting return to a careful 0%. In
+case of no further listing we depict a delisting return of -1.
+
+Coin dependant
+
+12 CMC Regulatory The developers keep a cryptoasset active but it still is delisted from
+CMC for various reasons. In this case, the cryptoasset can still be
+bought and sold on other (potentially smaller) exchanges. We check
+on other data collection portals and, if not available, on other ex-
+changes for the price of the crypto asset on the 30 days after delisting
+from CMC. Given, that volume on the alternative exchange is large
+enough, we use the average 30-day price after delisting to calculate a
+delisting return. In case of no data availability we depict a delisting
+return of 0%).
+
+Coin dependant
+
+20 Scam The developer is gone unannounced with all available funds and
+leaves the project abandoned. We only classify delisting returns if
+the scam can be proven (e.g. dedicated article on medium or lawsuit
+evidence).
+
+-1
+
+30 Technical issue Technical issues equal a broken contract (e.g. that allows to mine an
+infinite amount of coins like Dimcoin, which was a possible scam at
+the same time. In this case, trading will cease and not pick up again.
+Exchanges will delist the cryptoasset.
+
+-1
+
+40 Not available If the delisting reason is not available, we classify this coin as ”not
+available”. The delisting return equals -100%.
+
+-1
+
+40
+
+https://coinmarketcap.com/currencies/dimoncoin/
+
+
+Table A2 Entry, Dissolution and Attrition Rates of Cryptocurrencies
+This table reports the number of listed cryptocurrency at the beginning and end of each year; 07-January-2014 to 28-
+December-2021, 417 weeks. The entry (dissolution) column reports the number of cryptocurrencies that entered (dissolved)
+within each year. The number of cryptocurrencies that are listed and delisted in the same year are reported in the sixth
+column. The attrition rate equals the number of dissolutions minus cryptocurrencies that are listed and delisted in the
+same year divided by the number of cryptocurrencies at the beginning of each year. In the last row, we report the average
+attrition rate across the seven years.
+
+Year Year Start Entry Dissolution Year End Listed &
+
+Delisted in the
+same year
+
+Attrition Rate
+
+(%)
+
+2014 74 607 170 511 170 0
+
+2015 499 289 196 592 79 23.45
+2016 592 208 216 584 24 32.43
+
+2017 585 506 123 968 32 15.56
+
+2018 971 650 336 1285 21 32.44
+2019 1290 392 166 1516 3 12.64
+
+2020 1520 638 8 2150 1 0.46
+
+2021 2159 530 7 2682 2 0.23
+
+Average 14.65
+
+41
+
+
+
+Table A3 Summary Statistics
+Summary statistics (number of observations (N), Mean, standard deviation (Sd), minimum (min), 25% quantile (Q1),
+median, 75% quantile (Q3), and maximum (max)) of weekly observations; 07-January-2014 to 28-December-2021, 417
+weeks, 3’904 cryptocurrencies. Summary statistics contain weekly returns, market return, size (natural logarithm of
+market cap), market beta (estimated from t-365 days until t), momentum (cumulative return from t-7 until t), weekly
+trading volume (in million USD), and market capitalization (in million USD) Weekly returns are trimmed at the 99%
+level. Note that for the size variable we replaced -Inf values with NAs.
+
+N Mean Sd Min Q1 Median Q3 Max
+
+Return 440217 0.02 0.33 -1.00 -0.14 -0.01 0.12 2.26
+Market Return 416 0.01 0.11 -0.35 -0.05 0.01 0.07 0.39
+
+Size 445977 13.89 3.24 6.43 11.58 14.03 16.17 21.55
+
+Market Beta 38825 0.87 0.33 0.01 0.65 0.93 1.10 1.59
+Momentum 439258 0.02 0.33 -1.00 -0.14 -0.01 0.12 2.26
+
+Volume (in million USD) 436619 241.46 5753.99 0.00 0.00 0.09 2.71 669947.06
+
+Market Cap (in million USD) 446791 334.54 11121.91 0.00 0.11 1.23 10.52 1263667.11
+
+42
+
+
+
+Figure A2. Average Market Cap and Trading Volume around Delistings
+This figure depicts average market capitalization (Panel A), and average weekly trading volume (Panel
+B) for delisted cryptocurrencies. Averages are reported 12 weeks before delisting.
+
+(a) Average market cap around delistings
+
+0
+1
+
+2
+3
+
+4
+
+Weeks relative to delisting
+
+M
+ar
+
+ke
+t
+
+C
+ap
+
+it
+al
+
+iz
+at
+
+io
+n
+
+(i
+n
+
+M
+il
+li
+on
+
+U
+S
+D
+
+)
+
+12 11 10 9 8 7 6 5 4 3 2 1 Delist
+
+(b) Average trading volume around delistings
+
+0
+50
+
+0
+10
+
+00
+15
+
+00
+20
+
+00
+25
+
+00
+30
+
+00
+
+Weeks relative to delisting
+
+T
+ra
+
+d
+in
+
+g
+vo
+
+lu
+m
+
+e
+(i
+
+n
+th
+
+ou
+sa
+
+n
+d
+
+U
+S
+D
+
+)
+
+12 11 10 9 8 7 6 5 4 3 2 1 Delist
+
+43
+
+
+
+Table A4 Number of Cryptocurrencies by Their Trading Period
+This table provides an overview of the number of cryptocurrencies according to their trading period; 07-January-2014 to
+29-December-2021, 417 weeks.
+
+Trading Weeks Number of
+
+Cryptocurren-
+cies
+
+Trading Weeks Number of
+
+Cryptocurren-
+cies
+
+Trading Weeks Number of
+
+Cryptocurren-
+cies
+
+Panel A: Delisted
+
+0-20 weeks 270 141-160 weeks 43 281-300 weeks 3
+21-40 weeks 208 161-180 weeks 34 341-360 weeks 3
+
+41-60 weeks 141 181-200 weeks 22
+
+61-80 weeks 159 201-220 weeks 31
+81-100 weeks 115 221-240 weeks 27
+
+101-120 weeks 93 241-260 weeks 21
+
+121-140 weeks 42 261-280 weeks 10
+
+Panel B: Survived
+0-20 weeks 30 141-160 weeks 150 281-300 weeks 36
+
+21-40 weeks 310 161-180 weeks 271 301-320 weeks 16
+
+41-60 weeks 331 181-200 weeks 166 321-340 weeks 29
+61-80 weeks 345 201-220 weeks 228 341-360 weeks 23
+
+81-100 weeks 145 221-240 weeks 123 361- or more 130
+
+101-120 weeks 107 241-260 weeks 51
+121-140 weeks 169 261-280 weeks 22
+
+44
+
+
+
+Big
+
+Neutral
+
+Small
+
+Loser
+
+Neutral
+
+Winner
+
+0
+
+2
+
+4
+
+6
+
+8
+
+Size
+
+Momentum
+
+return
+
+Figure A3. 3x3 Independent momentum-size sort
+Averages of weekly percent excess returns for value-weighted portfolios formed on 7-day momentum and size; 07-January-
+2014 to 29-December-2021, 417 weeks. At the end of each Tuesday (=t), cryptocurrencies are allocated independently into
+three momentum and three size groups. The intersection of the two sorts produces nine portfolios. Then, value-weighted
+returns are calculated from Tuesday (t) to Tuesday in the consecutive week (t+1).
+
+45
+
+
+
+Table A5 Static Screens
+
+Screen Identifier Short Description Variable Involved
+
+SS01 We exclude cryptocurrencies that are marked as untracked by Coinmarketcap. Un-
+tracked coins are identified by a value of -1 in the is active column.
+
+Type
+
+SS02 We exclude all stablecoins from the sample. Stablecoins mimic real-world assets
+such as fiat currencies (e.g. Gemini Dollar, Binance USD, Tether, TrueUSD, and
+CryptoFranc), commodities (e.g. Tether Gold, and Paxos Gold), or other securities
+(e.g. Mirrored Google, Mirrored Netflix)
+
+Type
+
+SS03 We exclude derivative coins using name filters for cryptocurrencies. As an example,
+all coins that include (i.e. 1X Long, 2X Long, 3X Long, 1X Short, 2X Short, 3X
+Short) in their name are removed.
+
+Type
+
+SS04 All trading sets are removed. Trading sets represent trading strategies on other
+cryptocurrencies. We exclude tokens that include the substring ”Trading Set” in
+their name.
+
+Type
+
+SS05 We exclude all coins for which no trading volume is reported at any point in time. Volume
+SS06 We exclude all coins for which no market cap is reported at any point in time. Market Cap
+
+46
+
+
+
+Table A6 Dynamic Screens
+
+Screen Identifier Short Description Variable Involved
+
+DS01 We only keep observations since January 7th, 2014. The start date coincides
+with when Coinmarketcap reports trading volume.
+
+Beginning and end dates
+
+DS02 We treat returns for which Rt or Rt1 is greater than 1000% and
+(1+Rt)(1+Rt1)1 is less than 100% as zero returns (this is similar to Schmidt
+et al. (2019) and Ince and Porter (2006)).
+
+Return
+
+DS03 We set all returns to missing, for which Rt is greater than 1000%. Return
+
+DS04 We set the market cap at time t to missing for which
+Market Capt
+
+Market Capt−1
+− 1 is
+
+greater than 1000%.
+
+Market Cap
+
+DS05 When trading days of a cryptocurrency are missing, we forward fill price and
+market cap. For all missing days, Rt is set to missing. The first Rt that
+follows non-filled values is also set to missing as it represents the cumulative
+return over the missing period. Also the market cap is set to missing at this
+day.
+
+Missing days
+
+47
+
+
+	Introduction
+	Related Literature
+	Data and Variables
+	Data on Cryptocurrencies
+	Delisting Returns for Cryptocurrencies
+	Variable Construction & Descriptive Statistics
+
+	Findings
+	Survivorship & Delisting Bias
+	Characteristics of Delisted Cryptocurrencies
+
+	Revisiting previous Findings
+	Size Premium
+	Momentum
+	Market 
+	Other Cross-Sectional Return Predictors
+
+	Conclusion
+	Appendix
+

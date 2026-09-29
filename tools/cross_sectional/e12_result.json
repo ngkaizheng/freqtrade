@@ -1,0 +1,114 @@
+[
+  {
+    "rule": "A_fixed",
+    "params": {
+      "target": 0.1
+    },
+    "label": "fixed 10%",
+    "cagr_pct": 6.392834519149515,
+    "max_dd_pct": -19.179542143598603,
+    "sharpe_naive": 0.5763829272142214,
+    "sharpe_adj": 0.5503231777455887,
+    "iat": 1.0969494334049674,
+    "mean_exposure": 0.19666328312649772,
+    "max_exposure": 0.45749698094154584,
+    "p99_exposure": 0.397402876935339,
+    "turnover_per_year": 2.2420154042394516
+  },
+  {
+    "rule": "A_fixed",
+    "params": {
+      "target": 0.2
+    },
+    "label": "fixed 20%",
+    "cagr_pct": 11.59997703989033,
+    "max_dd_pct": -35.308187984654715,
+    "sharpe_naive": 0.5763829272142214,
+    "sharpe_adj": 0.5503231777455887,
+    "iat": 1.0969494334049674,
+    "mean_exposure": 0.39332656625299545,
+    "max_exposure": 0.9149939618830917,
+    "p99_exposure": 0.794805753870678,
+    "turnover_per_year": 4.484030808478903
+  },
+  {
+    "rule": "A_fixed",
+    "params": {
+      "target": 0.35
+    },
+    "label": "fixed 35%",
+    "cagr_pct": 16.77143523515412,
+    "max_dd_pct": -54.5203080064993,
+    "sharpe_naive": 0.5763829272142202,
+    "sharpe_adj": 0.5503231777455876,
+    "iat": 1.0969494334049674,
+    "mean_exposure": 0.6883214909427419,
+    "max_exposure": 1.6012394332954103,
+    "p99_exposure": 1.3909100692736862,
+    "turnover_per_year": 7.847053914838079
+  },
+  {
+    "rule": "A_fixed",
+    "params": {
+      "target": 0.5
+    },
+    "label": "fixed 50%",
+    "cagr_pct": 18.371115510928604,
+    "max_dd_pct": -68.84436953551487,
+    "sharpe_naive": 0.576382927214221,
+    "sharpe_adj": 0.5503231777455884,
+    "iat": 1.0969494334049674,
+    "mean_exposure": 0.9833164156324885,
+    "max_exposure": 2.2874849047077292,
+    "p99_exposure": 1.9870143846766948,
+    "turnover_per_year": 11.210077021197256
+  },
+  {
+    "rule": "B_normalised",
+    "params": {
+      "leverage_scale": 1.0
+    },
+    "label": "normalised, scale 1.0",
+    "cagr_pct": 18.366569664328946,
+    "max_dd_pct": -69.02610345410729,
+    "sharpe_naive": 0.5763829272142215,
+    "sharpe_adj": 0.5503231777455888,
+    "iat": 1.0969494334049674,
+    "mean_exposure": 0.9876796714579057,
+    "max_exposure": 2.2976351286614296,
+    "p99_exposure": 1.9958313351021095,
+    "turnover_per_year": 11.259819335154917
+  },
+  {
+    "rule": "B_normalised",
+    "params": {
+      "leverage_scale": 1.5
+    },
+    "label": "normalised, scale 1.5",
+    "cagr_pct": 18.27452987414173,
+    "max_dd_pct": -69.03955147102552,
+    "sharpe_naive": 0.5750956414902278,
+    "sharpe_adj": 0.5492137179253628,
+    "iat": 1.0964716316271363,
+    "mean_exposure": 0.9876796714579056,
+    "max_exposure": 2.1629764624933956,
+    "p99_exposure": 1.996504788867255,
+    "turnover_per_year": 11.149733629193108
+  },
+  {
+    "rule": "B_normalised",
+    "params": {
+      "leverage_scale": 2.0
+    },
+    "label": "normalised, scale 2.0",
+    "cagr_pct": 19.13168882554408,
+    "max_dd_pct": -67.65884628915902,
+    "sharpe_naive": 0.5866467427512223,
+    "sharpe_adj": 0.5647980495530011,
+    "iat": 1.0788646190218605,
+    "mean_exposure": 0.9876796714579057,
+    "max_exposure": 1.6507921228630065,
+    "p99_exposure": 1.6507921228630065,
+    "turnover_per_year": 9.261301877368881
+  }
+]

@@ -1,0 +1,7 @@
+https://www.finra.org/rules-guidance/key-topics/crypto-assets/finra-crypto-assets-committee/2025-report-crypto-asset-spot-markets-and-us-exchanges	FINRA RMC 2025
+https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/customer_advisory_understanding_risk_crypto_asset_markets.html	CFTC customer advisory risk
+https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2023/fsr-october-2023.pdf	BoE FSR Oct 2023
+https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2022/may/fsr-202205.pdf	BoE FSR May 2022
+https://www.cftc.gov/sites/default/files/2024-10/cftc-risk-and-materiality-considerations-for-digital-assets-by-swap-execution-facilities.pdf	CFTC SEF RMC
+https://www.esma.europa.eu/search?search_api_fulltext=crying+wolf	ESMA search crying wolf
+https://www.bankofengland.co.uk/financial-stability-report/2023/october/box-b-the-financial-stability-risks-from-cryptoassets	BoE FSR Oct 2023 Box B

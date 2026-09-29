@@ -1,0 +1,49 @@
+SOURCE_URL: https://r.jina.ai/https://paradigm.xyz/2022/nov/ftx
+HTTP: 200  LEN: 1599
+
+Title: Page not found | Paradigm
+
+URL Source: https://paradigm.xyz/2022/nov/ftx
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+- [x] 
+
+[](https://paradigm.xyz/)
+
+[M]
+
+[M][X]Menu 
+
+[About](https://paradigm.xyz/about)
+
+[Team](https://paradigm.xyz/team)
+
+[Investments](https://paradigm.xyz/investments)
+
+[Research](https://paradigm.xyz/research)
+
+[Research Index](https://paradigm.xyz/research-index)[Paradigm Puzzles](https://paradigm.xyz/research#paradigm-puzzles)
+
+[Build](https://paradigm.xyz/build)
+
+[Incubations](https://paradigm.xyz/build#incubation)[Open Source](https://paradigm.xyz/oss)
+
+[Writing](https://paradigm.xyz/writing)
+
+[Terms](https://paradigm.xyz/terms), [Disclosures](https://paradigm.xyz/disclosures), [Privacy](https://paradigm.xyz/privacy), [CA Privacy](https://paradigm.xyz/privacy#california-privacy)
+
+[LinkedIn](https://www.linkedin.com/company/paradigm-xyz/), [Twitter](https://x.com/paradigm), [Contact](https://paradigm.xyz/contact)
+
+[Careers](https://paradigm.xyz/careers), [LP Login](https://app.junipersquare.com/i/paradigm)
+
+404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404 404
+
+# 404 — Page not found
+
+[/search?q=ftx](https://paradigm.xyz/search?q=ftx)
+
+Find [F]
+
+[en](https://paradigm.xyz/2022/nov/ftx)

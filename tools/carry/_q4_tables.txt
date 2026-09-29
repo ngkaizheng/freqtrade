@@ -1,0 +1,12 @@
+status=200 len=1110366
+!! 'Table 6: Comparison of Different Arbitrage Trading Strategies' not found
+!! 'Table 7: Return Decomposition' not found
+
+===== TABLE before 'The clamp versus a linear funding rate' (7 rows)
+Clamp binds | Std (ann. %) | Mean (ann. %)
+Asset | Hours (%) | Settlements at ι \iota (%) | Φ \Phi | κ ​ P \kappa P | Φ \Phi | κ ​ P \kappa P
+BTC | 45.2 | 41.7 | 27.8 | 87.1 | 15.3 | − 3.9 -3.9
+ETH | 43.4 | 41.9 | 36.5 | 83.7 | 18.6 | 5.4
+BNB | 38.0 | 43.8 | 55.8 | 104.8 | − 0.1 -0.1 | − 7.7 -7.7
+DOGE | 35.7 | 50.4 | 47.5 | 257.5 | 16.7 | 4.8
+ADA | 36.5 | 49.3 | 43.8 | 107.6 | 18.4 | 3.3

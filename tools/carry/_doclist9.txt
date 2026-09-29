@@ -1,0 +1,8 @@
+deribit_flashcrash_2025	https://insights.deribit.com/industry/weekend-of-chaos-leverage-liquidity-and-flash-crash/
+deribit_nopricerisk	https://insights.deribit.com/daily-trade-inspiration/can-you-profit-from-bitcoin-futures-without-price-risk/
+deribit_cashcarry	https://insights.deribit.com/education/cash-and-carry-trades/
+deribit_ep90_funding	https://insights.deribit.com/crypto-options-unplugged/episode-90-funding-stress-vs-liquidity-wave-what-happens-next-in-crypto/
+deribit_cumberland_yr	https://insights.deribit.com/industry/year-in-review-by-cumberland/
+deribit_leverage101	https://insights.deribit.com/market-research/leverage-101-a-short-primer/
+deribit_liqpioneers	https://insights.deribit.com/market-research/crypto-derivatives-exchanges-liquidation-pioneers/
+deribit_cashcarry_live	https://insights.deribit.com/education/cash-carry-live-trade-example/

@@ -1,0 +1,421 @@
+==== ethenagovernance.eth n= 8
+   2026-08-27->2026-09-02 | ENA Fee Switch | scores=17786102.452462398 votes=88
+   2026-08-03->2026-08-09 | Ethena Risk Committee Elections - Fifth Term | scores=63363842.67366251 votes=71
+   2026-02-03->2026-02-09 | Ethena Risk Committee Elections - Fourth Term | scores=20814023.194400042 votes=65
+   2026-01-28->2026-02-02 | Proposal: Reduction of Risk Committee members from 5 to 3 | scores=7720199.301864022 votes=66
+   2025-07-28->2025-08-03 | Ethena Risk Committee Elections - Third Term | scores=1208475.4944567098 votes=64
+   2025-05-14->2025-05-17 | Proposal: Ethena lending in Aave | scores=7530548.483017654 votes=166
+   2025-02-03->2025-02-07 | Updated: Ethena Risk Committee Elections - February 2025 | scores=1117024.1129344245 votes=97
+   2024-10-01->2024-10-03 | [Temp Check] Ethereal Request to Integrate with Ethena | scores=13549793.068600481 votes=1274
+==== lido-snapshot.eth n= 40
+   2026-09-21->2026-09-24 | Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restruc | scores=29356144.480816223 votes=40
+   2026-09-14->2026-09-21 | Authorize a Contingent LDO CEX Liquidity Market-Making Mandate | scores=54656705.67008222 votes=52
+   2026-09-14->2026-09-21 | Lido Alliance BORG Foundation Update: Appointment of Leeward Supervisors Limited as Supe | scores=52354713.27911222 votes=50
+   2026-08-03->2026-08-10 | Lido Alliance BORG Update: Appointment of Bryce Howarth as a New Director | scores=50498858.94091503 votes=49
+   2026-07-13->2026-07-20 | 0x02 CSM: New Permissionless Module Launch | scores=58014216.71033298 votes=55
+   2026-07-13->2026-07-20 | Adopt the CMv2 Penalty Framework | scores=58014188.71033298 votes=55
+   2026-06-15->2026-06-22 | LIP-35: Staking Router v3 Architecture and Key Parameters | scores=57396625.39561438 votes=53
+   2026-06-15->2026-06-22 | LIP-33: CMv2 and CSMv3 Architecture, Key Parameters, Rollout Plan | scores=57396625.39561438 votes=53
+   2026-06-15->2026-06-22 | Lido Labs Board Update: Appointment of Nemo as Director | scores=55092657.533552505 votes=53
+   2026-06-15->2026-06-22 | Wind Down Simple DVT Module Regular Clusters | scores=57394245.86930365 votes=49
+   2026-06-15->2026-06-22 | Revoke Canonical Status of (w)stETH Bridge Endpoints on Selected Chains and Authorize NE | scores=57394245.86930365 votes=49
+   2026-06-15->2026-06-22 | Galaxy Node Operator Infrastructure Update | scores=57394169.990313545 votes=47
+   2026-05-11->2026-05-18 | Adopt the Node Operator Type Assessment Framework for CMv2 | scores=62109425.09924914 votes=52
+   2026-05-11->2026-05-18 | NEST: Automated LDO Buyback and Liquidity Provisioning | scores=55388070.20309669 votes=51
+   2026-05-11->2026-05-18 | Transition from GateSeals to CircuitBreaker | scores=54316073.01170608 votes=47
+   2026-05-11->2026-05-18 | Should Pier Two continue in the Curated and SDVT sets following the acquisition by Bitmi | scores=54316073.01170608 votes=47
+   2026-05-11->2026-05-18 | Increase Easy Track transfer limits for Liquidity Observation Lab to align with EGG | scores=54316075.01170608 votes=48
+   2026-04-30->2026-05-06 | Authorize Lido EarnETH Loss Coverage Below 1% Threshold For The Kelp Incident | scores=57506356.43472217 votes=60
+   2026-04-15->2026-04-18 | Mystery Box | LIDO x Snapshot | scores=0 votes=0
+   2026-04-15->2026-04-18 | Муsterу Box | LIDO x Snapshot | scores=0 votes=0
+   2026-04-15->2026-04-18 | Mystery Box | LIDO x Snapshot | scores=1005.7942909289708 votes=1
+   2026-04-14->2026-04-17 | Mystery Box | LIDO x Snapshot | scores=1005.7942909289708 votes=1
+   2026-04-06->2026-04-13 | Authorize LDO Accumulation Program for up to 10,000 stETH | scores=70003896.99644601 votes=66
+   2026-04-06->2026-04-13 | From LNOSG to CMC: Evolving Curated Staking Modules Governance | scores=57731620.21829918 votes=56
+   2026-04-06->2026-04-13 | Redirect DVT & APM Incentives to Current Meta Treasury and LoL | scores=57731620.21829918 votes=56
+   2026-04-06->2026-04-13 | Introduce an Identified DVT Cluster type in the Community Staking Module | scores=57689211.095614895 votes=55
+   2026-04-06->2026-04-13 | Lido DAO Ops Multisigs Policy 3.0 | scores=57689193.25359827 votes=54
+   2026-04-06->2026-04-13 | Increase Lido Alliance BORG Operational Easy Track Limits to align with EGG | scores=57669029.396499455 votes=49
+   2026-03-12->2026-03-15 | Integrate Lido into the Galaxy Challenge Game 🚀 | scores=2 votes=1
+   2026-03-02->2026-03-09 | Delegate Incentivization Program 2.0 | scores=60216713.07216737 votes=84
+   2026-03-02->2026-03-09 | Authorize $5M DAO Treasury Allocation to Lido Earn ETH and USD Vaults | scores=62518705.44313736 votes=84
+   2026-03-02->2026-03-09 | Should Stakin continue in the Curated and DVT sets following its acquisition by The Tie? | scores=62518456.33139737 votes=83
+   2026-01-19->2026-01-26 | Rewards Share Committee Reform | scores=54577800.17992741 votes=106
+   2026-01-19->2026-01-26 | DVT & DVV Incentive Allocation Changes | scores=54535406.38100681 votes=91
+   2025-12-11->2025-12-19 | GOOSE 2025 cycle: Lido DAO goals for 2026 | scores=58773292.51417483 votes=66
+   2025-12-11->2025-12-19 | Ecosystem Grant gRequest (EGG): Executing GOOSE-3 | scores=56731389.47654656 votes=64
+   2025-12-11->2025-12-19 | Lido Alliance BORG – Amendment of Bylaws to Enable GOOSE-3 Execution | scores=56731052.86841891 votes=61
+   2025-12-11->2025-12-19 | Adopt The SEAL Safe Harbor Agreement | scores=56731233.08132465 votes=63
+   2025-11-24->2025-12-01 | Curated Module Fee Changes | scores=58194022.718214266 votes=67
+   2025-11-24->2025-12-01 | Conversion of Treasury Stablecoins into sUSDS or TMMFs | scores=54802959.0519267 votes=61
+==== uniswapgovernance.eth n= 40
+   2026-09-18->2026-09-23 | Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults | scores=18218613.149702188 votes=383
+   2026-09-18->2026-09-23 | Protocol Fee Expansion: Arc | scores=20221055.098352905 votes=382
+   2026-07-21->2026-07-26 | [Temp Check] - Four for V4 | scores=5349527.584801538 votes=118
+   2026-07-11->2026-07-16 | [Temp Check] Protocol Fee Expansion: Robinhood Chain | scores=12953921.844986679 votes=257
+   2026-07-07->2026-07-12 | [Temp Check] Activate v4 Protocol Fees | scores=20316661.012015503 votes=132
+   2026-06-29->2026-07-04 | [Temp Check] - Update Crosschain Governance Parameters for Avalanche, MegaETH, Soneium,  | scores=36219562.97273812 votes=234
+   2026-05-16->2026-05-21 | [Temp Check] Protocol Fee Expansion: Three More Chains | scores=48741731.62718832 votes=363
+   2026-05-03->2026-05-08 | Return 12.5M Delegated Tokens to the Governance Timelock | scores=18240048.434151795 votes=137
+   2026-03-03->2026-03-08 | [RFC] Governance Process Upgrade: Establishing a Statute of Limitations for Temperature  | scores=5753874.4708579285 votes=133
+   2026-02-18->2026-02-23 | [Temp Check] Protocol Fee Expansion: Eight More Chains and Remaining Mainnet V3 Pools | scores=35153339.79473837 votes=150
+   2025-12-02->2025-12-07 | Strategic Renewal of Gnosis, Linea, and Mantle Deployments | scores=13713881.867694754 votes=449
+   2025-11-18->2025-11-23 | UNIfication | scores=63029954.86493395 votes=307
+   2025-11-06->2025-11-11 | Uniswap Community Proposal Factory | scores=11265964.501400005 votes=166
+   2025-10-07->2025-10-12 | Grow Uniswap on Plasma | scores=20400120.439743135 votes=161
+   2025-09-29->2025-10-04 |  Treasury Delegation Round 2 Elections | scores=20645295.563116685 votes=159
+   2025-09-02->2025-09-07 | GLI — Incentivized Delegation Vaults | scores=28029583.50684139 votes=174
+   2025-09-02->2025-09-07 | GLI — Treasury delegation Round 2 | scores=25508108.877260286 votes=172
+   2025-09-01->2025-09-06 | Launching Uniswap v3 on Ronin with co-incentives | scores=20450027.280703396 votes=152
+   2025-08-25->2025-08-30 | Establish Uniswap Governance as “DUNI,” a Wyoming DUNA | scores=41261613.612162605 votes=210
+   2025-08-13->2025-08-18 | Uniswap Delegate Reward Initiative - Cycle 4 | scores=21286493.835410208 votes=251
+   2025-07-11->2025-07-16 | [TEMP CHECK] - Etherlink Co-incentives Proposal | scores=20193845.76140708 votes=178
+   2025-06-17->2025-06-22 | Uniswap Unichain - USDS and sUSDS Co-Incentives Growth Management Plan | scores=23508494.927481502 votes=222
+   2025-06-12->2025-06-17 | Trial run a Technical Advisory Board (TAB) | scores=26545729.025454085 votes=333
+   2025-05-22->2025-05-27 | Uniswap Accountability Committee S4 Elections | scores=29988984.53486733 votes=196
+   2025-05-01->2025-05-06 | Four Chains for Analytics Hub for Uniswap’s Revitalization and Growth Program | scores=27817489.796564147 votes=204
+   2025-05-01->2025-05-06 | [Temp Check] Analytics Hub for Uniswap’s Revitalization and Growth Program | scores=27583271.37418488 votes=429
+   2025-04-29->2025-05-04 | [TEMP CHECK] Scaling V4 and Supporting Unichain | scores=33352216.260550834 votes=402
+   2025-04-24->2025-04-29 | [Temp Check/Revised] Treasury Delegation Round 2 | scores=37518544.927564874 votes=272
+   2025-04-24->2025-04-29 | Approved Budgets Rebalancing (S4) | scores=40879329.65552463 votes=196
+   2025-04-24->2025-04-29 | UAC Renewal S4 | scores=40879328.359458305 votes=194
+   2025-04-11->2025-04-16 | [TEMP CHECK] Establish Uniswap v4 Licensing Process | scores=41288860.36436843 votes=257
+   2025-04-10->2025-04-15 | [TEMP CHECK] BoB Uniswap v3 Incentives Package | scores=37834497.803027116 votes=219
+   2025-03-27->2025-04-01 | [Temp Check] Treasury Delegation Round 2 | scores=40633031.13763476 votes=341
+   2025-03-12->2025-03-17 | [Temp Check] Saga Uniswap v3 Liquidity Incentives | scores=35081543.50655569 votes=335
+   2025-02-26->2025-03-03 | [Temp Check] Unichain and Uniswap v4 Liquidity Incentives | scores=52613518.49734641 votes=356
+   2025-02-26->2025-03-03 | [Temp Check] Uniswap Unleashed | scores=60612053.3542614 votes=253
+   2025-02-19->2025-02-24 | [Temp Check] Uniswap Delegate Reward Initiative - Cycle 3 | scores=37022437.77950864 votes=256
+   2024-12-20->2024-12-25 | Incentive Package for Sonic (Formerly Fantom) | scores=34748840.7674384 votes=287
+   2024-12-19->2024-12-24 | Discretionary Budget from UAC for Co-Incentive Campaigns | scores=43135124.89560873 votes=261
+   2024-12-18->2024-12-23 | [TEMP CHECK] Metal L2: Bridging TradFi and DeFi Through Uniswap V3 | scores=37023478.762976386 votes=367
+==== aave.eth n= 0
+==== gmxsnapshot.eth n= 0
+==== frax.eth n= 40
+   2026-08-12->2026-08-17 | [FIP-451] Add Royco SLP to sfrxUSD Strategies | scores=36619554.311340176 votes=6
+   2026-08-12->2026-08-17 | [FIP - 450] Add Gearbox Institutional RWA Market to sfrxUSD Strategies | scores=36618075.80999213 votes=5
+   2026-07-01->2026-07-06 | [FIP-449] EchoMarket Creator & Distribution Program for Frax Finance | scores=37517929.4457925 votes=6
+   2026-06-23->2026-06-28 | [FIP-448] Wind Down the Frax Price Index (FPI) System | scores=26587773.86143551 votes=6
+   2026-06-15->2026-06-20 | [FIP-447] Increase Aave v4 Allocation Cap for sfrxUSD Strategy from 20M to 50M | scores=26826183.804724555 votes=8
+   2026-06-15->2026-06-20 | [FIP - 446] Early withdrawal of stkcvxSTGFRAXBP and stkcvxCOILFRAXBP | scores=1267227.9903062533 votes=6
+   2026-05-26->2026-05-31 | [FIP - 445] Discontinue OFT token support on deprecated and inactive chains | scores=27180029.00758924 votes=4
+   2026-04-21->2026-04-26 | [FIP - 444] Add sGHO and USCC to sfrxUSD Strategies | scores=27907529.37215087 votes=7
+   2026-03-29->2026-04-03 | [FIP - 443] sfrxUSD New Strategies: Aave v4 & Morpho Vault Integrations | scores=28348639.91843327 votes=8
+   2026-03-02->2026-03-07 | [FIP-442] Optional Early Exit for the Legacy crvUSD/L-FRAX Convex FRAX Vault (4% Fee) | scores=28903373.726732932 votes=6
+   2026-01-31->2026-02-05 | [FIP - 441] $FRAX: 1 Token, 1 Mission, 1 Vision | scores=29661643.49262219 votes=10
+   2025-11-21->2025-11-26 | [FIP - 440] FXTL Points Resolution | scores=9789042.249478724 votes=21
+   2025-11-13->2025-11-18 | [FIP - 439] sfrxUSD new strategies | scores=29832127.128434353 votes=8
+   2025-11-11->2025-11-16 | [FIP - 438] Discontinue OFT Token Support on Deprecated and Inactive Chains | scores=29927418.93897421 votes=9
+   2025-10-20->2025-10-25 | [FIP - 437] Add Predeposit Vault AMO to sfrxUSD strategies on Ethereum & Fraxtal | scores=31666749.298227713 votes=8
+   2025-10-14->2025-10-19 | [FIP - 436] EchoMarket Growth Grant Proposal | scores=30547407.163828958 votes=10
+   2025-09-25->2025-09-30 | [FIP - 435] Allow the use of Stake DAO OnlyBoost for sfrxUSD Curve AMOs | scores=32252176.803195655 votes=12
+   2025-09-16->2025-09-21 | [TEMP-CHECK] Project Progress Tracking Platform for Frax Finance | scores=32437963.141740054 votes=9
+   2025-09-11->2025-09-16 | [FIP - 434] sfrxUSD AMO Deployments & Future Strategies | scores=32539492.62114913 votes=14
+   2025-07-31->2025-08-05 | [FIP - 433] Add a new market into Fraxlend on Ethereum (OGN/frxUSD) | scores=33368252.316759802 votes=8
+   2025-07-11->2025-07-16 | [FIP-432] Transfer of Compliance & Collateral Management of frxUSD to FRAX Inc | scores=33799605.63208692 votes=8
+   2025-06-18->2025-06-23 | [Revised FIP-431] dTRINITY x Frax Joint Expansion on Sonic | scores=33022721.823536985 votes=14
+   2025-05-07->2025-05-12 | [FIP-431] dTRINITY x Frax Joint Expansion on Sonic | scores=74047.92436335566 votes=7
+   2025-04-25->2025-04-30 | [FIP - 430] Preparation for frxUSD Payment Stablecoin Charter Compliance | scores=33944748.70003546 votes=9
+   2025-03-26->2025-03-31 | [FIP-429] Incentivize a joint Frax / Zivoe pool on Curve | scores=12513138.481491143 votes=18
+   2025-03-18->2025-03-23 | [FIP - 428] Frax North Star Proposal - V2 | scores=35038590.11165589 votes=38
+   2025-03-14->2025-03-19 | [FIP - 427] WTGXX as reserve asset for Frax USD | scores=41537369.96270879 votes=17
+   2025-02-20->2025-02-25 | [FIP - 426] JTRSY as a Custodian Asset for frxUSD & Launching Centrifuge on Fraxtal | scores=35187855.245357335 votes=10
+   2025-01-27->2025-02-01 | [FIP - 425] AUSD as Collateral and Custodian Asset for frxUSD | scores=35654400.06841475 votes=12
+   2025-01-27->2025-02-01 | [FIP - 424] Leviathan News Partnership Proposal | scores=37380760.57608752 votes=16
+   2024-12-30->2025-01-04 | [FIP - 423] Proposal to add a new pair to Fraxlend AMO (ynETH/frxETH) | scores=36217124.200502165 votes=8
+   2024-12-30->2025-01-04 | [FIP - 422] Proposal to add a new pair to Fraxlend AMO (ynETH/FRAX) | scores=36217332.02481167 votes=8
+   2024-12-26->2024-12-31 | [FIP - 421] USTB as Collateral and Custodian Asset for frxUSD | scores=42901491.81149088 votes=53
+   2024-12-26->2024-12-31 | [FIP - 420] USCC as Collateral and Custodian Asset for frxUSD | scores=42914242.89725483 votes=59
+   2024-12-26->2024-12-31 | [FIP - 419] Launch Frax USD & Provide Upgrade Path to Frax Stablecoin | scores=42970677.45908116 votes=57
+   2024-12-26->2024-12-31 | [FIP - 418] BUIDL as a backing asset for Frax USD | scores=45112347.28055157 votes=86
+   2024-12-12->2024-12-17 | [FIP - 417] Create new ynETH/frxETH Fraxlend Pair | scores=1072.136683844279 votes=8
+   2024-12-10->2024-12-15 | [FIP - 416] Authorizing FRAX Curve AMO for a new pair on Fraxtal (FRAX/dUSD) | scores=36813741.78173605 votes=15
+   2024-11-17->2024-11-22 | [FIP - 415] Creating Frax Borrow AMO | scores=38686703.10502324 votes=13
+   2024-10-28->2024-11-02 | [FIP - 414] Supply Liquidity for Ionic Protocol | scores=35225233.351741344 votes=12
+==== frax-finance.eth n= 0
+==== curve.eth n= 40
+   2022-04-29->2022-05-06 | Proposal to add XSTUSD-3CRV to the Gauge Controller | scores=574553.8742466816 votes=90
+   2022-04-02->2022-04-05 | Add a new base pool implementation as an alternative to 3Pool (DAI/USDC/USDT) | scores=4272657.2711779885 votes=78
+   2022-03-14->2022-03-21 | Proposal to Launch Curve on Celo | scores=26097304.20948845 votes=42
+   2022-02-03->2022-02-08 | Launch RocketPool rETH pool to promote decentralization. | scores=0 votes=0
+   2022-02-16->2022-02-19 | Did you lock CRV for 4 years? | scores=6893.077810756942 votes=13
+   2022-02-03->2022-02-08 | Launch RocketPool rETH pool to promote decentralization. | scores=192037.6836660856 votes=22
+   2022-01-24->2022-01-29 | CRV raggiungerà l'ATL nel 2022? | scores=1141.5530917408053 votes=4
+   2022-01-24->2022-01-29 | CRV的价格会在2022年创新历史新低吗？ | scores=3081.1743727698895 votes=4
+   2022-01-24->2022-01-29 | CRV va-t-il atteindre ATL en 2022 ? | scores=487.8137380945206 votes=2
+   2022-01-24->2022-01-29 | Will CRV down to hit ATL in 2022? | scores=487.81444579000924 votes=2
+   2022-01-22->2022-01-31 | Can CRV do currency and foreign exchange transactions? Is it possible to introduce deriv | scores=2437.4025762875235 votes=5
+   2022-01-21->2022-01-27 | CRV continuera-t-il à frapper ATH en 2022 ? | scores=2434.8579731856807 votes=3
+   2022-01-21->2022-01-26 | Will CRV continue to hit ATH in 2022? | scores=2526.9677064684524 votes=4
+   2022-01-21->2022-01-26 | CRV会在2022年继续创新高吗？ | scores=2434.861892823692 votes=3
+   2022-01-15->2022-01-20 | 2022 most potential cryptocurrency | scores=19779.656577898226 votes=10
+   2022-01-13->2022-01-18 | Pensez-vous que l'uniswap remplacera la courbe en tant que plus grand DEX stable? | scores=1458.902431101307 votes=5
+   2022-01-13->2022-01-18 | 你认为uniswap会取代curve成为最大的稳定币去中心交易所吗？ | scores=2078.22450610413 votes=4
+   2022-01-13->2022-01-18 | Do you think uni will replace curve as the largest stablecoin DEX? | scores=1727.48422854354 votes=2
+   2022-01-05->2022-01-08 | Add HAL plugin to Snapshot | scores=7066.126877813811 votes=11
+   2022-01-05->2022-01-10 | 你是否将你的CRV锁定4年？ | scores=2697.6887468706245 votes=3
+   2022-01-05->2022-01-10 | Avez-vous verrouillé CRV pendant 4 ans? | scores=581.6601313643546 votes=2
+   2022-01-05->2022-01-10 | Did you lock CRV for 4 years? | scores=2590.357441296398 votes=6
+   2021-12-30->2022-01-04 | Considerando il grande sviluppo di defi, sostieni la curva airdrop？ | scores=2454.8727739887836 votes=5
+   2021-12-30->2022-01-04 | Compte tenu du grand développement de defi, supportez-vous la courbe airdrop？ | scores=2424.7087024900043 votes=2
+   2021-12-30->2022-01-04 | 考虑到defi的巨大发展，你是否支持curve空投? | scores=15.265483443980365 votes=1
+   2021-12-30->2022-01-04 | Considering the great development of defi, do you support the curve airdrop？ | scores=2596.707741990441 votes=5
+   2021-12-27->2022-01-31 | Will CRV still rise in 2022? | scores=39587.026129600956 votes=17
+   2021-12-23->2021-12-31 | Do you think the current market is still in a bull market | scores=4814.843629664615 votes=12
+   2021-12-23->2021-12-28 | Êtes-vous satisfait des performances de Bitcoin en 2021 ? | scores=15.341543921638731 votes=1
+   2021-12-23->2021-12-28 | 对于比特币2021年的表现，你觉得满意吗？ | scores=2293.003160632707 votes=4
+   2021-12-23->2021-12-28 | Are you satisfied with Bitcoin's performance in 2021? | scores=110.44191386756165 votes=2
+   2021-12-22->2021-12-31 | Grant funding for mutual growth in GameFi and Metaverse | scores=3067.5483851971026 votes=6
+   2021-12-20->2021-12-30 | Is the CRV dip Christmas Frenzy or something else? | scores=4957.4753325375395 votes=6
+   2021-12-20->2021-12-24 | pour ce prix maintenant, achèteriez-vous la trempette? | scores=4095.0061610477705 votes=3
+   2021-12-20->2021-12-24 | 对于现在这个价格，你会抄底吗？ | scores=2027.3661156051317 votes=2
+   2021-12-20->2021-12-24 | for this price now, would you buy the dip? | scores=2161.5879235824386 votes=3
+   2021-12-16->2021-12-20 | S'il y a un marché baissier ensuite, détiendrez-vous toujours CRV? | scores=26.152396036575762 votes=5
+   2021-12-16->2021-12-20 | 如果接下来是熊市，你还会持有CRV吗？ | scores=9127.61406614713 votes=8
+   2021-12-16->2021-12-20 | If there is a bear market next, will you still hold CRV? | scores=1048.4951389714809 votes=5
+   2021-12-12->2021-12-18 | crv' price | scores=2047.2025713947423 votes=5
+==== pendle.eth n= 0
+==== morpho.eth n= 40
+   2026-09-15->2026-09-18 | MIP 134 - Incentives Distribution on Arc | scores=2488800.762363418 votes=15
+   2026-08-18->2026-08-21 | MIP 133 - Add Spearbit as DAO Multisig Signer and Update Threshold to 6 | scores=2559396.1589441295 votes=22
+   2026-07-01->2026-07-04 | MIP 132 - Morpho Worldcoin Mini-App Transition Grant Proposal | scores=254039.28034229367 votes=20
+   2026-04-27->2026-04-30 | MIP 131 - Allocation of a Grant for the Morpho Association’s Strategic Support Program ( | scores=4341023.726722935 votes=22
+   2026-04-20->2026-04-23 | MIP 130 - MORPHO Incentives on Tempo | scores=2606850.545154181 votes=20
+   2026-03-17->2026-03-20 | MIP 129 - Approve Review of 2025 Contributor Grants | scores=506487.5148520798 votes=11
+   2026-01-19->2026-01-22 | MIP 128 - Lite App Deprecation Part 2 | scores=4156044.8968267 votes=9
+   2026-01-19->2026-01-22 | MIP 127 - External Grants Rewards Framework | scores=4156044.8968267 votes=9
+   2025-12-15->2025-12-18 | MIP 126 - List MorphoMarketV1AdapterV2 in Morpho Registry | scores=6527860.562985982 votes=9
+   2025-12-09->2025-12-12 | MIP 125 - Lite App Deprecation | scores=2841249.304503875 votes=11
+   2025-12-09->2025-12-12 | MIP 124 - Vault V2 Specific Incentive Campaign | scores=3069473.998878777 votes=12
+   2025-11-27->2025-11-30 | MIP 123 - Spark Olympics Adjustment | scores=3683094.1910066013 votes=8
+   2025-11-01->2025-11-04 | MIP 122 - Validate and Execute Morpho Adaptors Migration Plan | scores=2763187.9772463534 votes=15
+   2025-10-22->2025-10-25 | MIP 121 -- Aave v3 Optimizer Full Deprecation | scores=11815184.584745266 votes=17
+   2025-10-14->2025-10-17 | MIP 120 - Optimizers Deprecation Final Phase | scores=3081784.979508836 votes=15
+   2025-10-14->2025-10-17 | MIP 119 - Spark Rewards Update | scores=3081783.115996777 votes=14
+   2025-10-06->2025-10-09 | MIP 118 - MORPHO Token Deployment and Incentives on Hyperliquid | scores=3081362.8323608125 votes=13
+   2025-10-01->2025-10-04 | MIP 117 - Arbitrum Rewards Extension | scores=3087578.9623805555 votes=13
+   2025-08-21->2025-08-24 | MIP 116 - Unichain Rewards Extension | scores=2876447.5771589763 votes=13
+   2025-08-14->2025-08-17 | MIP 115 - Spark USDC Deposit Rewards 3 | scores=2863486.620389861 votes=10
+   2025-08-08->2025-08-11 | MIP 114 - Incentives Distribution on Arbitrum | scores=2299827.2126168697 votes=17
+   2025-07-28->2025-07-31 | MIP 113 - Select LayerZero OFT to Bridge Morpho Token on Arbitrum | scores=10676913.225856427 votes=12
+   2025-07-25->2025-07-28 | MIP 112 - OP Grant Allocation for USDC Growth on Base | scores=11665364.514316544 votes=12
+   2025-07-22->2025-07-25 | MIP 111 - Switch MORPHO Rewards Stack to Merkl | scores=11962205.090938691 votes=17
+   2025-07-22->2025-07-25 | MIP 110 : Guardians v2 Funding Request for Work | scores=11962203.227426631 votes=16
+   2025-07-09->2025-07-12 | MIP 109 - Optimistic Rewards v1.1 | scores=2840394.835217706 votes=12
+   2025-06-20->2025-06-23 | MIP 108 -- Morpho Olympics v1.2 | scores=3185613.05570037 votes=11
+   2025-06-20->2025-06-23 | MIP 107 - Unichain Rewards Adjustment | scores=3185613.05570037 votes=11
+   2025-06-14->2025-06-17 | MIP 106 - Lemon Integration Grant | scores=3009504.904531752 votes=14
+   2025-06-10->2025-06-13 | MIP 105 - Katana Coincentives | scores=2907458.1787371472 votes=14
+   2025-05-29->2025-06-01 | MIP 104 - Spark USDC Deposit Rewards 2 | scores=1110636.8106642282 votes=11
+   2025-05-29->2025-06-01 | MIP 103 - Incentives Distribution on Unichain | scores=1110636.8106642282 votes=11
+   2025-05-02->2025-05-05 | MIP 102 - Rewards Update Proposal | scores=2600190.2815654455 votes=12
+   2025-04-21->2025-04-24 | MIP 101 - Plume - Morpho Coincentives | scores=3939676.047895499 votes=15
+   2025-04-21->2025-04-24 | MIP 100 - Approve Review of 2024 Contributor Grants | scores=3939778.3481120253 votes=16
+   2025-03-25->2025-03-28 | MIP 99 - Phase 2: Frontend for Compound <> Morpho <> Polygon Collaboration | scores=776072.3506313167 votes=19
+   2025-03-18->2025-03-21 | MIP 98 - Telegram Mini App Frontend for the Morpho Protocol | scores=5069702.787147711 votes=25
+   2025-03-03->2025-03-06 | MIP 97 - Optimistic Rewards Rate Adjustment Framework | scores=1506157.910139221 votes=18
+   2025-02-18->2025-02-21 | MIP 96 - Frontend for Compound <> Morpho <> Polygon Collaboration | scores=1648908.1719566176 votes=15
+   2025-02-18->2025-02-21 | MIP 95 - MORPHO Reward Rate Reduction 3 | scores=2484656.3823611955 votes=18
+==== aerodromefinance.eth n= 0
+==== velodrome.eth n= 0
+==== jupdao.eth n= 0
+==== kamino.eth n= 0
+==== dydx.eth n= 0
+==== spark.eth n= 0
+==== sky.eth n= 0
+==== mkrgov.eth n= 0
+==== resupply.eth n= 0
+==== usual.eth n= 0
+==== ondo.eth n= 0
+==== drift.eth n= 0
+==== zora.eth n= 2
+   2022-06-14->2022-06-16 | ZORA API Hackathon Winners | scores=7001 votes=7001
+   2022-01-16->2022-01-16 | Zorb's Choice Award NFTHack 2022 *Fixed | scores=656 votes=366
+==== balancer.eth n= 40
+   2026-08-28->2026-09-01 | [BIP-927] Revoke Unused V2 Vault Permissions from Deprecated Relayers | scores=6558852.163002003 votes=9
+   2026-08-28->2026-09-01 | [BIP-926] Treasury Council Resignation: Xeonus, Successor Nomination of zekraken | scores=6539697.298627386 votes=8
+   2026-08-21->2026-08-25 | [BIP-925] Unwind Timeless ve8020 BAL Grant | scores=6516516.1973797595 votes=7
+   2026-08-21->2026-08-25 | [BIP-923](rerun) Next Phase Decision for Rescued Funds Distribution from Balancer v2 Nov | scores=6516516.1973797595 votes=7
+   2026-08-21->2026-08-25 | [BIP-922](rerun) Recover unclaimed legacy LM MerkleRedeem funds to BizDev Safe | scores=6516516.1973797595 votes=7
+   2026-08-14->2026-08-18 | [BIP-924] Exclude Aura from Governance and Reduce Quorum | scores=23891200.51446706 votes=7
+   2026-07-31->2026-08-04 | [BIP-923] Next Phase Decision for Rescued Funds Distribution from Balancer v2 November 2 | scores=6454723.411182642 votes=10
+   2026-07-31->2026-08-04 | [BIP-922] Recover unclaimed legacy LM MerkleRedeem funds to BizDev Safe | scores=6473256.61870054 votes=11
+   2026-05-15->2026-05-19 | [BIP-921] 1-BAL-1-Vote Reconfiguration for `balancer.eth` Snapshot Space | scores=2879230.482751932 votes=7
+   2026-05-08->2026-05-12 | [BIP-920] veBAL Compensation Airdrop | scores=3435477.640199252 votes=8
+   2026-04-03->2026-04-07 | [BIP-919] BAL Tokenomics Revamp | scores=3842568.3626534315 votes=22
+   2026-04-03->2026-04-07 | [BIP-918] Operational Restructuring for Balancer | scores=3828451.3903336143 votes=20
+   2026-03-20->2026-03-24 | [BIP-917] Enable Gauges for the Sagix Miliarium Aureum on Ethereum | scores=3017077.1172309164 votes=6
+   2026-03-13->2026-03-17 | [BIP-916] Set Network Remapping Manager for StakeDAO | scores=3145433.1560305897 votes=6
+   2026-03-13->2026-03-17 | [BIP-915] Grant Pool Creator Fee Permissions to Omni Multisig | scores=3145435.6697717104 votes=6
+   2026-03-13->2026-03-17 | [BIP-914] Disable Outdated Oracle LP Pool Factories (v1 and v2) | scores=3145436.535501023 votes=6
+   2026-02-27->2026-03-03 | [BIP-913] Enable Gauges for svZCHF/ZCHF and ixEDEL/USDC on Ethereum | scores=3176024.7115490776 votes=7
+   2026-02-27->2026-03-03 | [BIP-912] Deprecate PoL on CoWAMM Positions (BIP-666) | scores=3176026.5845743837 votes=7
+   2026-02-13->2026-02-17 | [BIP-911] Emergency subDAO Signer Swap - Q1 2026 | scores=3184942.9383184877 votes=7
+   2026-02-13->2026-02-17 | [BIP-910] Grant Permissions for New V3 Stable Pool and Weighted Pool Factories | scores=3183673.9293545047 votes=6
+   2026-02-06->2026-02-10 | [BIP-909] Permissions Update Request #8 | scores=3166546.90804155 votes=8
+   2026-02-06->2026-02-10 | [BIP-908] Bounty for Information and Recovery of Stolen Funds | scores=3167013.8021684024 votes=9
+   2026-02-06->2026-02-10 | [BIP-907] Update DAO Multisig Signer Set and Adjust Annual Stipend | scores=3167025.4994206 votes=8
+   2026-01-23->2026-01-27 | [BIP-906] Deprecation of Polygon zkEVM, Fraxtal, and Mode | scores=2978185.306985519 votes=7
+   2026-01-16->2026-01-20 | [BIP-905] Kill Stale Gauges Q4 2025 | scores=2990368.069260486 votes=7
+   2026-01-09->2026-01-13 | [BIP-904] Balancer V3 Hypernative Pause Module Enablement | scores=3002420.338139336 votes=6
+   2026-01-09->2026-01-13 | [BIP-903] Transition Core Pool Incentive Program to Stake DAO’s Votemarket v2 | scores=3715488.2519872994 votes=8
+   2026-01-09->2026-01-13 | [BIP-902] Enable Gauge For 25% Bal / 25% Aura / 50% wabasUSDC | scores=3063400.2796791596 votes=8
+   2026-01-09->2026-01-13 | [BIP-901] Increase Gauge Cap for TETU/USDC 80/20 Pool to 5% | scores=3590404.7134630615 votes=8
+   2026-01-09->2026-01-13 | [BIP-900] Enable Gauge for 60GOLD/40wstETH Pool at 10% cap | scores=3590406.9040190345 votes=8
+   2026-01-09->2026-01-13 | [BIP-899] Gauge proposal for msUSD/USDC & msUSD/msY | scores=2825959.913613532 votes=5
+   2026-01-09->2026-01-13 | [BIP-898] Migrate mainnet ALCX/ETH 80/20 gauge and Core Pool status to new v3 pool | scores=3188481.566263973 votes=6
+   2025-12-19->2025-12-23 | [BIP-897] Gauge proposal for iUSD-msUSD with 5% cap | scores=3202499.263355605 votes=8
+   2025-12-19->2025-12-23 | [BIP-896] Rocket Pool Balancer Alliance Addendum | scores=3202501.636406366 votes=8
+   2025-12-12->2025-12-16 | [BIP-895] QuantAMM Retroactive Fee Allocation | scores=3008567.2261118316 votes=6
+   2025-12-12->2025-12-16 | [BIP-894] Kill Stream Gauges | scores=3008587.398594161 votes=6
+   2025-12-12->2025-12-16 | [BIP-893] Reconfigure the Protocol Swap Fee for the ReCLAMM Pool Type | scores=3008590.181612419 votes=6
+   2025-12-12->2025-12-16 | [BIP-892] Distribution of Rescued Funds from Balancer v2 November 3rd 2025 Attacks | scores=3008595.6997615984 votes=6
+   2025-11-28->2025-12-02 | [BIP-891] Increase Gauge Cap for GOLD/st-yETH Pool to 15% | scores=3264712.0035084123 votes=6
+   2025-11-21->2025-11-25 | [BIP-890] Revoke Delegation of Governance Tokens in Treasury | scores=3467046.1598870205 votes=11
+==== euler.eth n= 0
+==== instadapp-gov.eth n= 19
+   2026-02-27->2026-02-28 | Establish Fluid Foundation | scores=2697983.292630481 votes=8
+   2025-05-11->2025-05-14 | Bridge provider for $Fluid Multi-Chain Deployment | scores=5316317.89111487 votes=8
+   2025-03-05->2025-03-07 | Deploy Fluid on Polygon Network | scores=4461130.809033906 votes=25
+   2025-01-08->2025-01-10 | Divest $MORPHO position | scores=2896795.6753439065 votes=8
+   2024-12-16->2024-12-17 | Wintermute <> INST/FLUID Liquidity Provision Proposal | scores=3995707.267181192 votes=11
+   2024-05-24->2024-05-27 | StableLab Partnership with Instadapp | scores=2065487.0518271094 votes=7
+   2024-02-15->2024-02-18 | Accept Fluid configs and Launch Protocol | scores=2845061.212569674 votes=12
+   2023-03-30->2023-04-01 | Distribute ARB Tokens as Gas Discount | scores=2773566.93363199 votes=11
+   2023-03-27->2023-03-30 | Proposal to distribute Instadapp product revenue to DAO treasury | scores=7324898.698583236 votes=20
+   2021-11-17->2021-11-20 | Set Flashloan Aggregator Minimum Fee | scores=5488052.494992767 votes=23
+   2021-10-25->2021-10-28 | Pass Integrate UbiquityDAO | scores=1772514.227896009 votes=10
+   2021-09-29->2021-10-02 | Pass Integrate PoolTogether | scores=2109364.490228766 votes=12
+   2021-09-17->2021-09-20 | Return unclaimed distributed INST to Gov Treasury | scores=1606346.8559837746 votes=18
+   2021-09-08->2021-09-11 | Update INST Staking Allocation | scores=2471455.8586930167 votes=26
+   2021-07-29->2021-08-01 | Pass Proposal to Integrate B.Protocol | scores=1077793.9062915887 votes=26
+   2021-07-29->2021-08-01 | Pass Proposal to Integrate RAI Protocol | scores=1077798.9808176663 votes=26
+   2021-07-09->2021-07-12 | Pass Instadapp Community Growth Fund | scores=4413113.691084983 votes=24
+   2021-07-09->2021-07-12 | Increase Liquidity Mining Reward Pool | scores=913115.7893793228 votes=20
+   2021-07-09->2021-07-12 | Pass Integrate Liquity Protocol | scores=7918885.716986306 votes=35
+==== silo.eth n= 0
+==== stargate.eth n= 0
+==== sushigov.eth n= 40
+   2026-08-27->2026-09-03 | SUSHI Tokenomics Restructure: SUSHI Reserve, Revised xSUSHI Buybacks, and Protocol-Deplo | scores=5214573.813055928 votes=5
+   2026-08-18->2026-08-25 | SUSHI Tokenomics Restructure: SUSHI Reserve, Revised xSUSHI Buybacks, and Protocol-Deplo | scores=5213018.139231606 votes=7
+   2026-01-21->2026-01-29 | MasterChef LP Migration to V3 + Protocol-Deployed Liquidity [Implementation] | scores=5216119.126269131 votes=18
+   2026-01-13->2026-01-21 | MasterChef LP Migration to V3 + Protocol-Deployed Liquidity [Signal] | scores=5342865.346922774 votes=7
+   2025-12-14->2025-12-21 | Increase SUSHI Annual Emissions Rate (AER) for AMM Liquidity, Listings & Private Capital | scores=5215214.868837077 votes=31
+   2025-12-07->2025-12-14 | Increase SUSHI Annual Emissions Rate (AER) for AMM Liquidity, Listings & Private Capital | scores=5200359.366402829 votes=4
+   2024-12-16->2024-12-23 | Treasury Diversifications [Implementation] | scores=11617334.050548721 votes=52
+   2024-12-06->2024-12-13 | Treasury Diversification Proposal [Signal] | scores=12423781.252066212 votes=46
+   2024-09-26->2024-10-03 | Sushi High Kitchen Candidate - Sarang [Implementation] | scores=8006365.639454141 votes=22
+   2024-08-10->2024-08-19 | Sushi High Kitchen Candidate - Adarsh Bhatt [Implementation] | scores=5405008.712221786 votes=32
+   2024-08-10->2024-08-19 | Sushi High Kitchen Candidate - Hypotenuse Labs [Implementation] | scores=5404898.398512313 votes=31
+   2024-08-10->2024-08-19 | Sushi High Kitchen Candidate - Hee-Sang Koo [Implementation] | scores=16074.485101662489 votes=22
+   2024-08-10->2024-08-19 | Sushi High Kitchen Candidate - Adam Ambrozy [Implementation] | scores=5404888.221955338 votes=29
+   2024-08-10->2024-08-19 | Sushi High Kitchen Candidate - Kevin Michael Kozeny [Implementation] | scores=5404886.997378553 votes=29
+   2024-04-10->2024-04-17 | Evolving Sushi - Burū no Shinka [Implementation] | scores=19067547.472701978 votes=90
+   2024-04-03->2024-04-10 | Evolving Sushi - Burū no Shinka [Signal] | scores=30229013.86990661 votes=121
+   2024-01-30->2024-02-08 | Send Sushi From Merkel Distributor Contract to the Sushi Treasury Wallet | scores=8505029.86880824 votes=120
+   2023-11-15->2023-11-24 | Deploy new tokenomics for Sushi [Signal] | scores=9860248.961064937 votes=161
+   2023-07-25->2023-08-01 | Strategic Cooperation with DWF Labs [Signal] | scores=7555565.139122586 votes=285
+   2023-07-20->2023-07-28 | Legal Entity Update & Proposed Changes [Signal] | scores=7040394.661648692 votes=443
+   2023-02-24->2023-03-03 | CB Recruitment - Head Chef Remuneration [Signal] | scores=72325.16326872415 votes=850
+   2023-01-16->2023-01-23 | Kanpai 2.0 [Implementation] | scores=6687622.760168392 votes=747
+   2023-01-16->2023-01-23 | Sushi Vesting Merkle Tree Clawback [Implementation] | scores=6833638.39902219 votes=739
+   2022-12-19->2022-12-26 | Sushi Vesting Merkle Tree Clawback [Signal] | scores=5018172.717270726 votes=620
+   2022-12-12->2022-12-19 | Increase Kanpai Treasury Payout Ratio to 100% [Signal] | scores=18336724.252052397 votes=782
+   2022-10-28->2022-11-04 | Sushi Treasury Multisig Update [Implementation] | scores=7044414.758568932 votes=688
+   2022-10-19->2022-10-26 | Sushi Legal Structure [Implementation] | scores=10658701.949012248 votes=673
+   2022-09-26->2022-10-03 | Sushi Head Chef Election - Final Vote [Implementation] | scores=12748192.388461802 votes=391
+   2022-09-12->2022-09-19 | Head Chef Finale - Timeline [Implementation] | scores=6230142.112164376 votes=502
+   2022-09-05->2022-09-12 | Head Chef Compensation [Signal] Part 6 - Severance Length | scores=6284611.979269569 votes=472
+   2022-09-05->2022-09-12 | Head Chef Compensation [Signal] Part 5 - Contract Length | scores=6283394.94210829 votes=447
+   2022-09-05->2022-09-12 | Head Chef Compensation [Signal] Part 4 - Initial Cliff for Sushi Compensation | scores=6280438.079214096 votes=428
+   2022-09-05->2022-09-12 | Head Chef Compensation [Signal] Part 3 - Total Sushi for Roadmap & Price Targets | scores=6262402.212366504 votes=426
+   2022-09-05->2022-09-12 | Head Chef Compensation [Signal] Part 2 - Sushi Price Targets | scores=6281191.641150454 votes=433
+   2022-09-05->2022-09-12 | Head Chef Compensation [Signal] Part 1 - Base Salary | scores=6279976.750315502 votes=420
+   2022-07-06->2022-07-18 | SushiGuardRouterV01 [Implementation] | scores=5954359.123531376 votes=774
+   2022-06-26->2022-07-04 | SushiHouse Funds Redemption Pt2 [Implementation] | scores=7655329.840184313 votes=616
+   2022-06-26->2022-07-04 | SushiHouse Funds Redemption Pt1 [Implementation] | scores=7979465.991923551 votes=599
+   2022-06-26->2022-07-04 | Treasury MultiSig Member Rotation [Signal] | scores=7980414.513825925 votes=595
+   2022-06-26->2022-07-04 | KlimaDAO x Sushi Carbon Offset Integration [Signal] | scores=7980511.743699276 votes=592
+==== angle.eth n= 0
+==== gnosis.eth n= 40
+   2026-08-20->2026-08-27 | Signal Gnosis Guild to revive GIP-99? | scores=5145.208410247921 votes=20
+   2026-08-20->2026-08-27 | GIP-154: Should GnosisDAO fund Gnosis Ltd with 15m/ year? | scores=104173.33944912945 votes=44
+   2026-08-17->2026-08-24 | GIP-156: Should @Citrullin be banned from GnosisDAO Governance and Communication Channel | scores=23368.844635943875 votes=20
+   2026-08-12->2026-08-19 | GIP-153: Should Gnosis Chain transition into the Ethereum Economic Zone? | scores=123424.7059135939 votes=54
+   2026-08-06->2026-08-13 | Transition to an Independent Structural Governance Engine and Complete Separation of Pow | scores=5057.924065660245 votes=18
+   2026-08-05->2026-08-12 | GIP 152 - Should GnosisDAO spin out the Gnosis App into an independent company? | scores=108507.10027466249 votes=49
+   2026-06-19->2026-06-26 | GIP-151: Should GnosisDAO offer a one-time pro-rata treasury redemption? | scores=161740.21425268083 votes=49
+   2026-05-05->2026-05-12 | GIP-150: Should GnosisDAO let GNO holders redeem their pro-rata share of the treasury? | scores=601848.1936273829 votes=95
+   2026-03-17->2026-03-24 | Gnosis Launches Telegram Channel for Ecosystem Updates | scores=0 votes=0
+   2026-03-04->2026-03-11 | Gnosis DAO Approves Phase 1 of the $GNO Airdrop Program | scores=0 votes=0
+   2026-03-03->2026-03-10 | Gnosis DAO Approves Phase 1 of the $GNO Airdrop Program | scores=0 votes=0
+   2026-03-02->2026-03-09 | Gnosis DAO Approves Phase 1 of the $GNO Airdrop Program | scores=109.639286849 votes=1
+   2026-02-26->2026-03-05 | GIP-149: Should Gnosis DAO fund continued support of Revoke.cash? | scores=26744.82217419382 votes=69
+   2026-02-07->2026-02-14 | GIP-148: Selection of Treasury Management Service Provider | scores=157351.41071156337 votes=75
+   2026-02-07->2026-02-14 | GIP-145: Should Gnosis DAO run a 9‑month advisory futarchy pilot with $100k temporary li | scores=117562.28700813286 votes=67
+   2026-01-26->2026-02-02 | GIP-147: Enable ranked choice voting on the DAO | scores=80367.45418520432 votes=42
+   2025-12-02->2025-12-09 | GIP-144: Should GnosisDAO support an annual renewal for Blockscout SLA and hosting: Janu | scores=120154.62752679069 votes=110
+   2025-11-17->2025-11-24 | GIP-143: Should the GnosisDAO Terminate karpatkey Treasury Management Services? | scores=127773.93683300786 votes=80
+   2025-10-21->2025-10-28 | GIP-140: Should GnosisDAO revamp Snapshot voting strategies  | scores=202995.48765969434 votes=82
+   2025-10-15->2025-10-22 | GIP-137: Should Gnosis DAO renew the Delegate Program? | scores=79197.01781909922 votes=92
+   2025-10-14->2025-10-21 | GIP-139: Should GnosisDAO support ProbeLab to produce network performance and security m | scores=37380.70718174739 votes=89
+   2025-10-09->2025-10-16 | GIP-129: Should GnosisDAO establish Seldon Inc and appoint a Gnosis VPN Committee to sup | scores=116998.1306168007 votes=73
+   2025-09-30->2025-10-07 | GIP-138: Should Gnosis DAO fund the maintenance of NodeSentinel? | scores=149613.68862820923 votes=95
+   2025-09-29->2025-10-06 | GIP-136: Should GnosisDAO support maintenance of the Gnosis Explorer (v1 + v2)? | scores=63236.07105599475 votes=67
+   2025-09-24->2025-10-01 | GIP-134: Pilot a Gnosis Growth Fund for small scale, community-led ecosystem funding | scores=88445.09019707837 votes=64
+   2025-09-17->2025-09-24 | GIP-132: Should the DAO pay out a bounty for a disclosure regarding a consensus discrepa | scores=73494.88845844839 votes=103
+   2025-09-16->2025-09-23 | ​ GIP-134: Pilot a Gnosis Growth Fund for small scale, community-led ecosystem funding | scores=73500.97793606509 votes=102
+   2025-09-15->2025-09-22 | GIP-135: Should Gnosis DAO grant RaidGuild a 50k stipend to fund the audit of an Euro pe | scores=111551.45273856855 votes=105
+   2025-09-08->2025-09-15 | GIP-130: Changes to gnosis.eth | scores=85467.47124155832 votes=61
+   2025-09-06->2025-09-13 | Mystery Box | Gnosis x Snapshot | scores=0.042598566907501696 votes=1
+   2025-09-06->2025-09-13 | Mystery Box | Gnosis x Snapshot | scores=0.042598566907501696 votes=1
+   2025-09-05->2025-09-12 | Mystery Box | Gnosis x Snapshot | scores=1.0577885669075018 votes=2
+   2025-09-05->2025-09-12 | Mystery Box | Gnosis x Snapshot | scores=0.042598566907501696 votes=1
+   2025-09-05->2025-09-12 | Mystery Box | Gnosis x Snapshot | scores=0.042598566907501696 votes=1
+   2025-09-05->2025-09-12 | Mystery Box | Gnosis x Snapshot | scores=1.0577885669075018 votes=2
+   2025-09-05->2025-09-12 | Mystery Box | Gnosis x Snapshot | scores=0.042598566907501696 votes=1
+   2025-09-05->2025-09-12 | Mystery Box | Gnosis x Snapshot | scores=0.042598566907501696 votes=1
+   2025-08-29->2025-09-05 | GIP-133: Should Gnosis DAO extend the Gnosis Pay Cashback budget (GIP-110) by 2,000 GNO? | scores=106680.37415783902 votes=113
+   2025-07-21->2025-07-28 | GIP-128 Should GnosisDAO fund Gnosis Ltd with $30m/ year? | scores=76810.25412077714 votes=94
+   2025-06-25->2025-07-02 | GIP-126: Should the GnosisDAO Renew its Long-Term Partnership With Nethermind for Gnosis | scores=117331.01521406687 votes=79
+==== arbitrumfoundation.eth n= 40
+   2026-09-10->2026-09-17 | Banning projects identified in the high-severity Watchdog Program cases - Good Entry | scores=163905753.54639533 votes=1002
+   2026-09-10->2026-09-17 | Banning projects identified in the high-severity Watchdog Program cases - Limitless | scores=163866947.8262905 votes=991
+   2026-09-10->2026-09-17 | Banning projects identified in the high-severity Watchdog Program cases - APX Finance | scores=163918738.10124856 votes=1003
+   2026-08-20->2026-08-27 | Arbitrum Security Program | scores=190276906.25590706 votes=1048
+   2026-07-16->2026-07-23 | [Constitutional] AIP: Ratification of Security Council Election Process Improvements | scores=204133441.65914822 votes=980
+   2026-07-09->2026-07-16 | OAT Elections | scores=182471215.06392506 votes=2226
+   2026-07-02->2026-07-09 | Fast Feed: Constitutional AIP | scores=153012322.24450138 votes=1102
+   2026-06-25->2026-07-02 | AGV Wind-Down: Structured Transition & Return of Capital to the DAO Treasury | scores=199093021.08129784 votes=1099
+   2026-06-25->2026-07-02 | [Constitutional] AIP: Automate Timeboost Proceeds Split | scores=176243173.47115365 votes=1075
+   2026-06-18->2026-06-25 | Extending DRIP’s Mandate | scores=176125035.48981518 votes=1279
+   2026-06-18->2026-06-25 | [Constitutional] AIP: Transition Arbitrum One ordering policy to Priority Gas Auctions ( | scores=186124280.27084902 votes=1273
+   2026-05-28->2026-06-04 | Continued Funding for the Arbitrum Foundation | scores=200537391.54182717 votes=1322
+   2026-05-28->2026-06-04 | [Constitutional] AIP: Minimize Arbitrum Nova | scores=212522364.63126913 votes=1315
+   2026-04-30->2026-05-07 | Approve Release of Frozen ETH | scores=200280902.91336495 votes=1693
+   2026-04-02->2026-04-09 | Improvements to the Arbitrum Audit Program | scores=170623149.27874452 votes=1554
+   2026-04-02->2026-04-09 | Transfer 6,000 ETH and Idle Stablecoins from the Treasury to the Treasury Management Por | scores=170606935.85781306 votes=1555
+   2026-03-26->2026-04-02 | [Constitutional] AIP: ArbOS 60 Elara | scores=158256137.31500146 votes=1396
+   2026-03-26->2026-04-02 | Updating the Code of Conduct & DAO Procedures to Become Living Documents | scores=157838983.26632574 votes=1383
+   2026-03-05->2026-03-12 | Automate the Consolidation of Idle Funds into the Treasury Management Portfolio | scores=185138773.16478333 votes=1575
+   2026-02-05->2026-02-12 | [Constitutional] DVP Quorum for ArbitrumDAO: Implementation & Parameters | scores=214666694.35822108 votes=1575
+   2025-12-04->2025-12-11 | Rewarding Active Delegates (RAD) Program | scores=232376999.01792055 votes=2554
+   2025-11-27->2025-12-04 | AGV - 2026 Council Elections | scores=184301062.31638572 votes=1691
+   2025-11-20->2025-11-27 | John Kennedy reconfirmation for AGV council | scores=186883147.87124765 votes=1903
+   2025-11-20->2025-11-27 | Tim Chang reconfirmation for AGV council | scores=176721209.9087112 votes=1903
+   2025-11-13->2025-11-20 | AIP: Raise the gas target, min L2 base fee, & implement improvements to the pricing algo | scores=137278150.16852942 votes=2073
+   2025-11-06->2025-11-13 | AGV Council Compensation Calibration: Startup-Phase Bonus for Current Council Members | scores=165579065.62635612 votes=2154
+   2025-10-23->2025-10-30 | The DAO Incentive Program (DIP 2.0) | scores=183452042.43065897 votes=2076
+   2025-10-16->2025-10-23 | [Temperature Check] Should we try a Delegate Incentive Program like the Arbitrum Triple  | scores=164691971.4498732 votes=2416
+   2025-10-16->2025-10-23 | AGV Council Compensation Calibration: Benchmark for Future Council Terms | scores=183124940.93856966 votes=2332
+   2025-10-09->2025-10-16 | [Constitutional] AIP: DVP Quorum | scores=174321189.09805372 votes=2147
+   2025-09-25->2025-10-02 | Transfer 8,500 ETH from the Treasury to ATMC’s ETH Treasury Strategies | scores=157324465.26870874 votes=2396
+   2025-09-04->2025-09-11 | [CONSTITUTIONAL] AIP: Security Council Election Process Improvements | scores=174429403.37226114 votes=2278
+   2025-09-04->2025-09-11 | Revert the Delegate Incentive Program (DIP) to Version 1.5 | scores=164021449.18586263 votes=2255
+   2025-08-28->2025-09-04 | [CONSTITUTIONAL] AIP: ArbOS Version 50 Dia | scores=168213491.78441584 votes=2696
+   2025-07-31->2025-08-07 | [Non-Constitutional] - Updates to the DIP, The Complete 1.7 Version | scores=189237026.4312013 votes=2337
+   2025-07-24->2025-07-31 | Consolidate Idle USDC to the ATMC’s Stablecoin Balance | scores=190060558.81374085 votes=3312
+   2025-07-24->2025-07-31 | [Constitutional] AIP: Disable Legacy Tether Bridge | scores=191259179.7778888 votes=3265
+   2025-07-18->2025-07-25 | Updating the Code of Conduct & DAO’s Procedures | scores=175178928.61814728 votes=2867
+   2025-07-10->2025-07-17 | [CONSTITUTIONAL] Register $BORING in the Arbitrum generic-custom gateway | scores=200356833.353621 votes=2996
+   2025-07-10->2025-07-17 | [Constitutional] AIP: Update the Upgrade Executors | scores=200302895.7229533 votes=2986

@@ -1,0 +1,369 @@
+SOURCE_URL: https://r.jina.ai/https://insights.deribit.com/ftx-black-swan-event
+HTTP: 200  LEN: 21428
+
+Title: Page not found - Deribit Insights
+
+URL Source: https://insights.deribit.com/ftx-black-swan-event
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)
+
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.[Cookie Policy](https://support.deribit.com/hc/en-us/articles/25944500028445-Cookie-Notice)
+
+Adjust My Preferences Reject All Accept All
+
+Privacy Preference Center![Image 2](https://cdn-cookieyes.com/assets/images/close.svg)
+
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer....Show more
+
+Strictly Necessary Cookies Always Active
+
+Necessary cookies enable core functionality of the website, such as security, network management, accessibility, and page navigation. These cookies are essential to enable you to use the features of our services and the website cannot function properly without these cookies.
+
+*   Cookie _cfuvid 
+*   Duration session 
+*   Description Calendly sets this cookie to track users across sessions to optimize user experience by maintaining session consistency and providing personalized services 
+
+*   Cookie __cf_bm 
+*   Duration 1 hour 
+*   Description This cookie, set by Cloudflare, is used to support Cloudflare Bot Management. 
+
+*   Cookie cookieyes-consent 
+*   Duration 14 days 
+*   Description CookieYes sets this cookie to remember users' consent preferences so that their preferences are respected on subsequent visits to this site. It does not collect or store any personal information about the site visitors. 
+
+*   Cookie _GRECAPTCHA 
+*   Duration 6 months 
+*   Description Google Recaptcha service sets this cookie to identify bots to protect the website against malicious spam attacks. 
+
+*   Cookie rc::a 
+*   Duration Never Expires 
+*   Description This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks. 
+
+*   Cookie rc::f 
+*   Duration Never Expires 
+*   Description This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks. 
+
+*   Cookie rc::b 
+*   Duration session 
+*   Description This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks. 
+
+*   Cookie wpEmojiSettingsSupports 
+*   Duration session 
+*   Description WordPress sets this cookie when a user interacts with emojis on a WordPress site. It helps determine if the user's browser can display emojis properly. 
+
+*   Cookie rc::c 
+*   Duration session 
+*   Description This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks. 
+
+Functional
+
+- [x] 
+
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+
+*   Cookie ytidb::LAST_RESULT_ENTRY_KEY 
+*   Duration Never Expires 
+*   Description The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search result entry that was clicked by the user. This information is used to improve the user experience by providing more relevant search results in the future. 
+
+*   Cookie yt-remote-device-id 
+*   Duration Never Expires 
+*   Description YouTube sets this cookie to store the user's video preferences using embedded YouTube videos. 
+
+*   Cookie yt-remote-session-name 
+*   Duration session 
+*   Description The yt-remote-session-name cookie is used by YouTube to store the user's video player preferences using embedded YouTube video. 
+
+*   Cookie yt-remote-fast-check-period 
+*   Duration session 
+*   Description The yt-remote-fast-check-period cookie is used by YouTube to store the user's video player preferences for embedded YouTube videos. 
+
+*   Cookie yt-remote-session-app 
+*   Duration session 
+*   Description The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player. 
+
+*   Cookie yt-remote-cast-available 
+*   Duration session 
+*   Description The yt-remote-cast-available cookie is used to store the user's preferences regarding whether casting is available on their YouTube video player. 
+
+*   Cookie yt-remote-cast-installed 
+*   Duration session 
+*   Description The yt-remote-cast-installed cookie is used to store the user's video player preferences using embedded YouTube video. 
+
+*   Cookie yt-remote-connected-devices 
+*   Duration Never Expires 
+*   Description YouTube sets this cookie to store the user's video preferences using embedded YouTube videos. 
+
+*   Cookie sp_t 
+*   Duration 1 year 
+*   Description The sp_t cookie is set by Spotify to implement audio content from Spotify on the website and also registers information on user interaction related to the audio content. 
+
+*   Cookie sp_landing 
+*   Duration 1 day 
+*   Description The sp_landing is set by Spotify to implement audio content from Spotify on the website and also registers information on user interaction related to the audio content. 
+
+Statistics
+
+- [x] 
+
+Statistics cookies collect information about how visitors use our services, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies collect aggregated (anonymous) data on the pages visited. They are used to improve our services.
+
+*   Cookie _gcl_au 
+*   Duration 3 months 
+*   Description Google Tag Manager sets the cookie to experiment advertisement efficiency of websites using their services. 
+
+*   Cookie _ga_* 
+*   Duration 1 year 1 month 4 days 
+*   Description Google Analytics sets this cookie to store and count page views. 
+
+*   Cookie _ga 
+*   Duration 1 year 1 month 4 days 
+*   Description Google Analytics sets this cookie to calculate visitor, session and campaign data and track site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognise unique visitors. 
+
+*   Cookie _gid 
+*   Duration 1 day 
+*   Description Google Analytics sets this cookie to store information on how visitors use a website while also creating an analytics report of the website's performance. Some of the collected data includes the number of visitors, their source, and the pages they visit anonymously. 
+
+*   Cookie _gat_gtag_UA_* 
+*   Duration 1 minute 
+*   Description Google Analytics sets this cookie to store a unique user ID. 
+
+*   Cookie h1_device_id 
+*   Duration 1 year 
+*   Description HackerOne's elite community of ethical hackers helps organizations transform their businesses with confidence. 
+
+*   Cookie __Host-session 
+*   Duration 14 days 
+*   Description HackerOne's elite community of ethical hackers helps organizations transform their businesses with confidence. 
+
+Marketing
+
+- [x] 
+
+Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third-party advertisers.
+
+*   Cookie __Secure-ROLLOUT_TOKEN 
+*   Duration 6 months 
+*   Description Used by YouTube to manage the rollout of new features and updates in a phased manner. This cookie helps assign users to specific test groups to experiment with changes to the user interface or video player. 
+
+*   Cookie YSC 
+*   Duration session 
+*   Description Youtube sets this cookie to track the views of embedded videos on Youtube pages. 
+
+*   Cookie VISITOR_INFO1_LIVE 
+*   Duration 6 months 
+*   Description YouTube sets this cookie to measure bandwidth, determining whether the user gets the new or old player interface. 
+
+*   Cookie VISITOR_PRIVACY_METADATA 
+*   Duration 6 months 
+*   Description YouTube sets this cookie to store the user's cookie consent state for the current domain.  
+
+*   Cookie yt.innertube::nextId 
+*   Duration Never Expires 
+*   Description YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen. 
+
+*   Cookie yt.innertube::requests 
+*   Duration Never Expires 
+*   Description YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen. 
+
+*   Cookie IDE 
+*   Duration 1 year 24 days 
+*   Description Google DoubleClick IDE cookies store information about how the user uses the website to present them with relevant ads according to the user profile. 
+
+*   Cookie test_cookie 
+*   Duration 15 minutes 
+*   Description doubleclick.net sets this cookie to determine if the user's browser supports cookies. 
+
+*   Cookie muc_ads 
+*   Duration 1 year 1 month 4 days 
+*   Description Twitter sets this cookie to collect user behaviour and interaction data to optimize the website. 
+
+*   Cookie guest_id_marketing 
+*   Duration 1 year 1 month 4 days 
+*   Description Twitter sets this cookie to identify and track the website visitor. 
+
+*   Cookie guest_id_ads 
+*   Duration 1 year 1 month 4 days 
+*   Description Twitter sets this cookie to identify and track the website visitor. 
+
+*   Cookie personalization_id 
+*   Duration 1 year 1 month 4 days 
+*   Description Twitter sets this cookie to integrate and share features for social media and also store information about how the user uses the website, for tracking and targeting. 
+
+*   Cookie guest_id 
+*   Duration 1 year 1 month 4 days 
+*   Description Twitter sets this cookie to identify and track the website visitor. It registers if a user is signed in to the Twitter platform and collects information about ad preferences. 
+
+Reject All Save My Preferences Accept All
+
+Powered by [![Image 3](https://cdn-cookieyes.com/assets/images/poweredbtcky.svg)](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=powered-by-cookieyes)
+
+[Skip to content](https://insights.deribit.com/ftx-black-swan-event#content)
+
+[![Image 4: Deribit Insights Logo](https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx1-2.png)](https://insights.deribit.com/)
+
+Search for: 
+
+[](https://insights.deribit.com/ftx-black-swan-event#)
+
+*   [Categories](https://insights.deribit.com/ftx-black-swan-event)
+    *   [Industry](https://insights.deribit.com/industry/)
+    *   [Option Flows](https://insights.deribit.com/option-flows)
+    *   [Exchange Updates](https://insights.deribit.com/exchange-updates)
+    *   [Market Research](https://insights.deribit.com/market-research)
+    *   [Education](https://insights.deribit.com/education)
+    *   [Podcast](https://insights.deribit.com/crypto-options-unplugged/)
+    *   [Out of Office](https://insights.deribit.com/out-of-office)
+
+*   [Options Course](https://insights.deribit.com/options-course/)
+*   [Trading Tools](https://insights.deribit.com/trading-tools)
+*   [Partners](https://insights.deribit.com/partners)
+*   [Dev Hub](https://insights.deribit.com/dev-hub)
+*   [KB](https://support.deribit.com/hc/en-us)
+*   [![Image 5](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png)English](https://insights.deribit.com/)
+    *   [![Image 6](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)简体中文](https://insights.deribit.com/?lang=zh-hans "Switch to 简体中文")
+    *   [![Image 7](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png)한국어](https://insights.deribit.com/?lang=ko "Switch to 한국어")
+    *   [![Image 8](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png)Русский](https://insights.deribit.com/?lang=ru "Switch to Русский")
+    *   [![Image 9](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)繁體中文](https://insights.deribit.com/?lang=zh-hant "Switch to 繁體中文")
+    *   [![Image 10](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png)Português](https://insights.deribit.com/?lang=pt-br "Switch to Português")
+    *   [![Image 11](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png)日本語](https://insights.deribit.com/?lang=ja "Switch to 日本語")
+    *   [![Image 12](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png)Español](https://insights.deribit.com/?lang=es "Switch to Español")
+    *   [![Image 13](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png)Tiếng Việt](https://insights.deribit.com/?lang=vi "Switch to Tiếng Việt")
+
+*   [](https://insights.deribit.com/ftx-black-swan-event# "Search")
+
+*   [Categories](https://insights.deribit.com/ftx-black-swan-event)
+    *   [Industry](https://insights.deribit.com/industry/)
+    *   [Option Flows](https://insights.deribit.com/option-flows)
+    *   [Exchange Updates](https://insights.deribit.com/exchange-updates)
+    *   [Market Research](https://insights.deribit.com/market-research)
+    *   [Education](https://insights.deribit.com/education)
+    *   [Podcast](https://insights.deribit.com/crypto-options-unplugged/)
+    *   [Out of Office](https://insights.deribit.com/out-of-office)
+
+*   [Options Course](https://insights.deribit.com/options-course/)
+*   [Trading Tools](https://insights.deribit.com/trading-tools)
+*   [Partners](https://insights.deribit.com/partners)
+*   [Dev Hub](https://insights.deribit.com/dev-hub)
+*   [KB](https://support.deribit.com/hc/en-us)
+*   [![Image 14](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png)English](https://insights.deribit.com/)
+    *   [![Image 15](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)简体中文](https://insights.deribit.com/?lang=zh-hans "Switch to 简体中文")
+    *   [![Image 16](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png)한국어](https://insights.deribit.com/?lang=ko "Switch to 한국어")
+    *   [![Image 17](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png)Русский](https://insights.deribit.com/?lang=ru "Switch to Русский")
+    *   [![Image 18](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)繁體中文](https://insights.deribit.com/?lang=zh-hant "Switch to 繁體中文")
+    *   [![Image 19](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png)Português](https://insights.deribit.com/?lang=pt-br "Switch to Português")
+    *   [![Image 20](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png)日本語](https://insights.deribit.com/?lang=ja "Switch to 日本語")
+    *   [![Image 21](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png)Español](https://insights.deribit.com/?lang=es "Switch to Español")
+    *   [![Image 22](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png)Tiếng Việt](https://insights.deribit.com/?lang=vi "Switch to Tiếng Việt")
+
+Go to...
+*   [Categories](https://insights.deribit.com/ftx-black-swan-event)
+    *   [Industry](https://insights.deribit.com/industry/)
+    *   [Option Flows](https://insights.deribit.com/option-flows)
+    *   [Exchange Updates](https://insights.deribit.com/exchange-updates)
+    *   [Market Research](https://insights.deribit.com/market-research)
+    *   [Education](https://insights.deribit.com/education)
+    *   [Podcast](https://insights.deribit.com/crypto-options-unplugged/)
+    *   [Out of Office](https://insights.deribit.com/out-of-office)
+
+*   [Options Course](https://insights.deribit.com/options-course/)
+*   [Trading Tools](https://insights.deribit.com/trading-tools)
+*   [Partners](https://insights.deribit.com/partners)
+*   [Dev Hub](https://insights.deribit.com/dev-hub)
+*   [KB](https://support.deribit.com/hc/en-us)
+*   [![Image 23](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png)English](https://insights.deribit.com/)
+    *   [![Image 24](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)简体中文](https://insights.deribit.com/?lang=zh-hans "Switch to 简体中文")
+    *   [![Image 25](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png)한국어](https://insights.deribit.com/?lang=ko "Switch to 한국어")
+    *   [![Image 26](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png)Русский](https://insights.deribit.com/?lang=ru "Switch to Русский")
+    *   [![Image 27](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh.png)繁體中文](https://insights.deribit.com/?lang=zh-hant "Switch to 繁體中文")
+    *   [![Image 28](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png)Português](https://insights.deribit.com/?lang=pt-br "Switch to Português")
+    *   [![Image 29](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png)日本語](https://insights.deribit.com/?lang=ja "Switch to 日本語")
+    *   [![Image 30](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png)Español](https://insights.deribit.com/?lang=es "Switch to Español")
+    *   [![Image 31](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png)Tiếng Việt](https://insights.deribit.com/?lang=vi "Switch to Tiếng Việt")
+
+Search for: 
+
+## Oops, This Page Could Not Be Found!
+
+404
+
+### Helpful Links
+
+*   [Categories](https://insights.deribit.com/ftx-black-swan-event) 
+*   [Options Course](https://insights.deribit.com/options-course/) 
+*   [Trading Tools](https://insights.deribit.com/trading-tools) 
+*   [Partners](https://insights.deribit.com/partners) 
+*   [Dev Hub](https://insights.deribit.com/dev-hub) 
+*   [KB](https://support.deribit.com/hc/en-us) 
+*   [![Image 32](https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png)English](https://insights.deribit.com/) 
+*   [](https://insights.deribit.com/ftx-black-swan-event# "Search")
+
+### Search Our Website
+
+Can't find what you need? Take a moment and do a search below!
+
+Search for: 
+
+**Join our Newsletter**
+
+Sign up and stay up to date with the latest news.
+
+[Subscribe](https://insights.deribit.com/ftx-black-swan-event#)
+
+[Subscribe](https://insights.deribit.com/ftx-black-swan-event#)
+
+**Exchange notifications via email**
+
+Get all Exchange notifications directly in your inbox.
+
+[Subscribe](https://insights.deribit.com/ftx-black-swan-event#)
+
+[Subscribe](https://insights.deribit.com/ftx-black-swan-event#)
+
+#### Start Trading
+
+Visit our platform[here](https://www.deribit.com/main#/futures)or download our app:  
+  
+[![Image 33](https://insights.deribit.com/wp-content/uploads/2021/11/googleplay-1-1_.png)](https://play.google.com/store/apps/details?id=com.deribit&hl=en)  
+[![Image 34](https://insights.deribit.com/wp-content/uploads/2021/11/appstore-1-1_.png)](https://apps.apple.com/ee/app/deribit-btc-options-futures/id1293674041)
+
+#### Sitemap
+
+[Home](https://insights.deribit.com/)  
+[Market Research](https://insights.deribit.com/market-research)  
+[Education](https://insights.deribit.com/education)  
+[Exchange Updates](https://insights.deribit.com/exchange-updates)  
+[Industry](https://insights.deribit.com/industry)  
+[Option Flows](https://insights.deribit.com/option-flows)  
+[Trading Tools](https://insights.deribit.com/trading-tools)  
+[Partners](https://insights.deribit.com/partners)  
+[Developer Hub](https://insights.deribit.com/developer-hub)  
+[Contact us](https://insights.deribit.com/contact-us)
+
+#### Links
+
+[Bug bounty](https://insights.deribit.com/bug-bounty)  
+[Portfolio Margin](https://www.deribit.com/kb/portfolio-margin)  
+[Privacy Policy](https://www.deribit.com/kb/privacy-policy)  
+[Terms of service](https://www.deribit.com/kb/tos)  
+[Fees](https://www.deribit.com/kb/fees)  
+[For Developers](https://www.deribit.com/api_console/)  
+[Knowledge Base](https://www.deribit.com/kb/)
+
+#### Get Support
+
+Visit our Contact page [here](https://insights.deribit.com/contact-us/) on Insights or go to our Official Support page [here](https://support.deribit.com/hc/en-us).
+
+ Copyright © 2015-2025 l All Rights Reserved by Deribit 
+
+[Facebook](https://www.facebook.com/deribitexchange)[X](https://x.com/DeribitOfficial)[Reddit](https://www.reddit.com/r/DeribitExchange/)[LinkedIn](https://www.linkedin.com/company/deribit/)[YouTube](https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA)
+
+[Page load link](https://insights.deribit.com/ftx-black-swan-event#)[Go to Top](https://insights.deribit.com/ftx-black-swan-event#)
+
+×
+
+×

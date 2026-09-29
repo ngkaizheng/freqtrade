@@ -1,0 +1,5 @@
+au:DQUOTEde_Blasis
+au:Blasis
+all:DQUOTEfunding rateDQUOTE AND all:BitMEX
+all:DQUOTEdelta neutralDQUOTE AND all:perpetual
+au:DQUOTEJean-Baptiste_de_Blasis

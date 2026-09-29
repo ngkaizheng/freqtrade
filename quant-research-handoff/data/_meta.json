@@ -1,0 +1,785 @@
+{
+  "updated_at": "2026-09-17T21:00:36",
+  "requested_start": "2010-01-01",
+  "requested_end": "2026-09-17",
+  "universe_size": 110,
+  "stats": {
+    "new": 109,
+    "updated": 0,
+    "unchanged": 0,
+    "failed": 1
+  },
+  "elapsed_sec": 51.8,
+  "tickers": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "status": "new",
+      "rows": 3602,
+      "range": "2012-05-18~2026-09-16"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "status": "new",
+      "rows": 4079,
+      "range": "2010-06-29~2026-09-16"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "status": "new",
+      "rows": 3573,
+      "range": "2012-06-29~2026-09-16"
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto",
+      "status": "new",
+      "rows": 3559,
+      "range": "2012-07-20~2026-09-16"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ANSS",
+      "name": "Ansys",
+      "status": "failed",
+      "rows": 0,
+      "range": "-"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "status": "new",
+      "rows": 3447,
+      "range": "2013-01-02~2026-09-16"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "PYPL",
+      "name": "PayPal",
+      "status": "new",
+      "rows": 2817,
+      "range": "2015-07-06~2026-09-16"
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "DIS",
+      "name": "Disney",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "UPS",
+      "name": "UPS",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Co",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "AMT",
+      "name": "American Tower",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "SPY",
+      "name": "S&P 500 ETF",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "IWM",
+      "name": "Russell 2000 ETF",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "DIA",
+      "name": "Dow Jones ETF",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "MDY",
+      "name": "S&P MidCap 400",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "EFA",
+      "name": "MSCI EAFE",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "EEM",
+      "name": "MSCI Emerging",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "TLT",
+      "name": "20Y Treasury",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "GLD",
+      "name": "Gold",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLK",
+      "name": "Tech Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLF",
+      "name": "Financial Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLE",
+      "name": "Energy Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLP",
+      "name": "Staples Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLY",
+      "name": "Discretionary Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLI",
+      "name": "Industrial Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLU",
+      "name": "Utilities Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    },
+    {
+      "ticker": "XLB",
+      "name": "Materials Sector",
+      "status": "new",
+      "rows": 4201,
+      "range": "2010-01-04~2026-09-16"
+    }
+  ]
+}

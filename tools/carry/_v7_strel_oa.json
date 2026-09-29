@@ -1,0 +1,507 @@
+{
+ "id": "https://openalex.org/W4297101648",
+ "doi": "https://doi.org/10.2139/ssrn.4218907",
+ "title": "Perpetual Price Discovery and Crypto Market Quality",
+ "display_name": "Perpetual Price Discovery and Crypto Market Quality",
+ "publication_year": 2022,
+ "publication_date": "2022-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4297101648",
+  "doi": "https://doi.org/10.2139/ssrn.4218907"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.2139/ssrn.4218907",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.2139/ssrn.4218907",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210172589",
+   "display_name": "SSRN Electronic Journal",
+   "issn_l": "1556-5068",
+   "issn": [
+    "1556-5068"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I1318003438",
+   "host_organization_name": "RELX Group (Netherlands)",
+   "host_organization_lineage": [
+    "https://openalex.org/I1318003438"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "SSRN Electronic Journal",
+  "raw_type": "journal-article"
+ },
+ "type": "preprint",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "https://doi.org/10.2139/ssrn.4218907",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5002810288",
+    "display_name": "Artem Streltsov",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I205783295",
+     "display_name": "Cornell University",
+     "ror": "https://ror.org/05bnh6r87",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I205783295"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Artem Streltsov",
+   "raw_affiliation_strings": [
+    "Cornell University, Samuel Curtis Johnson Graduate School of Management, Department of Finance, Students, Ithaca, NY, United States",
+    "Cornell University, Samuel Curtis Johnson Graduate School of Management, Department of Finance, Students"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Cornell University, Samuel Curtis Johnson Graduate School of Management, Department of Finance, Students, Ithaca, NY, United States",
+     "institution_ids": [
+      "https://openalex.org/I205783295"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Cornell University, Samuel Curtis Johnson Graduate School of Management, Department of Finance, Students",
+     "institution_ids": [
+      "https://openalex.org/I205783295"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5061011385",
+    "display_name": "Qihong Ruan",
+    "orcid": "https://orcid.org/0009-0001-0253-7456",
+    "observed_orcids": [
+     "https://orcid.org/0009-0001-0253-7456"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I205783295",
+     "display_name": "Cornell University",
+     "ror": "https://ror.org/05bnh6r87",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I205783295"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Qihong Ruan",
+   "raw_affiliation_strings": [
+    "Cornell University, Ithaca, New York, New York, United States",
+    "Cornell  University,  Ithaca,  New  York"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Cornell University, Ithaca, New York, New York, United States",
+     "institution_ids": [
+      "https://openalex.org/I205783295"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Cornell  University,  Ithaca,  New  York",
+     "institution_ids": [
+      "https://openalex.org/I205783295"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002810288"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I205783295"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": null,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": null,
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11161",
+  "display_name": "Consumer Market Behavior and Pricing",
+  "score": 0.9639000296592712,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1406",
+   "display_name": "Marketing"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/14",
+   "display_name": "Business, Management and Accounting"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/2",
+   "display_name": "Social Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11161",
+   "display_name": "Consumer Market Behavior and Pricing",
+   "score": 0.9639000296592712,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1406",
+    "display_name": "Marketing"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/14",
+    "display_name": "Business, Management and Accounting"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11437",
+   "display_name": "Digital Platforms and Economics",
+   "score": 0.9429000020027161,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1408",
+    "display_name": "Strategy and Management"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/14",
+    "display_name": "Business, Management and Accounting"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/price-discovery",
+   "display_name": "Price discovery",
+   "score": 0.6274047493934631
+  },
+  {
+   "id": "https://openalex.org/keywords/cryptocurrency",
+   "display_name": "Cryptocurrency",
+   "score": 0.5142009258270264
+  },
+  {
+   "id": "https://openalex.org/keywords/quality",
+   "display_name": "Quality (philosophy)",
+   "score": 0.4927103817462921
+  },
+  {
+   "id": "https://openalex.org/keywords/business",
+   "display_name": "Business",
+   "score": 0.4607274532318115
+  },
+  {
+   "id": "https://openalex.org/keywords/economics",
+   "display_name": "Economics",
+   "score": 0.38062360882759094
+  },
+  {
+   "id": "https://openalex.org/keywords/commerce",
+   "display_name": "Commerce",
+   "score": 0.32296228408813477
+  },
+  {
+   "id": "https://openalex.org/keywords/financial-economics",
+   "display_name": "Financial economics",
+   "score": 0.2798926830291748
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-security",
+   "display_name": "Computer security",
+   "score": 0.22408083081245422
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.22248771786689758
+  },
+  {
+   "id": "https://openalex.org/keywords/philosophy",
+   "display_name": "Philosophy",
+   "score": 0.12566548585891724
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C39658296",
+   "wikidata": "https://www.wikidata.org/wiki/Q7242611",
+   "display_name": "Price discovery",
+   "level": 3,
+   "score": 0.6274047493934631
+  },
+  {
+   "id": "https://openalex.org/C180706569",
+   "wikidata": "https://www.wikidata.org/wiki/Q13479982",
+   "display_name": "Cryptocurrency",
+   "level": 2,
+   "score": 0.5142009258270264
+  },
+  {
+   "id": "https://openalex.org/C2779530757",
+   "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+   "display_name": "Quality (philosophy)",
+   "level": 2,
+   "score": 0.4927103817462921
+  },
+  {
+   "id": "https://openalex.org/C144133560",
+   "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+   "display_name": "Business",
+   "level": 0,
+   "score": 0.4607274532318115
+  },
+  {
+   "id": "https://openalex.org/C162324750",
+   "wikidata": "https://www.wikidata.org/wiki/Q8134",
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.38062360882759094
+  },
+  {
+   "id": "https://openalex.org/C54750564",
+   "wikidata": "https://www.wikidata.org/wiki/Q26643",
+   "display_name": "Commerce",
+   "level": 1,
+   "score": 0.32296228408813477
+  },
+  {
+   "id": "https://openalex.org/C106159729",
+   "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.2798926830291748
+  },
+  {
+   "id": "https://openalex.org/C38652104",
+   "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+   "display_name": "Computer security",
+   "level": 1,
+   "score": 0.22408083081245422
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.22248771786689758
+  },
+  {
+   "id": "https://openalex.org/C138885662",
+   "wikidata": "https://www.wikidata.org/wiki/Q5891",
+   "display_name": "Philosophy",
+   "level": 0,
+   "score": 0.12566548585891724
+  },
+  {
+   "id": "https://openalex.org/C106306483",
+   "wikidata": "https://www.wikidata.org/wiki/Q183984",
+   "display_name": "Futures contract",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111472728",
+   "wikidata": "https://www.wikidata.org/wiki/Q9471",
+   "display_name": "Epistemology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.2139/ssrn.4218907",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.2139/ssrn.4218907",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210172589",
+    "display_name": "SSRN Electronic Journal",
+    "issn_l": "1556-5068",
+    "issn": [
+     "1556-5068"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1318003438",
+    "host_organization_name": "RELX Group (Netherlands)",
+    "host_organization_lineage": [
+     "https://openalex.org/I1318003438"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "SSRN Electronic Journal",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.2139/ssrn.4218907",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.2139/ssrn.4218907",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210172589",
+   "display_name": "SSRN Electronic Journal",
+   "issn_l": "1556-5068",
+   "issn": [
+    "1556-5068"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/I1318003438",
+   "host_organization_name": "RELX Group (Netherlands)",
+   "host_organization_lineage": [
+    "https://openalex.org/I1318003438"
+   ],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "SSRN Electronic Journal",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 46,
+ "referenced_works": [
+  "https://openalex.org/W1579091683",
+  "https://openalex.org/W1969858220",
+  "https://openalex.org/W1976081586",
+  "https://openalex.org/W1981992805",
+  "https://openalex.org/W1985808284",
+  "https://openalex.org/W2033096392",
+  "https://openalex.org/W2100746131",
+  "https://openalex.org/W2117350974",
+  "https://openalex.org/W2120611874",
+  "https://openalex.org/W2122918207",
+  "https://openalex.org/W2131675768",
+  "https://openalex.org/W2137175555",
+  "https://openalex.org/W2150393782",
+  "https://openalex.org/W2156361014",
+  "https://openalex.org/W2312297414",
+  "https://openalex.org/W2331253396",
+  "https://openalex.org/W2333755122",
+  "https://openalex.org/W2413700223",
+  "https://openalex.org/W2892285611",
+  "https://openalex.org/W2899431133",
+  "https://openalex.org/W2899541594",
+  "https://openalex.org/W2902076661",
+  "https://openalex.org/W2953851850",
+  "https://openalex.org/W3091862556",
+  "https://openalex.org/W3113269512",
+  "https://openalex.org/W3121803654",
+  "https://openalex.org/W3122260906",
+  "https://openalex.org/W3122636688",
+  "https://openalex.org/W3123216131",
+  "https://openalex.org/W3124555984",
+  "https://openalex.org/W3124882399",
+  "https://openalex.org/W3125057276",
+  "https://openalex.org/W3126025507",
+  "https://openalex.org/W3138619428",
+  "https://openalex.org/W3198029582",
+  "https://openalex.org/W3205411855",
+  "https://openalex.org/W4206401410",
+  "https://openalex.org/W4224923057",
+  "https://openalex.org/W4248175462",
+  "https://openalex.org/W4283387379",
+  "https://openalex.org/W4312405632",
+  "https://openalex.org/W4386222103",
+  "https://openalex.org/W4386845402",
+  "https://openalex.org/W4388120205",
+  "https://openalex.org/W4400383396",
+  "https://openalex.org/W4408141513"
+ ],
+ "related_works": [
+  "https://openalex.org/W3043294666",
+  "https://openalex.org/W3036918487",
+  "https://openalex.org/W2944919502",
+  "https://openalex.org/W2942828136",
+  "https://openalex.org/W3216015667",
+  "https://openalex.org/W2960018477",
+  "https://openalex.org/W2962295562",
+  "https://openalex.org/W4211249267",
+  "https://openalex.org/W3016223156",
+  "https://openalex.org/W2051574318"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [],
+ "updated_date": "2026-09-26T08:19:03.415552",
+ "created_date": "2025-10-10T00:00:00"
+}

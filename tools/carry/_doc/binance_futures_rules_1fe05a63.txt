@@ -1,0 +1,130 @@
+SOURCE_URL: https://r.jina.ai/https://www.binance.com/en/futures/trading-rules
+HTTP: 200  LEN: 8241
+
+Title: Trading Rules of USDⓈ-Margined Contracts | Binance Futures
+
+URL Source: https://www.binance.com/en/futures/trading-rules
+
+Markdown Content:
+[![Image 1: home](blob:http://localhost/564aff5ba394a4841de38430b53d8610)](https://www.binance.com/en/)[![Image 2: logo](blob:http://localhost/7cdcb9c3e929c6d22cfd86074cb8b2a4)](https://www.binance.com/en/futures/home)
+
+[Futures](https://www.binance.com/en/futures/)
+
+[Options](https://www.binance.com/en/eoptions)
+
+[Trading Bots](https://www.binance.com/en/trading-bots/futures/grid/BTCUSDT)
+
+[Copy Trading](https://www.binance.com/en/copy-trading)
+
+[Smart Money](https://www.binance.com/en/smart-money)
+
+Campaigns
+
+Data
+
+More
+
+Market Info
+
+[Market](https://www.binance.com/en/futures/markets/overview-um)[Trading Data](https://www.binance.com/en/futures/funding-history/perpetual/trading-data)[Real-Time Funding Rate](https://www.binance.com/en/futures/funding-history/perpetual/real-time-funding-rate)[Funding Rate History](https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history)[Insurance Fund History](https://www.binance.com/en/futures/funding-history/perpetual/insurance-fund-history)[Index](https://www.binance.com/en/futures/funding-history/perpetual/index)[Arbitrage Data](https://www.binance.com/en/futures/funding-history/perpetual/arbitrage-data)[Delivery Data](https://www.binance.com/en/futures/funding-history/perpetual/delivery-data)[Contract Specifications](https://www.binance.com/en/about-legal/contract-specifications)[Volatility Index (BVOL)](https://www.binance.com/en/eoptions-data/ETHUSDT/volatility-index)[Option Exercised History](https://www.binance.com/en/eoptions-data/ETHUSDT/exercised-history)
+
+Trading Parameters
+
+[Trading Parameters](https://www.binance.com/en/futures/trading-parameters/perpetual)[Leverage & Margin](https://www.binance.com/en/futures/trading-parameters/perpetual/leverage-margin)[Multi-Assets Info](https://www.binance.com/en/futures/trading-parameters/perpetual/multi-asset-info)[Portfolio Margin](https://www.binance.com/en/futures/trading-parameters/perpetual/portfolio-margin)[Reduce Only Triggers](https://www.binance.com/en/futures/trading-parameters/perpetual/reduce-only-triggers)
+
+[USDⓈ-M](https://www.binance.com/en/futures/trading-parameters/perpetual)
+
+[COIN-M](https://www.binance.com/en/futures/trading-parameters/quarterly)
+
+*
+
+The limit for conditional orders across all symbols is 200 open orders per user.
+
+For regular Stop Limit, Stop Market, and Trailing Stop orders, the limit is 10 open orders per symbol, with a total limit of 10,000 open orders across all symbols.
+
+| Symbol | Min. Trade Amount | Min. Order Price / Min. Price Movement | Price Precision | Limit Order Price Cap / Floor Ratio | Max. Market Order / Limit Order Amount | Max. Number of Open Orders | Price Protection Threshold | Liquidation Clearance Fee | Min. Notional Value | Market Order Price Cap/Floor Ratio |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |  |  |  |  |
+| BTCUSDT Perpetual | 0.001 BTC | 556.80 /0.10 USDT | 0.01 | 5% / 5% | 120 /1000 BTC | 200 | 5% | 1.25% | 50 USDT | 5% |  |
+| ETHUSDT Perpetual | 0.001 ETH | 39.86 /0.01 USDT | 0.01 | 5% / 5% | 2000 /10000 ETH | 200 | 5% | 1.25% | 20 USDT | 5% |  |
+| BCHUSDT Perpetual | 0.001 BCH | 4 /0.01 USDT | 0.01 | 5% / 5% | 2000 /20000 BCH | 200 | 5% | 1.25% | 20 USDT | 5% |  |
+| XRPUSDT Perpetual | 0.1 XRP | 0.0143 /0.0001 USDT | 0.0001 | 5% / 5% | 2000000 /10000000 XRP | 200 | 5% | 1.25% | 5 USDT | 5% |  |
+| LTCUSDT Perpetual | 0.001 LTC | 0.01 /0.01 USDT | 0.01 | 5% / 5% | 100000 /170000 LTC | 200 | 5% | 1.25% | 20 USDT | 5% |  |
+| TRXUSDT Perpetual | 1 TRX | 0.00132 /0.00001 USDT | 0.00001 | 5% / 5% | 5000000 /20000000 TRX | 200 | 5% | 1.25% | 5 USDT | 5% |  |
+| ETCUSDT Perpetual | 0.01 ETC | 0.001 /0.001 USDT | 0.001 | 10% / 10% | 40000 /400000 ETC | 200 | 10% | 1.25% | 20 USDT | 10% |  |
+| LINKUSDT Perpetual | 0.01 LINK | 0.001 /0.001 USDT | 0.001 | 10% / 10% | 50000 /700000 LINK | 200 | 10% | 1.25% | 20 USDT | 10% |  |
+| XLMUSDT Perpetual | 1 XLM | 0.00648 /0.00001 USDT | 0.00001 | 5% / 5% | 2000000 /10000000 XLM | 200 | 5% | 1.25% | 5 USDT | 5% |  |
+| ADAUSDT Perpetual | 1 ADA | 0.00010 /0.00010 USDT | 0.00001 | 5% / 5% | 3000000 /30000000 ADA | 200 | 5% | 1.25% | 5 USDT | 5% |  |
+| XMRUSDT Perpetual | 0.001 XMR | 4.36 /0.01 USDT | 0.01 | 5% / 5% | 1200 /5000 XMR | 200 | 5% | 2.00% | 5 USDT | 5% |  |
+| DASHUSDT Perpetual | 0.001 DASH | 0.01 /0.01 USDT | 0.01 | 10% / 10% | 3000 /30000 DASH | 200 | 10% | 1.50% | 5 USDT | 10% |  |
+
+[1](https://www.binance.com/en/futures/trading-rules)[2](https://www.binance.com/en/futures/trading-rules)[3](https://www.binance.com/en/futures/trading-rules)[4](https://www.binance.com/en/futures/trading-rules)[5](https://www.binance.com/en/futures/trading-rules)
+
+...
+
+[65](https://www.binance.com/en/futures/trading-rules)
+
+Copyright © 2026 Binance Futures. All rights reserved.
+
+Cookie Preferences
+
+![Image 3: Company Logo](https://cdn.cookielaw.org/logos/99f99939-5a0d-4feb-aef3-ba45f16b6907/5bfb9945-c83c-46f9-8bd7-55e8fd1975b5/02e50907-93f6-477d-a8a2-d581dace49c2/binance-h.png)
+
+## Privacy Preference Center
+
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.   
+[Cookie Policy](https://www.binance.com/en/cookie-privacy)
+
+Allow All
+### Manage Consent Preferences
+
+#### Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+
+Cookies Details
+
+#### Functional Cookies
+
+- [x] Functional Cookies 
+
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+
+Cookies Details
+
+#### Targeting Cookies
+
+- [x] Targeting Cookies 
+
+Targeting cookies may be set through our site by ourselves and our advertising partners. First parties and third parties will use them to build a profile of your interests based on the browsing information they collect from you, which includes uniquely identifying your browser and terminal equipment. If you do not allow these cookies you will still see basic advertising on your browser that is generic and not based on your interests
+
+Cookies Details
+
+#### Performance Cookies
+
+- [x] Performance Cookies 
+
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+
+Cookies Details
+
+### Cookie List
+
+Clear
+*   - [x] checkbox label label 
+
+Apply Cancel
+
+Consent Leg.Interest
+
+- [x] checkbox label label
+
+- [x] checkbox label label
+
+- [x] checkbox label label
+
+Reject All Confirm My Choices
+
+[![Image 4: Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner)

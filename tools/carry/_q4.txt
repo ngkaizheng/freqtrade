@@ -1,0 +1,6 @@
+oa-t limits of arbitrage cryptocurrency futures
+oa-t Shamshuddeen arbitrage
+cr query.bibliographic=Shamshuddeen arbitrage cryptocurrency~rows=5
+cr query.bibliographic=crypto-currency futures markets and the limits of arbitrage~rows=5
+oa-t Bitcoin perpetual futures open interest exchange market share
+oa-t Han perpetual swap funding rate bitcoin 2024

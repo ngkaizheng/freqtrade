@@ -122,3 +122,10 @@ target/
 !config_examples/config_freqai.example.json
 
 docker-compose-*.yml
+
+# Shark Hunter research artefacts
+shark_data/
+shark_results/
+shark_hunter/.env
+shark_hunter/*.secret
+.claude_settings.local.json

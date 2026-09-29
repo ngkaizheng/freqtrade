@@ -1,0 +1,33 @@
+{
+  "experiment": "E#3",
+  "spec": "tools/cross_sectional/PREREGISTRATION_E3.md",
+  "symbols": 200,
+  "rebase_dropped": [],
+  "rebalances": 155,
+  "years": 2.981,
+  "mean_gross_pct": -0.15083,
+  "mean_cost_pct": 0.04849,
+  "mean_net_pct": -0.19933,
+  "newey_west_t": -0.7166,
+  "lag1_autocorr": -0.0194,
+  "effective_N": 155.0,
+  "t_dependence_adjusted": -0.7166,
+  "annualised_net_sharpe": -0.4122,
+  "annualised_net_sharpe_2x_cost": -0.5126,
+  "cumulative_net_pct": -33.4166,
+  "max_drawdown_pct": -36.7372,
+  "positive_year_fraction": 0.25,
+  "positive_symbol_fraction": 0.45,
+  "largest_symbol_profit_share": -0.2261,
+  "gates": {
+    "G1 net expectancy > 0": false,
+    "G2 net > 0 at 2x cost": false,
+    "G3 |t| >= 2.0 (depend. adj.)": false,
+    "G4 annualised net Sharpe >= 0.95": false,
+    "G5 positive in >= 60% of years": false,
+    "G6 positive in >= 60% of symbols": false,
+    "G6b largest symbol share <= 0.35": true,
+    "G7 no rebased names in the short leg": true
+  },
+  "verdict": "FAIL"
+}

@@ -1,0 +1,183 @@
+
+
+=== PAGE 1 ===
+ 
+IOSCO STATEMENT 
+ 
+ 
+International Organization of Securities Commissions 
+Organisation internationale des commissions de valeurs 
+Organização Internacional das Comissões de Valores 
+Organización Internacional de Comisiones de Valores 
+اﻟﻣﻧظﻣﺔ اﻟدوﻟﯾﺔ ﻟﮭﯾﺋﺎت اﻷوراق اﻟﻣﺎﻟﯾﺔ 
+ 
+ 
+The Board of the International Organization of Securities 
+Commissions 
+ 
+IOSCO Statement on the consultation on the Proposed 
+International Standard on Sustainability Assurance (ISSA) 5000 
+and the related global outreach program 
+1 December 2023 
+ 
+The International Organization of Securities Commissions (IOSCO) congratulates the International 
+Auditing and Assurance Standards Board (IAASB) on achieving an important milestone by consulting 
+on their Proposed International Standard on Sustainability Ass urance (ISSA) 5000, General 
+Requirements for Sustainability Assurance Engagements . IOSCO also recogni zes the extensive and 
+thorough outreach program conducted by the IAASB during the consultation period in which IOSCO 
+representatives took an active role. 
+IOSCO welcomes the ambition of the proposed standard and reiterates its support for this work. The 
+final standard could support high- quality assurance over sustainability- related information and may 
+enhance the consistency, comparability and reliability of such information provided to the market.  
+In its September 2022 statement , IOSCO set out some key standard setting considerations as the 
+landscape for sustainability assurance develops. In March 2023, IOSCO published a report setting out 
+key considerations to promote an effective global assurance framework for sustainability- related 
+corporate reporting. 
+IOSCO has analyzed the Proposed ISSA 5000 and monitored the stakeholder feedback around the 
+world, including with reference to the considerations in the March 2023 report. Having also engaged 
+with the IAASB to provide a capital markets perspective, IOSCO encourages the IAASB to consider 
+some of the resulting key messages and priorities. 
+IOSCO observations and key areas for IAASB’s consideration on the Proposed ISSA 5000  
+Based on its review of the Proposed ISSA 5000 and additional stakeholder engagement, IOSCO has 
+outlined some general observations and key areas for IAASB’s consideration in developing the final 
+standard and providing any additional guidance.  
+ 
+
+=== PAGE 2 ===
+ 
+ 
+2 
+ 
+General observations 
+IOSCO commends the IAASB for its timely development of the Proposed ISSA 5000 in response to 
+the public interest need for a profession-agnostic, sustainability assurance standard that supports the 
+consistent performance of high-quality sustainability assurance engagements.  
+IOSCO supports the general approach taken in the Proposed ISSA 5000, including: 
+• the consideration of the standard- setting characteristics set out in the Public Interest 
+Framework (PIF) as criteria to assess the proposed standard’s responsiveness to the public 
+interest 
+• the consideration of the entirety of a sustainability assurance engagement, from acceptance 
+or continuance to reporting 
+• building upon  extant requirements  in relevant International Standards on Assurance 
+Engagements (ISAEs) 
+• the identification of those International Standards on Auditing (ISAs) that include concepts 
+appropriate to an overarching standard for assurance engagements on sustainability 
+information, and the selection of relevant requirements and application material  from those 
+ISAs.  
+IOSCO also makes the following general observations:  
+• While it is important that an international sustainability assurance standard be principles-
+based, it should also be sufficient ly detailed to promote consistent application and behavior 
+by all assurance practitioners and be suitable for use across all reporting frameworks. 
+• Although the standard will inevitably be  drafted using technical language  (as is common in 
+assurance standards), we believe a profession-agnostic assurance standard should provide, 
+or be supplemented by, clear guidance suitable for use by all types of assurance providers, 
+including guidance on key IAASB definitions and terminology.  
+• We also encourage further guidance and refinement of requirements in other areas – including 
+the work effort and procedures required for limited and reasonable assurance  engagements. 
+These are elaborated in the next section.  
+• An assurance standard should promote a high degree of transparency, irrespective of the type 
+of provider and whether the standards are applied on a mandatory or a voluntary basis, which 
+the proposed standard appears to do.  This broadly aligns with the recommendations in our 
+March 2023 report which highlighted insufficient transparency on certain matters (which items 
+have been subject to assurance, which standards have been applied, or the level of assurance 
+provided), however noting that the jurisdictional determinations will be the ultimate driver of 
+such requirements, including the form of reporting on assurance. 
+ 
+ 
+ 
+
+=== PAGE 3 ===
+ 
+ 
+3 
+ 
+Key areas and priority topics for the IAASB’s consideration 
+In addition to the observations mentioned above, IOSCO encourages the IAASB to consider these 
+five priority topics in its efforts to develop a high-quality international assurance standard: 
+1. Definitions, requirements and g uidance to support profession -agnostic application without 
+diluting high-quality expectations and requirements 
+IOSCO agrees that the principles-based requirements in the Proposed ISSA5000 are capable of being 
+applied for all sustainability assurance engagements. However, the requirements and application 
+material may need to be expanded and/or clarified over time to encourage more consistent application 
+and scalability in the conduct of sustainability assurance engagements. This is particularly important 
+to support assurance engagements by non- accountant assurance practitioners, thereby helping to 
+ensure that equivalent quality and performance standards are expected and upheld. 
+A profession-agnostic assurance standard needs to provide clear guidance for all types of providers. 
+We therefore encourage the IAASB to develop implementation guidance to facilitate the consistent 
+application of the requirements in the Proposed ISSA 5000, for example (but not limited to): (1)  in a 
+group sustainability assurance engagement situation;  (2) to remind auditors of their responsibility 
+under ISA 720 (Revised), The auditor’s responsibilities relating to other information and to support 
+the proper implementation of the requirements in the Proposed ISSA 5000 regarding other information; 
+and (3) on considerations around the connecti vity of information, including the necessity of 
+communications between financial statement auditors and sustainability assurance providers. 
+2. Continue to differentiate the work effort between limited and reasonable assurance 
+Generally, we consider that the Proposed ISSA 5000 provides an appropriate basis for performing both 
+limited assurance and reasonable assurance engagements. We support the IAASB’s approach of 
+addressing both limited and reasonable assurance in a single overarching standard. The columnar 
+approach provides appropriate differentiation of the work effort between limited and reasonable 
+assurance for relevant elements of an assurance engagement.  
+As with other aspects of the standard, additional guidance on certain elements may be useful as practice 
+evolves and in response to questions that arise during implementation of the standards. 
+3. Materiality 
+IOSCO welcomes the IAASB’s Frequently Asked Questions (FAQ) on The Application of Materiality 
+by the Entity and the Assurance Practitioner , published in October 2023 in response to stakeholder 
+demand.  
+We generally support the approaches in the Proposed ISSA  5000 regarding the practitioner’s 
+consideration of the entity’s “materiality process” and determining materiality  for numerical 
+disclosures. However, w e believe the requirement to consider  materiality for narrative  disclosures 
+should be strengthened. In the Proposed 5000, the performance requirement associated with 
+“consideration” is not always clear , could be perceived as inherently optional, and may result in 
+inconsistent application.  
+
+=== PAGE 4 ===
+ 
+ 
+4 
+ 
+We further note that the guidance provided in the Proposed ISSA 5000 only addresses quantitative 
+factors to consider when determining materiality for numerical  disclosures and does not address 
+qualitative factors. We believe that the guidance provided in the Proposed ISSA 5000 should also give 
+consideration to qualitative factors when determining materiality for numerical disclosures. 
+More broadly, we believe the Proposed ISSA 5000 should be clear that materiality will be anchored in 
+the applicable sustainability reporting framework.  
+4. Assurance of forward-looking sustainability-related information  
+IOSCO has previously noted that, relative to financial reporting, sustainability -related reporting 
+typically involves a more extensive narrative component, longer time horizons for forward- looking 
+information and more reliance on value chain information. We support the approach taken in the 
+Proposed ISSA 5000 to address estimates and forward-looking information in the same section of the 
+standard.  
+We emphasize the importance of clarity  of requirements in this area , noting that  forward-looking 
+sustainability-related information often involves significant complexities, including estimation 
+uncertainty and the  use of judgement. We therefore encourage further clarity and specificity of 
+requirements to support consistent application by practitioners. 
+5. Susceptibility of sustainability information to material misstatement 
+We support the IAASB’s approach to addressing the susceptibility of sustainability information to 
+material misstatement, whether due to fraud or error. We note that the IAASB makes numerous 
+references to fraud throughout the requirements and application ma terial. From a public interest 
+standpoint, we encourage the IAASB to include more specific requirements and application guidance 
+related to fraud in the Proposed ISSA 5000 and clarify that the requirements could be applicable to 
+both limited and reasonable assurance engagements.  
+We welcome the IAASB’s consideration of greenwashing. That said , we note that, while the term 
+“greenwashing” is not included in the main text of the standard, it is referenced in the accompanying 
+Explanatory Memorandum under the topic of fraud. Recognizing that “greenwashing” is not a defined 
+term and that it may occur independently of fraud, we encourage caution and clarity in the use of this 
+terminology in the final standard.  Since greenwashing could manifest more subtly – for instance, 
+through the tone or emphasis in an entity’s disclosures – there may be a case to consider this as part of 
+the proposed “stand back” procedures in the standards. 
+Similar to the objectives of the IAASB’s current project on fraud, we suggest clarifying the role and 
+responsibilities of the practitioner. We encourage the IAASB to include specific requirements , 
+application materials and appendices  to promote consistent application when considering material 
+misstatement due to fraud. We also suggest enhancements to reinforce the importance, throughout the 
+assurance engagement, of  the appropriate exercise of professional skepticism in fraud- related 
+assurance procedures. 
+We hope the IOSCO’s observations support a timely finalization of the standard and promote an 
+effective global sustainability assurance standard. Also, we encourage the IAASB to continue to 
+
+=== PAGE 5 ===
+ 
+ 
+5 
+ 
+closely coordinate with the International Ethics Standards Board for Accountants (IESBA) and other 
+relevant bodies, including the International Sustainability Standards Board, to address topics of mutual 
+interest and align and promote the consistency of definitions and terminologies.  

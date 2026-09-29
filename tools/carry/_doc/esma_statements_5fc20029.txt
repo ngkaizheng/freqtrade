@@ -1,0 +1,180 @@
+SOURCE_URL: https://r.jina.ai/https://www.esma.europa.eu/press-news/esma-statements
+HTTP: 200  LEN: 13535
+
+Title: Page not found | European Securities and Markets Authority
+
+URL Source: https://www.esma.europa.eu/press-news/esma-statements
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+This site uses cookies. Visit our [cookies policy page](https://www.esma.europa.eu/cookie-policy) or click the link in any footer for more information and to change your preferences.
+
+[Accept all cookies](https://www.esma.europa.eu/press-news/esma-statements#accept)[Accept only essential cookies](https://www.esma.europa.eu/press-news/esma-statements#refuse)
+
+[Skip to main content](https://www.esma.europa.eu/press-news/esma-statements#main-content)
+
+[![Image 1: Home](https://www.esma.europa.eu/themes/custom/esma_webst_theme/assets/images/ESMALogo.png)](https://www.esma.europa.eu/)
+
+Search 
+
+*   [About ESMA](https://www.esma.europa.eu/about-esma)Toggle submenu 
+
+    *   [Governance Structure](https://www.esma.europa.eu/about-esma/governance-structure)Toggle submenu 
+
+        *   [Board of Supervisors](https://www.esma.europa.eu/about-esma/governance-structure/board-of-supervisors) 
+        *   [Management Board](https://www.esma.europa.eu/about-esma/governance-structure/management-board) 
+        *   [Senior Management](https://www.esma.europa.eu/about-esma/governance-structure/senior-management) 
+        *   [Joint Committee](https://www.esma.europa.eu/about-esma/governance-structure/joint-committee) 
+        *   [CCP Supervisory Committee](https://www.esma.europa.eu/about-esma/governance-structure/ccp-supervisory-committee) 
+        *   [CCP Resolution Committee](https://www.esma.europa.eu/about-esma/governance-structure/ccp-resolution-committee) 
+        *   [Joint Monitoring Mechanism](https://www.esma.europa.eu/about-esma/governance-structure/joint-monitoring-mechanism) 
+        *   [Standing Committees](https://www.esma.europa.eu/about-esma/governance-structure/standing-committees) 
+        *   [SMSG](https://www.esma.europa.eu/about-esma/stakeholder-engagement/smsg) 
+        *   [Board of Appeal](https://www.esma.europa.eu/about-esma/governance-structure/board-appeal) 
+        *   [Ethics and Conflicts of interest](https://www.esma.europa.eu/about-esma/governance-structure/ethics-and-conflict-interests) 
+
+    *   [Internal Organisation](https://www.esma.europa.eu/about-esma/internal-organisation)Toggle submenu 
+
+        *   [Strategy and Work Programme](https://www.esma.europa.eu/about-esma/internal-organisation/strategy-and-work-programme "/work-programme") 
+        *   [Working Methods](https://www.esma.europa.eu/about-esma/internal-organisation/working-methods) 
+        *   [Diversity, Equity and Inclusion](https://www.esma.europa.eu/about-esma/internal-organisation/diversity-equity-and-inclusion) 
+
+    *   [International Cooperation](https://www.esma.europa.eu/about-esma/international-cooperation) 
+    *   [Legal Notice and Data Protection](https://www.esma.europa.eu/about-esma/governance-structure/legal-notice-data-protection) 
+    *   [Transparency and Access to Documents](https://www.esma.europa.eu/about-esma/transparency-and-access-documents) 
+    *   [Agenda](https://www.esma.europa.eu/press-news/key-dates) 
+    *   [Careers](https://www.esma.europa.eu/about-esma/careers) 
+    *   [Procurement Opportunities](https://www.esma.europa.eu/about-esma/procurements) 
+
+*   [ESMA's Activities](https://www.esma.europa.eu/esmas-activities)Toggle submenu 
+
+    *   [Investors and Issuers](https://www.esma.europa.eu/esmas-activities/investors-and-issuers)Toggle submenu 
+
+        *   [Benchmark Administrators](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/benchmark-administrators) 
+        *   [Credit Rating Agencies](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/credit-rating-agencies) 
+        *   [ESG Rating Providers](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/esg-rating-providers) 
+        *   [External Reviewers of European Green Bonds](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/external-reviewers-european-green-bonds) 
+        *   [Fund Management](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/fund-management) 
+        *   [Issuer Disclosure](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/issuer-disclosure) 
+        *   [Investment Services and Crowdfunding](https://www.esma.europa.eu/esmas-activities/investors-and-issuers/investment-services-and-crowdfunding) 
+
+    *   [Markets and Infrastructure](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure)Toggle submenu 
+
+        *   [Central Counterparties](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/central-counterparties) 
+        *   [Data Reporting Services Providers](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/data-reporting-services-providers) 
+        *   [Trading](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/trading) 
+        *   [Consolidated Tape Providers](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/consolidated-tape-providers) 
+        *   [Post-trading](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/post-trading) 
+        *   [Shortening the settlement cycle to T+1 in the EU](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/shortening-settlement-cycle-t1-eu) 
+        *   [Market Integrity](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/market-integrity) 
+        *   [Short Selling](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling) 
+        *   [Central Securities Depositories](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/central-securities-depositories) 
+        *   [Securitisation](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/securitisation) 
+        *   [Trade Repositories](https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/trade-repositories) 
+
+    *   [Risk Analysis](https://www.esma.europa.eu/esmas-activities/risk-analysis)Toggle submenu 
+
+        *   [Risk Monitoring](https://www.esma.europa.eu/esmas-activities/risk-analysis/risk-monitoring) 
+        *   [Topical Analysis](https://www.esma.europa.eu/esmas-activities/risk-analysis/topical-analysis) 
+        *   [Interactive Dashboards](https://www.esma.europa.eu/esmas-activities/risk-analysis/interactive-dashboards) 
+
+    *   [Sustainable Finance](https://www.esma.europa.eu/esmas-activities/sustainable-finance)Toggle submenu 
+
+        *   [Climate benchmarks and ESG disclosure](https://www.esma.europa.eu/esmas-activities/sustainable-finance/climate-benchmarks-and-esg-disclosure) 
+        *   [CRAs and Sustainability](https://www.esma.europa.eu/esmas-activities/sustainable-finance/cras-and-sustainability) 
+        *   [Investment Services and Fund Management](https://www.esma.europa.eu/esmas-activities/sustainable-finance/investment-services-and-fund-management) 
+        *   [Sustainability Reporting](https://www.esma.europa.eu/esmas-activities/sustainable-finance/sustainability-reporting) 
+
+    *   [Digital Finance and Innovation](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation)Toggle submenu 
+
+        *   [Digital Operational Resilience Act (DORA)](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora) 
+        *   [DLT Pilot Regime](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/dlt-pilot-regime) 
+        *   [Markets in Crypto-Assets Regulation (MiCA)](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica) 
+
+    *   [Supervision](https://www.esma.europa.eu/esmas-activities/supervision)Toggle submenu 
+
+        *   [Registration with ESMA](https://www.esma.europa.eu/esmas-activities/supervision-and-convergence/registration-with-ESMA) 
+        *   [Investigations and Inspections](https://www.esma.europa.eu/esmas-activities/supervision-and-convergence/investigations-and-inspections) 
+        *   [Sanctions and Enforcement](https://www.esma.europa.eu/esmas-activities/supervision-and-convergence/sanctions-and-enforcement) 
+
+    *   [Supervisory Convergence](https://www.esma.europa.eu/esmas-activities/supervisory-convergence)Toggle submenu 
+
+        *   [Supervisory Convergence Tools](https://www.esma.europa.eu/esmas-activities/supervision-and-convergence/supervisory-convergence-tools) 
+        *   [Enforcement Convergence Initiatives](https://www.esma.europa.eu/esmas-activities/supervision-and-convergence/enforcement-convergence-initiatives) 
+        *   [Peer Reviews](https://www.esma.europa.eu/publications-and-data/peer-reviews) 
+        *   [Breach of Union Law](https://www.esma.europa.eu/supervisory-convergence-tools/breach-union-law) 
+
+    *   [Data](https://www.esma.europa.eu/esmas-activities/data)Toggle submenu 
+
+        *   [Data Reporting](https://www.esma.europa.eu/data-reporting) 
+        *   [Databases and Registers](https://www.esma.europa.eu/publications-and-data/databases-and-registers) 
+        *   [Data Quality and Use](https://www.esma.europa.eu/esmas-activities/data/data-quality-and-use) 
+        *   [Statistical Information](https://www.esma.europa.eu/esmas-activities/data/statistical-information) 
+        *   [European Single Access Point (ESAP)](https://www.esma.europa.eu/esmas-activities/data/european-single-access-point-esap) 
+
+    *   [Listing Act](https://www.esma.europa.eu/esmas-activities/listing-act) 
+    *   [Simplification and Burden Reduction](https://www.esma.europa.eu/esmas-activities/simplification-and-burden-reduction) 
+
+*   [News & Publications](https://www.esma.europa.eu/publications-and-data)Toggle submenu 
+
+    *   [News](https://www.esma.europa.eu/press-news/esma-news) 
+    *   [Documents](https://www.esma.europa.eu/databases-library/esma-library) 
+    *   [Speeches](https://www.esma.europa.eu/about-esma/esma-speeches) 
+    *   [Newsletter](https://www.esma.europa.eu/contact-help/newsletter) 
+    *   [Interactive Single Rulebook](https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook) 
+    *   [Guidelines, Recommendations and Technical Standards](https://www.esma.europa.eu/publications-and-data/guidelines-recommendations-and-technical-standards) 
+    *   [Risk Monitoring and Analysis](https://www.esma.europa.eu/esmas-activities/risk-analysis) 
+    *   [Questions and Answers](https://www.esma.europa.eu/publications-and-data/questions-answers) 
+
+*   [Investor Corner](https://www.esma.europa.eu/investor-corner)Toggle submenu 
+
+    *   [Is the firm regulated?](https://www.esma.europa.eu/investor-corner/is-the-firm-regulated) 
+    *   [Get ready to invest](https://www.esma.europa.eu/investor-corner/get-ready-invest) 
+    *   [Frauds and Scams related to ESMA Logo and ID](https://www.esma.europa.eu/investor-corner/frauds-and-scams) 
+    *   [Publications for Investors](https://www.esma.europa.eu/investor-corner/publications-investors) 
+    *   [Product Intervention](https://www.esma.europa.eu/investor-corner/product-intervention) 
+    *   [Make a complaint](https://www.esma.europa.eu/investor-corner/make-complaint) 
+    *   [Cost of Investment Products](https://www.esma.europa.eu/investor-corner/cost-investment-products) 
+
+*   [Interact With ESMA](https://www.esma.europa.eu/interact-with-esma)Toggle submenu 
+
+    *   [Media Corner](https://www.esma.europa.eu/contact-help/media-corner) 
+    *   [Speaking Requests](https://www.esma.europa.eu/about-esma/stakeholder-engagement/speaking-requests) 
+    *   [Stakeholder Engagement](https://www.esma.europa.eu/about-esma/stakeholder-engagement)Toggle submenu 
+
+        *   [Stakeholder Relations](https://www.esma.europa.eu/stakeholder-relations) 
+
+    *   [Consultations](https://www.esma.europa.eu/press-news/consultations) 
+    *   [Events](https://www.esma.europa.eu/press-news/hearings) 
+    *   [Whistleblowers](https://www.esma.europa.eu/about-esma/whistleblowers) 
+
+*   [Contact & Help](https://www.esma.europa.eu/contact-help)Toggle submenu 
+
+    *   [Contact Information](https://www.esma.europa.eu/contact-help/esma-contact-information) 
+    *   [FAQs](https://www.esma.europa.eu/contact-help/faqs) 
+    *   [Glossary](https://www.esma.europa.eu/publications-and-data/glossary) 
+
+[](https://www.esma.europa.eu/press-news/esma-statements)
+
+ The requested page could not be found. 
+
+[![Image 2: Home](https://www.esma.europa.eu/themes/custom/esma_webst_theme/assets/images/ESMALogo.png)](https://www.esma.europa.eu/)
+
+ESMA is an authority of the European Union![Image 3: Home](https://www.esma.europa.eu/themes/custom/esma_webst_theme/assets/images/picto-europe.png)
+
+*   [Careers](https://www.esma.europa.eu/about-esma/internal-organisation/careers)
+*   [ESMA Documents](https://www.esma.europa.eu/databases-library/esma-library)
+
+*   [Contact & Help](https://www.esma.europa.eu/contact-help)
+*   [Media Corner](https://www.esma.europa.eu/contact-help/media-corner)
+
+*   [Cookie Policy](https://www.esma.europa.eu/cookie-policy)
+*   [Data Protection](https://www.esma.europa.eu/about-esma/governance-structure/legal-notice-data-protection)
+
+###### Social Media
+
+*   [](https://www.linkedin.com/company/european-securities-and-markets-authority-esma/)
+*   [](https://instagram.com/esmacomms/)
+*   [](https://twitter.com/ESMAComms)
+*   [](https://www.youtube.com/channel/UCe5tFtIMPE5BbFGdqT330WQ)

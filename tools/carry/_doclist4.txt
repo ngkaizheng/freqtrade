@@ -1,0 +1,7 @@
+he_v1	https://arxiv.org/html/2212.06888v1
+he_v3	https://arxiv.org/html/2212.06888v3
+he_v5	https://arxiv.org/html/2212.06888v5
+he_v6	https://arxiv.org/html/2212.06888v6
+he_v7	https://arxiv.org/html/2212.06888v7
+cryptocarry_ssrn	https://doi.org/10.2139/ssrn.4203870
+binance_leverage_margin_table	https://www.binance.com/en/futures/trading-rules/perpetual/leverage-margin

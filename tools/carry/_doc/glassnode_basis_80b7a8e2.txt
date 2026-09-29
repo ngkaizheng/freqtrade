@@ -1,0 +1,75 @@
+SOURCE_URL: https://r.jina.ai/https://insights.glassnode.com/the-basis-trade-is-alive-and-well
+HTTP: 200  LEN: 5685
+
+Title: Glassnode Research – Digital Asset Market Intelligence
+
+URL Source: https://insights.glassnode.com/the-basis-trade-is-alive-and-well
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+Menu
+*   [Market Pulse](https://research.glassnode.com/tag/market-pulse/)
+*   [Week On-chain](https://research.glassnode.com/tag/newsletter/)
+*   [Strategy Watch](https://research.glassnode.com/tag/strategy-watch/)
+*   [Partner Reports](https://research.glassnode.com/tag/partner-reports/)
+*   [Product & Research](https://research.glassnode.com/tag/product/)
+
+*   [English](https://insights.glassnode.com/)
+*   [Español](https://insights.glassnode.com/tag/spanish)
+*   [Français](https://insights.glassnode.com/tag/french)
+*   [Italiano](https://insights.glassnode.com/tag/italian)
+*   [Polski](https://insights.glassnode.com/tag/polish)
+*   [Português](https://insights.glassnode.com/tag/portuguese)
+*   [Türkçe](https://insights.glassnode.com/tag/turkish)
+*   [русский](https://insights.glassnode.com/tag/russian)
+*   [Ελληνικά](https://insights.glassnode.com/tag/greek)
+*   [עברית](https://insights.glassnode.com/tag/hebrew)
+*   [فارسی](https://insights.glassnode.com/tag/farsi)
+*   [عربي](https://insights.glassnode.com/tag/arabic)
+*   [中文](https://insights.glassnode.com/tag/chinese)
+*   [日本語](https://insights.glassnode.com/tag/japanese)
+*   [Tiếng Việt](https://insights.glassnode.com/tag/vietnamese)
+
+[![Image 1: Glassnode Research – Digital Asset Market Intelligence](https://storage.ghost.io/c/25/7e/257e6d23-09bb-4d1c-b3ed-16ff70eb3f9f/content/images/2026/03/Group-137691248.png)](https://research.glassnode.com/)
+
+*   [Market Pulse](https://research.glassnode.com/tag/market-pulse/)
+*   [Week On-chain](https://research.glassnode.com/tag/newsletter/)
+*   [Strategy Watch](https://research.glassnode.com/tag/strategy-watch/)
+*   [Partner Reports](https://research.glassnode.com/tag/partner-reports/)
+*   [Product & Research](https://research.glassnode.com/tag/product/)
+
+# 404
+
+Page not found
+
+[Go to the front page →](https://research.glassnode.com/)
+
+[![Image 2: Kaçış Hızı](https://storage.ghost.io/c/25/7e/257e6d23-09bb-4d1c-b3ed-16ff70eb3f9f/content/images/size/w600/2026/09/woc-38-cover.webp)](https://insights.glassnode.com/turkish/the-week-onchain-week-38-2026-turkish/)
+
+## [Kaçış Hızı Bitcoin, bu yıl kendisini geride tutan maliyet bazlarının üzerine çıktı ve şimdi soru ne kadar ileri gidebileceği. Kâr alımı hafif, ETF alımları hızlanıyor ve bir sonraki büyük direnç, 96.700 dolar civarındaki ortalama MVRV fiyatında bulunuyor.](https://insights.glassnode.com/turkish/the-week-onchain-week-38-2026-turkish/)Sep 25, 2026 9 min read
+
+[![Image 3: 脱出速度](https://storage.ghost.io/c/25/7e/257e6d23-09bb-4d1c-b3ed-16ff70eb3f9f/content/images/size/w600/2026/09/week-onchain-38-cover.png)](https://insights.glassnode.com/korean/the-week-onchain-week-38-2026-korean/)
+
+## [탈출 속도 비트코인이 올해 발목을 잡았던 매입단가 수준들을 넘어섰고, 이제 관건은 어디까지 오를 수 있느냐입니다. 차익 실현은 미미하고 ETF 매수는 늘고 있으며, 다음 주요 저항선은 9만6700달러 부근의 평균 MVRV 가격에 있습니다.](https://insights.glassnode.com/korean/the-week-onchain-week-38-2026-korean/)Sep 24, 2026 16 min read
+
+[![Image 4: 脱出速度](https://storage.ghost.io/c/25/7e/257e6d23-09bb-4d1c-b3ed-16ff70eb3f9f/content/images/size/w600/2026/09/week-onchain-38-cover.png)](https://insights.glassnode.com/japanese/the-week-onchain-week-38-2026-japanese/)
+
+## [脱出速度 ビットコインは今年の上値を抑えてきたコストベーシスを上抜け、焦点は今やどこまで上昇できるかに移っている。利益確定は限定的で、ETFの買いは増えつつあり、次の主要なレジスタンスは9.67万ドル付近の平均MVRV価格にある。](https://insights.glassnode.com/japanese/the-week-onchain-week-38-2026-japanese/)Sep 24, 2026 11 min read
+
+[Glassnode Research – Digital Asset Market Intelligence](https://research.glassnode.com/) © 2026
+*   [Terms and Conditions](https://research.glassnode.com/terms-and-conditions/)
+*   [Privacy Notice](https://studio.glassnode.com/privacy-notice)
+*   [Contact Support](mailto:support@glassnode.com)
+
+[Powered by Ghost](https://ghost.org/)
+
+Subscribe for free to receive best-in-class market analysis on Bitcoin, Ethereum, and DeFi, and novel on-chain research.
+
+By subscribing, you agree to our [Terms & Conditions](https://insights.glassnode.com/terms-and-conditions) and [Privacy Notice](https://studio.glassnode.com/privacy-notice).
+
+Subscribe
+
+Thank you for subscribing.
+
+![Image 7](https://t.co/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261280%261280%2610%2624%261280%261280%260%26na&eci=3&event=%7B%7D&event_id=05730c3d-332b-4fad-a279-bd1567ed8c76&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c1b90204-4d0c-4c37-a4a0-07a8bfa665dd&tw_ch_fvl=Chromium%2F154.0.8037.57%2CGoogle%20Chrome%2F154.0.8037.57%2CNot%20A(Brand%2F99.0.0.0&tw_document_href=https%3A%2F%2Fresearch.glassnode.com%2Fthe-basis-trade-is-alive-and-well%2F&tw_engaged_ms=1&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1790434875573-155354882&tw_session_start=1&twpid=tw.1790434875573.808919012747598069&txn_id=o31o8&type=javascript&version=2.4.11)![Image 8](https://analytics.twitter.com/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261280%261280%2610%2624%261280%261280%260%26na&eci=3&event=%7B%7D&event_id=05730c3d-332b-4fad-a279-bd1567ed8c76&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c1b90204-4d0c-4c37-a4a0-07a8bfa665dd&tw_ch_fvl=Chromium%2F154.0.8037.57%2CGoogle%20Chrome%2F154.0.8037.57%2CNot%20A(Brand%2F99.0.0.0&tw_document_href=https%3A%2F%2Fresearch.glassnode.com%2Fthe-basis-trade-is-alive-and-well%2F&tw_engaged_ms=1&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1790434875573-155354882&tw_session_start=1&twpid=tw.1790434875573.808919012747598069&txn_id=o31o8&type=javascript&version=2.4.11)

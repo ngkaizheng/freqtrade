@@ -1,0 +1,12 @@
+  d.frame[c] = "UNKNOWN" if c.endswith("regime") else np.nan
+  d.frame[c] = "UNKNOWN" if c.endswith("regime") else np.nan
+in-fold n = 454
+mean=0.0063297569 std=0.0266177940 t_naive=5.0669
+dependence: {"n": 454, "integrated_autocorrelation_time": 6.5261, "effective_sample_size": 69.57, "lag1_autocorrelation": 0.6719}
+t_deflated=1.9834  p_raw(deflated)=0.0236599
+NOTE p_raw as written on disk (naive t) = 2.02166e-07
+optimistic BH-adjusted p for the deflated UP_SHORT p among 88 tests: 0.5  (<0.05 ? False)
+
+fold-boundary crossing: signals inside a fold window whose 12h hold ends after validation_end = 0 (0.0% of the 454)
+
+DOWN_SHORT in-fold n=11453 t_naive=10.263 IAT=8.071 effN=1419.1 t_deflated=3.613

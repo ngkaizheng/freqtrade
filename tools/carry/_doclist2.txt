@@ -1,0 +1,15 @@
+binance_leverage_margin	https://www.binance.com/en/support/faq/360033162192
+binance_markprice_index	https://www.binance.com/en/support/faq/what-are-mark-price-and-price-index-in-usd%E2%93%A2-margined-futures-360033525071
+binance_crossmargin_intro	https://www.binance.com/en/support/faq/introduction-to-binance-futures-cross-margin-360033525211
+binance_liq_faq	https://www.binance.com/en/support/faq/how-do-i-calculate-the-liquidation-price-for-binance-futures-360038292912
+binance_fee_schedule	https://www.binance.com/en/fee/schedule
+binance_fee_trading	https://www.binance.com/en/fee/trading
+binance_fee_future	https://www.binance.com/en/fee/futureFee
+binance_spot_margined	https://www.binance.com/en/support/faq/margin-faq-360033749211
+devdocs_cross_isolated	https://developers.binance.com/docs/derivatives/usds-margined-futures/account/rest-api/Change-Margin-Type
+devdocs_mm_tiers	https://developers.binance.com/docs/derivatives/usds-margined-futures/account/rest-api/Notional-and-Leverage-Brackets
+binance_minus_check	https://www.binance.com/en/support/faq/introduction-to-binance-futures-cross-margin-360033525211
+binance_withdraw_limit	https://www.binance.com/en/support/faq/why-can-t-i-withdraw-from-my-binance-account-360034784492
+binance_funding_announce	https://www.binance.com/en/support/announcement/binance-futures-funding-fee-cf0927e4c0cb4d8aa3b2b7f4b4e0e6e3
+deribit_insights	https://insights.deribit.com/
+glassnode_research	https://insights.glassnode.com/

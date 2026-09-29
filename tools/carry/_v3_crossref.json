@@ -1,0 +1,486 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    1
+   ]
+  ],
+  "date-time": "2026-09-01T21:14:21Z",
+  "timestamp": 1788297261100,
+  "version": "build-2803163510"
+ },
+ "reference-count": 19,
+ "publisher": "Elsevier BV",
+ "issue": "4",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2026-08-01T00:00:00Z",
+    "timestamp": 1785542400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2026-08-01T00:00:00Z",
+    "timestamp": 1785542400000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      1
+     ]
+    ],
+    "date-time": "2025-08-01T00:00:00Z",
+    "timestamp": 1754006400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100004508",
+   "name": "Prince of Songkla University",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "COC6601136S"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "COC6601136S"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100004508",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Blockchain: Research and Applications"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    8
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.bcra.2025.100354",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    8,
+    6
+   ]
+  ],
+  "date-time": "2025-08-06T03:44:19Z",
+  "timestamp": 1754451859000
+ },
+ "page": "100354",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 1,
+ "title": [
+  "Exploring risk and return profiles of funding rate arbitrage on CEX and DEX"
+ ],
+ "prefix": "10.1016",
+ "volume": "7",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0003-1915-036X",
+   "authenticated-orcid": false,
+   "given": "Warodom",
+   "family": "Werapun",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-0528-4754",
+   "authenticated-orcid": false,
+   "given": "Tanakorn",
+   "family": "Karode",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9519-0833",
+   "authenticated-orcid": false,
+   "given": "Jakapan",
+   "family": "Suaboot",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-3615-5982",
+   "authenticated-orcid": false,
+   "given": "Tanwa",
+   "family": "Arpornthip",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-2157-679X",
+   "authenticated-orcid": false,
+   "given": "Esther",
+   "family": "Sangiamkul",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "1",
+   "key": "10.1016/j.bcra.2025.100354_br0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "35",
+   "DOI": "10.1007/s12525-024-00715-1",
+   "article-title": "Perpetual future contracts in centralized and decentralized exchanges: Mechanism and traders' behavior",
+   "volume": "35",
+   "author": "Chen",
+   "year": "2024",
+   "journal-title": "Electron. Mark."
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0100",
+   "series-title": "Options, Futures, and Other Derivatives",
+   "author": "Hull",
+   "year": "2016"
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0190",
+   "series-title": "An empirical analysis of cost-of-carry and quarterly futures prices in the cryptocurrency market",
+   "author": "van Rij",
+   "year": "2023"
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0170",
+   "series-title": "Blockchain Revolution: How the Technology Behind Bitcoin Is Changing Money, Business, and the World",
+   "author": "Tapscott",
+   "year": "2016"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.bcra.2025.100354_br0110",
+   "doi-asserted-by": "crossref",
+   "first-page": "1133",
+   "DOI": "10.1111/jofi.13119",
+   "article-title": "Common risk factors in cryptocurrency",
+   "volume": "77",
+   "author": "Liu",
+   "year": "2022",
+   "journal-title": "J. Financ."
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.bcra.2025.100354_br0070",
+   "doi-asserted-by": "crossref",
+   "first-page": "1161",
+   "DOI": "10.1002/fut.22425",
+   "article-title": "An empirical investigation on risk factors in cryptocurrency futures",
+   "volume": "43",
+   "author": "Chi",
+   "year": "2023",
+   "journal-title": "J. Futures Mark."
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0030",
+   "series-title": "Proceedings of the 2021 18th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)",
+   "first-page": "768",
+   "article-title": "The arbitrage system on decentralized exchanges",
+   "author": "Boonpeam",
+   "year": "2021"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.bcra.2025.100354_br0040",
+   "first-page": "845",
+   "article-title": "The automated equity-split cryptocurrency arbitrage strategy",
+   "volume": "44",
+   "author": "Boonpeam",
+   "year": "2022",
+   "journal-title": "Songklanakarin J. Sci. Technol."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.bcra.2025.100354_br0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "293",
+   "DOI": "10.1016/j.jfineco.2019.07.001",
+   "article-title": "Trading and arbitrage in cryptocurrency markets",
+   "volume": "135",
+   "author": "Makarov",
+   "year": "2020",
+   "journal-title": "J. Financ. Econ."
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0140",
+   "series-title": "Proceedings of the 2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+   "first-page": "1",
+   "article-title": "From hodl to heist: analysis of cyber security threats to bitcoin exchanges",
+   "author": "Oosthoek",
+   "year": "2020"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.bcra.2025.100354_br0080",
+   "first-page": "45",
+   "article-title": "A primer on bitcoin risk and its diversification potential",
+   "volume": "9",
+   "author": "Hayes",
+   "year": "2016",
+   "journal-title": "J. Risk Manag. Financ. Inst."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.bcra.2025.100354_br0160",
+   "doi-asserted-by": "crossref",
+   "first-page": "911",
+   "DOI": "10.1111/j.1540-6261.1993.tb04024.x",
+   "article-title": "Measuring asset values for cash settlement in derivative markets: hedonic repeated measures indices and perpetual futures",
+   "volume": "48",
+   "author": "Shiller",
+   "year": "1993",
+   "journal-title": "J. Finance"
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0010",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jfs.2020.100776",
+   "article-title": "Price discovery in bitcoin: the impact of unregulated markets",
+   "volume": "50",
+   "author": "Alexander",
+   "year": "2020",
+   "journal-title": "J. Financ. Stab."
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0090",
+   "author": "He"
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0050",
+   "doi-asserted-by": "crossref",
+   "first-page": "87",
+   "DOI": "10.1016/j.frl.2017.02.009",
+   "article-title": "Does bitcoin hedge global uncertainty? Evidence from wavelet-based quantile-in-quantile regressions",
+   "volume": "23",
+   "author": "Bouri",
+   "year": "2017",
+   "journal-title": "Financ. Res. Lett."
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0180",
+   "doi-asserted-by": "crossref",
+   "first-page": "80",
+   "DOI": "10.1016/j.econlet.2016.09.019",
+   "article-title": "The inefficiency of bitcoin",
+   "volume": "148",
+   "author": "Urquhart",
+   "year": "2016",
+   "journal-title": "Econ. Lett."
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0020",
+   "author": "Alexander"
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0130",
+   "author": "McKinney"
+  },
+  {
+   "key": "10.1016/j.bcra.2025.100354_br0150",
+   "series-title": "Interest Rate Models, Asset Allocation and Quantitative Techniques for Central Banks and Sovereign Wealth Funds",
+   "first-page": "337",
+   "article-title": "Statistical inference for Sharpe ratio",
+   "author": "Schmid",
+   "year": "2010"
+  }
+ ],
+ "container-title": [
+  "Blockchain: Research and Applications"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2096720925000818?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2096720925000818?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    1
+   ]
+  ],
+  "date-time": "2026-09-01T20:20:59Z",
+  "timestamp": 1788294059000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2096720925000818"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    8
+   ]
+  ]
+ },
+ "references-count": 19,
+ "journal-issue": {
+  "issue": "4",
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     8
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S2096720925000818"
+ ],
+ "URL": "https://doi.org/10.1016/j.bcra.2025.100354",
+ "relation": {},
+ "ISSN": [
+  "2096-7209"
+ ],
+ "issn-type": [
+  {
+   "value": "2096-7209",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    8
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Exploring risk and return profiles of funding rate arbitrage on CEX and DEX",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Blockchain: Research and Applications",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.bcra.2025.100354",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2025 THE AUTHORS. Published by Elsevier B.V. on behalf of Zhejiang University Press.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "100354"
+}

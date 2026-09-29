@@ -1,0 +1,5 @@
+pdf	https://www.bis.org/publications/aer-2022.pdf	bis_aer2022_full
+pdf	https://www.bis.org/publications/aer-2023.pdf	bis_aer2023_full
+pdf	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD688.pdf	iosco_2023_polrec
+pdf	https://www.cftc.gov/sites/default/files/2024-03/Digital%20Assets%20Primer_0.pdf	cftc_digital_assets_primer
+pdf	https://www.fsb.org/uploads/P171230-GRF-for-Crypto-Assets-and-Global-Stablecoins.pdf	fsb_grf_2023

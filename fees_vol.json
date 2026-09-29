@@ -1,0 +1,3781 @@
+{
+ "FEES": {
+  "Bridge": {
+   "now_M": 10.8,
+   "ago_M": 0.3,
+   "chg_pct": 3365.1,
+   "n": 19,
+   "top": [
+    [
+     "NEAR Intents",
+     6.74,
+     82.8
+    ],
+    [
+     "SolvBTC",
+     2.44,
+     17.6
+    ],
+    [
+     "deBridge",
+     0.57,
+     27.8
+    ],
+    [
+     "Unit",
+     0.51,
+     24.3
+    ],
+    [
+     "LayerZero V2",
+     0.27,
+     89.1
+    ],
+    [
+     "Circle CCTP",
+     0.18,
+     27.2
+    ],
+    [
+     "TeleSwap",
+     0.06,
+     84.9
+    ],
+    [
+     "Portal",
+     0.02,
+     28.5
+    ]
+   ]
+  },
+  "Dexs": {
+   "now_M": 464.2,
+   "ago_M": 12.1,
+   "chg_pct": 3723.1,
+   "n": 698,
+   "top": [
+    [
+     "Uniswap V4",
+     136.7,
+     187.2
+    ],
+    [
+     "PumpSwap",
+     103.13,
+     28.6
+    ],
+    [
+     "Uniswap V3",
+     65.87,
+     45.5
+    ],
+    [
+     "Raydium AMM",
+     33.14,
+     296.2
+    ],
+    [
+     "Meteora DLMM",
+     24.15,
+     105.4
+    ],
+    [
+     "PancakeSwap AMM V3",
+     16.48,
+     68.8
+    ],
+    [
+     "Aerodrome Slipstream",
+     16.04,
+     188.2
+    ],
+    [
+     "Orca DEX",
+     9.93,
+     152.6
+    ]
+   ]
+  },
+  "Lending": {
+   "now_M": 109.3,
+   "ago_M": 3.9,
+   "chg_pct": 2703.6,
+   "n": 162,
+   "top": [
+    [
+     "Aave V3",
+     35.74,
+     15.3
+    ],
+    [
+     "Morpho Blue",
+     19.09,
+     7.4
+    ],
+    [
+     "World Liberty Financial",
+     11.62,
+     11.8
+    ],
+    [
+     "Maple",
+     8.99,
+     -12.7
+    ],
+    [
+     "SparkLend",
+     5.91,
+     21.1
+    ],
+    [
+     "Kamino Lend",
+     4.55,
+     14.8
+    ],
+    [
+     "Jupiter Lend",
+     3.96,
+     15.7
+    ],
+    [
+     "Fluid Lending",
+     3.24,
+     2.8
+    ]
+   ]
+  },
+  "Yield Aggregator": {
+   "now_M": 2.1,
+   "ago_M": 0.1,
+   "chg_pct": 3487.0,
+   "n": 40,
+   "top": [
+    [
+     "Yearn Finance",
+     0.6,
+     9.7
+    ],
+    [
+     "CIAN Yield Layer",
+     0.5,
+     41.7
+    ],
+    [
+     "Fusion by IPOR",
+     0.21,
+     56.8
+    ],
+    [
+     "Hyperbeat Earn",
+     0.14,
+     36.0
+    ],
+    [
+     "Lulo",
+     0.13,
+     -16.9
+    ],
+    [
+     "Fluid Lite",
+     0.12,
+     24.1
+    ],
+    [
+     "Beefy",
+     0.11,
+     66.0
+    ],
+    [
+     "vfat.io",
+     0.11,
+     41.1
+    ]
+   ]
+  },
+  "Synthetics": {
+   "now_M": 0.2,
+   "ago_M": 0.0,
+   "chg_pct": 1984.4,
+   "n": 5,
+   "top": [
+    [
+     "Alchemix V3",
+     0.15,
+     9.8
+    ],
+    [
+     "Metronome Synth",
+     0.07,
+     -65.1
+    ]
+   ]
+  },
+  "CDP": {
+   "now_M": 28.6,
+   "ago_M": 0.9,
+   "chg_pct": 2925.3,
+   "n": 57,
+   "top": [
+    [
+     "Sky Lending",
+     26.81,
+     -1.7
+    ],
+    [
+     "Reservoir Protocol",
+     0.36,
+     89.3
+    ],
+    [
+     "Lista CDP",
+     0.29,
+     62.4
+    ],
+    [
+     "USDD",
+     0.27,
+     -47.5
+    ],
+    [
+     "Inverse Finance FiRM",
+     0.26,
+     48.5
+    ],
+    [
+     "crvUSD",
+     0.17,
+     152.5
+    ],
+    [
+     "Liquity V2",
+     0.14,
+     -23.6
+    ],
+    [
+     "Mezo Borrow",
+     0.12,
+     2654.9
+    ]
+   ]
+  },
+  "Insurance": {
+   "now_M": 0.3,
+   "ago_M": 0.0,
+   "chg_pct": 3420.3,
+   "n": 4,
+   "top": [
+    [
+     "Ensuro",
+     0.11,
+     568
+    ],
+    [
+     "Nexus Mutual",
+     0.09,
+     -26.8
+    ],
+    [
+     "Blend Backstop V2",
+     0.08,
+     -11.4
+    ]
+   ]
+  },
+  "Options": {
+   "now_M": 0.4,
+   "ago_M": 0.0,
+   "chg_pct": 1819.8,
+   "n": 18,
+   "top": [
+    [
+     "Derive Options",
+     0.44,
+     9.5
+    ],
+    [
+     "SOFA.org",
+     0.01,
+     12.6
+    ],
+    [
+     "CallPut",
+     0.01,
+     14.3
+    ],
+    [
+     "Paradex Options",
+     0.01,
+     0
+    ],
+    [
+     "Panoptic V2",
+     0.01,
+     72.6
+    ],
+    [
+     "Dream",
+     0.0,
+     -90.9
+    ],
+    [
+     "Stochastic Finance",
+     0.0,
+     0
+    ]
+   ]
+  },
+  "Derivatives": {
+   "now_M": 114.7,
+   "ago_M": 5.4,
+   "chg_pct": 2010.8,
+   "n": 209,
+   "top": [
+    [
+     "Hyperliquid Perps",
+     67.82,
+     8.0
+    ],
+    [
+     "Jupiter Perpetual Exchange",
+     7.85,
+     -7.7
+    ],
+    [
+     "Aster Perps",
+     5.9,
+     16.5
+    ],
+    [
+     "edgeX V2",
+     4.17,
+     15.1
+    ],
+    [
+     "Pacifica Perps",
+     3.31,
+     81.6
+    ],
+    [
+     "Lighter Perps",
+     3.31,
+     -4.5
+    ],
+    [
+     "GMX Solana",
+     2.79,
+     -14.8
+    ],
+    [
+     "Antarctic",
+     2.58,
+     77.0
+    ]
+   ]
+  },
+  "Privacy": {
+   "now_M": 1.0,
+   "ago_M": 0.0,
+   "chg_pct": 2994.4,
+   "n": 13,
+   "top": [
+    [
+     "Tornado Cash",
+     0.46,
+     -5.6
+    ],
+    [
+     "Railgun",
+     0.34,
+     15.2
+    ],
+    [
+     "Privacy Cash",
+     0.14,
+     94.1
+    ],
+    [
+     "zERC20",
+     0.03,
+     1601.5
+    ],
+    [
+     "Privacy Pools",
+     0.01,
+     10.0
+    ],
+    [
+     "HOPR",
+     0.0,
+     26.9
+    ],
+    [
+     "Sherwood",
+     0.0,
+     170.7
+    ]
+   ]
+  },
+  "Indexes": {
+   "now_M": 2.1,
+   "ago_M": 0.1,
+   "chg_pct": 1815.1,
+   "n": 9,
+   "top": [
+    [
+     "SoSoValue Indexes",
+     1.5,
+     -13.3
+    ],
+    [
+     "The Index",
+     0.27,
+     -39.1
+    ],
+    [
+     "Chamber Vaults",
+     0.22,
+     53.1
+    ],
+    [
+     "Reserve Protocol",
+     0.09,
+     0.7
+    ],
+    [
+     "Index Coop",
+     0.02,
+     33.9
+    ],
+    [
+     "Enzyme Finance",
+     0.01,
+     32.1
+    ],
+    [
+     "WeDeFin",
+     0.0,
+     31.8
+    ]
+   ]
+  },
+  "CDP Manager": {
+   "now_M": 0.2,
+   "ago_M": 0.0,
+   "chg_pct": 5984.7,
+   "n": 2,
+   "top": [
+    [
+     "Defi Saver Asset Management",
+     0.16,
+     -14.2
+    ]
+   ]
+  },
+  "Liquid Staking": {
+   "now_M": 124.5,
+   "ago_M": 4.9,
+   "chg_pct": 2416.8,
+   "n": 100,
+   "top": [
+    [
+     "Lido",
+     50.15,
+     27.1
+    ],
+    [
+     "Binance staked ETH",
+     19.05,
+     20.4
+    ],
+    [
+     "ether.fi Stake",
+     9.97,
+     20.6
+    ],
+    [
+     "Sanctum Validator LSTs",
+     7.45,
+     27.8
+    ],
+    [
+     "Binance Staked SOL",
+     4.53,
+     25.2
+    ],
+    [
+     "Jito Liquid Staking",
+     4.28,
+     26.4
+    ],
+    [
+     "Rocket Pool",
+     2.86,
+     1.0
+    ],
+    [
+     "Coinbase Wrapped Staked ETH",
+     2.45,
+     21.9
+    ]
+   ]
+  },
+  "Payments": {
+   "now_M": 1.7,
+   "ago_M": 0.0,
+   "chg_pct": 7563.0,
+   "n": 15,
+   "top": [
+    [
+     "Unlock Protocol",
+     1.15,
+     11400.1
+    ],
+    [
+     "Streamflow",
+     0.17,
+     45.5
+    ],
+    [
+     "Helio",
+     0.16,
+     37.1
+    ],
+    [
+     "PagCrypto",
+     0.11,
+     -18.9
+    ],
+    [
+     "P2P.me",
+     0.04,
+     -1.9
+    ],
+    [
+     "Peer",
+     0.03,
+     48.7
+    ],
+    [
+     "Sablier Legacy",
+     0.0,
+     -20.3
+    ],
+    [
+     "CheapGM",
+     0.0,
+     449.1
+    ]
+   ]
+  },
+  "Yield": {
+   "now_M": 6.3,
+   "ago_M": 0.2,
+   "chg_pct": 3590.7,
+   "n": 71,
+   "top": [
+    [
+     "Convex Finance",
+     2.39,
+     84.6
+    ],
+    [
+     "Kraken Bitcoin Vault",
+     0.59,
+     5.5
+    ],
+    [
+     "Pendle V2",
+     0.52,
+     -22.9
+    ],
+    [
+     "Yuzu Money",
+     0.51,
+     16.6
+    ],
+    [
+     "Exponent Yield Exchange",
+     0.49,
+     274.3
+    ],
+    [
+     "Strata Markets",
+     0.4,
+     -56.2
+    ],
+    [
+     "infiniFi",
+     0.28,
+     2.2
+    ],
+    [
+     "Noon",
+     0.25,
+     11.8
+    ]
+   ]
+  },
+  "Options Vault": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 3,
+   "top": []
+  },
+  "Reserve Currency": {
+   "now_M": 0.2,
+   "ago_M": 0.0,
+   "chg_pct": 3346.7,
+   "n": 5,
+   "top": [
+    [
+     "Olympus DAO",
+     0.15,
+     2.3
+    ],
+    [
+     "Eggs Finance",
+     0.0,
+     16.6
+    ],
+    [
+     "FlareBank",
+     0.0,
+     -19.0
+    ],
+    [
+     "BakerDAO",
+     0.0,
+     3117.9
+    ]
+   ]
+  },
+  "Liquidity Manager": {
+   "now_M": 4.8,
+   "ago_M": 0.2,
+   "chg_pct": 2929.6,
+   "n": 15,
+   "top": [
+    [
+     "Snuggle",
+     2.48,
+     105.3
+    ],
+    [
+     "SHROOM Treasury",
+     0.77,
+     0
+    ],
+    [
+     "HawkFi",
+     0.59,
+     217.6
+    ],
+    [
+     "Arrakis Modular",
+     0.56,
+     -13.1
+    ],
+    [
+     "Kamino Liquidity",
+     0.18,
+     42.0
+    ],
+    [
+     "Gamma",
+     0.05,
+     21.4
+    ],
+    [
+     "Arcadia V2",
+     0.04,
+     32.5
+    ],
+    [
+     "StonkBrokers Smart LP",
+     0.04,
+     0
+    ]
+   ]
+  },
+  "Algo-Stables": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 267.6,
+   "n": 4,
+   "top": [
+    [
+     "Frax",
+     0.01,
+     -55.3
+    ],
+    [
+     "Mento V2",
+     0.0,
+     -91.5
+    ],
+    [
+     "Frax FPI",
+     0.0,
+     0
+    ],
+    [
+     "Snake Finance",
+     0.0,
+     33.0
+    ]
+   ]
+  },
+  "DEX Aggregator": {
+   "now_M": 12.0,
+   "ago_M": 0.3,
+   "chg_pct": 4050.1,
+   "n": 78,
+   "top": [
+    [
+     "Jupiter Aggregator",
+     4.43,
+     59.3
+    ],
+    [
+     "OKX Swap",
+     2.54,
+     0
+    ],
+    [
+     "CoWSwap",
+     1.83,
+     17.8
+    ],
+    [
+     "Mayan DEX Aggregator",
+     0.78,
+     64.4
+    ],
+    [
+     "Definitive",
+     0.77,
+     167.6
+    ],
+    [
+     "KyberSwap Aggregator",
+     0.57,
+     -8.3
+    ],
+    [
+     "Velora",
+     0.42,
+     51.3
+    ],
+    [
+     "SushiSwap Agg",
+     0.16,
+     15.4
+    ]
+   ]
+  },
+  "Cross Chain Bridge": {
+   "now_M": 0.9,
+   "ago_M": 0.0,
+   "chg_pct": 3820.8,
+   "n": 15,
+   "top": [
+    [
+     "Stargate V2",
+     0.31,
+     98.6
+    ],
+    [
+     "fly.trade",
+     0.25,
+     103.5
+    ],
+    [
+     "Symbiosis",
+     0.2,
+     155.6
+    ],
+    [
+     "Across",
+     0.12,
+     92.5
+    ],
+    [
+     "Circle Gateway",
+     0.07,
+     45.7
+    ],
+    [
+     "Hyperlane",
+     0.02,
+     2.0
+    ],
+    [
+     "Hop Protocol",
+     0.0,
+     -77.1
+    ],
+    [
+     "Synapse Cross Chain Bridge",
+     0.0,
+     -26.4
+    ]
+   ]
+  },
+  "Gaming": {
+   "now_M": 0.4,
+   "ago_M": 0.0,
+   "chg_pct": 2707.7,
+   "n": 15,
+   "top": [
+    [
+     "Bloom Trading Bot",
+     0.23,
+     -38.4
+    ],
+    [
+     "Axie Infinity",
+     0.12,
+     3.1
+    ],
+    [
+     "Gas",
+     0.06,
+     0
+    ],
+    [
+     "Illuvium",
+     0.0,
+     -66.4
+    ],
+    [
+     "YOLO Games",
+     0.0,
+     -14
+    ],
+    [
+     "Pump Party",
+     0.0,
+     2.8
+    ],
+    [
+     "TopStrike",
+     0.0,
+     -41.5
+    ],
+    [
+     "Kintara",
+     0.0,
+     -51.3
+    ]
+   ]
+  },
+  "Prediction Market": {
+   "now_M": 91.8,
+   "ago_M": 2.2,
+   "chg_pct": 4063.9,
+   "n": 43,
+   "top": [
+    [
+     "Polymarket US",
+     53.65,
+     63.2
+    ],
+    [
+     "Polymarket International",
+     30.98,
+     -4.2
+    ],
+    [
+     "Predict Fun",
+     5.56,
+     67.4
+    ],
+    [
+     "PredictStreet",
+     1.41,
+     151.3
+    ],
+    [
+     "PancakeSwap Prediction",
+     0.22,
+     -8.7
+    ],
+    [
+     "Limitless Exchange",
+     0.2,
+     -65.7
+    ],
+    [
+     "Sport.fun",
+     0.13,
+     117.5
+    ],
+    [
+     "Overtime",
+     0.08,
+     -14.0
+    ]
+   ]
+  },
+  "Uncollateralized Lending": {
+   "now_M": 3.8,
+   "ago_M": 0.1,
+   "chg_pct": 2664.2,
+   "n": 6,
+   "top": [
+    [
+     "Accountable",
+     2.26,
+     -18.4
+    ],
+    [
+     "Wildcat Protocol",
+     1.39,
+     -3.4
+    ],
+    [
+     "Kasu",
+     0.09,
+     -9.3
+    ],
+    [
+     "3Jane Lending",
+     0.04,
+     -2.7
+    ],
+    [
+     "Clearpool Lending",
+     0.01,
+     0.5
+    ],
+    [
+     "Goldfinch",
+     0.0,
+     12.8
+    ]
+   ]
+  },
+  "Services": {
+   "now_M": 5.9,
+   "ago_M": 0.0,
+   "chg_pct": 15277.1,
+   "n": 23,
+   "top": [
+    [
+     "Chainlink Staking",
+     4.34,
+     -22.3
+    ],
+    [
+     "TRONSAVE",
+     0.86,
+     -1.2
+    ],
+    [
+     "Superchain",
+     0.44,
+     0
+    ],
+    [
+     "Flying Tulip Yield",
+     0.13,
+     -6.8
+    ],
+    [
+     "Immunefi",
+     0.07,
+     -25.1
+    ],
+    [
+     "Safe",
+     0.05,
+     59.5
+    ],
+    [
+     "BasePaint",
+     0.02,
+     80.3
+    ],
+    [
+     "Kinetiq KNTQ",
+     0.02,
+     -6.2
+    ]
+   ]
+  },
+  "NFT Marketplace": {
+   "now_M": 34.3,
+   "ago_M": 1.2,
+   "chg_pct": 2780.1,
+   "n": 35,
+   "top": [
+    [
+     "Fragment",
+     31.03,
+     26.3
+    ],
+    [
+     "Opensea Seaport",
+     2.93,
+     -4.7
+    ],
+    [
+     "Immutable Orderbook",
+     0.22,
+     16.8
+    ],
+    [
+     "Foundation",
+     0.04,
+     249.6
+    ],
+    [
+     "Vexy",
+     0.02,
+     5.8
+    ],
+    [
+     "RIP.FUN",
+     0.01,
+     186.9
+    ],
+    [
+     "Sudoswap V1",
+     0.0,
+     45.0
+    ],
+    [
+     "Stargaze",
+     0.0,
+     -30.6
+    ]
+   ]
+  },
+  "Risk Curators": {
+   "now_M": 21.4,
+   "ago_M": 0.7,
+   "chg_pct": 3156.8,
+   "n": 43,
+   "top": [
+    [
+     "Steakhouse Financial",
+     7.66,
+     11.6
+    ],
+    [
+     "Sentora Curator",
+     5.81,
+     4.1
+    ],
+    [
+     "Gauntlet",
+     3.55,
+     33.1
+    ],
+    [
+     "K3 Capital",
+     0.86,
+     14.8
+    ],
+    [
+     "RockawayX",
+     0.66,
+     121.5
+    ],
+    [
+     "Armitage by Wintermute",
+     0.51,
+     70.3
+    ],
+    [
+     "Clearstar",
+     0.38,
+     64.0
+    ],
+    [
+     "alphagrowth",
+     0.36,
+     7.6
+    ]
+   ]
+  },
+  "NFT Lending": {
+   "now_M": 0.3,
+   "ago_M": 0.0,
+   "chg_pct": 2385.5,
+   "n": 7,
+   "top": [
+    [
+     "Gondi V3",
+     0.24,
+     -10.2
+    ],
+    [
+     "BendDAO Lending V1",
+     0.03,
+     19.0
+    ],
+    [
+     "Llamalend",
+     0.0,
+     22.7
+    ],
+    [
+     "Sharky",
+     0.0,
+     6.7
+    ],
+    [
+     "BendDAO Lending V2",
+     0.0,
+     563.5
+    ]
+   ]
+  },
+  "Token Locker": {
+   "now_M": 1.3,
+   "ago_M": 0.0,
+   "chg_pct": 4445.2,
+   "n": 4,
+   "top": [
+    [
+     "StonkBrokers Safety Deposit Box",
+     1.27,
+     -51.7
+    ],
+    [
+     "UNCX Network V2",
+     0.01,
+     50.9
+    ],
+    [
+     "GoPlus Locker V2",
+     0.0,
+     -62.6
+    ],
+    [
+     "RobinFlow",
+     0.0,
+     0
+    ]
+   ]
+  },
+  "Launchpad": {
+   "now_M": 301.4,
+   "ago_M": 5.4,
+   "chg_pct": 5450.8,
+   "n": 181,
+   "top": [
+    [
+     "Pons V2",
+     140.22,
+     1278.6
+    ],
+    [
+     "pump.fun",
+     45.28,
+     0.3
+    ],
+    [
+     "Flap sh",
+     39.43,
+     248.6
+    ],
+    [
+     "StonkFun",
+     24.85,
+     2107.9
+    ],
+    [
+     "LaunchLab",
+     8.54,
+     13808.8
+    ],
+    [
+     "BONK.fun Launchpad",
+     7.41,
+     4245.0
+    ],
+    [
+     "Pons V1",
+     6.13,
+     -25.2
+    ],
+    [
+     "o1 Launchpad",
+     5.18,
+     124.6
+    ]
+   ]
+  },
+  "Onchain Capital Allocator": {
+   "now_M": 24.0,
+   "ago_M": 0.8,
+   "chg_pct": 3095.6,
+   "n": 32,
+   "top": [
+    [
+     "Spark Liquidity Layer",
+     8.37,
+     49.2
+    ],
+    [
+     "Veda",
+     4.39,
+     12.5
+    ],
+    [
+     "Grove Finance",
+     3.89,
+     -30.6
+    ],
+    [
+     "Concrete",
+     2.32,
+     24.5
+    ],
+    [
+     "Upshift",
+     2.0,
+     9.0
+    ],
+    [
+     "Avant avUSD",
+     0.76,
+     -10.8
+    ],
+    [
+     "Aera V3",
+     0.56,
+     81.9
+    ],
+    [
+     "D2 Finance",
+     0.49,
+     4496.2
+    ]
+   ]
+  },
+  "RWA": {
+   "now_M": 68.3,
+   "ago_M": 2.3,
+   "chg_pct": 2837.3,
+   "n": 56,
+   "top": [
+    [
+     "Grayscale",
+     17.67,
+     16.8
+    ],
+    [
+     "BlackRock BUIDL",
+     8.6,
+     -1.9
+    ],
+    [
+     "Ondo Yield Assets",
+     6.69,
+     -0.7
+    ],
+    [
+     "Centrifuge Protocol",
+     4.56,
+     -26.8
+    ],
+    [
+     "Spiko",
+     3.92,
+     10.0
+    ],
+    [
+     "WisdomTree",
+     3.32,
+     52.2
+    ],
+    [
+     "Hastra",
+     2.81,
+     -1.1
+    ],
+    [
+     "OnRe",
+     2.65,
+     6.1
+    ]
+   ]
+  },
+  "Domains": {
+   "now_M": 0.3,
+   "ago_M": 0.0,
+   "chg_pct": 3123.2,
+   "n": 12,
+   "top": [
+    [
+     "ENS",
+     0.24,
+     -28.8
+    ],
+    [
+     "Solana Name Service",
+     0.01,
+     -37.9
+    ],
+    [
+     "Wei Name Service",
+     0.01,
+     226.3
+    ],
+    [
+     "ZNS Connect",
+     0.0,
+     92.3
+    ],
+    [
+     "InfinityName",
+     0.0,
+     -69.1
+    ],
+    [
+     "dotMEGA Domains",
+     0.0,
+     -71.0
+    ],
+    [
+     "Basenames",
+     0.0,
+     -44.9
+    ],
+    [
+     "Gwei Name Service",
+     0.0,
+     193.7
+    ]
+   ]
+  },
+  "Decentralized BTC": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 697.0,
+   "n": 1,
+   "top": [
+    [
+     "tBTC",
+     0.04,
+     13.1
+    ]
+   ]
+  },
+  "Oracle": {
+   "now_M": 1.7,
+   "ago_M": 0.1,
+   "chg_pct": 3324.1,
+   "n": 7,
+   "top": [
+    [
+     "Geodnet",
+     0.83,
+     -8.8
+    ],
+    [
+     "Pyth Pro",
+     0.72,
+     44.4
+    ],
+    [
+     "Chainlink Requests",
+     0.18,
+     -48.4
+    ],
+    [
+     "Mycelia Signal",
+     0.01,
+     38924.9
+    ],
+    [
+     "Pyth Entropy",
+     0.0,
+     126.9
+    ]
+   ]
+  },
+  "Developer Tools": {
+   "now_M": 9.2,
+   "ago_M": 0.1,
+   "chg_pct": 6228.8,
+   "n": 15,
+   "top": [
+    [
+     "Aethir",
+     4.51,
+     -10.3
+    ],
+    [
+     "CatFee",
+     4.17,
+     13.2
+    ],
+    [
+     "Nozomi",
+     0.49,
+     -25.9
+    ],
+    [
+     "DeBank Cloud",
+     0.04,
+     41.3
+    ],
+    [
+     "The Graph",
+     0.02,
+     -5.8
+    ],
+    [
+     "Space and Time",
+     0.01,
+     -19.5
+    ],
+    [
+     "Uniswap Labs",
+     0.0,
+     0
+    ],
+    [
+     "GoPlus Security App",
+     0.0,
+     9.1
+    ]
+   ]
+  },
+  "Liquid Restaking": {
+   "now_M": 4.6,
+   "ago_M": 0.1,
+   "chg_pct": 8118.8,
+   "n": 9,
+   "top": [
+    [
+     "Kelp",
+     2.26,
+     4.8
+    ],
+    [
+     "Mellow Restaking",
+     1.72,
+     42.5
+    ],
+    [
+     "Renzo",
+     0.22,
+     12.8
+    ],
+    [
+     "Mantle Restaking",
+     0.19,
+     42.4
+    ],
+    [
+     "Puffer Stake",
+     0.08,
+     -27.4
+    ],
+    [
+     "Bedrock uniETH",
+     0.06,
+     10.7
+    ],
+    [
+     "Kyros",
+     0.05,
+     -29.6
+    ],
+    [
+     "Swell Liquid Restaking",
+     0.01,
+     -49.1
+    ]
+   ]
+  },
+  "Leveraged Farming": {
+   "now_M": -0.1,
+   "ago_M": 0.0,
+   "chg_pct": -374.9,
+   "n": 8,
+   "top": [
+    [
+     "Extra Finance Leverage Farming",
+     0.05,
+     18.3
+    ],
+    [
+     "Origami Finance",
+     0.01,
+     -40.0
+    ],
+    [
+     "3F",
+     0.01,
+     85.8
+    ]
+   ]
+  },
+  "Telegram Bot": {
+   "now_M": 8.6,
+   "ago_M": 0.4,
+   "chg_pct": 2281.3,
+   "n": 27,
+   "top": [
+    [
+     "Terminal",
+     5.25,
+     6.8
+    ],
+    [
+     "Maestro",
+     1.91,
+     61.2
+    ],
+    [
+     "Trojan",
+     1.05,
+     -14.9
+    ],
+    [
+     "copyfomo",
+     0.15,
+     1110199.9
+    ],
+    [
+     "BONKbot",
+     0.11,
+     21.3
+    ],
+    [
+     "MEVX",
+     0.04,
+     -23.5
+    ],
+    [
+     "Pepeboost",
+     0.04,
+     -29.7
+    ],
+    [
+     "SolTradingBot",
+     0.03,
+     -35.0
+    ]
+   ]
+  },
+  "Wallets": {
+   "now_M": 12.2,
+   "ago_M": 0.4,
+   "chg_pct": 2699.2,
+   "n": 7,
+   "top": [
+    [
+     "Phantom Wallet",
+     6.99,
+     9.3
+    ],
+    [
+     "MetaMask Wallet",
+     2.84,
+     30.6
+    ],
+    [
+     "Base App",
+     1.45,
+     138.5
+    ],
+    [
+     "Trust Wallet Wallet",
+     0.37,
+     46.0
+    ],
+    [
+     "Rainbow Wallet",
+     0.27,
+     175.2
+    ],
+    [
+     "Rabby Wallet",
+     0.25,
+     48.0
+    ],
+    [
+     "Zerion Wallet",
+     0.0,
+     0
+    ]
+   ]
+  },
+  "Restaking": {
+   "now_M": 0.3,
+   "ago_M": 0.0,
+   "chg_pct": 1915.9,
+   "n": 3,
+   "top": [
+    [
+     "EigenCloud",
+     0.17,
+     -56.4
+    ],
+    [
+     "b14g",
+     0.06,
+     0.8
+    ],
+    [
+     "Solayer Restaking",
+     0.04,
+     12.6
+    ]
+   ]
+  },
+  "Canonical Bridge": {
+   "now_M": 0.2,
+   "ago_M": 0.0,
+   "chg_pct": 2974.8,
+   "n": 1,
+   "top": [
+    [
+     "Sui Foundation",
+     0.23,
+     4.8
+    ]
+   ]
+  },
+  "Dual-Token Stablecoin": {
+   "now_M": 1.1,
+   "ago_M": 0.0,
+   "chg_pct": 3519.3,
+   "n": 2,
+   "top": [
+    [
+     "fx Protocol",
+     0.69,
+     92.1
+    ],
+    [
+     "Hylo Protocol",
+     0.42,
+     128.8
+    ]
+   ]
+  },
+  "SoFi": {
+   "now_M": 3.0,
+   "ago_M": 0.4,
+   "chg_pct": 701.9,
+   "n": 30,
+   "top": [
+    [
+     "Gacha TCG",
+     2.86,
+     -13.4
+    ],
+    [
+     "Tree News",
+     0.08,
+     36.8
+    ],
+    [
+     "NTM.ai",
+     0.05,
+     25.6
+    ],
+    [
+     "Arkada",
+     0.01,
+     -33.8
+    ],
+    [
+     "friend.tech V1",
+     0.0,
+     -64.8
+    ],
+    [
+     "PostTechSoFi",
+     0.0,
+     1380
+    ],
+    [
+     "cipher.rip",
+     0.0,
+     250.7
+    ],
+    [
+     "Arena SocialFi",
+     0.0,
+     -13.9
+    ]
+   ]
+  },
+  "Staking Pool": {
+   "now_M": 72.0,
+   "ago_M": 2.2,
+   "chg_pct": 3121.5,
+   "n": 31,
+   "top": [
+    [
+     "Hyper Foundation HYPE Staking",
+     33.43,
+     34.7
+    ],
+    [
+     "Anchorage By Figment HYPE Staking",
+     4.6,
+     31.8
+    ],
+    [
+     "Hyperliquid Strategies HYPE Staking",
+     4.57,
+     72.6
+    ],
+    [
+     "HypurrScan HYPE Staking",
+     3.66,
+     34.7
+    ],
+    [
+     "Nansen-HypurrCollective HYPE Staking",
+     3.52,
+     38.3
+    ],
+    [
+     "Infinite Field HYPE Staking",
+     2.78,
+     30.9
+    ],
+    [
+     "Marinade Native",
+     1.83,
+     66.8
+    ],
+    [
+     "Imperator.co HYPE Staking",
+     1.51,
+     33.9
+    ]
+   ]
+  },
+  "Yield Lottery": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 834.8,
+   "n": 1,
+   "top": [
+    [
+     "PoolTogether V5",
+     0.01,
+     -48.5
+    ]
+   ]
+  },
+  "Basis Trading": {
+   "now_M": 21.6,
+   "ago_M": 0.1,
+   "chg_pct": 17309.8,
+   "n": 17,
+   "top": [
+    [
+     "Ethena USDe",
+     20.09,
+     4.6
+    ],
+    [
+     "Bitway Earn",
+     0.59,
+     14.9
+    ],
+    [
+     "Bitwise USCC",
+     0.48,
+     2.9
+    ],
+    [
+     "Falcon Finance",
+     0.26,
+     7.3
+    ],
+    [
+     "Piku Finance",
+     0.06,
+     -30.3
+    ],
+    [
+     "Solstice",
+     0.05,
+     -76.3
+    ],
+    [
+     "Aegis YUSD",
+     0.04,
+     -12.6
+    ],
+    [
+     "Monetrix USDM",
+     0.02,
+     -24.1
+    ]
+   ]
+  },
+  "Farm": {
+   "now_M": 0.9,
+   "ago_M": 0.0,
+   "chg_pct": 5199.9,
+   "n": 5,
+   "top": [
+    [
+     "Venice",
+     0.82,
+     21.8
+    ],
+    [
+     "Zircuit Staking",
+     0.09,
+     23.6
+    ],
+    [
+     "JVault",
+     0.0,
+     66.5
+    ],
+    [
+     "Donut",
+     0.0,
+     -77.2
+    ]
+   ]
+  },
+  "CeDeFi": {
+   "now_M": 3.5,
+   "ago_M": 0.1,
+   "chg_pct": 2911.3,
+   "n": 3,
+   "top": [
+    [
+     "Fidelity Crypto Fund",
+     3.22,
+     22.5
+    ],
+    [
+     "Doppler Finance",
+     0.27,
+     24.0
+    ],
+    [
+     "River Omni-CDP",
+     0.0,
+     -44.7
+    ]
+   ]
+  },
+  "AI Agents": {
+   "now_M": 0.9,
+   "ago_M": 0.0,
+   "chg_pct": 2499.8,
+   "n": 19,
+   "top": [
+    [
+     "Virtuals Protocol",
+     0.6,
+     -0.2
+    ],
+    [
+     "TermiX",
+     0.23,
+     -12.0
+    ],
+    [
+     "MorpheusAI",
+     0.05,
+     25.7
+    ],
+    [
+     "aeon",
+     0.05,
+     -45.2
+    ],
+    [
+     "Creator Bid",
+     0.01,
+     353.8
+    ],
+    [
+     "ZyFAI",
+     0.01,
+     -15.3
+    ],
+    [
+     "Infinite Trading Protocol",
+     0.0,
+     82.1
+    ],
+    [
+     "Vader AI",
+     0.0,
+     -26.2
+    ]
+   ]
+  },
+  "OTC Marketplace": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 3342.0,
+   "n": 3,
+   "top": [
+    [
+     "Figure Markets Exchange",
+     0.01,
+     2.4
+    ],
+    [
+     "Whales Market",
+     0.0,
+     2485.4
+    ]
+   ]
+  },
+  "MEV": {
+   "now_M": 15.3,
+   "ago_M": 0.6,
+   "chg_pct": 2411.7,
+   "n": 9,
+   "top": [
+    [
+     "Flashbots",
+     9.65,
+     31.6
+    ],
+    [
+     "Jito MEV Tips",
+     4.89,
+     16.2
+    ],
+    [
+     "Harmonic",
+     0.52,
+     7.5
+    ],
+    [
+     "bloXroute",
+     0.27,
+     -2.2
+    ],
+    [
+     "Arbitrum Timeboost",
+     0.01,
+     -78.3
+    ],
+    [
+     "Kairos Timeboost",
+     0.0,
+     -25.1
+    ]
+   ]
+  },
+  "Luck Games": {
+   "now_M": 3.9,
+   "ago_M": 0.2,
+   "chg_pct": 1620.5,
+   "n": 16,
+   "top": [
+    [
+     "Fake World Assets V2",
+     3.14,
+     0
+    ],
+    [
+     "Fake World Assets V1",
+     0.51,
+     -89.4
+    ],
+    [
+     "Ape Church",
+     0.17,
+     41.1
+    ],
+    [
+     "PancakeSwap Lottery",
+     0.03,
+     79.2
+    ],
+    [
+     "Suigar",
+     0.02,
+     45.5
+    ],
+    [
+     "Kaching",
+     0.01,
+     -54.8
+    ],
+    [
+     "death.fun",
+     0.01,
+     59.4
+    ],
+    [
+     "DoubleUp",
+     0.0,
+     -84.3
+    ]
+   ]
+  },
+  "Collateral Markets": {
+   "now_M": 0.4,
+   "ago_M": 0.0,
+   "chg_pct": 23454.9,
+   "n": 1,
+   "top": [
+    [
+     "Symbiotic",
+     0.38,
+     718.6
+    ]
+   ]
+  },
+  "Portfolio Tracker": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 2,
+   "top": [
+    [
+     "DashsWallet",
+     0.0,
+     7979.5
+    ]
+   ]
+  },
+  "Anchor BTC": {
+   "now_M": 0.4,
+   "ago_M": 0.1,
+   "chg_pct": 193.9,
+   "n": 3,
+   "top": [
+    [
+     "BitFi BTC",
+     0.38,
+     -71.5
+    ],
+    [
+     "Bedrock uniBTC",
+     0.0,
+     -44.7
+    ]
+   ]
+  },
+  "Trading App": {
+   "now_M": 125.8,
+   "ago_M": 3.5,
+   "chg_pct": 3528.1,
+   "n": 31,
+   "top": [
+    [
+     "GMGN",
+     51.29,
+     72.6
+    ],
+    [
+     "Axiom",
+     37.03,
+     35.8
+    ],
+    [
+     "fomo Wallet",
+     35.39,
+     150.3
+    ],
+    [
+     "Propr",
+     1.1,
+     20.0
+    ],
+    [
+     "Photon",
+     0.38,
+     -48.3
+    ],
+    [
+     "moonshot.money",
+     0.22,
+     -16.5
+    ],
+    [
+     "Matcha",
+     0.14,
+     50.2
+    ],
+    [
+     "LAB Terminal",
+     0.12,
+     -34.6
+    ]
+   ]
+  },
+  "Coins Tracker": {
+   "now_M": 5.8,
+   "ago_M": 0.2,
+   "chg_pct": 2566.7,
+   "n": 2,
+   "top": [
+    [
+     "DEX Screener",
+     5.68,
+     33.9
+    ],
+    [
+     "DEXTools",
+     0.08,
+     -0.4
+    ]
+   ]
+  },
+  "NFT Launchpad": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 3121.9,
+   "n": 1,
+   "top": [
+    [
+     "manifold.xyz",
+     0.0,
+     8.7
+    ]
+   ]
+  },
+  "Stablecoin Issuer": {
+   "now_M": 731.6,
+   "ago_M": 23.1,
+   "chg_pct": 3068.4,
+   "n": 6,
+   "top": [
+    [
+     "Tether",
+     500.25,
+     4.6
+    ],
+    [
+     "Circle USDC",
+     204.57,
+     7.4
+    ],
+    [
+     "Paxos Stablecoin Issuer",
+     19.36,
+     2.8
+    ],
+    [
+     "Ripple USD",
+     6.86,
+     44.6
+    ],
+    [
+     "M0",
+     0.51,
+     -28.0
+    ],
+    [
+     "MetaMask USD",
+     0.04,
+     -13.9
+    ]
+   ]
+  },
+  "Restaked BTC": {
+   "now_M": 1.6,
+   "ago_M": 0.0,
+   "chg_pct": 150693.1,
+   "n": 2,
+   "top": [
+    [
+     "Lombard LBTC",
+     1.62,
+     1157.7
+    ],
+    [
+     "GTBTC",
+     0.03,
+     16.5
+    ]
+   ]
+  },
+  "DOR": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 3795.1,
+   "n": 1,
+   "top": [
+    [
+     "Treehouse Protocol",
+     0.03,
+     64.7
+    ]
+   ]
+  },
+  "Security Extension": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 4347.9,
+   "n": 2,
+   "top": [
+    [
+     "Pocket Universe",
+     0.03,
+     -24.3
+    ]
+   ]
+  },
+  "Volume Boosting": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 58443.4,
+   "n": 2,
+   "top": [
+    [
+     "Ravenhood Mindshare",
+     0.02,
+     591.8
+    ]
+   ]
+  },
+  "DCA Tools": {
+   "now_M": 0.1,
+   "ago_M": 0.0,
+   "chg_pct": 7247.4,
+   "n": 1,
+   "top": [
+    [
+     "Jupiter DCA",
+     0.13,
+     202.2
+    ]
+   ]
+  },
+  "DAO Service Provider": {
+   "now_M": 0.4,
+   "ago_M": 0.0,
+   "chg_pct": 2341.0,
+   "n": 3,
+   "top": [
+    [
+     "Jito DAO",
+     0.4,
+     28.7
+    ],
+    [
+     "MetaLeX",
+     0.0,
+     -65
+    ]
+   ]
+  },
+  "Physical TCG": {
+   "now_M": 15.0,
+   "ago_M": 0.6,
+   "chg_pct": 2612.4,
+   "n": 17,
+   "top": [
+    [
+     "Collector Crypt",
+     10.69,
+     -3.0
+    ],
+    [
+     "Courtyard",
+     2.17,
+     -27.9
+    ],
+    [
+     "Beezie",
+     0.75,
+     10.9
+    ],
+    [
+     "DYLI",
+     0.36,
+     218.1
+    ],
+    [
+     "Gemint",
+     0.3,
+     17.5
+    ],
+    [
+     "Phygitals",
+     0.25,
+     -311.8
+    ],
+    [
+     "PumpBox",
+     0.14,
+     285.2
+    ],
+    [
+     "Pull.fun",
+     0.13,
+     -60.5
+    ]
+   ]
+  },
+  "Private Investment Platform": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": [
+    [
+     "Echo.xyz",
+     0.02,
+     108.4
+    ]
+   ]
+  },
+  "Bridge Aggregator": {
+   "now_M": 3.6,
+   "ago_M": 0.1,
+   "chg_pct": 3240.1,
+   "n": 5,
+   "top": [
+    [
+     "LI.FI Bridge Aggregator",
+     2.48,
+     118.3
+    ],
+    [
+     "Rango",
+     1.08,
+     287.3
+    ],
+    [
+     "SOCKET Protocol",
+     0.03,
+     81.5
+    ],
+    [
+     "Bungee Bridge Aggregator",
+     0.03,
+     74.9
+    ],
+    [
+     "Caldera",
+     0.0,
+     -41.1
+    ]
+   ]
+  },
+  "Governance Incentives": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "Chain": {
+   "now_M": 191.0,
+   "ago_M": 5.4,
+   "chg_pct": 3408.7,
+   "n": 242,
+   "top": [
+    [
+     "Canton",
+     48.71,
+     -0.5
+    ],
+    [
+     "Robinhood Chain",
+     39.31,
+     1209.9
+    ],
+    [
+     "Solana",
+     24.14,
+     15.4
+    ],
+    [
+     "Tron",
+     23.39,
+     -11.5
+    ],
+    [
+     "BSC",
+     21.22,
+     16.2
+    ],
+    [
+     "Ethereum",
+     13.53,
+     28.0
+    ],
+    [
+     "Bitcoin",
+     6.78,
+     -0.6
+    ],
+    [
+     "Base",
+     4.6,
+     60.0
+    ]
+   ]
+  },
+  "Crypto Card Issuer": {
+   "now_M": 3.2,
+   "ago_M": 0.1,
+   "chg_pct": 2174.9,
+   "n": 3,
+   "top": [
+    [
+     "EtherFi Cash Liquid",
+     3.18,
+     -20.1
+    ],
+    [
+     "Tria Card",
+     0.02,
+     3.6
+    ],
+    [
+     "Avici",
+     0.0,
+     -47.0
+    ]
+   ]
+  },
+  "Interface": {
+   "now_M": 25.5,
+   "ago_M": 1.0,
+   "chg_pct": 2415.2,
+   "n": 169,
+   "top": [
+    [
+     "pump.fun Mobile App",
+     7.51,
+     59.6
+    ],
+    [
+     "tradeXYZ",
+     6.11,
+     -35.2
+    ],
+    [
+     "Bankr",
+     2.07,
+     110.1
+    ],
+    [
+     "MetaMask Perps",
+     1.47,
+     6.6
+    ],
+    [
+     "Trust Wallet Perps",
+     1.34,
+     37.7
+    ],
+    [
+     "Phantom Perps",
+     1.18,
+     -3.2
+    ],
+    [
+     "fomo Perps",
+     0.91,
+     87.2
+    ],
+    [
+     "XOX Perps",
+     0.47,
+     0
+    ]
+   ]
+  },
+  "Interest Rate Derivatives": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 2245.8,
+   "n": 1,
+   "top": [
+    [
+     "Boros",
+     0.03,
+     -5.4
+    ]
+   ]
+  },
+  "Video Infrastructure": {
+   "now_M": 0.1,
+   "ago_M": 0.0,
+   "chg_pct": 10558.2,
+   "n": 1,
+   "top": [
+    [
+     "Livepeer",
+     0.07,
+     89.5
+    ]
+   ]
+  },
+  "DePIN": {
+   "now_M": 0.3,
+   "ago_M": 0.0,
+   "chg_pct": 7192.3,
+   "n": 7,
+   "top": [
+    [
+     "Render Network BME",
+     0.22,
+     85.3
+    ],
+    [
+     "Hivemapper",
+     0.05,
+     11399.0
+    ],
+    [
+     "NodeOps",
+     0.01,
+     21.0
+    ],
+    [
+     "Auki",
+     0.0,
+     89.0
+    ],
+    [
+     "prism",
+     0.0,
+     -98.2
+    ]
+   ]
+  },
+  "Mining Pools": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "NFT Automated Strategies": {
+   "now_M": 2.3,
+   "ago_M": 0.0,
+   "chg_pct": 43424.3,
+   "n": 1,
+   "top": [
+    [
+     "TokenWorks",
+     2.28,
+     1345.0
+    ]
+   ]
+  },
+  "Gamified Mining": {
+   "now_M": 8.3,
+   "ago_M": 0.2,
+   "chg_pct": 4736.1,
+   "n": 39,
+   "top": [
+    [
+     "ORE Protocol",
+     2.45,
+     -6.0
+    ],
+    [
+     "HASHCATS",
+     1.87,
+     0
+    ],
+    [
+     "SLVR",
+     1.64,
+     200.8
+    ],
+    [
+     "BidGrid",
+     0.9,
+     516.8
+    ],
+    [
+     "Sat Rush",
+     0.53,
+     -14.3
+    ],
+    [
+     "Attention Mine",
+     0.4,
+     0
+    ],
+    [
+     "GODL protocol",
+     0.29,
+     -36.4
+    ],
+    [
+     "StockRip",
+     0.1,
+     -53.4
+    ]
+   ]
+  },
+  "Decentralized AI": {
+   "now_M": 0.1,
+   "ago_M": 0.0,
+   "chg_pct": 940.6,
+   "n": 3,
+   "top": [
+    [
+     "Chutes",
+     0.11,
+     -71.1
+    ],
+    [
+     "OpenLedger",
+     0.04,
+     -18.9
+    ],
+    [
+     "FLock.io",
+     0.0,
+     -75.3
+    ]
+   ]
+  },
+  "Identity & Reputation": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 4882.3,
+   "n": 2,
+   "top": [
+    [
+     "Human Passport",
+     0.0,
+     -16.5
+    ],
+    [
+     "Human ID",
+     0.0,
+     -16.6
+    ]
+   ]
+  },
+  "Block Builders": {
+   "now_M": 10.4,
+   "ago_M": 0.3,
+   "chg_pct": 3298.0,
+   "n": 4,
+   "top": [
+    [
+     "Titan Builder",
+     9.04,
+     48.0
+    ],
+    [
+     "Quasar Builder",
+     1.3,
+     58.7
+    ],
+    [
+     "BeaverBuild",
+     0.02,
+     -68.9
+    ]
+   ]
+  },
+  "Bridge Aggregators": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 4117.1,
+   "n": 1,
+   "top": [
+    [
+     "Lunar Finance Bridge Aggregator",
+     0.0,
+     -49.6
+    ]
+   ]
+  },
+  "Foundation": {
+   "now_M": 3.9,
+   "ago_M": 0.0,
+   "chg_pct": 13768.8,
+   "n": 2,
+   "top": [
+    [
+     "Arbitrum Nitro",
+     3.91,
+     1214.1
+    ],
+    [
+     "Layer3",
+     0.01,
+     -3.3
+    ]
+   ]
+  },
+  "Stablecoin Wrapper": {
+   "now_M": 1.7,
+   "ago_M": -0.5,
+   "chg_pct": null,
+   "n": 1,
+   "top": [
+    [
+     "Saturn",
+     1.72,
+     -82.0
+    ]
+   ]
+  },
+  "Staking Rental": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "Treasury Manager": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": 997.1,
+   "n": 1,
+   "top": [
+    [
+     "Elara Finance",
+     0.0,
+     -15.1
+    ]
+   ]
+  },
+  "Liquidity Automation": {
+   "now_M": 2.0,
+   "ago_M": 0.0,
+   "chg_pct": 5695.0,
+   "n": 4,
+   "top": [
+    [
+     "LP Agent",
+     0.97,
+     189.6
+    ],
+    [
+     "Valhalla",
+     0.94,
+     117.1
+    ],
+    [
+     "What The Hook",
+     0.06,
+     31.1
+    ],
+    [
+     "TickerSpring Vaults",
+     0.0,
+     0
+    ]
+   ]
+  },
+  "Onchain Voting": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "Meme": {
+   "now_M": 0.8,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 3,
+   "top": [
+    [
+     "SHROOM Token",
+     0.68,
+     0
+    ],
+    [
+     "HedgeHood HEDGE",
+     0.15,
+     0
+    ]
+   ]
+  },
+  "NftFi": {
+   "now_M": 0.8,
+   "ago_M": 0.0,
+   "chg_pct": 2930.5,
+   "n": 2,
+   "top": [
+    [
+     "StonkBrokers Anvil",
+     0.83,
+     -64.0
+    ],
+    [
+     "StonkBrokers Desks",
+     0.0,
+     0
+    ]
+   ]
+  }
+ },
+ "REVDEX": {
+  "Dexs": {
+   "now_M": 270013.2,
+   "ago_M": 9193.6,
+   "chg_pct": 2837.0,
+   "n": 1020,
+   "top": [
+    [
+     "Uniswap V3",
+     46634.43,
+     71.6
+    ],
+    [
+     "Uniswap V4",
+     42027.3,
+     70.2
+    ],
+    [
+     "PancakeSwap AMM V3",
+     19344.2,
+     4.9
+    ],
+    [
+     "PumpSwap",
+     16009.53,
+     -15.2
+    ],
+    [
+     "Aerodrome Slipstream",
+     12489.98,
+     0.8
+    ],
+    [
+     "BisonFi",
+     9176.99,
+     28.6
+    ],
+    [
+     "Raydium AMM",
+     8674.14,
+     141.5
+    ],
+    [
+     "Orca DEX",
+     7162.5,
+     22.6
+    ]
+   ]
+  },
+  "Payments": {
+   "now_M": 78.9,
+   "ago_M": 1.8,
+   "chg_pct": 4251.6,
+   "n": 12,
+   "top": [
+    [
+     "Sablier Lockup",
+     36.0,
+     -88.1
+    ],
+    [
+     "Streamflow",
+     35.03,
+     277.1
+    ],
+    [
+     "Superfluid",
+     3.45,
+     12.0
+    ],
+    [
+     "P2P.me",
+     1.3,
+     1046.0
+    ],
+    [
+     "Peer",
+     1.18,
+     5.1
+    ],
+    [
+     "LlamaPay",
+     0.83,
+     6.3
+    ],
+    [
+     "x402",
+     0.7,
+     -31.5
+    ],
+    [
+     "Sablier Flow",
+     0.36,
+     11.8
+    ]
+   ]
+  },
+  "Yield": {
+   "now_M": 713.8,
+   "ago_M": 31.8,
+   "chg_pct": 2144.4,
+   "n": 15,
+   "top": [
+    [
+     "Pendle V2",
+     699.4,
+     29.9
+    ],
+    [
+     "Sanctum Reserve",
+     6.82,
+     21.9
+    ],
+    [
+     "Spectra V2",
+     4.52,
+     -33.2
+    ],
+    [
+     "RateX DEX",
+     1.1,
+     24.9
+    ],
+    [
+     "Reflect Tranches",
+     0.97,
+     0
+    ],
+    [
+     "Overpass",
+     0.7,
+     -48.5
+    ],
+    [
+     "Wise Token",
+     0.27,
+     69.6
+    ],
+    [
+     "Volmex",
+     0.0,
+     -49.1
+    ]
+   ]
+  },
+  "Farm": {
+   "now_M": 0.1,
+   "ago_M": 0.0,
+   "chg_pct": 3597.0,
+   "n": 1,
+   "top": [
+    [
+     "Polycat",
+     0.08,
+     -10.4
+    ]
+   ]
+  },
+  "Algo-Stables": {
+   "now_M": 0.8,
+   "ago_M": 0.8,
+   "chg_pct": -0.9,
+   "n": 2,
+   "top": [
+    [
+     "Mento V2",
+     0.8,
+     -92.9
+    ],
+    [
+     "Pinto",
+     0.03,
+     19.4
+    ]
+   ]
+  },
+  "Prediction Market": {
+   "now_M": 18724.4,
+   "ago_M": 490.3,
+   "chg_pct": 3718.7,
+   "n": 46,
+   "top": [
+    [
+     "Kalshi",
+     13246.71,
+     21.3
+    ],
+    [
+     "Polymarket US",
+     2366.66,
+     53.4
+    ],
+    [
+     "Polymarket International",
+     2202.87,
+     -2.6
+    ],
+    [
+     "Predict Fun",
+     301.43,
+     53.0
+    ],
+    [
+     "OPINION",
+     300.36,
+     -18.3
+    ],
+    [
+     "PredictStreet",
+     71.14,
+     363.2
+    ],
+    [
+     "MagicMarkets",
+     57.39,
+     47.5
+    ],
+    [
+     "SX Bet",
+     52.13,
+     -12.1
+    ]
+   ]
+  },
+  "Bridge": {
+   "now_M": 6451.1,
+   "ago_M": 192.9,
+   "chg_pct": 3243.9,
+   "n": 6,
+   "top": [
+    [
+     "NEAR Intents",
+     4496.94,
+     68.2
+    ],
+    [
+     "Unit",
+     1915.11,
+     27.4
+    ],
+    [
+     "TeleSwap",
+     39.07,
+     64.5
+    ],
+    [
+     "Allbridge Classic",
+     0.01,
+     -98.7
+    ]
+   ]
+  },
+  "Synthetics": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "DEX Aggregator": {
+   "now_M": 1192.2,
+   "ago_M": 36.8,
+   "chg_pct": 3136.5,
+   "n": 8,
+   "top": [
+    [
+     "0x",
+     798.23,
+     184.4
+    ],
+    [
+     "Hashflow",
+     303.86,
+     -33.6
+    ],
+    [
+     "THORSwap",
+     90.04,
+     119.1
+    ],
+    [
+     "swap.coffee",
+     0.06,
+     97.8
+    ],
+    [
+     "CaviarNine Agg",
+     0.0,
+     -88.2
+    ],
+    [
+     "HumanFi",
+     0.0,
+     201.1
+    ]
+   ]
+  },
+  "Derivatives": {
+   "now_M": 1296.0,
+   "ago_M": 69.4,
+   "chg_pct": 1766.9,
+   "n": 30,
+   "top": [
+    [
+     "Rocky Exchange Spot",
+     1211.98,
+     51.2
+    ],
+    [
+     "TrueCurrent",
+     83.98,
+     -0.7
+    ],
+    [
+     "Mesha",
+     0.0,
+     -99.6
+    ]
+   ]
+  },
+  "NFT Marketplace": {
+   "now_M": 10.3,
+   "ago_M": 0.3,
+   "chg_pct": 3213.5,
+   "n": 12,
+   "top": [
+    [
+     "Blur Bids",
+     10.24,
+     16.4
+    ],
+    [
+     "flooor.fun",
+     0.08,
+     14.0
+    ],
+    [
+     "Sudoswap V2",
+     0.02,
+     60.0
+    ],
+    [
+     "Anome",
+     0.0,
+     126.7
+    ],
+    [
+     "Mintpad",
+     0.0,
+     329.2
+    ],
+    [
+     "Crovia NFT Marketplace",
+     0.0,
+     135.4
+    ],
+    [
+     "PixelDeed",
+     0.0,
+     0
+    ]
+   ]
+  },
+  "Services": {
+   "now_M": 0.1,
+   "ago_M": 0.0,
+   "chg_pct": 530.9,
+   "n": 2,
+   "top": [
+    [
+     "QuickSwap Liquidity Hub",
+     0.06,
+     123.0
+    ],
+    [
+     "Rarible",
+     0.0,
+     -91.2
+    ]
+   ]
+  },
+  "RWA": {
+   "now_M": 476.4,
+   "ago_M": 21.2,
+   "chg_pct": 2142.8,
+   "n": 5,
+   "top": [
+    [
+     "Ondo Global Markets",
+     448.2,
+     -8.6
+    ],
+    [
+     "Defa By InvoiceMate",
+     20.76,
+     90.1
+    ],
+    [
+     "Dinari",
+     7.42,
+     0
+    ],
+    [
+     "LienFi",
+     0.0,
+     0
+    ]
+   ]
+  },
+  "Telegram Bot": {
+   "now_M": 636.9,
+   "ago_M": 34.9,
+   "chg_pct": 1723.6,
+   "n": 14,
+   "top": [
+    [
+     "Terminal",
+     462.49,
+     22.5
+    ],
+    [
+     "Trojan",
+     100.97,
+     -14.8
+    ],
+    [
+     "BONKbot",
+     20.98,
+     12.8
+    ],
+    [
+     "SolTradingBot",
+     16.42,
+     7.4
+    ],
+    [
+     "BullX",
+     14.43,
+     39.6
+    ],
+    [
+     "Banana Gun",
+     12.98,
+     -26.5
+    ],
+    [
+     "Pepeboost",
+     4.72,
+     23.1
+    ],
+    [
+     "copyfomo",
+     2.66,
+     945372.6
+    ]
+   ]
+  },
+  "SoFi": {
+   "now_M": 0.1,
+   "ago_M": 0.0,
+   "chg_pct": 2615.6,
+   "n": 6,
+   "top": [
+    [
+     "friend.tech V1",
+     0.04,
+     -64.2
+    ],
+    [
+     "Arena SocialFi",
+     0.02,
+     -13.3
+    ],
+    [
+     "HoodFrens",
+     0.02,
+     -90.0
+    ],
+    [
+     "AlfaClub",
+     0.02,
+     376.6
+    ],
+    [
+     "Amigo",
+     0.0,
+     24.6
+    ],
+    [
+     "GreenTown",
+     0.0,
+     -26.5
+    ]
+   ]
+  },
+  "Cross Chain Bridge": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 4,
+   "top": []
+  },
+  "Lending": {
+   "now_M": 2.8,
+   "ago_M": 0.1,
+   "chg_pct": 3637.8,
+   "n": 4,
+   "top": [
+    [
+     "Omnipair",
+     2.36,
+     47.6
+    ],
+    [
+     "Secured Finance Lending",
+     0.29,
+     23.0
+    ],
+    [
+     "Curve LlamaLend",
+     0.11,
+     -69.9
+    ],
+    [
+     "Ammalgam DLEX",
+     0.05,
+     74.2
+    ]
+   ]
+  },
+  "Launchpad": {
+   "now_M": 7652.4,
+   "ago_M": 179.2,
+   "chg_pct": 4169.6,
+   "n": 92,
+   "top": [
+    [
+     "pump.fun",
+     2882.22,
+     15.1
+    ],
+    [
+     "Pons V2",
+     2452.97,
+     1505
+    ],
+    [
+     "StonkFun",
+     648.81,
+     0
+    ],
+    [
+     "Flap sh",
+     577.95,
+     -20.0
+    ],
+    [
+     "Meteora Dynamic Bonding Curve",
+     418.06,
+     109.0
+    ],
+    [
+     "LaunchLab",
+     323.61,
+     2014.0
+    ],
+    [
+     "four.meme",
+     218.45,
+     84.9
+    ],
+    [
+     "Genius.fun",
+     47.83,
+     0
+    ]
+   ]
+  },
+  "OTC Marketplace": {
+   "now_M": 297.6,
+   "ago_M": 2.9,
+   "chg_pct": 10137.8,
+   "n": 3,
+   "top": [
+    [
+     "Figure Markets Exchange",
+     297.48,
+     -11.2
+    ],
+    [
+     "Whales Market",
+     0.08,
+     3326.7
+    ]
+   ]
+  },
+  "Trading App": {
+   "now_M": 17208.8,
+   "ago_M": 308.1,
+   "chg_pct": 5485.2,
+   "n": 9,
+   "top": [
+    [
+     "fomo Wallet",
+     7724.98,
+     174.8
+    ],
+    [
+     "GMGN",
+     6708.4,
+     144.8
+    ],
+    [
+     "Axiom",
+     2684.27,
+     25.0
+    ],
+    [
+     "Photon",
+     37.02,
+     -32.2
+    ],
+    [
+     "Ave.ai",
+     29.31,
+     56.1
+    ],
+    [
+     "moonshot.money",
+     13.73,
+     -13.8
+    ],
+    [
+     "o1.exchange Trading Terminal",
+     5.62,
+     18
+    ],
+    [
+     "Telemetry",
+     3.63,
+     18.1
+    ]
+   ]
+  },
+  "NftFi": {
+   "now_M": 2.0,
+   "ago_M": 0.1,
+   "chg_pct": 1322.4,
+   "n": 2,
+   "top": [
+    [
+     "StonkBrokers Anvil",
+     1.99,
+     -66.6
+    ]
+   ]
+  },
+  "CDP": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "AI Agents": {
+   "now_M": 4.4,
+   "ago_M": 0.2,
+   "chg_pct": 1883.2,
+   "n": 2,
+   "top": [
+    [
+     "Virtuals Protocol",
+     4.45,
+     -48.3
+    ]
+   ]
+  },
+  "Gaming": {
+   "now_M": 27.0,
+   "ago_M": 1.0,
+   "chg_pct": 2523.6,
+   "n": 4,
+   "top": [
+    [
+     "Bloom Trading Bot",
+     26.95,
+     32.8
+    ],
+    [
+     "Pixie Chess",
+     0.03,
+     11.4
+    ],
+    [
+     "TopStrike",
+     0.02,
+     -51.2
+    ]
+   ]
+  },
+  "Luck Games": {
+   "now_M": 11.6,
+   "ago_M": 0.2,
+   "chg_pct": 5304.5,
+   "n": 13,
+   "top": [
+    [
+     "Ape Church",
+     6.67,
+     42.0
+    ],
+    [
+     "Fake World Assets V2",
+     1.93,
+     0
+    ],
+    [
+     "Fake World Assets V1",
+     1.55,
+     -87.9
+    ],
+    [
+     "Suigar",
+     0.74,
+     45.2
+    ],
+    [
+     "death.fun",
+     0.42,
+     94.2
+    ],
+    [
+     "StonkBrokers Card Wall",
+     0.14,
+     0
+    ],
+    [
+     "PancakeSwap Lottery",
+     0.12,
+     72.8
+    ],
+    [
+     "NarBet",
+     0.0,
+     -83.3
+    ]
+   ]
+  },
+  "Physical TCG": {
+   "now_M": 302.0,
+   "ago_M": 12.7,
+   "chg_pct": 2272.7,
+   "n": 17,
+   "top": [
+    [
+     "Collector Crypt",
+     125.12,
+     -4.6
+    ],
+    [
+     "Courtyard",
+     97.99,
+     -30.2
+    ],
+    [
+     "Phygitals",
+     25.64,
+     64.1
+    ],
+    [
+     "Beezie",
+     23.91,
+     17.1
+    ],
+    [
+     "Jupiter Gacha",
+     18.18,
+     28.8
+    ],
+    [
+     "Gemint",
+     4.95,
+     17.2
+    ],
+    [
+     "Monster",
+     3.61,
+     -80.7
+    ],
+    [
+     "Pull.fun",
+     1.9,
+     -60.0
+    ]
+   ]
+  },
+  "Basis Trading": {
+   "now_M": 1.5,
+   "ago_M": 0.0,
+   "chg_pct": 10817.4,
+   "n": 1,
+   "top": [
+    [
+     "SMARDEX USDN",
+     1.47,
+     460.8
+    ]
+   ]
+  },
+  "Crypto Card Issuer": {
+   "now_M": 420.8,
+   "ago_M": 10.2,
+   "chg_pct": 4038.1,
+   "n": 20,
+   "top": [
+    [
+     "Nexo Card",
+     182.44,
+     55.8
+    ],
+    [
+     "EtherFi Cash Liquid",
+     124.57,
+     17.3
+    ],
+    [
+     "Karta Card",
+     49.01,
+     10.8
+    ],
+    [
+     "Plasma One",
+     24.31,
+     22.4
+    ],
+    [
+     "Kolo Card",
+     16.51,
+     23.0
+    ],
+    [
+     "Gnosis Pay",
+     7.53,
+     -5.4
+    ],
+    [
+     "Bleap Card",
+     4.68,
+     5.6
+    ],
+    [
+     "Spritz Card",
+     3.57,
+     -0.9
+    ]
+   ]
+  },
+  "Leveraged Farming": {
+   "now_M": 18.7,
+   "ago_M": 2.0,
+   "chg_pct": 840.7,
+   "n": 1,
+   "top": [
+    [
+     "Yield Basis",
+     18.71,
+     -45.8
+    ]
+   ]
+  },
+  "Interface": {
+   "now_M": 673.6,
+   "ago_M": 31.3,
+   "chg_pct": 2052.1,
+   "n": 33,
+   "top": [
+    [
+     "pump.fun Mobile App",
+     423.1,
+     66.6
+    ],
+    [
+     "Betmoar.fun",
+     89.22,
+     -4.5
+    ],
+    [
+     "Traderline Predictions",
+     39.99,
+     -14.9
+    ],
+    [
+     "Gate Predictions",
+     33.73,
+     -1.8
+    ],
+    [
+     "Outcome.xyz",
+     27.61,
+     1765.7
+    ],
+    [
+     "MetaMask Predictions",
+     10.76,
+     236.3
+    ],
+    [
+     "otomate.trade",
+     9.68,
+     4151.5
+    ],
+    [
+     "LiquidBots",
+     5.79,
+     -46.8
+    ]
+   ]
+  },
+  "Yield Lottery": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "Yield Aggregator": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": []
+  },
+  "Gamified Mining": {
+   "now_M": 14.4,
+   "ago_M": 0.2,
+   "chg_pct": 7680.4,
+   "n": 4,
+   "top": [
+    [
+     "SLVR",
+     14.35,
+     164.3
+    ]
+   ]
+  },
+  "Portfolio Tracker": {
+   "now_M": 0.0,
+   "ago_M": 0.0,
+   "chg_pct": null,
+   "n": 1,
+   "top": [
+    [
+     "DashsWallet",
+     0.01,
+     14693.5
+    ]
+   ]
+  }
+ }
+}

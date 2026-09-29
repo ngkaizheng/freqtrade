@@ -1,0 +1,1 @@
+pdf	https://www.bis.org/publications/crypto-ecosystem-key-elements-and-risks.pdf	boe_imf_bis_crypto_ecosystem_2022

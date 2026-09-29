@@ -1,0 +1,924 @@
+SOURCE_URL: https://insights.deribit.com/education/cash-and-carry-trades/
+HTTP: 200  LEN: 131781
+
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-header-position-top" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script id="cookie-law-info-gcm-var-js">
+var _ckyGcm = {"status":true,"default_settings":[{"analytics":"denied","advertisement":"denied","functional":"denied","necessary":"granted","ad_user_data":"denied","ad_personalization":"denied","regions":"All"}],"wait_for_update":2000,"url_passthrough":false,"ads_data_redaction":false};
+</script>
+<script id="cookie-law-info-gcm-js" type="text/javascript" src="https://insights.deribit.com/wp-content/plugins/cookie-law-info/lite/frontend/js/gcm.min.js"></script>
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/5a856f0da5787ad4b9f8d09a/script.js"></script>
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.9 (Yoast SEO v27.9) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Cash and Carry Trades - Deribit Insights</title>
+	<meta name="description" content="In this lesson we will detail what a cash and carry trade is and how a trader can use it to capture the difference between the spot and futures price of bitcoin." />
+	<link rel="canonical" href="https://insights.deribit.com/education/cash-and-carry-trades/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Cash and Carry Trades" />
+	<meta property="og:description" content="In this lesson we will detail what a cash and carry trade is and how a trader can use it to capture the difference between the spot and futures price of bitcoin." />
+	<meta property="og:url" content="https://insights.deribit.com/education/cash-and-carry-trades/" />
+	<meta property="og:site_name" content="Deribit Insights" />
+	<meta property="article:published_time" content="2020-12-28T11:35:56+00:00" />
+	<meta property="article:modified_time" content="2021-06-11T06:24:19+00:00" />
+	<meta property="og:image" content="https://insights.deribit.com/wp-content/uploads/2020/12/Cash-And-Carry-Trades-FEA.jpg" />
+	<meta property="og:image:width" content="1086" />
+	<meta property="og:image:height" content="462" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Cryptarbitrage" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@DeribitInsights" />
+	<meta name="twitter:site" content="@DeribitInsights" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Cryptarbitrage" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="21 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#article","isPartOf":{"@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/"},"author":[{"@id":"https:\/\/insights.deribit.com\/#\/schema\/person\/b699f6b19114422b06fd74e2793d83f6"}],"headline":"Cash and Carry Trades","datePublished":"2020-12-28T11:35:56+00:00","dateModified":"2021-06-11T06:24:19+00:00","mainEntityOfPage":{"@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/"},"wordCount":4281,"publisher":{"@id":"https:\/\/insights.deribit.com\/#organization"},"image":{"@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#primaryimage"},"thumbnailUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2020\/12\/Cash-And-Carry-Trades-FEA.jpg","articleSection":["Education"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/","url":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/","name":"Cash and Carry Trades - Deribit Insights","isPartOf":{"@id":"https:\/\/insights.deribit.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#primaryimage"},"image":{"@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#primaryimage"},"thumbnailUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2020\/12\/Cash-And-Carry-Trades-FEA.jpg","datePublished":"2020-12-28T11:35:56+00:00","dateModified":"2021-06-11T06:24:19+00:00","description":"In this lesson we will detail what a cash and carry trade is and how a trader can use it to capture the difference between the spot and futures price of bitcoin.","breadcrumb":{"@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#primaryimage","url":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2020\/12\/Cash-And-Carry-Trades-FEA.jpg","contentUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2020\/12\/Cash-And-Carry-Trades-FEA.jpg","width":1086,"height":462},{"@type":"BreadcrumbList","@id":"https:\/\/insights.deribit.com\/education\/cash-and-carry-trades\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/insights.deribit.com\/"},{"@type":"ListItem","position":2,"name":"Cash and Carry Trades"}]},{"@type":"WebSite","@id":"https:\/\/insights.deribit.com\/#website","url":"https:\/\/insights.deribit.com\/","name":"Deribit Insights","description":"The best resource for Crypto Derivatives trading","publisher":{"@id":"https:\/\/insights.deribit.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/insights.deribit.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/insights.deribit.com\/#organization","name":"Deribit Insights","url":"https:\/\/insights.deribit.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/insights.deribit.com\/#\/schema\/logo\/image\/","url":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2023\/10\/wAQQAtl-_400x400-1.jpg","contentUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2023\/10\/wAQQAtl-_400x400-1.jpg","width":400,"height":400,"caption":"Deribit Insights"},"image":{"@id":"https:\/\/insights.deribit.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/x.com\/DeribitInsights"]},{"@type":"Person","@id":"https:\/\/insights.deribit.com\/#\/schema\/person\/b699f6b19114422b06fd74e2793d83f6","name":"Cryptarbitrage","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2021\/03\/cra-96x96.jpg3cba59b3567095acf35061cd32885bf1","url":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2021\/03\/cra-96x96.jpg","contentUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2021\/03\/cra-96x96.jpg","caption":"Cryptarbitrage"},"description":"Deribit Content - Spreadsheets, Options, Futures Premiums..","url":"https:\/\/insights.deribit.com\/author\/cryptarbitrage\/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Deribit Insights &raquo; Feed" href="https://insights.deribit.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Deribit Insights &raquo; Comments Feed" href="https://insights.deribit.com/comments/feed/" />
+					<link rel="shortcut icon" href="https://insights.deribit.com/wp-content/uploads/2025/08/fav-64.png" type="image/x-icon" />
+		
+					<!-- Apple Touch Icon -->
+			<link rel="apple-touch-icon" sizes="180x180" href="https://insights.deribit.com/wp-content/uploads/2025/08/fav180.png">
+		
+					<!-- Android Icon -->
+			<link rel="icon" sizes="192x192" href="https://insights.deribit.com/wp-content/uploads/2025/08/fav192.png">
+		
+					<!-- MS Edge Icon -->
+			<meta name="msapplication-TileImage" content="https://insights.deribit.com/wp-content/uploads/2025/08/fav270.png">
+				<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://insights.deribit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsights.deribit.com%2Feducation%2Fcash-and-carry-trades%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://insights.deribit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsights.deribit.com%2Feducation%2Fcash-and-carry-trades%2F&#038;format=xml" />
+					<meta name="description" content="In this lesson we will detail what a cash and carry trade is, and how a trader can use one to capture the difference between the spot price and the futures price of bitcoin. This type of trade is often referred to as basis trading.
+
+If you have ever traded futures contracts,"/>
+				
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:site_name" content="Deribit Insights"/>
+		<meta property="og:title" content="Cash and Carry Trades - Deribit Insights"/>
+				<meta property="og:description" content="In this lesson we will detail what a cash and carry trade is, and how a trader can use one to capture the difference between the spot price and the futures price of bitcoin. This type of trade is often referred to as basis trading.
+
+If you have ever traded futures contracts,"/>
+				<meta property="og:url" content="https://insights.deribit.com/education/cash-and-carry-trades/"/>
+										<meta property="article:published_time" content="2020-12-28T11:35:56+00:00"/>
+							<meta property="article:modified_time" content="2021-06-11T06:24:19+00:00"/>
+								<meta name="author" content="Cryptarbitrage"/>
+								<meta property="og:image" content="https://insights.deribit.com/wp-content/uploads/2020/12/Cash-And-Carry-Trades-FEA.jpg"/>
+		<meta property="og:image:width" content="1086"/>
+		<meta property="og:image:height" content="462"/>
+		<meta property="og:image:type" content="image/jpeg"/>
+				<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--awb-color-1: #ffffff;--wp--preset--color--awb-color-2: #f9f9fb;--wp--preset--color--awb-color-3: #f2f3f5;--wp--preset--color--awb-color-4: #e2e2e2;--wp--preset--color--awb-color-5: #0052ff;--wp--preset--color--awb-color-6: #4a4e57;--wp--preset--color--awb-color-7: #212934;--wp--preset--color--awb-color-8: #040507;--wp--preset--color--awb-color-custom-10: #65bc7b;--wp--preset--color--awb-color-custom-11: #222222;--wp--preset--color--awb-color-custom-12: #333333;--wp--preset--color--awb-color-custom-13: #f0f0f0;--wp--preset--color--awb-color-custom-14: #9ea0a4;--wp--preset--color--awb-color-custom-15: rgba(242,243,245,0.7);--wp--preset--color--awb-color-custom-16: rgba(242,243,245,0.8);--wp--preset--color--awb-color-custom-17: rgba(255,255,255,0.8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 12px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--xlarge: 32px;--wp--preset--font-size--huge: 48px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-color{color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-color{color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-color{color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-color{color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-color{color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-color{color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-color{color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-color{color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-10-color{color: var(--wp--preset--color--awb-color-custom-10) !important;}.has-awb-color-custom-11-color{color: var(--wp--preset--color--awb-color-custom-11) !important;}.has-awb-color-custom-12-color{color: var(--wp--preset--color--awb-color-custom-12) !important;}.has-awb-color-custom-13-color{color: var(--wp--preset--color--awb-color-custom-13) !important;}.has-awb-color-custom-14-color{color: var(--wp--preset--color--awb-color-custom-14) !important;}.has-awb-color-custom-15-color{color: var(--wp--preset--color--awb-color-custom-15) !important;}.has-awb-color-custom-16-color{color: var(--wp--preset--color--awb-color-custom-16) !important;}.has-awb-color-custom-17-color{color: var(--wp--preset--color--awb-color-custom-17) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-background-color{background-color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-background-color{background-color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-background-color{background-color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-background-color{background-color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-background-color{background-color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-background-color{background-color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-background-color{background-color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-background-color{background-color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-10-background-color{background-color: var(--wp--preset--color--awb-color-custom-10) !important;}.has-awb-color-custom-11-background-color{background-color: var(--wp--preset--color--awb-color-custom-11) !important;}.has-awb-color-custom-12-background-color{background-color: var(--wp--preset--color--awb-color-custom-12) !important;}.has-awb-color-custom-13-background-color{background-color: var(--wp--preset--color--awb-color-custom-13) !important;}.has-awb-color-custom-14-background-color{background-color: var(--wp--preset--color--awb-color-custom-14) !important;}.has-awb-color-custom-15-background-color{background-color: var(--wp--preset--color--awb-color-custom-15) !important;}.has-awb-color-custom-16-background-color{background-color: var(--wp--preset--color--awb-color-custom-16) !important;}.has-awb-color-custom-17-background-color{background-color: var(--wp--preset--color--awb-color-custom-17) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-border-color{border-color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-border-color{border-color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-border-color{border-color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-border-color{border-color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-border-color{border-color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-border-color{border-color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-border-color{border-color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-border-color{border-color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-10-border-color{border-color: var(--wp--preset--color--awb-color-custom-10) !important;}.has-awb-color-custom-11-border-color{border-color: var(--wp--preset--color--awb-color-custom-11) !important;}.has-awb-color-custom-12-border-color{border-color: var(--wp--preset--color--awb-color-custom-12) !important;}.has-awb-color-custom-13-border-color{border-color: var(--wp--preset--color--awb-color-custom-13) !important;}.has-awb-color-custom-14-border-color{border-color: var(--wp--preset--color--awb-color-custom-14) !important;}.has-awb-color-custom-15-border-color{border-color: var(--wp--preset--color--awb-color-custom-15) !important;}.has-awb-color-custom-16-border-color{border-color: var(--wp--preset--color--awb-color-custom-16) !important;}.has-awb-color-custom-17-border-color{border-color: var(--wp--preset--color--awb-color-custom-17) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-xlarge-font-size{font-size: var(--wp--preset--font-size--xlarge) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://insights.deribit.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7' media='all' />
+<link rel='stylesheet' id='blog-spoiler-style-css' href='https://insights.deribit.com/wp-content/plugins/widget-for-co-authors-master/blog-spoiler.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://insights.deribit.com/wp-includes/css/dashicons.min.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='learndash-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/src/assets/dist/css/styles.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='jquery-dropdown-css-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/assets/css/jquery.dropdown.min.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='learndash_lesson_video-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_lesson_video.min.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='learndash-admin-bar-css' href='https://insights.deribit.com/wp-content/plugins/sfwd-lms/src/assets/dist/css/admin-bar/styles.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' media='all' />
+<link rel='stylesheet' id='learndash-front-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=4.21.5' media='all' />
+<style id="learndash-front-inline-css">
+		.learndash-wrapper .ld-item-list .ld-item-list-item.ld-is-next,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label:focus-within {
+			border-color: #5966ef;
+		}
+
+		/*
+		.learndash-wrapper a:not(.ld-button):not(#quiz_continue_link):not(.ld-focus-menu-link):not(.btn-blue):not(#quiz_continue_link):not(.ld-js-register-account):not(#ld-focus-mode-course-heading):not(#btn-join):not(.ld-item-name):not(.ld-table-list-item-preview):not(.ld-lesson-item-preview-heading),
+		 */
+
+		.learndash-wrapper .ld-breadcrumbs a,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-reverse,
+		.learndash-wrapper .ld-icon-certificate,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-login .ld-modal-heading,
+		#wpProQuiz_user_content a,
+		.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover,
+		.learndash-wrapper .ld-focus-comments__heading-actions .ld-expand-button,
+		.learndash-wrapper .ld-focus-comments__heading a,
+		.learndash-wrapper .ld-focus-comments .comment-respond a,
+		.learndash-wrapper .ld-focus-comment .ld-comment-reply a.comment-reply-link:hover,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-focus-comment.bypostauthor>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper {
+			background-color:rgba(89, 102, 239, 0.03) !important;
+		}
+
+
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after {
+			background: #5966ef !important;
+		}
+
+
+
+		.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-status-incomplete,
+		.learndash-wrapper .ld-focus-comment.bypostauthor:not(.ptype-sfwd-assignment) >.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper>.ld-comment-avatar img {
+			border-color: #5966ef !important;
+		}
+
+
+
+		.learndash-wrapper .ld-loading::before {
+			border-top:3px solid #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-button:hover:not([disabled]):not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		#learndash-tooltips .ld-tooltip:after,
+		#learndash-tooltips .ld-tooltip,
+		.ld-tooltip:not(.ld-tooltip--modern) [role="tooltip"],
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .btn-join:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-button:not([disabled]):not(.ld-button-reverse):not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:not([disabled]),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not([disabled]):not(.wpProQuiz_button_reShowQuestion):not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:not([disabled]),
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:not([disabled]),
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:not([disabled]),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:not([disabled]),
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:not([disabled]),
+		#wpProQuiz_user_content table.wp-list-table thead th,
+		#wpProQuiz_overlay_close:not([disabled]),
+		.learndash-wrapper .ld-expand-button.ld-button-alternate:not([disabled]) .ld-icon {
+			background-color: #5966ef !important;
+			color: #ffffff;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:not([disabled]):not(:hover):not(:focus) .ld-icon {
+			background-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:hover .ld-icon,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:focus .ld-icon {
+			border-color: #5966ef;
+			color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-button:focus:not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .btn-join:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):focus:not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:focus,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:focus,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:focus {
+			opacity: 0.75; /* Replicates the hover/focus states pre-4.21.3. */
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-button:hover:not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .btn-join:hover:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:hover:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:hover,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):hover:not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:hover,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:hover,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:hover,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:hover {
+			background-color: #5966ef; /* Replicates the hover/focus states pre-4.21.3. */
+			opacity: 0.85; /* Replicates the hover/focus states pre-4.21.3. */
+		}
+
+		.learndash-wrapper .ld-item-list .ld-item-search .ld-closer:focus {
+			border-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items:before {
+			border-bottom-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-button.ld-button-transparent:hover {
+			background: transparent !important;
+		}
+
+		.learndash-wrapper .ld-button.ld-button-transparent:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-alternate,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			background-color:transparent !important;
+		}
+
+		.learndash-wrapper .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		.learndash-wrapper .ld-button.ld-button-reverse:hover,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon.ld-icon-certificate,
+		.learndash-wrapper .ld-alert-warning .ld-button,
+		.learndash-wrapper .ld-primary-background.ld-status {
+			color:white !important;
+		}
+
+		.learndash-wrapper .ld-status.ld-status-unlocked {
+			background-color: rgba(89,102,239,0.2) !important;
+			color: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_addToplist {
+			background-color: rgba(89,102,239,0.1) !important;
+			border: 1px solid #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTable th {
+			background: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTrOdd {
+			background-color: rgba(89,102,239,0.1) !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewDiv li.wpProQuiz_reviewQuestionTarget {
+			background-color: #5966ef !important;
+		}
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
+			background-color: #5966ef !important;
+		}
+		
+		.learndash-wrapper #quiz_continue_link,
+		.learndash-wrapper .ld-secondary-background,
+		.learndash-wrapper .learndash_mark_complete_button,
+		.learndash-wrapper #learndash_mark_complete_button,
+		.learndash-wrapper .ld-status-complete,
+		.learndash-wrapper .ld-alert-success .ld-button,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon {
+			background-color: #5966ef !important;
+		}
+
+		.learndash-wrapper #quiz_continue_link:focus,
+		.learndash-wrapper .learndash_mark_complete_button:focus,
+		.learndash-wrapper #learndash_mark_complete_button:focus,
+		.learndash-wrapper .ld-alert-success .ld-button:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .wpProQuiz_content a#quiz_continue_link {
+			background-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content a#quiz_continue_link:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .course_progress .sending_progress_bar {
+			background: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:hover, .learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:hover {
+			background-color: #5966ef !important;
+			opacity: 0.75;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-secondary-color-hover:hover,
+		.learndash-wrapper .ld-secondary-color,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete:after {
+			color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-secondary-in-progress-icon {
+			border-left-color: #5966ef !important;
+			border-top-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-alert-success {
+			border-color: #5966ef;
+			background-color: transparent !important;
+			color: #5966ef;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewQuestion li.wpProQuiz_reviewQuestionSolved,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_box li.wpProQuiz_reviewQuestionSolved {
+			background-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content  .wpProQuiz_reviewLegend span.wpProQuiz_reviewColor_Answer {
+			background-color: #5966ef !important;
+		}
+
+		
+/*# sourceURL=learndash-front-inline-css */
+</style>
+<link rel='stylesheet' id='child-style-css' href='https://insights.deribit.com/wp-content/themes/Avada-Child-Theme/style.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='fusion-dynamic-css-css' href='https://insights.deribit.com/wp-content/uploads/fusion-styles/288a37ee0403bad6e376854661803ae8.min.css?ver=3.12.1' media='all' />
+<script id="jquery-core-js" src="https://insights.deribit.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://insights.deribit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://insights.deribit.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://insights.deribit.com/wp-json/wp/v2/posts/310" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://insights.deribit.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://insights.deribit.com/?p=310' />
+<meta name="generator" content="WPML ver:4.9.6 stt:59,61,1,28,29,42,45,2,57;" />
+<link rel="preload" href="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="//insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="//insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="//insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin><style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style>		<script type="text/javascript">
+			var doc = document.documentElement;
+			doc.setAttribute( 'data-useragent', navigator.userAgent );
+		</script>
+		<!-- Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JQ8MMVJ');
+</script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80659621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-80659621-1');
+</script>
+	</head>
+
+<body class="wp-singular post-template-default single single-post postid-310 single-format-standard wp-theme-Avada wp-child-theme-Avada-Child-Theme fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-no avada-image-rollover-yes avada-image-rollover-direction-center_horiz fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow- layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-classic fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-clean fusion-main-menu-search-overlay fusion-avatar-circle avada-dropdown-styles avada-blog-layout-grid avada-blog-archive-layout-grid avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-mobile-menu-search avada-has-main-nav-search-icon avada-has-breadcrumb-mobile-hidden avada-has-titlebar-hide avada-header-border-color-full-transparent avada-has-pagination-width_height avada-flyout-menu-direction-fade avada-ec-views-v1" data-awb-post-id="310">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="boxed-wrapper">
+		
+		<div id="wrapper" class="fusion-wrapper">
+			<div id="home" style="position:relative;top:-1px;"></div>
+							
+					
+			<header class="fusion-header-wrapper">
+				<div class="fusion-header-v1 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-classic">
+					<div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+	<div class="fusion-row">
+					<div class="fusion-logo" data-margin-top="32px" data-margin-bottom="30px" data-margin-left="0px" data-margin-right="0px">
+			<a class="fusion-logo-link"  href="https://insights.deribit.com/" >
+
+						<!-- standard logo -->
+			<img src="https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx1-2.png" srcset="https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx1-2.png 1x, https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx2-3.png 2x" width="102" height="25" style="max-height:25px;height:auto;" alt="Deribit Insights Logo" data-retina_logo_url="https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx2-3.png" class="fusion-standard-logo" />
+
+			
+					</a>
+		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><div class="fusion-overlay-search">		<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-clean" method="get" action="https://insights.deribit.com/">
+			<div class="fusion-search-form-content">
+
+				
+				<div class="fusion-search-field search-field">
+					<label><span class="screen-reader-text">Search for:</span>
+													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-0" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
+											</label>
+				</div>
+				<div class="fusion-search-button search-button">
+					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
+										<div class="fusion-slider-loading"></div>
+									</div>
+
+				
+			</div>
+
+
+							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
+			
+		<input type='hidden' name='lang' value='en' /></form>
+		<div class="fusion-search-spacer"></div><a href="#" role="button" aria-label="Close Search" class="fusion-close-search"></a></div><ul id="menu-main-deribit-home" class="fusion-menu"><li  id="menu-item-161"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-161 fusion-dropdown-menu"  data-item-id="161"><a  class="fusion-bar-highlight"><span class="menu-text">Categories</span> <span class="fusion-caret"><i class="fusion-dropdown-indicator" aria-hidden="true"></i></span></a><ul class="sub-menu"><li  id="menu-item-167"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167 fusion-dropdown-submenu" ><a  href="/industry/" class="fusion-bar-highlight"><span>Industry</span></a></li><li  id="menu-item-1250"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1250 fusion-dropdown-submenu" ><a  href="/option-flows" class="fusion-bar-highlight"><span>Option Flows</span></a></li><li  id="menu-item-165"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165 fusion-dropdown-submenu" ><a  href="/exchange-updates" class="fusion-bar-highlight"><span>Exchange Updates</span></a></li><li  id="menu-item-166"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166 fusion-dropdown-submenu" ><a  href="/market-research" class="fusion-bar-highlight"><span>Market Research</span></a></li><li  id="menu-item-163"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163 fusion-dropdown-submenu" ><a  href="/education" class="fusion-bar-highlight"><span>Education</span></a></li><li  id="menu-item-70519"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70519 fusion-dropdown-submenu" ><a  href="/crypto-options-unplugged/" class="fusion-bar-highlight"><span>Podcast</span></a></li><li  id="menu-item-85533"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85533 fusion-dropdown-submenu" ><a  href="/out-of-office" class="fusion-bar-highlight"><span>Out of Office</span></a></li></ul></li><li  id="menu-item-5245"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5245"  data-item-id="5245"><a  href="https://insights.deribit.com/options-course/" class="fusion-bar-highlight"><span class="menu-text">Options Course</span></a></li><li  id="menu-item-168"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168"  data-item-id="168"><a  href="/trading-tools" class="fusion-bar-highlight"><span class="menu-text">Trading Tools</span></a></li><li  id="menu-item-169"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"  data-item-id="169"><a  href="/partners" class="fusion-bar-highlight"><span class="menu-text">Partners</span></a></li><li  id="menu-item-10611"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10611"  data-item-id="10611"><a  href="/dev-hub" class="fusion-bar-highlight"><span class="menu-text">Dev Hub</span></a></li><li  id="menu-item-203"  class="2985028375 menu-item menu-item-type-custom menu-item-object-custom menu-item-203"  data-classes="2985028375" data-item-id="203"><a  target="_blank" rel="noopener noreferrer" href="https://support.deribit.com/hc/en-us" class="fusion-bar-highlight"><span class="menu-text">KB</span></a></li><li  id="menu-item-wpml-ls-2-en"  class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-en"  data-classes="menu-item" data-item-id="wpml-ls-2-en"><a  href="https://insights.deribit.com/education/cash-and-carry-trades/" class="fusion-bar-highlight wpml-ls-link" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-2-en" aria-current="page"><span class="menu-text"><img
+            class="wpml-ls-flag"
+            src="https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt=""
+            loading="lazy"
+            
+            
+    /><span class="wpml-ls-native" lang="en">English</span></span></a></li><li class="fusion-custom-menu-item fusion-main-menu-search fusion-search-overlay"><a class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Search" data-title="Search" title="Search" role="button" aria-expanded="false"></a></li></ul></nav><div class="fusion-mobile-navigation"><ul id="menu-main-deribit-home-1" class="fusion-mobile-menu"><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-161 fusion-dropdown-menu"  data-item-id="161"><a  class="fusion-bar-highlight"><span class="menu-text">Categories</span> <span class="fusion-caret"><i class="fusion-dropdown-indicator" aria-hidden="true"></i></span></a><ul class="sub-menu"><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167 fusion-dropdown-submenu" ><a  href="/industry/" class="fusion-bar-highlight"><span>Industry</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1250 fusion-dropdown-submenu" ><a  href="/option-flows" class="fusion-bar-highlight"><span>Option Flows</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165 fusion-dropdown-submenu" ><a  href="/exchange-updates" class="fusion-bar-highlight"><span>Exchange Updates</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166 fusion-dropdown-submenu" ><a  href="/market-research" class="fusion-bar-highlight"><span>Market Research</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163 fusion-dropdown-submenu" ><a  href="/education" class="fusion-bar-highlight"><span>Education</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70519 fusion-dropdown-submenu" ><a  href="/crypto-options-unplugged/" class="fusion-bar-highlight"><span>Podcast</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85533 fusion-dropdown-submenu" ><a  href="/out-of-office" class="fusion-bar-highlight"><span>Out of Office</span></a></li></ul></li><li   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5245"  data-item-id="5245"><a  href="https://insights.deribit.com/options-course/" class="fusion-bar-highlight"><span class="menu-text">Options Course</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168"  data-item-id="168"><a  href="/trading-tools" class="fusion-bar-highlight"><span class="menu-text">Trading Tools</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"  data-item-id="169"><a  href="/partners" class="fusion-bar-highlight"><span class="menu-text">Partners</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10611"  data-item-id="10611"><a  href="/dev-hub" class="fusion-bar-highlight"><span class="menu-text">Dev Hub</span></a></li><li   class="2985028375 menu-item menu-item-type-custom menu-item-object-custom menu-item-203"  data-classes="2985028375" data-item-id="203"><a  target="_blank" rel="noopener noreferrer" href="https://support.deribit.com/hc/en-us" class="fusion-bar-highlight"><span class="menu-text">KB</span></a></li><li   class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-en"  data-classes="menu-item" data-item-id="wpml-ls-2-en"><a  href="https://insights.deribit.com/education/cash-and-carry-trades/" class="fusion-bar-highlight wpml-ls-link" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-2-en" aria-current="page"><span class="menu-text"><img
+            class="wpml-ls-flag"
+            src="https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt=""
+            loading="lazy"
+            
+            
+    /><span class="wpml-ls-native" lang="en">English</span></span></a></li></ul></div>
+<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile"></nav>
+
+		
+<div class="fusion-clearfix"></div>
+<div class="fusion-mobile-menu-search">
+			<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-clean" method="get" action="https://insights.deribit.com/">
+			<div class="fusion-search-form-content">
+
+				
+				<div class="fusion-search-field search-field">
+					<label><span class="screen-reader-text">Search for:</span>
+													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-1" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
+											</label>
+				</div>
+				<div class="fusion-search-button search-button">
+					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
+										<div class="fusion-slider-loading"></div>
+									</div>
+
+				
+			</div>
+
+
+							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
+			
+		<input type='hidden' name='lang' value='en' /></form>
+		</div>
+			</div>
+</div>
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+								
+							<div id="sliders-container" class="fusion-slider-visibility">
+					</div>
+				
+					
+							
+			
+						<main id="main" class="clearfix ">
+				<div class="fusion-row" style="">
+
+<section id="content" style="width: 100%;">
+	
+					<article id="post-310" class="post post-310 type-post status-publish format-standard has-post-thumbnail hentry category-education">
+															<div class="fusion-post-title-meta-wrap">
+												<h1 class="entry-title fusion-post-title">Cash and Carry Trades</h1>									<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper"><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated rich-snippet-hidden">2021-06-11T06:24:19+00:00</span><span>December 28, 2020</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/education/" rel="category tag">Education</a><span class="fusion-inline-sep">|</span></div></div>					</div>
+							
+									
+						<div class="post-content">
+				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-video fusion-youtube" style="--awb-max-width:1000px;--awb-max-height:563px;--awb-align-self:center;--awb-width:100%;"><div class="video-shortcode"><div class="fluid-width-video-wrapper" style="padding-top:56.3%;" ><iframe title="YouTube video player 1" src="https://www.youtube.com/embed/Udi8iWZAVg0?wmode=transparent&autoplay=0&oida=1" width="1000" height="563" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe></div></div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--link_color: #15c8b1;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:30px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-1"><p>In this lesson we will detail what a cash and carry trade is, and how a trader can use one to capture the difference between the spot price and the futures price of bitcoin. This type of trade is often referred to as basis trading.</p>
+<p>If you have ever traded futures contracts, you will no doubt have noticed that they tend to trade at a slightly different price than spot markets. Although it is possible for the futures price to trade below the spot price (also known as backwardation), it is far more common for the futures to be trading at a price higher than the spot price (also known as contango). When the market is in contango, it is possible for a trader to capture this premium on the futures contract by executing a cash and carry trade.</p>
+<p>In a cash and carry trade the trader will purchase the underlying asset (e.g. bitcoin) in a spot market. They will then short the same asset using a dated futures contract that is currently trading at a premium. This corresponding short position means there is no exposure to price movements in the underlying asset. All the trader then needs to do is wait for the difference between the spot price and futures price to decrease.</p>
+<h2>Why does this trade make a profit?</h2>
+<p>The big advantage the trader has when executing a cash and carry trade is the knowledge that the futures contract has a fixed expiry date, at which time the futures contract will be settled using the spot price (or some index that is an average of spot prices). So they know that by the expiry date at the latest, the premium of the futures contract will reach zero.</p>
+<p>No trader can know for sure exactly what the price of an asset will be on any given date in the future, but they do know that the difference between the spot price and the futures price will tend towards zero as the time to expiry approaches zero. In fact it’s not uncommon for it to reach zero or close to it well before the expiry date, allowing the trader to book the profit early. More on that later.</p>
+<p>The following chart displays the percentage premium of the Deribit December 2019 bitcoin futures contract (BTC-27DEC19) over spot prices. This chart shows the 6 months leading up to 27th December 2019, which is when the contract expired.</p>
+<p><img fetchpriority="high" decoding="async" class="size-full wp-image-553 alignnone" src="https://wordpress.deribit.com/wp-content/uploads/2020/12/88249.png" alt="" width="906" height="463" srcset="https://insights.deribit.com/wp-content/uploads/2020/12/88249-200x102.png 200w, https://insights.deribit.com/wp-content/uploads/2020/12/88249-300x153.png 300w, https://insights.deribit.com/wp-content/uploads/2020/12/88249-400x204.png 400w, https://insights.deribit.com/wp-content/uploads/2020/12/88249-600x307.png 600w, https://insights.deribit.com/wp-content/uploads/2020/12/88249-768x392.png 768w, https://insights.deribit.com/wp-content/uploads/2020/12/88249-800x409.png 800w, https://insights.deribit.com/wp-content/uploads/2020/12/88249.png 906w" sizes="(max-width: 906px) 100vw, 906px" /></p>
+<p>As you can see the premium moves around quite a bit over the life of the contract, but clearly tends towards zero as the days to expiry decreases. This is a very typical looking futures premium chart for bitcoin, so if you study other futures dates you will see similar behaviour.</p>
+<p>The aim of a cash and carry trade is to open the trade when there is a nice premium on the futures contract (the peaks on the chart), wait until the premium decreases to zero, and then close it. In doing so, the trader will have captured the premium while never being exposed to price movements of the asset itself.</p>
+<h2 class="western">A practical example</h2>
+<p>At time of writing, the BTC spot price on Coinbase was trading at around $8,800 while the June futures contract on Deribit was trading at around $9,190.</p>
+<p>As you can see on the chart this results in a dollar premium of about $390 and a percentage premium of about 4.4%.</p>
+<p><img decoding="async" class="size-full wp-image-554 alignnone" src="https://wordpress.deribit.com/wp-content/uploads/2020/12/9247900.png" alt="" width="904" height="549" srcset="https://insights.deribit.com/wp-content/uploads/2020/12/9247900-200x121.png 200w, https://insights.deribit.com/wp-content/uploads/2020/12/9247900-300x182.png 300w, https://insights.deribit.com/wp-content/uploads/2020/12/9247900-400x243.png 400w, https://insights.deribit.com/wp-content/uploads/2020/12/9247900-600x364.png 600w, https://insights.deribit.com/wp-content/uploads/2020/12/9247900-768x466.png 768w, https://insights.deribit.com/wp-content/uploads/2020/12/9247900-800x486.png 800w, https://insights.deribit.com/wp-content/uploads/2020/12/9247900.png 904w" sizes="(max-width: 904px) 100vw, 904px" /></p>
+<p>You can learn how to create these charts in this <a href="/education/deribit-futures-premium-charts-using-trading-view/" target="_blank" rel="noopener">Deribit blog post</a>.</p>
+<p>So let’s look at an example of how to capture that premium.</p>
+<p>The execution of a cash and carry trade is relatively simple but involves two separate transactions.<br />
+1) Purchase the underlying asset.<br />
+2) Short a futures contract for the same asset.</p>
+<p>Here the trader purchases 1 bitcoin for $8,800 on the spot exchange. They then short the June futures contract on Deribit with a position size of 1 bitcoin, which on the June futures contract is $9,190.</p>
+<p>All that remains is to wait for the difference between these two prices to decrease, then the trade can be closed for a profit. It doesn’t matter whether the underlying price goes up or down overall, just that the difference between the future price and spot price decreases.</p>
+<p>Let’s assume the trader has waited a few weeks since opening the position, and the premium has now reduced to zero i.e. the June future price equals the spot price. The following chart displays the total value of the trader’s funds at the end of this trade in both USD and BTC, depending on what the underlying price of bitcoin is when the trade is closed.</p>
+<p><img decoding="async" class="size-full wp-image-555 alignnone" src="https://wordpress.deribit.com/wp-content/uploads/2020/12/33947.png" alt="" width="880" height="521" srcset="https://insights.deribit.com/wp-content/uploads/2020/12/33947-200x118.png 200w, https://insights.deribit.com/wp-content/uploads/2020/12/33947-300x178.png 300w, https://insights.deribit.com/wp-content/uploads/2020/12/33947-400x237.png 400w, https://insights.deribit.com/wp-content/uploads/2020/12/33947-600x355.png 600w, https://insights.deribit.com/wp-content/uploads/2020/12/33947-768x455.png 768w, https://insights.deribit.com/wp-content/uploads/2020/12/33947-800x474.png 800w, https://insights.deribit.com/wp-content/uploads/2020/12/33947.png 880w" sizes="(max-width: 880px) 100vw, 880px" /></p>
+<p>The trader initially used their $8,800 to purchase 1 BTC. They then used this 1 BTC as collateral to open a short on the Deribit June future. As you can see on the chart, this results in the amount of BTC the trader has at the end of the trade varying according to where the price of bitcoin moves. If the price moves down, the short position will of course make a profit, and if the price moves up the short will make a loss.</p>
+<p>Notice though that the total value when measured in USD is always $9,190 no matter where the price moves.</p>
+<p>For example, if by the time the trader closes the positions, the BTC price is $5,000, then the futures short will have made a profit of 0.838 BTC (formula included below) resulting in a total balance of 1.838 BTC. As the BTC price is now $5,000, the trader can sell this 1.838 BTC for $9,190. This is calculated as 5000 * 1.838 = 9190.</p>
+<p>If instead the BTC price had risen to $10,000 before the premium reaches zero, then the futures short will have made a loss of 0.081 BTC, resulting in a total balance of 0.919 BTC. As the BTC price is now $10,000, the trader can sell this 0.919 BTC for $9,190. This is calculated as 10000 * 0.919 = 9190.</p>
+<p>PNL in BTC for the futures short can be calculated as:</p>
+<p><img decoding="async" class="size-full wp-image-556 alignnone" src="https://wordpress.deribit.com/wp-content/uploads/2020/12/247.png" alt="" width="579" height="67" srcset="https://insights.deribit.com/wp-content/uploads/2020/12/247-200x23.png 200w, https://insights.deribit.com/wp-content/uploads/2020/12/247-300x35.png 300w, https://insights.deribit.com/wp-content/uploads/2020/12/247-400x46.png 400w, https://insights.deribit.com/wp-content/uploads/2020/12/247.png 579w" sizes="(max-width: 579px) 100vw, 579px" /></p>
+<h2>When we say close the cash and carry position, what exactly do we mean?</h2>
+<p>To open the trade, the trader used USD to purchase BTC, and they also shorted the BTC futures contract. Closing this position then, involves buying back the futures position, and selling all the remaining BTC back into USD.<br />
+In this example, the trader was short the futures contract on Deribit with a position size of $9,190, so they close this leg of the position by buying $9,190 of the same futures contract, reducing their position to zero.<br />
+Then they sell all the remaining BTC back into USD on a spot exchange. As we showed previously, as long as they close the cash and carry when the futures premium is at zero, the BTC will be worth exactly $9,190.</p>
+<p>The trader began with $8,800, and no matter what price BTC moved to over the course of the trade, they are left with $9,190 at the end of it. They have therefore successfully captured the $390 premium, all while taking no directional risk.</p>
+<h2 class="western">Some things to note about cash and carry trades</h2>
+<p>There is very little risk involved in this kind of trade. Although you have purchased the asset, your short completely hedges this long exposure, so you’re not exposed to price movements. However, it’s worth bearing in mind that you do have at least some of your funds stored on an exchange to use as collateral for the futures short, so you do have some counterparty risk.</p>
+<p>This is where leverage comes in handy. By utilising the leverage available you do not need to move 100% of the BTC onto Deribit to use as collateral for the futures short. You can store whatever you’re not using as collateral for the futures position in your own wallet. That does not mean it’s a good idea to open the short position using the maximum leverage available though, because you don’t want the liquidation price of your short to be too close to the current price.</p>
+<p>The higher the percentage of your funds you keep on the exchange as collateral for the short, the higher your liquidation price will be. At the extreme if you place 100% of the funds on the exchange, you will have no liquidation price. For more on this see our lesson on “Hedging USD Value By Shorting 1x” <a href="/education/hedging-usd-value-by-shorting-1x/" target="_blank" rel="noopener">here</a>.</p>
+<p>Placing just 33% of the funds on the exchange will still give you a liquidation price 50% higher than the current price. This should be plenty of room to give you time to deposit more of the funds if it becomes necessary, without having to have all your funds in someone else&#8217;s possession.</p>
+<h2 class="western">When to close a cash and carry trade</h2>
+<p>In our example the trader waited until the premium reached precisely zero, and indeed this is the simplest and most common way to execute these trades. This will happen at expiry regardless, but it is often not necessary to hold the position into expiry. Sometimes the premium of the futures contract over the spot price will move down to zero (or close to it) well before the expiry date, and even become negative on occasion, giving the opportunity for extra profit.</p>
+<p>When the premium reaches zero well before expiry, the trader can close just as they would at expiry. Buy back the futures position and sell all the remaining BTC into USD.</p>
+<p>When the futures premium becomes negative, this means the futures contract is trading at a discount i.e. the futures price is lower than the spot price. If a trader still has a cash and carry trade open, this is the perfect time to close it!</p>
+<p>A great example of this occurred on 24th September 2019. The following is the price action (based on the close of 15 minute candles) of the Deribit December 2019 bitcoin futures contract (BTC-27DEC19) and the Deribit BTC-Perpetual.</p>
+<p><img decoding="async" class="size-full wp-image-557 alignnone" src="https://wordpress.deribit.com/wp-content/uploads/2020/12/9249856.png" alt="" width="910" height="475" srcset="https://insights.deribit.com/wp-content/uploads/2020/12/9249856-200x104.png 200w, https://insights.deribit.com/wp-content/uploads/2020/12/9249856-300x157.png 300w, https://insights.deribit.com/wp-content/uploads/2020/12/9249856-400x209.png 400w, https://insights.deribit.com/wp-content/uploads/2020/12/9249856-600x313.png 600w, https://insights.deribit.com/wp-content/uploads/2020/12/9249856-768x401.png 768w, https://insights.deribit.com/wp-content/uploads/2020/12/9249856-800x418.png 800w, https://insights.deribit.com/wp-content/uploads/2020/12/9249856.png 910w" sizes="(max-width: 910px) 100vw, 910px" /></p>
+<p>As you can see, earlier in the day the futures contract was trading at a higher price, as usual. At a little after half past six the price of both instruments began to drop fast. Importantly for any traders with cash and carry trades already on, the futures price dropped several percent further than the perpetual and spot prices. This resulted in the following percentage premium/discount during that same time period:</p>
+<p><img decoding="async" class="size-full wp-image-558 alignnone" src="https://wordpress.deribit.com/wp-content/uploads/2020/12/983597.png" alt="" width="904" height="459" srcset="https://insights.deribit.com/wp-content/uploads/2020/12/983597-200x102.png 200w, https://insights.deribit.com/wp-content/uploads/2020/12/983597-300x152.png 300w, https://insights.deribit.com/wp-content/uploads/2020/12/983597-400x203.png 400w, https://insights.deribit.com/wp-content/uploads/2020/12/983597-600x305.png 600w, https://insights.deribit.com/wp-content/uploads/2020/12/983597-768x390.png 768w, https://insights.deribit.com/wp-content/uploads/2020/12/983597-800x406.png 800w, https://insights.deribit.com/wp-content/uploads/2020/12/983597.png 904w" sizes="(max-width: 904px) 100vw, 904px" /></p>
+<p>This discount on the futures contract lasted quite a while, and so presented the perfect opportunity for any traders who were still in any cash and carry trades, to close them three months before the contract expired, and for several percent extra if timed well.</p>
+<p>This type of quick change in the premium will typically happen when the price drops far and fast. You may wish to set alerts that let you know when this type of price action is occurring.</p>
+<h2 class="western">Rolling forward vs closing</h2>
+<p>We mentioned earlier that to close the trade, you buy back the futures short position then sell all the remaining BTC back into USD. It’s worth mentioning though that if there is already another attractive cash and carry trade available on the next futures contract, you can instead skip out the selling it back into USD step, and open a new short on the next futures contract instead.</p>
+<p>As the trading fees on derivatives exchanges tend to be lower than that of spot exchanges, and you will also avoid having to do any transfers/withdrawals, rolling the position to the next month will often work out cheaper than closing the position entirely.</p>
+<p>Whether rolling it forward is attractive or not, will of course depend on what sort of percentage is available on the available futures contracts when you wish to close the current trade. You will also have to decide whether you want to tie up your funds for another few weeks or months.</p>
+<h2 class="western">Extra thoughts on cash and carry trades</h2>
+<p>This type of trade is capital intensive as you’re not using leverage (except to minimise counterparty risk), and the percentages you’re likely to make are far smaller than if you had instead made a correct prediction on price direction over the same time period.<br />
+The trade off being that you can’t be ‘wrong’ about a cash and carry trade. The futures premium will eventually close even if you have to wait until expiry for it to happen. So in comparison it is an extremely low risk trade.</p>
+<p>You’re effectively earning a few percent interest on your funds for the life of the trade, so to consider if the trade is worth it for you, you must consider the opportunity cost of having your capital tied up. For example, if you spot a cash and carry trade that is offering a 2% premium but the time to expiry is 9 months, you may be able to beat this by putting your capital to better use somewhere else.</p>
+<p>We mentioned earlier how it wasn’t necessary to keep 100% of the funds on the exchange where you’re shorting the future. Using leverage allows you to keep the rest of the funds somewhere else, for example on a hardware wallet like Trezor or Ledger. It is far preferable to keep the funds in your own wallet because you are in complete control of it at all times, and should you need to deposit any more of the funds to the exchange, you don’t have to wait for another exchange’s withdrawal processing times.</p>
+<p>When using leverage, there is also a reason why Deribit specifically is a great platform to place this type of trade, and that is the trading bandwidth limits that Deribit uses. In short, the trading bandwidth limits stop any trades that are outside a certain percentage band around the mark price from executing. This greatly reduces the severity of any temporary spikes like liquidation or stop loss cascades, as it stops them from moving more than a certain distance from the mark price.</p>
+<p>Not every exchange has this type of feature, and those that don’t represent a riskier proposition for using leverage. For example if your liquidation price is 50% above the current price, and you know the current trading bandwidth limit for the future on Deribit is say +/-8%, you know your position is safe even if there is a liquidation cascade on Deribit. As mentioned earlier though, this doesn’t mean using the absolute maximum leverage possible is wise. Give yourself some wiggle room.</p>
+<h2>Summary</h2>
+<p>Cash and carry trades are very simple, low risk trades, so as you would expect they usually offer relatively low percentage gains. However, while they are capital intensive, they are not time or effort intensive. With the help of alerts (or automation), you could spend as little as an hour per quarter actually executing this trade and still make a reasonable return, leaving you with plenty of time to spend doing other productive activities.</p>
+<p>So if you tend to have any funds sitting around in fiat or stable coins for any length of time, you should consider adding cash and carry trades to your repertoire.</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:30px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-2" style="--awb-font-size:14px;"><p><strong>AUTHOR(S)</strong></p>
+</div><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-bottom:30px;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:#f0f0f0;border-color:#f0f0f0;border-top-width:1px;"></div></div><div class="fusion-widget fusion-widget-element fusion-widget-area fusion-content-widget-area wpWidget-1 blog_widget" style="--awb-fusion-border-size:0px;--awb-fusion-border-style:solid;"><div class="widget widget_blog_widget">    <div class="block-item-text">
+  <input type="checkbox" hidden class="read-more-state" id="1">
+  <div class="read-more-wrap">
+    <p><img alt='' src='https://insights.deribit.com/wp-content/uploads/2021/03/cra-65x65.jpg' srcset='https://insights.deribit.com/wp-content/uploads/2021/03/cra-130x130.jpg 2x' class='avatar avatar-65 photo' height='65' width='65' />    <a href=https://insights.deribit.com/author/cryptarbitrage/>Cryptarbitrage</a></p>
+    <p class="read-more-target">
+    Deribit Content - Spreadsheets, Options, Futures Premiums..    </p>
+  </div>
+  <label for="1" class="read-more-trigger_closed">
+    <strong>+ Show profile</strong>
+  </label>
+  <label for="1" class="read-more-trigger_opened">
+    <strong>- Hide profile</strong>
+  </label>
+</div>
+    </div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:30px;--awb-margin-bottom:30px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-3" style="--awb-font-size:14px;"><p><strong>RECENT ARTICLES</strong></p>
+</div><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:#f0f0f0;border-color:#f0f0f0;border-top-width:1px;"></div></div><div class="fusion-recent-posts fusion-recent-posts-1 avada-container layout-default layout-columns-1 rcp"><section class="fusion-columns columns fusion-columns-1 columns-1"><article class="post fusion-column column col col-lg-12 col-md-12 col-sm-12"><div class="recent-posts-content"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated" style="display:none;">2026-06-25T16:51:20+00:00</span><h4 class="entry-title"><a href="https://insights.deribit.com/education/hype-options-on-deribit/">HYPE Options On Deribit</a></h4><p class="meta"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated" style="display:none;">2026-06-25T16:51:20+00:00</span><span>June 23, 2026</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/education/" rel="category tag">Education</a><span class="fusion-inline-sep">|</span></p></div></article><article class="post fusion-column column col col-lg-12 col-md-12 col-sm-12"><div class="recent-posts-content"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated" style="display:none;">2026-01-14T12:43:34+00:00</span><h4 class="entry-title"><a href="https://insights.deribit.com/education/trx-and-avax-options-launch-on-deribit/">AVAX and TRX Options Launch on Deribit</a></h4><p class="meta"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated" style="display:none;">2026-01-14T12:43:34+00:00</span><span>January 14, 2026</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/education/" rel="category tag">Education</a><span class="fusion-inline-sep">|</span></p></div></article><article class="post fusion-column column col col-lg-12 col-md-12 col-sm-12"><div class="recent-posts-content"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated" style="display:none;">2025-12-16T11:33:38+00:00</span><h4 class="entry-title"><a href="https://insights.deribit.com/education/zero-fees-on-hedge-legs/">Zero Fees On Hedge Legs</a></h4><p class="meta"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/cryptarbitrage/" rel="author">Cryptarbitrage</a></span></span><span class="updated" style="display:none;">2025-12-16T11:33:38+00:00</span><span>December 16, 2025</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/education/" rel="category tag">Education</a><span class="fusion-inline-sep">|</span></p></div></article></section></div></div></div></div></div>
+							</div>
+
+																											
+																	</article>
+	</section>
+						
+					</div>  <!-- fusion-row -->
+				</main>  <!-- #main -->
+				
+				
+				    <div id="footer-sidebar-1" class="footer-extra-title footer-extra" role="complementary">
+	<aside id="text-7" class="widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;">			<div class="textwidget"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:60px;--awb-padding-bottom:30px;--awb-background-color:#141519;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_3_4 3_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:2.56%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div class="fusion-text fusion-text-4" style="--awb-font-size:20px;--awb-text-color:#0052ff;"><div><strong>Join our Newsletter</strong></div>
+</div><div class="fusion-text fusion-text-5" style="--awb-text-color:#ffffff;"><div>Sign up and stay up to date with the latest news.</div>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_4 1_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:25%;--awb-margin-top-large:0px;--awb-spacing-right-large:7.68%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:7.68%;--awb-width-medium:25%;--awb-order-medium:0;--awb-spacing-right-medium:7.68%;--awb-spacing-left-medium:7.68%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div style="text-align:right;"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-1 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility" style="--button_margin-top:7px;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit1"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-separator fusion-no-medium-visibility fusion-no-large-visibility fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;width:100%;"></div><div ><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-2 fusion-button-default-span fusion-button-default-type fusion-no-medium-visibility fusion-no-large-visibility" style="--button_margin-bottom:10px;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit1"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-modal modal fade modal-1 newsletter-sign-up-deribit1" tabindex="-1" role="dialog" aria-labelledby="modal-heading-1" aria-hidden="true" style="--awb-border-color:var(--awb-color3);--awb-background:#f5f5f5;"><div class="modal-dialog modal-sm" role="document"><div class="modal-content fusion-modal-content"><div class="modal-header"><button class="close" type="button" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button><h3 class="modal-title" id="modal-heading-1" data-dismiss="modal" aria-hidden="true"></h3></div><div class="modal-body fusion-clearfix"><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "6378067",
+	formId: "a9e4a8e5-88e6-44c6-8340-7f3e5a16bb61"
+});
+</script></div></div></div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:0px;--awb-padding-bottom:0px;--awb-background-color:#141519;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.15);border-top-width:1px;"></div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:30px;--awb-padding-bottom:60px;--awb-background-color:#141519;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_3_4 3_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:2.56%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div class="fusion-text fusion-text-6" style="--awb-font-size:20px;--awb-text-color:#0052ff;"><div><strong>Exchange notifications via email</strong></div>
+</div><div class="fusion-text fusion-text-7" style="--awb-text-color:#ffffff;"><div>Get all Exchange notifications directly in your inbox.</div>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_4 1_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:25%;--awb-margin-top-large:0px;--awb-spacing-right-large:7.68%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:7.68%;--awb-width-medium:25%;--awb-order-medium:0;--awb-spacing-right-medium:7.68%;--awb-spacing-left-medium:7.68%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div style="text-align:right;"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-3 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility" style="--button_accent_color:var(--awb-color1);--button_border_color:#0052FF;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:#0052FF;--button_border_width-top:1px;--button_border_width-right:1px;--button_border_width-bottom:1px;--button_border_width-left:1px;--button_gradient_top_color:#141519;--button_gradient_bottom_color:#141519;--button_gradient_top_color_hover:#141519;--button_gradient_bottom_color_hover:#141519;--button_margin-top:7px;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit2"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-separator fusion-no-medium-visibility fusion-no-large-visibility fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;width:100%;"></div><div ><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-4 fusion-button-default-span fusion-button-default-type fusion-no-medium-visibility fusion-no-large-visibility" style="--button_accent_color:var(--awb-color1);--button_border_color:#0052FF;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:#0052FF;--button_border_width-top:1px;--button_border_width-right:1px;--button_border_width-bottom:1px;--button_border_width-left:1px;--button_gradient_top_color:#141519;--button_gradient_bottom_color:#141519;--button_gradient_top_color_hover:#141519;--button_gradient_bottom_color_hover:#141519;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit2"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-modal modal fade modal-2 newsletter-sign-up-deribit2" tabindex="-1" role="dialog" aria-labelledby="modal-heading-2" aria-hidden="true" style="--awb-border-color:var(--awb-color3);--awb-background:#f5f5f5;"><div class="modal-dialog modal-sm" role="document"><div class="modal-content fusion-modal-content"><div class="modal-header"><button class="close" type="button" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button><h3 class="modal-title" id="modal-heading-2" data-dismiss="modal" aria-hidden="true"></h3></div><div class="modal-body fusion-clearfix"><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "6378067",
+    formId: "a0d9b342-b682-47f9-a180-32c72f25c6aa"
+  });
+</script></div></div></div></div></div></div></div></div></div>
+		</aside>    </div>
+	
+				
+					
+		<div class="fusion-footer">
+					
+	<footer class="fusion-footer-widget-area fusion-widget-area">
+		<div class="fusion-row">
+			<div class="fusion-columns fusion-columns-4 fusion-widget-area">
+				
+																									<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="text-2" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Start Trading</h4>			<div class="textwidget">Visit our platform <a href="https://www.deribit.com/main#/futures">here</a> or download our app:<br><br>
+
+<a href="https://play.google.com/store/apps/details?id=com.deribit&amp;hl=en" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-1012 alignleft" src="/wp-content/uploads/2021/11/googleplay-1-1_.png" alt="" width="152" height="45" /></a>
+<div class="fusion-sep-clear"></div>
+<div class="fusion-separator fusion-full-width-sep sep-none"></div><br>
+<a href="https://apps.apple.com/ee/app/deribit-btc-options-futures/id1293674041" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-1011 alignleft" src="/wp-content/uploads/2021/11/appstore-1-1_.png" alt="" width="152" height="45" /></a></div>
+		<div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="text-4" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Sitemap</h4>			<div class="textwidget"><a href="/">Home</a><br>
+<a href="/market-research">Market Research</a><br>
+<a href="/education">Education</a><br>
+<a href="/exchange-updates">Exchange Updates</a><br>
+<a href="/industry">Industry</a><br>
+<a href="/option-flows">Option Flows</a><br>
+<a href="/trading-tools">Trading Tools</a><br>
+<a href="/partners">Partners</a><br>
+<a href="/developer-hub">Developer Hub</a><br>
+<a href="/contact-us">Contact us</a></div>
+		<div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="text-3" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Links</h4>			<div class="textwidget"><a href="/bug-bounty">Bug bounty</a><br>
+<a href="https://www.deribit.com/kb/portfolio-margin" target="_blank" rel="noopener">Portfolio Margin</a><br>
+<a href="https://www.deribit.com/kb/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a><br>
+<a href="https://www.deribit.com/kb/tos" target="_blank" rel="noopener">Terms of service</a><br>
+<a href="https://www.deribit.com/kb/fees" target="_blank" rel="noopener">Fees</a><br>
+<a href="https://www.deribit.com/api_console/" target="_blank" rel="noopener">For Developers</a><br>
+<a href="https://www.deribit.com/kb/" target="_blank" rel="noopener">Knowledge Base</a></div>
+		<div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column fusion-column-last col-lg-3 col-md-3 col-sm-3">
+							<section id="text-5" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Get Support</h4>			<div class="textwidget">Visit our Contact page <a href="https://insights.deribit.com/contact-us/">here</a> on Insights or go to our Official Support page <a href="https://support.deribit.com/hc/en-us" target="_blank" rel="noopener">here</a>.</div>
+		<div style="clear:both;"></div></section><section id="text-22" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;">			<div class="textwidget"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-80659621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-80659621-1');
+</script>
+
+</div>
+		<div style="clear:both;"></div></section>																					</div>
+																											
+				<div class="fusion-clearfix"></div>
+			</div> <!-- fusion-columns -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- fusion-footer-widget-area -->
+
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		Copyright © 2015-2025 l All Rights Reserved by Deribit	</div>
+</div>
+<div class="fusion-social-links-footer">
+	<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/deribitexchange" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style data-placement="top" data-title="X" data-toggle="tooltip" title="X" href="https://x.com/DeribitOfficial" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">X</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-reddit awb-icon-reddit" style data-placement="top" data-title="Reddit" data-toggle="tooltip" title="Reddit" href="https://www.reddit.com/r/DeribitExchange/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Reddit</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-linkedin awb-icon-linkedin" style data-placement="top" data-title="LinkedIn" data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/company/deribit/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">LinkedIn</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" href="https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">YouTube</span></a></div></div></div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+		</div> <!-- fusion-footer -->
+
+		
+					
+												</div> <!-- wrapper -->
+		</div> <!-- #boxed-wrapper -->
+				<a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+
+		<div class="avada-footer-scripts">
+			<script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||window.dispatchEvent(new CustomEvent("fusion-mobile-menu-collapsed",{detail:{nav:e}})),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach((function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")}))):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Avada-Child-Theme/*","/wp-content/themes/Avada/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="wp-hooks-js" src="https://insights.deribit.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://insights.deribit.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://insights.deribit.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/insights.deribit.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://insights.deribit.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7"></script>
+<script id="learndash-front-js-extra">
+var ldVars = {"postID":"310","videoReqMsg":"You must watch the video before accessing this content","ajaxurl":"https://insights.deribit.com/wp-admin/admin-ajax.php"};
+//# sourceURL=learndash-front-js-extra
+</script>
+<script id="learndash-front-js" src="//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/js/learndash.js?ver=4.21.5"></script>
+<script id="cssua-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/cssua.js?ver=2.1.28"></script>
+<script id="fusion-animations-js-extra">
+var fusionAnimationsVars = {"status_css_animations":"desktop"};
+//# sourceURL=fusion-animations-js-extra
+</script>
+<script id="fusion-animations-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-animations.js?ver=3.12.1"></script>
+<script id="awb-tabs-widget-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-tabs-widget.js?ver=3.12.1"></script>
+<script id="awb-vertical-menu-widget-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-vertical-menu-widget.js?ver=3.12.1"></script>
+<script id="modernizr-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/modernizr.js?ver=3.3.1"></script>
+<script id="fusion-js-extra">
+var fusionJSVars = {"visibility_small":"640","visibility_medium":"1024"};
+//# sourceURL=fusion-js-extra
+</script>
+<script id="fusion-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion.js?ver=3.12.1"></script>
+<script id="isotope-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/isotope.js?ver=3.0.4"></script>
+<script id="packery-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/packery.js?ver=2.0.0"></script>
+<script id="swiper-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/swiper.js?ver=11.2.5"></script>
+<script id="bootstrap-transition-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.transition.js?ver=3.3.6"></script>
+<script id="bootstrap-tooltip-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.tooltip.js?ver=3.3.5"></script>
+<script id="bootstrap-modal-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.modal.js?ver=3.1.1"></script>
+<script id="jquery-request-animation-frame-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.requestAnimationFrame.js?ver=1"></script>
+<script id="jquery-easing-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.easing.js?ver=1.3"></script>
+<script id="jquery-fitvids-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fitvids.js?ver=1.1"></script>
+<script id="jquery-flexslider-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.flexslider.js?ver=2.7.2"></script>
+<script id="jquery-lightbox-js-extra">
+var fusionLightboxVideoVars = {"lightbox_video_width":"1280","lightbox_video_height":"720"};
+//# sourceURL=jquery-lightbox-js-extra
+</script>
+<script id="jquery-lightbox-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.ilightbox.js?ver=2.2.3"></script>
+<script id="jquery-infinite-scroll-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.infinitescroll.js?ver=2.1"></script>
+<script id="jquery-mousewheel-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.mousewheel.js?ver=3.0.6"></script>
+<script id="jquery-fade-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fade.js?ver=1"></script>
+<script id="images-loaded-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/imagesLoaded.js?ver=3.1.8"></script>
+<script id="fusion-parallax-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-parallax.js?ver=1"></script>
+<script id="fusion-video-general-js-extra">
+var fusionVideoGeneralVars = {"status_vimeo":"0","status_yt":"1"};
+//# sourceURL=fusion-video-general-js-extra
+</script>
+<script id="fusion-video-general-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-general.js?ver=1"></script>
+<script id="fusion-video-bg-js-extra">
+var fusionVideoBgVars = {"status_vimeo":"0","status_yt":"1"};
+//# sourceURL=fusion-video-bg-js-extra
+</script>
+<script id="fusion-video-bg-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-bg.js?ver=1"></script>
+<script id="fusion-lightbox-js-extra">
+var fusionLightboxVars = {"status_lightbox":"1","lightbox_gallery":"1","lightbox_skin":"metro-white","lightbox_title":"1","lightbox_arrows":"1","lightbox_slideshow_speed":"5000","lightbox_loop":"0","lightbox_autoplay":"","lightbox_opacity":"0.9","lightbox_desc":"1","lightbox_social":"1","lightbox_social_links":{"facebook":{"source":"https://www.facebook.com/sharer.php?u={URL}","text":"Share on Facebook"},"twitter":{"source":"https://x.com/intent/post?url={URL}","text":"Share on X"},"reddit":{"source":"https://reddit.com/submit?url={URL}","text":"Share on Reddit"},"linkedin":{"source":"https://www.linkedin.com/shareArticle?mini=true&url={URL}","text":"Share on LinkedIn"},"whatsapp":{"source":"https://api.whatsapp.com/send?text={URL}","text":"Share on WhatsApp"},"tumblr":{"source":"https://www.tumblr.com/share/link?url={URL}","text":"Share on Tumblr"},"pinterest":{"source":"https://pinterest.com/pin/create/button/?url={URL}","text":"Share on Pinterest"},"vk":{"source":"https://vk.com/share.php?url={URL}","text":"Share on Vk"},"xing":{"source":"https://www.xing.com/social_plugins/share/new?sc_p=xing-share&amp;h=1&amp;url={URL}","text":"Share on Xing"},"mail":{"source":"mailto:?body={URL}","text":"Share by Email"}},"lightbox_deeplinking":"1","lightbox_path":"vertical","lightbox_post_images":"1","lightbox_animation_speed":"normal","l10n":{"close":"Press Esc to close","enterFullscreen":"Enter Fullscreen (Shift+Enter)","exitFullscreen":"Exit Fullscreen (Shift+Enter)","slideShow":"Slideshow","next":"Next","previous":"Previous"}};
+//# sourceURL=fusion-lightbox-js-extra
+</script>
+<script id="fusion-lightbox-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-lightbox.js?ver=1"></script>
+<script id="fusion-tooltip-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-tooltip.js?ver=1"></script>
+<script id="fusion-sharing-box-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-sharing-box.js?ver=1"></script>
+<script id="fusion-flexslider-js-extra">
+var fusionFlexSliderVars = {"status_vimeo":"","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1","flex_smoothHeight":"false"};
+//# sourceURL=fusion-flexslider-js-extra
+</script>
+<script id="fusion-flexslider-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-flexslider.js?ver=7.1.2"></script>
+<script id="fusion-blog-js-extra">
+var fusionBlogVars = {"infinite_blog_text":"\u003Cem\u003ELoading the next set of posts...\u003C/em\u003E","infinite_finished_msg":"\u003Cem\u003EAll items displayed.\u003C/em\u003E","slideshow_autoplay":"1","lightbox_behavior":"all","blog_pagination_type":"pagination"};
+//# sourceURL=fusion-blog-js-extra
+</script>
+<script id="fusion-blog-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-blog.js?ver=1"></script>
+<script id="jquery-sticky-kit-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.sticky-kit.js?ver=1.1.2"></script>
+<script id="fusion-youtube-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-youtube.js?ver=2.2.1"></script>
+<script id="fusion-general-global-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-general-global.js?ver=3.12.1"></script>
+<script id="avada-general-footer-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-general-footer.js?ver=7.12.1"></script>
+<script id="avada-quantity-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-quantity.js?ver=7.12.1"></script>
+<script id="avada-crossfade-images-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-crossfade-images.js?ver=7.12.1"></script>
+<script id="avada-select-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-select.js?ver=7.12.1"></script>
+<script id="avada-wpml-js-extra">
+var avadaLanguageVars = {"language_flag":"en"};
+//# sourceURL=avada-wpml-js-extra
+</script>
+<script id="avada-wpml-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-wpml.js?ver=7.12.1"></script>
+<script id="avada-contact-form-7-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-contact-form-7.js?ver=7.12.1"></script>
+<script id="avada-live-search-js-extra">
+var avadaLiveSearchVars = {"live_search":"1","ajaxurl":"https://insights.deribit.com/wp-admin/admin-ajax.php","no_search_results":"No search results match your query. Please try again","min_char_count":"3","per_page":"100","show_feat_img":"","display_post_type":"0"};
+//# sourceURL=avada-live-search-js-extra
+</script>
+<script id="avada-live-search-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-live-search.js?ver=7.12.1"></script>
+<script id="fusion-alert-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-alert.js?ver=7.1.2"></script>
+<script id="awb-off-canvas-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/awb-off-canvas.js?ver=3.12.1"></script>
+<script id="lite-youtube-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/library/lite-yt-embed.js?ver=7.1.2"></script>
+<script id="awb-background-slider-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/awb-background-slider.js?ver=7.1.2"></script>
+<script id="fusion-button-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-button.js?ver=7.1.2"></script>
+<script id="fusion-modal-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-modal.js?ver=3.12.1"></script>
+<script id="fusion-recent-posts-js-extra">
+var fusionRecentPostsVars = {"infinite_loading_text":"\u003Cem\u003ELoading the next set of posts...\u003C/em\u003E","infinite_finished_msg":"\u003Cem\u003EAll items displayed.\u003C/em\u003E"};
+//# sourceURL=fusion-recent-posts-js-extra
+</script>
+<script id="fusion-recent-posts-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-recent-posts.js?ver=3.12.1"></script>
+<script id="fusion-container-js-extra">
+var fusionContainerVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","is_sticky_header_transparent":"0","hundred_percent_scroll_sensitivity":"450"};
+//# sourceURL=fusion-container-js-extra
+</script>
+<script id="fusion-container-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-container.js?ver=3.12.1"></script>
+<script id="avada-drop-down-js-extra">
+var avadaSelectVars = {"avada_drop_down":"1"};
+//# sourceURL=avada-drop-down-js-extra
+</script>
+<script id="avada-drop-down-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-drop-down.js?ver=7.12.1"></script>
+<script id="avada-to-top-js-extra">
+var avadaToTopVars = {"status_totop":"desktop","totop_position":"right","totop_scroll_down_only":"1"};
+//# sourceURL=avada-to-top-js-extra
+</script>
+<script id="avada-to-top-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-to-top.js?ver=7.12.1"></script>
+<script id="avada-header-js-extra">
+var avadaHeaderVars = {"header_position":"top","header_sticky":"1","header_sticky_type2_layout":"menu_only","header_sticky_shadow":"1","side_header_break_point":"800","header_sticky_mobile":"","header_sticky_tablet":"","mobile_menu_design":"classic","sticky_header_shrinkage":"","nav_height":"88","nav_highlight_border":"3","nav_highlight_style":"bar","logo_margin_top":"32px","logo_margin_bottom":"30px","layout_mode":"wide","header_padding_top":"0px","header_padding_bottom":"0px","scroll_offset":"full"};
+//# sourceURL=avada-header-js-extra
+</script>
+<script id="avada-header-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-header.js?ver=7.12.1"></script>
+<script id="avada-menu-js-extra">
+var avadaMenuVars = {"site_layout":"wide","header_position":"top","logo_alignment":"left","header_sticky":"1","header_sticky_mobile":"","header_sticky_tablet":"","side_header_break_point":"800","megamenu_base_width":"site_width","mobile_menu_design":"classic","dropdown_goto":"Go to...","mobile_nav_cart":"Shopping Cart","mobile_submenu_open":"Open submenu of %s","mobile_submenu_close":"Close submenu of %s","submenu_slideout":"1"};
+//# sourceURL=avada-menu-js-extra
+</script>
+<script id="avada-menu-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-menu.js?ver=7.12.1"></script>
+<script id="bootstrap-scrollspy-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/library/bootstrap.scrollspy.js?ver=7.12.1"></script>
+<script id="avada-scrollspy-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-scrollspy.js?ver=7.12.1"></script>
+<script id="fusion-responsive-typography-js-extra">
+var fusionTypographyVars = {"site_width":"1100px","typography_sensitivity":"0.00","typography_factor":"1.50","elements":"h1, h2, h3, h4, h5, h6"};
+//# sourceURL=fusion-responsive-typography-js-extra
+</script>
+<script id="fusion-responsive-typography-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-responsive-typography.js?ver=3.12.1"></script>
+<script id="fusion-scroll-to-anchor-js-extra">
+var fusionScrollToAnchorVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","hundred_percent_scroll_sensitivity":"450"};
+//# sourceURL=fusion-scroll-to-anchor-js-extra
+</script>
+<script id="fusion-scroll-to-anchor-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-scroll-to-anchor.js?ver=3.12.1"></script>
+<script id="fusion-video-js-extra">
+var fusionVideoVars = {"status_vimeo":"0"};
+//# sourceURL=fusion-video-js-extra
+</script>
+<script id="fusion-video-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-video.js?ver=3.12.1"></script>
+<script id="fusion-column-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column.js?ver=3.12.1"></script>
+				<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'https://insights.deribit.com/wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+						<script>
+		(function() {
+			'use strict';
+			var parentSelector = '.menu-item.wpml-ls-current-language.menu-item-has-children';
+			
+			function toggleSubmenu(link, forceClose) {
+				var isExpanded = link.getAttribute('aria-expanded') === 'true';
+				if (forceClose || isExpanded) {
+					link.setAttribute('aria-expanded', 'false');
+				} else {
+					link.setAttribute('aria-expanded', 'true');
+				}
+			}
+			
+			function handleKeydown(e) {
+				var key = e.key || e.keyCode;
+				if (key === 'Enter' || key === ' ' || key === 13 || key === 32) {
+					e.preventDefault();
+					toggleSubmenu(this);
+				} else if (key === 'Escape' || key === 'Esc' || key === 27) {
+					if (this.getAttribute('aria-expanded') === 'true') {
+						e.preventDefault();
+						toggleSubmenu(this, true);
+					}
+				}
+			}
+			
+			function handleBlur(e) {
+				var link = this;
+				var parent = link.closest(parentSelector);
+				if (!parent) return;
+				
+				setTimeout(function() {
+					if (!parent.contains(document.activeElement)) {
+						toggleSubmenu(link, true);
+					}
+				}, 100);
+			}
+			
+			function init() {
+				var parents = document.querySelectorAll(parentSelector);
+				for (var i = 0; i < parents.length; i++) {
+					var link = parents[i].querySelector('a[aria-expanded]');
+					if (link) {
+						link.addEventListener('keydown', handleKeydown);
+						link.addEventListener('blur', handleBlur);
+					}
+				}
+			}
+			
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', init);
+			} else {
+				init();
+			}
+		})();
+		</script>
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JQ8MMVJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->		</div>
+
+			<section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
+		<a href="#" id="toTop" class="fusion-top-top-link">
+			<span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
+
+					</a>
+	</section>
+		</body>
+</html>

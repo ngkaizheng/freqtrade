@@ -1,0 +1,334 @@
+SOURCE_URL: https://r.jina.ai/https://www.binance.com/en/support/faq/funding-fee-for-perpetual-futures-contracts-360033525031
+HTTP: 200  LEN: 21556
+
+Title: Introduction to Binance Futures Funding Rates | Binance Futures,What is funding rate,Binance Futures Funding Rates
+
+URL Source: https://www.binance.com/en/support/faq/funding-fee-for-perpetual-futures-contracts-360033525031
+
+Markdown Content:
+_Disclaimer: This FAQ Page is for general information and educational purposes only. It does not constitute legal terms or any form of legal agreement between you and Binance. It should not be construed as financial, legal or other professional advice. The information on this page may be outdated. For legal terms applicable to Futures and Options Trading Services, please refer to the_[_Terms of Use_](https://www.binance.com/en/terms)_, the_[_Exchange Rules_](https://www.binance.com/en/about-legal/exchange-rules)_(including the_[_Exchange Procedures_](https://www.binance.com/en/about-legal/exchange-procedures)_) and the_[_Clearing Rules_](https://www.binance.com/en/about-legal/clearing-rules)_(including the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_) which come into effect on 5 January 2026. Additional terms and conditions will also be set out in the Contract Specifications applicable to the relevant Derivatives contract._
+
+Tutorial video
+
+### 1. What is the funding rate?
+
+Funding rates are periodic payments transferred between holders of long and short positions in Perpetual Contracts. These payments are designed to anchor the Perpetual Contract price to the Spot Index Price of the Underlying Asset. When the market is bullish, the funding rate is positive and tends to rise over time. In these situations, traders long on a perpetual contract will pay a funding fee to traders on the opposing side. Conversely, the funding rate will be negative when the market is bearish, where traders short on a perpetual contract will pay a funding fee to long traders.
+
+### 2. Why is the funding rate important?
+
+The funding rate is primarily used to force the convergence of prices between the perpetual contract and the underlying asset. Unlike traditional futures, Perpetual Contracts have no Expiry Date or settlement obligation. Clearing Participants can hold positions indefinitely unless they are liquidated or choose to close their positions. As a result, trading perpetual contracts are very similar to spot trading pairs. As such, crypto exchanges created a mechanism to ensure that perpetual contract prices correspond to the index. This is known as the funding rate.
+
+### 3. How are funding rates calculated on Binance?
+
+Funding rates are calculated using the following formula:
+
+Funding Amount = Nominal Value of Positions * Funding Rate
+
+(Nominal Value of Positions = Mark Price * Size of a Contract)
+
+**Please note:** Binance does not charge fees on Funding Payments. Funding Payments are transferred directly between traders holding opposing positions.
+
+Funding Payments occur at regular intervals as specified in the Contract Specifications for each Perpetual Contract. The default funding interval is every 8 hours at 00:00 (UTC), 08:00 (UTC), and 16:00 (UTC). In the event of extreme market volatility, Binance reserves the right to update the funding interval of a perpetual contract that differs from the default 8-hour funding interval according to the funding interval adjustment rules mentioned in Section 8 ‘Adjustment of funding interval’ below. You are only liable for funding payments in either direction if you have open positions at the pre-specified funding times. If you do not have a position, you are not liable for any funding. If you close your position prior to the funding time, you will not pay or receive any funding.
+
+There is a 15-second deviation in the actual funding fee transaction time. For example, when you open a position at 08:00:05 (UTC), the funding fee could still apply (you’ll either pay or receive the funding fee).
+
+You can view the funding rates and the countdown timer to the next funding on the [Binance Futures](https://www.binance.com/en/futures/BTCUSDT) interface above the candlestick chart.
+
+![Image 1: image](https://public.bnbstatic.com/image/cms/content/body/202512/ec39cbc86671393f94f2b278763877bc.png)
+
+**Please note:** The funding rate here represents an estimation of the last 8 hours of the premium index. For example, at 09:00 (UTC), the funding rate calculation uses the premium index dataset from 01:00 to 09:00 (rather than from 08:00 to 09:00).
+
+### 4. How to access the real-time and historical funding rates?
+
+You can view the real-time and historical funding rates by clicking **[Data] - [Futures Data]**, then select either**[**[**Real-Time Funding Rate**](https://www.binance.com/en/futures/funding-history/perpetual/real-time-funding-rate)**]** or **[**[**Funding Rate History**](https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history)**]**.
+
+![Image 2: image](https://public.bnbstatic.com/image/cms/content/body/202512/539a555a97e86479fdfdfae9d2058bbd.png)
+
+![Image 3: image](https://public.bnbstatic.com/image/cms/article/body/202508/5ab1a251d2518be713e8d3e0addf63e5.png)
+
+### 5.How to receive funding fee notifications?
+
+1. Go to the **[USDⓈ-M Futures]**trading interface and click the settings icon.
+
+![Image 4: image](https://public.bnbstatic.com/image/cms/article/body/202508/e71f0f54628b91c84994c6d69786a2c6.png)
+
+2. Go to the **[Notification]** tab to toggle on the**[Funding Fee Trigger]** button. You can also customize the funding rate charges percentage between 0.0001%-0.75%. Currently, it is defaulted to 0.25%, meaning you will be notified when the expected funding rate charges reach 0.25%.
+
+![Image 5: image](https://public.bnbstatic.com/image/cms/article/body/202508/9b19336919d6ab09f3987e64e4d439c3.png)
+
+**Please note:**You will be notified via email or in-app notification. This function serves as a risk warning and Binance cannot guarantee timely delivery. You agree that during your use of the service, under certain circumstances (including but not limited to personal network congestion and poor network environment), you may not be able to receive or receive delayed reminders. Binance reserves the right and has no obligation to deliver notifications.
+
+### **6. What determines the funding rate?**
+
+There are two components to the funding rate: the interest rate and the premium. Binance uses a flat interest rate, with the assumption that holding cash equivalent returns a higher interest than BTC equivalent.
+
+On Binance Futures, the interest rate is fixed at 0.03% daily by default (0.01% per funding interval since funding occurs every 8 hours).
+
+**Please note:**This doesn’t apply to certain contracts, such as ETHBTC, for which interest rate is set to 0%. Binance reserves the right to adjust the interest rate from time to time depending on market conditions.
+
+There may be a significant difference in price between the perpetual contract and the Mark Price. On such occasions, a premium index will be used to enforce price convergence between the two markets. The premium index history can be viewed [here](https://www.binance.com/en/futures/funding-history/3). It is calculated separately for every contract:
+
+Premium Index (P) = [Max(0, Impact Bid Price - Price Index ) - Max(0, Price Index - Impact Ask Price)] / Price Index
+
+Impact Bid Price = The average fill price to execute the Impact Margin Notional on the Bid Price
+
+Impact Ask Price = The average fill price to execute the Impact Margin Notional on the Ask Price
+
+*   [Price index](https://www.binance.com/en/support/faq/what-are-mark-price-and-price-index-in-usd%E2%93%A2-margined-futures-360033525071) is the weighted average value of the underlying asset listed on major spot exchanges.
+*   The Impact Margin Notional (IMN) is used to locate the average impact bid or ask price in the order book. IMN for USDⓈ-Margined contracts is the notional available to trade with 200 USDT worth of margin (price quote in USDT). IMN for COIN-Margined contracts is the notional available to trade with 200 USD worth of margin (price quote in USD).
+
+Impact Margin Notional (IMN) = 200 USDT / Initial margin rate at the maximum leverage level
+
+Example: If the maximum leverage of BNBUSDT perpetual contract is 20x, and its corresponding initial margin rate is 5%, then the Impact Margin Notional (IMN) is 4,000 USDT (200 USDT / 5%), and the system will take an IMN of 4,000 USDT in the order book to measure the average impact bid or ask price.
+
+For more information, please visit [Leverage and Margin of USDⓈ-M Futures](https://www.binance.com/en/support/faq/360033162192).
+
+### 7. How to calculate the funding rate?
+
+#### Step 1. Find the impact bid or ask price series in a given funding period.
+
+Assume the following bid-side order book:
+
+Level Price Base Quantity Quote Notional Quantity Accumulated Quote Notional Quantity
+1 p1 q1 multiplier*p1*q1 multiplier*p1*q1
+2 p2 q2 multiplier*p2*q2 multiplier**p1*q1+multiplier*p2*q2
+3 p3 q3 multiplier*p3*q3 multiplier**p1*q1+multiplier**p2*q2+multiplier*p3*q3
+...............
+n pn qn multiplier*pn*qn multiplier*∑pn*qn
+
+If multiplier *∑px*qx > IMN in Level x and multiplier * ∑px-1*qx-1 < IMN in Level x-1, then we can find the impact bid price from the Level x order book:
+
+Impact Bid Price =IMN / [(IMN-multiplier *∑px-1*qx-1)/px+multiplier * ∑qx-1]
+
+*IMN: Impact Margin Notional
+
+To get the impact bid or ask price series, the system performs the above methodology over the order book snapshots in this funding period.
+
+![Image 6: image](https://public.bnbstatic.com/image/cms/article/body/202508/21368dcc411887cef110ef8560256e03.png)
+
+The ask order book is summarized as below:
+
+Level Price Base Quantity Quote Notional Quantity Accumulated Quote Notional Quantity
+1 279.67 41.86(279.67 * 41.86)11,706.99
+2 279.68 6.26(279.68 * 6.26)(279.67 * 41.86) + (279.68 * 6.26)
+3 279.69 1.42(279.69 * 1.42)…...
+4=x-1 279.70 31.64(279.7 * 31.64)(279.67 * 41.86) + (279.68 * 6.26) + (279.69 * 1.42) + (279.7 * 31.64) = 22,704.65 < 25,000 USDT*
+5=x 279.71 11.27(279.71 * 11.27)(279.67 * 41.86) + (279.68 * 6.26) + (279.69 * 1.42) + (279.7 * 31.64) + (279.71 * 11.27) = 25,856.98 > 25,000 USDT*
+
+*Assume the maximum leverage of BNBUSDT perpetual contract is 125x and the contract default Impact Margin Notional is 25,000 USDT.
+
+**From the table above, we get the following figures:**
+
+*   Price at Level x = 279.71
+*   Accumulated quote notional quantity at Level x - 1 = 22,704.65
+*   Accumulated base quantity at Level x-1 = 41.86 + 6.26 + 1.42 + 31.64 = 81.18
+
+**Substituting into the formula:**
+
+Impact Ask Price = IMN / [(IMN-multiplier * ∑px-1 * qx-1)/px+multiplier * ∑qx-1]
+
+= 25,000 / [(25,000 - 22,704.65) / 279.71 + 81.18]
+
+= 279.69 USDT
+
+**Analysis:**
+
+*   The corresponding quantity when it reaches IMN at Level x = (IMN-multiplier *∑px-1*qx-1) / px = (25,000 - 14,456.38 ) / 11,410.54 = 0.924
+*   Accumulated base quantity when it reaches IMN = 0.924 + 1.267 = 2.191
+*   Impact Ask Price = 25,000 / (10,543.62 / 11,410.54 + 1.267) = 11,410.186
+
+#### Step 2. Find the premium index series in the observed funding period
+
+Binance calculates the premium index every 5 seconds (12 premium index data points in a minute).
+
+The number of data points used to calculate the funding rate n = 60/5 * 60 * hours of the funding interval
+
+Example: The funding rate is calculated by taking the time-weighted average across all 5,760 premium index data points for the 8-hour funding interval.
+
+Click to view the [Premium Index History](https://www.binance.com/en/futures/funding-history/3).
+
+**Premium index formula:**
+
+Premium Index (P) = [ Max(0, Impact Bid Price - Price Index ) - Max(0, Price Index - Impact Ask Price)] / Price Index
+
+(Max(0,bpn-ipn)-Max(0,ipn-apn))/ipn
+
+Sequence Impact Bid Price Impact Ask Price Index Price Premium Index
+1 bp1 ap1 ip1(Max(0,bp1-ip1)-Max(0,ip1-ap1))/ip1
+2 bp2 ap2 ip2(Max(0,bp2-ip2)-Max(0,ip2-ap2))/ip2
+...............
+n bpn apn ipn(Max(0,bpn-ipn)-Max(0,ipn-apn))/ipn
+
+#### Step 3. Time-to-funding weighted average of premium index of the observed funding period.
+
+Case 1. For symbols of which the funding interval is greater than 1 hour, we use the premium index series in this funding period (from step 2), and substitute it to the average premium index formula:
+
+Average Premium Index (P) = (1*Premium_Index_1 + 2*Premium_Index_2 + 3*Premium_Index_3 +···+ n*Premium_Index_n) / (1+2+3+···+n)
+
+*Premium Index 1: the first premium index data point
+
+n = 60/5 * 60 * 8 = 5,760 (Assume the funding interval is 8 hours)
+
+Case 2. For symbols of which the funding interval is 1 hour, the average premium index is equally weighted.
+
+Average premium index formula:
+
+Average Premium Index (P) = (Premium_Index_1 + Premium_Index_2 + Premium_Index_3 +···+ Premium_Index_n) / n
+
+n = 60/5 * 60 = 720
+
+#### Step 4. Calculate the funding rate.
+
+The funding rate is then calculated with this 8-Hour [interest rate](https://www.binance.com/en/futures/funding-history/0) component and the 8-Hour premium component. A +/- 0.05% damper is also added. For example, the funding rates calculated from 00:00 - 08:00 are exchanged at 08:00.
+
+**The funding rate formula:**
+
+Funding Rate (F) = [Average Premium Index (P) + clamp (interest rate - Premium Index (P), 0.05%, -0.05%)] / (8 / N)
+
+*Premium Index (P) here refers to the current average
+
+*interest rate here refers to 8-Hour interest rate which is 0.01% for most symbols
+
+*N is Funding Interval
+
+**Please note:**
+
+The function clamp (x, min, max) means that if (x < min), then x = min; if (x > max), then x = max; if max ≥ x ≥ min, then return x.
+
+In other words, as long as the premium index is between -0.04% to 0.06%, the funding rate will equal 0.01% (the Interest Rate).
+
+If (Interest Rate (I) - Premium Index (P)) is within +/-0.05% then F = P + (I - P) = I. In other words, the funding rate will be equal to the Interest Rate.
+
+**Example 1:**
+
+Time stamp: 2020-08-27 20:00:00 (UTC)
+
+Price Index: 11,312.66USDT
+
+Impact Bid Price: 11,316.83 USDT
+
+Impact Ask Price: 11,317.66 USDT
+
+Premium Index(P) = Max(0, Impact Bid Price − Price Index ) − Max(0, Price Index − Impact Ask Price) / Price Index
+
+=Max(0, 11,316.83 - 11,312.66) - Max(0,11,312.66 - 11317.66) / 11,312.66
+
+= (4.17 - 0) / 11,312.66
+
+= 0.0369%
+
+**Please note:**This example is within the funding period 16:00 - 24:00 (UTC), the actual premium index at 20:00 (UTC) needs to be taken from the time-weighted average across all indices to the 16:00 - 20:00 (UTC) funding period.
+
+**Example 2:**
+
+Time stamp: 2020-08-28 08:00:00 (UTC)
+
+Mark Price: 11,329.52
+
+This is the end of the funding period 00:00 - 08:00 (UTC), 8 hours = 480 minutes, so the 8-hours weighted average Premium Index (P) = 0.0429%.
+
+Average Premium Index = (1*Premium_Index_1+2*Premium_Index_2+3*Premium_Index_3+···+ n*Premium_index_n)/(1+2+3+···+n)
+
+Premium_Index_1: the first premium index data point
+
+Funding Rate (F) = Premium Index (P) + clamp(interest rate - Premium Index (P), 0.05%, -0.05%)
+
+= 0.0429% + Clamp(0.01% - 0.0429%，0.05%， -0.05%)
+
+= 0.0429% + (-0.0329%)
+
+= 0.0100%
+
+#### Step 5. Capped funding rate**.
+
+Floor = -0.75 * Maintenance Margin Ratio
+
+Cap = 0.75 * Maintenance Margin Ratio
+
+Capped Funding Rate = clamp(Funding Rate, Floor, Cap)
+
+*Funding Rate (from Step 4)
+
+The funding rate of each contract is calculated based on its corresponding "initial margin ratio" and "maintenance margin ratio" at the maximum leverage level. For initial margin ratio and maintenance margin ratio, please refer to [Leverage and Margin of USDT Futures Contracts](https://www.binance.com/en/support/faq/360033162192) for more details.
+
+Example: To calculate the floor and cap of ADAUSDT perpetual contract, the corresponding "initial margin ratio" and "maintenance margin ratio" in the table at the maximum leverage level 75x are 1.3% and 0.65% respectively.
+
+**Please note**: The above capped funding rate formula is only applicable to the symbols below:
+
+*   BTCUSDT
+*   ETHBTC
+*   ETHUSDT
+*   BNBUSDT
+*   XRPUSDT
+*   SOLUSDT
+*   DOGEUSDT
+*   TRXUSDT
+*   ADAUSDT
+*   LINKUSDT
+*   XLMUSDT
+*   BCHUSDT
+*   SUIUSDT
+*   AVAXUSDT
+*   LTCUSDT
+*   1000SHIBUSDT
+*   XMRUSDT
+*   DOTUSDT
+*   UNIUSDT
+*   AAVEUSDT*   1000SHIBUSDC
+*   AAVEUSDC
+*   AVAXUSDC
+*   BCHUSDC
+*   BNBUSDC
+*   BTCUSDC
+*   DOGEUSDC
+*   ETHUSDC
+*   LINKUSDC
+*   LTCUSDC
+*   SOLUSDC
+*   SUIUSDC
+*   UNIUSDC
+*   XRPUSDC
+
+The capped funding rate for others USDⓈ-M Perpetual Contracts is set at ± 2%. Visit the [Real-Time Funding Rate](https://www.binance.com/en/futures/funding-history/perpetual/real-time-funding-rate) page to view the latest funding rate cap or floor. API users may query USDⓈ-M futures funding rate information via GET /fapi/v1/fundingInfo.
+
+**In the event of extreme market conditions, Binance reserves the right to adjust the funding rate cap and floor parameters.
+
+### 8. Adjustment of funding interval
+
+In the event of extreme market volatility, Binance reserves the right to update the funding rate floor and cap (with adjusted values respectively capped at -1 for floor and 1 for cap), as well as the funding interval of a perpetual contract that differs from the default 8-hour funding interval. You can visit the [real-time funding rate](https://www.binance.com/en/futures/funding-history/0) and [funding rate history](https://www.binance.com/en/futures/funding-history/1) pages to find out the latest funding interval and funding rate cap or floor.
+
+**Please note:**Funding fees (if any) will be deducted from the available balance in your Futures Account. If your account balance is insufficient, the funding fees (if any) will be deducted from your position margin, which may affect your liquidation price. Please manage your positions accordingly to avoid any liquidation risks.
+
+### 8.1 Adjustment of funding interval from every eight or four hours to every one hour
+
+Effective from 2025-05-02 08:00 (UTC), Binance Futures will adjust the settlement frequency from every eight hours or every four hours to every one hour when the previous funding rate settlement of USDⓈ-M perpetual contracts reaches the funding rate cap or floor.
+
+#### **Case Examples:**
+
+Taking USDⓈ-M BTCUSDT perpetual contract as an example, the funding rate cap or floor of USDⓈ-M BTCUSDT perpetual contract is +0.3% / -0.3% and the default funding rate settlement frequency of USDⓈ-M BTCUSDT perpetual contract is every eight hours.
+
+USDⓈ-M BTCUSDT perpetual contract funding rate at 2025-04-22 at 08:00 (UTC) reaches -0.3%, the next funding rate settlement will be adjusted from every eight hours to every one hour. The new funding rate settlement frequency will start from 2025-04-22 at 09:00 (UTC).
+
+The new funding rate settlement frequency for USDⓈ-M BTCUSDT perpetual contract will be as follows:
+
+Time Max Funding Rate
+2025-04-22 08:00 (UTC)+0.3% / -0.3%
+2025-04-22 09:00 (UTC)+0.3% / -0.3%
+2025-04-22 10:00 (UTC)+0.3% / -0.3%
+2025-04-22 11:00 (UTC)+0.3% / -0.3%
+…
+
+USDⓈ-M BTCUSDT perpetual contract funding rate at 2025-04-22 at 07:45 (UTC) reaches -0.3%. However, at the funding rate settlement time at 2025-04-22 08:00 (UTC), the funding rate is -0.25%.**No adjustment will be made** on funding rate settlement frequency because the funding rate did not reach the funding rate cap or floor at the funding rate settlement time.
+
+### 8.2 Reversion of funding interval from every one hour to every four hours
+
+Effective from 2026-01-02 12:00 (UTC), if the funding rate of USDⓈ-M perpetual contracts with funding rate settlement frequency of every one hour is less than or equal to the absolute value of 0.025% for 16 consecutive cycles, Binance Futures will revert the settlement frequency from every one hour to every four hours on the 17th cycle.
+
+For more details, please refer to this [announcement](https://www.binance.com/en/support/announcement/detail/e4445d0389ce4defa6009021fcf6ee46).
+
+#### **Important Notes:**
+
+*   The adjustment will be completed within approximately 15 minutes after the previous funding rate settlement reaches the funding rate cap or floor. For example, when the funding rate of a contract reaches the funding rate cap or floor at 08:00 (UTC) funding rate settlement, users will see the adjustment on the funding rate settlement frequency latest by 08:15 (UTC).
+*   **No announcement will be made** in the event that an adjustment is taking place due to the previous funding rate settlement reaching the funding rate cap or floor . Users may visit the [real-time funding rate](https://www.binance.com/en/futures/funding-history/perpetual/real-time-funding-rate) and [funding rate history](https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history) pages to view the latest funding interval and funding rate cap or floor. API users may query USDⓈ-M futures funding rate information via the newly added endpoint: GET /fapi/v1/fundingInfo.
+*   A separate announcement will be made if Binance Futures decides to increase the funding rate settlement frequency of USDⓈ-M perpetual contracts to every one hour when the previous funding rate settlement **does not** reach the funding rate cap or floor and to revert the funding rate settlement frequency of every one hour to eight hours or four hours.
+*   For perpetual contracts with settlement frequency of 1 hour, the last funding settlement will end 1 hour before the delisting. For example, BTCUSDT perpetual contract’s funding rate settlement frequency is every 1 hour and will be delisted at 2025-05-02 09:00 (UTC). The last funding settlement will be at 2025-05-02 08:00 (UTC). No funding fee will be collected at 2025-05-02 09:00 (UTC).

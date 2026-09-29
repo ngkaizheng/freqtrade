@@ -1,0 +1,4 @@
+pdf	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf	iosco_pd747
+pdf	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD746.pdf	iosco_pd746
+pdf	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD748.pdf	iosco_pd748
+pdf	https://www.iosco.org/library/pubdocs/pdf/IOSCOPD745.pdf	iosco_pd745

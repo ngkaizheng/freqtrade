@@ -1,0 +1,1204 @@
+{
+ "id": "https://openalex.org/W4413003388",
+ "doi": "https://doi.org/10.1016/j.bcra.2025.100354",
+ "title": "Exploring risk and return profiles of funding rate arbitrage on CEX and DEX",
+ "display_name": "Exploring risk and return profiles of funding rate arbitrage on CEX and DEX",
+ "publication_year": 2025,
+ "publication_date": "2025-08-06",
+ "ids": {
+  "openalex": "https://openalex.org/W4413003388",
+  "doi": "https://doi.org/10.1016/j.bcra.2025.100354"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.bcra.2025.100354",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.bcra.2025.100354",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210227578",
+   "display_name": "Blockchain Research and Applications",
+   "issn_l": "2096-7209",
+   "issn": [
+    "2096-7209",
+    "2666-9536"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Blockchain: Research and Applications",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://doi.org/10.1016/j.bcra.2025.100354",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5021887041",
+    "display_name": "Warodom Werapun",
+    "orcid": "https://orcid.org/0000-0003-1915-036X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1915-036X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I131868736",
+     "display_name": "Prince of Songkla University",
+     "ror": "https://ror.org/0575ycz84",
+     "country_code": "TH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ],
+   "countries": [
+    "TH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Warodom Werapun",
+   "raw_affiliation_strings": [
+    "College of Computing, Prince of Songkla University, Thailand"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-1915-036X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "College of Computing, Prince of Songkla University, Thailand",
+     "institution_ids": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5055049520",
+    "display_name": "Tanakorn Karode",
+    "orcid": "https://orcid.org/0000-0003-0528-4754",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0528-4754"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I131868736",
+     "display_name": "Prince of Songkla University",
+     "ror": "https://ror.org/0575ycz84",
+     "country_code": "TH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ],
+   "countries": [
+    "TH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tanakorn Karode",
+   "raw_affiliation_strings": [
+    "College of Computing, Prince of Songkla University, Thailand"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-0528-4754",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "College of Computing, Prince of Songkla University, Thailand",
+     "institution_ids": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5013662206",
+    "display_name": "Jakapan Suaboot",
+    "orcid": "https://orcid.org/0000-0002-9519-0833",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9519-0833"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I131868736",
+     "display_name": "Prince of Songkla University",
+     "ror": "https://ror.org/0575ycz84",
+     "country_code": "TH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ],
+   "countries": [
+    "TH"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Jakapan Suaboot",
+   "raw_affiliation_strings": [
+    "College of Computing, Prince of Songkla University, Thailand"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9519-0833",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "College of Computing, Prince of Songkla University, Thailand",
+     "institution_ids": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5078434020",
+    "display_name": "Tanwa Arpornthip",
+    "orcid": "https://orcid.org/0000-0002-3615-5982",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3615-5982"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I131868736",
+     "display_name": "Prince of Songkla University",
+     "ror": "https://ror.org/0575ycz84",
+     "country_code": "TH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ],
+   "countries": [
+    "TH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tanwa Arpornthip",
+   "raw_affiliation_strings": [
+    "Faculty of Technology and Environment, Prince of Songkla University, Thailand"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-3615-5982",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Faculty of Technology and Environment, Prince of Songkla University, Thailand",
+     "institution_ids": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5048130649",
+    "display_name": "Esther Sangiamkul",
+    "orcid": "https://orcid.org/0000-0003-2157-679X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2157-679X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I131868736",
+     "display_name": "Prince of Songkla University",
+     "ror": "https://ror.org/0575ycz84",
+     "country_code": "TH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ],
+   "countries": [
+    "TH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Esther Sangiamkul",
+   "raw_affiliation_strings": [
+    "College of Computing, Prince of Songkla University, Thailand"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-2157-679X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "College of Computing, Prince of Songkla University, Thailand",
+     "institution_ids": [
+      "https://openalex.org/I131868736"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5013662206"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I131868736"
+ ],
+ "apc_list": {
+  "value": 1600,
+  "currency": "USD",
+  "value_usd": 1600
+ },
+ "apc_paid": {
+  "value": 1600,
+  "currency": "USD",
+  "value_usd": 1600
+ },
+ "fwci": 1.0441,
+ "has_fulltext": false,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": {
+  "value": 0.76218997,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 96
+ },
+ "biblio": {
+  "volume": "7",
+  "issue": "4",
+  "first_page": "100354",
+  "last_page": "100354"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10047",
+  "display_name": "Financial Markets and Investment Strategies",
+  "score": 0.984000027179718,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2003",
+   "display_name": "Finance"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/20",
+   "display_name": "Economics, Econometrics and Finance"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/2",
+   "display_name": "Social Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10047",
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.984000027179718,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2003",
+    "display_name": "Finance"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11903",
+   "display_name": "Private Equity and Venture Capital",
+   "score": 0.9714000225067139,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1402",
+    "display_name": "Accounting"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/14",
+    "display_name": "Business, Management and Accounting"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10270",
+   "display_name": "Blockchain Technology Applications and Security",
+   "score": 0.9621000289916992,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1710",
+    "display_name": "Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/arbitrage",
+   "display_name": "Arbitrage",
+   "score": 0.6458965539932251
+  },
+  {
+   "id": "https://openalex.org/keywords/business",
+   "display_name": "Business",
+   "score": 0.5000178813934326
+  },
+  {
+   "id": "https://openalex.org/keywords/risk\u2013return-spectrum",
+   "display_name": "Risk\u2013return spectrum",
+   "score": 0.48496031761169434
+  },
+  {
+   "id": "https://openalex.org/keywords/rate-of-return",
+   "display_name": "Rate of return",
+   "score": 0.45848792791366577
+  },
+  {
+   "id": "https://openalex.org/keywords/actuarial-science",
+   "display_name": "Actuarial science",
+   "score": 0.39069899916648865
+  },
+  {
+   "id": "https://openalex.org/keywords/economics",
+   "display_name": "Economics",
+   "score": 0.38127490878105164
+  },
+  {
+   "id": "https://openalex.org/keywords/econometrics",
+   "display_name": "Econometrics",
+   "score": 0.3587608337402344
+  },
+  {
+   "id": "https://openalex.org/keywords/monetary-economics",
+   "display_name": "Monetary economics",
+   "score": 0.33151230216026306
+  },
+  {
+   "id": "https://openalex.org/keywords/finance",
+   "display_name": "Finance",
+   "score": 0.22303363680839539
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C160623529",
+   "wikidata": "https://www.wikidata.org/wiki/Q273088",
+   "display_name": "Arbitrage",
+   "level": 2,
+   "score": 0.6458965539932251
+  },
+  {
+   "id": "https://openalex.org/C144133560",
+   "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+   "display_name": "Business",
+   "level": 0,
+   "score": 0.5000178813934326
+  },
+  {
+   "id": "https://openalex.org/C30755413",
+   "wikidata": "https://www.wikidata.org/wiki/Q1245402",
+   "display_name": "Risk\u2013return spectrum",
+   "level": 3,
+   "score": 0.48496031761169434
+  },
+  {
+   "id": "https://openalex.org/C86637286",
+   "wikidata": "https://www.wikidata.org/wiki/Q7317264",
+   "display_name": "Rate of return",
+   "level": 2,
+   "score": 0.45848792791366577
+  },
+  {
+   "id": "https://openalex.org/C162118730",
+   "wikidata": "https://www.wikidata.org/wiki/Q1128453",
+   "display_name": "Actuarial science",
+   "level": 1,
+   "score": 0.39069899916648865
+  },
+  {
+   "id": "https://openalex.org/C162324750",
+   "wikidata": "https://www.wikidata.org/wiki/Q8134",
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.38127490878105164
+  },
+  {
+   "id": "https://openalex.org/C149782125",
+   "wikidata": "https://www.wikidata.org/wiki/Q160039",
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.3587608337402344
+  },
+  {
+   "id": "https://openalex.org/C556758197",
+   "wikidata": "https://www.wikidata.org/wiki/Q580018",
+   "display_name": "Monetary economics",
+   "level": 1,
+   "score": 0.33151230216026306
+  },
+  {
+   "id": "https://openalex.org/C10138342",
+   "wikidata": "https://www.wikidata.org/wiki/Q43015",
+   "display_name": "Finance",
+   "level": 1,
+   "score": 0.22303363680839539
+  },
+  {
+   "id": "https://openalex.org/C2780821815",
+   "wikidata": "https://www.wikidata.org/wiki/Q5340806",
+   "display_name": "Portfolio",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.bcra.2025.100354",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.bcra.2025.100354",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210227578",
+    "display_name": "Blockchain Research and Applications",
+    "issn_l": "2096-7209",
+    "issn": [
+     "2096-7209",
+     "2666-9536"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Blockchain: Research and Applications",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:0eb836836ad245358a08055d2e545ce6",
+   "is_oa": false,
+   "landing_page_url": "https://doaj.org/article/0eb836836ad245358a08055d2e545ce6",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Blockchain: Research and Applications, Vol 7, Iss 4, Pp 100354- (2026)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.bcra.2025.100354",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.bcra.2025.100354",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210227578",
+   "display_name": "Blockchain Research and Applications",
+   "issn_l": "2096-7209",
+   "issn": [
+    "2096-7209",
+    "2666-9536"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Blockchain: Research and Applications",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G23112554",
+   "display_name": null,
+   "funder_award_id": "COC6601136S",
+   "funder_id": "https://openalex.org/F4320322692",
+   "funder_display_name": "Prince of Songkla University"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320322692",
+   "display_name": "Prince of Songkla University",
+   "ror": "https://ror.org/0575ycz84"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 16,
+ "referenced_works": [
+  "https://openalex.org/W1571438983",
+  "https://openalex.org/W2122918207",
+  "https://openalex.org/W2506665490",
+  "https://openalex.org/W2523675164",
+  "https://openalex.org/W2738122318",
+  "https://openalex.org/W2740288336",
+  "https://openalex.org/W2809373714",
+  "https://openalex.org/W3041395050",
+  "https://openalex.org/W3071308890",
+  "https://openalex.org/W3139542328",
+  "https://openalex.org/W3177380395",
+  "https://openalex.org/W3190489659",
+  "https://openalex.org/W4211240942",
+  "https://openalex.org/W4377291576",
+  "https://openalex.org/W4391790166",
+  "https://openalex.org/W6886052538"
+ ],
+ "related_works": [
+  "https://openalex.org/W2610488162",
+  "https://openalex.org/W2897117701",
+  "https://openalex.org/W3129739965",
+  "https://openalex.org/W2218066213",
+  "https://openalex.org/W2497445102",
+  "https://openalex.org/W2127892015",
+  "https://openalex.org/W233272027",
+  "https://openalex.org/W3147127019",
+  "https://openalex.org/W1499386585",
+  "https://openalex.org/W4381786557"
+ ],
+ "abstract_inverted_index": {
+  "Perpetual": [
+   0
+  ],
+  "futures,": [
+   1
+  ],
+  "non-expiring": [
+   2
+  ],
+  "swap": [
+   3
+  ],
+  "contracts,": [
+   4
+  ],
+  "dominate": [
+   5
+  ],
+  "cryptocurrency": [
+   6,
+   77
+  ],
+  "markets": [
+   7
+  ],
+  "with": [
+   8,
+   115,
+   130
+  ],
+  "over": [
+   9,
+   190
+  ],
+  "$100": [
+   10
+  ],
+  "billion": [
+   11
+  ],
+  "in": [
+   12,
+   31,
+   47,
+   76
+  ],
+  "daily": [
+   13
+  ],
+  "trades.": [
+   14
+  ],
+  "This": [
+   15,
+   64,
+   176
+  ],
+  "instrument": [
+   16
+  ],
+  "provides": [
+   17
+  ],
+  "leveraged": [
+   18
+  ],
+  "exposure": [
+   19
+  ],
+  "to": [
+   20,
+   51,
+   57,
+   173,
+   188,
+   196
+  ],
+  "cryptocurrencies": [
+   21
+  ],
+  "without": [
+   22
+  ],
+  "rollover": [
+   23
+  ],
+  "or": [
+   24
+  ],
+  "direct": [
+   25
+  ],
+  "holding": [
+   26
+  ],
+  "requirements.": [
+   27
+  ],
+  "A": [
+   28
+  ],
+  "pivotal": [
+   29
+  ],
+  "mechanism": [
+   30
+  ],
+  "this": [
+   32
+  ],
+  "market": [
+   33,
+   59
+  ],
+  "is": [
+   34,
+   141
+  ],
+  "the": [
+   35,
+   53,
+   58,
+   62,
+   67,
+   116,
+   134,
+   144,
+   158,
+   203,
+   219
+  ],
+  "funding": [
+   36,
+   73,
+   124,
+   164,
+   181,
+   206
+  ],
+  "rate,": [
+   37
+  ],
+  "a": [
+   38,
+   168,
+   197
+  ],
+  "periodic": [
+   39
+  ],
+  "payment": [
+   40
+  ],
+  "between": [
+   41
+  ],
+  "buyers": [
+   42
+  ],
+  "(longs)": [
+   43
+  ],
+  "and": [
+   44,
+   69,
+   89,
+   96,
+   105,
+   212
+  ],
+  "sellers": [
+   45
+  ],
+  "(shorts)": [
+   46
+  ],
+  "perpetual": [
+   48,
+   78
+  ],
+  "futures": [
+   49,
+   79
+  ],
+  "contracts": [
+   50
+  ],
+  "keep": [
+   52
+  ],
+  "contract": [
+   54
+  ],
+  "price": [
+   55
+  ],
+  "close": [
+   56
+  ],
+  "value": [
+   60
+  ],
+  "of": [
+   61,
+   72,
+   111,
+   136,
+   147,
+   153,
+   161,
+   205
+  ],
+  "asset.": [
+   63
+  ],
+  "study": [
+   65,
+   177
+  ],
+  "scrutinizes": [
+   66
+  ],
+  "risk": [
+   68
+  ],
+  "return": [
+   70
+  ],
+  "profiles": [
+   71
+  ],
+  "rate": [
+   74,
+   125,
+   165,
+   182,
+   207
+  ],
+  "arbitrage": [
+   75,
+   112,
+   126,
+   139,
+   155,
+   166,
+   183,
+   208
+  ],
+  "markets,": [
+   80
+  ],
+  "leveraging": [
+   81
+  ],
+  "data": [
+   82
+  ],
+  "from": [
+   83
+  ],
+  "major": [
+   84
+  ],
+  "exchanges": [
+   85
+  ],
+  "such": [
+   86
+  ],
+  "as": [
+   87,
+   123,
+   167
+  ],
+  "Binance": [
+   88
+  ],
+  "Bitmex,": [
+   90
+  ],
+  "alongside": [
+   91
+  ],
+  "decentralized": [
+   92
+  ],
+  "platforms": [
+   93
+  ],
+  "like": [
+   94
+  ],
+  "ApolloX": [
+   95
+  ],
+  "Drift.": [
+   97
+  ],
+  "Key": [
+   98
+  ],
+  "assets,": [
+   99
+  ],
+  "including": [
+   100
+  ],
+  "BTC,": [
+   101
+  ],
+  "ETH,": [
+   102
+  ],
+  "XRP,": [
+   103
+  ],
+  "BNB,": [
+   104
+  ],
+  "SOL": [
+   106
+  ],
+  "are": [
+   107
+  ],
+  "examined.": [
+   108
+  ],
+  "Empirical": [
+   109
+  ],
+  "analysis": [
+   110
+  ],
+  "strategies,": [
+   113
+  ],
+  "contrasted": [
+   114
+  ],
+  "Hold-On-for-Dear-Life": [
+   117
+  ],
+  "(HODL)": [
+   118
+  ],
+  "approach,": [
+   119
+  ],
+  "uncovers": [
+   120
+  ],
+  "diversification": [
+   121
+  ],
+  "benefits": [
+   122
+  ],
+  "exhibits": [
+   127
+  ],
+  "no": [
+   128
+  ],
+  "correlation": [
+   129
+  ],
+  "HODL": [
+   131,
+   174
+  ],
+  "strategies.": [
+   132,
+   175
+  ],
+  "Moreover,": [
+   133
+  ],
+  "impact": [
+   135
+  ],
+  "leverage": [
+   137
+  ],
+  "on": [
+   138,
+   150
+  ],
+  "efficiency": [
+   140
+  ],
+  "assessed,": [
+   142
+  ],
+  "revealing": [
+   143
+  ],
+  "nuanced": [
+   145
+  ],
+  "nature": [
+   146
+  ],
+  "leverage's": [
+   148
+  ],
+  "influence": [
+   149
+  ],
+  "gains.": [
+   151
+  ],
+  "Evaluation": [
+   152
+  ],
+  "60": [
+   154
+  ],
+  "scenarios": [
+   156
+  ],
+  "underscores": [
+   157
+  ],
+  "potential": [
+   159
+  ],
+  "range": [
+   160
+  ],
+  "returns,": [
+   162
+  ],
+  "positioning": [
+   163
+  ],
+  "stable": [
+   169
+  ],
+  "yet": [
+   170
+  ],
+  "rewarding": [
+   171
+  ],
+  "alternative": [
+   172
+  ],
+  "presents": [
+   178
+  ],
+  "evidence": [
+   179
+  ],
+  "that": [
+   180
+  ],
+  "can": [
+   184
+  ],
+  "generate": [
+   185
+  ],
+  "substantial": [
+   186
+  ],
+  "returns\u2014up": [
+   187
+  ],
+  "115.9%": [
+   189
+  ],
+  "six": [
+   191
+  ],
+  "months\u2014while": [
+   192
+  ],
+  "keeping": [
+   193
+  ],
+  "possible": [
+   194
+  ],
+  "losses": [
+   195
+  ],
+  "minimal": [
+   198
+  ],
+  "1.92%.": [
+   199
+  ],
+  "These": [
+   200
+  ],
+  "results": [
+   201
+  ],
+  "underscore": [
+   202
+  ],
+  "attractiveness": [
+   204
+  ],
+  "strategies": [
+   209
+  ],
+  "for": [
+   210,
+   214
+  ],
+  "investors": [
+   211
+  ],
+  "call": [
+   213
+  ],
+  "further": [
+   215
+  ],
+  "scholarly": [
+   216
+  ],
+  "inquiry": [
+   217
+  ],
+  "into": [
+   218
+  ],
+  "area.": [
+   220
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2025-10-10T00:00:00"
+}

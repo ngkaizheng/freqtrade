@@ -1,0 +1,49 @@
+SOURCE_URL: https://r.jina.ai/https://developers.binance.com/docs/derivatives/usd-m-portfolio-margin
+HTTP: 200  LEN: 1338
+
+Title: Binance Developer Docs
+
+URL Source: https://developers.binance.com/docs/derivatives/usd-m-portfolio-margin
+
+Markdown Content:
+## Build with Binance APIs
+
+Access market data, trading, account, and real-time interfaces to build bots, backends, dashboards, and institutional integrations on Binance.
+
+```
+import requests
+
+# Public endpoint — no API key needed
+resp = requests.get(
+    "https://api.binance.com/api/v3/ticker/price",
+    params={"symbol": "BTCUSDT"},
+)
+print(resp.json())
+# → {"symbol": "BTCUSDT", "price": "84523.00"}
+```
+
+[Browse official connectors for all languages](https://developers.binance.com/en/docs/sdks-tools/overview#official-api-connectors)
+
+Choose your path
+
+## Start from the right place
+
+Whether you are new to Binance APIs, exploring product families, or looking for tooling, start with the path that matches your workflow.
+
+### Agent Native
+
+Integrate with AI agents using machine-readable docs, agent APIs, and MCP.
+
+[Overview](https://developers.binance.com/en/docs/agent-native/overview)[llms.txt](https://developers.binance.com/en/docs/agent-native/llms-txt)
+
+Key docs
+
+## Production essentials
+
+Cross-product documentation that is worth checking before you ship an integration.
+
+Community
+
+## Stay connected
+
+Follow updates, report issues, and connect with other developers building on Binance.

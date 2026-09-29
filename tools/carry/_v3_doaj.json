@@ -1,0 +1,78 @@
+{
+ "id": "0eb836836ad245358a08055d2e545ce6",
+ "created_date": "2026-09-03T04:31:28Z",
+ "last_updated": "2026-09-03T04:31:28Z",
+ "es_type": "article",
+ "admin": {
+  "in_doaj": true
+ },
+ "bibjson": {
+  "title": "Exploring risk and return profiles of funding rate arbitrage on CEX and DEX",
+  "year": "2026",
+  "month": "08",
+  "abstract": "Perpetual futures, non-expiring swap contracts, dominate cryptocurrency markets with over $100 billion in daily trades. This instrument provides leveraged exposure to cryptocurrencies without rollover or direct holding requirements. A pivotal mechanism in this market is the funding rate, a periodic payment between buyers (longs) and sellers (shorts) in perpetual futures contracts to keep the contract price close to the market value of the asset. This study scrutinizes the risk and return profiles of funding rate arbitrage in cryptocurrency perpetual futures markets, leveraging data from major exchanges such as Binance and Bitmex, alongside decentralized platforms like ApolloX and Drift. Key assets, including Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Binance Coin (BNB), and Solana (SOL) are examined. Empirical analysis of arbitrage strategies, contrasted with the Hold-On-for-Dear-Life (HODL) approach, uncovers diversification benefits as funding rate arbitrage exhibits a weak correlation with HODL strategies for XRP. Moreover, the impact of leverage on arbitrage efficiency is assessed, revealing the nuanced nature of leverage's influence on gains. Evaluation of 60 arbitrage scenarios underscores the potential range of returns, positioning funding rate arbitrage as a stable yet rewarding alternative to HODL strategies. This study presents evidence that the best-performing funding rate arbitrage can generate substantial returns of up to 115.9% over six months while limiting the maximum drawdown to 1.92%, as demonstrated by the Drift XRP strategy with 7x leverage. These results underscore the attractiveness of funding rate arbitrage strategies for investors and call for further scholarly inquiry into the area.",
+  "journal": {
+   "start_page": "100354",
+   "end_page": "",
+   "volume": "7",
+   "number": "4",
+   "publisher": "Elsevier",
+   "title": "Blockchain: Research and Applications",
+   "country": "GB",
+   "language": [
+    "EN"
+   ]
+  },
+  "identifier": [
+   {
+    "type": "eissn",
+    "id": "2666-9536"
+   },
+   {
+    "type": "doi",
+    "id": "10.1016/j.bcra.2025.100354"
+   }
+  ],
+  "link": [
+   {
+    "type": "fulltext",
+    "url": "http://www.sciencedirect.com/science/article/pii/S2096720925000818"
+   }
+  ],
+  "author": [
+   {
+    "name": "Warodom Werapun",
+    "affiliation": "College of Computing, Prince of Songkla University, Phuket Campus, Phuket 83120, Thailand"
+   },
+   {
+    "name": "Tanakorn Karode",
+    "affiliation": "College of Computing, Prince of Songkla University, Phuket Campus, Phuket 83120, Thailand"
+   },
+   {
+    "name": "Jakapan Suaboot",
+    "affiliation": "College of Computing, Prince of Songkla University, Phuket Campus, Phuket 83120, Thailand; Corresponding author."
+   },
+   {
+    "name": "Tanwa Arpornthip",
+    "affiliation": "Faculty of Technology and Environment, Prince of Songkla University, Phuket Campus, Phuket 83120, Thailand"
+   },
+   {
+    "name": "Esther Sangiamkul",
+    "affiliation": "College of Computing, Prince of Songkla University, Phuket Campus, Phuket 83120, Thailand"
+   }
+  ],
+  "keywords": [
+   "Cryptocurrency",
+   "Perpetual futures contract",
+   "Funding rate arbitrage",
+   "Risk and return profiles"
+  ],
+  "subject": [
+   {
+    "scheme": "LCC",
+    "term": "Information technology",
+    "code": "T58.5-58.64"
+   }
+  ]
+ }
+}

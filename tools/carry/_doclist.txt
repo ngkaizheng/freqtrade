@@ -1,0 +1,10 @@
+binance_faq_funding	https://www.binance.com/en/support/faq/detail/360033525031
+binance_faq_fundingrate_history	https://www.binance.com/en/support/faq/detail/360033544231
+devdocs_fundinginfo	https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Get-Funding-Rate-Info
+devdocs_fundingrate	https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Get-Funding-Rate-History
+devdocs_premiumindex	https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Mark-Price
+devdocs_liqprice	https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Liquidation-Price
+devdocs_position	https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Position-Information-V3
+devdocs_account	https://developers.binance.com/docs/derivatives/usds-margined-futures/account/rest-api/Account-Information-V3
+arxiv_he_abstract	https://arxiv.org/abs/2212.06888
+arxiv_he_html	https://arxiv.org/html/2212.06888v2

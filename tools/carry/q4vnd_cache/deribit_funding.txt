@@ -1,0 +1,91 @@
+### URL: https://support.deribit.com/hc/en-us/articles/25944711076957-Inverse-Perpetual
+### STATUS: 404 CT: text/html; charset=utf-8
+
+Skip to main content
+
+ Deribit Support
+
+ Toggle navigation menu 
+
+Go to Deribit.com
+
+Contact
+
+Submit a request
+
+ Sign in
+
+ English (United States)
+
+ Español
+
+ 简体中文
+
+ oops
+
+ The page you were looking for doesn't exist
+
+ You may have mistyped the address or the page may have moved
+
+ Take me back to the home page
+
+ Categories
+
+ })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+ ">
+
+ ">
+
+ " :class="{ 'is-visible': isOpen }" data-parent=" ">
+ 
+ })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+ ">
+
+ ">
+
+ " data-parent="# ">
+
+ bg-gray-100 " href=" ">
+
+ " :class="{ 'is-visible': isOpen }" data-parent=" ">
+ 
+ })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+ ">
+
+ ">
+
+ " data-parent="# ">
+
+ bg-gray-100 " href=" ">
+
+ Previous
+
+ ">
+
+ sm:col-offset-6 ">
+ 
+ Next
+
+ ">
+
+ = 2) classNames += ' md:col-4';
+ if (columnNumber >= 3) classNames += ' lg:col-4';
+ if (columnNumber >= 4) classNames += ' xl:col-3';
+ return classNames;
+ } %>
+ ">
+
+ Categories
+
+ 1 ? categories : sections).forEach(function(block, index) { %>
+ ">
+ ">
+ flex-column ">
+ 
+ md:mr-5 align-self-center bg-gray-100 hover:bg-gray-200" href=" ">
+ " style="height: ; width: auto;" />
+
+ ">

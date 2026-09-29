@@ -1,0 +1,57 @@
+{
+  "experiment": "E#7",
+  "spec": "tools/cross_sectional/PREREGISTRATION_E7.md",
+  "universe": "top 50 by median daily quote volume",
+  "cost_round_trip_bps": 13.6,
+  "buy_and_hold": {
+    "months": 79,
+    "years": 6.58,
+    "gross_annualised_pct": 28.032165583357703,
+    "net_annualised_pct": 27.793516330649425,
+    "cagr_pct": 7.904799440855315,
+    "sharpe": 0.43201560590768223,
+    "nw_t": 1.0560296197652397,
+    "max_dd_pct": -79.76641976891416,
+    "mean_turnover": 0.1462311597477199
+  },
+  "buy_and_hold_by_year_pct": {
+    "2020": 10.16,
+    "2021": 39.65,
+    "2022": -70.47,
+    "2023": 106.2,
+    "2024": 111.36,
+    "2025": -6.42,
+    "2026": -10.94
+  },
+  "primary": {
+    "months": 66,
+    "years": 5.5,
+    "gross_annualised_pct": 26.067907524991035,
+    "net_annualised_pct": 24.59772168922798,
+    "cagr_pct": -2.2145379032017853,
+    "sharpe": 0.33237442464938277,
+    "nw_t": 0.6546229409145295,
+    "max_dd_pct": -84.48104945438021,
+    "mean_turnover": 0.9008491640705024
+  },
+  "primary_by_year_pct": {
+    "2021": 343.27,
+    "2022": -67.81,
+    "2023": 25.92,
+    "2024": 6.79,
+    "2025": -39.76,
+    "2026": -23.52
+  },
+  "bull_capture": 0.1525,
+  "bear_2022_ratio": 0.9622,
+  "gates": {
+    "G1 net CAGR > 0": false,
+    "G2 |t| >= 2.0": false,
+    "G3 Sharpe >= 0.75": false,
+    "G4 bull capture >= 50%": false,
+    "G4b 2022 loss no worse than holding": false,
+    "G5 max DD better than buy-and-hold": false,
+    "G6 no rebase names in the book": true
+  },
+  "verdict": "FAIL"
+}

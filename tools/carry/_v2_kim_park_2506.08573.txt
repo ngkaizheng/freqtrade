@@ -1,0 +1,4094 @@
+
+
+===== PAGE 1 =====
+arXiv:2506.08573v1  [q-fin.MF]  10 Jun 2025
+Designing funding rates for perpetual futures in
+cryptocurrency markets
+Jaehyun Kim∗and Hyungbin Park†
+Department of Mathematical Sciences
+Seoul National University
+1, Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea
+June 11, 2025
+Abstract
+In cryptocurrency markets, a key challenge for perpetual future issuers is maintaining align-
+ment between the perpetual future price and target value. This study addresses this challenge
+by exploring the relationship between funding rates and perpetual future prices. Our results
+demonstrate that by appropriately designing funding rates, the perpetual future price can remain
+aligned with the target value. We develop replicating portfolios for perpetual futures, offering
+issuers an effective method to hedge their positions. Additionally, we provide path-dependent
+funding rates as a practical alternative and investigate the difference between the original and
+path-dependent funding rates.
+To achieve these results, our study employs path-dependent
+infinite-horizon BSDEs in conjunction with arbitrage pricing theory. Our main results are ob-
+tained by establishing the existence and uniqueness of solutions to these BSDEs and analyzing
+the large-time behavior of these solutions.
+1
+Introduction
+1.1
+Overview
+Perpetual futures are among the most widely traded derivative securities in cryptocurrency
+markets. Since their introduction by BitMEX in 2016, they have gained immense popularity
+and achieved significant trading volume. Perpetual futures have accumulated over $90 trillion
+in trading volume, surpassing the trading volumes of the underlying cryptocurrencies and now
+accounting for 93% of the cryptocurrency future markets (Ruan and Streltsov (2024)). A key
+aspect of perpetual futures is the funding mechanism, which operates effectively within the con-
+tinuous 24/7 trading environment. This funding mechanism is more prevalent in cryptocurrency
+markets but is less frequently used in traditional markets due to higher transaction costs and
+stricter regulations. Despite the central role of funding mechanisms in perpetual futures, there
+∗jaehyun107@snu.ac.kr
+†hyungbin@snu.ac.kr, hyungbin2015@gmail.com
+1
+
+
+===== PAGE 2 =====
+has been relatively little research on this topic. Therefore, exploring its fundamentals is timely
+and essential to gain a better understanding of its operation.
+A funding mechanism is designed to minimize price deviations between the future price
+and target value. Cash flows are exchanged periodically between long and short positions to
+ensure that the price of the perpetual future remains aligned with the target value. This cash
+flow, known as the funding fee, is determined by the target value and current price of the
+perpetual future. This study aims to construct theoretical fundamentals of perpetual futures by
+illuminating the relationship between funding rates and perpetual future prices. The structure
+of perpetual futures is similar to standard options, as the holder receives a payout in the form
+of a funding fee. This analogy prompts the adoption of the standard derivative pricing theory
+in this study.
+However, compared to conventional derivatives, particularly standard European options,
+perpetual futures exhibit significant differences.
+First, they have no expiration dates.
+This
+feature allows them to be bought or sold at any time without restrictions. Long positions in
+perpetual futures can be maintained for as long as desired without the concern of expiration.
+In contrast, standard options have a fixed expiry date, marking the last day the option contract
+remains valid. Second, the payment stream of perpetual futures occurs periodically throughout
+the contract period, whereas the payments for standard options are made only at the end of the
+contract. This periodic payment structure is feasible because the cryptocurrency market oper-
+ates 24/7. Third, the payment stream of perpetual futures is influenced by both the underlying
+asset and perpetual future price, whereas standard options derive their payment solely from the
+underlying asset. These complexities make it challenging to apply the standard risk-neutral val-
+uation to perpetual futures. This creates a significant distinction in pricing approaches between
+conventional options and perpetual futures.
+This study has four contributions. First, we present a method for designing funding rates
+that ensures the perpetual future price remains anchored to the target values, including both
+tradable and non-tradable cases. This has posed a considerable challenge for perpetual future
+issuers due to the intricate nature of perpetual future structures. We address this problem using
+an arbitrage approach combined with the BSDE method. Although the problem is conceptually
+straightforward, providing formal and rigorous proof is complex and challenging. Notably, our
+study is the first to derive unique prices for perpetual futures anchored to non-tradable target
+values.
+Second, we investigate a path-dependent funding rate for practical implementation. In most
+exchanges, the funding fee is calculated as the average of values over the past 8 hours rather
+than relying on the current spot value, making the funding rate inherently path-dependent in
+practice. While the instantaneous spot funding rate ideally guarantees that the perpetual future
+price perfectly aligns with the target values, the path-dependent version provides a more realistic
+and implementable approximation. Our analysis shows the perpetual future price is uniquely
+determined under path-dependent funding rates. Moreover, the price derived from the path-
+dependent funding rate closely aligns with that obtained from the instantaneous spot funding
+rate, indicating that the practical version is an effective substitute. Notably, this specific form of
+path-dependent funding rate has not been studied before, making our study the first to explore
+this topic.
+Third, this paper discusses the construction of replicating portfolios for perpetual futures.
+This is significant for two main reasons: practically, it provides issuers with a method to hedge
+perpetual futures, and theoretically, it demonstrates that the derived future price is arbitrage-
+free. While replicating portfolios are well-established for traditional derivatives with finite hori-
+zons, the absence of a terminal date in perpetual futures complicates their construction. Our
+study shows that it is still possible to construct replicating portfolios even for derivatives without
+terminal dates.
+Finally, this study employs a novel approach, an infinite-horizon BSDE method that provides
+2
+
+
+===== PAGE 3 =====
+new insights into perpetual futures.
+This methodology clarifies the funding mechanism by
+revealing how funding rates influence perpetual future prices. The relationship between the
+driver and the solution of the infinite-horizon BSDE mirrors the connection between funding
+rates and perpetual futures prices. Mathematically, this is achieved by proving the existence
+and uniqueness of solutions to the infinite-horizon BSDEs. Because such types of BSDEs have
+not been previously studied, this study develops new theoretical results to establish conditions
+for the existence and uniqueness of solutions in this context.
+This study adopts a path-dependent approach for two main reasons. First, it enables working
+with path-dependent market models that extend beyond traditional Markovian frameworks to
+accommodate non-Markovian market dynamics. While most of the existing literature focuses
+on Markovian models, our results hold under a more general framework that includes non-
+Markovian settings. Second, this approach allows for the analysis of path-dependent funding
+rates, modeled as integrals over the past 8 hours. These observations lead to the formulation
+of path-dependent BSDEs, for which standard Markovian BSDE techniques are not applicable.
+Our analysis primarily builds upon the path-dependent framework developed by Ekren et al.
+(2014), Bally et al. (2016), Dupire (2019) and Viens and Zhang (2019).
+The theoretical literature on the pricing of perpetual futures is scarce.
+He et al. (2022)
+considered proportional funding rates for perpetual futures anchored to a tradable asset price.
+They derived arbitrage-free prices for perpetual futures in frictionless markets and bounds in
+markets with trading costs.
+Angeris et al. (2023) analyzed perpetual future contracts in a
+continuous-time, arbitrage-free, and frictionless market, deriving model-free formulas for their
+funding rates, along with replication strategies, especially when asset prices are continuous and
+positive. They also extended these results to jump models, providing semi-robust expressions
+that depend on jump intensities and offering explicit replication strategies when the volatility
+process is independent of the underlying risky asset. Ackerer et al. (2024) derived an arbitrage-
+free price of various perpetual contracts, including linear, inverse, and quantos futures. The
+price is determined by the risk-neutral expectation of the spot, sampled at a random time
+that reflects the intensity of the price anchoring. Dai et al. (2025) investigated the tendency
+of perpetual futures prices to deviate from their underlying asset prices. They identified the
+clamping function in the funding mechanism as a key factor and derived model-free no-arbitrage
+bounds that hold even without transaction fees. Although the theoretical literature on perpetual
+futures is limited, several empirical studies have been conducted in this field. Refer to Alexander
+et al. (2020), Christin et al. (2022) and Wang and Zhang (2025).
+1.2
+Outline
+A strategy for addressing this problem consists of several steps. First, we introduce the concept
+of funding portfolios and their associated wealth processes, establishing a fundamental theo-
+retical framework for constructing replicating portfolios in subsequent discussions. Consider a
+complete market comprising multiple assets, denoted as X = (X(s))s≥0, along with a money
+market account. Let F = (F(s))s≥0 be a given funding rate process. At this stage, we assume
+that F is a general stochastic process without imposing any specific structure. An F-funding
+portfolio consists of holdings in multiple assets and a money market account, which incurs a
+funding fee F(s) ds over time. The corresponding wealth process, denoted as Y = (Y (s))s≥0,
+represents the evolution of the value of the F-funding portfolio.
+Second, we examine a specific type of funding rate that depends on both the wealth process
+and the underlying asset value. More precisely, consider a funding rate of the form F Φ(s) :=
+Φ(s, Xs, Y (s)), where Φ is a specified functional. For the meanings of Xs, Ys and X(s), Y (s), see
+Section 2. A fundamental question arises: does there exist a F Φ-funding portfolio corresponding
+to the specified functional Φ? This problem is non-trivial, and to address this, we transform the
+problem into an infinite-horizon BSDE framework. We establish the existence and uniqueness
+3
+
+
+===== PAGE 4 =====
+of such F Φ-funding portfolios by analyzing the associated infinite-horizon BSDEs. Furthermore,
+we characterize the wealth process of the F Φ-funding portfolio through our BSDE analysis.
+Third, we design funding rates ensuring that the perpetual future price remains aligned with
+the target value. Imagine an issuer seeking a perpetual future price to be aligned with φ(s, Xs)
+for a given function φ. We verify that a specific form of funding rate Φ(s, Xs, Y (s)) presented in
+(4.1) induces a funding portfolio whose wealth process coincides with the target value φ(s, Xs).
+Thus, this funding portfolio is the replicating portfolio for the perpetual future and its wealth
+process generates the desired prices. Consequently, this provides issuers with a solution on how
+to design funding rates for perpetual futures.
+Fourth, we investigate a path-dependent funding rate, which offers a practical alternative.
+The funding rate Φ(s, Xs, Y (s)) mentioned above provides the desired perpetual future prices;
+however, this is not practical. Instead, we consider the funding rate of the form
+Φδ(s, Xs, Ys) := 1
+δ
+Z s
+s−δ
+Φ(u, Xu, Y (u)) du
+for δ > 0. In practice, δ =
+1
+1095, corresponding to 8 hours, is commonly used. We verify that
+there exists a Φδ-funding portfolio and derive the corresponding wealth process Y δ. Additionally,
+we estimate the difference between Y δ derived from this path-dependent funding rate and Y
+derived from the original funding rate Φ.
+To illustrate the core idea of this study, we examine the following simple example. Consider
+an uncorrelated m-dimensional Black-Scholes stock model with zero short rate.
+Under the
+risk-neutral measure, the stock price process X = (X1(s), . . . , Xm(s))s≥0 evolves according to
+dXi(s) = σiXi(s) dBi(s),
+i = 1, 2, . . . , m,
+where σi > 0 for all i = 1, 2, . . . , m, and (B1(s), . . . , Bm(s))s≥0 is an m-dimensional Brownian
+motion with uncorrelated components. Suppose an issuer seeks to design funding rates for a
+perpetual future whose price process Y remains aligned with the square of the first stock’s
+price, i.e., Y (s) = φ(X(s)) for s ≥0, where φ(x) = x2
+1 for x = (x1, . . . , xm) ∈Rm. For the
+moment, assume that the funding rate depends only on the current stock prices. Specifically,
+we set F(s) = Φ(X(s)) for some function Φ ∈C2(Rm). The wealth process from holding one
+perpetual future is
+Y (s) +
+Z s
+0
+F(u) du = φ(X(s)) +
+Z s
+0
+Φ(X(u)) du = X2
+1(s) +
+Z s
+0
+Φ(X(u)) du , s ≥0 .
+By the standard no-arbitrage principle, any wealth process must be a local martingale under
+the risk-neutral measure. Applying this principle, we obtain Φ(x) = −1
+2σ2
+1x2
+1∂x1x1φ = −σ2
+1x2
+1.
+Therefore, the appropriate funding rate for the perpetual future X2
+1 is Φ(X(s)) = −σ2
+1X2
+1(s) for
+s ≥0.
+However, an important observation is that this funding rate does not uniquely determine the
+futures price. For instance, processes such as Y = 2X1 +X2
+1 and Y = X2 +2Xm +X2
+1 also serve
+as perpetual futures prices consistent with the same funding rate. This implies that the given
+rate allows for multiple arbitrage-free prices. To resolve this non-uniqueness, we introduce an
+additional term of the form ℓ(X2
+1(s) −Y (s)) for sufficiently large ℓ> 0. The modified funding
+rate
+Φ(X(s), Y (s)) = ℓ(X2
+1(s) −Y (s)) −σ2
+1X2
+1(s) , s ≥0
+enforces a unique perpetual futures price within a suitable class of admissible processes. More-
+over, this unique price aligns with the target value Y (s) = X2
+1(s) for s ≥0. This modification is
+the core idea of the approach developed in this paper. We later provide a rigorous justification
+for why the additional term guarantees the uniqueness of the perpetual futures price.
+4
+
+
+===== PAGE 5 =====
+The remainder of this paper is organized as follows. Section 2 introduces the basic notations
+for path-dependent SDEs and PDEs as preliminary concepts. In Section 3, we analyze funding
+portfolios and their corresponding wealth processes.
+Section 4 presents instantaneous spot
+funding rates as well as path-dependent funding rates. Section 5 discusses several applications,
+and Section 6 concludes with a summary of the main findings. The proofs of the main results
+are presented in the appendices.
+2
+Preliminary
+In this section, we introduce basic notations of path-dependent SDEs and PDEs as preliminaries.
+The reader may refer to Ekren et al. (2014), Bally et al. (2016), Dupire (2019) and Viens and
+Zhang (2019) for more details. Throughout this study, let (Ω, F, P) be a complete probability
+space having a m-dimensional Brownian motion W. The augmented σ-algebra generated by W
+is denoted as (Fs)s≥0. Let L0(Rm) be the space of all progressively measurable processes taking
+values in Rm. For p > 0 and T > 0, we define
+Lp(Fs; Rm) = {ξ : Ω→Rm | ξ is a Fs-measurable random variable and E[|ξ|p] < ∞} ,
+Sp(0, T; Rm) =
+n
+X ∈L0(Rm) | X is continuous in time and E[||X||p
+T ] < ∞
+o
+,
+Hp(0, T; Rm) =
+n
+Z ∈L0(Rm)
+ E
+h Z T
+0
+|Z(u)|2 du
+ p
+2 i
+< ∞
+o
+,
+Sp(0, ∞; Rm) = ∩T>0Sp(0, T; Rm) ,
+Hp(0, ∞; Rm) = ∩T>0Hp(0, T; Rm) .
+The spaces Sp(s, T; Rm), Hp(s, T; Rm), Sp(s, ∞; Rm) and Hp(s, ∞; Rm) are similarly defined for
+s ∈[0, T].
+Let ˆΛ := D([0, ∞), Rm) be the space of all c´adl´ag functions from [0, ∞) to Rm. For γ ∈ˆΛ,
+denote by γ(s) the value of γ at time s and by γs = γ(s ∧·) the path of γ stopped at time s.
+Define a seminorm || · ||T and norm ||| · ||| on ˆΛ and a pseudometric d on [0, ∞) × ˆΛ as
+||γ||T = sup{|γ(s)| : s ∈[0, T]} , T ≥0 ,
+(2.1)
+|||γ||| =
+∞
+X
+n=1
+1
+2n (||γ||n ∧1) ,
+d((s, γ), (s′, γ′)) = |s −s′| +
+sup
+r∈[0,s∨s′]
+|γ(r ∧s) −γ′(r ∧s′)| .
+We write as ||γ|| ≤||γ′|| for γ, γ′ ∈ˆΛ if ||γ||T ≤||γ′||T for all T ≥0. For c´adl´ag processes X and
+X′, the meanings of X(s), Xs, ||X||T , ||X|| ≤||X′|| are straightforward.
+A map φ : [0, ∞) × ˆΛ →R is called a non-anticipative functional if φ(s, γ) = φ(s, γs) for all
+(s, γ) ∈[0, ∞)× ˆΛ. A non-anticipative functional φ is said to have polynomial growth of order p
+at most if there exists a constant L > 0 such that |φ(s, γ)| ≤L(1+||γ||p
+s) for all (s, γ) ∈[0, ∞)×ˆΛ.
+The constant p is referred to as the polynomial growth order of φ. We say a non-anticipative
+functional φ is horizontally differentiable (vertically differentiable, respectively) at (s, γ) if the
+limit
+∂sφ(s, γ) := lim
+h→0+
+φ(s + h, γs) −φ(s, γs)
+h
+exists (if for i = 1, · · · , m, the limit
+∂iφ(s, γ) := lim
+h→0
+φ(s, γs + hei1[s,∞)) −φ(s, γs)
+h
+5
+
+
+===== PAGE 6 =====
+exists where (ei)1≤i≤m represents the standard basis of Rm, respectively). We denote as ∂xφ(s, γ) =
+(∂iφ(s, γ))1≤i≤m and ∂2
+xxφ(s, γ) = (∂i(∂jφ)(s, γ))1≤i,j≤m. For p ≥1, we define the spaces
+A([0, ∞) × ˆΛ) = {φ : [0, ∞) × ˆΛ →R | φ is non-anticipative} ,
+C([0, ∞) × ˆΛ) = {φ ∈A([0, ∞) × ˆΛ) | φ is continuous with respect to d} ,
+Cp([0, ∞) × ˆΛ) = {φ ∈C([0, ∞) × ˆΛ) | φ has polynomial growth of order p} ,
+C1,2
+p ([0, ∞) × ˆΛ) = {φ ∈C([0, ∞) × ˆΛ) | ∂sφ, ∂xφ, ∂2
+xxφ exist and are in Cp([0, ∞) × ˆΛ)} .
+(2.2)
+Let Λ := C([0, ∞); Rm) be the space of all continuous functions from [0, ∞) to Rm. Because
+Λ ⊂ˆΛ and [0, ∞)×Λ ⊂[0, ∞)× ˆΛ, the seminorm ||·||T , norm ||·||, and pseudometric d defined in
+(2.1) are inherited. It can be easily checked that Λ and [0, ∞)×Λ are closed subspaces of ˆΛ and
+[0, ∞) × ˆΛ, respectively. Three spaces A([0, ∞) × Λ), C([0, ∞) × Λ), Cp([0, ∞) × Λ) are defined
+similarly to (2.2) and C1,2
+p ([0, ∞) × Λ) is defined as the space of all processes φ ∈A([0, ∞) × Λ)
+such that there exists ˆφ ∈C1,2
+p ([0, ∞)× ˆΛ) satisfying φ(s, γ) = ˆφ(s, γ) for all (s, γ) ∈[0, ∞)×Λ.
+We denote ∂sφ := ∂s ˆφ, ∂xφ := ∂x ˆφ, ∂2
+xxφ := ∂2
+xx ˆφ. By Cont and Fourni´e (2013), the derivatives
+∂sφ, ∂xφ, ∂2
+xxφ do not depend on the choice of ˆφ.
+3
+Pricing perpetual futures
+3.1
+Funding portfolios
+Consider a market with m + 1 assets consisting of m wealth processes, such as stocks, golds,
+cryptocurrencies and their linear combinations given as a solution to the path-dependent SDE
+X(s) = x +
+Z s
+0
+µ(u, Xu) du +
+Z s
+0
+σ(u, Xu) dW(u) for s ≥0
+(3.1)
+for x ∈Rm and non-anticipative functionals µ : [0, ∞)×Λ →Rm, σ : [0, ∞)×Λ →Rm×m, and a
+money market account G = (e
+R s
+0 r(u,Xu) du)s≥0 for a non-anticipative functional r : [0, ∞) × Λ →
+R. Our wealth process model encompasses negative value scenarios, including short positions
+in certain assets, linear combinations of multiple assets, and the event of negative oil prices
+(Corbet et al. (2021)). In numerous asset market models, the short rate is typically assumed to
+be constant rather than a functional of asset values. However, this study models the short rate
+as a functional dependent on asset values to generalize the market framework.
+Assumption 3.1. The non-anticipative functionals µ and σ satisfy the following conditions.
+(i) There exists a constant C1 > 0 such that |µ(s, 0)| + |σ(s, 0)| ≤C1 for s ∈[0, ∞).
+(ii) There exists constants C2, C3 > 0 such that
+|µ(s, γ) −µ(s′, γ′)| ≤C2 d((s, γ), (s′, γ′)) ,
+|σ(s, γ) −σ(s′, γ′)| ≤C3 d((s, γ), (s′, γ′))
+for (s, γ), (s′γ′) ∈[0, ∞) × Λ.
+Assumption 3.2. The short rate functional r : [0, ∞) × Λ →R is bounded. More precisely,
+there exists a constant Cr > 0 such that |r(s, γ)| ≤Cr for all (s, γ) ∈[0, ∞) × Λ.
+The following theorem states the existence and uniqueness of solutions to the SDE (3.1).
+For the proof, refer to (Protter, 2005, Theorem 7, Chapter 5).
+Theorem 3.1. Let Assumption 3.1 hold and p ≥1. Then, for any x ∈Rm, there exists a unique
+solution X to the SDE (3.1) in Sp(0, ∞; Rm).
+6
+
+
+===== PAGE 7 =====
+A portfolio is a m + 1 dimensional progressively measurable process h = (ϕ0(s), ϕ(s))s≥0 =
+(ϕ0(s), · · · , ϕm(s))s≥0 with its value process V h(s) := ϕ0(s)G(s) + ϕ(s)X(s) for s ≥0.
+Definition 3.1. Let F = (F(s))s≥0 be a progressively measurable process.
+(i) We say a portfolio h = (ϕ0(s), ϕ(s))s≥0 is a F-funding portfolio if ϕ0 and F are locally
+integrable and ϕ is locally square-integrable with respect to the Lebesgue measure on [0, ∞)
+almost surely and if
+dV h(s) = ϕ0(s) dG(s) + ϕ(s) dX(s) −F(s) ds .
+(ii) For ρ ≥1, we say a portfolio h is ρ-admissible if there exists a constant L > 0 such that
+||V h||T ≤L(1 + ||X||ρ
+T ) for all T ≥0.
+This definition is similar to the consumption portfolio in the standard investment-consumption
+portfolio theory. In particular, when F = 0, this portfolio h is self-financing. The local inte-
+grability condition is a technical requirement that guarantees the well-definedness of Lebesgue
+integrals and Itˆo integrals. The ρ-admissibility indicates that the value process is bounded above
+by a positive constant multiple of the ρ-th power of the underlying wealth process.
+We now describe fundamental concepts of perpetual future prices and funding rate function-
+als.
+Definition 3.2. Let F = (F(s))s≥0 be a progressively measurable process.
+(i) A perpetual future with funding rate F is a financial instrument where the short posi-
+tion pays the funding fee F(s) ds to the long position continuously until the contract is
+terminated. Denote the price of this perpetual future as Y = (Y (s))s≥0.
+(ii) A perpetual future Y with funding rate F is said to be replicable if there exists a F-funding
+portfolio h such that Y = V h.
+In cases where the funding rate is negative, the short position pays F(s) ds to the long position,
+indicating that the short position receives −F(s) ds from the long position.
+We can express the value process of F-funding portfolio as an infinite-horizon BSDE for a
+given funding rate F. Observe that a F-funding portfolio h = (ϕ0(s), ϕ(s))s≥0 satisfies
+dV h(s) = ϕ0(s) dG(s) + ϕ(s) dX(s) −F(s) ds
+= (r(s, Xs)(V h(s) −ϕ(s)X(s)) + ϕ(s)µ(s, Xs) −F(s)) ds + ϕ(s)σ(s, Xs) dW(s)
+= (r(s, Xs)V h(s) + Z(s)θ(Xs) −F(s)) ds + Z(s) dW(s)
+where θ(s, Xs) := σ−1(s, Xs)(µ(s, Xs) −X(s)r(s, Xs)) and Z(s) := ϕ(s)σ(s, Xs) for s ≥0.
+Defining Y (s) = V h(s), we have
+Y (s) = YT −
+Z T
+s
+(r(u, Xu)Y (u) + Z(u)θ(u, Xu) −F(u)) du −
+Z T
+s
+Z(u) dW(u)
+(3.2)
+for 0 ≤s ≤T < ∞in the infinite-horizon BSDE form.
+We mainly work with funding rates that depend on both the m wealth processes X and the
+perpetual future price Y. Typical funding rates traded in the cryptocurrency market follow this
+form.
+Definition 3.3. If a funding rate is expressed as F(s) = Φ(s, Xs, Y (s)), s ≥0 for a non-
+anticipative functional Φ : [0, ∞)×Λ×R →R, then we refer to Φ as the funding rate functional
+and denote the corresponding funding rate by F Φ.
+7
+
+
+===== PAGE 8 =====
+The first objective is to verify that for any appropriate funding rate functional Φ, there exists
+a unique F Φ-funding portfolio. If the funding rate functional Φ = Φ(s, Xs) is independent of Y ,
+proving the existence and uniqueness of F Φ-funding portfolios becomes relatively straightfor-
+ward. However, if Φ depends on Y , this is not immediately clear; the formal and rigorous proof
+is complex and challenging. We address this problem by formulating it as an infinite-horizon
+BSDE. With a funding rate functional Φ : [0, ∞) × Λ × R →R, it follows that
+Y (s) = YT −
+Z T
+s
+(r(u, Xu)Y (u) + Z(u)θ(u, Xu) −Φ(u, Xu, Y (u))) du −
+Z T
+s
+Z(u) dW(u)
+(3.3)
+for 0 ≤s ≤T < ∞in the infinite-horizon BSDE form.
+Consequently, the existence and
+uniqueness of F Φ-funding portfolios is equivalent to the existence and uniqueness of solutions
+to the infinite-horizon BSDE above.
+3.2
+Risk-neutral pricing BSDEs
+We now introduce risk-neutral measures and demonstrate how funding portfolios are expressed
+using the risk-neutral measure.
+Assumption 3.3. The matrix σ is invertible and the local martingale
+(e−
+R s
+0 θ(u,Xu) dW(u)−1
+2
+R s
+0 |θ(u,Xu)|2 du)s≥0
+is a martingale.
+We define a risk-neutral measure by the Girsanov theorem under this assumption. For s ≥0,
+let Qs be a probability measure on Fs defined as
+dQs
+dP = e−
+R s
+0 θ(Xu) dW(u)−1
+2
+R s
+0 θ2(Xu) du .
+We can extend this to the sigma-algebra F = σ(∪Fs, s ≥0) by (Deuschel and Stroock, 1989,
+Section 5.3). It is evident that P and Qs are equivalent for all s ≥0 and Xi/G is a martingale
+for all i = 1, 2, · · · , m. From the Girsanov theorem, the process
+B(s) = W(s) +
+Z s
+0
+θ(u, Xu) du, s ≥0
+is a Brownian motion under the measure Q. Using this Brownian motion B, the Q-dynamics of
+the wealth processes X is expressed as
+X(s) = x +
+Z s
+0
+r(u, Xu)X(u) du +
+Z s
+0
+σ(u, Xu) dB(u) , s ≥0 .
+(3.4)
+and the infinite-horizon BSDE (3.2) becomes
+Y (s) = YT −
+Z T
+s
+(r(u, Xu)Y (u) −F(u)) du −
+Z T
+s
+Z(u) dB(u)
+(3.5)
+for 0 ≤s ≤T < ∞. For convenience, we use the notation E for EQ throughout this study
+without ambiguity.
+Analyzing the infinite-horizon BSDE (3.3) becomes more straightforward when conducted
+under the risk-neutral measure. It follows that
+Y (s) = Y (T) −
+Z T
+s
+(r(u, Xu)Y (u) −Φ(u, Xu, Y (u))) du −
+Z T
+s
+Z(u) dB(u)
+(3.6)
+8
+
+
+===== PAGE 9 =====
+for 0 ≤s ≤T < ∞. We refer to this as the risk-neutral pricing BSDE for the perpetual future.
+As mentioned above, the existence and uniqueness of F Φ-funding portfolios is equivalent to the
+existence and uniqueness of solutions to this risk-neutral pricing BSDE. Theorem 3.2 states that
+under Assumptions 3.1 - 3.4, this BSDE has a unique solution (Y, Z) = (Y (s), Z(s))s≥0, thereby
+implying the existence and uniqueness of F Φ-funding portfolios.
+We state several conditions on the driver to guarantee the existence and uniqueness of
+solutions to the risk-neutral pricing BSDE. To precisely determine the constant Mρ∨2 stated
+in Assumption 3.4 (v), we recall the BDG inequality.
+For any q ≥1, there exist positive
+constants mq and Mq such that
+mqE
+h Z T
+0
+|η(u)|2 du
+ q
+2 i
+≤E
+h
+sup
+0≤s≤T
+
+Z s
+0
+η(u) dB(u)
+
+qi
+≤MqE
+h Z T
+0
+|η(u)|2 du
+ q
+2 i
+(3.7)
+for all T ≥0 and η ∈Hq(0, T; Rm).
+Assumption 3.4. Let Φ : [0, ∞) × Λ × R →R be a non-anticipative functional and define
+f(s, γ, y) := −r(s, γ)y + Φ(s, γ, y) for s ∈[0, ∞), γ ∈Λ, y ∈R. Assume the function f satisfies
+the following conditions.
+(i) The function f is continuous and non-anticipative.
+(ii) There are constants C4 > 0 and ρ ≥1 such that
+|f(s, γ, 0)| ≤C4(1 + ||γ||ρ
+s)
+for all (s, γ) ∈[0, ∞) × Λ.
+(iii) The function f is Lipschitz in y, uniformly in (s, γ).
+(iv) There exists a constant ℓ> 0 such that
+(y −y′)(f(s, γ, y) −f(s, γ, y′)) ≤−ℓ|y −y′|2
+for all γ ∈Λ, y, y′ ∈R.
+(v) ℓ> infK>0(K + 1
+2( Cr
+√
+2K + Mρ∨2C3)2)ρ, where Mρ∨2 represents the constant in the BDG
+inequality.
+The following theorem indicates that if the function f meets certain conditions, then the
+perpetual future with funding rate (Φ(s, Xs, Y (s))s≥0 can be replicated, that is, there exists a
+unique F Φ-funding portfolio. The proof of the following theorem is stated in Appendix A.
+Theorem 3.2. Let Assumptions 3.1 - 3.4 hold and ρ be the constant in Assumption 3.4. Then,
+the BSDE (3.6) has a unique solution (Y, Z) in S2(0, ∞; R) × H2(0, ∞; Rm) such that ||Y || ≤
+L(1 + ||X||ρ) for some constant L > 0.
+Note that our methodology differs from the standard derivative pricing framework. In the
+traditional approach, derivatives with a fixed terminal date are priced using a risk-neutral mea-
+sure, with replicating portfolios derived via the martingale representation theorem. However,
+this standard method is not applicable to perpetual futures, which lack a fixed terminal date.
+Instead, we transform the problem into an infinite-horizon BSDE and establish the existence
+and uniqueness of its solutions. Notably, without introducing risk-neutral measures, the BSDE
+(3.3) can be analyzed directly under the physical measure; however, this involves more complex
+analysis and is valid under more restrictive conditions. The risk-neutral measure introduced
+here is employed to simplify the BSDE and facilitate the straightforward proofs of the existence
+and uniqueness of solutions.
+We now examine the Feynman-Kac formula in the context of path-dependent infinite-horizon
+BSDEs and the corresponding path-dependent PDEs (PPDEs). Appendix B provides the defi-
+nition of viscosity solutions for PPDEs and the proof of the following theorem.
+9
+
+
+===== PAGE 10 =====
+Theorem 3.3. Let Assumptions 3.1-3.4 hold and let ρ be the constant in Assumption 3.4.
+Assume further that the mapping (s, γ) 7→r(s, γ)γ(s) is Lipschitz continuous.
+For (s, γ) ∈
+[0, ∞) × Λ, let Xs,γ be a solution to
+Xs,γ(v) = γ(s) +
+Z v
+s
+r(u, Xt,γ
+u )Xt,γ(u) du +
+Z v
+s
+σ(u, Xt,γ
+u ) dB(u) ,
+v ≥s ,
+(3.8)
+Xs,γ(v) = γ(v) ,
+0 ≤v ≤s .
+(i) The infinite-horizon BSDE
+Y s,γ(v) = Y s,γ(T) +
+Z T
+v
+f(u, Xs,γ
+u , Y s,γ(u)) du
+−
+Z T
+v
+Zs,γ(u) dB(u) , s ≤v ≤T < ∞
+(3.9)
+has a unique solution (Y s,γ, Zs,γ) in S2(s, ∞; R) × H2(s, ∞; Rm) such that ||Y s,γ|| ≤L(1 +
+||Xs,γ||ρ) for some constant L > 0.
+(ii) Define a function φ : [0, ∞) × Λ →R as φ(s, γ) = Y s,γ(s), then Y 0,x(s) = φ(s, X0,x
+s
+) for
+all x ∈Rm. Then φ is continuous and is a viscosity solution to the PPDE
+−∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r(s, γ)∂xφ(s, γ)γ(s) −f(s, γ, φ(s, γ)) = 0 .
+(3.10)
+(iii) Suppose φ ∈C1,2
+ρ ([0, ∞) × Λ) is a solution to the PPDE
+−∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r(s, γ)∂xφ(s, γ)γ(s) −f(s, γ, φ(s, γ)) = 0 .
+Then we have (Y 0,x, Z0,x) = (φ(s, X0,x
+s
+), σ⊤∂xφ(s, X0,x
+s
+))s≥0 for all x ∈Rm.
+4
+Designing funding rates
+In this section, we address key questions related to the funding mechanism. Consider an issuer
+seeking to maintain the perpetual future price in alignment with a target value φ(s, Xs). A
+common example is φ(s, γ) = φ(s, γ1, · · · , γm) = c0 + Pm
+i=1 ciγi(s) for c0, c1, · · · , cm ∈R, which
+represents an index of composite assets. Additional examples are provided in Section 5. We
+emphasize that the target value φ(s, Xs) is not necessarily tradable. The central question is how
+to design the funding rate to ensure that the perpetual future price remains consistent with the
+desired process φ(s, Xs). In this section, we provide an answer to that question for any given
+p ≥1 and φ ∈C1,2
+p ([0, ∞) × Λ).
+4.1
+Instantaneous spot funding rates
+We analyze instantaneous spot funding rates, an ideal mechanism for keeping the perpetual
+future price aligned with the specified target values.
+Assumption 4.1. Suppose that a function H : R2 →R satisfies the following conditions.
+(i) H(y1, y2) = 0 if y1 = y2.
+(ii) The function H is Lipschitz in y2, uniformly in y1.
+(iii) There exists a constant ℓ> 0 such that
+(y2 −y′
+2)(H(y1, y2) −H(y1, y′
+2)) ≤−ℓ|y2 −y′
+2|2
+for all y1, y2, y′
+2 ∈R.
+10
+
+
+===== PAGE 11 =====
+For any p ≥1 and φ ∈C1,2
+p ([0, ∞) × Λ), we present a method for designing funding rates
+that ensures the perpetual future price remains anchored to φ(s, Xs) for s ≥0. The follow-
+ing theorem states that the risk-neutral pricing BSDE (3.6) with the funding rate functional
+Φ stated in (4.1) has a unique solution; moreover, the unique solution (Y, Z) coincides with
+(φ(s, Xs), (∂xσ φ)(s, Xs))s≥0. Consequently, this funding rate functional Φ induces a perpetual
+future price aligned with φ(s, Xs) for s ≥0. The constant Mρ∨2 in the following theorem is the
+BDG inequality constant in (3.7). The proof of the following theorem is described in Appendix
+C.
+Theorem 4.1. Let Assumptions 3.1-3.2 hold and H : R2 →R be a function satisfying Assump-
+tion 4.1. For any p ≥1 and φ ∈C1,2
+p ([0, ∞) × Λ), consider the funding rate functional
+Φ(s, γ, y) : = H(φ(s, γ), y) −∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r(s, γ)∂xφ(s, γ)γ(s) + r(s, γ)y
+(4.1)
+for (s, γ, y) ∈[0, ∞) × Λ × R. Then, we have the following.
+(i) The map (s, γ) 7→Φ(s, γ, 0) has polynomial growth. Let ρ ≥p and CΦ > 0 be constants
+such that |Φ(s, γ, 0)| ≤CΦ(1 + ||γ||ρ
+s) for all (s, γ) ∈[0, ∞) × Λ.
+(ii) Let ℓbe the constant in Assumption 4.1. If
+ℓ> inf
+K>0(K + 1
+2( Cr
+√
+2K
++ Mρ∨2C3)2)ρ ,
+(4.2)
+the risk-neutral pricing BSDE (3.6) has a unique solution (Y, Z) in S2(0, ∞; R)×H2(0, ∞; Rm)
+such that ||Y || ≤L(1 + ||X||ρ) for some constant L > 0. Moreover, Y (s) = φ(s, Xs) and
+Z(s) = (∂xφ σ)(s, Xs) for s ≥0.
+For given p ≥1 and φ ∈C1,2
+p ([0, ∞) × Λ), a funding portfolio is said to be admissible if it
+is p-admissible. In the above theorem, because the unique solution is given by Y (s) = φ(s, Xs)
+and φ has polynomial growth of order p with p ≤ρ, it follows that there exists a unique F Φ-
+funding portfolio among all admissible funding portfolios. An important observation is that this
+uniqueness holds across a broad class of funding portfolios. Recall the concept of ρ-admissibility
+from Definition 3.1. The theorem guarantees the existence of a unique F Φ-funding portfolio
+within the class of all ρ-admissible funding portfolios. As stated in (4.2), as ℓincreases, ρ can
+be chosen larger. Therefore, the uniqueness result extends to a wider class of portfolios as ℓ
+grows. As ℓis a constant selected by the issuer, the issuer can ensure the existence of a unique
+price and a unique replicating portfolio within a desired class of funding portfolios.
+The following corollary presents a simpler method of designing funding rates that ensures
+the perpetual future price aligns with the target value φ(s, Xs) for s ≥0. It is obtained by
+setting ρ = p + 2 in the above theorem. The detailed proof is provided in Appendix C.
+Corollary 4.2. Let Assumptions 3.1-3.2 hold. For given p ≥1 and φ ∈C1,2
+p ([0, ∞) × Λ),
+choose any function H satisfying Assumption 4.1 for the constant ℓsuch that
+ℓ> inf
+K>0(K + 1
+2( Cr
+√
+2K
++ Mp+2C3)2)(p + 2)
+and define the funding rate functional Φ as stated in (4.1). Then, the risk-neutral pricing BSDE
+(3.6) has a unique solution (Y, Z) in S2(0, ∞; R) × H2(0, ∞; Rm) such that ||Y || ≤L(1 + ||X||p+2)
+for some constant L > 0. Moreover, Y (s) = φ(s, Xs) and Z(s) = (∂xφ σ)(s, Xs) for s ≥0.
+The funding rate Φ presented in (4.1) consists of three components: H(φ(s, γ), y), −Lφ(s, γ)
+and r(s, γ)y, where
+Lφ(s, γ) := ∂sφ(s, γ) + 1
+2tr(σσ⊤∂xxφ)(s, γ) + r(s, γ)∂xφ(s, γ)γ(s) .
+11
+
+
+===== PAGE 12 =====
+Each term plays a distinct role in the funding mechanism. The first term H(φ(s, γ), y) plays a
+central role and will be discussed in more detail below. The second term −Lφ(s, γ) is associated
+with the no-arbitrage condition. Specifically, observe that the process
+Y (s) −
+Z s
+0
+ r(u, Xu)Y (u) −Φ(u, Xu, Y (u))
+
+du = φ(s, Xs) −
+Z s
+0
+Lφ(u, Xu) du , s ≥0
+is a local martingale under the risk-neutral measure because L is the infinitesimal generator
+of φ. This implies that the perpetual futures price Y , when adjusted by the funding fee Φ,
+is arbitrage-free. More precisely, it satisfies the condition of no free lunch with vanishing risk
+(Delbaen and Schachermayer (1994)). The third term r(s, γ)y reflects the interest rate cost or
+benefit from holding the perpetual future.
+The first term H(φ(s, γ), y) plays a crucial role in the funding mechanism. A remarkable
+phenomenon is that the transaction corresponding to H(φ(s, γ), y) does not occur in practice,
+since Assumption 4.1 (i) implies H(φ(s, Xs), Y (s)) = H(Y (s), Y (s)) = 0; nevertheless, this
+term is essential for ensuring the uniqueness of perpetual futures prices. From a mathematical
+perspective, it ensures the uniqueness of solutions to the infinite-horizon BSDE (3.6). From
+an economic standpoint, it enforces uniqueness through the law of supply and demand. To
+illustrate this, assume for simplicity that the short rate is zero and consider the case where
+φ(s, γ) = φ(s, γ1, . . . , γm) = γ1(s) and H(y1, y2) = ℓ(y1 −y2). Then the funding rate functional
+defined in (4.1) simplifies to Φ(s, Xs, Y (s)) = ℓ(X1(s) −Y (s)). If Y (s) < X1(s) at time s,
+indicating that the perpetual future price is below the first asset price, the long positions receive
+a positive amount −ℓ(Y (s) −X1(s)) ds from the short positions. Consequently, investors are
+incentivized to purchase more futures, increasing its price. Conversely, if Y (s) > X1(s) at time
+s, the long positions must pay ℓ(Y (s)−X1(s)) ds to the short positions. Consequently, they are
+likely to sell their futures, which drives the price down. This dynamic of supply and demand
+keeps the perpetual future price aligned with the first asset price.
+In this context, the parameter ℓmust be chosen sufficiently large to ensure the proper
+functioning of the law of supply and demand. Specifically, the condition stated in (4.2) needs
+to be satisfied. If this condition is not met, the uniqueness of funding portfolios cannot be
+guaranteed. To illustrate this, consider the two-dimensional uncorrelated Black-Scholes model
+X = (X1(s), X2(s))s≥0 with a constant short rate r = 1. The risk-neutral dynamics described
+in (3.4) simplify to
+Xi(s) = Xi(0) +
+Z s
+0
+Xi(u) du +
+Z s
+0
+σiXi(u) dBi(u) , i = 1, 2
+where σ1 and σ2 are volatility constants. Suppose we set φ(s, γ) = φ(s, γ1, . . . , γm) = γ1(s) and
+H(y1, y2) = ℓ(y1 −y2) with ℓ= 1. The parameter ℓ= 1 does not satisfy the condition (4.2)
+because infK>0(K + 1
+2( Cr
+√
+2K +Mρ∨2C3)2)ρ > infK>0(K +
+1
+4K )p = 1, where we have used Cr = 1,
+Mρ∨2 > 0, C3 > 0, and ρ ≥p = 1. The funding rate functional Φ defined in (4.1) is zero in this
+case. It is evident that a zero funding rate does not result in a unique future price. Indeed, the
+risk-neutral pricing BSDE
+Y (s) = Y (T) −
+Z T
+s
+Y (u) du −
+Z T
+s
+Z1(u) dB1(u) −
+Z T
+s
+Z2(u) dB2(u)
+admits multiple solutions. For examples, (Y, Z1, Z2) = (2X1, 2σ1X1, 0), (X1+2X2, σ1X1, 2σ2X2),
+(X−2/σ2
+1
+1
+, 2
+σ1 X−2/σ2
+1
+1
+, 0) are solutions. This highlights that choosing ℓsufficiently large is essential
+to ensure the uniqueness of funding portfolios.
+12
+
+
+===== PAGE 13 =====
+The funding rate stated in (4.1) can be expressed in the model-free form
+Φ(s, Xs, Y (s)) = H(φ(s, Xs), Y (s)) −∂sφ(s, Xs) −1
+2
+X
+1≤i,j≤m
+∂i(∂jφ)(s, Xs) d
+ds⟨Xi, Xj⟩s
+−∂xφ(s, Xs)Xs
+d
+ds ln Gs + Y (s) d
+ds ln Gs .
+This is directly obtained by r(s, Xs) =
+d
+ds ln Gs and (σσ⊤)i,j(s, Xs) =
+d
+ds⟨Xi, Xj⟩s. Thus, the
+precise knowledge of the non-anticipative functionals r, µ, and σ is not needed to determine the
+funding rate Φ. This observation is from (Angeris et al., 2023, Remark 4).
+Assumption 4.1 encompasses a broad range of funding rate functions. Typical examples
+include linear functions, such as ℓ(y1 −y2), as well as piecewise linear functions, such as
+ℓ1(y1 −y2) I{|y1−y2|≤1} + ℓ2(y1 −y2) I{|y1−y2|>1} and ℓ1(y1 −y2) I{y1>y2} + ℓ2(y1 −y2) I{y1≤y2},
+where ℓ, ℓ1, ℓ2 > 0. Furthermore, instead of constant coefficients, the assumption allows these
+coefficients to be stochastic processes (ℓ(s))s≥0, (ℓ1(s))s≥0, and (ℓ2(s))s≥0, which are bounded
+below by some positive constants.
+The most common form among these is the linear func-
+tion H(y1, y2) = ℓ(y1 −y2), in which case the funding rate Φ defined in (4.1) is referred to
+as a constant proportion funding rate. While most existing literature concentrates exclusively
+on constant proportion funding rates, our findings are applicable to a broad class of funding
+schemes. This is the first study to derive unique pricing and replicating portfolios for perpetual
+futures across a diverse range of funding rate structures.
+4.2
+Path-dependent funding rates
+We examine the constant proportion funding rate and its path-dependent variant for practical
+applications. The short rate is assumed to be a constant r throughout this section. We begin
+by defining path-dependent funding rate functionals, which generalize the concept introduced
+in Definition 3.3. A key distinction is that they are dependent on the historical trajectory of Y .
+Definition 4.1. If a funding rate is expressed as F(s) = Φ(s, Xs, Ys) for a non-anticipative
+functional Φ : [0, ∞) × Λ × C([0, ∞); R) →R, then we refer to Φ as the path-dependent funding
+rate functional and denote the corresponding funding rate by F Φ.
+For any p ≥1, ℓ> 0, δ > 0 and φ ∈C1,2
+p ([0, ∞) × Λ), we define two non-anticipative
+functionals Φ : [0, ∞) × Λ × R →R and Φδ : [0, ∞) × Λ × C([0, ∞); R) →R as
+Φ(s, γ, y) = ℓ(φ(s, γ) −y) −∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r∂xφ(s, γ)γ(s) + ry
+(4.3)
+and
+Φδ(s, γ, η) = 1
+δ
+Z s
+s−δ
+Φ(u, γ, η(u)) du .
+(4.4)
+The non-anticipative functional Φ represents a constant proportion funding rate based on current
+spot prices. However, on most exchanges, the funding fee is calculated as an average of values
+over the past 8 hours rather than relying on the current spot price. This can be mathematically
+modeled using the path-dependent functional Φδ, where δ =
+1
+1095, corresponding to an 8 hour
+averaging window. Because Φδ is obtained by averaging over recent short periods, we consider
+Φδ to be a practical approximation of Φ.
+This path-dependent funding rate induces an infinite-horizon delayed BSDE. By setting
+F(s) = Φ(s, Xs, Ys) in (3.5), we obtain
+Y δ(s) = Y δ(T) −
+Z T
+s
+(rY δ(u) −Φδ(u, Xu, Y δ
+u )) du −
+Z T
+s
+Zδ(u) dB(u)
+(4.5)
+13
+
+
+===== PAGE 14 =====
+for 0 ≤s ≤T < ∞, which is the risk-neutral pricing BSDE for the path-dependent funding rate
+Φδ. A direct calculation yields
+Y δ(s) = Y δ(T) −
+Z T
+s
+(rY δ(u) −1
+δ
+Z u
+u−δ
+Φ(v, Xv, Y δ(v)) dv du −
+Z T
+s
+Zδ(u) dB(u)
+= Y δ(T) +
+Z T
+s
+g(u, Xu) −rY δ(u) −ℓ−r
+δ
+Z u
+u−δ
+Y δ(v) dv du −
+Z T
+s
+Zδ(u) dB(u)
+where g : [0, ∞) × Λ →R is a non-anticipative functional defined as
+g(s, γ) := 1
+δ
+Z s
+s−δ
+ℓφ(v, γ) −∂sφ(v, γ) −1
+2tr(σσ⊤∂xxφ)(v, γ) −r∂xφ(v, γ)γ(v) dv
+for (s, γ) ∈[0, ∞) × Λ. This BSDE is classified as a delayed BSDE due to the presence of an
+additional term
+R u
+u−δ Y (v) dv. This extra component introduces additional complexity compared
+to the classical BSDE framework. The infinite-horizon delayed BSDE has not been studied
+before. To handle this delay term, we extend the domain of all processes Y ∈S2(0, ∞; R) to
+include the interval [−δ, 0] by defining Y (s) = Y (0) for s ∈[−δ, 0]. Despite this extension, we
+continue to denote the process space as S2(0, ∞; R) rather than S2(−δ, ∞; R).
+We recall from Theorem 4.1 that for any p ≥1 and φ ∈C1,2
+p ([0, ∞)×Λ), the non-anticipative
+functional Φ(s, γ, 0) has polynomial growth in (s, γ). There are constants ρ ≥p and CΦ > 0
+such that |Φ(s, γ, 0)| ≤CΦ(1 + ||γ||ρ
+s) for all (s, γ) ∈[0, ∞) × Λ. It can be easily shown that
+|g(s, γ)| ≤CΦ(1 + ||γ||ρ
+s) for all (s, γ) ∈[0, ∞) × Λ.
+Assumption 4.2. Consider the funding rate functionals Φ and Φδ defined in (4.3) and (4.4),
+respectively. Let ρ ≥p and CΦ > 0 be constants such that |Φ(s, γ, 0)| ≤CΦ(1 + ||γ||ρ
+s) for all
+(s, γ) ∈[0, ∞) × Λ. Suppose ℓ∈R and 0 < δ < 1 satisfy the following conditions.
+(i) ℓ> 1 + infK>0(K + 1
+2(
+r
+√
+2K + Mρ∨2C3)2)ρ.
+(ii) The constant δ satisfies
+1
+3
+e|6(ℓ−r)2−2ℓ+2|δ −1
+|6(ℓ−r)2 −2ℓ+ 2|δ < 1 ,
+eρ((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ < 1 .
+We primarily focus on two key topics related to path-dependent funding rate functionals.
+First, we examine the existence and uniqueness of Φδ-funding portfolios. Theorem 3.2 is not
+applicable as Φδ depends on the historical trajectory of Y . Second, we compare the values of
+the Φδ-funding portfolio and the Φ-funding portfolio. Specifically, we demonstrate that when
+δ is small, the funding rate functionals Φ and Φδ produce similar perpetual future prices Y
+and Y δ as well as similar replicating portfolios Z and Zδ. The main results on these topics
+are presented in Theorem 4.3, with detailed proofs provided in Appendix D. Although these
+topics are conceptually straightforward, establishing rigorous proofs is complex and challenging.
+The upper bounds L1, L2, L3, L4, L5 specified in the theorem can be explicitly calculated. More
+refined upper bounds are provided in Appendix D.2. The first inequality in (4.7) holds without
+taking expectations. Note that the following theorem holds in particular for ρ = p + 2, similar
+to Corollary 4.2.
+Theorem 4.3. Let Assumptions 3.1-3.3 hold. Suppose that the funding rate functionals Φ and
+Φδ defined in (4.3) and (4.4), respectively, satisfy Assumption 4.2. Then, we have the followings.
+(i) The BSDE (3.6) has a unique solution (Y, Z) in S2(0, ∞; R) × H2(0, ∞; Rm) such that
+||Y || ≤L(1 + ||X||ρ) for some constant L > 0. In addition, Y (s) = φ(s, Xs) and Z(s) =
+(∂xφ σ)(s, Xs) for s ≥0.
+14
+
+
+===== PAGE 15 =====
+(ii) The BSDE (4.5) has a unique solution (Y δ, Zδ) in S2(0, ∞; R) × H2(0, ∞; Rm) such that
+||Y δ|| ≤L(1 + ||X||ρ) for some constant L > 0.
+Moreover, we have
+lim
+δ→0 E
+
+||Y δ −Y ||T
+
+= 0 ,
+(4.6)
+lim
+δ→0 E
+h Z T
+0
+|Zδ(u) −Z(u)|2 du
+i
+= 0
+for all T ≥0. In particular, if there is a constant C5 > 0 such that |Φ(s, γ, 0) −Φ(s′, γ′, 0)| ≤
+C5(1 + ||γs||ρ−1
+s∨s′ + ||γ′
+s′||ρ−1
+s∨s′)(
+p
+|s −s′| + ||γs −γ′
+s′||s∨s′) for all (s, γ), (s′, γ′) ∈[0, ∞) × Λ, then for
+some positive constants L1, L2, L3, L4, L5, we have
+||Y δ −Y ||T ≤(L1 + L2||X||ρ
+T )
+√
+δ
+E
+h Z T
+0
+|Zδ(u) −Z(u)|2 du
+i
+≤(1 + T)(L3E[||X||2ρ
+T ] + L4E[||X||ρ
+T ] + L5)
+√
+δ
+(4.7)
+for all T ≥0.
+5
+Applications
+5.1
+Perpetual power index futures
+We study how to design funding rate functionals for perpetual power index futures. Consider a
+market with m + 1 assets consisting of a money market account with constant short rate r ≥0
+and m tradable assets given as a solution to the path-dependent SDE (3.1) for x ∈Rm and
+non-anticipative functionals µ : [0, ∞)×Λ →Rm, σ : [0, ∞)×Λ →Rm×m. We take Assumptions
+3.1 and 3.3 to be valid.
+We examine an issuer seeking to keep the perpetual future price aligned with the market’s
+power index. More precisely, the perpetual future price at time s is anchored to φ(s, Xs) for all
+s ≥0 where φ(s, γ) = φ(s, γ1, · · · , γm) := c0 + Pm
+i=1 ciγpi
+i (s) for given c0, c1, · · · , cm ∈R and
+p1, · · · , pm ∈N. By Theorem 4.1, a funding rate functional Φ : [0, ∞) × Λ × R →R defined as
+Φ(s, γ, y) := H(φ(s, γ), y) −1
+2tr(σσ⊤∂xxφ)(s, γ) −rγ(s)(c1p1γp1−1
+1
+(s), · · · , cmpmγpm−1
+m
+(s)) + ry
+where the matrix ∂xxφ(s, γ) is
+
+
+
+c1p1(p1 −1)γp1−2
+1
+(s)
+· · ·
+0
+...
+...
+...
+0
+· · ·
+cmpm(pm −1)γpm−2
+1
+(s)
+
+
+
+gives the desired perpetual future price if H satisfies Assumption 4.1 with the constant ℓ>
+infK>0(K + 1
+2(
+r
+√
+2K + M2∨ρC3)2)ρ for ρ := max1≤i≤m pi. The risk-neutral pricing BSDE (3.6)
+has a unique solution (Y, Z) in S2(0, ∞; R) × H2(0, ∞; Rm) such that ||Y || ≤L(1 + ||X||ρ) for
+some constant L > 0 and this unique solution is
+(Y, Z) = (φ(s, Xs), (c1p1X1(s), · · · , cmpmXm(s))σ(s, Xs))s≥0 .
+The perpetual future price Y with this funding rate functional Φ coincides with the market’s
+power index and the corresponding replicating portfolio is ϕ(s) := Z(s)σ−1(s, Xs) for s ≥0.
+We examine the constant proportion funding rate functional Φ and its path-dependent vari-
+ant Φδ defined in (4.3) and (4.4), respectively, with the constants ℓand δ satisfying Assumption
+15
+
+
+===== PAGE 16 =====
+4.2. According to Theorem 4.3, the path-dependent funding rate Φδ generates uniquely the
+perpetual future price process Y δ and the replicating portfolio ϕδ(s) := Zδ(s)σ−1(s, Xs). Fur-
+thermore, these are close to the original future price Y and replicating portfolio ϕ, as described
+in (4.7).
+As a special case, consider the traditional Black-Scholes model.
+Under the risk-neutral
+measure, the stock price follows dX(s) = rX(s) ds + σX(s) dB(s) where r ≥0 denotes the
+short rate. Suppose m = 1, r = 0.02, σ = 0.3, c0 = 0, c1 = 1, p1 = 1, then (4.2) is satisfied
+for ℓ> 0.26227. The original funding rate Φ with this constant ℓyields the desired perpetual
+future price and the replicating portfolio. For the path-dependent funding rate Φδ, we set δ =
+1
+1,095, which corresponds to an 8 hour period, a commonly used time interval in cryptocurrency
+markets. We choose ℓsuch that 1.26227 < ℓ< 15.75125. Then these constants ℓand δ satisfy
+Assumption 4.2. Let us compare the perpetual futures derived from the funding rate functionals
+Φ and Φδ. According to (4.7) and (D.23), we have that for all T ≥0,
+||Y δ −Y ||T ≤(3.68432||X||T + 0.84216)
+√
+δ ≤0.11134||X||T + 0.02545
+and
+E
+h Z T
+0
+|Zδ(u) −Z(u)|2 du
+i
+≤
+ (0.41021 + 82.041T)E[||X||2
+T ] + (0.06227 + 31.97983T)E[||X||T ] + 0.00236 + 2.78067T
+√
+δ
+≤(0.01239 + 2.47927T)E[||X||2
+T ] + (0.00188 + 0.96642T)E[||X||T ] + 0.00007 + 0.084031T .
+As an additional application, we consider an issuer seeking to keep the perpetual future price
+aligned with Xp1
+1 Xp2
+2 · · · Xpm
+m where p1, p2, . . . , pm ∈N. Most of the results are analogous to those
+obtained for the previous power index futures. Define φ(s, γ) := Qm
+i=1 γpi
+i (s) and ρ := Pm
+i=1 pi.
+While our analysis holds for any m ∈N, for simplicity, we focus on the case m = 2 in the
+following discussion. We introduce a funding rate functional Φ : [0, ∞) × Λ × R →R defined as
+Φ(s, γ, y) = H(φ(s, γ), y) −1
+2tr(σσ⊤∂xxφ)(s, γ) −rγ(s)(p1γp1−1
+1
+(s)γp2
+2 (s), p2γp1
+1 (s)γp2−1
+2
+(s)) + ry
+where the matrix ∂xxφ(s, γ) is
+p1(p1 −1)γp1−2
+1
+(s)γp2
+2 (s)
+p1p2γp1−1
+1
+(s)γp2−1
+2
+(s)
+p1p2γp1−1
+1
+(s)γp2−1
+2
+(s)
+p2(p2 −1)γp1
+1 (s)γp2−2
+2
+(s)
+
+and H satisfies Assumption 4.1 with the constant ℓ> infK>0(K + 1
+2(
+r
+√
+2K + M2∨ρC3)2)ρ
+for ρ := p1 + p2.
+The perpetual future price Y , associated with this funding rate Φ, co-
+incides with Xp1
+1 Xp2
+2 .
+The corresponding replicating portfolio is ϕ(s) = Z(s)σ−1(s, Xs) =
+(p1Xp1−1
+1
+(s)Xp2
+2 (s), p2Xp1
+1 (s)Xp2−1
+2
+(s))σ−1(s, Xs) for s ≥0. As in the case of power index fu-
+tures, the funding rate functionals Φ and Φδ, with the parameters ℓand δ satisfying Assumption
+4.2, yield similar perpetual futures prices Y and Y δ, as well as similar replicating portfolios Z
+and Zδ.
+5.2
+Perpetual foreign exchange futures
+One of the commonly traded futures in cryptocurrency markets is a perpetual foreign ex-
+change future. We consider an issuer seeking to keep the perpetual future price aligned with
+the foreign exchange rate.
+Suppose m = 1 and let rd and rf be the domestic and foreign
+short rates, respectively, and U = (U(s))s≥0 be the exchange rate. We assume that U is a
+stochastic process satisfying U(s) = U(0) +
+R s
+0 b(u, Uu) du +
+R s
+0 v(u, Uu) dW(u) for U(0) ∈R
+and non-anticipative functionals b : [0, ∞) × Λ →R, v : [0, ∞) × Λ →R. The process X =
+(U(s)erfs)s≥0 is a wealth process and satisfies X(s) = X(0)+
+R s
+0 µ(u, Xu) du+
+R s
+0 σ(u, Xu) dW(u)
+where µ(s, γ) := rfγ(s) + erfsb(s, e−rf(·∧s)γs) and σ(s, γ) := erfsv(s, e−rf(·∧s)γs). Assume that
+16
+
+
+===== PAGE 17 =====
+these non-anticipative functionals µ and σ satisfy Assumptions 3.1 and 3.3. Define φ(s, γ) :=
+e−rfsγ(s), then U(s) = φ(s, Xs) for s ≥0.
+We examine an issuer seeking to keep the perpetual future price aligned with the foreign
+exchange rate. By Theorem 4.1, a funding rate functional Φ : [0, ∞) × Λ × R →R defined
+as Φ(s, γ, y) := H(φ(s, γ), y) −(rd −rf)φ(s, γ) + rdy yields the desired perpetual future if H
+satisfies Assumption 4.1 for the constant ℓ> infK>0(K + 1
+2(
+rd
+√
+2K + M2C3)2). The perpetual
+future price derived from this funding rate function Φ coincides with the foreign exchange rate
+U and the replicating portfolio is ϕ(s) := e−rfs for s ≥0.
+We compare the constant proportion funding rate functional Φ with its path-dependent
+variant Φδ for the parameters ℓand δ satisfying Assumption 4.2. The path-dependent funding
+rate Φδ uniquely generates the perpetual future price process Y δ and the associated replicating
+portfolio ϕδ. Furthermore, these approximations are close to the original future price Y = U
+and the replicating portfolio ϕ(s) = e−rfs, s ≥0 as described in (4.7).
+5.3
+Geometric mean constant funds
+Following Angeris and Chitra (2020), Evans (2020), and Angeris et al. (2023), we investigate
+a geometric mean constant function market maker (CFMM). Consider the multi-dimensional
+Black-Scholes model. Assume that the short rate is a constant r ≥0 and m tradable assets are
+given as dX(s) = D(X(s))µ ds + D(X(s))σ dW(s) where µ = (µ1 · · · µm)⊤∈Rm×1 and
+σ =
+
+
+
+σ1
+...
+σm
+
+
+=
+
+
+
+σ11
+· · ·
+σ1m
+...
+...
+...
+σm1
+· · ·
+σmm
+
+
+∈Rm×m
+and σ is invertible. Here, for any x = (x1, · · · , xm), we denote by D(x) the diagonal matrix
+whose i-th diagonal entry is xi. It is evident that Assumptions 3.1-3.3 are met. Under the
+risk-neutral measure, the process X satisfies dX(s) = D(X(s))r1 ds + D(X(s))σ dB(s) where 1
+denotes the m dimensional column vector with all entries equal to 1.
+If one deposits a unit amount into a geometric mean CFMM, then the value of this deposit
+at time s ≥0 is
+Y (s) :=
+X1(s)
+X1(0)
+p1X2(s)
+X2(0)
+p2 · · ·
+Xm(s)
+Xm(0)
+pm
+where p1, · · · , pm are positive constants with Pm
+i=1 pi = 1. For simplicity, we assume X1(0) =
+· · · = Xm(0) = 1. Imagine that an issuer designs a funding rate to make the perpetual future
+price aligned with this value. Define φ(s, γ) := γp1
+1 (s)γp2
+2 (s) · · · γpm
+m (s) then the funding rate
+Φ(s, γ, y) := H(φ(s, γ), y)−(r−κ)φ(s, γ)+ry with κ := 1
+2
+Pm
+i=1 pi|σi|2−1
+2| Pm
+i=1 piσi|2 yields the
+desired perpetual future if H satisfies Assumption 4.1 for the constant ℓ> infK>0(K + 1
+2(
+r
+√
+2K +
+M2C3)2). The perpetual future price derived from this funding rate function Φ coincides with Y
+and the replicating portfolio is ϕ = (p1Xp1−1
+1
+Xp2
+2 · · · Xpm
+m , · · · , pmXp1
+1 Xp2
+2 · · · Xpm−1
+m
+). As in the
+previous sections, the funding rate functionals Φ and Φδ, with the parameters ℓand δ satisfying
+Assumption 4.2, yield similar perpetual futures prices Y and Y δ, as well as similar replicating
+portfolios Z and Zδ.
+Most results of our paper cannot be applied directly to prove these because the function φ
+is not differentiable at the origin nor the partial derivative has polynomial growth at the origin,
+thus φ is not in C1,2
+p ([0, ∞) × Λ). To avoid this, we detour the strategy. The main idea is
+to construct a wealth process useful for this analysis. Observe that Y (s) = Qm
+i=1 Xpi
+i (s) =
+Qm
+i=1 e(rpi−1
+2 pi|σi|2)s+piσiBs = e−κsers−1
+2 |Σ|2s+ΣBs for s ≥0 where Σ := pσ = Pm
+i=1 piσi ∈
+R1×m and p := (p1, · · · , pm) ∈R1×m. Define ˆB(s) :=
+Σ
+|Σ|B(s) and ˆX(s) := ers−1
+2 |Σ|2s+|Σ| ˆB(s),
+17
+
+
+===== PAGE 18 =====
+then Y (s) = e−κs ˆX(s), ˆB is a one-dimensional Brownian motion and d ˆX(s) = r ˆX(s) ds +
+|Σ| ˆX(s) d ˆB(s) for s ≥0. It can be shown that the process ˆX is the wealth process of the
+self-financing portfolio
+ˆπ(s) := ˆX(s)pD−1(X(s)) = ˆX(s)D−1(X(s))p⊤
+= eκs(p1Xp1−1
+1
+(s)Xp2
+2 (s) · · · Xpm
+m (s), · · · , pmXp1
+1 (s)Xp2
+2 (s) · · · Xpm−1
+m
+(s))
+= eκs
+p1
+Y (s)
+X1(s), · · · , pm
+Y (s)
+Xm(s)
+
+.
+As mentioned in Section 3.1, the results of our paper are applicable to wealth process mod-
+els.
+To design a funding rate to make the perpetual future price aligned with Y , we de-
+fine ˆφ(s, ˆγ) := e−κsˆγ(s), then it is evident that ˆφ ∈C1,2
+1 ([0, ∞) × Λ).
+The funding rate
+functional ˆΦ(s, ˆγ, y) := H( ˆφ(s, ˆγ), y) −(r −κ) ˆφ(s, ˆγ) + ry gives the desired perpetual future
+price and its replicating portfolio is ˆϕ(s) = e−κs for s ≥0. Because φ(s, Xs) = ˆφ(s, ˆXs) and
+Φ(s, Xs, Y (s)) = ˆΦ(s, ˆXs, Y (s)) for s ≥0, two infinite-horizon BSDEs derived from Φ and ˆΦ
+coincides, thus Φ and ˆΦ induce the same perpetual future prices. In addition, because ˆX is the
+wealth process from ˆπ, holding ˆϕ number of ˆX indicates holding the portfolio ˆϕˆπ, which is equal
+to ϕ.
+6
+Conclusion
+This study focuses on analyzing the funding rate mechanism for perpetual future contracts
+traded in cryptocurrency markets. Our findings indicate that, through careful design of funding
+rates, the perpetual futures can be kept consistent with their target values. Furthermore, we
+construct replicating portfolios for perpetual futures, providing issuers with a robust strategy
+to hedge their exposures.
+In addition, we introduce path-dependent funding rates suitable
+for practical implementation and examine the discrepancies between the original and path-
+dependent funding rates.
+There are several potential directions for extending this work. The parameter ℓintroduced
+in Assumption 4.1 (iii) must be sufficiently large to ensure the uniqueness of perpetual future
+prices. In particular, the condition given in (4.2) is necessary. However, this condition does
+not represent the optimal lower bound, and the authors believe there is significant room for
+improvement. Since ℓplays a crucial role in the funding mechanism, identifying tighter lower
+bounds would be a valuable contribution. Another possible extension is to explore a broader
+class of path-dependent funding rates. This paper focuses on a path-dependent version of the
+constant proportion funding rate, but in practice, a variety of funding rate structures may be
+employed. Analyzing more general forms of path-dependent funding rates would therefore be
+an important and relevant direction for future research.
+A
+Proof of Theorem 3.2
+The following proposition is a variant of (Confortola et al., 2019, Lemma 2.1) tailored to our
+context. This proposition will be used to prove Theorem 3.2.
+Proposition A.1. Let Assumptions 3.1-3.2 hold and X be a solution to (3.1).
+Then X ∈
+Sp(0, ∞; Rm) for any p ≥1, and there exist positive constants L6, which depends only on p, and
+L7, L8, L9, which depend only on C1, Cr, C3, p, such that
+Es[||X||p
+T ] ≤(L6||X||p
+s + L7)eL8(T−s) ,
+(A.1)
+Es[||X −Xs||p
+s+δ] ≤L9(1 + Es[||X||p
+s+δ]δ
+p
+2
+18
+
+
+===== PAGE 19 =====
+for all T ∈(0, ∞), δ ∈(0, 1) and s ∈[0, T].
+Proof. We first prove that X ∈Sp(0, ∞; Rm) for any p ≥1. Observe that the SDE
+˜X(s) = x +
+Z s
+0
+r(u, Xu) ˜X(u) du +
+Z s
+0
+σ(u, ˜Xu) dB(u) , s ≥0
+(A.2)
+has a solution ˜X in Sp(0, ∞; Rm) by (Protter, 2005, Theorem 7, Chapter 5). By showing X = ˜X,
+we conclude that X ∈Sp(0, ∞; Rm). For each n ∈N, define a stopping time
+τn = inf{s ≥0 | |X(s)| ≥n or | ˜X(s)| ≥n } ,
+and let ˆX := X −˜X. Because both X and ˜X are solutions to (A.2), we have
+ˆX(s ∧τn) =
+Z s∧τn
+0
+r(u, Xu) ˆX(u) du +
+Z s∧τn
+0
+σ(u, Xu) −σ(u, ˜Xu) dB(u) .
+From the BDG inequality and Jensen’s inequality, it follows that
+E[ sup
+0≤r≤s
+| ˆX(r ∧τn)|2]
+≤2E
+h
+sup
+0≤r≤s
+
+Z r∧τn
+0
+r(u, Xu) ˆX(u) du
+
+2
++ sup
+0≤r≤s
+
+Z r∧τn
+0
+σ(u, ˜Xu) −σ(u, Xu) dB(u)
+
+2i
+≤L
+
+E
+h Z s
+0
+sup
+0≤r≤u
+| ˆX(r ∧τn)| du
+2i
++ E
+h Z T
+0
+sup
+0≤r≤u
+| ˆX(r ∧τn)|2 du
+i
+≤L(1 + s)E
+h Z s
+0
+sup
+0≤r≤u
+| ˆX(r ∧τn)|2 du
+i
+for some positive constant L. Define a function Ψ : [0, ∞) →[0, ∞) as
+Ψ(s) := E[ sup
+0≤r≤s
+| ˆX(r ∧τn)|2] , s ≥0 .
+Applying Gr¨onwall’s inequality to Ψ, we have Ψ(s) = 0 for all s ≥0, which implies X(s ∧τn) =
+˜X(s ∧τn) for all s ≥0. Letting n →∞, we obtain X = ˜X and thus X ∈Sp(0, ∞; Rm).
+For the first inequality in (A.1), we prove it for p ≥2. The case with 0 < p < 2 is directly
+obtained by Jensen’s inequality. Using
+X(r) = X(s) +
+Z r
+s
+r(u, Xu)X(u) du +
+Z r
+s
+σ(u, Xu) dB(u) , 0 ≤s ≤r ,
+one can easily show that for A ∈Fs,
+||X||T 1A ≤||X||s1A + sup
+r∈[s,T]
+
+Z r
+s
+r(u, Xu)X(u) du
+1A + sup
+r∈[s,T]
+
+Z r
+s
+σ(u, Xu) dB(u)
+1A .
+According to the Minkowski inequality and the BDG inequality, it follows that
+(E[||X||p
+T 1A])
+1
+p ≤(E[||X||p
+s1A])
+1
+p +
+
+E
+h Z T
+s
+Cr||X||u du1A
+pi 1
+p
++ Mp
+
+E
+h Z T
+s
+(C1 + C3||X||u)2 du
+ p
+2 1A
+i 1
+p
+≤(E[||X||p
+s1A])
+1
+p + C1(E[1A])
+1
+p Mp(T −s)
+1
+2
++
+Z T
+s
+(E[(Cr||X||u1A)p])
+1
+p du + Mp
+ Z T
+s
+(E[(C3||Xu||u1A)p])
+2
+p du
+ 1
+2
+19
+
+
+===== PAGE 20 =====
+where Mp is the constant from the BDG inequality. For K > 0, by multiplying e−K(T−s), we
+have
+e−K(T−s)(E[||X||p
+T 1A])
+1
+p ≤(E[||X||p
+s1A])
+1
+p + C1(E[1A])
+1
+p Mp(T −s)
+1
+2
++
+Z T
+s
+e−K(T−s)(E[(Cr||X||u1A)p])
+1
+p du
++ Mp
+ Z T
+s
+e−2K(T−s)(E[(C3||Xu||u1A)p])
+2
+p du
+ 1
+2 .
+Observe that
+Z T
+s
+e−K(T−s)(E[(||X||u1A)p])
+1
+p du ≤
+Z T
+s
+e−K(T−u)e−K(u−s)(E[(||X||u1A)p])
+1
+p du
+≤
+1
+√
+2K
+ Z T
+s
+(e−K(u−s)(E[(||X||u1A)p])
+1
+p )2 du
+ 1
+2
+and
+ Z T
+s
+e−2K(T−s)(E[(||Xu||u1A)p])
+2
+p du
+ 1
+2 ≤
+ Z T
+s
+(e−K(u−s)(E[(||Xu||u1A)p])
+1
+p )2 du
+ 1
+2 .
+Thus,
+e−K(T−s)(E[||X||p
+T 1A])
+1
+p ≤(E[||X||p
+s1A])
+1
+p + C1(E[1A])
+1
+p Mp(1 + (T −s))
++
+ Cr
+√
+2K
++ MpC3
+ Z T
+s
+(e−K(u−s)(E[(||X||u1A)p])
+1
+p )2du
+ 1
+2 .
+Then, (Butler and Rogers, 1971, Corollary 2) yields
+e−K(T−s)(E[||X||p
+T 1A])
+1
+p
+≤
+ (E[||X||p
+s1A])
+1
+p + C1(E[1A])
+1
+p Mp(1 + (T −s))
+
+e1+ 1
+2 ( Cr
+√
+2K +MpC3)2(T−s) .
+Using the inequality T −s ≤1
+ϵeϵ(T−s) for any ϵ > 0, we obtain
+(E[||X||p
+T 1A])
+1
+p ≤((E[||X||p
+s1A])
+1
+p e + L(E[1A])
+1
+p )e(ϵ+K+ 1
+2 ( Cr
+√
+2K +MpC3)2)(T−s)
+(A.3)
+for some positive constant L. Because this holds for all A ∈Fs, it follows that
+Es[||X||p
+T ] ≤(L6||X||p
+s + L7)eL8(T−s)
+for positive constants L6, which depends only on p, and L7 and L8, which depend only on
+C1, Cr, C3, p.
+Now we prove the second inequality. From the BDG inequality and Jensen’s inequality, we
+have
+Es[||X −Xs||p
+s+δ] = Es
+h
+sup
+s≤r≤s+δ
+|X(r) −X(s)|pi
+≤LEs
+h Z s+δ
+s
+|r(u, Xu)X(u)| du
+p
++
+sup
+s≤r≤s+δ
+
+Z r
+s
+σ(u, Xu) dB(u)
+
+pi
+≤L
+
+Es
+h Z s+δ
+s
+|r(u, Xu)X(u)| du
+pi
++ Es
+h
+sup
+s≤r≤s+δ
+ Z r
+s
+|σ(u, Xu)|2 du
+ p
+2 i
+≤LEs
+h
+δp−1
+Z s+δ
+s
+|X(u)|p du + δ
+p
+2 −1
+Z s+δ
+s
+|σ(u, Xu)|p du
+i
+≤L(1 + Es[||X||p
+s+δ]δ
+p
+2
+for some positive constant L, which depends only on C1, Cr, C3, p and may change line by line.
+This completes the proof.
+20
+
+
+===== PAGE 21 =====
+We now prove Theorem 3.2.
+Proof. In this proof, L denotes a generic constant depending only on C1, Cr, C3, C4, ℓ, ρ and may
+differ line by line. We first prove the uniqueness of solutions. Suppose there are two solutions
+(Y 1, Z1) and (Y 2, Z2) to (3.6). Define three processes
+ˆY (s) = Y 1(s) −Y 2(s) ,
+ˆZ(s) = Z1(s) −Z2(s) ,
+α(s) = f(s, Xs, Y 1(s)) −f(s, Xs, Y 2(s))
+ˆY (s)
+1{| ˆY (s)|>0} −ℓ1{| ˆY (s)|=0} .
+It can be easily shown that α(s) ≤−ℓand
+ˆY (s) = ˆY (T) +
+Z T
+s
+α(u) ˆY (u) du −
+Z T
+s
+ˆZ(u) dB(u) .
+By Proposition A.1, there are constants L6 and L7, depending only on C1, Cr, C3, ρ, such that
+Es[||X||ρ
+T ] ≤(L6||X||ρ
+s + L7)e(ϵ+K+ 1
+2 ( Cr
+√
+2K +Mρ∨2C3)2)ρ(T−s)
+for any ϵ > 0, K > 0, T > 0 and s ∈[0, T]. As ℓ> infK>0{(K + 1
+2( Cr
+√
+2K + Mρ∨2C3)2)ρ}, for
+some constant L8 with 0 < L8 < ℓ, we have
+Es[||X||ρ
+T ] ≤(L6||X||ρ
+s + L7)eL8(T−s)
+(A.4)
+for any T > 0 and s ∈[0, T]. It follows that
+| ˆY (s)| =
+Es
+h
+e
+R T
+s α(u) du ˆY (T)
+i ≤Es
+h
+e−ℓ(T−s)L(1 + ||X||ρ
+T )
+i
+≤Le−(ℓ−L8)(T−s)(||X||ρ
+s + 1) .
+Letting T →∞, we have Y 1 −Y 2 = ˆY = 0. Moreover, this directly yields Z1 = Z2.
+Now we prove the existence of solutions. For each n ∈N, there exists a unique solution
+(Y n(s), Zn(s))0≤s≤n to the BSDE
+Y n(s) =
+Z n
+s
+f(u, Xu, Y n(u)) du −
+Z n
+s
+Zn(u) dB(u) .
+We extend this solution (Y n(s), Zn(s))0≤s≤n to (Y n(s), Zn(s))0≤s<∞by defining Y n(s) = Zn(s) =
+0 for all s > n. Then
+Y n(s) = Y n(T) +
+Z T
+s
+f(u, Xu, Y n(u)) −1{u>n}f(u, Xu, 0) du −
+Z T
+s
+Zn(u) dB(u) .
+For m > n, define three processes
+˜Y (s) = Y m(s) −Y n(s) ,
+˜Z(s) = Zm(s) −Zn(s) ,
+˜α(s) = f(s, Xs, Y m(s)) −f(s, Xs, Y n(s))
+˜Y (s)
+1{| ˜Y (s)|>0} −ℓ1{| ˜Y (s)|=0} .
+It can be easily checked that ˜α ≤−ℓand
+˜Y (s) =
+Z m
+s
+˜α(u) ˜Y (u) + 1{u>n}f(u, Xu, 0) du −
+Z m
+s
+˜Z(u) dB(u) .
+21
+
+
+===== PAGE 22 =====
+Then Itˆo’s formula and (A.4) yield
+| ˜Y (s)| = Es
+h Z m
+s
+e
+R u
+s ˜α(v) dv1{u>n}f(u, Xu, 0) du
+i
+≤Es
+h Z m
+n
+C4e−ℓ(u−s)(1 + ||X||ρ
+u) du
+i
+≤L(1 + ||X||ρ
+s)(e−(ℓ−L8)(n−s) −e−(ℓ−L8)(m−s)) .
+Therefore for 0 ≤T ≤n ≤m,
+lim
+n,m→∞E[ sup
+0≤s≤T
+|Y n(s) −Y m(s)|2] = 0 .
+The sequence (Y n)n∈N is a Cauchy sequence in S2(0, T; R) for each T > 0. Because S2(0, T; R)
+is complete, the limit Y := limn→∞Y n exists. Applying Itˆo’s formula, we have
+| ˜Y (0)|2 + E
+h Z T
+0
+| ˜Z(u)|2 du
+i
+= E
+h
+| ˜Y (T)|2 +
+Z T
+0
+2˜α(u)| ˜Y (u)|2 du
+i
+.
+From the inequality ˜α(s) ≤−ℓ,
+E
+h Z T
+0
+|Zm(u) −Zn(u)|2 du
+i
+= E
+h Z T
+0
+| ˜Z(u)|2 du
+i
+= E[| ˜Y (T)|2]
+≤L(1 + E[||X||2ρ
+T ])(e−(ℓ−L8)(n−s) −e−(ℓ−L8)(m−s))2 .
+Thus, (Zn)n∈N is a Cauchy sequence in H2(0, T; Rm).
+The limit Z := limn→∞Zn exists in
+H2(0, T; Rm). Because (Y n(s), Zn(s))0≤s≤n satisfies
+Y n(s) = Y n(T) +
+Z T
+s
+f(u, Xu, Y n(u)) du −
+Z T
+s
+Zn(u) dB(u) , 0 ≤s ≤T,
+the Lebesgue dominated convergence theorem implies that the pair (Y, Z) is a solution to (3.6).
+Now we prove that there exists a constant L > 0 such that ||Y || ≤L(1 + ||X||ρ). As Y =
+limn→∞Y n, it suffices to prove ||Y n|| ≤L(1 + ||X||ρ). Define
+α(s) := f(s, Xs, Y n(s)) −f(s, Xs, 0)
+Y n(s)
+1{|Y n(s)|>0} −ℓ1{|Y n(s)|=0} ,
+then
+Y n(s) =
+Z n
+s
+(α(u)Y n(u) + f(u, Xu, 0)) du −
+Z n
+s
+Zn(u) dB(u) , 0 ≤s ≤n .
+Using Itˆo’s formula, (A.4) and the inequality α(s) < −ℓ, we have
+|Y n(s)| ≤Es
+h Z n
+s
+e−ℓ(u−s)|f(u, Xu, 0)| du
+i
+≤L(1 + ||X||ρ
+s) .
+(A.5)
+This completes the proof.
+B
+Feynman-Kac formula
+We present the notions of path-dependent PDEs (PPDEs) and provide the proof of the Feynman-
+Kac formula stated in Theorem 3.3.
+For non-anticipative functionals r : [0, ∞) × Λ →R,
+σ : [0, ∞) × Λ →Rm×m and f : [0, ∞) × Λ × R →R, consider the PPDE
+−∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r(s, γ)∂xφ(s, γ)γ(s) −f(s, γ, φ(s, γ)) = 0
+(B.1)
+for (s, γ) ∈[0, ∞) × Λ. The definition of classical solutions to PPDEs is as follows. Classical
+solutions are often referred to simply as solutions.
+22
+
+
+===== PAGE 23 =====
+Definition B.1. Let φ ∈C1,2
+p ([0, ∞) × Λ).
+(i) We say φ is a classical subsolution (supersolution, respectively) to the PPDE (B.1) if
+−∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r(s, γ)∂xφ(s, γ)γ(s) −f(s, γ, φ(s, γ)) ≤0
+(≥0, respectively)
+for all (s, γ) ∈[0, ∞) × Λ.
+(ii) We say φ is a classical solution to the PPDE (B.1) if φ is both a classical subsolution and
+classical supersolution.
+For s ≥0, define Λs := C([0, s]; Rm) and Λs
+s+1 := C([s, s + 1]; Rm) equipped with the
+supremum norm. Let (Fs
+u)u≥0 be the filtration generated by ((B(u) −B(s))1u≥s)u≥0. Denote
+as T s
+s+1,+ the set of (Fs
+u)0≤u≤s+1-stopping times such that τ > s. For (s, γ) ∈[0, ∞) × Λ and
+φ ∈Cp([0, ∞) × Λ), we define the spaces
+Aφ(s, γ) := {ψ ∈C1,2
+p ([0, ∞) × Λ) | there exists τ ∈T s
+s+1,+
+such that 0 = ψ(s, γ) −φ(s, γ) = min
+˜τ∈T s
+s+1
+E[(ψ −φ)(τ ∧˜τ, Xs,γ)]} ,
+Aφ(s, γ) := {ψ ∈C1,2
+p ([0, ∞) × Λ) | there exists τ ∈T s
+s+1,+
+such that 0 = ψ(s, γ) −φ(s, γ) = max
+˜τ∈T s
+s+1
+E[(ψ −φ)(τ ∧˜τ, Xs,γ)]} ,
+where Xs,γ is a solution to the SDE (3.8).
+Definition B.2. Let φ ∈Cp([0, ∞) × Λ).
+(i) We say φ is a viscosity subsolution (superslution, respectively) to the PPDE (B.1) if
+−∂sψ(s, γ) −1
+2tr(σσ⊤∂xxψ)(s, γ) −r(s, γ)∂xψ(s, γ)γ(s) −f(s, γ, ψ(s, γ)) ≤0
+(≥0 , respectively)
+for all (s, γ) ∈[0, ∞) × Λ and ψ ∈Aφ(s, γ) (ψ ∈Aφ(s, γ), respectively).
+(ii) We say φ is a viscosity solution to the PPDE (B.1) if φ is both a viscosity subsolution and
+viscosity supersolution.
+Theorem B.1. Suppose that the functionals r, σ, f are continuous and φ ∈C1,2
+p ([0, ∞) × Λ).
+Then φ is a classical subsolution (supersolution, respectively) to the PPDE (B.1) if and only if
+φ is a viscosity subsolution (supersolution, respectively) to the PPDE (B.1).
+Proof. We only prove the subsolution property. Assume that φ is a viscosity subsolution to
+(B.1). Since φ ∈Aφ(s, γ) for (s, γ) ∈[0, ∞) × Λ, it follows that φ is a classical subsolution.
+Now we show that if φ is a classical subsolution then φ is a viscosity subsolution. Suppose
+φ is not a viscosity subsolution. Then, there exists (s, γ) ∈[0, ∞) × Λ and ψ ∈Aφ(s, γ) such
+that
+−M := ∂sψ(s, γ) + 1
+2tr(σσ⊤∂xxψ)(s, γ) + r(s, γ)∂xψ(s, γ)γ(s) + f(s, γ, ψ(s, γ)) < 0 .
+From the definition of Aφ(s, γ), there exists τ ∈T s
+s+1,+ such that
+0 = ψ(s, γ) −φ(s, γ) = min
+˜τ∈T s
+s+1
+E[(ψ −φ)(τ ∧˜τ, Xs,γ)] .
+23
+
+
+===== PAGE 24 =====
+Define six processes
+Y 1(v) = ψ(v, Xs,γ
+v ) , Z1(v) = σ⊤(v, Xs,γ
+v )∂xψ(v, Xs,γ
+v ),
+Y 2(v) = φ(v, Xs,γ
+v ) , Z2(v) = σ⊤(v, Xs,γ
+v )∂xφ(v, Xs,γ
+v ) ,
+ˆY (v) = Y 1(v) −Y s,γ(v) , ˆZ(v) = Z1(v) −Zs,γ(v)
+for s ≤v ≤s + 1 and a stopping time
+ˆτ := (s + 1) ∧τ ∧inf
+n
+v > s
+ ∂vψ(v, Xs,γ
+v ) + 1
+2tr(σσ⊤∂xxψ)(v, Xs,γ
+v )
++ r(v, Xs,γ
+v )∂xψ(v, Xs,γ
+v )Xs,γ(v) + f(v, Xs,γ
+v , Y 2(v)) > −M
+2
+o
+.
+By definition, we have ˆτ ∈T s
+s+1,+ since φ, ψ ∈C1,2
+p ([0, ∞) × Λ). By Theorem C.1, we have
+Y 1(s) = ψ(s + 1, Xs,γ
+s+1) −
+Z s+1
+s
+∂uψ(u, Xs,γ
+u ) + 1
+2tr(σσ⊤∂xxψ)(u, Xs,γ
+u )
++ r(u, Xs,γ
+u )∂xψ(u, Xs,γ
+u )Xs,γ(u) du −
+Z s+1
+s
+Z1(u) dB(u) ,
+Y 2(s) = φ(s + 1, Xs,γ
+s+1) −
+Z s+1
+s
+∂uφ(u, Xs,γ
+u ) + 1
+2tr(σσ⊤∂xxφ)(u, Xs,γ
+u )
++ r(u, Xs,γ
+u )∂xφ(u, Xs,γ
+u )Xs,γ(u) du −
+Z s+1
+s
+Z2(u) dB(u) .
+Then
+ˆY (ˆτ) =
+Z ˆτ
+s
+∂uψ(u, Xs,γ
+u ) + 1
+2tr(σσ⊤∂xxψ)(u, Xs,γ
+u ) + r(u, Xs,γ
+u )∂xψ(u, Xs,γ
+u )Xs,γ(u) du
+−
+Z ˆτ
+s
+∂uφ(u, Xs,γ
+u ) + 1
+2tr(σσ⊤∂xxφ)(u, Xs,γ
+u ) + r(u, Xs,γ
+u )∂xφ(u, Xs,γ
+u )Xs,γ(u) du
++
+Z ˆτ
+s
+ˆZ(u) dB(u) .
+We have
+∂vψ(v, Xs,γ
+v ) + 1
+2tr(σσ⊤∂xxψ)(v, Xs,γ
+v ) + r(v, Xs,γ
+v )∂xψ(v, Xs,γ
+v )Xs,γ(v)
++ f(v, Xs,γ
+v , Y 2(v)) ≤−M
+2
+(B.2)
+for v ∈[s, ˆτ] from the definition of ˜τ. Since φ is a classical solution to (B.1),
+∂vφ(v, Xs,γ
+v ) + 1
+2tr(σσ⊤∂xxφ)(v, Xs,γ
+v ) + r(v, Xs,γ
+v )∂xφ(v, Xs,γ
+v )Xs,γ(v)
++ f(v, Xs,γ
+v , φ(v, Xs,γ
+v )) ≥0 .
+(B.3)
+Using (B.2) and (B.3), we obtain
+ˆY (ˆτ) ≤
+Z ˆτ
+s
+−M
+2 du +
+Z ˆτ
+s
+ˆZ(u) dB(u) ,
+which implies that E[ ˆY (ˆτ)] < 0. This is a contradiction since ψ ∈Aφ(s, γ) yields that
+0 = min
+˜τ∈T s E[(ψ −φ)(τ ∧˜τ, Xs,γ)]} ≤E[(ψ −φ)(τ ∧ˆτ, Xs,γ)] = E[ ˆY (ˆτ)] < 0 .
+24
+
+
+===== PAGE 25 =====
+We now provide the proof of Theorem 3.3.
+Proof. First we show that (3.9) has a unique solution (Y s,γ(v), Zs,γ(v))v≥s such that ||Y s,γ|| ≤
+L(1+||Xs,γ||ρ) for some constant L > 0. The proof follows a similar approach to that of Theorem
+3.2, so we will only outline the main idea. For each n ∈N, consider the BSDE
+Y n,s,γ(v) =
+Z n
+v
+f(u, Xs,γ
+u , Y n,s,γ(u)) du −
+Z n
+v
+Zn,s,γ(u) dB(u) , s ≤v ≤n .
+There exist positive constants L6, L7, L8, L such that
+L8 < ℓ,
+Ev[||Xs,γ||ρ
+T ] ≤(L6||Xs,γ||ρ
+v + L7)eL8(T−v) ,
+|Y n,s,γ(v) −Y m,s,γ(v)| ≤L(1 + ||Xs,γ||ρ
+v)(e−(ℓ−L8)(n−v) −e−(ℓ−L8)(m−v))
+(B.4)
+for all T > 0 and v ∈[s, T]. Using these inequalities, one can verify that a sequence (Y n,s,γ)n∈N
+((Zn,s,γ)n∈N, respectively) converges in S2(0, T; R) (in H2(0, T; Rd), respectively) for each T > 0.
+Then, (Y s,γ, Zs,γ) := limn→∞(Y n,s,γ, Zn,s,γ) is a unique solution to (3.9). This proves (i).
+For (ii), we verify that Y 0,x(v) = φ(v, X0,x
+v ) and φ = φ(s, γ) is a viscosity solution to (3.10).
+For each n ∈N, define φn(s, γ) := Y n,s,γ(s). By (Cordoni et al., 2020, Theorem 4.5, Theorem
+4.7), φn is a continuous function and Y n,0,x(v) = φn(v, X0,x
+v ).
+Since the sequence (φn)n∈N
+converges locally uniformly on [0, ∞) × Λ by (B.4), the function φ : [0, ∞) × Λ →R given as
+φ(s, γ) := limn→∞φn(s, γ) for (s, γ) ∈[0, ∞) × Λ is also continuous. In addition, for ω ∈Ω
+φ(v, X0,x
+v (ω)) = lim
+n→∞φn(v, X0,x
+v (ω)) = lim
+n→∞Y n,0,x(v, ω) = Y 0,x(v, ω) .
+Now we will demonstrate that φ is a viscosity solution to (3.10). For our purposes, we will
+focus on proving that φ is a viscosity subsolution, as a similar argument will show that φ is
+also a viscosity supersolution. Assume that φ is not a viscosity subsolution. We will derive a
+contradiction from this assumption. There exist (s, γ) ∈[0, ∞) × Λ and ψ ∈Aφ(s, γ) such that
+−M := ∂sψ(s, γ) + 1
+2tr(σσ⊤∂xxψ)(s, γ) + r(s, γ)∂xψ(s, γ)γ(s) + f(s, γ, ψ(s, γ)) < 0 .
+From the definition of Aφ(s, γ), there exists τ ∈T s
+s+1,+ such that
+0 = ψ(s, γ) −φ(s, γ) = min
+˜τ∈T s
+s+1
+E[(ψ −φ)(τ ∧˜τ, Xs,γ) .
+(B.5)
+Let Cf denote the Lipschitz constant of the function f presented in (iii), i.e.,
+|f(v, γ, y) −f(v, γ, y′)| ≤Cf|y −y′|
+for all (s, γ) ∈[0, ∞) × Λ and y, y′ ∈R. Define four processes
+Y 1(v) := ψ(v, Xs,γ
+v ) , Z1(v) := σ⊤(v, Xs,γ
+v )∂xψ(v, Xs,γ
+v ) ,
+ˆY (v) := Y 1(v) −Y s,γ(v) , ˆZ(v) := Z1(v) −Zs,γ(v)
+for s ≤v ≤s + 1, and a stopping time
+ˆτ := (s + 1) ∧τ ∧inf
+n
+v > s
+ ∂vψ(v, Xs,γ
+v ) + 1
+2tr(σσ⊤∂xxψ)(v, Xs,γ
+v )
++ r(v, Xs,γ
+v )∂xψ(v, Xs,γ
+v )Xs,γ(v) + f(v, Xs,γ
+v , ψ(v, Xs,γ
+v ))
++ Cf| ˆY (v)| > −M
+2
+o
+.
+25
+
+
+===== PAGE 26 =====
+By definition, it is evident that ˆτ ∈T s
+s+1,+. By Theorem C.1, (Y 1(v), Z1(v))s≤v≤s+1 satisfies
+Y 1(s) = ψ(s + 1, Xs,γ
+s+1) −
+Z s+1
+s
+∂uψ(u, Xs,γ
+u ) + 1
+2tr(σσ⊤∂xxψ)(u, Xs,γ
+u )
++ r(u, Xs,γ
+u )∂xψ(u, Xs,γ
+u )Xs,γ(u) du −
+Z s+1
+s
+Z1(u) dB(u) .
+Then,
+ˆY (s) = ˆY (ˆτ) −
+Z ˆτ
+s
+∂uψ(u, Xs,γ
+u ) + 1
+2tr(σσ⊤∂xxψ)(u, Xs,γ
+u ) + r(u, Xs,γ
+u )∂xψ(u, Xs,γ
+u )Xs,γ(u)
++ f(u, Xs,γ
+u , Y s,γ(u)) du −
+Z ˆτ
+s
+ˆZ(u) dB(u) .
+Observe that ˆY (s) = 0 and
+∂vψ(v, Xs,γ
+v ) + 1
+2tr(σσ⊤∂xxψ)(v, Xs,γ
+v ) + r(v, Xs,γ
+v )∂xψ(v, Xs,γ
+v )Xs,γ(v)
++ f(v, Xs,γ
+v , ψ(v, Xs,γ
+v )) + Cf| ˆY (v)| ≤−M
+2 for v ∈[s, ˆτ] .
+Thus,
+ˆY (ˆτ) ≤
+Z ˆτ
+s
+−M
+2 −Cf| ˆY (u)| −f(u, Xs,γ
+u , Y 1(u)) + f(u, Xs,γ
+u , Y 2(u)) du −
+Z ˆτ
+s
+ˆZ(u) dB(u) .
+Observe that E[ ˆY (ˆτ)] = E[ψ(ˆτ, Xˆτ) −φ(ˆτ, Xˆτ))] ≥0, which is derived from (B.5), and
+−Cf| ˆY (u)| −f(u, Xs,γ
+u , Y 1(u)) + f(u, Xs,γ
+u , Y 2(u)) < 0 .
+This gives a contradiction.
+For (iii), we suppose φ ∈C1,2
+ρ ([0, ∞) × Λ). Theorem C.1 and (3.10) imply
+φ(v, X0,x
+v ) = φ(T, X0,x
+T ) −
+Z T
+v
+∂uφ(u, X0,x
+u ) + 1
+2tr(σσ⊤∂xxφ)(u, X0,x
+u )
++ r(u, X0,x
+u )∂xφ(u, X0,x
+u )X0,x(u) du −
+Z T
+v
+σ⊤∂xφ(u, X0,x
+u ) dB(u)
+= φ(T, X0,x
+T ) +
+Z T
+v
+f(u, X0,x
+u , φ(s, X0,x
+s
+)) du −
+Z T
+v
+σ⊤∂xφ(u, X0,x
+u ) dB(u) .
+It is evident that |φ(v, X0,x
+v )| ≤L(1 + ||X0,x||ρ
+v) since φ ∈C1,2
+ρ ([0, ∞) × Λ). The uniqueness of
+Theorem 3.2 gives the desired result.
+C
+Proofs of the main results in Section 4.1
+We first state the functional Itˆo formula, which is used to show Theorem 4.1. The proof of this
+formula is in Bally et al. (2016).
+Theorem C.1. Let X be a continuous semimartingale. Then for any F ∈C1,2
+p ([0, ∞) × Λ), we
+have
+F(s, Xs) = F(0, X0) +
+Z s
+0
+∂uF(u, Xu) du +
+Z s
+0
+∂xF(u, Xu) dX(u) + 1
+2
+Z s
+0
+tr∂2
+xxF(u, Xu) d[X](u) .
+26
+
+
+===== PAGE 27 =====
+The proof of Theorem 4.1 is as follows.
+Proof. For (i), we first show that the map y1 7→H(y1, 0) has linear growth. More precisely, there
+exists a constant C > 0 such that |H(y1, 0)| ≤C|y1| for all y1 ∈R. From (i) in Assumption 4.1,
+the function H can be written as H(y1, y2) = g(y1, y2)(y1 −y2) for some function g : R2 →R.
+Thus, it suffices to show that the map y1 7→g(y1, 0) is bounded. By (ii) in Assumption 4.1,
+there exists a constant CH > 0 such that
+|(y1 −y2)g(y1, y2) −(y1 −y′
+2)g(y1, y′
+2)| = |H(y1, y2) −H(y1, y′
+2)| ≤CH|y2 −y′
+2|
+for all y1, y2, y′
+2 ∈R. Setting y1 = y2 and y′
+2 = 0 yields |y1g(y1, 0)| ≤CH|y1|, which implies
+|g(y1, 0)| ≤CH for y1̸ = 0. Hence, the map y1 7→g(y1, 0) is bounded, and the desired linear
+growth condition for H(y1, 0) follows.
+Now observe that
+Φ(s, γ, 0) = H(φ(s, γ), 0) −∂sφ(s, γ) −1
+2tr(σσ⊤∂xxφ)(s, γ) −r(s, γ)∂xφ(s, γ)γ(s) .
+The terms H(φ(s, γ), 0), ∂sφ(s, γ), tr(σσ⊤∂xxφ)(s, γ), r(s, γ)∂xφ(s, γ)γ(s) have polynomial growth
+of orders p, p, p + 2, p + 1 at most, respectively, in (s, γ). This implies that the map (s, γ) 7→
+Φ(s, γ, 0) has polynomial growth. There exist constants ρ ≥1 and CΦ > 0 be constants such
+that |Φ(s, γ, 0)| ≤CΦ(1 + ||γ||ρ
+s) for all (s, γ) ∈[0, ∞) × Λ. One may choose ρ ≥p.
+We now show (ii). Recall the BSDE (3.6)
+Y (s) = Y (T) −
+Z T
+s
+(r(u, Xu)Y (u) −Φ(u, Xu, Y (u))) du −
+Z T
+s
+Z(u) dB(u) .
+By Theorem 3.2, this BSDE has a unique solution (Y, Z) in S2(0, ∞; R) × H2(0, ∞; Rm) such
+that |Y | ≤L(1 + ||X||ρ) for some positive constant L. Define
+(Y ′, Z′) = (φ(s, Xs), (∂xφ σ)(s, Xs))s≥0 ,
+then (Y ′, Z′) is also a solution to the BSDE (3.6) because
+Y ′(s) = Y ′(T) +
+Z T
+s
+−∂uφ(u, Xu) −1
+2tr(σσ⊤∂xxφ)(u, Xu) −r(u, Xu)∂xφ(u, Xu)X(u) du
+−
+Z T
+s
+Z′(u) dB(u)
+= Y ′(T) +
+Z T
+s
+H(φ(u, Xu), Y ′(u)) −∂uφ(u, Xu)
+−1
+2tr(σσ⊤∂xxφ)(u, Xu) −r(u, Xu)∂xφ(u, Xu)X(u) du −
+Z T
+s
+Z′(u) dB(u)
+= Y ′(T) −
+Z T
+s
+r(u, Xu)Y ′(u) −Φ(u, Xu, Y ′(u)) du −
+Z T
+s
+Z′(u) dB(u) .
+As φ ∈C1,2
+p ([0, ∞) × Λ), we know that (Y ′, Z′) ∈S2(0, ∞; R) × H2(0, ∞; Rm) and |Y ′| ≤
+L(1 + ||X||p) for some positive constant L. Since p ≤ρ, by the uniqueness in Theorem 3.2, we
+have Y = Y ′ and Z = Z′.
+The proof of Corollary 4.2 is as follows.
+Proof. This is directly obtained by showing |Φ(s, γ, 0)| ≤CΦ(1+||γ||p+2
+s
+) for all (s, γ) ∈[0, ∞)×Λ.
+Because the terms H(φ(s, γ), 0), ∂sφ(s, γ), tr(σσ⊤∂xx)φ(s, γ), r(s, γ)∂xφ(s, γ)γ(s) have polyno-
+mial growth of orders p, p, p + 2, p + 1 at most, respectively, the map Φ(s, γ, 0) has polynomial
+growth of order p + 2 at most.
+27
+
+
+===== PAGE 28 =====
+D
+Proofs of the main results in Section 4.2
+D.1
+Finite-horizon delayed BSDEs
+In this section, we study finite-horizon delayed BSDEs. The following proposition will be used
+to prove (ii) in Theorem 4.3.
+Theorem D.1. Let Assumptions 3.1,3.3 and 4.2 hold. Then for any T > 0 and ξ ∈L2(FT ; R),
+there exists a unique solution (Y, Z) in S2(0, T; R) × H2(0, T; Rm) to the BSDE
+Y (s) = ξ +
+Z T
+s
+g(u, Xu) −rY (u) −ℓ−r
+δ
+Z u
+u−δ
+Y (v) dv du
+−
+Z T
+s
+Z(u) dB(u) , 0 ≤s ≤T .
+(D.1)
+In particular, if ξ ≡0 then there is a constant L > 0 depending only on C1, C3, CΦ, r, ℓsuch
+that |Y (s)| ≤L(1 + ||X||ρ
+s) for all s ∈[0, T] where ρ is the constant in Assumption 4.2.
+Proof. We prove the existence and uniqueness of solutions to (D.1) through the Banach fixed-
+point theorem. Define a map Γ : S2(0, T; R) →S2(0, T; R) by Γ(U) = Y that satisfies
+Y (s) = E
+h
+ξ +
+Z T
+s
+g(u, Xu) −ℓY (u) −ℓ−r
+δ
+Z u
+u−δ
+U(v) −U(u) dv du
+Fs
+i
+, 0 ≤s ≤T .
+To verify that this map Γ is well-defined, it suffices to check that the BSDE
+Y (s) = ξ +
+Z T
+s
+g(u, Xu) −ℓY (u) −ℓ−r
+δ
+Z u
+u−δ
+U(v) −U(u) dv du
+−
+Z T
+s
+Z(u) dB(u) , 0 ≤s ≤T
+has a unique solution (Y, Z) in S2(0, T; R)×H2(0, T; Rm). This is directly obtained from (Zhang,
+2017, Theorem 4.2.1, Theorem 4.3.1) because the process
+ g(s, Xs) −ℓ−r
+δ
+Z s
+s−δ
+U(v) −U(u) dv
+
+0≤s≤T
+is in H2(0, T; R) for U ∈S2(0, T; R), which is easily observed by
+Z T
+0
+Z u
+u−δ
+|U(v)|2 dv du ≤Tδ||U||T .
+Now we verify that Γ is a contraction map with respect to the norm
+||Y || :=
+
+E
+h
+|Y (0)|2 +
+Z T
+0
+eMu|Y (u)|2 du
+i 1
+2
+where M := 2−2ℓ+6(ℓ−r)2. Let U, U′ ∈S2(0, T; R) and Y = Γ(U), Y ′ = Γ(U′). For simplicity,
+we define
+ˆU(u) = U(u) −U′(u) , ˆY (u) = Y (u) −Y ′(u) , ˆZ(u) = Z(u) −Z′(u) .
+Applying Itˆo’s formula to eMs| ˆY (s)|2, we have
+| ˆY (0)|2 +
+Z T
+0
+(M + 2ℓ)eMu| ˆY (u)|2 du +
+Z T
+0
+eMu| ˆZ(u)|2 du
+= −
+Z T
+0
+2(ℓ−r)
+δ
+eMu ˆY (u)
+Z u
+u−δ
+ˆU(v) −ˆU(u) dv du −
+Z T
+0
+2eMu ˆY (u) ˆZ(u) dB(u) .
+28
+
+
+===== PAGE 29 =====
+From the inequality 3ab ≤3a2 + 1
+3b2 for all a, b > 0 and the Jensen inequality, it follows that
+| ˆY (0)|2 +
+Z T
+0
+2eMu| ˆY (u)|2 du +
+Z T
+0
+eMu| ˆZ(u)|2 du +
+Z T
+0
+2eMu ˆY (u) ˆZ(u) dB(u)
+≤
+Z T
+0
+1
+3eMu| ˆU(u)|2 + eMu
+3δ
+Z u
+u−δ
+| ˆU(v)|2 dv du .
+Observe that
+Z T
+0
+eMu
+δ
+Z u
+u−δ
+| ˆU(v)|2 dv du =
+Z T
+0
+eMu
+δ
+Z 0
+−δ
+| ˆU(v + u)|2 dv du
+=
+Z 0
+−δ
+Z T
+0
+eMu
+δ | ˆU(v + u)|2 du dv
+=
+Z 0
+−δ
+Z T+v
+v
+eM(u−v)
+δ
+| ˆU(u)|2 du dv
+≤
+Z 0
+−δ
+e−Mv dv(
+Z 0
+−δ
+eMu
+δ | ˆU(0)|2 du +
+Z T
+0
+eMu
+δ | ˆU(u)|2 du)
+≤e|M|δ −1
+|M|δ
+(| ˆU(0)|2 +
+Z T
+0
+eMu| ˆU(u)|2 du) .
+Then we obtain
+E
+h
+| ˆY (0)|2 +
+Z T
+0
+2eMu| ˆY (u)|2 du +
+Z T
+0
+eMu| ˆZ(u)|2 du
+i
+≤1
+3E
+h Z T
+0
+eMu| ˆU(u)|2 du
+i
++ eMδ −1
+3Mδ
+E
+h
+| ˆU(0)|2 +
+Z T
+0
+eMu| ˆU(u)|2 du
+i
+≤e|M|δ −1
+3|M|δ E
+h
+| ˆU(0)|2 + 2
+Z T
+0
+eMu| ˆU(u)|2 du
+i
+.
+Thus, the map Γ is a contraction map.
+We now construct a solution (Y, Z) to (D.1) in S2(0, T; R) × H2(0, T; Rm). Because Γ is a
+contraction map, by the Banach fixed point theorem, there exists a unique fixed point Y in the
+completion of S2(0, T; R) with respect to the norm || · ||. Then
+Y (s) = E
+h
+ξ +
+Z T
+s
+g(u, Xu) −rY (u) −ℓ−r
+δ
+Z u
+u−δ
+Y (v) dv du
+Fs
+i
+, 0 ≤s ≤T .
+It can be shown that the process inside the conditional expectation belongs to H2(0, T; Rm)
+using that
+Z T
+0
+1
+δ
+Z u
+u−δ
+|Y (v)|2 dv du ≤
+Z T
+0
+1
+δ
+Z T
+−δ
+|Y (v)|2 dv du ≤L(1 + T)
+
+|Y (0)|2 +
+Z T
+0
+|Y (u)|2 du
+
+for some positive constant L. The martingale representation theorem yields that there exists a
+unique Z ∈H2(0, T; Rm) such that
+Y (s) = ξ +
+Z T
+s
+g(u, Xu) −rY (u) −ℓ−r
+δ
+Z u
+u−δ
+Y (v) dv du −
+Z T
+s
+Z(u) dB(u) , 0 ≤s ≤T .
+Thus, (Y, Z) satisfies (D.1). By a simple calculation, we have
+29
+
+
+===== PAGE 30 =====
+E[||Y ||2
+T ] ≤LE
+h
+|ξ|2 +
+Z T
+0
+|g(u, Xu)|2 + |Y (u)|2 + 1
+δ
+Z u
+u−δ
+|Y (v)|2 dv du +
+Z T
+0
+|Z(u)|2 du
+i
+≤L(1 + T)E
+h
+|ξ|2 + |Y (0)|2 +
+Z T
+0
+|g(u, Xu)|2 + 2|Y (u)|2 + |Z(u)|2 du
+i
+for some positive constant L. Therefore the solution (Y, Z) belongs to S2(0, T; R)×H2(0, T; Rm).
+We now prove that if ξ ≡0 then there is a constant L > 0 depending only on C1, C3, CΦ, r, ℓ, ρ
+such that |Y (s)| ≤L(1 + ||X||ρ
+s) for all s ≥0. We construct a sequence of processes (Y k, Zk)k∈N
+inductively. Define (Y 0, Z0) = (0, 0) and for k ∈N let (Y k, Zk) be a solution to
+Y k(s) =
+Z T
+s
+g(u, Xu) −ℓY k(u) −ℓ−r
+δ
+Z u
+u−δ
+Y k−1(v) −Y k−1(u) dv du
+−
+Z T
+s
+Zk(u) dB(u) .
+(D.2)
+Because Y k = Γ(Y k−1) and Y is a fixed point of Γ, we know Y is the limit of Y k.
+Thus
+it suffices to show that there exists a constant L > 0, which is independent to k, such that
+|Y k(s)| ≤L(1 + ||X||ρ
+s) for all s ∈[0, T].
+To prove this, we need the inequality (D.3) as a lemma. From (A.3), it follows that for any
+ϵ > 0 and K > 0 there is a constant L > 0 satisfying
+(E[||X||ρ
+T 1A])
+1
+ρ ≤(e(E[||X||ρ
+s1A])
+1
+ρ + L(E[1A])
+1
+ρ )e(ϵ+K+ 1
+2 (
+r
+√
+2K +Mρ∨2C3)2)(T−s) .
+Expanding the term (e(E[||X||ρ
+s1A])
+1
+ρ + L(E[1A])
+1
+ρ )ρ with Young’s inequality
+caibρ−i = (uai)(cbρ−i
+u
+) ≤iu
+ρ
+i
+ρ aρ + (ρ −i)c
+ρ
+ρ−i
+ρu
+ρ
+ρ−i
+bρ
+for a, b, c, u > 0 and i = 1, · · · , ρ −1, we obtain that for any κ > 0 there is Cκ > 0 such that
+E[||X||ρ
+T 1A] ≤((1 + κ)eρ(E[||X||ρ
+s1A] + CκE[1A])e(ϵ+K+ 1
+2 (
+r
+√
+2K +Mρ∨2C3)2)ρ(T−s) .
+Since ℓ> 1 + infK>0(K + 1
+2(
+r
+√
+2K + Mρ∨2C3)2)ρ and eρ((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ < 1, for
+some positive constants L6, L7, L8 satisfying L8 < ℓ−1 and L6((ℓ−r)2+ 1
+2|ℓ−r|ℓ+2|ℓ−r|)δ < 1,
+we have
+Es[||X||ρ
+T ] ≤(L6||X||ρ
+s + L7)eL8(T−s) .
+(D.3)
+We construct four sequences (ak)k≥0, (bk)k≥0, (˜ak)k≥0, (˜bk)k≥0 that satisfy
+|Y k(s)| ≤ak||X||ρ
+s + bk ,
+|Es[Y k(s1) −Y k(s2)] ≤(s2 −s1)(˜akEs[||X||ρ
+s2] + ˜bk)
+(D.4)
+for all 0 ≤s ≤s1 ≤s2. Define a0 = b0 = ˜a0 = ˜b0 = 0 then (D.4) is satisfied with Y 0 = 0.
+From (A.5), there are positive constants a1 and b1, depending only on C1, C3, CΦ, r, ℓ, ρ, such
+that |Y 1(s)| ≤a1||X||ρ
+s + b1. Given a0, b0, ˜a0,˜b0, a1, b1, we define inductively
+ak+1 = a1 + 2|ℓ−r|L6δak + 1
+2|ℓ−r|L6δ˜ak ,
+(D.5)
+bk+1 = b1 + 2|ℓ−r|L7δak + 2|ℓ−r|δbk + 1
+2|ℓ−r|L7δ˜ak + 1
+2|ℓ−r|δ˜bk ,
+30
+
+
+===== PAGE 31 =====
+and
+˜ak+1 = CΦ + ℓak+1 + 2|ℓ−r|ak ,
+(D.6)
+˜bk+1 = CΦ + ℓbk+1 + 2|ℓ−r|bk .
+Applying Itˆo’s formula, we have
+Y k+1(s) = Es
+h Z T
+s
+e−ℓ(u−s)g(u, Xu) −(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+Y k(v) −Y k(u) dv du
+i
+.
+Using (D.3), each term inside the conditional expectation of the above equation can be estimated
+as
+Es
+h Z T
+s
+e−ℓ(u−s)g(u, Xu)
+i
+≤Es
+h Z T
+s
+e−ℓ(u−s)CΦ(1 + ||X||ρ
+u)
+i
+≤a1||X||ρ
+s + b1 ,
+Es
+h Z s+δ
+s
+(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+Y k(v) −Y k(u) dv du
+i
+≤Es
+h Z s+δ
+s
+2|ℓ−r|e−ℓ(u−s)(ak||X||ρ
+u + bk) du
+i
+≤2|ℓ−r|L6
+1 −e−(ℓ−L8)δ
+ℓ−L8
+ak||X||ρ
+s + 2|ℓ−r|L7
+1 −e−(ℓ−L8)δ
+ℓ−L8
+ak + 2|ℓ−r|1 −e−ℓδ
+ℓ
+bk ,
+Es
+h Z T
+s+δ
+(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+Y k−1(v) −Y k−1(u) dv du
+i
+≤
+Z T
+s+δ
+1
+2|ℓ−r|e−ℓ(u−s)δ(˜akEs[||X||ρ
+u] + ˜bk) du
+≤|ℓ−r|L6e−(ℓ−L8)δ
+2(ℓ−L8)
+δ˜ak||X||ρ
+s + |ℓ−r|L7e−(ℓ−L8)δ
+2(ℓ−L8)
+δ˜ak + |ℓ−r|e−ℓδ
+2ℓδ˜bk .
+Observe that ℓ−L8 > 1 and 1−eaδ
+a
+≤δ for any a > 0. Thus, we have
+|Y k+1(s)| ≤ak+1||X||ρ
+s + bk+1 .
+By (D.2),
+Es[Y k+1(s1) −Y k+1(s2)]
+
+=
+Es
+h Z s2
+s1
+g(u, Xu) −ℓY k+1(u) −ℓ−r
+δ
+Z u
+u−δ
+Y k(v) −Y k(u) dv du
+i
+≤(s2 −s1)((CΦ + ℓak+1 + 2|ℓ−r|ak)Es[||X||ρ
+s2] + CΦ + ℓbk+1 + 2|ℓ−r|bk) .
+Thus, we obtain
+|Es[Y k+1(s1) −Y k+1(s2)] ≤(s2 −s1)(˜ak+1Es[||X||ρ
+s2] + ˜bk+1) .
+By substituting (D.6) into (D.5), we have
+ak+1 = a1 + 1
+2|ℓ−r|L6CΦδ + L6(1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δak + L6(ℓ−r)2δak−1 ,
+(D.7)
+bk+1 = b1 + 1
+2|ℓ−r|CΦδ + 2|ℓ−r|L7δak + 1
+2|ℓ−r|L7δ˜ak + 2|ℓ−r|δbk + 1
+2|ℓ−r|ℓδbk
++ |ℓ−r|2δbk−1 .
+31
+
+
+===== PAGE 32 =====
+Now we prove the convergence of the sequence (ak)k≥0 by verifying that it is increasing and
+bounded above. From the initial condition 0 = a0 < a1 and the recursive relation, it follows
+that a0 < a1 < a2 and
+ak+2 −ak+1 = L6(1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ(ak+1 −ak) + L6(ℓ−r)2δ(ak −ak−1) , for k ≥1.
+This equation implies that ak+2 −ak+1 > 0 whenever ak−1 < ak < ak+1. Therefore by math-
+ematical induction, the sequence (ak)k≥0 is increasing. To show that this sequence is bounded
+above, recall the condition L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ < 1. Define
+a :=
+a1 + 1
+2|ℓ−r|L6CΦδ
+1 −L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ
+then a > 0 and a0, a1 ≤a. By (D.7), if ak−1, ak ≤a then
+ak+1 = a1 + 1
+2|ℓ−r|L6CΦδ + L6(1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δak + L6(ℓ−r)2δak−1
+≤a1 + 1
+2|ℓ−r|L6CΦδ + L6(1
+2|ℓ−r|ℓ+ 2|ℓ−r| + (ℓ−r)2)δa
+≤a .
+By induction, ak ≤a for all k ≥0, thus the sequence (ak)k≥0 is bounded above by a. Since
+(ak)k≥0 is increasing and bounded above, it converges to a positive constant. Moreover, by the
+recursive relation in (D.7), it can be shown that limk→∞ak = a. Similarly, the sequences (bk)k≥0
+and (˜ak)k≥0 also converge to positive constants. We have
+lim
+k→∞˜ak = CΦ + (ℓ+ 2|ℓ−r|)
+a1 + 1
+2|ℓ−r|L6CΦδ
+1 −L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ
+and
+lim
+k→∞bk = b1 + 1
+2|ℓ−r|CΦδ + 2|ℓ−r|L7δa + 1
+2|ℓ−r|L7δ(Cϕ + (ℓ+ 2|ℓ−r|)a
+1 −((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ
+.
+Taking k →∞to the first inequality in (D.4), we obtain the desired results.
+The above proof verifies the convergence of the Picard iteration (Y k)k∈N to the unique
+solution Y of the BSDE (D.1) through the Banach fixed point theorem. It can also be shown
+that the sequence (Zk)k∈N converges to the unique solution Z of the BSDE. However, we omit
+the convergence of the sequence (Zk)k∈N in the following corollary, as it is not required for our
+purposes.
+Corollary D.2. Let (Y k, Zk)k∈N be the Picard iteration for the BSDE (D.1). More precisely,
+define (Y 0, Z0) = (0, 0) and for k ∈N let (Y k, Zk) be a solution to
+Y k(s) =
+Z T
+s
+g(u, Xu) −ℓY k(u) −ℓ−r
+δ
+Z u
+u−δ
+Y k−1(v) −Y k−1(u) dv du −
+Z T
+s
+Zk(u) dB(u) .
+Then (Y k)k∈N converges to the unique solution Y of the BSDE (D.1) Q ⊗ds-almost surely.
+32
+
+
+===== PAGE 33 =====
+D.2
+Proof of Theorem 4.3
+We now prove (i) and (ii) in Theorem 4.3. Part (i) is directly obtained by Theorem 4.1. The
+proof of (ii) is as follows.
+Proof. In this proof, L denotes a generic constant that depends only on C1, C3, CΦ, r, ℓ, ρ and
+may differ line by line and L6, L7, L8 are positive constants satisfying
+L8 < ℓ−1 ,
+L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ < 1 ,
+Es[||X||ρ
+T ] ≤(L6||X||ρ
+s + L7)eL8(T−s) .
+(D.8)
+We first prove the uniqueness of solutions. Let (Y 1, Z1) and (Y 2, Z2) be two solutions to (4.5)
+such that |Y i(s)| ≤L(1 + ||X||ρ
+s) for i = 1, 2. Define ˆY = Y 1 −Y 2 and ˆZ = Z1(s) −Z2(s). Then
+we have
+ˆY (s) = ˆY (T) +
+Z T
+s
+−r ˆY (u) −ℓ−r
+δ
+Z u
+u−δ
+ˆY (v) dv du −
+Z T
+s
+ˆZ(u) dB(u) , 0 ≤s ≤T < ∞.
+Let ( ˆY k, ˆ
+Zk) denote the Picard iteration of this BSDE. More precisely, define (ˆY 0, ˆZ0) = (0, 0)
+and for each k ∈N, let ( ˆY k, ˆZk) be a solution to
+ˆY k(s) = ˆY (T) +
+Z T
+s
+−ℓˆY k(u) −ℓ−r
+δ
+Z u
+u−δ
+ˆY k−1(v) −ˆY k−1(u) dv du −
+Z T
+s
+ˆZk(u) dB(u) .
+We construct four sequences (ak)k≥0, (bk)k≥0, (˜ak)k≥0, (˜bk)k≥0 that satisfy
+| ˆY k(s)| ≤e−(ℓ−L8)(T−s)(
+k−1
+X
+j=0
+(T −s)j
+j!
+)(ak||X||ρ
+s + bk) ,
+(D.9)
+|Es[ ˆY k(s1) −ˆY k(s2)]| ≤(s2 −s1)e−(ℓ−L8)(T−s2) k−1
+X
+j=0
+(T −s2)j
+j!
+
+(˜akEs[||X||ρ
+s2] + ˜bk)
+for all 0 ≤s ≤s1 ≤s2. Define a0 = b0 = ˜a0 = ˜b0 = 0 then (D.9) is satisfied with ˆY 0 = 0. It can
+be easily checked that there are constants a1 and b1, depending on C1, C3, CΦ, r, ℓ, ρ, such that
+| ˆY 1(s)| = |Es[e−ℓ(T−s) ˆY (T)]| ≤e−(ℓ−L8)(T−s)(a1||X||ρ
+s + b1) .
+Given a0, b0, ˜a0,˜b0, a1, b1, we define inductively
+ak+1 = a1 + 2|ℓ−r|L6δak + 1
+2|ℓ−r|L6δ˜ak ,
+bk+1 = b1 + 2|ℓ−r|L7δak + 2|ℓ−r|δbk + 1
+2|ℓ−r|L7δ˜ak + 1
+2|ℓ−r|δ˜bk ,
+and
+˜ak+1 = ℓak+1 + 2|ℓ−r|ak ,
+˜bk+1 = ℓbk+1 + 2|ℓ−r|bk .
+According to Itˆo’s formula,
+ˆY k+1(s) = Es
+h
+e−ℓ(T−s) ˆY (T) −
+Z T
+s
+(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+.
+33
+
+
+===== PAGE 34 =====
+Decompose the right hand side of the above equation into
+Es[e−ℓ(T−s) ˆY (T)] + Es
+h Z s+δ
+s
+−(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
++ Es
+h Z T
+s+δ
+−(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+.
+Observe that
+Es[e−ℓ(T−s) ˆY (T)] ≤e−(ℓ−L8)(T−s)(a1||X||ρ
+s + b1) ,
+Es
+h Z s+δ
+s
+|ℓ−r|e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+≤Es
+h Z s+δ
+s
+2|ℓ−r|e−ℓ(u−s)e−(ℓ−L8)(T−u)(
+k−1
+X
+j=0
+(T −u)j
+j!
+)(ak||X||ρ
+u + bk) du
+i
+≤
+Z s+δ
+s
+e−(ℓ−L8)(T−s) k−1
+X
+j=0
+(T −u)j
+j!
+
+(2|ℓ−r|akL6||X||ρ
+s + 2|ℓ−r|L7ak + 2|ℓ−r|bk) du
+≤e−(ℓ−L8)(T−s)(
+k−1
+X
+j=0
+(T −s)j
+j!
+)(2|ℓ−r|L6δak||X||ρ
+s + 2|ℓ−r|L7δak + 2|ℓ−r|δbk) ,
+Es
+h Z T
+s+δ
+|ℓ−r|e−ℓ(u−s)
+δ
+Z u
+u−δ
+( ˆY k(v) −ˆY k(u) dv du
+i
+≤
+Z T
+s
+|ℓ−r|e−ℓ(u−s)e−(ℓ−L8)(T−u) k−1
+X
+j=0
+(T −u)j
+j!
+1
+2δ(˜akEs[||X||ρ
+u] + ˜bk) du
+≤e−(ℓ−L8)(T−s)
+k
+X
+j=1
+(T −s)j
+j!
+
+(1
+2|ℓ−r|L6δ˜ak||X||ρ
+s + 1
+2|ℓ−r|L7δ˜ak + 1
+2|ℓ−r|δ˜bk) ,
+where we have used that e(ℓ−L8)(T−s) Pk
+j=0
+(T−s)j
+j!
+is an increasing function in s. Thus we have
+| ˆY k+1(s)| ≤e−(ℓ−L8)(T−s)
+k
+X
+j=0
+(T −s)j
+j!
+
+(ak+1||X||ρ
+s + bk+1) .
+For s ≤s1 ≤s2 ≤T,
+Es[ ˆY k+1(s1) −ˆY k+1(s2)]
+
+=
+E
+h Z s2
+s1
+−ℓˆY k+1(u) −ℓ−r
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+≤(s2 −s1)e−(ℓ−L8)(T−s2)
+k
+X
+j=0
+(T −s2)j
+j!
+
+((ℓak+1 + 2|ℓ−r|ak)Es[||X||ρ
+s2] + ℓbk+1 + 2|ℓ−r|bk)
+= (s2 −s1)e−(ℓ−L8)(T−s2)
+k
+X
+j=0
+(T −s2)j
+j!
+
+(˜ak+1Es[||X||ρ
+s2] + ˜bk+1) .
+We now verify Y 1 = Y 2 by taking k →∞to (D.9). Following the arguments in (D.7) and
+34
+
+
+===== PAGE 35 =====
+using the inequalities in (D.8), the limits
+a := lim
+k→∞ak =
+a1
+1 −L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ ,
+b := lim
+k→∞bk = b1 + aL7((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ
+1 −((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ
+exist and are positive. By Corollary D.2, the sequence ( ˆY k(s))k≥0 converge to ˆY (s), thus we
+obtain
+| ˆY (s)| ≤Le−(ℓ−L8−1)(T−s)(||X||ρ
+s + 1) , s ≥0
+By letting T →∞, we have Y 1 = Y 2. This induces Z1 = Z2.
+Now we prove the existence of solutions. For each n ∈N, consider the BSDE
+Y n(s) =
+Z n
+s
+g(u, Xu) −rY n(u) −ℓ−r
+δ
+Z u
+u−δ
+Y n(v) dv du −
+Z n
+s
+Z(u) dB(u) , 0 ≤s ≤n .
+For n ≤m, let ˜Y (s) := Y m(s) −Y n(s) and ˜Z(s) := Zm(s) −Zn(s). Then for s ≤n
+˜Y (s) = Y m(n) +
+Z n
+s
+−r ˜Y (u) −ℓ−r
+δ
+Z u
+u−δ
+˜Y (v) dv du −
+Z n
+s
+˜Z(u) dB(u) .
+Observe that |Y m(n)| ≤L(||X||ρ
+n + 1) by Theorem D.1. By a similar argument as above, it
+follows that
+| ˜Y (s)| = |Y m(s) −Y n(s)| ≤Le−(ℓ−L8−1)(n−s)(||X||ρ
+s + 1) .
+Therefore, for 0 ≤T ≤n ≤m, we have
+E[||Y n −Y m||2
+T ] ≤Le−2(ℓ−L8−1)(n−T)(||X||2ρ
+T + 1) .
+This indicates that (Y n)n∈N is a Cauchy sequence in S2(0, T; R) for each T ≥0 and we denote
+as Y δ the limit of Y n. Moreover, by Theorem D.1, there exists a constant L > 0 such that
+|Y δ| ≤L(1+||X||ρ). The sequence (Zn)n∈N is a Cauchy sequence in H2(0, T; Rm) for each T ≥0
+because
+E
+h Z T
+0
+| ˜Z(u)|2 du
+i
+≤L
+
+E
+h
+| ˜Y (T)|2 +
+Z T
+0
+| ˜Y (u)|2 + 1
+δ
+Z u
+u−δ
+| ˜Y (v)|2 dv du
+i
+≤L(1 + T)(E[||X||2ρ
+T ] + 1)e−2(ℓ−L8−1)(n−T) .
+which is obtained from Itˆo’s formula and the inequality 2ab ≤a2 + b2 for a, b > 0. Denote as
+Zδ the limit of Zn. Because (Y n(s), Zn(s))0≤s≤n satisfies
+Y n(s) = Y n(T) +
+Z T
+s
+g(u, Xu) −rY n(u) −ℓ−r
+δ
+Z u
+u−δ
+Y n(v) dv du
+−
+Z T
+s
+Zn(u) dB(u) , 0 ≤s ≤T,
+the Lebesgue dominated convergence theorem implies that the pair (Y δ, Zδ) is a solution to
+(4.5).
+We now prove (4.6) in Theorem 4.3.
+35
+
+
+===== PAGE 36 =====
+Proof. We recall that L denotes a generic constant that depends only on C1, C3, CΦ, r, ℓ, ρ and
+may differ line by line, and L6, L7, L8 are constants satisfying (D.8). By Theorems 3.2 and
+(ii) in Theorem 4.3, there exists a unique solution (Y, Z) to (3.6) and (Y δ, Zδ) to (4.5) in
+S2(0, ∞; R) × H2(0, ∞; Rm). For each n ∈N, consider the finite-horizon BSDEs
+Y n(s) =
+Z n
+s
+Φ(u, Xu, 0) −ℓY n(u) du −
+Z n
+s
+Zn(u) dB(u) ,
+Y n,δ(s) =
+Z n
+s
+1
+δ
+Z u
+u−δ
+Φ(v, Xv, 0) dv −rY n,δ(u) −ℓ−r
+δ
+Z u
+u−δ
+Y n,δ(v) dv du
+−
+Z n
+s
+Zn,δ(u) dB(u) .
+(D.10)
+Proposition D.1 guarantees the existence and uniqueness of solutions to this BSDE. One can
+easily prove
+lim
+δ→0 E[||Y n −Y ||2
+T ] ≤L(1 + ||X||2ρ
+T )e−2(ℓ−L8)(n−T) ,
+lim
+δ→0 E[||Y n,δ −Y δ||2
+T ] ≤L(1 + ||X||2ρ
+T )e−2(ℓ−L8−1)(n−T) .
+Observe that
+||Y δ −Y ||T ≤||Y δ −Y n,δ||T + ||Y n,δ −Y n||T + ||Y n −Y ||T
+≤L(1 + ||X||ρ
+T )e−(ℓ−L8)(n−T) + ||Y n,δ −Y n||T + L(1 + ||X||ρ
+T )e−(ℓ−L8−1)(n−T) .
+(D.11)
+Then
+E[||Y δ −Y ||T ] ≤
+ E[||Y δ −Y ||2
+T ]
+ 1
+2
+≤L(1 + (E[||X||2ρ
+T ])
+1
+2 )e−(ℓ−L8)(n−T) + (E[||Y n,δ −Y n||2
+T ])
+1
+2
++ L(1 + (E[||X||2ρ
+T ])
+1
+2 )e−(ℓ−L8−1)(n−T) .
+(D.12)
+We now show that
+lim
+δ→0 E[||Y n,δ −Y n||2
+T ] = 0 for n ∈N .
+(D.13)
+Once this is proven, by taking δ →0 and n →∞to (D.12), we obtain the first inequality in
+(4.6). Let ˆY (s) = Y n,δ(s) −Y n(s) and ˆZ(s) = Zn,δ(s) −Zn(s). Then we have
+ˆY (s) =
+Z n
+s
+1
+δ
+Z u
+u−δ
+Φ(v, Xv, 0) −Φ(u, Xu, 0) dv −ℓ−r
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv −r ˆY (u)
+−ℓ−r
+δ
+Z u
+u−δ
+ˆY (v) dv du −
+Z n
+s
+ˆZ(u) dB(u) , 0 ≤s ≤n .
+Let ( ˆY k, ˆ
+Zk) denote the Picard iteration of this BSDE. More precisely, define (ˆY 0, ˆZ0) = (0, 0)
+and for each k ∈N, let ( ˆY k, ˆ
+Zk) be a solution to
+ˆY k(s) =
+Z n
+s
+1
+δ
+Z u
+u−δ
+Φ(v, Xv, 0) −Φ(u, Xu, 0) dv −ℓ−r
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv
+(D.14)
+−ℓˆY k(u) −ℓ−r
+δ
+Z u
+u−δ
+ˆY k−1(v) −ˆY k−1(u) dv du −
+Z n
+s
+ˆZk(u) dB(u) ,
+and we define
+ˆGδ(s) := Es
+h Z n
+s
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i
+36
+
+
+===== PAGE 37 =====
+for 0 ≤s ≤n.
+We construct four sequences (ak)k≥0, (bk)k≥0, (˜ak)k≥0, (˜bk)k≥0 that satisfy
+| ˆY k(s)| ≤ˆGδ(s) + ak||X||ρ
+s + bk ,
+(D.15)
+|Es[ ˆY k(s1) −ˆY k(s2)] ≤(s2 −s1)(˜akEs[||X||ρ
+s2] + ˜bk)
+for all 0 ≤s ≤s1 ≤s2. Let a0 = b0 = ˜a0 = ˜b0 = 0 then (D.15) is satisfied with ˆY 0 = 0. Observe
+that
+|Y n(s)| ≤L(1 + ||X||ρ
+s) ,
+|Es[Y n(s1) −Y n(s2)]| ≤
+Es
+h Z s2
+s1
+Φ(u, Xu, 0) −ℓY n(u) du
+i ≤L(1 + Es[||X||ρ
+s2])(s2 −s1)
+for 0 ≤s ≤s1 ≤s2 ≤n. Then we obtain
+| ˆY 1(s)| =
+Es
+h Z n
+s
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+Φ(v, Xv, 0) −Φ(u, Xu, 0) dv du
+−
+Z n
+s
+e−ℓ(u−s) ℓ−r
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv du
+i
+≤ˆGδ(s) +
+Es
+h Z s+δ
+s
+e−ℓ(u−s) |ℓ−r|
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv du
+i
++ E
+h Z n
+s+δ
+e−ℓ(u−s) |ℓ−r|
+δ
+Z u
+u−δ
+|Es[Y n(v) −Y n(u)]| dv du
+i
+≤ˆGδ(s) + Es
+h Z s+δ
+s
+Le−ℓ(u−s)(1 + ||X||u) du
+i
++ Es
+h Z n
+s
+Lδe−ℓ(u−s)(1 + ||X||u) du
+i
+≤ˆGδ(s) + L(1 + ||X||ρ
+s)δ
+≤ˆGδ(s) + a1||X||ρ
+s + b1
+for a1 := Lδ and b1 := Lδ. Given a0, b0, ˜a0,˜b0, a1, b1, we define inductively
+ak+1 = Lδ + 2|ℓ−r|L6δak + 1
+2|ℓ−r|L6δ˜ak ,
+bk+1 = Lδ + 2|ℓ−r|L7δak + 2|ℓ−r|δbk + 1
+2|ℓ−r|L7δ˜ak + 1
+2|ℓ−r|δ˜bk ,
+˜ak+1 = L + ℓak+1 + 2|ℓ−r|ak ,
+˜bk+1 = L + ℓbk+1 + 2|ℓ−r|bk .
+Observe that
+|Y k(s)| ≤ˆGδ(s) + ak||X||ρ
+s + bk(s)
+= Es
+h Z n
+s
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i
++ ak||X||ρ
+s + bk
+≤Es
+h Z n
+s
+e−ℓ(u−s)2CΦ(1 + ||X||ρ
+u) du
+i
++ ak||X||ρ
+s + bk
+≤(ak + L)||X||ρ
+s + bk + L .
+37
+
+
+===== PAGE 38 =====
+Applying Iˆo’s formula, we have
+ˆY k+1(s) = Es
+h Z n
+s
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+Φ(v, Xv, 0) −Φ(u, Xu, 0) dv
+−(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv −(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+≤ˆGδ(s) + a1||X||ρ
+s + b1 + Es
+h Z s+δ
+s
+|ℓ−r|e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
++ Es
+h Z n
+s+δ
+|ℓ−r|e−ℓ(u−s)
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+≤ˆGδ(s) + ak+1||X||ρ
+s + bk+1 .
+For s ≤s1 ≤s2 ≤n,
+|Es[ ˆY k+1(s1) −ˆY k+1(s2)]| =
+Es
+h Z s2
+s1
+1
+δ
+Z u
+u−δ
+Φ(v, Xv, 0) −Φ(u, Xu, 0) dv
+−ℓ
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv
+−ℓˆY k+1(u) −ℓ−r
+δ
+Z u
+u−δ
+ˆY k(v) −ˆY k(u) dv du
+i
+≤(s2 −s1)(˜ak+1Es[||X||ρ
+s] + ˜bk+1) .
+We now prove the equality (D.13). Following the argument in (D.7), the sequence (ak)k≥0
+converges to a positive constant and the limit
+a := lim
+k→∞ak =
+Lδ + 1
+2|ℓ−r|L6CΦδ
+1 −L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ
+is bounded by Lδ for some L > 0. Similarly, the sequence (bk)k≥0 also converges to a positive
+constant, which is bounded by Lδ. We recall that L is a generic constant and may differ line by
+line. Corollary D.2 yields that ˆY k(s) →ˆY (s) = Y n,δ(s) −Y n(s) as k →∞. Thus, by (D.15) we
+have
+|Y n,δ(s) −Y n(s)| ≤ˆGδ(s) + L(1 + ||X||ρ
+s)δ .
+(D.16)
+By Doob’s inequality and Jensen’s inequality, we have
+(E[( sup
+0≤s≤T
+ˆGδ(s))2])1+r
+=
+
+E
+h
+sup
+0≤s≤T
+Es
+h Z n
+s
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i2i1+r
+≤e2ℓ(1+r)T E
+h
+sup
+0≤s≤T
+Es
+h Z n
+0
+e−ℓu
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i2+2ri
+≤e2ℓ(1+r)T (2 + 2r
+1 + 2r)2+2r sup
+0≤s≤T
+E
+h
+Es
+h Z n
+0
+e−ℓu
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i2+2ri
+≤e2ℓ(1+r)T (2 + 2r
+1 + 2r)2+2rE
+h Z n
+0
+e−ℓu
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+2+2ri
+for some constant r > 0.
+Applying the dominated convergence theorem and the Lebesgue
+differentiation theorem to the right-hand side of the above inequality,
+lim
+δ→0 E[( sup
+0≤s≤T
+ˆGδ(s))2] = 0 .
+(D.17)
+38
+
+
+===== PAGE 39 =====
+Therefore by (D.16) and (D.17), we obtain the first equality in (4.6).
+For the second equality in (4.6), applying Itˆo’s formula to (Y δ −Y )2, we have
+Z T
+0
+|Zδ(u) −Z(u)|2 du
+(D.18)
+≤L
+
+|Y δ(T) −Y (T)|2 +
+Z T
+0
+2|Y δ(u) −Y (u)|
+δ
+Z u
+u−δ
+|Φ(u, Xu, 0) −Φ(v, Xv, 0)| dv du
++
+Z T
+0
+2|Y δ(u) −Y (u)|
+δ
+ Z u
+u−δ
+|Y (u) −Y (v)| dv +
+Z u
+u−δ
+|Y δ(v) −Y (v)| dv du
+
+.
+Recall from Theorem 3.2 and (ii) in Theorem 4.3 that |Y (s)| ≤L(1 + ||X||ρ
+s) and |Y δ(s)| ≤
+L(1 + ||X||ρ
+s). Taking the expectation of both sides of (D.18), we obtain
+E
+h Z T
+0
+|Zδ(u) −Z(u)|2 du
+i
+(D.19)
+≤L
+
+E[|Y δ(T) −Y (T)|2] + E
+h Z T
+0
+2|Y δ(u) −Y (u)|
+δ
+Z u
+u−δ
+|Φ(u, Xu, 0) −Φ(v, Xv, 0)| dv du
+i
++ E
+h Z T
+0
+2|Y δ(u) −Y (u)|
+δ
+ Z u
+u−δ
+|Y (u) −Y (v)| dv +
+Z u
+u−δ
+|Y δ(v) −Y (v)| dv du
+i
+≤L(1 + T)(E[||Y δ −Y ||2
+T ])
+1
+2 (E[1 + ||X||2ρ
+T ])
+1
+2 .
+From (D.12) and (D.13), we have
+lim
+δ→0 E[||Y δ −Y ||2
+T ] = 0 .
+Therefore by letting δ →0 to (D.19), we obtain the second equality in (4.6) .
+Finally we prove (4.7) in Theorem 4.3.
+Proof. Recall that L denotes a generic constant that depends only on C1, C3, CΦ, r, ℓ, ρ and may
+differ line by line, and L6, L7, L8 are constants satisfying (D.8). We first consider the case with
+ρ > 1. To prove the first inequality in (4.7), we recall that Y n and Y n,δ are solutions to the finite-
+horizon BSDEs (D.10). Consider the Picard iteration (ˆY k, ˆ
+Zk) in (D.14) for (ˆY (s), ˆZ(s)) :=
+(Y n,δ(s) −Y n(s), Zn,δ(s) −Zn(s)). Corollary D.2 yields that ˆY k(s) →ˆY (s) = Y n,δ(s) −Y n(s)
+as k →∞.
+We construct four sequences (ak)k≥0, (bk)k≥0, (˜ak)k≥0, (˜bk)k≥0 that satisfy
+| ˆY k(s)| ≤ak||X||ρ
+s + bk ,
+(D.20)
+|Es[ ˆY k(s1) −ˆY k(s2)] ≤(s2 −s1)(˜akEs[||X||ρ
+s2] + ˜bk)
+for all 0 ≤s ≤s1 ≤s2. Let a0 = b0 = ˜a0 = ˜b0 = 0 then (D.20) is satisfied with ˆY 0 = 0. Now
+39
+
+
+===== PAGE 40 =====
+we define a1 and b1. A direct calculation and (D.8) yield
+(Es[||X −Xs1||ρ
+s2])
+1
+ρ = (Es[ sup
+s1≤r≤s2
+|X(r) −X(s2)|ρ])
+1
+ρ
+≤C1Mρ(s2 −s1)
+1
+2 + (r(s2 −s1) + C3Mρ(s2 −s1)
+1
+2 )(Es[||X||ρ
+s2])
+1
+ρ ,
+|Y n(s)| ≤Es
+h Z n
+s
+e−ℓ(u−s)|Φ(u, Xu, 0)| du
+i
+≤E
+h Z n
+s
+e−ℓ(u−s)CΦ(||X||ρ
+u + 1) du
+i
+≤
+Z n
+s
+e−(ℓ−L8)(u−s)CΦ(L6||X||s + L7) +
+Z n
+s
+e−ℓ(u−s)CΦ du
+≤CΦL6
+ℓ−L8
+||X||ρ
+s + CΦL7
+ℓ−L8
++ CΦ
+ℓ
+(D.21)
+and
+|Es[Y n(s1) −Y n(s2)]| ≤Es
+h Z s2
+s1
+|Φ(u, Xu, 0)| + ℓ|Y n(u)| du
+i
+≤(s2 −s1)
+
+CΦ + ℓCΦL6
+ℓ−L8
+
+||X||ρ
+s + 2CΦ + ℓCΦL7
+ℓ−L8
+
+.
+Then, using the above inequalities and Itˆo’s formula, we obtain
+| ˆY 1(s)| ≤Es
+h Z s+δ
+s
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i
++ Es
+h Z n
+s+δ
+e−ℓ(u−s)
+δ
+Z u
+u−δ
+|Φ(v, Xv, 0) −Φ(u, Xu, 0)| dv du
+i
++
+Es
+h Z s+δ
+s
+(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv
+i
++
+Es
+h Z n
+s+δ
+(ℓ−r)e−ℓ(u−s)
+δ
+Z u
+u−δ
+Y n(v) −Y n(u) dv
+i
+≤a(ρ)
+√
+δ||X||s + b(ρ)
+√
+δ
+where
+a(ρ) = 2CΦL6
+√
+δ + L6C5
+ℓ−L8
+3r
+√
+δ
+2
++ 2MρC3 + 4(1 + MρC1)
+3
+
++ |ℓ−r|CΦL6
+√
+δ
+ℓ−L8
+
+2L6 + ℓ−L8 + ℓL6
+2(ℓ−L8)
+
+,
+b(ρ) = CΦ
+√
+δ
+
+2
+
+L7 + 1 + |ℓ−r|L7(1 + L6)
+ℓ−L8
++ |ℓ−r|
+ℓ
+
++ |ℓ−r|
+
+L7
+ℓ−L8
++
+ℓL6L7
+2(ℓ−L8)2 + 1
+ℓ
+
++ C5
+
+2(1 + MρC1) + r
+√
+δ
+2
++ 2MρC3(ℓ−L8 + L7)
+3(ℓ−L8)
++ L7(9r
+√
+δ + 8(1 + MρC1))
+6(ℓ−L8)
+
+.
+Thus, a1 = a(ρ)
+√
+δ and b1 = b(ρ)
+√
+δ yields the desired ones. Given a0, b0, ˜a0,˜b0, a1, b1, we define
+40
+
+
+===== PAGE 41 =====
+inductively
+ak+1 = a(ρ)
+√
+δ + 2|ℓ−r|L6δak + 1
+2|ℓ−r|L6δ˜ak ,
+bk+1 = b(ρ)
+√
+δ + 2|ℓ−r|L7δak + 2|ℓ−r|δbk + 1
+2|ℓ−r|L7δ˜ak + 1
+2|ℓ−r|δ˜bk ,
+˜ak+1 = 2CΦ + 2|ℓ−r|CΦL6
+ℓ−L8
++ ℓak+1 + 2|ℓ−r|ak ,
+˜bk+1 = 2CΦ + 2|ℓ−r|CΦL7
+ℓ−L8
++ 2|ℓ−r|CΦ
+ℓ
++ ℓbk+1 + 2|ℓ−r|bk .
+This construction yields the desired four sequences (ak)k≥0, (bk)k≥0, (˜ak)k≥0 and (˜bk)k≥0.
+Following the argument in (D.7), the sequences (ak)k≥0 and (bk)k≥0 converge to positive
+constants. A direct calculation yields
+ak+1 = a(ρ)
+√
+δ + |ℓ−r|L6δCΦ(1 + |ℓ−r|L6
+ℓ−L8
+) + L6(1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δak + L6(ℓ−r)2δak−1
+and this recursive relation implies that limk→∞ak = L2
+√
+δ where
+L2 :=
+a(ρ) + |ℓ−r|L6CΦ(1 + |ℓ−r|L6
+ℓ−L8 )
+√
+δ
+1 −L6δ((ℓ−r)2 + |ℓ−r|ℓ
+2
++ 2|ℓ−r|)
+.
+Similarly, the sequence (bk)k≥0 converges to L1
+√
+δ where L1 is a constant defined as
+L1 =
+b(ρ) + a(ρ)|ℓ−r|L7δ(2 + ℓ
+2 + |ℓ−r|) + |ℓ−r|CΦ(L7 + 1 + L6L7|ℓ−r|
+ℓ−L8
++ L7|ℓ−r|
+ℓ−L8 + |ℓ−r|
+ℓ
+)
+√
+δ
+1 −δ
+ (ℓ−r)2 + |ℓ−r|ℓ
+2
++ 2|ℓ−r|
+
+.
+Since L6((ℓ−r)2 + 1
+2|ℓ−r|ℓ+ 2|ℓ−r|)δ < 1, the constants L1 and L2 are positive. Letting
+k →∞in (D.20), we obtain
+|Y n,δ(s) −Y n(s)| = | ˆY (s)| ≤(L1 + L2||X||ρ
+s)
+√
+δ .
+Similar to (D.11), letting n →∞, we deduce |Y δ(s) −Y (s)| ≤(L1 + L2||X||ρ
+s)
+√
+δ. This yields
+||Y δ −Y ||T ≤(L1 + L2||X||ρ
+T )
+√
+δ ,
+(D.22)
+which corresponds to the first inequality in (4.7). From (D.18) and (D.21), we obtain
+E
+h Z T
+0
+|Zδ(u) −Z(u)|2 du
+i
+≤(L3(T)E[||X||2ρ
+T ] + L4(T)E[||X||ρ
+T ] + L5(T))
+√
+δ
+(D.23)
+where
+L3(T) =
+√
+δL2
+2 + 2L2
+
+2CΦ + |ℓ−r|
+2CΦL6
+ℓ−L8
++
+√
+δL2
+
+T ,
+L4(T) = 2
+√
+δL1L2(1 + 2|ℓ−r|T)
++ 2
+
+2CΦ(L2 + L1) + 2|ℓ−r|CΦ(L2L7 + L1L6)
+ℓ−L8
++ L2CΦ
+ℓ
+
+T ,
+L5(T) =
+√
+δL2
+1(1 + 2|ℓ−r|T) + 4L1CΦ
+
+1 + |ℓ−r|
+
+L7
+ℓ−L8
++ 1
+ℓ
+
+T .
+This yields more refined upper bounds than the second inequality in (4.7).
+41
+
+
+===== PAGE 42 =====
+The case with ρ = 1 can be proven similarly with a(ρ) and b(ρ) replaced by a(1) and b(1),
+respectively, where
+a(1) = 2CΦL6
+√
+δ + L6C5
+ℓ−L8
+r
+√
+δ
+2
++ 2M1C3
+3
+
++ |ℓ−r|CΦL6
+√
+δ
+ℓ−L8
+
+2L6 + ℓ−L8 + ℓL6
+2(ℓ−L8)
+
+,
+b(1) = CΦ
+√
+δ
+
+2
+
+L7 + 1 + |ℓ−r|L7(1 + L6)
+ℓ−L8
++ |ℓ−r|
+ℓ
+
++ |ℓ−r|
+
+L7
+ℓ−L8
++
+ℓL6L7
+2(ℓ−L8)2 + 1
+ℓ
+
++ C5
+ rL7
+√
+δ
+2(ℓ−L8) + 2L7M1C3
+3(ℓ−L8) + 2(1 + M1C1)
+3ℓ
+
+.
+The same inequalities (D.22) and (D.23) hold with the constants L1, L2, L3(T), L4(T), L5(T),
+where a(ρ) and b(ρ) are replaced by a(1) and b(1), respectively.
+References
+Ackerer, D., Hugonnier, J., and Jermann, U. (2024). Perpetual futures pricing. Technical report,
+National Bureau of Economic Research.
+Alexander, C., Choi, J., Park, H., and Sohn, S. (2020). BitMEX bitcoin derivatives: Price
+discovery, informational efficiency, and hedging effectiveness. Journal of Futures Markets,
+40(1):23–43.
+Angeris, G. and Chitra, T. (2020). Improved price oracles: Constant function market makers.
+In Proceedings of the 2nd ACM Conference on Advances in Financial Technologies, pages
+80–91.
+Angeris, G., Chitra, T., Evans, A., and Lorig, M. (2023). A primer on perpetuals. SIAM Journal
+on Financial Mathematics, 14(1):SC17–SC30.
+Bally, V., Caramellino, L., Cont, R., Utzet, F., and Vives, J. (2016). Stochastic integration by
+parts and functional Itˆo calculus. Springer.
+Butler, G. and Rogers, T. (1971). A generalization of a lemma of Bihari and applications to
+pointwise estimates for integral equations. J. Math. Anal. Appl, 33(1):77–81.
+Christin, N., Routledge, B., Soska, K., and Zetlin-Jones, A. (2022). The crypto carry trade.
+Preprint at http://gerbil. life/papers/CarryTrade. v1, 2.
+Confortola, F., Cosso, A., and Fuhrman, M. (2019).
+Backward SDEs and infinite horizon
+stochastic optimal control. ESAIM: Control, Optimisation and Calculus of Variations, 25:31.
+Cont, R. and Fourni´e, D.-A. (2013). Functional Itˆo calculus and stochastic integral representa-
+tion of martingales. The Annals of Probability, pages 109–133.
+Corbet, S., Hou, Y. G., Hu, Y., and Oxley, L. (2021). Volatility spillovers during market supply
+shocks: The case of negative oil prices. Resources Policy, 74:102357.
+Cordoni, F., Di Persio, L., Maticiuc, L., and Z˘alinescu, A. (2020). A stochastic approach to
+path-dependent nonlinear Kolmogorov equations via BSDEs with time-delayed generators
+and applications to finance. Stochastic Processes and their Applications, 130(3):1669–1712.
+Dai, M., Li, L., and Yang, C. (2025). Arbitrage in perpetual contracts. Available at SSRN
+5262988.
+42
+
+
+===== PAGE 43 =====
+Delbaen, F. and Schachermayer, W. (1994). A general version of the fundamental theorem of
+asset pricing. Mathematische annalen, 300(1):463–520.
+Deuschel, J.-D. and Stroock, D. W. (1989). Large Deviations, volume 137. Academic Press.
+Dupire, B. (2019). Functional Itˆo calculus. Quantitative Finance, 19(5):721–729.
+Ekren, I., Keller, C., Touzi, N., and Zhang, J. (2014). On viscosity solutions of path dependent
+PDEs. The Annals of Probability, 42(1):204–236.
+Evans, A. (2020).
+Liquidity provider returns in geometric mean markets.
+arXiv preprint
+arXiv:2006.08806.
+He, S., Manela, A., Ross, O., and von Wachter, V. (2022). Fundamentals of perpetual futures.
+arXiv:2212.06888.
+Protter, P. E. (2005). Stochastic integration and differential equations, volume 21 of Stochastic
+Modelling and Applied Probability. Springer-Verlag, Berlin, second edition. Corrected third
+printing.
+Ruan, Q. and Streltsov, A. (2024).
+Perpetual futures contracts and cryptocurrency market
+quality. SSRN:4218907.
+Viens, F. and Zhang, J. (2019). A martingale approach for fractional Brownian motions and
+related path dependent PDEs. The Annals of Applied Probability, 29(6):3489–3540.
+Wang, S. and Zhang, T. (2025). Spot-futures manipulations in cryptocurrency markets. SSRN:
+5125326.
+Zhang, J. (2017). Backward Stochastic Differential Equations: From Linear to Fully Nonlinear
+Theory, volume 86. Springer.
+43

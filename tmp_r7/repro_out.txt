@@ -1,0 +1,132 @@
+partition: {
+  "development_start": "2020-02-01 00:00:00+00:00",
+  "development_end": "2025-06-06 22:12:00+00:00",
+  "validation_start": "2025-06-06 22:12:00+00:00",
+  "validation_end": "2025-11-18 22:12:00+00:00",
+  "holdout_start": "2025-11-18 23:00:00+00:00",
+  "holdout_end": "2026-08-31 23:00:00+00:00",
+  "latest_complete_day": "2026-08-31",
+  "boundary_source": "end of the pre-existing local price data (2025-11-18); nothing after this point had ever been loaded before Phase A2",
+  "unsealed": false,
+  "declared_utc": "2026-09-25T21:59:45.636579+00:00"
+}
+dev_start 2020-02-01 00:00:00+00:00 dev_end 2025-06-06 22:12:00+00:00
+val_start 2025-06-06 22:12:00+00:00 val_end 2025-11-18 22:12:00+00:00
+built BTCUSDT: rows=50831 date[min]=2020-02-01 00:00:00+00:00 date[max]=2025-11-18 22:00:00+00:00
+built ETHUSDT: rows=50831 date[min]=2020-02-01 00:00:00+00:00 date[max]=2025-11-18 22:00:00+00:00
+built XRPUSDT: rows=50711 date[min]=2020-02-01 00:00:00+00:00 date[max]=2025-11-18 22:00:00+00:00
+built SOLUSDT: rows=45280 date[min]=2020-09-14 07:00:00+00:00 date[max]=2025-11-18 22:00:00+00:00
+built BNBUSDT: rows=50607 date[min]=2020-02-10 08:00:00+00:00 date[max]=2025-11-18 22:00:00+00:00
+E:\FreqTrader\freqtrade\tmp_r7\repro.py:43: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d.frame[col] = "UNKNOWN" if col.endswith("regime") else np.nan
+E:\FreqTrader\freqtrade\tmp_r7\repro.py:43: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d.frame[col] = "UNKNOWN" if col.endswith("regime") else np.nan
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:379: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["relative_strength"] = relative_strength(discovery.frame)
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:380: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["pullback_depth"] = (
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:379: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["relative_strength"] = relative_strength(discovery.frame)
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:380: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["pullback_depth"] = (
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:379: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["relative_strength"] = relative_strength(discovery.frame)
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:380: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["pullback_depth"] = (
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:379: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["relative_strength"] = relative_strength(discovery.frame)
+E:\FreqTrader\freqtrade\tools\strategy_factory_v2\discovery.py:380: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  discovery.frame["pullback_depth"] = (
+
+make_folds on BTCUSDT/1h: 19 folds
+fold 0 : {'fold_id': 0, 'train_start': Timestamp('2020-02-01 01:00:00+0000', tz='UTC'), 'train_end': Timestamp('2021-01-30 21:00:00+0000', tz='UTC'), 'validation_start': Timestamp('2021-01-31 01:00:00+0000', tz='UTC'), 'validation_end': Timestamp('2021-05-01 01:00:00+0000', tz='UTC')}
+fold -1: {'fold_id': 18, 'train_start': Timestamp('2024-07-09 01:00:00+0000', tz='UTC'), 'train_end': Timestamp('2025-07-08 21:00:00+0000', tz='UTC'), 'validation_start': Timestamp('2025-07-09 01:00:00+0000', tz='UTC'), 'validation_end': Timestamp('2025-10-07 01:00:00+0000', tz='UTC')}
+fold-union coverage: 2021-01-31 01:00:00+00:00 -> 2025-10-07 01:00:00+00:00
+decision_time min/max of btc frame: 2020-02-01 01:00:00+00:00 2025-11-18 23:00:00+00:00
+
+=== H13_BTC_FILTER_1H_STRONG_UP_SHORT ===
+  per-symbol signal counts (full 'development' region):
+    {'BNBUSDT': 210, 'ETHUSDT': 34, 'SOLUSDT': 387, 'XRPUSDT': 363}
+  TOTAL: 994
+  pooled mean net (full region, = Phase D 'development'): 0.00028969
+  mean-of-per-symbol-means (full region): 0.00332527
+  --- split by walk-forward validation windows ---
+   IN  folds: n= 454  mean net= 0.00632976  gross= 0.00713346  by sym: {'BNBUSDT': 154, 'ETHUSDT': 25, 'SOLUSDT': 112, 'XRPUSDT': 163}
+   OUT folds: n= 540  mean net= -0.00478843  gross= -0.00375230  by sym: {'BNBUSDT': 56, 'ETHUSDT': 9, 'SOLUSDT': 275, 'XRPUSDT': 200}
+                   n  mean_net  mean_gross                   t_start                     t_end
+symbol  in_fold                                                                               
+BNBUSDT False     56  0.004455    0.005275 2020-05-07 02:00:00+00:00 2020-11-16 13:00:00+00:00
+        True     154  0.007512    0.008314 2021-10-09 00:00:00+00:00 2025-05-02 09:00:00+00:00
+ETHUSDT False      9  0.026767    0.027562 2020-10-20 14:00:00+00:00 2020-10-21 03:00:00+00:00
+        True      25  0.004325    0.005124 2021-10-12 09:00:00+00:00 2025-01-19 13:00:00+00:00
+SOLUSDT False    275 -0.008683   -0.007560 2020-10-10 18:00:00+00:00 2021-01-06 22:00:00+00:00
+        True     112  0.001424    0.002224 2021-02-17 10:00:00+00:00 2024-12-17 09:00:00+00:00
+XRPUSDT False    200 -0.003441   -0.002454 2020-05-14 18:00:00+00:00 2021-01-06 14:00:00+00:00
+        True     163  0.008891    0.009699 2021-02-18 17:00:00+00:00 2025-10-05 01:00:00+00:00
+   --- split at validation_start 2025-06-06 22:12:00+00:00 ---
+   pre-validation : n= 991  mean net= 0.00022143
+   validation     : n= 3  mean net= 0.02283820
+   --- by calendar year x in_fold ---
+           n        mean_net          
+infold False True      False     True 
+y                                     
+2020     470     0 -0.007327  0.000000
+2021      70   147  0.012256  0.009394
+2022       0    15  0.000000  0.002175
+2023       0   167  0.000000  0.005317
+2024       0   108  0.000000  0.003746
+2025       0    17  0.000000  0.009869
+
+=== H13_BTC_FILTER_1H_STRONG_DOWN_SHORT ===
+  per-symbol signal counts (full 'development' region):
+    {'BNBUSDT': 3328, 'ETHUSDT': 3549, 'SOLUSDT': 3062, 'XRPUSDT': 3371}
+  TOTAL: 13310
+  pooled mean net (full region, = Phase D 'development'): 0.00400761
+  mean-of-per-symbol-means (full region): 0.00411753
+  --- split by walk-forward validation windows ---
+   IN  folds: n= 11453  mean net= 0.00425577  gross= 0.00516320  by sym: {'BNBUSDT': 2809, 'ETHUSDT': 2999, 'SOLUSDT': 2825, 'XRPUSDT': 2820}
+   OUT folds: n= 1857  mean net= 0.00247709  gross= 0.00332961  by sym: {'BNBUSDT': 519, 'ETHUSDT': 550, 'SOLUSDT': 237, 'XRPUSDT': 551}
+                    n  mean_net  mean_gross                   t_start                     t_end
+symbol  in_fold                                                                                
+BNBUSDT False     519  0.003409    0.004249 2020-02-25 09:00:00+00:00 2025-11-18 11:00:00+00:00
+        True     2809  0.003306    0.004227 2021-02-26 06:00:00+00:00 2025-09-28 16:00:00+00:00
+ETHUSDT False     550  0.001355    0.002160 2020-02-17 14:00:00+00:00 2025-11-18 11:00:00+00:00
+        True     2999  0.001753    0.002580 2021-02-26 06:00:00+00:00 2025-09-28 16:00:00+00:00
+SOLUSDT False     237  0.006367    0.007422 2020-09-23 20:00:00+00:00 2025-11-18 11:00:00+00:00
+        True     2825  0.007666    0.008705 2021-02-28 04:00:00+00:00 2025-09-28 16:00:00+00:00
+XRPUSDT False     551  0.001046    0.001871 2020-02-17 14:00:00+00:00 2025-11-18 11:00:00+00:00
+        True     2820  0.004448    0.005296 2021-02-26 06:00:00+00:00 2025-09-28 16:00:00+00:00
+   --- split at validation_start 2025-06-06 22:12:00+00:00 ---
+   pre-validation : n= 11962  mean net= 0.00381270
+   validation     : n= 1348  mean net= 0.00573726
+   --- by calendar year x in_fold ---
+           n        mean_net          
+infold False True      False     True 
+y                                     
+2020     958     0 -0.000825  0.000000
+2021      48  1944  0.034104  0.012435
+2022       0  4368  0.000000  0.003675
+2023       0  2068  0.000000 -0.000376
+2024       0  1884  0.000000  0.001103
+2025     851  1189  0.004411  0.006067
+
+
+=== SUMMARY JSON ===
+{
+  "H13_BTC_FILTER_1H_STRONG_UP_SHORT": {
+    "total": 994,
+    "pooled": 0.00028969381381600866,
+    "infold": 454,
+    "infold_mean": 0.006329756915488981,
+    "out": 540,
+    "out_mean": -0.004788433312405342
+  },
+  "H13_BTC_FILTER_1H_STRONG_DOWN_SHORT": {
+    "total": 13310,
+    "pooled": 0.00400761436286811,
+    "infold": 11453,
+    "infold_mean": 0.004255774293781077,
+    "out": 1857,
+    "out_mean": 0.0024770943366181283
+  }
+}

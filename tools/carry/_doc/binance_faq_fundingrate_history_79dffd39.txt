@@ -1,0 +1,99 @@
+SOURCE_URL: https://r.jina.ai/https://www.binance.com/en/support/faq/detail/360033544231
+HTTP: 200  LEN: 7057
+
+Title: Binance Futures Fee Structure & Fee Calculations | Binance Futures,Binance Fee Structure,Binance Fee Calculations
+
+URL Source: https://www.binance.com/en/support/faq/detail/360033544231
+
+Markdown Content:
+_Disclaimer: In compliance with MiCA requirements, unauthorized stablecoins are subject to certain restrictions for EEA users. For more information, please click_[_here_](https://www.binance.com/en/support/announcement/mica-stablecoin-rules-implementation-announcement-884c621e335540e0add5fdce31597121?hl=en)_._
+
+_Disclaimer: This FAQ Page is for general information and educational purposes only. It does not constitute legal terms or any form of legal agreement between you and Binance. It should not be construed as financial, legal or other professional advice. The information on this page may be outdated. For legal terms applicable to Futures and Options Trading Services, please refer to the_[_Terms of Use_](https://www.binance.com/en/terms)_, the_[_Exchange Rules_](https://www.binance.com/en/about-legal/exchange-rules)_(including the_[_Exchange Procedures_](https://www.binance.com/en/about-legal/exchange-procedures)_) and the_[_Clearing Rules_](https://www.binance.com/en/about-legal/clearing-rules)_(including the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_) which come into effect on 5 January 2026. Additional terms and conditions will also be set out in the Contract Specifications applicable to the relevant Derivatives contract._
+
+Maker side / taker side fees are charged on your futures transactions and vary depending on your VIP level. You can check your trading fee rate for USDS-M Futures [here](https://www.binance.com/en/fee/futureFee), for Coin-M Futures [here](https://www.binance.com/en/fee/futureFee) and for TradFi Perps [here](https://www.binance.com/en/fee/tradFiFee).
+
+**Notes:**
+
+*   All spot market VIPs are also VIPs in the Futures market.
+*   Futures fee tiers mirror the spot market but are generally lower; please note the volume requirement for each VIP tier is 5 times that of the spot market due to the leverage provided.
+*   Users will receive a 10% discount on standard trading fees when they use BNB to pay for trading fees on the Binance Futures platform for USDⓈ-M Futures. Users will need to transfer BNB from their exchange account to their USDⓈ-M Futures Account to receive the 10% discount. Please ensure that the BNB balance in your USDⓈ-M Futures Account is sufficient to pay trading fees, otherwise, the system will automatically deduct USDT as futures trading fees and you will not be entitled to the discount. Please refer to [Daily BNB Balance Calculation Mechanism](https://www.binance.com/en/support/faq/360031505011) and [Binance Updates Limited-Time Trading Fee Discount and Liquidity Provider Program for USDC-Margined Perpetual Contracts (2025-09-11)](https://www.binance.com/en/support/announcement/detail/3fb551d5630f446483c4aa1346513406).
+
+### What do "maker" and "taker" mean?
+
+#### **Taker:**
+
+A “taker” trade happens when you place an order that executes immediately, partially or fully against existing orders on the Global Orderbook.
+
+Market Orders are always taker trades because they remove liquidity from the market. Takers “take” volume off the Global Orderbook.
+
+#### **Maker:**
+
+A “maker” trade occurs when you place an order that adds liquidity to the Global Orderbook by resting there until it is matched with another order. Limit Orders that do not execute immediately are examples of maker orders. Makers ”make the market” by providing volume that others can trade against.
+
+### How to calculate the trading fee for COIN-Margined contracts?
+
+Trading Fee = Position Value * trading fee
+
+Position Value = (Contract Size*Contract Multiplier) / execution price
+
+For example, a Regular User's maker fee is 0.02% and a Regular User’s taker fee is 0.05%
+
+The Regular User buys 10 BTCUSD 0925 COIN-M Delivery Futures by making a Market Order:
+
+Position Value = (Contract Size*Contract Multiplier) / execution price
+
+= (10 “contracts” * 100 USD) / 10,104 USD
+
+= 0.09897 BTC
+
+Taker fee: 0.09897 * 0.050% = 0.000049485 BTC
+
+After the price increases, the Regular User sells 10 BTCUSD 0925 COIN-M Delivery Futures by making a Limit Order:
+
+Position Value = (Contract Size*Contract Multiplier) / execution price
+
+= (10 “contracts” * 100 USD) / 11,104 USD
+
+= 0.09 BTC
+
+Maker fee: 0.09 * 0.02% = 0.000018 BTC
+
+_**Disclaimer:**_
+
+_Trading fees shown are calculated according to the hypothetical fee rates. Capitalised terms used in the above calculation are defined in the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_. Fees are subject to change by Binance in accordance with the_[_Terms of Use_](https://www.binance.com/en/terms)_, the_[_Exchange Rules_](https://www.binance.com/en/about-legal/exchange-rules)_(including the_[_Exchange Procedures_](https://www.binance.com/en/about-legal/exchange-procedures)_) and the_[_Clearing Rules_](https://www.binance.com/en/about-legal/clearing-rules)_(including the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_)._
+
+_For the latest fee schedule, please refer to the_[_Fee Rate Table (COIN-M Futures)_](https://www.binance.com/en/fee/deliveryFee)_. All trading involves risk and fees will be charged as applicable based on executed trades._
+
+### How to calculate trading fee of USDS-Margined contracts?
+
+Trading Fee = Position Value * trading fee
+
+Position Value = Contract Size * execution price
+
+For example, a Regular User’s maker fee is 0.02% and a Regular User’s taker fee is 0.05%
+
+The Regular User buys 1 BTC worth of BTCUSDT USDS-M Perpetual Futures Contract by making a Market Order:
+
+Position Value = Contract Size * execution price
+
+= 1 BTC * 10,104
+
+= 10,104 USDT
+
+Taker fee is paid: 10,104 * 0.05% = 5.052 USDT
+
+After the price rises, the Regular User sells 1 BTC worth of BTCUSDT USDS-M Perpetual Futures C using a Limit Order:
+
+Position Value = Contract Size * execution price
+
+= 1 BTC * 11,104
+
+= 11,104 USDT
+
+Maker fee is paid: 11,104 * 0.02% = 2.2208 USDT
+
+**Disclaimer:**
+
+_Trading fees are calculated according to hypothetical fee rates. Capitalised terms used in the above calculation are defined in the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_. Fees are subject to change by Binance in accordance with the_[_Terms of Use_](https://www.binance.com/en/terms)_, the_[_Exchange Rules_](https://www.binance.com/en/about-legal/exchange-rules)_(including the_[_Exchange Procedures_](https://www.binance.com/en/about-legal/exchange-procedures)_) and the_[_Clearing Rules_](https://www.binance.com/en/about-legal/clearing-rules)_(including the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_)._
+
+_For the latest fee schedule, please refer to the_[_Fee Rate Table (USDS-M Futures)_](https://www.binance.com/en/fee/futureFee)_. All trading involves risk and all fees will be charged as applicable based on executed trades._

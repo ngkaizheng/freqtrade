@@ -1,0 +1,76 @@
+### URL: https://www.coinglass.com/learn/funding-rates-1
+### STATUS: 200 CT: text/html; charset=utf-8
+
+Legend
+ NEW
+
+ API 
+ Download APP 
+
+ Market
+ Stocks
+ Exchanges
+ Open Interest Funding Rate
+ Liquidation
+ Data
+ Supercharts
+ Legend
+ Watchlist More
+
+ Search
+
+ /
+
+ Login 
+
+ Learning Center 
+ ›
+ Cryptocurrency Futures Guide 
+ 
+ Funding Rates
+
+ Related Content
+
+ Funding Rates
+ What is the funding rates? 
+ 
+ Funding rates are the fees set by cryptocurrency exchanges to maintain balance between contract prices and underlying asset prices, typically applicable to perpetual contracts. They serve as a mechanism for fund exchange between long and short traders, adjusting the cost or profit of holding contracts to keep the contract price close to the underlying asset price.
+ When the price of a perpetual contract deviates from the underlying asset price, exchanges adjust the funding rate to encourage long or short positions to pay funds in the opposite direction, bringing the contract price back to the underlying asset price. During a bullish market trend, the funding rate is usually positive and increases over time, with long positions paying the funding rate to short positions. Conversely, during a bearish market, the funding rate is usually negative, with short traders paying fees to long traders.
+ In general, the maximum upper limit for Bitcoin funding rate is 0.375%, and the minimum lower limit is -0.375%. There may be some variations between different exchanges.
+ The calculation of funding rates is typically based on market interest rates and the difference between the contract price and the underlying asset price. It is settled at regular intervals, such as every 8 hours or hourly in some exchanges, where long or short positions are charged or paid funding rates during the settlement.
+ 
+ How are funding fees calculated? 
+ Funding fees are calculated using the following formula:
+ Funding fees = Position notional value * Funding rate
+ Position notional value = Mark price x Quantity of contracts (for USDⓈ-Margined contracts)
+ or Position notional value = Contract multiplier x Quantity of contracts (for Coin-Margined contracts)
+ On cryptocurrency derivative exchanges, funding costs for all perpetual contracts are typically calculated every 8 hours at 08:00, 16:00, and 24:00 Hong Kong time. Only when a trader holds a position in any direction at the funding time will they be charged or paid the corresponding funding rate. If a trader has no open positions at the funding time, they will not be charged or paid any funding fees. Please note that there is a 15-second deviation in the actual time when funding rates are charged. For example, if user A opens a position at 08:00:05 Hong Kong time, they may still be charged or paid the funding rate, so please pay attention to your opening time.
+ What determines the funding rate? 
+ The funding rate consists of two parts: interest rate and premium.
+ The premium explains why the price of perpetual contracts tends to move in line with the underlying asset price.
+ Fixed interest rates are used in the funding rate by exchanges, assuming that holding cash earns higher interest than holding an equivalent amount of BTC.
+ By default, the interest rate is set to 0.03% per day (calculated every 8 hours, with each funding settlement period being 0.01%). The exchange reserves the right to adjust the interest rate according to market conditions at any time. During periods of high volatility, the price of perpetual contracts and the mark price may diverge. At this time, the premium index is used to encourage convergence of the contract market price and the spot price. The premium index for each contract is calculated separately using the following formula:
+ Premium index (P) = [Max(0, impact bid price - index price) - Max(0, index price - impact ask price)] / index price
+ Impact bid price = average price when the buy queue reaches the "impact margin amount"
+ Impact ask price = average price when the sell queue reaches the "impact margin amount"
+ The index price is the weighted average of the underlying assets listed on major cryptocurrency exchanges. The impact margin amount (IMN) is used to locate the average impact bid or ask price in the order book. For U.S. dollar-denominated perpetual contracts, the impact margin amount refers to the amount that can be traded with a $200 margin (valued in USDT). For coin-denominated contracts, it refers to the amount that can be traded with a $200 margin (valued in USD). Impact margin amount = $200 USDT / Initial margin rate for the highest leverage level of the contract For example, for the BTCUSDT perpetual contract, the maximum leverage is 125x, and the corresponding initial margin rate is 0.8%, so the impact margin amount is $25,000 USDT (200 USDT / 0.8%), and the system will take an average of $25,000 USDT per minute in the order book to measure the average impact bid and ask price.
+
+ Market
+
+ Exchanges
+
+ Search
+
+ More
+
+ APP
+
+ About About Us Contact Us Disclaimer Terms of Use Privacy Policy 
+
+ Products Stocks Legend APP API Chart 
+
+ More Learning Center Alerts Cookie Preferences 
+
+ Community X(Twitter) Telegram 
+
+ © 2026 CoinGlass, all rights reserved

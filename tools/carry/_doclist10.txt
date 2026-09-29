@@ -1,0 +1,8 @@
+bis_crypto_chapter	https://www.bis.org/publ/qtrpdf/r_qt2212c.htm
+bis_ar_2023_ch3	https://www.bis.org/publ/arpdf/ar2023e3.htm
+senate_allen_ftx	https://www.banking.senate.gov/hearings/33
+congress_ftx_report	https://www.congress.gov/117/meeting/house/116341/documents/HHRG-117-IFEC-00-20230509-SD001.pdf
+fed_fsr_202311	https://www.federalreserve.gov/publications/financial-stability-report.htm
+tether_march2023	https://tether.to/en/tether-discriminates-in-crypto/
+circle_usdc_20230313	https://www.circle.com/blog/usdc-3c-march-2023
+esma_statements	https://www.esma.europa.eu/press-news/esma-statements

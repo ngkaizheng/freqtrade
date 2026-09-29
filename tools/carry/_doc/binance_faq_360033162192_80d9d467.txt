@@ -1,0 +1,68 @@
+SOURCE_URL: https://r.jina.ai/https://www.binance.com/en/support/faq/360033162192
+HTTP: 200  LEN: 6758
+
+Title: Leverage and Margin of USDⓈ-M Futures | Binance Margin USD-M,Binance Margin Risk Control,binance futures,Leverage USD-M Futures
+
+URL Source: https://www.binance.com/en/support/faq/360033162192
+
+Markdown Content:
+_Disclaimer: In compliance with MiCA requirements, unauthorized stablecoins are subject to certain restrictions for EEA users. For more information, please click_[_here_](https://www.binance.com/en/support/announcement/mica-stablecoin-rules-implementation-announcement-884c621e335540e0add5fdce31597121?hl=en)_._
+
+_Disclaimer: This FAQ Page is for general information and educational purposes only. It does not constitute legal terms or any form of legal agreement between you and Binance. It should not be construed as financial, legal or other professional advice. The information on this page may be outdated. For legal terms applicable to Futures and Options Trading Services, please refer to the_[_Terms of Use_](https://www.binance.com/en/terms)_, the_[_Exchange Rules_](https://www.binance.com/en/about-legal/exchange-rules)_(including the_[_Exchange Procedures_](https://www.binance.com/en/about-legal/exchange-procedures)_) and the_[_Clearing Rules_](https://www.binance.com/en/about-legal/clearing-rules)_(including the_[_Clearing Procedures_](https://www.binance.com/en/about-legal/clearing-procedures)_) which come into effect on 5 January 2026. Additional terms and conditions will also be set out in the Contract Specifications applicable to the relevant Derivatives contract._
+
+Binance uses a sophisticated risk control system and liquidation model to support high leverage trading by adopting the Maintenance Margin model. For the latest updates, please refer to the [Leverage & Margin](https://www.binance.com/en/futures/trading-rules/perpetual/leverage-margin) page.
+
+### What are maximum position, maximum leverage, and Initial Margin?
+
+The maximum amount of leverage available depends on the notional value of your position — larger positions allow for lower leverage. You can adjust the leverage based on your needs, and all position sizes are calculated based on the contract's notional value. Therefore, the Initial Margin is determined by the leverage you select.
+
+**Please note:**You should first select your leverage (and meet the Initial Margin requirement) before opening a position. Higher leverage allows for a smaller notional position size, while lower leverage allows for a larger one.
+
+*   Starting from 12 August 2025, leverage levels over 5x are **not** available to Futures Accounts created by regular users’ sub-accounts.
+*   Starting from 7 December 2025, Leverage levels of over 20x will **not** be available to Futures Accounts within the first 30 days of opening.
+*   The new rules apply retroactively, meaning leverage levels of over 20x will **not** be available to Futures Accounts opened within the last 30 days:
+*   Applicable accounts with open positions within 20x leverage will **not** be allowed to adjust their open positions to over 20x leverage.
+*   Applicable accounts with open positions of over 20x leverage may choose to maintain their position leverage, but will **not** be allowed to increase their position leverage further. Users may lower their position leverage to 20x or below.
+*   For new accounts with no open positions, all new positions must **not** exceed 20x leverage.
+*   Leverage limits for new accounts will be gradually lifted **only after 30 days from opening**.
+
+The system will display the maximum allowable position size for different tiers of leverage as shown below:
+
+![Image 1: image](https://public.bnbstatic.com/image/cms/content/body/202603/1259f4949cb0bdaee15c2f2e32a77ae5.png)
+
+![Image 2: mceclip1.png](https://public.bnbstatic.com/image/cms/article/body/202505/183a562a97441e5b7c3193bf0c9bb186.png)
+
+### What is the Maintenance Margin?
+
+**Maintenance Margin** is a critical term used in trading, particularly in futures. It refers to the**minimum amount of collateral** a trader must maintain in their account to keep an open leveraged position. It is calculated based on the notional value of open positions across different value tiers.
+
+**Maintenance Margin = Notional Position Value * Maintenance Margin Rate - Maintenance Amount**  
+Without prejudice to Binance's right to adjust margin requirements from time to time in accordance with the [Clearing Rules](https://www.binance.com/en/about-legal/clearing-rules), where a Maintenance Margin Rate adjustment of each tier is less than 0.5%, Binance may, in its sole discretion, apply the adjustment without issuing an announcement.
+
+Please refer to the [Leverage and Margin table](https://www.binance.com/en/futures/trading-rules/perpetual/leverage-margin) for the latest information regarding Notional Position Values, maximum leverages, and the corresponding Maintenance Margin Rates and Maintenance Amounts.
+
+The Maintenance Margin is calculated based on your positions at different notional value tiers. This means that the Maintenance Margin is always calculated in the same way, regardless of what leverage you select. Moving from one tier to another will not cause the previous tier to change its leverage. The larger the position, the higher the Maintenance Margin rate.
+
+It is important to note that failure to meet the requirements relating to Maintenance Margin may result in liquidation. To avoid liquidation, it is highly recommended to reduce your positions or increase your margin amount before the collateral falls below the Maintenance Margin.
+
+### Maintenance Margin Rate
+
+Maintenance Margin calculations are done via a “Bracket” setup and are always calculated the same way, regardless of what leverage you choose. Moving from one bracket to another will not cause the earlier bracket to change its leverage.
+
+### Frequently Asked Questions
+
+**1. Can I adjust the leverage of an open position?**
+
+If you have an open position in the Cross Margin mode, to increase/decrease the leverage click **[Adjust Leverage]**.
+
+If you have an open position in the Isolated Margin mode, you cannot reduce the leverage.
+
+**2. In the Hedge mode, does the maximum position limit of each tier include both long and short positions?**
+
+The position notional limits for long and short positions are calculated together in absolute value. Therefore, the position notional limits are shared.
+
+**3. Why did my leverage adjustment fail?**
+
+Adjusting leverage requires the completion of your [identity verification (KYC)](https://www.binance.com/en/support/faq/detail/360027287111) process.
+
+**Please note:**Even after completing the KYC, it may take up to**48 hours**to synchronize your data at the system level. In some cases your KYC application may still be under review or it has not been approved.

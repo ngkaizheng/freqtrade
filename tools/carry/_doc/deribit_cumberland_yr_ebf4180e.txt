@@ -1,0 +1,1003 @@
+SOURCE_URL: https://insights.deribit.com/industry/year-in-review-by-cumberland/
+HTTP: 200  LEN: 157430
+
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-header-position-top" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script id="cookie-law-info-gcm-var-js">
+var _ckyGcm = {"status":true,"default_settings":[{"analytics":"denied","advertisement":"denied","functional":"denied","necessary":"granted","ad_user_data":"denied","ad_personalization":"denied","regions":"All"}],"wait_for_update":2000,"url_passthrough":false,"ads_data_redaction":false};
+</script>
+<script id="cookie-law-info-gcm-js" type="text/javascript" src="https://insights.deribit.com/wp-content/plugins/cookie-law-info/lite/frontend/js/gcm.min.js"></script>
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/5a856f0da5787ad4b9f8d09a/script.js"></script>
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.9 (Yoast SEO v27.9) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Year In Review by Cumberland - Deribit Insights</title>
+	<meta name="description" content="Reflections from the Cumberland team on the past year and what’s to come." />
+	<link rel="canonical" href="https://insights.deribit.com/industry/year-in-review-by-cumberland/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Year In Review by Cumberland - Deribit Insights" />
+	<meta property="og:description" content="Reflections from the Cumberland team on the past year and what’s to come." />
+	<meta property="og:url" content="https://insights.deribit.com/industry/year-in-review-by-cumberland/" />
+	<meta property="og:site_name" content="Deribit Insights" />
+	<meta property="article:published_time" content="2022-12-22T07:53:15+00:00" />
+	<meta property="og:image" content="https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef.jpg" />
+	<meta property="og:image:width" content="1086" />
+	<meta property="og:image:height" content="462" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Cumberland" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Year In Review by Cumberland - Deribit Insights" />
+	<meta name="twitter:description" content="Reflections from the Cumberland team on the past year and what’s to come." />
+	<meta name="twitter:creator" content="@DeribitInsights" />
+	<meta name="twitter:site" content="@DeribitInsights" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Cumberland" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="33 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#article","isPartOf":{"@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/"},"author":[{"@id":"https:\/\/insights.deribit.com\/#\/schema\/person\/73156679aaeb0ed2a698404a8cd2b42a"}],"headline":"Year In Review by Cumberland","datePublished":"2022-12-22T07:53:15+00:00","mainEntityOfPage":{"@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/"},"wordCount":8929,"publisher":{"@id":"https:\/\/insights.deribit.com\/#organization"},"image":{"@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#primaryimage"},"thumbnailUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/12\/9238rhcef.jpg","articleSection":["Industry"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/","url":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/","name":"Year In Review by Cumberland - Deribit Insights","isPartOf":{"@id":"https:\/\/insights.deribit.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#primaryimage"},"image":{"@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#primaryimage"},"thumbnailUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/12\/9238rhcef.jpg","datePublished":"2022-12-22T07:53:15+00:00","description":"Reflections from the Cumberland team on the past year and what’s to come.","breadcrumb":{"@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#primaryimage","url":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/12\/9238rhcef.jpg","contentUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/12\/9238rhcef.jpg","width":1086,"height":462},{"@type":"BreadcrumbList","@id":"https:\/\/insights.deribit.com\/industry\/year-in-review-by-cumberland\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/insights.deribit.com\/"},{"@type":"ListItem","position":2,"name":"Year In Review by Cumberland"}]},{"@type":"WebSite","@id":"https:\/\/insights.deribit.com\/#website","url":"https:\/\/insights.deribit.com\/","name":"Deribit Insights","description":"The best resource for Crypto Derivatives trading","publisher":{"@id":"https:\/\/insights.deribit.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/insights.deribit.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/insights.deribit.com\/#organization","name":"Deribit Insights","url":"https:\/\/insights.deribit.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/insights.deribit.com\/#\/schema\/logo\/image\/","url":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2023\/10\/wAQQAtl-_400x400-1.jpg","contentUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2023\/10\/wAQQAtl-_400x400-1.jpg","width":400,"height":400,"caption":"Deribit Insights"},"image":{"@id":"https:\/\/insights.deribit.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/x.com\/DeribitInsights"]},{"@type":"Person","@id":"https:\/\/insights.deribit.com\/#\/schema\/person\/73156679aaeb0ed2a698404a8cd2b42a","name":"Cumberland","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/10\/KcCpRJ4a_400x400-96x96.jpgf8d1ce75e29db65eb693da46349a3b60","url":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/10\/KcCpRJ4a_400x400-96x96.jpg","contentUrl":"https:\/\/insights.deribit.com\/wp-content\/uploads\/2022\/10\/KcCpRJ4a_400x400-96x96.jpg","caption":"Cumberland"},"description":"A global leader offering 24\/7 access to deep crypto liquidity.","url":"https:\/\/insights.deribit.com\/author\/cumberland\/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Deribit Insights &raquo; Feed" href="https://insights.deribit.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Deribit Insights &raquo; Comments Feed" href="https://insights.deribit.com/comments/feed/" />
+					<link rel="shortcut icon" href="https://insights.deribit.com/wp-content/uploads/2025/08/fav-64.png" type="image/x-icon" />
+		
+					<!-- Apple Touch Icon -->
+			<link rel="apple-touch-icon" sizes="180x180" href="https://insights.deribit.com/wp-content/uploads/2025/08/fav180.png">
+		
+					<!-- Android Icon -->
+			<link rel="icon" sizes="192x192" href="https://insights.deribit.com/wp-content/uploads/2025/08/fav192.png">
+		
+					<!-- MS Edge Icon -->
+			<meta name="msapplication-TileImage" content="https://insights.deribit.com/wp-content/uploads/2025/08/fav270.png">
+				<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://insights.deribit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsights.deribit.com%2Findustry%2Fyear-in-review-by-cumberland%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://insights.deribit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsights.deribit.com%2Findustry%2Fyear-in-review-by-cumberland%2F&#038;format=xml" />
+					<meta name="description" content="Reflections from the Cumberland team on the past year and what’s to come:
+
+ 	Learning from the Past and Evolving Towards the Future.
+ 	On Risk Management.
+ 	Emerging Narratives for 2023.
+ 	Finding a Footing in Private Markets.
+ 	The Exchange as a  Marketplace (And Nothing More).
+ 	Shaping the Next Wave of DeFi Innovation with Cumberland"/>
+				
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:site_name" content="Deribit Insights"/>
+		<meta property="og:title" content="Year In Review by Cumberland - Deribit Insights"/>
+				<meta property="og:description" content="Reflections from the Cumberland team on the past year and what’s to come:
+
+ 	Learning from the Past and Evolving Towards the Future.
+ 	On Risk Management.
+ 	Emerging Narratives for 2023.
+ 	Finding a Footing in Private Markets.
+ 	The Exchange as a  Marketplace (And Nothing More).
+ 	Shaping the Next Wave of DeFi Innovation with Cumberland"/>
+				<meta property="og:url" content="https://insights.deribit.com/industry/year-in-review-by-cumberland/"/>
+										<meta property="article:published_time" content="2022-12-22T07:53:15+00:00"/>
+											<meta name="author" content="Cumberland"/>
+								<meta property="og:image" content="https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef.jpg"/>
+		<meta property="og:image:width" content="1086"/>
+		<meta property="og:image:height" content="462"/>
+		<meta property="og:image:type" content="image/jpeg"/>
+				<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--awb-color-1: #ffffff;--wp--preset--color--awb-color-2: #f9f9fb;--wp--preset--color--awb-color-3: #f2f3f5;--wp--preset--color--awb-color-4: #e2e2e2;--wp--preset--color--awb-color-5: #0052ff;--wp--preset--color--awb-color-6: #4a4e57;--wp--preset--color--awb-color-7: #212934;--wp--preset--color--awb-color-8: #040507;--wp--preset--color--awb-color-custom-10: #65bc7b;--wp--preset--color--awb-color-custom-11: #222222;--wp--preset--color--awb-color-custom-12: #333333;--wp--preset--color--awb-color-custom-13: #f0f0f0;--wp--preset--color--awb-color-custom-14: #9ea0a4;--wp--preset--color--awb-color-custom-15: rgba(242,243,245,0.7);--wp--preset--color--awb-color-custom-16: rgba(242,243,245,0.8);--wp--preset--color--awb-color-custom-17: rgba(255,255,255,0.8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 12px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--xlarge: 32px;--wp--preset--font-size--huge: 48px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-color{color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-color{color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-color{color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-color{color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-color{color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-color{color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-color{color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-color{color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-10-color{color: var(--wp--preset--color--awb-color-custom-10) !important;}.has-awb-color-custom-11-color{color: var(--wp--preset--color--awb-color-custom-11) !important;}.has-awb-color-custom-12-color{color: var(--wp--preset--color--awb-color-custom-12) !important;}.has-awb-color-custom-13-color{color: var(--wp--preset--color--awb-color-custom-13) !important;}.has-awb-color-custom-14-color{color: var(--wp--preset--color--awb-color-custom-14) !important;}.has-awb-color-custom-15-color{color: var(--wp--preset--color--awb-color-custom-15) !important;}.has-awb-color-custom-16-color{color: var(--wp--preset--color--awb-color-custom-16) !important;}.has-awb-color-custom-17-color{color: var(--wp--preset--color--awb-color-custom-17) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-background-color{background-color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-background-color{background-color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-background-color{background-color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-background-color{background-color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-background-color{background-color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-background-color{background-color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-background-color{background-color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-background-color{background-color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-10-background-color{background-color: var(--wp--preset--color--awb-color-custom-10) !important;}.has-awb-color-custom-11-background-color{background-color: var(--wp--preset--color--awb-color-custom-11) !important;}.has-awb-color-custom-12-background-color{background-color: var(--wp--preset--color--awb-color-custom-12) !important;}.has-awb-color-custom-13-background-color{background-color: var(--wp--preset--color--awb-color-custom-13) !important;}.has-awb-color-custom-14-background-color{background-color: var(--wp--preset--color--awb-color-custom-14) !important;}.has-awb-color-custom-15-background-color{background-color: var(--wp--preset--color--awb-color-custom-15) !important;}.has-awb-color-custom-16-background-color{background-color: var(--wp--preset--color--awb-color-custom-16) !important;}.has-awb-color-custom-17-background-color{background-color: var(--wp--preset--color--awb-color-custom-17) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-awb-color-1-border-color{border-color: var(--wp--preset--color--awb-color-1) !important;}.has-awb-color-2-border-color{border-color: var(--wp--preset--color--awb-color-2) !important;}.has-awb-color-3-border-color{border-color: var(--wp--preset--color--awb-color-3) !important;}.has-awb-color-4-border-color{border-color: var(--wp--preset--color--awb-color-4) !important;}.has-awb-color-5-border-color{border-color: var(--wp--preset--color--awb-color-5) !important;}.has-awb-color-6-border-color{border-color: var(--wp--preset--color--awb-color-6) !important;}.has-awb-color-7-border-color{border-color: var(--wp--preset--color--awb-color-7) !important;}.has-awb-color-8-border-color{border-color: var(--wp--preset--color--awb-color-8) !important;}.has-awb-color-custom-10-border-color{border-color: var(--wp--preset--color--awb-color-custom-10) !important;}.has-awb-color-custom-11-border-color{border-color: var(--wp--preset--color--awb-color-custom-11) !important;}.has-awb-color-custom-12-border-color{border-color: var(--wp--preset--color--awb-color-custom-12) !important;}.has-awb-color-custom-13-border-color{border-color: var(--wp--preset--color--awb-color-custom-13) !important;}.has-awb-color-custom-14-border-color{border-color: var(--wp--preset--color--awb-color-custom-14) !important;}.has-awb-color-custom-15-border-color{border-color: var(--wp--preset--color--awb-color-custom-15) !important;}.has-awb-color-custom-16-border-color{border-color: var(--wp--preset--color--awb-color-custom-16) !important;}.has-awb-color-custom-17-border-color{border-color: var(--wp--preset--color--awb-color-custom-17) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-xlarge-font-size{font-size: var(--wp--preset--font-size--xlarge) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://insights.deribit.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7' media='all' />
+<link rel='stylesheet' id='blog-spoiler-style-css' href='https://insights.deribit.com/wp-content/plugins/widget-for-co-authors-master/blog-spoiler.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://insights.deribit.com/wp-includes/css/dashicons.min.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='learndash-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/src/assets/dist/css/styles.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='jquery-dropdown-css-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/assets/css/jquery.dropdown.min.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='learndash_lesson_video-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_lesson_video.min.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='learndash-admin-bar-css' href='https://insights.deribit.com/wp-content/plugins/sfwd-lms/src/assets/dist/css/admin-bar/styles.css?ver=4.21.5' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' media='all' />
+<link rel='stylesheet' id='learndash-front-css' href='//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=4.21.5' media='all' />
+<style id="learndash-front-inline-css">
+		.learndash-wrapper .ld-item-list .ld-item-list-item.ld-is-next,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label:focus-within {
+			border-color: #5966ef;
+		}
+
+		/*
+		.learndash-wrapper a:not(.ld-button):not(#quiz_continue_link):not(.ld-focus-menu-link):not(.btn-blue):not(#quiz_continue_link):not(.ld-js-register-account):not(#ld-focus-mode-course-heading):not(#btn-join):not(.ld-item-name):not(.ld-table-list-item-preview):not(.ld-lesson-item-preview-heading),
+		 */
+
+		.learndash-wrapper .ld-breadcrumbs a,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-reverse,
+		.learndash-wrapper .ld-icon-certificate,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-login .ld-modal-heading,
+		#wpProQuiz_user_content a,
+		.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover,
+		.learndash-wrapper .ld-focus-comments__heading-actions .ld-expand-button,
+		.learndash-wrapper .ld-focus-comments__heading a,
+		.learndash-wrapper .ld-focus-comments .comment-respond a,
+		.learndash-wrapper .ld-focus-comment .ld-comment-reply a.comment-reply-link:hover,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-focus-comment.bypostauthor>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper {
+			background-color:rgba(89, 102, 239, 0.03) !important;
+		}
+
+
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after {
+			background: #5966ef !important;
+		}
+
+
+
+		.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-status-incomplete,
+		.learndash-wrapper .ld-focus-comment.bypostauthor:not(.ptype-sfwd-assignment) >.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper>.ld-comment-avatar img {
+			border-color: #5966ef !important;
+		}
+
+
+
+		.learndash-wrapper .ld-loading::before {
+			border-top:3px solid #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-button:hover:not([disabled]):not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		#learndash-tooltips .ld-tooltip:after,
+		#learndash-tooltips .ld-tooltip,
+		.ld-tooltip:not(.ld-tooltip--modern) [role="tooltip"],
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .btn-join:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-button:not([disabled]):not(.ld-button-reverse):not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:not([disabled]),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not([disabled]):not(.wpProQuiz_button_reShowQuestion):not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:not([disabled]),
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:not([disabled]),
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:not([disabled]),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:not([disabled]),
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:not([disabled]),
+		#wpProQuiz_user_content table.wp-list-table thead th,
+		#wpProQuiz_overlay_close:not([disabled]),
+		.learndash-wrapper .ld-expand-button.ld-button-alternate:not([disabled]) .ld-icon {
+			background-color: #5966ef !important;
+			color: #ffffff;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:not([disabled]):not(:hover):not(:focus) .ld-icon {
+			background-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:hover .ld-icon,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:focus .ld-icon {
+			border-color: #5966ef;
+			color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-button:focus:not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .btn-join:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):focus:not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:focus,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:focus,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:focus {
+			opacity: 0.75; /* Replicates the hover/focus states pre-4.21.3. */
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-button:hover:not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .btn-join:hover:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:hover:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:hover,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):hover:not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:hover,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:hover,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:hover,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:hover {
+			background-color: #5966ef; /* Replicates the hover/focus states pre-4.21.3. */
+			opacity: 0.85; /* Replicates the hover/focus states pre-4.21.3. */
+		}
+
+		.learndash-wrapper .ld-item-list .ld-item-search .ld-closer:focus {
+			border-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items:before {
+			border-bottom-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-button.ld-button-transparent:hover {
+			background: transparent !important;
+		}
+
+		.learndash-wrapper .ld-button.ld-button-transparent:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-alternate,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			background-color:transparent !important;
+		}
+
+		.learndash-wrapper .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		.learndash-wrapper .ld-button.ld-button-reverse:hover,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon.ld-icon-certificate,
+		.learndash-wrapper .ld-alert-warning .ld-button,
+		.learndash-wrapper .ld-primary-background.ld-status {
+			color:white !important;
+		}
+
+		.learndash-wrapper .ld-status.ld-status-unlocked {
+			background-color: rgba(89,102,239,0.2) !important;
+			color: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_addToplist {
+			background-color: rgba(89,102,239,0.1) !important;
+			border: 1px solid #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTable th {
+			background: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTrOdd {
+			background-color: rgba(89,102,239,0.1) !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewDiv li.wpProQuiz_reviewQuestionTarget {
+			background-color: #5966ef !important;
+		}
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
+			background-color: #5966ef !important;
+		}
+		
+		.learndash-wrapper #quiz_continue_link,
+		.learndash-wrapper .ld-secondary-background,
+		.learndash-wrapper .learndash_mark_complete_button,
+		.learndash-wrapper #learndash_mark_complete_button,
+		.learndash-wrapper .ld-status-complete,
+		.learndash-wrapper .ld-alert-success .ld-button,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon {
+			background-color: #5966ef !important;
+		}
+
+		.learndash-wrapper #quiz_continue_link:focus,
+		.learndash-wrapper .learndash_mark_complete_button:focus,
+		.learndash-wrapper #learndash_mark_complete_button:focus,
+		.learndash-wrapper .ld-alert-success .ld-button:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .wpProQuiz_content a#quiz_continue_link {
+			background-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content a#quiz_continue_link:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .course_progress .sending_progress_bar {
+			background: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:hover, .learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:hover {
+			background-color: #5966ef !important;
+			opacity: 0.75;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:focus {
+			outline-color: #5966ef;
+		}
+
+		.learndash-wrapper .ld-secondary-color-hover:hover,
+		.learndash-wrapper .ld-secondary-color,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete:after {
+			color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-secondary-in-progress-icon {
+			border-left-color: #5966ef !important;
+			border-top-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .ld-alert-success {
+			border-color: #5966ef;
+			background-color: transparent !important;
+			color: #5966ef;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewQuestion li.wpProQuiz_reviewQuestionSolved,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_box li.wpProQuiz_reviewQuestionSolved {
+			background-color: #5966ef !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content  .wpProQuiz_reviewLegend span.wpProQuiz_reviewColor_Answer {
+			background-color: #5966ef !important;
+		}
+
+		
+/*# sourceURL=learndash-front-inline-css */
+</style>
+<link rel='stylesheet' id='child-style-css' href='https://insights.deribit.com/wp-content/themes/Avada-Child-Theme/style.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='fusion-dynamic-css-css' href='https://insights.deribit.com/wp-content/uploads/fusion-styles/288a37ee0403bad6e376854661803ae8.min.css?ver=3.12.1' media='all' />
+<script id="jquery-core-js" src="https://insights.deribit.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://insights.deribit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://insights.deribit.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://insights.deribit.com/wp-json/wp/v2/posts/20521" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://insights.deribit.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://insights.deribit.com/?p=20521' />
+<meta name="generator" content="WPML ver:4.9.6 stt:59,61,1,28,29,42,45,2,57;" />
+<link rel="preload" href="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="//insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="//insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="//insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin><style type="text/css" id="css-fb-visibility">@media screen and (max-width: 640px){.fusion-no-small-visibility{display:none !important;}body .sm-text-align-center{text-align:center !important;}body .sm-text-align-left{text-align:left !important;}body .sm-text-align-right{text-align:right !important;}body .sm-flex-align-center{justify-content:center !important;}body .sm-flex-align-flex-start{justify-content:flex-start !important;}body .sm-flex-align-flex-end{justify-content:flex-end !important;}body .sm-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .sm-ml-auto{margin-left:auto !important;}body .sm-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-small{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-small{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 641px) and (max-width: 1024px){.fusion-no-medium-visibility{display:none !important;}body .md-text-align-center{text-align:center !important;}body .md-text-align-left{text-align:left !important;}body .md-text-align-right{text-align:right !important;}body .md-flex-align-center{justify-content:center !important;}body .md-flex-align-flex-start{justify-content:flex-start !important;}body .md-flex-align-flex-end{justify-content:flex-end !important;}body .md-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .md-ml-auto{margin-left:auto !important;}body .md-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-medium{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-medium{ position: sticky; top: var(--awb-sticky-offset,0); }}@media screen and (min-width: 1025px){.fusion-no-large-visibility{display:none !important;}body .lg-text-align-center{text-align:center !important;}body .lg-text-align-left{text-align:left !important;}body .lg-text-align-right{text-align:right !important;}body .lg-flex-align-center{justify-content:center !important;}body .lg-flex-align-flex-start{justify-content:flex-start !important;}body .lg-flex-align-flex-end{justify-content:flex-end !important;}body .lg-mx-auto{margin-left:auto !important;margin-right:auto !important;}body .lg-ml-auto{margin-left:auto !important;}body .lg-mr-auto{margin-right:auto !important;}body .fusion-absolute-position-large{position:absolute;top:auto;width:100%;}.awb-sticky.awb-sticky-large{ position: sticky; top: var(--awb-sticky-offset,0); }}</style>		<script type="text/javascript">
+			var doc = document.documentElement;
+			doc.setAttribute( 'data-useragent', navigator.userAgent );
+		</script>
+		<!-- Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JQ8MMVJ');
+</script>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80659621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-80659621-1');
+</script>
+	</head>
+
+<body class="wp-singular post-template-default single single-post postid-20521 single-format-standard wp-theme-Avada wp-child-theme-Avada-Child-Theme fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-no fusion-button_gradient-linear avada-image-rollover-circle-no avada-image-rollover-yes avada-image-rollover-direction-center_horiz fusion-body ltr fusion-sticky-header no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow- layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-classic fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-clean fusion-main-menu-search-overlay fusion-avatar-circle avada-dropdown-styles avada-blog-layout-grid avada-blog-archive-layout-grid avada-header-shadow-no avada-menu-icon-position-left avada-has-megamenu-shadow avada-has-mobile-menu-search avada-has-main-nav-search-icon avada-has-breadcrumb-mobile-hidden avada-has-titlebar-hide avada-header-border-color-full-transparent avada-has-pagination-width_height avada-flyout-menu-direction-fade avada-ec-views-v1" data-awb-post-id="20521">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="boxed-wrapper">
+		
+		<div id="wrapper" class="fusion-wrapper">
+			<div id="home" style="position:relative;top:-1px;"></div>
+							
+					
+			<header class="fusion-header-wrapper">
+				<div class="fusion-header-v1 fusion-logo-alignment fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-classic">
+					<div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+	<div class="fusion-row">
+					<div class="fusion-logo" data-margin-top="32px" data-margin-bottom="30px" data-margin-left="0px" data-margin-right="0px">
+			<a class="fusion-logo-link"  href="https://insights.deribit.com/" >
+
+						<!-- standard logo -->
+			<img src="https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx1-2.png" srcset="https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx1-2.png 1x, https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx2-3.png 2x" width="102" height="25" style="max-height:25px;height:auto;" alt="Deribit Insights Logo" data-retina_logo_url="https://insights.deribit.com/wp-content/uploads/2025/08/ins-logx2-3.png" class="fusion-standard-logo" />
+
+			
+					</a>
+		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><div class="fusion-overlay-search">		<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-clean" method="get" action="https://insights.deribit.com/">
+			<div class="fusion-search-form-content">
+
+				
+				<div class="fusion-search-field search-field">
+					<label><span class="screen-reader-text">Search for:</span>
+													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-0" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
+											</label>
+				</div>
+				<div class="fusion-search-button search-button">
+					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
+										<div class="fusion-slider-loading"></div>
+									</div>
+
+				
+			</div>
+
+
+							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
+			
+		<input type='hidden' name='lang' value='en' /></form>
+		<div class="fusion-search-spacer"></div><a href="#" role="button" aria-label="Close Search" class="fusion-close-search"></a></div><ul id="menu-main-deribit-home" class="fusion-menu"><li  id="menu-item-161"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-161 fusion-dropdown-menu"  data-item-id="161"><a  class="fusion-bar-highlight"><span class="menu-text">Categories</span> <span class="fusion-caret"><i class="fusion-dropdown-indicator" aria-hidden="true"></i></span></a><ul class="sub-menu"><li  id="menu-item-167"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167 fusion-dropdown-submenu" ><a  href="/industry/" class="fusion-bar-highlight"><span>Industry</span></a></li><li  id="menu-item-1250"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1250 fusion-dropdown-submenu" ><a  href="/option-flows" class="fusion-bar-highlight"><span>Option Flows</span></a></li><li  id="menu-item-165"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165 fusion-dropdown-submenu" ><a  href="/exchange-updates" class="fusion-bar-highlight"><span>Exchange Updates</span></a></li><li  id="menu-item-166"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166 fusion-dropdown-submenu" ><a  href="/market-research" class="fusion-bar-highlight"><span>Market Research</span></a></li><li  id="menu-item-163"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163 fusion-dropdown-submenu" ><a  href="/education" class="fusion-bar-highlight"><span>Education</span></a></li><li  id="menu-item-70519"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70519 fusion-dropdown-submenu" ><a  href="/crypto-options-unplugged/" class="fusion-bar-highlight"><span>Podcast</span></a></li><li  id="menu-item-85533"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85533 fusion-dropdown-submenu" ><a  href="/out-of-office" class="fusion-bar-highlight"><span>Out of Office</span></a></li></ul></li><li  id="menu-item-5245"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5245"  data-item-id="5245"><a  href="https://insights.deribit.com/options-course/" class="fusion-bar-highlight"><span class="menu-text">Options Course</span></a></li><li  id="menu-item-168"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168"  data-item-id="168"><a  href="/trading-tools" class="fusion-bar-highlight"><span class="menu-text">Trading Tools</span></a></li><li  id="menu-item-169"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"  data-item-id="169"><a  href="/partners" class="fusion-bar-highlight"><span class="menu-text">Partners</span></a></li><li  id="menu-item-10611"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10611"  data-item-id="10611"><a  href="/dev-hub" class="fusion-bar-highlight"><span class="menu-text">Dev Hub</span></a></li><li  id="menu-item-203"  class="2985028375 menu-item menu-item-type-custom menu-item-object-custom menu-item-203"  data-classes="2985028375" data-item-id="203"><a  target="_blank" rel="noopener noreferrer" href="https://support.deribit.com/hc/en-us" class="fusion-bar-highlight"><span class="menu-text">KB</span></a></li><li  id="menu-item-wpml-ls-2-en"  class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-en"  data-classes="menu-item" data-item-id="wpml-ls-2-en"><a  href="https://insights.deribit.com/industry/year-in-review-by-cumberland/" class="fusion-bar-highlight wpml-ls-link" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-2-en" aria-current="page"><span class="menu-text"><img
+            class="wpml-ls-flag"
+            src="https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt=""
+            loading="lazy"
+            
+            
+    /><span class="wpml-ls-native" lang="en">English</span></span></a></li><li class="fusion-custom-menu-item fusion-main-menu-search fusion-search-overlay"><a class="fusion-main-menu-icon fusion-bar-highlight" href="#" aria-label="Search" data-title="Search" title="Search" role="button" aria-expanded="false"></a></li></ul></nav><div class="fusion-mobile-navigation"><ul id="menu-main-deribit-home-1" class="fusion-mobile-menu"><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-161 fusion-dropdown-menu"  data-item-id="161"><a  class="fusion-bar-highlight"><span class="menu-text">Categories</span> <span class="fusion-caret"><i class="fusion-dropdown-indicator" aria-hidden="true"></i></span></a><ul class="sub-menu"><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167 fusion-dropdown-submenu" ><a  href="/industry/" class="fusion-bar-highlight"><span>Industry</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1250 fusion-dropdown-submenu" ><a  href="/option-flows" class="fusion-bar-highlight"><span>Option Flows</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165 fusion-dropdown-submenu" ><a  href="/exchange-updates" class="fusion-bar-highlight"><span>Exchange Updates</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166 fusion-dropdown-submenu" ><a  href="/market-research" class="fusion-bar-highlight"><span>Market Research</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-163 fusion-dropdown-submenu" ><a  href="/education" class="fusion-bar-highlight"><span>Education</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70519 fusion-dropdown-submenu" ><a  href="/crypto-options-unplugged/" class="fusion-bar-highlight"><span>Podcast</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85533 fusion-dropdown-submenu" ><a  href="/out-of-office" class="fusion-bar-highlight"><span>Out of Office</span></a></li></ul></li><li   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5245"  data-item-id="5245"><a  href="https://insights.deribit.com/options-course/" class="fusion-bar-highlight"><span class="menu-text">Options Course</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168"  data-item-id="168"><a  href="/trading-tools" class="fusion-bar-highlight"><span class="menu-text">Trading Tools</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"  data-item-id="169"><a  href="/partners" class="fusion-bar-highlight"><span class="menu-text">Partners</span></a></li><li   class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10611"  data-item-id="10611"><a  href="/dev-hub" class="fusion-bar-highlight"><span class="menu-text">Dev Hub</span></a></li><li   class="2985028375 menu-item menu-item-type-custom menu-item-object-custom menu-item-203"  data-classes="2985028375" data-item-id="203"><a  target="_blank" rel="noopener noreferrer" href="https://support.deribit.com/hc/en-us" class="fusion-bar-highlight"><span class="menu-text">KB</span></a></li><li   class="menu-item wpml-ls-slot-2 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-2-en"  data-classes="menu-item" data-item-id="wpml-ls-2-en"><a  href="https://insights.deribit.com/industry/year-in-review-by-cumberland/" class="fusion-bar-highlight wpml-ls-link" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-2-en" aria-current="page"><span class="menu-text"><img
+            class="wpml-ls-flag"
+            src="https://insights.deribit.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt=""
+            loading="lazy"
+            
+            
+    /><span class="wpml-ls-native" lang="en">English</span></span></a></li></ul></div>
+<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left" aria-label="Main Menu Mobile"></nav>
+
+		
+<div class="fusion-clearfix"></div>
+<div class="fusion-mobile-menu-search">
+			<form role="search" class="searchform fusion-search-form  fusion-live-search fusion-search-form-clean" method="get" action="https://insights.deribit.com/">
+			<div class="fusion-search-form-content">
+
+				
+				<div class="fusion-search-field search-field">
+					<label><span class="screen-reader-text">Search for:</span>
+													<input type="search" class="s fusion-live-search-input" name="s" id="fusion-live-search-input-1" autocomplete="off" placeholder="Search..." required aria-required="true" aria-label="Search..."/>
+											</label>
+				</div>
+				<div class="fusion-search-button search-button">
+					<input type="submit" class="fusion-search-submit searchsubmit" aria-label="Search" value="&#xf002;" />
+										<div class="fusion-slider-loading"></div>
+									</div>
+
+				
+			</div>
+
+
+							<div class="fusion-search-results-wrapper"><div class="fusion-search-results"></div></div>
+			
+		<input type='hidden' name='lang' value='en' /></form>
+		</div>
+			</div>
+</div>
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+								
+							<div id="sliders-container" class="fusion-slider-visibility">
+					</div>
+				
+					
+							
+			
+						<main id="main" class="clearfix ">
+				<div class="fusion-row" style="">
+
+<section id="content" style="width: 100%;">
+	
+					<article id="post-20521" class="post post-20521 type-post status-publish format-standard has-post-thumbnail hentry category-industry">
+															<div class="fusion-post-title-meta-wrap">
+												<h1 class="entry-title fusion-post-title">Year In Review by Cumberland</h1>									<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper"><span class="vcard rich-snippet-hidden"><span class="fn"><a href="https://insights.deribit.com/author/cumberland/" rel="author">Cumberland</a></span></span><span class="updated rich-snippet-hidden">2022-12-22T07:53:15+00:00</span><span>December 22, 2022</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/industry/" rel="category tag">Industry</a><span class="fusion-inline-sep">|</span></div></div>					</div>
+							
+									
+						<div class="post-content">
+				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-image-element " style="text-align:center;--awb-caption-title-font-family:var(--h2_typography-font-family);--awb-caption-title-font-weight:var(--h2_typography-font-weight);--awb-caption-title-font-style:var(--h2_typography-font-style);--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);"><span class=" fusion-imageframe imageframe-none imageframe-1 hover-type-none" style="border-radius:5px;"><img fetchpriority="high" decoding="async" width="1086" height="462" src="https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef.jpg" alt class="img-responsive wp-image-20529" srcset="https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef-200x85.jpg 200w, https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef-400x170.jpg 400w, https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef-600x255.jpg 600w, https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef-800x340.jpg 800w, https://insights.deribit.com/wp-content/uploads/2022/12/9238rhcef.jpg 1086w" sizes="(max-width: 640px) 100vw, 1086px" /></span></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-2 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--link_color: #00cfbe;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:30px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-1"><p>Reflections from the Cumberland team on the past year and what’s to come:</p>
+<ul>
+<li>Learning from the Past and Evolving Towards the Future.</li>
+<li>On Risk Management.</li>
+<li>Emerging Narratives for 2023.</li>
+<li>Finding a Footing in Private Markets.</li>
+<li>The Exchange as a  Marketplace (And Nothing More).</li>
+<li>Shaping the Next Wave of DeFi Innovation with Cumberland Labs.</li>
+<li>The Importance of Trust.</li>
+</ul>
+</div><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;margin-bottom:38px;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;border-color:var(--awb-color3);border-top-width:1px;"></div></div><div class="fusion-text fusion-text-2"><h2>Learning from the Past and Evolving Towards the Future</h2>
+<p><span style="color: #808080;"><em>Chris Zuehlke, Global Head of Cumberland and Partner at DRW</em></span></p>
+<p>Markets are Darwinian. They steadily march towards efficiency. Occasionally, they must sprint away from faulty constructs. As we look back on 2022, it is easy to get lost in a deluge of market changing headlines: Terra and Luna intertwined in mutual implosion, lenders relearning the lesson of duration and liquidity risk, and FTX’s fraud demonstrating the necessity of separation of responsibilities in all markets. It would be misguided to believe that this series of events hasn’t increased skepticism about the value and future of DeFi projects and blockchain infrastructure. We understand that, but it’s not a sentiment we share. With DRW’s heritage firmly planted in the TradFi markets, our experience tells us that <strong>complex market events often lead to the next tranche of progress</strong> as these new challenges spur the creation of innovative solutions.</p>
+<p>Through the volatility of the past year – in both traditional and crypto markets, I frequently asked myself the same question: “Can blockchain technology improve the market’s ability to navigate this uncertainty?” My conclusion was usually yes. There is significant potential to leverage the transparency, determinism, and velocity of on-chain value movement. From extreme transparency of deposits to 24/7/365 near-real time movement of collateral, the potential to use blockchain technology to reduce system risk is too powerful to ignore. Case in point, we include the monitoring of liquidation levels for on-chain borrows in our risk management process. In a perfect world, centralized lenders would adopt similar transparency, but there is a more obvious upstream step: <strong>establishing a regulatory framework for fiat-backed stablecoins</strong>.</p>
+<p>I don’t anticipate this shift being quick, but the adoption of fiat-backed stablecoins beyond DeFi is bordering on inevitable at this point. The stablecoin bill making its way through the US Congress shares many characteristics with a recent Consultation Paper from the Singaporean MAS on the same topic. Separate jurisdictions converging on similar principles (e.g., oversight by banking regulators, regular audits, backing limited to fiat/short-dated bills/ repo, SLAs for minting and burning) is a good sign in our experience that <strong>we’re narrowing in on a path forward</strong>. While there will be more to be done to enable wider adoption of stablecoins by regulated institutions, establishing this framework is a critical next step.</p>
+<p>I also anticipate that the events of 2022 will herald in a new wave of specialists, created to break the conflicts of interest that were put under a microscope in the aftermath of FTX’s implosion. This breaking apart of responsibilities was something DRW called for in our comment letter to the CFTC responding to the FTX US Derivatives amended DCO filing. While we think there is room to innovate new market structures that support a degree of vertical integration, there are certain structures that should not be permitted. Common control of a trading firm and an exchange that custodies customer assets is an obvious practice that needs to be expunged from the industry. There are sure to be more identified in due course. This will lead to an<strong> emergence of more single-responsibility service providers in the industry</strong>, ultimately improving overall resiliency.</p>
+<p>Skeptics will be quick to argue that no amount of additional oversight or limitations on conduct will be sufficient for the industry to increase its credibility. We respectfully, but staunchly, disagree. The events of the past two months were not an indictment on Bitcoin, Ethereum, or blockchain technology. Rather, they were the result of the misappropriation of customer funds at a massive scale and perpetrated by bad actors. This, unfortunately, is not a cryptoasset specific issue (see MF Global). The irony is that DeFi primitives could have been used to help mitigate the potential for bad actors to perpetrate such a fraud.</p>
+<p>The proper take-away, in our humble opinion, is for the industry to learn from the events of the past year, take a critical look at what evolution is needed, and then work together to establish the proper regulatory frameworks (changing the order of those operations is ill-advised). With that in place, institutional service providers will have a roadmap to follow as they expand their utilization of cryptoassets and blockchain infrastructure. We also expect to see a market that puts a premium on risk-mitigating offerings. Previously, market participants prioritized maximizing yield and capturing the convexity to the upside. In the future, they will prioritize tri-party qualified custodians, spot trading with no prefunding, ISDAs &amp; CSAs, and transparency into reserves and liabilities. This shift in priorities, coupled with the continued efforts of good actors leading from the front, is sure to <strong>usher in the next wave of survival of the fittest in crypto markets</strong>. Evolution will take place right before our eyes. Let’s make Darwin proud.</p>
+<h2>On Risk Management</h2>
+<p><em><span style="color: #808080;">Jonah Van Bourg, Global Head of Trading at Cumberland</span></em></p>
+<p>There are<strong> two</strong> ways to tell the story of 2022.</p>
+<p>The first way, the generally accepted narrative, says that a BTC selloff lit a fuse, LUNA was the detonation, and the rest of the year was fallout.</p>
+<p>A decline in BTC of around 40% between January and May dragged LUNA down from $125 to $75. The selloff in LUNA caused UST to de-peg, which in turn vaporized LUNA to $0. A few months later, we learned that one of the largest funds in crypto was deep underwater, subsequently going broke. That, in turn, inflicted lethal wounds to the lenders. And though we wouldn’t find out for months, it also put Alameda deep in the red, and when FTX tried to bail them out, the exchange went insolvent as well.</p>
+<p>All those cumulative losses trace back to the LUNA/UST collapse.</p>
+<p>All of those things happened. It’s a true story, but with the wrong lesson.</p>
+<p>Here’s <strong>another</strong> way to tell the same story.</p>
+<p>In 2021, some funds made directional bets in crypto, which were wildly profitable. They used those profits to make larger bets. Solana profits rolled into LUNA and AVAX bets, and when those paid off, the profit rolled into NEAR, FTM, and ONE. The only take-profits were the ones used to roll into a higher beta, smaller market cap. While crypto’s overall market cap rallied from $600b to $3t, most crypto fund’s AUM did much more than a 5x. Lenders scrambled to gain market share, a race to see who could create the largest loan book the fastest. Dreams of IPOs danced through founders’ heads. Caution be damned.</p>
+<p>And then something happened. The fact that it was LUNA/UST doesn’t really matter&#8230;when the market is systematically taking as much risk as possible, and laying its risk out to lenders, it doesn’t matter what ends the party, because it’s going to end eventually. LUNA just ended up being the one to turn off the lights.</p>
+<p>The problem was <strong>not</strong> that risk was available. Risk is always available, and as long as there is incentive to take risk, traders and investors will do so. <strong>What was severely lacking in the crypto industry this year were risk controls</strong>.</p>
+<p>Risk is intrinsic to trading, but unchecked risk is a cardinal sin. In general, it’s the trader’s job to find the trade, and it’s the risk manager’s job to place sensible limits on the trade. The organization’s job is to empower the risk managers.</p>
+<p>Generally, the firms which were able to weather the storm in 2022 were the ones that came from established institutions, and it’s not because they had larger balance sheets. It was because they understood the core tenants of risk management and likely had dedicated risk managers.</p>
+<p>Trade sizing is not the only vector here. If an entity is lending assets into the market, counterparty risk is unavoidable. That’s one of the reasons borrowers pay interest. However, time and time again this year, we saw lenders concentrate their entire fortunes on one counterparty. Likewise, we saw trading firms and venture firms bet their entire futures on a single exchange, a bet which seemed like a 99% certainty. With every decision, firms should be considering the absolute worst-case scenario, and asking the question: “If this occurs, do we survive?”</p>
+<p>Warren Buffet’s famous quote applies here: <strong>“You don’t find out who’s been swimming naked until the tide goes out”</strong>. This year, unfortunately, the tide has been going out since the beginning of April, and observers have been shocked at the lack of bathing suits. It’s only obvious in retrospect which firms didn’t have strong risk controls, or even worse, which firms had none.</p>
+<p><strong>It bears repeating: market volatility doesn’t bring down trading desks; poor risk management does.</strong></p>
+<p>Here’s a confession. I am max bullish on crypto. Five years ago, I bet my career on this space, then toughed it out through the 2018-19 bear market, the March 2020 crash, and I’m a few weeks away from surviving 2022. From a thesis standpoint, I am so bullish that it hurts. So the question becomes: when you’re that bullish, what do you do?</p>
+<p>In crypto, we like to say “WAGMI.” But as we’ve seen this year, unfortunately, not everyone is going to make it. Anyone who is fundamentally bullish on this technology should have one goal: make it. Don’t blow up.</p>
+<p>There are many ways to blow up in crypto, but most of them fall into two categories: leverage and concentration. We express our max bullish stance by taking the steps to ensure that, when the crypto utopia arrives, we are a part of it. The worst-case scenario would be seeing the thesis play out but not being a part of it. This affects our decisions on how to trade and who to partner with, and every decision we make is with a time horizon of the next decade, not the next year.</p>
+<p>As an industry, we have to get past this cycle of “Bad news happens, someone goes down, speculation abounds at contagion effects, self-fulfilling prophecy manifests the next wave.” Because as much as we like the coins, this market will get hit by negative catalysts, and if the infrastructure providers (like lenders and exchanges) in particular do not have strong risk practices, we will end up in the contagion cul-de-sac again and again.</p>
+<p>The truth is, <strong>none</strong> of what happened in 2022 was a crypto-specific phenomenon. TradFi had its own “does this industry even have risk managers?” moment in 2008, and the direct result was Dodd-Frank. <strong>Regulation in crypto to prevent another FTX is most likely coming</strong>, and we shouldn’t be afraid of it; instead, we should strive to work with regulators to establish responsible guardrails for the industry.</p>
+<p>A final point. <strong>2022 was the direct result of 2021</strong>. Last year’s sharp rally had the unintended consequence of rewarding the most aggressive risk-takers with the largest balance sheet and the biggest soapbox. The market treated some folks as if they were saviors when really, they were just irresponsibly long. 2023 will be the direct result of 2022, so we do expect to see a more careful approach to risk, and at Cumberland hope to help build a more resilient market.</p>
+<h2>Emerging Narratives for 2023</h2>
+<p><span style="color: #808080;"><em>Steven Goulden, Senior Research Analyst at Cumberland</em></span></p>
+<p>The past year has been beset with negative headlines for the DeFi industry, but we’d be remiss to not acknowledge the non-crypto headlines adversely impacting the industry as well. The Russia-Ukraine War, significant tech-sector layoffs and rapidly evolving monetary policy have impacted TradFi and DeFi markets alike. Despite an improving macro narrative heading into the end of the year, for DeFi and blockchain technology to really demonstrate its potential, it needs to deliver on its already-known goals and compelling new fundamental narratives need to emerge. In 2023, we anticipate that we’ll see meaningful green shoots break the surface in several key areas, which will pave the way for significant progress in the next 6-24 months. Aside from the macro-economic theme, we’ve identified several idiosyncratic developments worth paying close attention to. Each has the potential to be the catalyst for a Cambrian Explosion of cryptoasset uses cases, similar to the exponential growth of the technology sector seen a decade ago with the advent of Web2 &amp; SaaS.</p>
+<h3>BTC/ETH as a reserve asset and/or global payment medium – winners BTC, ETH</h3>
+<p>Given the confiscation of Russian reserve assets and the various sanctions enforced this year, there is an increasing case to be made by exporter nations for investing excess reserves in non-developed market government bonds. And, with the dollar close to historical highs, exporter nations also are now less concerned with buying US treasuries to depress their own currencies vs. USD. Even a small central bank allocation to BTC or ETH would be material and would likely lead to other exporting states following suit.</p>
+<h3>NFTs meet IP – winners MATIC, LOOKS, XMON</h3>
+<p>NFTs have highlighted the power of digital ownership and demonstrated version 0.1 of an important use case for the capabilities of blockchain technology, Nonetheless, thus far they’ve largely been confined to the art space. Going forward, we believe NFTs will expand beyond this and become a go-to method of tokenizing IP. The opportunity here is significant: there is ~$80t of intangible assets on corporate balance sheets at this point.</p>
+<p>While this vertical within crypto is still in its infancy, several notable companies with non-crypto origins have made significant progress in adopting the technology to monetize IP and improve customer engagement. NBA Topshots was one of the earliest projects to garner significant interest, ultimately opening the door to lookalike projects, but the proliferation hasn’t stopped there. One recent high-profile partnership is the collaboration between Starbucks and Polygon to generate NFTs for Starbucks customers. Similarly, Nike (arguably one of the greatest marketing operators globally) has heavily invested here, working with high profile designers on, for example, NFT and physical footwear. They recently announced the launch of Swoosh, where users can design NFTs.</p>
+<p>Listening to these companies talk about Web3 initiatives, it’s clear they see digital engagement with customers and fans as a new aspect of the retail experience. NFTs also can be used as part of a loyalty scheme if crypto payments are used; for example, a customer could buy a coffee with USDC through a mobile-based crypto wallet containing their NFT to automatically collect points or discounts.</p>
+<p>Lastly, selling NFTs to retail users has the potential to generate material, high-margin revenues to a user base willing to pay six figures for a high-end profile picture such as a CryptoPunk. Nike earned up to $200m last year selling digital sneakers, and luxury brands are now beginning to realize the potential, making it easy to imagine Gucci NFTs as a profile picture or even digital accessories in the metaverse.</p>
+<h3>Web3 begins to hit its stride – winners BTRST, HNT, RNDR, SOL</h3>
+<p>After seven years and several attempts, we haven’t yet seen meaningful traction across projects targeting ‘real-world utility’ for blockchain technology. Why? Because it’s extremely challenging to disrupt existing Web2 monopolies in already established verticals. It’s even more challenging to do so when adoption means investing in technology and operational changes across multiple stakeholders with different priorities. Now try to do that via a project being run by decentralized governance.</p>
+<p>That said, we are beginning to see a number of genuinely useful ‘real world’ platforms emerge, many of which are on Solana. Some examples would be Braintrust (hiring site for high-end IT workers), Helium (IoT and 5G connectivity), Render (decentralized GPU capacity), Hivemapper (decentralized Google Maps disruptor), and Teleport (decentralized ride sharing and eventually a scalable infrastructure layer for gig economy platforms).</p>
+<p>The reality is that it takes time to build and bootstrap projects like these, and so we anticipate material traction is probably 12+ months out, with serious user adoption probably 2-5 years away.</p>
+<p>But despite the setbacks, we think real-world Web3 is essentially the killer app of crypto:</p>
+<ul>
+<li>A decentralized platform has no rent seeking middleman – all margin goes to token-holders or users/producers</li>
+<li>Using a native currency reduces frictions and disintermediates payment networks</li>
+<li>Web3 businesses are highly automated (low fixed cost) and utilize open-source code and public infrastructure, with infrastructure costs (gas) mainly borne by users</li>
+<li>Using tokenomics to align incentives allows platforms to bootstrap without requiring huge upfront cash burn and therefore reliance on VCs, which drives faster innovation and reduces the barriers to new business formation</li>
+</ul>
+<p>As users and producers accumulate tokens, they become far more loyal and engaged ultimately thinking and operating as a vested participant. This dramatically improves the long-term staying power of the business and builds a sense of community that brands recognize to create significant opportunities.</p>
+<h3>Gaming – winners MATIC, IMX, FLOW, ENJ/EFI</h3>
+<p>There are ~3b gamers in the world, of which around 200m are serious. The total addressable market (“TAM”) is around $200-300b, yet these users usually don’t own in-game items and have little control or governance over these gaming ecosystems. The most obvious application is for gaming studios to mint NFTs with a crypto-native partner (like Enjin) and then sell them through the game to players. These NFTs could be bought or sold in-game or on platforms like OpenSea. It takes around 2-3 years to build a triple A (highest-quality blockbuster) game, which at least partially explains why we have yet to see a Web3 game that becomes a star, and instead have mostly seen products based around play-to-earn mechanics. But given the material TAM, the profitability implications for gaming studios are significant and it strikes us as an easy pitch to sell digital assets to gamers as they are typically tech-savvy.. We expect material adoption once genuinely popular games begin to emerge, most likely in 2023/4.</p>
+<h2>Finding a Footing in Private Markets</h2>
+<p><span style="color: #808080;"><em>John Napier and Nate George, Venture Capital Co-Leads at Cumberland</em></span></p>
+<p>Enough people have waxed intellectual about how tumultuous 2022 was, and we don’t feel the need to recapitulate how valuations were unattractive, lockup periods were pessimistic, and product market fit was less top of mind than we all might have hoped. Instead, we’d like to take a moment to share reasons <strong>we are optimistic about 2023</strong>, with specific focus on some of the themes we’re enthusiastic about.</p>
+<h3>Back to Basics</h3>
+<p>The major theme of venture markets in 2022 seems to have been remembering lessons we’ve already learned: raises that reflect thoughtful roadmaps composed of achievable near-term milestones designed to validate or falsify theories about product market fit are the most attractive and defensible for savvy investors. Furthermore, not every product is a moon shot: there are sustainable, well-understood business models that can be materially disrupted by a Web3 offering. These types of business models are extremely attractive to investors who can reason clearly about product market fits, realistic valuations, defensible timelines, and the fitness of the founding team’s skill sets.</p>
+<p>To that end, we expect to see more of the following in 2023:</p>
+<ol>
+<li><strong>Smaller raises:</strong> Runway should be a function of aggressive, near-term milestones specifically chosen to quickly validate product market fit while demonstrating the delivery capabilities of small, nimble, cohesive founding teams.</li>
+<li><strong>Strategic cap-table construction:</strong> Early round investors should not be silent partners, especially if they have overlapping experience in the industry verticals of the companies they’re invested in.</li>
+<li><strong>More deliberate and tailored vesting, lockup and token distribution strategies</strong> – with increased transparency around their effect on the product’s ecosystem.</li>
+</ol>
+<p>Ultimately, competitive deal terms and strategic alliances will attract investors who are excited to advertise their participation; who feel no buyer’s remorse when times get tough; and who have enough stake in the game to provide consistent feedback, even when critical. We expect investor quality to become more of a competitive differentiator for founding teams in the upcoming market cycle.</p>
+<h3>Looking Forward</h3>
+<p>Like many others, we see decentralization as the best hedge against the corrupting forces that brought the most troubling events of 2022 to bear, and accordingly, <strong>we expect DeFi to pick up major tailwinds in 2023</strong>. We anticipate this will first require rebuilding trust and confidence, which will be done via a return to mature risk management, better underwriting due diligence, more transparency of auditing, and a safer and more rigorous developer experience.</p>
+<p>We expect to see these implemented more effectively across the following product offerings:</p>
+<ol>
+<li><strong>Credit and Derivatives:</strong> New entrants utilizing dynamic risk systems, timely liquidations with networks of reliable liquidators, beta-aware collateralization requirements, sophisticated (cross-)margining and tamperresistant pricing oracles.</li>
+<li><strong>Exchanges:</strong> Startups experimenting with exchange architecture and the decoupling of the inherent risks of a consolidated stack of custody, clearing, and matching.</li>
+<li><strong>Improved Developer Tooling:</strong> More powerful language-level abstractions, better IDE integrations, optimizing compilers, and improved runtime stability all contribute to a smoother and more consistent delivery of reliable software.</li>
+</ol>
+<p>While 2022 was a series of large-scale course corrections, on a long enough timeline, these are inevitable; and, at the risk of sounding cliché, we are optimistic that 2023 will see founders and investors alike better capitalizing on the opportunities to re-establish trust, competency, and the ethos that drove so many to crypto in the first place.</p>
+<h2>The Exchange as a Marketplace (And Nothing More)</h2>
+<p><span style="color: #808080;"><em>Paul Kremsky, Global Head of Business Development at Cumberland</em></span></p>
+<p>In Traditional Finance, exchanges are refreshingly boring businesses. There are most likely very few people reading this who can name the CEOs of NASDAQ or CME. This is a good thing; when a TradFi exchange makes headlines, it’s usually for the wrong reasons. Exchanges done right are marketplaces; they set the rules, design derivative products, provide a venue, and take a small fee for the trouble. For months at a time, they are businesses that would be considered by most to be boring: steady, dependable place on which to transact.</p>
+<p>This is not the case in crypto. Nearly since the industry’s inception, the centralized crypto exchange has been at the center of the conversation. Decisions made by exchanges have enormous impact on the market on a regular basis. The founders are household names known by their initials, with millions of followers on Twitter. A significant percentage of the entire industry is employed by exchanges.</p>
+<p>There’s a reason that the industry places so much emphasis on crypto exchanges. <strong>Crypto exchanges are not just exchanges</strong>.</p>
+<p>As opposed to TradFi, where an exchange is a fairly simple marketplace, crypto exchanges have grown to be fullstack, one-stop shops. Exchanges regularly play the role of custodian, clearinghouse, lender, even trader. They are able to offer this full-stack coverage because the infrastructure in this space is still in its adolescence and the exchanges have the one asset that any business depends on: <strong>a customer base</strong>.</p>
+<p>The outcomes from this type of vertical integration range from slightly positive to catastrophic. In the best-case scenario, it simply results in a one-stop-shop user experience. but it’s unlikely that a single entity is top-of-class in each of the many silos they’re participating. So, when a customer uses an exchange for every service they require, there are probably pieces of the offering that aren’t best-in-class.</p>
+<p>A worse scenario is one where the exchange operates its own trading desk, which gets access to customer information: positions, stop levels, balances. Even if a Chinese Wall is placed around an exchange’s trading desk, the question still remains on why the desk exists.</p>
+<p>The absolute worst-case scenario doesn’t even need to be named. It just happened. More than a million FTX creditors, with professional investors among them, just found out the hard way the danger of using an exchange wallet as a proxy custodian.</p>
+<p>Crypto exchanges offering the full stack have been the norm since day one, and as an industry we’ve come to accept it. <strong>But with the catastrophic collapse of FTX, expectations are changing quickly</strong>. Our OTC desk always sees the most volume when there are issues with exchanges, and the 30 days following the FTX collapse saw more onboarding submissions than in any other month year-to-date. The possibility of bad actors at the exchange level became very real, very quickly, and it now seems extremely likely that the market will move away from exchange vertical integration and towards a model resembling TradFi FX markets.</p>
+<p>In this model, the majority of assets and capital won’t be parked on centralized exchanges. Instead, digital assets will reside in countless silos around the world and the functions of custody, lending, settlement, clearing and (most importantly) liquidity will be offered by an array of intermediary nodes and providers in an interconnected but noninterdependent web. OTC trading is the lifeblood of spot FX liquidity and will only become more important for crypto going forward; after all, currencies are bearer assets and so is crypto. <strong>Liquidity will aggregate at OTC nodes</strong>, with exchanges rounding out liquidity and largely serving retail clientele.</p>
+<p>In 2023, we expect to see the emergence of a variety of regulated entities that will become trust-worthy providers for various market services. Each will carve out a niche and partner with a network of other providers to offer a consolidated full-service stack to end users, much like how the thousands of banks around the world currently aggregate OTC FX liquidity into their settlement mechanisms and offer it to clients, along with various options for leverage, custody, etc. Many of these niches, in fact, will likely be filled by TradFi service providers making their way into the space.</p>
+<p>On our OTC desk, we often speak to institutions that are coming into digital assets for the first time. A common set of questions includes: Do you lend? Do you have a custody offering? Do you offer direct-market access?</p>
+<p>We do not. <strong>We are an OTC desk, and we offer really, really good liquidity</strong> across a variety of assets. The reason we’re able to offer best-in-class liquidity is because that’s where we’ve chosen to focus. When institutions ask us where they can find custody or which OMS to use, we’re happy to introduce them to partners who we’ve worked with, who we know to be best-in-class in their own niches.</p>
+<p>Even if customers aren’t ready to demand this type of specialization in the way we predict here, we expect (and hope) that regulators will. Trading institutions will want regulated exchanges, and regulators have a pretty good model for what exchanges should look like, if customers are to be protected. Those examples are the boring businesses, the CME and the NASDAQs of the world: the exchange as a marketplace, and nothing more.</p>
+<h2>Shaping the Next Wave of DeFi Innovation with Cumberland Labs</h2>
+<p><span style="color: #808080;"><em>Naveen Agnihotri &amp; Tama Churchouse from Cumberland Labs</em></span></p>
+<p>Naturally occurring wildfires, while disastrous on the surface, serve a fundamental purpose to their respective ecosystems. They release valuable nutrients in the litter of the forest floor and open up forest canopies to sunlight, stimulating new growth and clearing away the excess decaying vegetation to make room for new life.</p>
+<p>The bear markets we’re currently observing in crypto markets fulfil a similar need: to eliminate the deadwood and the excesses (sometimes spectacularly so) that characterize the antecedent bull market bubbles, making way for the new shoots of growth that germinate amidst the destruction.</p>
+<p><strong>Cumberland Labs</strong> is a team of blockchain developers, product managers, traders, founders and business builders with a mission to ideate and build products internally, as well as partner with founders and creators to launch the next generation of Web3 ventures.</p>
+<p>Part of our focus on the ultra-early stage of blockchain product and business development involves assessing what will take root in the aftermath of such a combustible 2022.</p>
+<p>To frame our outlook, last year (2021) witnessed a crescendo in terms of crypto asset prices and blockchain venture capital valuations and deployment. The liquid crypto market peaked in November 2021, with a subsequent peak in terms of venture capital deployment (approximately $12.7b) in the first quarter of 2022, some 12x the amount of Q4 2020.</p>
+<p>The fuse may have been lit by the Luna/Terra collapse, but if not that, then something else: <strong>the rapid buildup of deadwood and excesses throughout the ecosystem needed to be burnt out, and so they have</strong>.</p>
+<p>Going forward, we believe that a core component of industry growth will come from the <strong>next wave of innovation in DeFi</strong>. Contrary to seemingly widespread belief, DeFi has been a foundational component of the industry far earlier than the DeFi summer of 2020. Well before even the mainnet launch of Ethereum in 2015, decentralized exchange ‘Bitshares’ went live, which itself was inspiration for Rune Christensen’s ‘Maker’ protocol.</p>
+<p>The notable adverse events that have defined 2022 – the Luna implosion, high-profile failures in Celsius, Three Arrows Capital, and FTX amongst others – will fundamentally shape this next wave of DeFi innovation.</p>
+<p>First, the <strong>“trust”</strong> that was mistakenly placed in individuals and companies operating in grey CeFi will be replaced with the black and white “trustless” nature of open source blockchain. Throughout the year, DeFi has excelled against the backdrop of severe market turbulence and operated as normal. In the immediate aftermath of the FTX collapse we heard louder calls on centralized exchanges for increased transparency in terms of proof-of-reserves, an admittedly crude measure with which to ascertain audit-level balance sheet transparency; we expect the industry will continue to demand more on chain. It will no longer be acceptable for an industry purportedly built atop the transparency and trust that blockchain provides to not directly embed those principles into its own businesses.</p>
+<p>Second to trust is <strong>“privacy”</strong>. Fully open ledgers will never be the basis upon which DeFi can go mainstream. If you don’t want your existing bank account, investments and transactions residing in a publicly readable database now, then why would you accept that in crypto? Historical technical limitations are the only reason technologies like zero knowledge haven’t been widely implemented yet. But the last two years have seen huge advances in capabilities, and we expect privacy to be fundamental in DeFi innovation over the near to medium term.</p>
+<p>We are already seeing a trend of <strong>CeFi-DeFi hybrid</strong> approaches that leverage the strengths of each respective area to provide a best-of-both-worlds approach. A good example is <strong>Hashnote</strong>, a company backed by DRW and supported by Cumberland Labs. Hashnote leverages the transparency and security of on-chain options vaults, with a regulated and fully compliant investment wrapper, providing an investment product that is superior to both its traditional CeFi and DeFi counterparts. <strong>Ankex</strong> is another example, a hybrid derivatives exchange that seeks to pair the liquidity and low latency of centralized exchanges with the self-custody, full proof of reserves and on-chain settlement of DeFi.</p>
+<p>And we will continue to see growth flow to companies and protocols focusing on a single shard of the DeFi stack rather than attempt to provide a full stack solution, with composability as a must.</p>
+<p>Finally, we expect that DeFi built with a grounding in established institutional and regulatory frameworks, which leverage trust, privacy and a hybrid approach, will more easily find capital, traction and ultimately product-market fit. We are particularly enthusiastic about the public launch of protocols like Canton from Digital Asset, which we are building on. Canton offers application-specific privacy on a public enterprise-grade blockchain with a strong suite of established companies already building and deploying independent sovereign applications.</p>
+<p>Bear markets make our job as an incubator and capital allocator easier. Founding a company and getting funded are far more challenging for entrepreneurs in this environment. The rising tide of a late-stage bull market will not lift your boat. Founders need demonstrable grit and determination, not to mention a far more compelling product or business idea today, compared to 12 or 18 months ago. By the same token, substantial headcount reductions spanning the entire technology sector as well as the blockchain industry mean that while capital is scarcer, tech talent is more abundant.</p>
+<p>This crypto market wildfire has burnt off the marginal capital for the marginal founder with a marginal business idea. Now is the time for the<strong> strongest</strong> founders to build, and we will be there alongside them.</p>
+<h2>The Importance of Trust</h2>
+<p><span style="color: #808080;"><em>Head of Relationship Management at DRW</em></span></p>
+<p>In Satoshi’s original white paper, the word <strong>“Trust”</strong> appeared 13 times in just eight pages. Trust, or more accurately, the ability to do without Trust, has been the guiding inspiration for DLT builders and developers since the dawn of the crypto experiment. Although building a world that does not require trusted intermediaries remains the ultimate goal for crypto-maximalists, reality dictates that a hybrid form of this vision is still required in order to attract broader adoption of the technology.</p>
+<p>If we’ve learned one lesson in 2022, it’s that trust can be destroyed in an instant. That is why, at Cumberland, we so ardently protect the trust we have built with our counterparties and partners in the industry. Much has been said and written about the perils of the vertical offering and as a firm, we feel our decision to focus on just one aspect of that vertical –<strong> liquidity providing</strong> – has served our counterparties well.</p>
+<p>From LUNA to 3AC to FTX, the stresses and uncertainty in crypto remain at uncomfortable levels. The list of failed businesses continues to grow, exchanges around the world are scrambling to provide credible proof of reserves, and investors are struggling to find direction in a market braced for the next shoe to drop. In this environment, capital preservation has become the goal, and knowing who you’re dealing with and what risk that poses to your business has become the top priority.</p>
+<p>As such, in 2023, <strong>we anticipate the ecosystem increasingly preferring to source its crypto liquidity from OTC trading firms</strong> at the expense of the exchanges. Since LUNA, we have seen a sizeable increase in onboarding requests for both spot OTC trading and bilateral options trading, demonstrating a move by counterparties from the flashy, opaque exchanges to the quieter, transparent and reliable OTC desks, such as Cumberland.</p>
+<p>In the OTC spot market, Cumberland has <strong>never</strong> required pre-funding before trading – an offering that has appreciated greatly in value for our counterparties post-FTX. We are able to extend this level of capital efficiency and safety because we spend the time and invest the hard work in understanding who we are trading with, their business model and their capacity to manage risk. We also have benefited from having strong compliance and credit teams since our founding, who work diligently to set suitable risk parameters around counterparty exposure and idiosyncratic token risk. <strong>Our counterparties need deep, reliable, consistent liquidity</strong>, and we are thoughtful and disciplined in taking the measures necessary to deliver on that requirement throughout all market conditions.</p>
+<p>As we’ve seen over the last year, the crypto options market has grown in leaps and bounds. Traditional HODL strategies that worked well in the past are being uprooted and disrupted by wild price gyrations and historically high levels of market uncertainty. In its place, we are seeing a marked increase in the level of sophistication and complexity applied to crypto trading strategies. Our counterparties are increasingly using bilateral options in ways deployed for decades in the FX and equity markets: selling covered calls and puts for yield enhancement purposes, buying call spreads to limit downside exposure, and trading calendar spreads to hedge event risk.</p>
+<p>These options are governed and documented using tried and tested ISDAs, which very clearly outline each counterparty’s responsibilities and obligations. We manage the market and counterparty risk through IA and VM, and offer our counterparties full transparency. We also exchange audited financials and host regular compliance and credit calls with our counterparties to ensure we all have the information necessary to properly assess each other’s financial health. These measures allow us to<strong> proactively</strong> manage contagion risks and limit the extent of the fallout should any one of our counterparties fail.</p>
+<p>If the tail end of 2022 is any indication, 2023 is sure to be packed with more “unknown unknowns,” soap opera worthy plot twists, and plenty of head scratchers. As much as we all strive for Satoshi’s ultimate dream of a trustless world of financial independence and inclusion, we must respect the fact that Trust remains an integral part of today’s financial system – in crypto and TradFi alike. <strong>We appreciate and value the trust you have placed in us, and we look forward to providing you with deep, reliable and consistent crypto liquidity in 2023.</strong></p>
+</div><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom:35px;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;border-color:var(--awb-color3);border-top-width:1px;"></div></div><div class="fusion-text fusion-text-3" style="--awb-font-size:13px;--awb-text-color:#666666;"><p><strong>Disclaimer</strong></p>
+<p>The information (“Information”) provided by Cumberland DRW LLC and its affiliated or related companies (collectively, “Cumberland”), either in this document or otherwise, is for informational purposes only and is provided without charge. Cumberland is a principal trading firm; it is not and does not act as a fiduciary or adviser, or in any similar capacity, in providing the Information, and the Information may not be relied upon as investment, financial, legal, tax, regulatory, or any other type of advice. The Information has not been prepared or tailored to address, and may not be suitable or appropriate for the particular financial needs, circumstances, or requirements of any person, and it should not be the basis for making any investment or transaction decision. THE INFORMATION IS NOT A RECOMMENDATION TO ENGAGE IN ANY TRANSACTION.</p>
+<p>If any person elects to enter into transactions with Cumberland, whether as a result of the Information or otherwise, Cumberland will enter into such transactions as principal only and will act solely in its own best interests, which may be adverse to the interests of such person. Before entering into any such transaction, you should conduct your own research and obtain your own advice as to whether the transaction is appropriate for your specific circumstances. In addition, any person wishing to enter into transactions with Cumberland must satisfy Cumberland’s eligibility requirements.</p>
+<p>Cumberland may be subject to certain conflicts of interest in connection with the provision of the Information. For example, Cumberland may, but does not necessarily, hold or control positions in the cryptoasset(s) discussed in the Information, and transactions entered into by Cumberland could affect the relevant markets in ways that are adverse to a counterparty of Cumberland. Cumberland may engage in transactions in a manner inconsistent with the views expressed in the Information.</p>
+<p>Cumberland makes no representations or warranties (express or implied) regarding, nor shall it have any responsibility or liability for the accuracy, adequacy, timeliness, or completeness of, the Information, and no representation is made or is to be implied that the Information will remain unchanged. Cumberland undertakes no duty to amend, correct, update, or otherwise supplement the Information.</p>
+<p>The virtual currency industry is subject to a range of risks, including but not limited to: price volatility, limited liquidity, limited and incomplete information regarding certain instruments, products, or cryptoassets, and a still emerging and evolving regulatory environment. The past performance of any instruments, products, or cryptoassets addressed in the Information is not a guide to future performance, nor is it a reliable indicator of future results or performance. Investing in virtual currencies involves significant risks and is not appropriate for many investors, including those without significant investment experience and capacity to assume significant risks.</p>
+</div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:30px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-2 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-4" style="--awb-font-size:14px;"><p><strong>AUTHOR(S)</strong></p>
+</div><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-bottom:30px;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:#f0f0f0;border-color:#f0f0f0;border-top-width:1px;"></div></div><div class="fusion-widget fusion-widget-element fusion-widget-area fusion-content-widget-area wpWidget-1 blog_widget" style="--awb-fusion-border-size:0px;--awb-fusion-border-style:solid;"><div class="widget widget_blog_widget">    <div class="block-item-text">
+  <input type="checkbox" hidden class="read-more-state" id="1">
+  <div class="read-more-wrap">
+    <p><img alt='' src='https://insights.deribit.com/wp-content/uploads/2022/10/KcCpRJ4a_400x400-65x65.jpg' srcset='https://insights.deribit.com/wp-content/uploads/2022/10/KcCpRJ4a_400x400-130x130.jpg 2x' class='avatar avatar-65 photo' height='65' width='65' />    <a href=https://insights.deribit.com/author/cumberland/>Cumberland</a></p>
+    <p class="read-more-target">
+    A global leader offering 24/7 access to deep crypto liquidity.    </p>
+  </div>
+  <label for="1" class="read-more-trigger_closed">
+    <strong>+ Show profile</strong>
+  </label>
+  <label for="1" class="read-more-trigger_opened">
+    <strong>- Hide profile</strong>
+  </label>
+</div>
+    </div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-margin-top:30px;--awb-margin-bottom:30px;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-flex-column" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-5" style="--awb-font-size:14px;"><p><strong>RECENT ARTICLES</strong></p>
+</div><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-bottom:20px;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:#f0f0f0;border-color:#f0f0f0;border-top-width:1px;"></div></div><div class="fusion-recent-posts fusion-recent-posts-1 avada-container layout-default layout-columns-1 rcp"><section class="fusion-columns columns fusion-columns-1 columns-1"><article class="post fusion-column column col col-lg-12 col-md-12 col-sm-12"><div class="recent-posts-content"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/block-scholes/" rel="author">Block Scholes</a></span></span><span class="updated" style="display:none;">2026-09-17T06:39:50+00:00</span><h4 class="entry-title"><a href="https://insights.deribit.com/industry/crypto-derivatives-analytics-report-week-38-2026/">Crypto Derivatives: Analytics Report &#8211; Week 38</a></h4><p class="meta"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/block-scholes/" rel="author">Block Scholes</a></span></span><span class="updated" style="display:none;">2026-09-17T06:39:50+00:00</span><span>September 17, 2026</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/industry/" rel="category tag">Industry</a><span class="fusion-inline-sep">|</span></p></div></article><article class="post fusion-column column col col-lg-12 col-md-12 col-sm-12"><div class="recent-posts-content"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/block-scholes/" rel="author">Block Scholes</a></span></span><span class="updated" style="display:none;">2026-08-27T11:05:27+00:00</span><h4 class="entry-title"><a href="https://insights.deribit.com/industry/crypto-derivatives-analytics-report-week-35-2026/">Crypto Derivatives: Analytics Report &#8211; Week 35</a></h4><p class="meta"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/block-scholes/" rel="author">Block Scholes</a></span></span><span class="updated" style="display:none;">2026-08-27T11:05:27+00:00</span><span>August 27, 2026</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/industry/" rel="category tag">Industry</a><span class="fusion-inline-sep">|</span></p></div></article><article class="post fusion-column column col col-lg-12 col-md-12 col-sm-12"><div class="recent-posts-content"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/block-scholes/" rel="author">Block Scholes</a></span></span><span class="updated" style="display:none;">2026-08-19T08:51:13+00:00</span><h4 class="entry-title"><a href="https://insights.deribit.com/industry/crypto-derivatives-analytics-report-week-34-2026/">Crypto Derivatives: Analytics Report &#8211; Week 34</a></h4><p class="meta"><span class="vcard" style="display: none;"><span class="fn"><a href="https://insights.deribit.com/author/block-scholes/" rel="author">Block Scholes</a></span></span><span class="updated" style="display:none;">2026-08-19T08:51:13+00:00</span><span>August 19, 2026</span><span class="fusion-inline-sep">|</span><a href="https://insights.deribit.com/industry/" rel="category tag">Industry</a><span class="fusion-inline-sep">|</span></p></div></article></section></div></div></div></div></div>
+							</div>
+
+																											
+																	</article>
+	</section>
+						
+					</div>  <!-- fusion-row -->
+				</main>  <!-- #main -->
+				
+				
+				    <div id="footer-sidebar-1" class="footer-extra-title footer-extra" role="complementary">
+	<aside id="text-7" class="widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;">			<div class="textwidget"><div class="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:60px;--awb-padding-bottom:30px;--awb-background-color:#141519;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_3_4 3_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:2.56%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div class="fusion-text fusion-text-6" style="--awb-font-size:20px;--awb-text-color:#0052ff;"><div><strong>Join our Newsletter</strong></div>
+</div><div class="fusion-text fusion-text-7" style="--awb-text-color:#ffffff;"><div>Sign up and stay up to date with the latest news.</div>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_4 1_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:25%;--awb-margin-top-large:0px;--awb-spacing-right-large:7.68%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:7.68%;--awb-width-medium:25%;--awb-order-medium:0;--awb-spacing-right-medium:7.68%;--awb-spacing-left-medium:7.68%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div style="text-align:right;"><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-1 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility" style="--button_margin-top:7px;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit1"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-separator fusion-no-medium-visibility fusion-no-large-visibility fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;width:100%;"></div><div ><a class="fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-2 fusion-button-default-span fusion-button-default-type fusion-no-medium-visibility fusion-no-large-visibility" style="--button_margin-bottom:10px;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit1"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-modal modal fade modal-1 newsletter-sign-up-deribit1" tabindex="-1" role="dialog" aria-labelledby="modal-heading-1" aria-hidden="true" style="--awb-border-color:var(--awb-color3);--awb-background:#f5f5f5;"><div class="modal-dialog modal-sm" role="document"><div class="modal-content fusion-modal-content"><div class="modal-header"><button class="close" type="button" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button><h3 class="modal-title" id="modal-heading-1" data-dismiss="modal" aria-hidden="true"></h3></div><div class="modal-body fusion-clearfix"><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "6378067",
+	formId: "a9e4a8e5-88e6-44c6-8340-7f3e5a16bb61"
+});
+</script></div></div></div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:0px;--awb-padding-bottom:0px;--awb-background-color:#141519;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div class="fusion-separator fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;width:100%;"><div class="fusion-separator-border sep-single" style="--awb-height:20px;--awb-amount:20px;--awb-sep-color:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.15);border-top-width:1px;"></div></div></div></div></div></div><div class="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:30px;--awb-padding-bottom:60px;--awb-background-color:#141519;--awb-flex-wrap:wrap;" ><div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="max-width:1144px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"><div class="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_3_4 3_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:75%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.56%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:2.56%;--awb-width-medium:75%;--awb-order-medium:0;--awb-spacing-right-medium:2.56%;--awb-spacing-left-medium:2.56%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div class="fusion-text fusion-text-8" style="--awb-font-size:20px;--awb-text-color:#0052ff;"><div><strong>Exchange notifications via email</strong></div>
+</div><div class="fusion-text fusion-text-9" style="--awb-text-color:#ffffff;"><div>Get all Exchange notifications directly in your inbox.</div>
+</div></div></div><div class="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_4 1_4 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:25%;--awb-margin-top-large:0px;--awb-spacing-right-large:7.68%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:7.68%;--awb-width-medium:25%;--awb-order-medium:0;--awb-spacing-right-medium:7.68%;--awb-spacing-left-medium:7.68%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;"><div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-space-evenly fusion-content-layout-column"><div style="text-align:right;"><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-3 fusion-button-default-span fusion-button-default-type fusion-no-small-visibility" style="--button_accent_color:var(--awb-color1);--button_border_color:#0052FF;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:#0052FF;--button_border_width-top:1px;--button_border_width-right:1px;--button_border_width-bottom:1px;--button_border_width-left:1px;--button_gradient_top_color:#141519;--button_gradient_bottom_color:#141519;--button_gradient_top_color_hover:#141519;--button_gradient_bottom_color_hover:#141519;--button_margin-top:7px;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit2"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-separator fusion-no-medium-visibility fusion-no-large-visibility fusion-full-width-sep" style="align-self: center;margin-left: auto;margin-right: auto;margin-top:20px;width:100%;"></div><div ><a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-4 fusion-button-default-span fusion-button-default-type fusion-no-medium-visibility fusion-no-large-visibility" style="--button_accent_color:var(--awb-color1);--button_border_color:#0052FF;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:#0052FF;--button_border_width-top:1px;--button_border_width-right:1px;--button_border_width-bottom:1px;--button_border_width-left:1px;--button_gradient_top_color:#141519;--button_gradient_bottom_color:#141519;--button_gradient_top_color_hover:#141519;--button_gradient_bottom_color_hover:#141519;" target="_self" href="#" data-toggle="modal" data-target=".fusion-modal.newsletter-sign-up-deribit2"><span class="fusion-button-text awb-button__text awb-button__text--default">Subscribe</span></a></div><div class="fusion-modal modal fade modal-2 newsletter-sign-up-deribit2" tabindex="-1" role="dialog" aria-labelledby="modal-heading-2" aria-hidden="true" style="--awb-border-color:var(--awb-color3);--awb-background:#f5f5f5;"><div class="modal-dialog modal-sm" role="document"><div class="modal-content fusion-modal-content"><div class="modal-header"><button class="close" type="button" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button><h3 class="modal-title" id="modal-heading-2" data-dismiss="modal" aria-hidden="true"></h3></div><div class="modal-body fusion-clearfix"><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "6378067",
+    formId: "a0d9b342-b682-47f9-a180-32c72f25c6aa"
+  });
+</script></div></div></div></div></div></div></div></div></div>
+		</aside>    </div>
+	
+				
+					
+		<div class="fusion-footer">
+					
+	<footer class="fusion-footer-widget-area fusion-widget-area">
+		<div class="fusion-row">
+			<div class="fusion-columns fusion-columns-4 fusion-widget-area">
+				
+																									<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="text-2" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Start Trading</h4>			<div class="textwidget">Visit our platform <a href="https://www.deribit.com/main#/futures">here</a> or download our app:<br><br>
+
+<a href="https://play.google.com/store/apps/details?id=com.deribit&amp;hl=en" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-1012 alignleft" src="/wp-content/uploads/2021/11/googleplay-1-1_.png" alt="" width="152" height="45" /></a>
+<div class="fusion-sep-clear"></div>
+<div class="fusion-separator fusion-full-width-sep sep-none"></div><br>
+<a href="https://apps.apple.com/ee/app/deribit-btc-options-futures/id1293674041" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-1011 alignleft" src="/wp-content/uploads/2021/11/appstore-1-1_.png" alt="" width="152" height="45" /></a></div>
+		<div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="text-4" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Sitemap</h4>			<div class="textwidget"><a href="/">Home</a><br>
+<a href="/market-research">Market Research</a><br>
+<a href="/education">Education</a><br>
+<a href="/exchange-updates">Exchange Updates</a><br>
+<a href="/industry">Industry</a><br>
+<a href="/option-flows">Option Flows</a><br>
+<a href="/trading-tools">Trading Tools</a><br>
+<a href="/partners">Partners</a><br>
+<a href="/developer-hub">Developer Hub</a><br>
+<a href="/contact-us">Contact us</a></div>
+		<div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column col-lg-3 col-md-3 col-sm-3">
+							<section id="text-3" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Links</h4>			<div class="textwidget"><a href="/bug-bounty">Bug bounty</a><br>
+<a href="https://www.deribit.com/kb/portfolio-margin" target="_blank" rel="noopener">Portfolio Margin</a><br>
+<a href="https://www.deribit.com/kb/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a><br>
+<a href="https://www.deribit.com/kb/tos" target="_blank" rel="noopener">Terms of service</a><br>
+<a href="https://www.deribit.com/kb/fees" target="_blank" rel="noopener">Fees</a><br>
+<a href="https://www.deribit.com/api_console/" target="_blank" rel="noopener">For Developers</a><br>
+<a href="https://www.deribit.com/kb/" target="_blank" rel="noopener">Knowledge Base</a></div>
+		<div style="clear:both;"></div></section>																					</div>
+																										<div class="fusion-column fusion-column-last col-lg-3 col-md-3 col-sm-3">
+							<section id="text-5" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;"><h4 class="widget-title">Get Support</h4>			<div class="textwidget">Visit our Contact page <a href="https://insights.deribit.com/contact-us/">here</a> on Insights or go to our Official Support page <a href="https://support.deribit.com/hc/en-us" target="_blank" rel="noopener">here</a>.</div>
+		<div style="clear:both;"></div></section><section id="text-22" class="fusion-footer-widget-column widget widget_text" style="border-style: solid;border-color:transparent;border-width:0px;">			<div class="textwidget"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-80659621-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-80659621-1');
+</script>
+
+</div>
+		<div style="clear:both;"></div></section>																					</div>
+																											
+				<div class="fusion-clearfix"></div>
+			</div> <!-- fusion-columns -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- fusion-footer-widget-area -->
+
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		Copyright © 2015-2025 l All Rights Reserved by Deribit	</div>
+</div>
+<div class="fusion-social-links-footer">
+	<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/deribitexchange" target="_blank" rel="noreferrer"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter awb-icon-twitter" style data-placement="top" data-title="X" data-toggle="tooltip" title="X" href="https://x.com/DeribitOfficial" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">X</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-reddit awb-icon-reddit" style data-placement="top" data-title="Reddit" data-toggle="tooltip" title="Reddit" href="https://www.reddit.com/r/DeribitExchange/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">Reddit</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-linkedin awb-icon-linkedin" style data-placement="top" data-title="LinkedIn" data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/company/deribit/" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">LinkedIn</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" href="https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA" target="_blank" rel="noopener noreferrer"><span class="screen-reader-text">YouTube</span></a></div></div></div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+		</div> <!-- fusion-footer -->
+
+		
+					
+												</div> <!-- wrapper -->
+		</div> <!-- #boxed-wrapper -->
+				<a class="fusion-one-page-text-link fusion-page-load-link" tabindex="-1" href="#" aria-hidden="true">Page load link</a>
+
+		<div class="avada-footer-scripts">
+			<script type="text/javascript">var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth<=e.getAttribute("data-breakpoint")?(e.classList.add("collapse-enabled"),e.classList.remove("awb-menu_desktop"),e.classList.contains("expanded")||window.dispatchEvent(new CustomEvent("fusion-mobile-menu-collapsed",{detail:{nav:e}})),(n=e.querySelectorAll(".menu-item-has-children.expanded")).length&&n.forEach((function(e){e.querySelector(".awb-menu__open-nav-submenu_mobile").setAttribute("aria-expanded","false")}))):(null!==e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click")&&e.querySelector(".menu-item-has-children.expanded .awb-menu__open-nav-submenu_click").click(),e.classList.remove("collapse-enabled"),e.classList.add("awb-menu_desktop"),null!==e.querySelector(".awb-menu__main-ul")&&e.querySelector(".awb-menu__main-ul").removeAttribute("style")),e.classList.add("no-wrapper-transition"),clearTimeout(t),t=setTimeout(()=>{e.classList.remove("no-wrapper-transition")},400),e.classList.remove("loading")},fusionRunNavIsCollapsed=function(){var e,t=document.querySelectorAll(".awb-menu");for(e=0;e<t.length;e++)fusionNavIsCollapsed(t[e])};function avadaGetScrollBarWidth(){var e,t,n,l=document.createElement("p");return l.style.width="100%",l.style.height="200px",(e=document.createElement("div")).style.position="absolute",e.style.top="0px",e.style.left="0px",e.style.visibility="hidden",e.style.width="200px",e.style.height="150px",e.style.overflow="hidden",e.appendChild(l),document.body.appendChild(e),t=l.offsetWidth,e.style.overflow="scroll",t==(n=l.offsetWidth)&&(n=e.clientWidth),document.body.removeChild(e),jQuery("html").hasClass("awb-scroll")&&10<t-n?10:t-n}fusionRunNavIsCollapsed(),window.addEventListener("fusion-resize-horizontal",fusionRunNavIsCollapsed);</script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Avada-Child-Theme/*","/wp-content/themes/Avada/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="wp-hooks-js" src="https://insights.deribit.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://insights.deribit.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://insights.deribit.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/insights.deribit.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://insights.deribit.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7"></script>
+<script id="learndash-front-js-extra">
+var ldVars = {"postID":"20521","videoReqMsg":"You must watch the video before accessing this content","ajaxurl":"https://insights.deribit.com/wp-admin/admin-ajax.php"};
+//# sourceURL=learndash-front-js-extra
+</script>
+<script id="learndash-front-js" src="//insights.deribit.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/js/learndash.js?ver=4.21.5"></script>
+<script id="awb-tabs-widget-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-tabs-widget.js?ver=3.12.1"></script>
+<script id="awb-vertical-menu-widget-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-vertical-menu-widget.js?ver=3.12.1"></script>
+<script id="cssua-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/cssua.js?ver=2.1.28"></script>
+<script id="modernizr-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/modernizr.js?ver=3.3.1"></script>
+<script id="fusion-js-extra">
+var fusionJSVars = {"visibility_small":"640","visibility_medium":"1024"};
+//# sourceURL=fusion-js-extra
+</script>
+<script id="fusion-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion.js?ver=3.12.1"></script>
+<script id="isotope-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/isotope.js?ver=3.0.4"></script>
+<script id="packery-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/packery.js?ver=2.0.0"></script>
+<script id="swiper-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/swiper.js?ver=11.2.5"></script>
+<script id="bootstrap-transition-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.transition.js?ver=3.3.6"></script>
+<script id="bootstrap-tooltip-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.tooltip.js?ver=3.3.5"></script>
+<script id="bootstrap-modal-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/bootstrap.modal.js?ver=3.1.1"></script>
+<script id="jquery-request-animation-frame-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.requestAnimationFrame.js?ver=1"></script>
+<script id="jquery-easing-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.easing.js?ver=1.3"></script>
+<script id="jquery-fitvids-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fitvids.js?ver=1.1"></script>
+<script id="jquery-flexslider-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.flexslider.js?ver=2.7.2"></script>
+<script id="jquery-lightbox-js-extra">
+var fusionLightboxVideoVars = {"lightbox_video_width":"1280","lightbox_video_height":"720"};
+//# sourceURL=jquery-lightbox-js-extra
+</script>
+<script id="jquery-lightbox-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.ilightbox.js?ver=2.2.3"></script>
+<script id="jquery-infinite-scroll-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.infinitescroll.js?ver=2.1"></script>
+<script id="jquery-mousewheel-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.mousewheel.js?ver=3.0.6"></script>
+<script id="jquery-fade-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.fade.js?ver=1"></script>
+<script id="images-loaded-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/imagesLoaded.js?ver=3.1.8"></script>
+<script id="fusion-parallax-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-parallax.js?ver=1"></script>
+<script id="fusion-video-general-js-extra">
+var fusionVideoGeneralVars = {"status_vimeo":"0","status_yt":"1"};
+//# sourceURL=fusion-video-general-js-extra
+</script>
+<script id="fusion-video-general-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-general.js?ver=1"></script>
+<script id="fusion-video-bg-js-extra">
+var fusionVideoBgVars = {"status_vimeo":"0","status_yt":"1"};
+//# sourceURL=fusion-video-bg-js-extra
+</script>
+<script id="fusion-video-bg-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-video-bg.js?ver=1"></script>
+<script id="fusion-lightbox-js-extra">
+var fusionLightboxVars = {"status_lightbox":"1","lightbox_gallery":"1","lightbox_skin":"metro-white","lightbox_title":"1","lightbox_arrows":"1","lightbox_slideshow_speed":"5000","lightbox_loop":"0","lightbox_autoplay":"","lightbox_opacity":"0.9","lightbox_desc":"1","lightbox_social":"1","lightbox_social_links":{"facebook":{"source":"https://www.facebook.com/sharer.php?u={URL}","text":"Share on Facebook"},"twitter":{"source":"https://x.com/intent/post?url={URL}","text":"Share on X"},"reddit":{"source":"https://reddit.com/submit?url={URL}","text":"Share on Reddit"},"linkedin":{"source":"https://www.linkedin.com/shareArticle?mini=true&url={URL}","text":"Share on LinkedIn"},"whatsapp":{"source":"https://api.whatsapp.com/send?text={URL}","text":"Share on WhatsApp"},"tumblr":{"source":"https://www.tumblr.com/share/link?url={URL}","text":"Share on Tumblr"},"pinterest":{"source":"https://pinterest.com/pin/create/button/?url={URL}","text":"Share on Pinterest"},"vk":{"source":"https://vk.com/share.php?url={URL}","text":"Share on Vk"},"xing":{"source":"https://www.xing.com/social_plugins/share/new?sc_p=xing-share&amp;h=1&amp;url={URL}","text":"Share on Xing"},"mail":{"source":"mailto:?body={URL}","text":"Share by Email"}},"lightbox_deeplinking":"1","lightbox_path":"vertical","lightbox_post_images":"1","lightbox_animation_speed":"normal","l10n":{"close":"Press Esc to close","enterFullscreen":"Enter Fullscreen (Shift+Enter)","exitFullscreen":"Exit Fullscreen (Shift+Enter)","slideShow":"Slideshow","next":"Next","previous":"Previous"}};
+//# sourceURL=fusion-lightbox-js-extra
+</script>
+<script id="fusion-lightbox-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-lightbox.js?ver=1"></script>
+<script id="fusion-tooltip-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-tooltip.js?ver=1"></script>
+<script id="fusion-sharing-box-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-sharing-box.js?ver=1"></script>
+<script id="fusion-flexslider-js-extra">
+var fusionFlexSliderVars = {"status_vimeo":"","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1","flex_smoothHeight":"false"};
+//# sourceURL=fusion-flexslider-js-extra
+</script>
+<script id="fusion-flexslider-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-flexslider.js?ver=7.1.2"></script>
+<script id="fusion-blog-js-extra">
+var fusionBlogVars = {"infinite_blog_text":"\u003Cem\u003ELoading the next set of posts...\u003C/em\u003E","infinite_finished_msg":"\u003Cem\u003EAll items displayed.\u003C/em\u003E","slideshow_autoplay":"1","lightbox_behavior":"all","blog_pagination_type":"pagination"};
+//# sourceURL=fusion-blog-js-extra
+</script>
+<script id="fusion-blog-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-blog.js?ver=1"></script>
+<script id="jquery-sticky-kit-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/jquery.sticky-kit.js?ver=1.1.2"></script>
+<script id="fusion-youtube-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/library/fusion-youtube.js?ver=2.2.1"></script>
+<script id="fusion-general-global-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-general-global.js?ver=3.12.1"></script>
+<script id="avada-general-footer-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-general-footer.js?ver=7.12.1"></script>
+<script id="avada-quantity-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-quantity.js?ver=7.12.1"></script>
+<script id="avada-crossfade-images-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-crossfade-images.js?ver=7.12.1"></script>
+<script id="avada-select-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-select.js?ver=7.12.1"></script>
+<script id="avada-wpml-js-extra">
+var avadaLanguageVars = {"language_flag":"en"};
+//# sourceURL=avada-wpml-js-extra
+</script>
+<script id="avada-wpml-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-wpml.js?ver=7.12.1"></script>
+<script id="avada-contact-form-7-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-contact-form-7.js?ver=7.12.1"></script>
+<script id="avada-live-search-js-extra">
+var avadaLiveSearchVars = {"live_search":"1","ajaxurl":"https://insights.deribit.com/wp-admin/admin-ajax.php","no_search_results":"No search results match your query. Please try again","min_char_count":"3","per_page":"100","show_feat_img":"","display_post_type":"0"};
+//# sourceURL=avada-live-search-js-extra
+</script>
+<script id="avada-live-search-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-live-search.js?ver=7.12.1"></script>
+<script id="fusion-alert-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-alert.js?ver=7.1.2"></script>
+<script id="awb-off-canvas-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/awb-off-canvas.js?ver=3.12.1"></script>
+<script id="fusion-animations-js-extra">
+var fusionAnimationsVars = {"status_css_animations":"desktop"};
+//# sourceURL=fusion-animations-js-extra
+</script>
+<script id="fusion-animations-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-animations.js?ver=7.1.2"></script>
+<script id="awb-background-slider-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/awb-background-slider.js?ver=7.1.2"></script>
+<script id="fusion-button-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-button.js?ver=7.1.2"></script>
+<script id="fusion-modal-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-modal.js?ver=3.12.1"></script>
+<script id="fusion-recent-posts-js-extra">
+var fusionRecentPostsVars = {"infinite_loading_text":"\u003Cem\u003ELoading the next set of posts...\u003C/em\u003E","infinite_finished_msg":"\u003Cem\u003EAll items displayed.\u003C/em\u003E"};
+//# sourceURL=fusion-recent-posts-js-extra
+</script>
+<script id="fusion-recent-posts-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-recent-posts.js?ver=3.12.1"></script>
+<script id="fusion-container-js-extra">
+var fusionContainerVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","is_sticky_header_transparent":"0","hundred_percent_scroll_sensitivity":"450"};
+//# sourceURL=fusion-container-js-extra
+</script>
+<script id="fusion-container-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-container.js?ver=3.12.1"></script>
+<script id="avada-drop-down-js-extra">
+var avadaSelectVars = {"avada_drop_down":"1"};
+//# sourceURL=avada-drop-down-js-extra
+</script>
+<script id="avada-drop-down-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-drop-down.js?ver=7.12.1"></script>
+<script id="avada-to-top-js-extra">
+var avadaToTopVars = {"status_totop":"desktop","totop_position":"right","totop_scroll_down_only":"1"};
+//# sourceURL=avada-to-top-js-extra
+</script>
+<script id="avada-to-top-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-to-top.js?ver=7.12.1"></script>
+<script id="avada-header-js-extra">
+var avadaHeaderVars = {"header_position":"top","header_sticky":"1","header_sticky_type2_layout":"menu_only","header_sticky_shadow":"1","side_header_break_point":"800","header_sticky_mobile":"","header_sticky_tablet":"","mobile_menu_design":"classic","sticky_header_shrinkage":"","nav_height":"88","nav_highlight_border":"3","nav_highlight_style":"bar","logo_margin_top":"32px","logo_margin_bottom":"30px","layout_mode":"wide","header_padding_top":"0px","header_padding_bottom":"0px","scroll_offset":"full"};
+//# sourceURL=avada-header-js-extra
+</script>
+<script id="avada-header-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-header.js?ver=7.12.1"></script>
+<script id="avada-menu-js-extra">
+var avadaMenuVars = {"site_layout":"wide","header_position":"top","logo_alignment":"left","header_sticky":"1","header_sticky_mobile":"","header_sticky_tablet":"","side_header_break_point":"800","megamenu_base_width":"site_width","mobile_menu_design":"classic","dropdown_goto":"Go to...","mobile_nav_cart":"Shopping Cart","mobile_submenu_open":"Open submenu of %s","mobile_submenu_close":"Close submenu of %s","submenu_slideout":"1"};
+//# sourceURL=avada-menu-js-extra
+</script>
+<script id="avada-menu-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-menu.js?ver=7.12.1"></script>
+<script id="bootstrap-scrollspy-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/library/bootstrap.scrollspy.js?ver=7.12.1"></script>
+<script id="avada-scrollspy-js" src="https://insights.deribit.com/wp-content/themes/Avada/assets/min/js/general/avada-scrollspy.js?ver=7.12.1"></script>
+<script id="fusion-responsive-typography-js-extra">
+var fusionTypographyVars = {"site_width":"1100px","typography_sensitivity":"0.00","typography_factor":"1.50","elements":"h1, h2, h3, h4, h5, h6"};
+//# sourceURL=fusion-responsive-typography-js-extra
+</script>
+<script id="fusion-responsive-typography-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-responsive-typography.js?ver=3.12.1"></script>
+<script id="fusion-scroll-to-anchor-js-extra">
+var fusionScrollToAnchorVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","hundred_percent_scroll_sensitivity":"450"};
+//# sourceURL=fusion-scroll-to-anchor-js-extra
+</script>
+<script id="fusion-scroll-to-anchor-js" src="https://insights.deribit.com/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-scroll-to-anchor.js?ver=3.12.1"></script>
+<script id="fusion-video-js-extra">
+var fusionVideoVars = {"status_vimeo":"0"};
+//# sourceURL=fusion-video-js-extra
+</script>
+<script id="fusion-video-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-video.js?ver=3.12.1"></script>
+<script id="fusion-column-js" src="https://insights.deribit.com/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column.js?ver=3.12.1"></script>
+				<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'https://insights.deribit.com/wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+						<script>
+		(function() {
+			'use strict';
+			var parentSelector = '.menu-item.wpml-ls-current-language.menu-item-has-children';
+			
+			function toggleSubmenu(link, forceClose) {
+				var isExpanded = link.getAttribute('aria-expanded') === 'true';
+				if (forceClose || isExpanded) {
+					link.setAttribute('aria-expanded', 'false');
+				} else {
+					link.setAttribute('aria-expanded', 'true');
+				}
+			}
+			
+			function handleKeydown(e) {
+				var key = e.key || e.keyCode;
+				if (key === 'Enter' || key === ' ' || key === 13 || key === 32) {
+					e.preventDefault();
+					toggleSubmenu(this);
+				} else if (key === 'Escape' || key === 'Esc' || key === 27) {
+					if (this.getAttribute('aria-expanded') === 'true') {
+						e.preventDefault();
+						toggleSubmenu(this, true);
+					}
+				}
+			}
+			
+			function handleBlur(e) {
+				var link = this;
+				var parent = link.closest(parentSelector);
+				if (!parent) return;
+				
+				setTimeout(function() {
+					if (!parent.contains(document.activeElement)) {
+						toggleSubmenu(link, true);
+					}
+				}, 100);
+			}
+			
+			function init() {
+				var parents = document.querySelectorAll(parentSelector);
+				for (var i = 0; i < parents.length; i++) {
+					var link = parents[i].querySelector('a[aria-expanded]');
+					if (link) {
+						link.addEventListener('keydown', handleKeydown);
+						link.addEventListener('blur', handleBlur);
+					}
+				}
+			}
+			
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', init);
+			} else {
+				init();
+			}
+		})();
+		</script>
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JQ8MMVJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->		</div>
+
+			<section class="to-top-container to-top-right" aria-labelledby="awb-to-top-label">
+		<a href="#" id="toTop" class="fusion-top-top-link">
+			<span id="awb-to-top-label" class="screen-reader-text">Go to Top</span>
+
+					</a>
+	</section>
+		</body>
+</html>

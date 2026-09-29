@@ -1,0 +1,146 @@
+SOURCE_URL: https://r.jina.ai/https://www.cftc.gov/sites/default/files/2021-01/DigitalAssetsPrimer.pdf
+HTTP: 200  LEN: 9407
+
+Title: 404 Page Not Found
+
+URL Source: https://www.cftc.gov/sites/default/files/2021-01/DigitalAssetsPrimer.pdf
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+/error/index.htm
+
+[Skip to main content](https://www.cftc.gov/sites/default/files/2021-01/DigitalAssetsPrimer.pdf#main-content)
+
+[![Image 1: Commodity Futures Trading Commission Logo](https://www.cftc.gov/sites/all/themes/cftc/images/Final-CFTC-Logo-Long.png)](https://www.cftc.gov/ "Home")
+
+[](https://www.cftc.gov/sites/default/files/2021-01/DigitalAssetsPrimer.pdf#)
+
+*   [Transparency](https://www.cftc.gov/Transparency/index.htm)
+*   [Contact Us](https://www.cftc.gov/Contact/index.htm)
+
+Search 
+
+![Image 2: search icon](https://www.cftc.gov/sites/all/themes/cftc/images/icon-search.svg) Search
+
+*   [![Image 3: rss icon](https://www.cftc.gov/sites/all/themes/cftc/images/rss.png)![Image 4: red rss icon](https://www.cftc.gov/sites/all/themes/cftc/images/red_rss.png)](https://www.cftc.gov/RSS/index.htm)
+*   [![Image 5: email icon](https://www.cftc.gov/sites/all/themes/cftc/images/mail.png)![Image 6: red email icon](https://www.cftc.gov/sites/all/themes/cftc/images/red_mail.png)](https://www.cftc.gov/Contact/index.htm)
+*   [![Image 7: facebook icon](https://www.cftc.gov/sites/all/themes/cftc/images/facebook.png)![Image 8: red facebook icon](https://www.cftc.gov/sites/all/themes/cftc/images/red_facebook.png)](https://www.cftc.gov/exit/index.htm?https://www.facebook.com/cftcgov)
+*   [![Image 9: twitter icon](https://www.cftc.gov/sites/default/files/twitter-x_BLUE.png)![Image 10: red twitter icon](https://www.cftc.gov/sites/default/files/twitter-x_RED.png)](https://www.cftc.gov/exit/index.htm?https://twitter.com/cftc)
+*   [![Image 11: youtube icon](https://www.cftc.gov/sites/all/themes/cftc/images/youtube.png)![Image 12: red youtube icon](https://www.cftc.gov/sites/all/themes/cftc/images/red_youtube.png)](https://www.cftc.gov/exit/index.htm?https://www.youtube.com/user/CFTC)
+*   [![Image 13: linkedin icon](https://www.cftc.gov/sites/all/themes/cftc/images/linkedin.png)![Image 14: red linkedin icon](https://www.cftc.gov/sites/all/themes/cftc/images/red_linkedin.png)](https://www.cftc.gov/exit/index.htm?https://www.linkedin.com/company/commodity-futures-trading-commission)
+*   [![Image 15: flickr icon](https://www.cftc.gov/sites/all/themes/cftc/images/flickr.png)![Image 16: red flickr icon](https://www.cftc.gov/sites/all/themes/cftc/images/red_flickr.png)](https://www.cftc.gov/exit/index.htm?https://www.flickr.com/photos/cftc)
+
+![Image 17: search icon](https://www.cftc.gov/sites/all/themes/cftc/images/icon-search.svg)
+
+## Main navigation
+
+*   [About the CFTC](https://www.cftc.gov/About/index.htm)
+    *   [The Commission](https://www.cftc.gov/About/AboutTheCommission)
+    *   [Chairman & Commissioners](https://www.cftc.gov/About/Commissioners/index.htm)
+    *   [CFTC Organization](https://www.cftc.gov/About/CFTCOrganization/index.htm)
+    *   [Advisory Committees](https://www.cftc.gov/About/AdvisoryCommittees/index.htm)
+    *   [Innovation at the CFTC](https://www.cftc.gov/About/Innovation)
+    *   [Agriculture at the CFTC](https://www.cftc.gov/About/Agriculture)
+    *   [Budget & Performance](https://www.cftc.gov/About/CFTCReports/index.htm)
+    *   [Privacy at the CFTC](https://www.cftc.gov/Privacy)
+    *   [Careers](https://www.cftc.gov/About/Careers/index.htm)
+
+*   [Industry Oversight](https://www.cftc.gov/IndustryOversight/index.htm)
+    *   [Industry Filings](https://www.cftc.gov/IndustryOversight/IndustryFilings/index.htm)
+    *   [Trading Organizations](https://www.cftc.gov/IndustryOversight/TradingOrganizations/index.htm)
+    *   [Clearing Organizations](https://www.cftc.gov/IndustryOversight/ClearingOrganizations/index.htm)
+    *   [Data Repositories](https://www.cftc.gov/IndustryOversight/DataRepositories/index.htm)
+    *   [Intermediaries](https://www.cftc.gov/IndustryOversight/Intermediaries/index.htm)
+    *   [Market Surveillance](https://www.cftc.gov/IndustryOversight/MarketSurveillance/index.htm)
+    *   [Contracts & Products](https://www.cftc.gov/IndustryOversight/ContractsProducts/index.htm)
+    *   [Rules & Rule Amendments](https://www.cftc.gov/IndustryOversight/RuleAmendments/index.htm)
+    *   [Anti-Money Laundering](https://www.cftc.gov/IndustryOversight/AntiMoneyLaundering/index.htm)
+
+*   [Law & Regulation](https://www.cftc.gov/LawRegulation/index.htm)
+    *   [Commodity Exchange Act & Regulations](https://www.cftc.gov/LawRegulation/CommodityExchangeAct/index.htm)
+    *   [How Rules Are Made](https://www.cftc.gov/LawRegulation/CommissionRulemakingExplained/index.htm)
+    *   [Holding Wrongdoers Accountable](https://www.cftc.gov/LawRegulation/HoldingWrongdoersAccountable)
+    *   [Federal Register](https://www.cftc.gov/LawRegulation/FederalRegister/index.htm)
+    *   [Public Comments](https://www.cftc.gov/LawRegulation/PublicComments/ReleasesWithComments)
+    *   [CFTC Staff Letters](https://www.cftc.gov/LawRegulation/CFTCStaffLetters/index.htm)
+
+*   [Market Data & Economic Analysis](https://www.cftc.gov/MarketReports/index.htm)
+    *   [Data at CFTC](https://www.cftc.gov/data)
+    *   [Commitments of Traders](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm)
+    *   [Bank Participation Reports](https://www.cftc.gov/MarketReports/BankParticipationReports/index.htm)
+    *   [Cotton On-Call](https://www.cftc.gov/MarketReports/CottonOnCall/index.htm)
+    *   [Financial Data for FCMS](https://www.cftc.gov/MarketReports/financialfcmdata/index.htm)
+    *   [Staff Reports](https://www.cftc.gov/About/CFTCReports/cftcreports_historical.html?combine=&tid=4116&year=all)
+    *   [Weekly Swaps Report](https://www.cftc.gov/MarketReports/SwapsReports/index.htm)
+    *   [Cleared Margin Reports](https://www.cftc.gov/MarketReports/ClearedMarginReports/index.htm)
+    *   [Office of the Chief Economist](https://www.cftc.gov/About/EconomicAnalysis/index.htm)
+
+*   [Forms & Submissions](https://www.cftc.gov/Forms/index.htm)
+*   [Learn & Protect](https://www.cftc.gov/LearnAndProtect)
+    *   [Understanding Prediction Markets and Event Contracts](https://www.cftc.gov/LearnandProtect/PredictionMarkets)
+    *   [Check Registration & Disciplinary History](https://www.cftc.gov/check)
+    *   [Submit a Tip or Complaint](https://www.cftc.gov/complaint)
+    *   [RED List](https://www.cftc.gov/LearnAndProtect/Resources/Check/redlist.htm)
+    *   [Office of Proceedings](https://www.cftc.gov/LearnAndProtect/ReparationsProgram/index.htm)
+    *   [Learning Resources](https://www.cftc.gov/learnandprotect/learningresources)
+
+*   [News & Events](https://www.cftc.gov/PressRoom/index.htm)
+    *   [Press Releases](https://www.cftc.gov/PressRoom/PressReleases)
+    *   [Public Statements & Remarks](https://www.cftc.gov/PressRoom/SpeechesTestimony/index.htm)
+    *   [Events](https://www.cftc.gov/PressRoom/Events)
+
+Carousel Rotation On
+
+On
+
+[](https://www.cftc.gov/sites/default/files/2021-01/DigitalAssetsPrimer.pdf)
+
+# 404 Page Not Found
+
+We’re sorry, but the page you are looking for cannot be found. The page may have been renamed. You may wish to:
+
+If you have further questions, please contact us at [**webmaster@cftc.gov**](mailto:webmaster@cftc.gov).
+
+To find the information you are looking for, please navigate to the CFTC.gov [**home page**](https://www.cftc.gov/index.htm), use the Search function on the top right, or visit the [**sitemap**](https://www.cftc.gov/SiteMap/index.htm).
+
+*   Browse or search our site by starting from the home page: [**www.cftc.gov**](https://www.cftc.gov/index.htm)
+*   Consult our sitemap for a list of the primary pages on the site
+*   When you find the page you’re looking for, remember to update your bookmarks
+
+#### Policy and Notices
+
+*   [Privacy Policy](https://www.cftc.gov/websiteprivacypolicy)
+*   [Web Policy](https://www.cftc.gov/webpolicy/index.htm)
+*   [FOIA](https://www.cftc.gov/FOI/index.htm)
+*   [EEO](https://www.cftc.gov/About/EEO/EEO)
+*   [No FEAR Act](https://www.cftc.gov/WebPolicy/EEONoFearAct/index.htm)
+*   [Accessibility Statement](https://www.cftc.gov/About/EEO/AccessibilityStatement)
+*   [Whistleblower Protection Enhancement Act](https://www.cftc.gov/WPEA)
+
+#### Resources
+
+*   [CFTC Regulations](http://www.ecfr.gov/cgi-bin/text-idx?gp=&SID=5dc23cf6b50574003213bb5505efda0e&mc=true&tpl=/ecfrbrowse/Title17/17chapterI.tpl)
+*   [Commodity Exchange Act](https://www.cftc.gov/LawRegulation/CommodityExchangeAct/index.htm)
+*   [Procurement](https://www.cftc.gov/About/ProcurementOpportunities/index.htm)
+*   [USA.gov](https://www.usa.gov/)
+*   [Glossary](https://www.cftc.gov/ConsumerProtection/EducationCenter/CFTCGlossary/index.htm)
+
+#### Actions
+
+*   [Search Public Comments](https://www.cftc.gov/LawRegulation/PublicComments/ReleasesWithComments)
+*   [Submit Tips &Complaints](https://www.cftc.gov/ConsumerProtection/FileaTiporComplaint/index.htm)
+*   [Search Industry Filings](https://www.cftc.gov/IndustryOversight/IndustryFilings/index.htm)
+*   [Whistleblower.gov](https://www.whistleblower.gov/)  
+[Inspector General](https://www.cftc.gov/About/OfficeoftheInspectorGeneral/index.htm)
+
+#### [Sitemap](https://www.cftc.gov/SiteMap/index.htm)
+
+![Image 18: Home](https://www.cftc.gov/sites/all/themes/cftc/images/cftc-logo-big.svg)
+
+#### CFTC Headquarters
+
+Three Lafayette Centre  
+1155 21st Street, NW  
+Washington, DC 20581  
+202.418.5000

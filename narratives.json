@@ -1,0 +1,892 @@
+{
+ "RWA|ondo-global-markets|VOL": {
+  "first_date": "2025-09-01",
+  "last_date": "2026-09-27",
+  "n_days": 392,
+  "c30_M": 448.2,
+  "p30_M": 490.3,
+  "chg30_pct": -8.6,
+  "c7_M": 99.5,
+  "chg7_pct": -9.7
+ },
+ "RWA|ondo-yield-assets|FEES": {
+  "first_date": "2025-04-11",
+  "last_date": "2026-09-28",
+  "n_days": 530,
+  "c30_M": 6.91,
+  "p30_M": 6.74,
+  "chg30_pct": 2.4,
+  "c7_M": 0.73,
+  "chg7_pct": -61.6
+ },
+ "RWA|centrifuge-protocol|FEES": {
+  "first_date": "2025-07-25",
+  "last_date": "2026-09-28",
+  "n_days": 431,
+  "c30_M": 4.72,
+  "p30_M": 5.94,
+  "chg30_pct": -20.6,
+  "c7_M": 0.69,
+  "chg7_pct": -31.5
+ },
+ "RWA|spiko|FEES": {
+  "first_date": "2024-08-13",
+  "last_date": "2026-09-28",
+  "n_days": 777,
+  "c30_M": 4.06,
+  "p30_M": 3.48,
+  "chg30_pct": 16.7,
+  "c7_M": 1.12,
+  "chg7_pct": 9.4
+ },
+ "RWA|grayscale|FEES": {
+  "first_date": "2025-12-13",
+  "last_date": "2026-09-28",
+  "n_days": 289,
+  "c30_M": 17.7,
+  "p30_M": 15.23,
+  "chg30_pct": 16.3,
+  "c7_M": 4.34,
+  "chg7_pct": 7.5
+ },
+ "RWA|blackrock-buidl|FEES": {
+  "first_date": "2024-03-20",
+  "last_date": "2026-09-27",
+  "n_days": 922,
+  "c30_M": 8.6,
+  "p30_M": 8.77,
+  "chg30_pct": -1.9,
+  "c7_M": 1.82,
+  "chg7_pct": -7.1
+ },
+ "RWA|wisdomtree|FEES": {
+  "first_date": "2024-12-26",
+  "last_date": "2026-09-28",
+  "n_days": 631,
+  "c30_M": 3.46,
+  "p30_M": 2.1,
+  "chg30_pct": 64.4,
+  "c7_M": 0.95,
+  "chg7_pct": 1.2
+ },
+ "PredictionMarket|polymarket-us|FEES": {
+  "first_date": "2026-01-09",
+  "last_date": "2026-09-27",
+  "n_days": 262,
+  "c30_M": 53.65,
+  "p30_M": 32.89,
+  "chg30_pct": 63.2,
+  "c7_M": 15.83,
+  "chg7_pct": 5.1
+ },
+ "PredictionMarket|polymarket-us|VOL": {
+  "first_date": "2025-10-31",
+  "last_date": "2026-09-27",
+  "n_days": 332,
+  "c30_M": 2366.66,
+  "p30_M": 1543.03,
+  "chg30_pct": 53.4,
+  "c7_M": 681.55,
+  "chg7_pct": 4.3
+ },
+ "PredictionMarket|polymarket-international|FEES": {
+  "first_date": "2023-05-04",
+  "last_date": "2026-09-28",
+  "n_days": 1243,
+  "c30_M": 30.41,
+  "p30_M": 32.54,
+  "chg30_pct": -6.6,
+  "c7_M": 5.8,
+  "chg7_pct": -14.8
+ },
+ "PredictionMarket|polymarket-international|VOL": {
+  "first_date": "2020-10-01",
+  "last_date": "2026-09-27",
+  "n_days": 2185,
+  "c30_M": 2202.87,
+  "p30_M": 2260.75,
+  "chg30_pct": -2.6,
+  "c7_M": 481.21,
+  "chg7_pct": -11.0
+ },
+ "PredictionMarket|kalshi|FEES": {
+  "first_date": "2026-04-06",
+  "last_date": "2026-05-27",
+  "n_days": 52,
+  "c30_M": 152.86,
+  "p30_M": 99.95,
+  "chg30_pct": 52.9,
+  "c7_M": 37.9,
+  "chg7_pct": 10.3
+ },
+ "PredictionMarket|kalshi|VOL": {
+  "first_date": "2021-07-01",
+  "last_date": "2026-09-27",
+  "n_days": 1915,
+  "c30_M": 13246.71,
+  "p30_M": 10918.94,
+  "chg30_pct": 21.3,
+  "c7_M": 3325.51,
+  "chg7_pct": 1.4
+ },
+ "PredictionMarket|predict-fun|FEES": {
+  "first_date": "2025-11-30",
+  "last_date": "2026-09-28",
+  "n_days": 303,
+  "c30_M": 5.62,
+  "p30_M": 3.38,
+  "chg30_pct": 66.4,
+  "c7_M": 1.42,
+  "chg7_pct": 7.1
+ },
+ "PredictionMarket|predict-fun|VOL": {
+  "first_date": "2024-09-10",
+  "last_date": "2026-09-28",
+  "n_days": 648,
+  "c30_M": 300.69,
+  "p30_M": 202.18,
+  "chg30_pct": 48.7,
+  "c7_M": 71.92,
+  "chg7_pct": 5.0
+ },
+ "PredictionMarket|opinion|FEES": {
+  "first_date": "2025-10-23",
+  "last_date": "2026-09-28",
+  "n_days": 341,
+  "c30_M": 0.04,
+  "p30_M": 0.05,
+  "chg30_pct": -4.0,
+  "c7_M": 0.01,
+  "chg7_pct": 22.1
+ },
+ "PredictionMarket|opinion|VOL": {
+  "first_date": "2025-10-23",
+  "last_date": "2026-09-28",
+  "n_days": 341,
+  "c30_M": 300.17,
+  "p30_M": 362.44,
+  "chg30_pct": -17.2,
+  "c7_M": 62.32,
+  "chg7_pct": 1.0
+ },
+ "PredictionMarket|limitless-exchange|FEES": {
+  "first_date": "2024-10-12",
+  "last_date": "2026-09-28",
+  "n_days": 714,
+  "c30_M": 0.2,
+  "p30_M": 0.58,
+  "chg30_pct": -66.0,
+  "c7_M": 0.03,
+  "chg7_pct": -23.5
+ },
+ "PredictionMarket|limitless-exchange|VOL": {
+  "first_date": "2024-05-17",
+  "last_date": "2026-09-28",
+  "n_days": 865,
+  "c30_M": 10.99,
+  "p30_M": 29.07,
+  "chg30_pct": -62.2,
+  "c7_M": 1.36,
+  "chg7_pct": -33.2
+ },
+ "PredictionMarket|predictstreet|FEES": {
+  "first_date": "2026-06-02",
+  "last_date": "2026-09-28",
+  "n_days": 119,
+  "c30_M": 1.39,
+  "p30_M": 0.59,
+  "chg30_pct": 137.3,
+  "c7_M": 0.24,
+  "chg7_pct": -44.9
+ },
+ "PredictionMarket|predictstreet|VOL": {
+  "first_date": "2026-06-02",
+  "last_date": "2026-09-28",
+  "n_days": 119,
+  "c30_M": 70.97,
+  "p30_M": 16.52,
+  "chg30_pct": 329.7,
+  "c7_M": 9.94,
+  "chg7_pct": -45.9
+ },
+ "HyperliquidSpot|hyperliquid-spot-orderbook|FEES": {
+  "first_date": "2024-12-23",
+  "last_date": "2026-09-27",
+  "n_days": 640,
+  "c30_M": 2.69,
+  "p30_M": 2.09,
+  "chg30_pct": 28.8,
+  "c7_M": 0.63,
+  "chg7_pct": -18.5
+ },
+ "HyperliquidSpot|hyperliquid-spot-orderbook|VOL": {
+  "first_date": "2024-09-19",
+  "last_date": "2026-09-27",
+  "n_days": 739,
+  "c30_M": 4834.22,
+  "p30_M": 3621.09,
+  "chg30_pct": 33.5,
+  "c7_M": 1135.97,
+  "chg7_pct": -18.7
+ },
+ "HyperliquidSpot|lighter-spot|FEES": {
+  "first_date": "2025-10-23",
+  "last_date": "2026-09-27",
+  "n_days": 340,
+  "c30_M": 0.1,
+  "p30_M": 0.06,
+  "chg30_pct": 75.2,
+  "c7_M": 0.03,
+  "chg7_pct": 17.1
+ },
+ "HyperliquidSpot|lighter-spot|VOL": {
+  "first_date": "2025-12-07",
+  "last_date": "2026-09-27",
+  "n_days": 295,
+  "c30_M": 723.77,
+  "p30_M": 203.92,
+  "chg30_pct": 254.9,
+  "c7_M": 242.8,
+  "chg7_pct": 40.7
+ },
+ "HyperliquidSpot|edgex-spot|VOL": {
+  "first_date": "2025-12-12",
+  "last_date": "2026-09-27",
+  "n_days": 290,
+  "c30_M": 1179.2,
+  "p30_M": 923.44,
+  "chg30_pct": 27.7,
+  "c7_M": 303.23,
+  "chg7_pct": -3.7
+ },
+ "AIAgents|virtuals-protocol|FEES": {
+  "first_date": "2024-10-16",
+  "last_date": "2026-09-27",
+  "n_days": 712,
+  "c30_M": 0.6,
+  "p30_M": 0.6,
+  "chg30_pct": -0.2,
+  "c7_M": 0.11,
+  "chg7_pct": -2.3
+ },
+ "AIAgents|virtuals-protocol|VOL": {
+  "first_date": "2026-07-15",
+  "last_date": "2026-09-27",
+  "n_days": 75,
+  "c30_M": 4.45,
+  "p30_M": 8.61,
+  "chg30_pct": -48.3,
+  "c7_M": 0.44,
+  "chg7_pct": -57.6
+ },
+ "AIAgents|termix|FEES": {
+  "first_date": "2026-07-04",
+  "last_date": "2026-09-28",
+  "n_days": 87,
+  "c30_M": 0.22,
+  "p30_M": 0.27,
+  "chg30_pct": -19.2,
+  "c7_M": 0.05,
+  "chg7_pct": 31.1
+ },
+ "AIAgents|aeon|FEES": {
+  "first_date": "2026-03-11",
+  "last_date": "2026-09-28",
+  "n_days": 202,
+  "c30_M": 0.05,
+  "p30_M": 0.08,
+  "chg30_pct": -45.9,
+  "c7_M": 0.01,
+  "chg7_pct": 106.9
+ },
+ "AIAgents|morpheusai|FEES": {
+  "first_date": "2024-02-09",
+  "last_date": "2026-09-28",
+  "n_days": 963,
+  "c30_M": 0.05,
+  "p30_M": 0.04,
+  "chg30_pct": 25.4,
+  "c7_M": 0.01,
+  "chg7_pct": 8.5
+ },
+ "AIAgents|zyfai|FEES": {
+  "first_date": "2025-07-24",
+  "last_date": "2026-09-28",
+  "n_days": 432,
+  "c30_M": 0.01,
+  "p30_M": 0.0,
+  "chg30_pct": 37.0,
+  "c7_M": 0.0,
+  "chg7_pct": -13.5
+ },
+ "AIAgents|chutes|FEES": {
+  "first_date": "2025-12-26",
+  "last_date": "2026-09-06",
+  "n_days": 255,
+  "c30_M": 0.37,
+  "p30_M": 0.38,
+  "chg30_pct": -2.3,
+  "c7_M": 0.09,
+  "chg7_pct": -7.3
+ },
+ "AIAgents|flock.io|FEES": {
+  "first_date": "2025-05-29",
+  "last_date": "2026-09-28",
+  "n_days": 488,
+  "c30_M": 0.0,
+  "p30_M": 0.0,
+  "chg30_pct": -69.7,
+  "c7_M": 0.0,
+  "chg7_pct": 86.8
+ },
+ "Restaking|eigencloud|FEES": {
+  "first_date": "2024-09-25",
+  "last_date": "2026-09-28",
+  "n_days": 734,
+  "c30_M": 0.17,
+  "p30_M": 0.36,
+  "chg30_pct": -53.5,
+  "c7_M": 0.03,
+  "chg7_pct": -26.2
+ },
+ "Restaking|b14g|FEES": {
+  "first_date": "2025-05-12",
+  "last_date": "2026-09-28",
+  "n_days": 505,
+  "c30_M": 0.06,
+  "p30_M": 0.07,
+  "chg30_pct": -3.0,
+  "c7_M": 0.02,
+  "chg7_pct": 5.0
+ },
+ "Restaking|solayer-restaking|FEES": {
+  "first_date": "2024-11-15",
+  "last_date": "2026-09-27",
+  "n_days": 682,
+  "c30_M": 0.04,
+  "p30_M": 0.03,
+  "chg30_pct": 12.6,
+  "c7_M": 0.01,
+  "chg7_pct": -1.1
+ },
+ "Restaking|kelp|FEES": {
+  "first_date": "2024-11-20",
+  "last_date": "2026-09-28",
+  "n_days": 678,
+  "c30_M": 2.45,
+  "p30_M": 2.13,
+  "chg30_pct": 15.2,
+  "c7_M": 0.61,
+  "chg7_pct": 12.6
+ },
+ "Restaking|renzo|FEES": {
+  "first_date": "2024-09-05",
+  "last_date": "2026-09-27",
+  "n_days": 753,
+  "c30_M": 0.22,
+  "p30_M": 0.2,
+  "chg30_pct": 12.8,
+  "c7_M": 0.05,
+  "chg7_pct": -22.5
+ },
+ "Restaking|lombard-lbtc|FEES": {
+  "first_date": "2024-09-04",
+  "last_date": "2026-09-28",
+  "n_days": 751,
+  "c30_M": 1.52,
+  "p30_M": 0.24,
+  "chg30_pct": 521.6,
+  "c7_M": 0.61,
+  "chg7_pct": 117.5
+ },
+ "Restaking|bedrock-unieth|FEES": {
+  "first_date": "2025-05-06",
+  "last_date": "2026-09-28",
+  "n_days": 511,
+  "c30_M": 0.06,
+  "p30_M": 0.05,
+  "chg30_pct": 10.9,
+  "c7_M": 0.02,
+  "chg7_pct": 16.2
+ },
+ "Gaming|axie-infinity|FEES": {
+  "first_date": "2018-03-26",
+  "last_date": "2026-09-27",
+  "n_days": 3108,
+  "c30_M": 0.12,
+  "p30_M": 0.12,
+  "chg30_pct": 3.1,
+  "c7_M": 0.04,
+  "chg7_pct": 26.9
+ },
+ "Gaming|illuvium|FEES": {
+  "first_date": "2024-07-24",
+  "last_date": "2026-09-28",
+  "n_days": 797,
+  "c30_M": 0.0,
+  "p30_M": 0.0,
+  "chg30_pct": -6.1,
+  "c7_M": 0.0,
+  "chg7_pct": 22.6
+ },
+ "Gaming|pixie-chess|VOL": {
+  "first_date": "2026-04-03",
+  "last_date": "2026-09-28",
+  "n_days": 179,
+  "c30_M": 0.03,
+  "p30_M": 0.02,
+  "chg30_pct": 13.1,
+  "c7_M": 0.01,
+  "chg7_pct": -10.5
+ },
+ "Gaming|topstrike|FEES": {
+  "first_date": "2026-01-18",
+  "last_date": "2026-09-28",
+  "n_days": 252,
+  "c30_M": 0.0,
+  "p30_M": 0.0,
+  "chg30_pct": -41.5,
+  "c7_M": 0.0,
+  "chg7_pct": -100.0
+ },
+ "Gaming|topstrike|VOL": {
+  "first_date": "2026-01-18",
+  "last_date": "2026-09-28",
+  "n_days": 254,
+  "c30_M": 0.02,
+  "p30_M": 0.05,
+  "chg30_pct": -50.9,
+  "c7_M": 0.0,
+  "chg7_pct": -100.0
+ },
+ "Gaming|kintara|FEES": {
+  "first_date": "2026-05-25",
+  "last_date": "2026-09-27",
+  "n_days": 126,
+  "c30_M": 0.0,
+  "p30_M": 0.01,
+  "chg30_pct": -51.3,
+  "c7_M": 0.0,
+  "chg7_pct": -60.2
+ },
+ "Gaming|bloom-trading-bot|FEES": {
+  "first_date": "2024-10-18",
+  "last_date": "2026-09-27",
+  "n_days": 698,
+  "c30_M": 0.23,
+  "p30_M": 0.38,
+  "chg30_pct": -38.4,
+  "c7_M": 0.02,
+  "chg7_pct": 5.6
+ },
+ "Gaming|bloom-trading-bot|VOL": {
+  "first_date": "2026-06-02",
+  "last_date": "2026-09-27",
+  "n_days": 118,
+  "c30_M": 26.95,
+  "p30_M": 20.3,
+  "chg30_pct": 32.8,
+  "c7_M": 10.07,
+  "chg7_pct": 61.2
+ },
+ "Payments|sablier-lockup|VOL": {
+  "first_date": "2025-06-02",
+  "last_date": "2026-09-28",
+  "n_days": 484,
+  "c30_M": 36.89,
+  "p30_M": 301.89,
+  "chg30_pct": -87.8,
+  "c7_M": 6.09,
+  "chg7_pct": -22.9
+ },
+ "Payments|streamflow|FEES": {
+  "first_date": "2025-04-21",
+  "last_date": "2026-09-27",
+  "n_days": 525,
+  "c30_M": 0.17,
+  "p30_M": 0.12,
+  "chg30_pct": 45.5,
+  "c7_M": 0.03,
+  "chg7_pct": -50.0
+ },
+ "Payments|streamflow|VOL": {
+  "first_date": "2026-06-08",
+  "last_date": "2026-09-28",
+  "n_days": 113,
+  "c30_M": 31.79,
+  "p30_M": 13.89,
+  "chg30_pct": 128.9,
+  "c7_M": 3.67,
+  "chg7_pct": 28.2
+ },
+ "Payments|superfluid|VOL": {
+  "first_date": "2025-06-10",
+  "last_date": "2026-09-28",
+  "n_days": 476,
+  "c30_M": 3.47,
+  "p30_M": 3.09,
+  "chg30_pct": 12.2,
+  "c7_M": 0.85,
+  "chg7_pct": 7.3
+ },
+ "Payments|llamapay|VOL": {
+  "first_date": "2025-06-09",
+  "last_date": "2026-09-28",
+  "n_days": 477,
+  "c30_M": 0.84,
+  "p30_M": 0.72,
+  "chg30_pct": 16.9,
+  "c7_M": 0.18,
+  "chg7_pct": 26.8
+ },
+ "Payments|unlock-protocol|FEES": {
+  "first_date": "2023-11-01",
+  "last_date": "2026-09-28",
+  "n_days": 1047,
+  "c30_M": 1.15,
+  "p30_M": 0.01,
+  "chg30_pct": 9880.8,
+  "c7_M": 0.88,
+  "chg7_pct": 235.8
+ },
+ "Payments|p2p.me|FEES": {
+  "first_date": "2024-11-06",
+  "last_date": "2026-09-27",
+  "n_days": 690,
+  "c30_M": 0.04,
+  "p30_M": 0.04,
+  "chg30_pct": -1.9,
+  "c7_M": 0.01,
+  "chg7_pct": -4.0
+ },
+ "Payments|p2p.me|VOL": {
+  "first_date": "2026-08-26",
+  "last_date": "2026-09-27",
+  "n_days": 33,
+  "c30_M": 1.3,
+  "p30_M": 0.11,
+  "chg30_pct": 1045.9,
+  "c7_M": 0.3,
+  "chg7_pct": 7.2
+ },
+ "Payments|helio|FEES": {
+  "first_date": "2024-08-06",
+  "last_date": "2026-09-28",
+  "n_days": 784,
+  "c30_M": 0.16,
+  "p30_M": 0.12,
+  "chg30_pct": 37.5,
+  "c7_M": 0.02,
+  "chg7_pct": -11.7
+ },
+ "Privacy|tornado-cash|FEES": {
+  "first_date": "2024-09-23",
+  "last_date": "2026-09-28",
+  "n_days": 736,
+  "c30_M": 0.48,
+  "p30_M": 0.49,
+  "chg30_pct": -3.4,
+  "c7_M": 0.16,
+  "chg7_pct": 35.6
+ },
+ "Privacy|railgun|FEES": {
+  "first_date": "2022-11-29",
+  "last_date": "2026-09-28",
+  "n_days": 1400,
+  "c30_M": 0.34,
+  "p30_M": 0.29,
+  "chg30_pct": 16.5,
+  "c7_M": 0.07,
+  "chg7_pct": -19.7
+ },
+ "Privacy|privacy-cash|FEES": {
+  "first_date": "2025-08-19",
+  "last_date": "2026-09-27",
+  "n_days": 405,
+  "c30_M": 0.14,
+  "p30_M": 0.07,
+  "chg30_pct": 94.1,
+  "c7_M": 0.04,
+  "chg7_pct": 9.8
+ },
+ "Privacy|zerc20|FEES": {
+  "first_date": "2026-02-05",
+  "last_date": "2026-09-28",
+  "n_days": 236,
+  "c30_M": 0.03,
+  "p30_M": 0.0,
+  "chg30_pct": 1587.2,
+  "c7_M": 0.0,
+  "chg7_pct": -100.0
+ },
+ "Privacy|privacy-pools|FEES": {
+  "first_date": "2025-03-31",
+  "last_date": "2026-09-28",
+  "n_days": 547,
+  "c30_M": 0.01,
+  "p30_M": 0.01,
+  "chg30_pct": 5.3,
+  "c7_M": 0.0,
+  "chg7_pct": 88.3
+ },
+ "Privacy|hopr|FEES": {
+  "first_date": "2023-09-13",
+  "last_date": "2026-09-28",
+  "n_days": 1086,
+  "c30_M": 0.0,
+  "p30_M": 0.0,
+  "chg30_pct": 25.0,
+  "c7_M": 0.0,
+  "chg7_pct": 24.1
+ },
+ "MemeLaunchpad|pump.fun|FEES": {
+  "first_date": "2024-03-01",
+  "last_date": "2026-09-27",
+  "n_days": 941,
+  "c30_M": 45.28,
+  "p30_M": 45.13,
+  "chg30_pct": 0.3,
+  "c7_M": 13.25,
+  "chg7_pct": 20.5
+ },
+ "MemeLaunchpad|pump.fun|VOL": {
+  "first_date": "2024-04-26",
+  "last_date": "2026-09-27",
+  "n_days": 885,
+  "c30_M": 2882.22,
+  "p30_M": 2503.29,
+  "chg30_pct": 15.1,
+  "c7_M": 963.62,
+  "chg7_pct": 44.3
+ },
+ "MemeLaunchpad|pons-v2|FEES": {
+  "first_date": "2026-08-04",
+  "last_date": "2026-09-28",
+  "n_days": 56,
+  "c30_M": 138.07,
+  "p30_M": 13.63,
+  "chg30_pct": 912.9,
+  "c7_M": 12.38,
+  "chg7_pct": -39.5
+ },
+ "MemeLaunchpad|pons-v2|VOL": {
+  "first_date": "2026-08-05",
+  "last_date": "2026-09-28",
+  "n_days": 55,
+  "c30_M": 2422.7,
+  "p30_M": 208.82,
+  "chg30_pct": 1060.2,
+  "c7_M": 200.79,
+  "chg7_pct": -44.2
+ },
+ "MemeLaunchpad|stonkfun|FEES": {
+  "first_date": "2026-07-26",
+  "last_date": "2026-09-27",
+  "n_days": 64,
+  "c30_M": 24.85,
+  "p30_M": 1.13,
+  "chg30_pct": 2107.9,
+  "c7_M": 8.01,
+  "chg7_pct": 24.0
+ },
+ "MemeLaunchpad|stonkfun|VOL": {
+  "first_date": "2026-09-08",
+  "last_date": "2026-09-27",
+  "n_days": 20,
+  "c30_M": 648.81,
+  "p30_M": 0.0,
+  "chg30_pct": null,
+  "c7_M": 288.75,
+  "chg7_pct": 47.6
+ },
+ "MemeLaunchpad|flap-sh|FEES": {
+  "first_date": "2024-07-01",
+  "last_date": "2026-09-28",
+  "n_days": 820,
+  "c30_M": 40.17,
+  "p30_M": 11.3,
+  "chg30_pct": 255.5,
+  "c7_M": 7.0,
+  "chg7_pct": -14.4
+ },
+ "MemeLaunchpad|flap-sh|VOL": {
+  "first_date": "2024-07-01",
+  "last_date": "2026-09-28",
+  "n_days": 820,
+  "c30_M": 574.48,
+  "p30_M": 727.94,
+  "chg30_pct": -21.1,
+  "c7_M": 114.68,
+  "chg7_pct": 0.5
+ },
+ "MemeLaunchpad|launchlab|FEES": {
+  "first_date": "2025-04-16",
+  "last_date": "2026-09-27",
+  "n_days": 530,
+  "c30_M": 8.54,
+  "p30_M": 0.06,
+  "chg30_pct": 13808.8,
+  "c7_M": 3.9,
+  "chg7_pct": 45.9
+ },
+ "MemeLaunchpad|launchlab|VOL": {
+  "first_date": "2025-04-16",
+  "last_date": "2026-09-27",
+  "n_days": 530,
+  "c30_M": 323.61,
+  "p30_M": 15.31,
+  "chg30_pct": 2014.0,
+  "c7_M": 127.78,
+  "chg7_pct": 47.3
+ },
+ "MemeLaunchpad|meteora-dynamic-bonding-curve|FEES": {
+  "first_date": "2025-04-23",
+  "last_date": "2026-09-27",
+  "n_days": 523,
+  "c30_M": 1.29,
+  "p30_M": 0.93,
+  "chg30_pct": 39.5,
+  "c7_M": 0.51,
+  "chg7_pct": 37.5
+ },
+ "MemeLaunchpad|meteora-dynamic-bonding-curve|VOL": {
+  "first_date": "2025-04-23",
+  "last_date": "2026-09-27",
+  "n_days": 523,
+  "c30_M": 418.06,
+  "p30_M": 200.02,
+  "chg30_pct": 109.0,
+  "c7_M": 107.2,
+  "chg7_pct": -14.3
+ },
+ "MemeLaunchpad|bonk.fun-launchpad|FEES": {
+  "first_date": "2025-05-04",
+  "last_date": "2026-09-28",
+  "n_days": 513,
+  "c30_M": 7.63,
+  "p30_M": 0.17,
+  "chg30_pct": 4450.2,
+  "c7_M": 2.7,
+  "chg7_pct": 5.1
+ },
+ "CreditLending|aave-v3|FEES": {
+  "first_date": "2022-03-17",
+  "last_date": "2026-09-28",
+  "n_days": 1656,
+  "c30_M": 35.85,
+  "p30_M": 31.13,
+  "chg30_pct": 15.1,
+  "c7_M": 8.74,
+  "chg7_pct": 4.8
+ },
+ "CreditLending|morpho-blue|FEES": {
+  "first_date": "2024-02-15",
+  "last_date": "2026-09-28",
+  "n_days": 957,
+  "c30_M": 19.3,
+  "p30_M": 17.76,
+  "chg30_pct": 8.7,
+  "c7_M": 4.88,
+  "chg7_pct": 5.6
+ },
+ "CreditLending|world-liberty-financial|FEES": {
+  "first_date": "2025-06-07",
+  "last_date": "2026-09-27",
+  "n_days": 478,
+  "c30_M": 11.62,
+  "p30_M": 10.39,
+  "chg30_pct": 11.8,
+  "c7_M": 2.88,
+  "chg7_pct": 2.8
+ },
+ "CreditLending|maple|FEES": {
+  "first_date": "2022-01-18",
+  "last_date": "2026-09-27",
+  "n_days": 1714,
+  "c30_M": 8.99,
+  "p30_M": 10.3,
+  "chg30_pct": -12.7,
+  "c7_M": 2.24,
+  "chg7_pct": -23.5
+ },
+ "CreditLending|sparklend|FEES": {
+  "first_date": "2024-07-08",
+  "last_date": "2026-09-28",
+  "n_days": 813,
+  "c30_M": 6.01,
+  "p30_M": 4.87,
+  "chg30_pct": 23.4,
+  "c7_M": 1.68,
+  "chg7_pct": 10.4
+ },
+ "CreditLending|etherfi-cash-liquid|FEES": {
+  "first_date": "2025-05-02",
+  "last_date": "2026-09-28",
+  "n_days": 510,
+  "c30_M": 3.12,
+  "p30_M": 3.98,
+  "chg30_pct": -21.5,
+  "c7_M": 0.42,
+  "chg7_pct": -4.2
+ },
+ "CreditLending|etherfi-cash-liquid|VOL": {
+  "first_date": "2025-05-02",
+  "last_date": "2026-09-28",
+  "n_days": 509,
+  "c30_M": 125.35,
+  "p30_M": 106.21,
+  "chg30_pct": 18.0,
+  "c7_M": 28.85,
+  "chg7_pct": -0.5
+ },
+ "DePIN|render-network-bme|FEES": {
+  "first_date": "2025-06-03",
+  "last_date": "2026-09-28",
+  "n_days": 483,
+  "c30_M": 0.23,
+  "p30_M": 0.12,
+  "chg30_pct": 92.7,
+  "c7_M": 0.05,
+  "chg7_pct": -6.3
+ },
+ "DePIN|hivemapper|FEES": {
+  "first_date": "2025-07-13",
+  "last_date": "2026-09-27",
+  "n_days": 442,
+  "c30_M": 0.05,
+  "p30_M": 0.0,
+  "chg30_pct": 11399.0,
+  "c7_M": 0.0,
+  "chg7_pct": null
+ },
+ "DePIN|nodeops|FEES": {
+  "first_date": "2025-07-16",
+  "last_date": "2026-09-28",
+  "n_days": 440,
+  "c30_M": 0.01,
+  "p30_M": 0.01,
+  "chg30_pct": 19.7,
+  "c7_M": 0.0,
+  "chg7_pct": 50.2
+ },
+ "DePIN|auki|FEES": {
+  "first_date": "2025-04-14",
+  "last_date": "2026-09-28",
+  "n_days": 533,
+  "c30_M": 0.0,
+  "p30_M": 0.0,
+  "chg30_pct": 96.1,
+  "c7_M": 0.0,
+  "chg7_pct": 9032.0
+ },
+ "DePIN|prism|FEES": {
+  "first_date": "2026-08-14",
+  "last_date": "2026-09-28",
+  "n_days": 46,
+  "c30_M": 0.0,
+  "p30_M": 0.0,
+  "chg30_pct": -98.2,
+  "c7_M": 0.0,
+  "chg7_pct": null
+ }
+}

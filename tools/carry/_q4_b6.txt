@@ -1,0 +1,91 @@
+===== CR-DOI 10.1016/j.bcra.2025.100354 FAILED HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works/10.1016/j.bcra.2025.100354?mailto=research@example.com (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+
+===== OA-DOI 10.1016/j.bcra.2025.100354
+TITLE: Exploring risk and return profiles of funding rate arbitrage on CEX and DEX
+VENUE: Blockchain Research and Applications | 2025 | article
+AUTHORS: Warodom Werapun, Tanakorn Karode, Jakapan Suaboot, Tanwa Arpornthip, Esther Sangiamkul
+cites=1
+OA: https://doi.org/10.1016/j.bcra.2025.100354
+PRIMARY: https://doi.org/10.1016/j.bcra.2025.100354
+ABSTRACT: Perpetual futures, non-expiring swap contracts, dominate cryptocurrency markets with over $100 billion in daily trades. This instrument provides leveraged exposure to cryptocurrencies without rollover or direct holding requirements. A pivotal mechanism in this market is the funding rate, a periodic payment between buyers (longs) and sellers (shorts) in perpetual futures contracts to keep the contract price close to the market value of the asset. This study scrutinizes the risk and return profiles of funding rate arbitrage in cryptocurrency perpetual futures markets, leveraging data from major exchanges such as Binance and Bitmex, alongside decentralized platforms like ApolloX and Drift. Key assets, including BTC, ETH, XRP, BNB, and SOL are examined. Empirical analysis of arbitrage strategies, contrasted with the Hold-On-for-Dear-Life (HODL) approach, uncovers diversification benefits as funding rate arbitrage exhibits no correlation with HODL strategies. Moreover, the impact of leverage on arbitrage efficiency is assessed, revealing the nuanced nature of leverage's influence on gains. Evaluation of 60 arbitrage scenarios underscores the potential range of returns, positioning funding rate arbitrage as a stable yet rewarding alternative to HODL strategies. This study presents evidence that funding rate arbitrage can generate substantial returns—up to 115.9% over six months—while keeping possible losses to a minimal 1.92%. These results underscore the attractiveness of funding rate arbitrage strategies for investors and call for further scholarly inquiry into the area.
+
+===== S2-DOI 10.1016/j.bcra.2025.100354
+TITLE: Exploring Risk and Return Profiles of Funding Rate Arbitrage on CEX and DEX | Blockchain: Research and Applications | 2025 | cites=3
+AU: ['Warodom Werapun', 'Tanakorn Karode', 'Jakapan Suaboot', 'T. Arpornthip', 'Esther Sangiamkul']
+PDF: https://doi.org/10.1016/j.bcra.2025.100354
+ABS: (none)
+
+===== OA-DOI 10.1002/fut.22050
+TITLE: BitMEX bitcoin derivatives: Price discovery, informational efficiency, and hedging effectiveness
+VENUE: Journal of Futures Markets | 2019 | article
+AUTHORS: Carol Alexander, Jaehyuk Choi, Heungju Park, Sungbin Sohn
+cites=123
+OA: https://figshare.com/articles/journal_contribution/BitMEX_Bitcoin_derivatives_price_discovery_informational_efficiency_and_hedging_effectiveness/23470913
+PRIMARY: https://doi.org/10.1002/fut.22050
+ABSTRACT: Abstract BitMEX is the largest unregulated bitcoin derivatives exchange, listing contracts suitable for leverage trading and hedging. Using minute‐by‐minute data, we examine its price discovery and hedging effectiveness. We find that BitMEX derivatives lead prices on major bitcoin spot exchanges. Bid–ask spreads, interexchange spreads, and relative trading volumes are important determinants of price discovery. Further analysis shows that BitMEX derivatives have positive net spillover effects, are informationally more efficient than bitcoin spot prices, and serve as effective hedges against spot price volatility. Our evidence suggests that regulators prioritize the investigation of the legitimacy of BitMEX and its contracts.
+
+===== OA-DOI 10.1016/j.gfj.2022.100778
+TITLE: Who trades bitcoin futures and why?
+VENUE: Global Finance Journal | 2022 | article
+AUTHORS: Alex Ferko, Amani Moin, Esen Onur, Michael A. Penick
+cites=17
+OA: None
+PRIMARY: https://doi.org/10.1016/j.gfj.2022.100778
+ABSTRACT: 
+
+===== OA-DOI 10.1287/mnsc.2024.05069
+TITLE: Crypto Carry
+VENUE: Management Science | 2026 | article
+AUTHORS: Maik Schmeling, Andreas Schrimpf, Karamfil Todorov
+cites=2
+OA: None
+PRIMARY: https://doi.org/10.1287/mnsc.2024.05069
+ABSTRACT: We analyze the dynamics of carry in crypto markets—the difference between futures and spot prices—and document that it can reach exceptionally high levels, sometimes exceeding 40% per annum, with significant variation over time. This phenomenon reflects a substantial and volatile inconvenience yield associated with holding spot cryptocurrencies relative to futures. We trace the large and volatile crypto carry to the interplay of two main forces: (i) demand from smaller, trend-chasing investors seeking leveraged exposure and (ii) the limited deployment of arbitrage capital because of regulatory and margin frictions. Our findings highlight how structural limits to arbitrage—especially severe in the case of crypto—can amplify price inefficiencies across financial markets, offering lessons for understanding asset pricing and market behavior more generally. This paper was accepted by Agostino Capponi, finance. Funding: M. Schmeling acknowledges financial support from the German Science Foundation [Grant SCHM 2623/2-1]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05069 .
+
+===== CR-DOI 10.1287/mnsc.2024.05069
+TITLE: Crypto Carry
+VENUE: Management Science | [2026, 5, 6]
+AUTHORS: Schmeling Maik, Schrimpf Andreas, Todorov Karamfil
+URL: https://doi.org/10.1287/mnsc.2024.05069
+ABSTRACT: We analyze the dynamics of carry in crypto markets—the difference between futures and spot prices—and document that it can reach exceptionally high levels, sometimes exceeding 40% per annum, with significant variation over time. This phenomenon reflects a substantial and volatile inconvenience yield associated with holding spot cryptocurrencies relative to futures. We trace the large and volatile crypto carry to the interplay of two main forces: (i) demand from smaller, trend-chasing investors seeking leveraged exposure and (ii) the limited deployment of arbitrage capital because of regulatory and margin frictions. Our findings highlight how structural limits to arbitrage—especially severe in the case of crypto—can amplify price inefficiencies across financial markets, offering lessons for understanding asset pricing and market behavior more generally. This paper was accepted by Agostino Capponi, finance. Funding: M. Schmeling acknowledges financial support from the German Science Foundation [Grant SCHM 2623/2-1]. Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05069 .
+
+===== OA-DOI 10.1137/22M1520931
+TITLE: Short Communication: A Primer on Perpetuals
+VENUE: SIAM Journal on Financial Mathematics | 2023 | article
+AUTHORS: Guillermo Angeris, Tarun Chitra, Alex Evans, Matthew J. Lorig
+cites=13
+OA: None
+PRIMARY: https://doi.org/10.1137/22m1520931
+ABSTRACT: Abstract. We consider a continuous-time financial market with no arbitrage and no transactions costs. In this setting, we introduce two types of perpetual contracts, one in which the payoff to the long side is a fixed function of the underlyers and the long side pays a funding rate to the short side, the other in which the payoff to the long side is a fixed function of the underlyers times a discount factor that changes over time but no funding payments are required. Assuming asset prices are continuous and strictly positive, we derive model-free expressions for the funding rate and discount rate of these perpetual contracts as well as replication strategies for the short side. When asset prices can jump, we derive expressions for the funding and discount rates, which are semirobust in the sense that they do not depend on the dynamics of the volatility process of the underlying risky assets, but do depend on the intensity of jumps under the market’s pricing measure. When asset prices can jump and the volatility process is independent of the underlying risky assets, we derive an explicit replication strategy for the short side of a perpetual contract. Throughout the paper, we illustrate through examples how specific perpetual contracts relate to traditional financial instruments such as variance swaps and leveraged exchange traded funds.
+
+===== OA-DOI 10.1504/IJBC.2026.10081004
+TITLE: Anatomy of a crypto cascade: minute-level evidence from the October 2025 crash
+VENUE: International Journal of Blockchains and Cryptocurrencies | 2026 | article
+AUTHORS: Boon Chuan Lim N.A.
+cites=0
+OA: https://doi.org/10.1504/ijbc.2026.10081004
+PRIMARY: https://doi.org/10.1504/ijbc.2026.10081004
+ABSTRACT: 
+
+===== CR-DOI 10.1002/fut.22332
+TITLE: Trading behavior in bitcoin futures: Following the “smart money”
+VENUE: Journal of Futures Markets | [2022, 4, 27]
+AUTHORS: Baur Dirk G., Smales Lee A.
+URL: https://doi.org/10.1002/fut.22332
+ABSTRACT: Abstract The Bitcoin futures market has grown rapidly since its 2017 introduction. Along with enabling institutional traders to access a regulated cryptocurrency product, futures provide a means to improve market efficiency by shorting Bitcoin. We examine trading behavior in Bitcoin futures utilizing the Commodity Futures Trading Commission Commitment of Traders report. Leveraged money traders tend to hold the largest positions, be net short, and their trading behavior plays a key role in the Bitcoin futures market. Our empirical results show that leveraged money traders display market timing ability, largely by adjusting their short positions. It seems that other trader types follow this “smart money” in adjusting their own positions in subsequent periods. We also demonstrate that it is possible to construct profitable trading strategies based on observed variations in leveraged money positions.
+
+===== S2-DOI 10.2139/ssrn.4268371
+TITLE: Crypto Carry | Social Science Research Network | 2022 | cites=13
+AU: ['Maik Schmeling', 'Andreas Schrimpf', 'Karamfil Todorov']
+PDF: https://doi.org/10.2139/ssrn.4268371
+ABS: We document that the carry of crypto futures, i.e. the difference between futures and spot prices, can become very large (up to 60% p.a.) and varies strongly over time. This behavior is most consistent with the existence of a highly volatile crypto convenience yield that stems from two main forces: (i) trend-chasing and attention by smaller investors seeking leveraged upside exposure to crypto assets in boom periods, and (ii) the relative scarcity of “arbitrage” capital taking the other side through a cash and carry position. Engaging in the latter is risky due to spikes in margins and liquidations amid drawdowns. The interplay between these two forces, and the involved high leverage, may help explain why severe market crashes are a frequent feature of crypto markets. JEL Classification: G12, G13, G15
+
+===== GET AQR-CryptoCarry [200] chars=4033
+Important Notice: Fraudulent Schemes Impersonating AQR Capital Management, LLC and Affiliates (collectively, "AQR") Important Notice: Fraudulent Schemes Impersonating AQR More Info There have been recent incidents of individuals and groups falsely claiming to be associated with AQR on social media platforms. These imposters have engaged in a variety of unauthorized conduct, including soliciting customers to carry out trading activities with them, impersonating AQR using the genuine names of AQR senior executives or employees to offer investment opportunities, claiming to offer investment training courses that are supposedly provided by AQR or claiming that AQR is backing certain initial coin offerings or is otherwise engaged in crypto related trading activity. There have also been fake websites and mobile applications that claim to be AQR (or associated with AQR) when in fact they are not. These are scams and not authorized by AQR in any way. Please be aware that AQR does not engage in any investment activities, provide training or financial services, or conduct other regulated activities through social media platforms or messaging apps. Similarly, AQR, its executives and employees do not contact prospects, clients or members of the public via social media platforms or messaging apps such as WhatsApp, Discord and Telegram to offer investment opportunities. AQR does not offer direct investments in cryptocurrencies or other digital assets, it does not provide a trading platform to members of the public, it does not have a mobile app, and it does not offer investment training courses to the public. AQR and its partners, employees, directors, officers, advisors, successors, and agents are not responsible for any conduct by unauthorized parties and channels, nor are they responsible for the services or information provided by such unauthorized parties and channels. If you have any questions or wish to ascertain whether you are communicating with an authorized representative of AQR, please contact us at https://www.aqr.com/Contact-Us . If you believe that you or someone you know has been a victim of fraud, please report the matter to your local law enforcement or other relevant authorities. For India residents, you may lodge a report at the national cybercrime reporting portal ( https://cybercrime.gov.in ). MyAQR Education Research Cliff s Perspectives Alternative Thinking Tax Matters Data Sets Quick Takes Learning Center Subscribe What We Do Our Approach Alternatives Equities Tax-Aware US Mutual Funds Australia Funds Flex UCITS Funds US Mutual Funds Australia Funds Flex UCITS Funds Our Firm About Us Leadership Careers Contact Us MyAQR Log In Register Contact Us The page you are looking for does not exist or has been moved. To find what you’re looking for, try one of the following: Search For What You Were Looking For Browse the Main Areas of the Site Home Education Strategies About Us You are now leaving AQR.com AQR Capital Management, LLC, (“AQR”) provides links to third-party websites only as a convenience, and the inclusion of such links does not imply any endorsement, approval, investigation, verification or monitoring by us of any content or information contained within or accessible from the linked sites. If you choose to visit the linked sites, you do so at your own risk, and you will be subject to such sites terms of use and privacy policies, over which AQR.com has no control. In no event will AQR be responsible for any information or content within the linked sites or your use of the linked sites. Cancel Proceed You are now leaving AQR.com You are about to leave AQR.com and are being re-directed to the {siteName}. Please note that {siteName} site may be subject to rules and regulations that may differ significantly from those to which the AQR website is subject and may not be appropriate for use by residents in all jurisdictions. Your access to and use of the {siteName} site will be subject to the applicable Terms of Use posted on the site. Cancel Proceed
+
+===== GET SSRN-CryptoCarry [403] chars=41
+Enable JavaScript and cookies to continue
+
+===== GET nber30783-wash [200] chars=3315
+Skip to main content NBER: National Bureau of Economic Research Search Search Crypto Wash Trading Lin William Cong , Xi Li , Ke Tang Yang Yang Share X LinkedIn Facebook Bluesky Threads Email Link Working Paper 30783 DOI 10.3386/w30783 Issue Date December 2022 We introduce systematic tests exploiting robust statistical and behavioral patterns in trading to detect fake transactions on 29 cryptocurrency exchanges. Regulated exchanges feature patterns consistently observed in financial markets and nature; abnormal first-significant-digit distributions, size rounding, and transaction tail distributions on unregulated exchanges reveal rampant manipulations unlikely driven by strategy or exchange heterogeneity. We quantify the wash trading on each unregulated exchange, which averaged over 70% of the reported volume. We further document how these fabricated volumes (trillions of dollars annually) improve exchange ranking, temporarily distort prices, and relate to exchange characteristics (e.g., age and userbase), market conditions, and regulation. Acknowledgements and Disclosures This research was funded in part by the Ewing Marion Kauffman Foundation and National Science Foundation of China. The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research. Citation and Citation Data Copy Citation Lin William Cong, Xi Li, Ke Tang, and Yang Yang, Crypto Wash Trading, NBER Working Paper 30783 (2022), https://doi.org/10.3386/w30783. Copy to Clipboard Download Citation MARC RIS BibTe&Chi; Download Citation Data Associated Links Online appendices Published Versions Lin William Cong Xi Li Ke Tang Yang Yang, 2023. " Crypto Wash Trading, " Management Science, vol 69(11), pages 6427-6454. citation courtesy of Related Topics Financial Economics Financial Markets Financial Institutions Programs Asset Pricing Corporate Finance Productivity, Innovation, and Entrepreneurship Mentioned in the News Wash Trading And Sybil Attacks Are A Big Problem For Crypto Traders October 24, 2023 Source: Analytics Insight Read the research here . Are Fake Trades Common on Decentralized Crypto Exchanges? October 5, 2023 Source: Cryptopolitan Read the research here . View All More from the NBER In addition to working papers , the NBER disseminates affiliates’ latest findings through a range of free periodicals—the NBER Reporter , the NBER Digest , the Bulletin on Health , the Bulletin on the Economics of Alzheimer's , and the Bulletin on Entrepreneurship —as well as research spotlights, lectures, and panel videos . 2026, 18th Annual Feldstein Lecture, Mark Duggan, Social Security Reform in an Era of Fiscal Deficits Feldstein Lecture Presenter: Mark Duggan Mark Duggan, who is currently the Wayne and Jodi Cooperman Professor of Economics at Stanford University and will soon... 2026, Methods Lecture, Melissa Dell and Ashesh Rambachan, Estimation and Inference with AI-Generated Data Methods Lectures Presenters: Melissa 
+

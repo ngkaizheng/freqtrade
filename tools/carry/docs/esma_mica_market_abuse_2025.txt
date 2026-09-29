@@ -1,0 +1,646 @@
+
+
+=== PAGE 1 ===
+29 April 2025
+ESMA75-453128700-1408 
+0 
+Final Report 
+Guidelines on supervisory practices for competent authorities to prevent 
+and detect market abuse under the Markets in Crypto Assets Regulation 
+(MiCA)
+
+=== PAGE 2 ===
+Table of Contents 
+1 Executive Summary ................................ ................................ ................................ .... 3 
+2 Background and Legal Basis ................................ ................................ ....................... 4 
+3 Assessment ................................ ................................ ................................ ................. 4 
+4 Annexes ................................ ................................ ................................ ...................... 6 
+4.1 Annex I: Advice of the Securities and Markets Stakeholder Group ....................... 6 
+4.2 Annex II: Feedback on the advice from the SMSG ................................ ............... 7 
+4.3 Annex III: Guidelines ................................ ................................ ............................ 8 
+1. Scope ................................ ................................ ................................ ........................ 10 
+2. Legislative references, abbreviations, and definitions ................................ ................ 11 
+2.1. Legislative references ................................ ................................ ........................ 11 
+2.2. Abbreviations ................................ ................................ ................................ ..... 11 
+2.3. Definitions ................................ ................................ ................................ .......... 11 
+3. Purpose ................................ ................................ ................................ ..................... 13 
+Compliance and reporting obligations ................................ ................................ ............... 14 
+3.1. Status of the guidelines ................................ ................................ ...................... 14 
+3.2. Reporting requirements ................................ ................................ ...................... 14 
+4. Guidelines on supervisory practices for competent authorities to prevent and detect
+market abuse ................................ ................................ ................................ ................... 15 
+4.1. Proportionality in the application of the Guidelines (Guideline 1) ........................ 15 
+4.2. General approach to prevent and detect market abuse under MiCA (Guideline 2)
+15 
+4.3. Integration of existing supervisory practices (Guideline 3) ................................ .. 16 
+4.4. Common supervisory culture to ensure market integrity under MiCA (Guideline 4)
+16 
+4.6 Open dialogue with stakeholders about market integrity risks (Guideline 6) ....... 17 
+4.7 Initiatives to promote market integrity among market participants (Guideline 7) . 18 
+4.8 Monitoring and surveillance by NCAs (Guideline 8) ................................ ............ 19 
+4.9 Supervision of PPAETs’ arrangements, systems and procedures to prevent and 
+detect market abuse (Guideline 9) ................................ ................................ ................ 19 
+4.10 Reaction to a STOR (Guideline 10) ................................ ................................ .... 19 
+4.11 ESMA coordination (Guideline 11) ................................ ................................ ..... 20 
+4.12 Third-country obstacles to the effective exercise of NCAs’ supervisory functions 
+for the detection of cross-border market abuse (Guideline 12) ................................ ...... 20 
+
+=== PAGE 3 ===
+
+
+=== PAGE 4 ===
+List of acronyms 
+ESMA European Securities and Markets Authority 
+ESMA Regulation Regulation (EU) No 1095/2010 of the European Parliament 
+and of the Council of 24 November 2010 establishing a 
+European Supervisory Authority (European Securities and 
+Markets Authority), amending Decision No 716/2009/EC and 
+repealing Commission Decision 2009/77/EC 
+MAR Regulation (EU) No 596/2014 of the European Parliament 
+and of the Council of 16 April 2014 on market abuse (MAR) 
+MiCA Regulation (EU) 2023/1114 of the European Parliament and 
+of the Council of 31 May 2023 on markets in crypto -assets, 
+and amending Regulations (EU) No 1093/2010 and (EU) No 
+1095/2010 and Directives 2013/36/EU and (EU) 2019/19376 
+NCAs National competent authority/authorities of EU Member 
+States 
+PPAET Persons professionally arranging or executing transactions 
+RTS Regulatory Technical Standards 
+STOR Suspicious transactions or order report 
+SMSG Securities and Markets Stakeholder Group 
+
+=== PAGE 5 ===
+ 
+ 
+1 Executive Summary 
+ 
+Reasons for publication 
+ 
+MiCA was published in the Official Journal of the EU on 9 June 2023  and started applying 
+from 30 December 2024. ESMA has been empowered to develop technical standards and 
+guidelines specifying certain provisions of MiCA.  
+ 
+To fulfil this empowerment, ESMA has drafted the guidelines on competent authorities’ 
+supervisory practices to prevent and detect market abuse under MiCA , which are detailed 
+in this final report (the “Guidelines”). 
+ 
+Contents 
+ 
+The Guidelines put forward some general principles to ensure high quality and effective 
+supervision on market abuse in crypto assets, as well as some more specific practices  for 
+NCAs regarding detection and prevention.  
+ 
+The general principles require supervisory activity to be risk based and proportionate. They 
+also set the objective for NCAs to build a common supervisory culture specific for crypto 
+assets through an open dialogue with the industry and interactions with other NCAs.   
+ 
+The Guidelines take into consideration the experience made under MAR to prevent and 
+detect market abuse, as well as the specific features of the crypto assets’ environment, such 
+as the more intensive use of social media, the specific technologies used, and the cross -
+border nature of crypto trading.  
+ 
+In accordance with Article 16 of the ESMA Regulation, ESMA did not conduct an open public 
+consultation on the Guidelines, nor did it analyse the potential related costs and benefits, as 
+this would have been disproportionate in relation to the scope of th ese Guidelines, taking 
+into account that they are solely addressed to NCAs and not market participants, their limited 
+financial impact  and the fact that the adoption of the Guidelines is required by MiCA .  
+However, ESMA requested the advice of the ESMA SMSG. This final report includes the 
+feedback on how the SMSG advice has been taken into account.  
+ 
+Next Steps 
+ 
+The Guidelines will be translated into the official languages of the EU and published on the 
+ESMA website. 
+ 
+Within two months of the publication of the translations, each NCA shall confirm whether it 
+complies or intends to comply with the Guidelines. In the event that an NCA does not comply 
+or intend to comply with the Guidelines, it will have to inform ESMA, stating its reasons. 
+ESMA will then publish that information on its website. 
+ 
+
+=== PAGE 6 ===
+ 
+ 
+2 Background and Legal Basis  
+ 
+Article 92 (3) of MiCA: 
+In order to ensure consistency of supervisory practices under this Article, ESMA shall by 30 
+June 2025 issue guidelines in accordance with Article 16 of Regulation (EU) No 1095/2010 on 
+supervisory practices among the competent authorities to prevent and detect market abuse, if 
+not already covered by the regulatory technical standards referred to in paragraph 2.  
+ 
+1. To promote confidence in markets in crypto-assets and ensure their integrity, Title VI of 
+MiCA lays down rules on prevention and prohibition of market abuse involving crypto 
+assets. 
+2. Article 92(1) of MiCA requires any PPAET in crypto -assets to have in place effective 
+arrangements, systems and procedures to prevent and detect market abuse. 
+3. Article 92(2) of MiCA mandates ESMA to develop draft RTS to further specify the 
+arrangements, systems and procedures to be adopted by the PPAET, the template for 
+the STORs, as well as coordination procedures between the NCAs for the detection and 
+enforcement of cross-border market abuse.  
+4. Finally, Article 92 (3) mandates ESMA to issue Guidelines on supervisory practices 
+among NCAs to prevent and detect market abuse , “if not already covered by the 
+regulatory technical standards” referred to in the same Article.  
+5. These Guidelines are to be delivered by 30 June 2025, 24 months after the entry into 
+force of MiCA.  
+3 Assessment 
+6. The objective of the Guidelines is to (i) identify supervisory practices which are adequate 
+to prevent and detect market abuse in crypto assets and (ii) ensure a uniform approach 
+in supervision and detection of market abuse across Member States.  
+7. Taking into consideration the similarities between MAR and MiCA, the Guidelines have 
+been developed having in mind the best practices developed by NCAs for the prevention 
+and detection of market abuse for traditional financial instruments under MAR.  
+8. At the same time, the Guidelines take the differences between the MAR and the MiCA 
+legal framework s into consideration. They also consider  the specific features of the 
+crypto assets markets, which may be relevant in respect of detection and prevention of 
+market abuse, such as the more intensive use of social media, the specific technologies 
+used as well as the cross-border nature of crypto trading.  
+9. The Guidelines are informed by the principle of proportionality and are based on the 
+consideration that NCAs should be granted some flexibility, given the different relevance 
+of crypto assets trading in the ir respective jurisdictions and the on -going progress on 
+developing market surveillance for crypto assets.   
+10. The Guidelines put forward some general principles on how supervision for detection 
+and prevention of market abuse in crypto assets should be carried out as well as some 
+
+=== PAGE 7 ===
+ 
+ 
+more specific practices which consider the relevance of the specific features of the crypto 
+assets’ environment.  
+11. Those general principles include the objective to build a common supervisory culture 
+specific for crypto assets, through an open dialogue with the industry, and frequent 
+interactions with other NCAs.  
+12. Taking into consideration the cross -border nature of crypto -asset markets, the 
+Guidelines include practices related to the interaction between NCAs within the EU, as 
+well as the handling of any obstacles that may come from interactions with third-country 
+jurisdictions.  
+13. The SMSG supported the Guidelines. Overall, ESMA consider s the changes made 
+following the SMSG’s advice non-material. 
+14. ESMA’s proposals for the Guidelines referred to in Article 92(3) of MiCA is contained in 
+Annex III. 
+ 
+  
+  
+
+=== PAGE 8 ===
+ 
+ 
+4 Annexes 
+4.1 Annex I: Advice of the Securities and Markets Stakeholder 
+Group 
+On 14 January 2025, ESMA’s Securities and Markets Stakeholder Group adopted the following 
+advice in relation to the Guidelines proposed in this final report.  
+“The SMSG supports the initiatives from ESMA in the developed guidelines and emphasizes 
+the need for sufficient training and competence in the National Competent Authorities (NCAs) 
+when supervising the crypto markets. The SMSG suggests that NCAs should clos ely 
+coordinate supervision with those authorities that are responsible for consumer protection in 
+general, as well as take due note of rule of law concerns that arise when sanctioning such 
+markets. The SMSG also encourages ESMA to specifically address the need for harmonisation 
+of supervision and enforcement across the jurisdictions of the NCAs and vis -à-vis third 
+countries that do not comply with MiCA”1. 
+ 
+  
+  
+ 
+1 See here for full the full SMSG advice: ESMA24-229244789-5235 SMSG advice on the Consultation Paper on the Markets in 
+Crypto Assets Regulation (MiCA) on the role and competence of the National Competent Authorities in supervising the crypto 
+markets 
+
+=== PAGE 9 ===
+ 
+ 
+4.2 Annex II: Feedback on the advice from the SMSG 
+ESMA acknowledges the advice provided by the SMSG with regard to the Guidelines covered 
+in this final report.  
+The Guidelines have not materially changed following the consultation of the SMSG. However, 
+taking into consideration the SMSG advice, a few additions have been made to (i) Guideline 4 
+on the common supervisory culture to ensure market integrity under MiCA and (ii) Guideline 5 
+on adequacy of resources. 
+Guideline 4 on common supervisory culture to ensure market integrity was extended to 
+suggest for NCAs to explore the possibility of engaging in dialogues also with other authorities, 
+e.g. the authorities responsible for consumer protection or money laundering. ESMA believes 
+an exchange of experience or supervisory practices with other authorities may help NCAs to 
+get a more comprehensive view on the crypto market entities and products and information 
+about any other supervisory activities carried out with a different objective than market integrity.  
+ESMA did not include in the final version of the Guidelines the suggestion to closely coordinate 
+NCAs’ monitoring activities with the authorities responsible for consumer protection  because 
+the objective of the Guidelines is the prevention and the detection of market abuse in the crypto 
+environment and any recommendation relating to consumer protection would be out of scope. 
+Moreover, the legal basis for the exchange of data with the other authorities, which would be 
+necessary for the purpose of coordination, may be missing in some jurisdictions.   
+Taking into account the SMSG’s advice, Guideline 5 on adequacy of resources has been 
+amended to encourage NCAs to dedicate specific resources to the oversight of crypto asset 
+markets. ESMA believes that this suggestion should be read in conjunction with Guideline  1 
+which requires to apply the Guidelines in a way that is proportionate to the relevance of the 
+risk present in the relevant jurisdictions.  
+Further to the SMSG’s advice, Guideline 5 has also been amended to stress the importance 
+of ongoing training of the staff dedicated to the oversight of crypto-assets markets. In this 
+respect, ESMA would like to recall initiatives such as the EU Supervisory Digital Finance 
+Academy (EU-SDFA)2 and the constant engagement of ESMA to facilitate the exchange of 
+good practices among NCAs, to increase a common supervisory culture.   
+Lastly, Guideline 9 on Supervision of PPAETs’ arrangements, systems and procedures to 
+prevent and detect market abuse  has been amended  to focus on the importance of NCAs ’ 
+ongoing engagement to ensure that PPAETs ’ arrangements, systems and procedures to 
+prevent and detect market abuse remain appropriate, adopting a risk-based approach.  
+ 
+ 
+ 
+ 
+  
+ 
+2 https://eusdfa.eui.eu/ 
+
+=== PAGE 10 ===
+ 
+ 
+  
+4.3 Annex III: Guidelines  
+ 
+Guidelines 
+On supervisory practices for competent authorities to prevent and detect 
+market abuse under the Markets in Crypto Assets Regulation (MiCA)
+
+=== PAGE 11 ===
+ 
+9 
+Table of Contents 
+1 Executive Summary ................................ ................................ ................................ .... 3 
+2 Background and Legal Basis ................................ ................................ ....................... 4 
+3 Assessment ................................ ................................ ................................ ................. 4 
+4 Annexes ................................ ................................ ................................ ...................... 6 
+4.1 Annex I: Advice of the Securities and Markets Stakeholder Group ....................... 6 
+4.2 Annex II: Feedback on the advice from the SMSG ................................ ............... 7 
+4.3 Annex III: Guidelines ................................ ................................ ............................ 8 
+1. Scope ................................ ................................ ................................ ........................ 10 
+2. Legislative references, abbreviations, and definitions ................................ ................ 11 
+2.1. Legislative references ................................ ................................ ........................ 11 
+2.2. Abbreviations ................................ ................................ ................................ ..... 11 
+2.3. Definitions ................................ ................................ ................................ .......... 11 
+3. Purpose ................................ ................................ ................................ ..................... 13 
+Compliance and reporting obligations ................................ ................................ ............... 14 
+3.1. Status of the guidelines ................................ ................................ ...................... 14 
+3.2. Reporting requirements ................................ ................................ ...................... 14 
+4. Guidelines on supervisory practices for competent authorities to prevent and detect
+market abuse ................................ ................................ ................................ ................... 15 
+4.1. Proportionality in the application of the Guidelines (Guideline 1) ........................ 15 
+4.2. General approach to prevent and detect market abuse under MiCA (Guideline 2)
+15 
+4.3. Integration of existing supervisory practices (Guideline 3) ................................ .. 16 
+4.4. Common supervisory culture to ensure market integrity under MiCA (Guideline 4)
+16 
+4.6 Open dialogue with stakeholders about market integrity risks (Guideline 6) ....... 17 
+4.7 Initiatives to promote market integrity among market participants (Guideline 7) . 18 
+4.8 Monitoring and surveillance by NCAs (Guideline 8) ................................ ............ 19 
+4.9 Supervision of PPAETs’ arrangements, systems and procedures to prevent and 
+detect market abuse (Guideline 9) ................................ ................................ ................ 19 
+4.10 Reaction to a STOR (Guideline 10) ................................ ................................ .... 19 
+4.11 ESMA coordination (Guideline 11) ................................ ................................ ..... 20 
+4.12 Third-country obstacles to the effective exercise of NCAs’ supervisory functions 
+for the detection of cross-border market abuse (Guideline 12) ................................ ...... 20 
+
+=== PAGE 12 ===
+ 
+10 
+1. Scope
+1 Who? 
+These guidelines apply to competent authorities, as defined in Article 3(1)(35) of MiCA. 
+2 What? 
+These guidelines apply in relation to Article 92(3) of MiCA. 
+3 When? 
+These guidelines apply from three months from the date of their publication on ESMA’s website 
+in all official EU languages. 
+
+=== PAGE 13 ===
+ 
+11 
+2. Legislative references, abbreviations, and definitions
+2.1. Legislative references 
+ESMA Regulation Regulation (EU) No 1095/2010 of the European Parliament and of the 
+Council of 24 November 2010 establishing a European Supervisory 
+Authority (European Securities and Markets Authority), amending Decision 
+No 716/2009/EC and repealing Commission Decision 2009/77/EC3 
+MiCA 
+RTS on STOR 
+Regulation (EU) 2023/1114 of the European Parliament and of the Council 
+of 31 May 2023 on markets in crypto -assets, and amending Regulations 
+(EU) No 1093/2010 and (EU) No 1095/2010 and Directives 2013/36/EU 
+and (EU) 2019/19374  
+Commission Delegated Regulation (EU) 2025/885 of 29 April  2025 
+supplementing Regulation (EU) 2023/1114 with regard to regulatory 
+technical standards specifying the arrangements, systems and procedures 
+to prevent, detect and report market abuse, the templates to be used for 
+reporting suspected market abuse, and the co ordination procedures 
+between the competent authorities for the detection and sanctioning of 
+market abuse in cross-border market abuse situations. 
+2.2. Abbreviations 
+CASP Crypto-asset service provider  
+EC European Commission 
+ESMA European Securities and Markets Authority 
+EU European Union 
+MEV Maximal extractable value 
+PPAET Persons professionally arranging or executing transactions 
+2.3. Definitions 
+Social media Online social networking service as defined in Article  2, point (7)  of 
+Regulation (EU) 2022/1925 of the European Parliament and the Council5 
+3 OJ L 331, 15.12.2010, p. 84. 
+4 OJ L 150, 9.6.2023, p. 40. 
+5 Regulation (EU) 2022/1925 of the European Parliament and of the Council of 14 September 2022 on contestable and fair 
+markets in the digital sector and amending Directives (EU) 2019/1937 and (EU) 2020/1828 (Digital Markets Act) (OJ L 265, 
+12.10.2022, p. 1). 
+
+=== PAGE 14 ===
+ 
+12 
+Web- based platforms Online platforms which collect and disseminate information and data on 
+crypto-assets to promote informed investment decisions, accessible on a 
+non-discriminatory basis and free of charge, as defined in Article 1 of  the 
+Commission Implementing Regulation (EU) 2024/28616  
+6 Commission Implementing Regulation (EU) 2024/2861 of 12 November 2024 laying down implementing technical standards 
+for the application of MICA with regard to the technical means for the appropriate public disclosure of inside information and for 
+delaying the public disclosure of that information (OJ L, 2024/2861, 13.11.2024). 
+
+=== PAGE 15 ===
+ 
+13 
+3. Purpose
+These guidelines are based on Article 92(3) of MiCA  and Article 16 of the ESMA Regulation. 
+The objective of these guidelines is to ensure consistency between competent authorities’ 
+supervisory practices to prevent and detect market abuse involving crypto assets.  
+More specifically, they aim to establish consistent, efficient and effective supervisory practices 
+among competent authorities to prevent and detect insider dealing, unlawful disclosure of 
+inside information and market manipulation. They also aim to ensure the common uniform and 
+consistent application of Title VI of MiCA (Articles 86-92).  
+
+=== PAGE 16 ===
+ 
+14 
+Compliance and reporting obligations 
+3.1. Status of the guidelines 
+In accordance with Article 16(3) of the ESMA Regulation, competent authorities must make 
+every effort to comply with these guidelines. 
+Competent authorities to which these guidelines apply to should comply by incorporating them 
+into their national legal and/or supervisory frameworks as appropriate.  
+3.2. Reporting requirements 
+Within two months of the date of publication of the guidelines on ESMA’s website in all EU 
+official languages, competent authorities to which these guidelines apply must notify ESMA 
+whether they (i) comply, (ii) do not comply yet but intend to comply, or (iii) do not comply and 
+do not intend to comply with the guidelines. 
+In case of non-compliance, competent authorities must also notify ESMA within two months of 
+the date of publication of the guidelines on ESMA’s website in all EU official languages of their 
+reasons for not complying with the guidelines.  
+A template for notifications is available on ESMA’s website. Once the template has been filled 
+in, it should be transmitted to ESMA. 
+
+=== PAGE 17 ===
+ 
+15 
+4. Guidelines on supervisory practices for competent
+authorities to prevent and detect market abuse
+4.1. Proportionality in the application of the Guidelines (Guideline 
+1) 
+1. Competent authorities should apply these guidelines in a way that is proportionate to
+the relevance of the activities and services performed by persons supervised in the
+crypto asset market  and the risk that such activities and services pose to market
+integrity. Competent authorities are thus encouraged to develop and maintain a good
+understanding of the risks posed by CASPs and issuers directly supervised, as well as
+of the risks posed by other persons (traders, min ers, validators or relevant persons
+active on social media), whose actions are susceptible to constitute market abuse (e.g.
+order book manipulation, MEV 7  strategies, or spreading of false or misleading
+information).
+2. Taking into consideration the rapid evolution of crypto markets, competent authorities
+should be particularly alert and vigilant to possible new forms of  market abuse
+behaviours, adopting a risk-based approach in respect of the activities prescribed in
+these guidelines.
+3. When applying these guidelines, competent authorities should also adjust their own
+approach to market surveillance taking into consideration the progress achieved in
+relation to e.g. data availability and development of new market surveillance tools.
+4.2. General approach to prevent and detect market abuse under 
+MiCA (Guideline 2) 
+4. Competent authorities’ approach to supervision in relation to market abuse in crypto
+assets should be risk-based, which means that competent authorities are expected to
+prioritise and use their resources efficiently and commensurate ly with the level of risk
+identified.
+5. When considering risks, competent authorities are expected to be forward -looking, by
+taking into consideration to the extent possible potential and emerging risks of market
+abuse.
+6. Competent authorities are encouraged to monitor the crypto assets market in a way that
+enables them to respond to identified risks to market integrity without undue delay.  In
+particular, competent authorities  are expected to follow up on a detected threat to
+market integrity in a reasonable timeframe. Identified issues should not be left without a
+proper conclusion or action plan.
+7 Maximum amount of value a blockchain miner or validator can make by changing the order of transactions during the block 
+production 
+
+=== PAGE 18 ===
+ 
+16 
+7. Where new risks to market integrity in crypto assets are identified, competent authorities
+should supplement, seek to expand, or adjust their supervisory strategy for crypto -
+assets and action as appropriate.
+8. Competent authorities  are encouraged to incorporate their objectives and priorities
+related to prevent ion and detect ion market abuse under MiCA in their supervisory
+strategy.
+4.3.  Integration of existing supervisory practices (Guideline 3) 
+9. Competent authorities are encouraged to integrate dedicated measures to prevent and
+detect market abuse in the crypto -assets markets into their existing supervisory
+practices. Before integrating new measures, competent authorities are encouraged to
+evaluate the extent to which practices already in place for the detection and prevention
+of market abuse concerning financial instruments may cover the specific forms of market
+abuse with respect to crypto assets, and adapt or extend them, as appropriate.
+10. For example, competent authorities  could include in their monitoring activity those
+manipulative practices that may stem from the specific technology behind crypto-assets
+(e.g. abusive MEV strategies) or the way they are offered or evaluated (e.g. token supply
+manipulation or – for stablecoins – the assessment of the backing assets).
+11. In addition, competent authorities should consider monitoring social media on a best
+effort basis to cover information posted on crypto assets, given the higher risk of
+spreading false or  misleading information that such media may pose in the crypto
+environment in comparison to traditional financial markets.
+12. Similarly, with respect to insider dealing, competent authorities  should take into
+consideration, in addition to the possession of inside information by a person having
+access to inside information through the exercise of an employment, profession or
+duties (e.g. employee in a CASP aware of the decision to list a new token on a  trading
+platform), the possession of inside information by a person in relation to his/her role in
+the distributed ledger technology or similar technology (e.g. miners or validators
+conducting front running or influencing the flow of validated transactions).
+4.4.  Common supervisory culture to ensure market integrity under 
+MiCA (Guideline 4) 
+13. Competent authorities should play an active role in building a common EU supervisory
+culture and consistent supervisory practices under MiCA.
+14. To achieve this objective, competent authorities should share among them information
+to facilitate a common understanding of the market integrity risks posed by crypto
+assets, issuers, CASPs, and any other market participant.
+15. Competent authorities should inform each other of the measures adopted to prevent
+and detect market abuse pursuant to the se guidelines, and exchange on  the best
+practices identified to ensure market integrity.
+
+=== PAGE 19 ===
+ 
+17 
+16. In addition, competent authorities are encouraged to share their direct experiences on
+supervision in the area of market abuse concerning crypto assets and to highlight the
+difficulties encountered, by presenting and discussing supervisory cases in the relevant
+ESMA groups.
+17. As a result of such exchanges, competent authorities may also propose that ESMA
+adopt specific supervisory convergence tools to promote supervisory convergence
+across the EU.
+18. To get a more comprehensive view on the crypto market participants and products and
+in compliance with the rules on professional secrecy, competent authorities may, on a
+voluntary basis, consider entering into dialogues and exchanges of experiences with
+other authorities (e.g. authorities responsible for consumer protection or prevention and
+anti-money laundering authorities), when their supervisory activity appears to be
+connected to the crypto assets markets.
+4.5. Adequacy of resources (Guideline 5) 
+19. To ensure the availability of sufficient resources to achieve their supervisory objectives,
+competent authorities are encouraged to have dedicated staff to carry out their functions
+and duties in the oversight of crypto asset markets.
+20. To identify the resources and the staff needed to conduct detection and prevention of
+market abuse in crypto  asset markets, competent authorities  are encouraged to
+consider the following elements:
+a) knowledge and competence of their staff with respect to the functioning of crypto -
+assets and the relevant technologies used (e.g.  consensus mechanisms) as well as to
+the roles of participants in on-chain transactions;
+b) the need for adequate tools specific to crypto assets market surveillance;
+c) the need to carry out data driven market surveillance, in addition to event -based
+surveillance.
+21. Competent authorities are encouraged to take part in initiatives for the ongoing training
+of the relevant staff.
+4.6. Open dialogue with stakeholders about market integrity risks 
+(Guideline 6) 
+22. To better comprehend technological developments and potential emerging market
+integrity risks with respect to crypto assets, competent authorities should proactively
+engage with stakeholders connected or associated with crypto  asset markets, as well
+as experts, academics, relevant public advocacy groups, IT firms and data service
+providers and persons to whom the performance of tasks relating to prevention,
+monitoring, detection of potential market abuse has been outsourced to by PPAETs.
+
+=== PAGE 20 ===
+ 
+18 
+23. Competent authorities should take into consideration the outcome of such exchanges
+in the identification of emerging risks, new market abuse strategies, and in the
+development of potential solutions, including new tools to mitigate risks to market
+integrity with reference to crypto assets.
+4.7.   Initiatives to promote market integrity among market 
+participants (Guideline 7) 
+24. To promote market integrity, competent authorities  should consider adopting
+educational initiatives that increase awareness among market participants of the
+behaviours which may constitute market abuse and of the relevant sanctions. When
+providing the relevant information, competent authorities should use language that is
+adequate to the nature of the persons to which the initiatives are addressed.
+25. Such initiatives could for example entail:
+a) the use of the competent authorities ’ website, as well as other communication
+channels (e.g. social media, blogs, newsletters, and podcasts, where available), to
+explain which conduct may constitute market abuse and to provide relevant examples
+related to crypto assets;
+b) regular trainings to market participants on compliance and prevention of market
+abuse under MiCA;
+c) Q&As with informative purposes related to the prevention and detection of market
+abuse.
+26. Competent authorities may develop the educational initiatives described in the present
+guideline autonomously or in collaboration with other competent authorities and ESMA,
+as appropriate.
+27. To further promote prevention of market abuse, competent authorities  should also
+consider opportunities of:
+a) encouraging issuers, PPAETs and CASPs not falling under the PPAET category, to
+adopt best practices which go beyond legal requirements. For instance, competent
+authorities could suggest issuers to inform employees who have access to inside
+information about what actions could constitute insider dealing or unlawful disclosure
+of inside information and on the relevant consequences, or suggest operators of trading
+platform to inform their users about the behaviours which may constitute market abuse
+and of the relevant sanctions;
+b) informing operators of trading platform for crypto assets of the need to upgrade and
+update their surveillance infrastructure to newly identified or emerging market
+manipulation risks; and
+c) providing targeted guidance and feedback on compliance measures to be
+implemented by PPAETs.
+
+=== PAGE 21 ===
+ 
+19 
+28. The information provided in the context of educational or other initiatives by competent
+authorities under this guideline should not be qualified as legal advice or reduce the
+responsibility of the market participants with respect to their obligations under MiCA or
+any other applicable law or regulation.
+4.8. Monitoring and surveillance by NCAs (Guideline 8) 
+29. To protect the integrity of crypto -asset markets, NCAs should conduct data driven
+market monitoring and surveillance, in collaboration with other competent authorities or,
+under their responsibility, by delegation to other authorities or service providers, as
+appropriate.
+30. Competent authorities ’ market monitoring and surveillance activities should include
+publicly available data, regulatory data on orders and transaction obtained from CASPs,
+and to the extent possible, reconciliation of on -chain and off -chain and cross market
+data.
+31. Competent authorities should also consider includ ing in their market monitoring and
+surveillance activity any communications regarding crypto assets , including
+communications taking place on web-based platforms, social media and blogs,
+newsletters and podcasts, if they are used to disseminate information on crypto assets,
+adopting a risk -based approach (considering e.g. the subjects, number of users and
+accessibility).
+32. In conducting on -going supervision on media, competent authorities  may adopt
+automated monitoring that is able to identify patterns, keywords and trends, to be
+complemented by human analysis.
+4.9. Supervision of PPAETs’ arrangements, systems and 
+procedures to prevent and detect market abuse (Guideline 9) 
+33. Competent authorities  are expected to ensure  that the PPAETs’ arrangements,
+systems, and procedures to prevent and detect market abuse pursuant to Article 92(1)
+of MiCA and the RTS on STOR remain appropriate on an ongoing basis.
+34. Adopting a risk-based approach to supervision, the frequency and the relevance of the
+competent authorities’ supervisory actions should be proportionate and adequate to the
+scale, size and nature of the business activity carried out by the PPAET, for example by
+making a distinction between CASPs operating a trading platform and CASPs only
+receiving, transmitting or executing orders on behalf of clients.
+4.10. Reaction to a STOR (Guideline 10) 
+35. Competent authorities should adopt adequate and proportionate procedures to analyse
+the STORs received from PPAETs to ensure effective analysis and appropriate
+supervisory action. The above procedures should:
+a) clearly identify all the steps that the competent authorities should follow upon receipt
+of an STOR;
+
+=== PAGE 22 ===
+ 
+20 
+b) for each step, indicate the responsible unit/function within the competent authorities;
+and
+c) provide the criteria for grading the behaviour reported through the STORs according
+to parameters such as severity and recurrence.
+36. The actions adopted by competent authorities pursuant to the above procedure should
+be proportionate to the detected threat.
+4.11.  ESMA coordination (Guideline 11) 
+37. Competent authorities should consider requesting ESMA’s coordination of inspections
+or investigations, in accordance with 95(5) of MiCA whenever, in a cross-border case:
+a) there is evidence or a suspicion that more than two competent authorities  are
+competent for a case;
+b) uncoordinated action may impair the final outcome of an investigation; or
+c) uncoordinated action may lead to extra burden for market participants.
+4.12.  Third-country obstacles to the effective exercise of NCAs’ 
+supervisory functions for the detection of cross -border market 
+abuse (Guideline 12) 
+38. A competent authority should inform the other relevant competent authorities and ESMA
+where, in the course of its supervisory activities, it identifies:
+a) CASPs whose business model might hinder the effective exercise of competent
+authorities’ supervisory functions with respect to market abuse. An example could
+be where a CASP authorised to execute orders on behalf of clients sends a
+significant number of transactions to trading platforms outside of the EU, as this may
+prevent the use of STORs as a tool to combat market abuse. Where such CASPs
+are identified, competent authorities should strive to agree on a common approach
+to supervision in such cases;
+b) any obstacles in its interactions with third -country competent authorities that might
+hinder the effective exercise of their supervisory functions in relation to market
+abuse.
+39. When assessing whether there are potential obstacles to effective supervision,
+competent authorities should consider all relevant information, including:
+a) relevant laws, regulations or administrative provisions of a third country;
+b) any difficulties involved in the enforcement of those laws, regulations or
+administrative provisions;
+c) the possibility of exchanging information with the third-country competent authorities
+and any difficulties in obtaining information from them;
+
+=== PAGE 23 ===
+ 
+21 
+d) the complexity and transparency of the structure of the group to which a supervised
+entity under MiCA belongs and of the persons having close links with an entity
+supervised under MiCA;
+e) the location or the activities performed by the entities that are members of the group
+to which an entity supervised under MiCA belongs, or of the persons having close
+links with an entity supervised under MiCA.

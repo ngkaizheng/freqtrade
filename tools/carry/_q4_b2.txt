@@ -1,0 +1,97 @@
+===== S2: Tokenomics of perpetual futures  (total=0)
+
+===== S2: Crypto Carry Schmeling Schrimpf Todorov FAIL 429
+
+===== S2: Christin Routledge Soska Zetlin-Jones cryptocurrency premium FAIL 429
+
+===== S2: A Theory of the On-Chain and Off-Chain Design of Permissionless Blockchains FAIL 429
+
+===== S2: Angeris Chitra Evans Lorig can (crypto) tokens trade custody FAIL 429
+
+===== S2: Bitcoin pricing adoption and usage sentiment risk premia Alexander FAIL 429
+
+===== OA-TITLE: Tokenomics of perpetual futures [200]
+
+===== OA-TITLE: Crypto Carry [200]
+- [2022] Crypto Carry | SSRN Electronic Journal | preprint | cites=5 | doi=https://doi.org/10.2139/ssrn.4268371 | oa=https://doi.org/10.2139/ssrn.4268371
+    AUTH: Maik Schmeling, Andreas Schrimpf, Karamfil Todorov
+- [2026] Crypto Carry | Management Science | article | cites=2 | doi=https://doi.org/10.1287/mnsc.2024.05069 | oa=None
+    AUTH: Maik Schmeling, Andreas Schrimpf, Karamfil Todorov
+- [2021] Crypto Carry | SSRN Electronic Journal | preprint | cites=1 | doi=https://doi.org/10.2139/ssrn.3774118 | oa=https://doi.org/10.2139/ssrn.3774118
+    AUTH: Friedrich-Carl Franz, Maik Schmeling
+- [None] Crypto carry | RePEc: Research Papers in Economics | preprint | cites=0 | doi=None | oa=None
+    AUTH: Maik Schmeling, Andreas Schrimpf, Karamfil Todorov
+- [2024] Is the crypto market nearing saturation? A look at density dependence & carrying capacity | SHAREOK (University of Oklahoma; Oklahoma State University; Central Oklahoma University) | dissertation | cites=0 | doi=None | oa=None
+    AUTH: Meldru, Jesse D
+
+===== OA-TITLE: Transaction Convenience Yield: Uncovered Interest Parity [200]
+
+===== OA-TITLE: Anatomy of a Crypto Cascade [200]
+- [2026] Anatomy of a Crypto Cascade: Minute-Level Evidence from the October 2025 Crash | SSRN Electronic Journal | preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6579278 | oa=https://doi.org/10.2139/ssrn.6579278
+    AUTH: Boon Chuan Lim
+- [2026] Anatomy of a crypto cascade: minute-level evidence from the October 2025 crash | International Journal of Blockchains and Cryptocurrencies | article | cites=0 | doi=https://doi.org/10.1504/ijbc.2026.10081004 | oa=https://doi.org/10.1504/ijbc.2026.10081004
+    AUTH: Boon Chuan Lim N.A.
+- [2025] Anatomy of the Oct 10–11, 2025 Crypto Liquidation Cascade: Macroeconomic Triggers, Market Microstructure, and Systemic Risk Lessons | SSRN Electronic Journal | preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.5611392 | oa=https://doi.org/10.2139/ssrn.5611392
+    AUTH: Zeeshan Ali
+
+===== CR: A Comparison of Cryptocurrency Returns Christin Routledge Soska Zetlin-Jones [200]
+- [2021] Towards Understanding Cryptocurrency Derivatives:A Case Study of BitMEX | Proceedings of the Web Conference 2021 | proceedings-article | doi=10.1145/3442381.3450059 | Soska, Dong, Khodaverdian, Zetlin-Jones, Routledge, Christin
+- [2024] Stranger Danger? Investor Behavior and Incentives on Cryptocurrency Copy-Trading Platforms | Proceedings of the CHI Conference on Human Factors in Computing Systems | proceedings-article | doi=10.1145/3613904.3642715 | Kawai, Soska, Routledge, Zetlin-Jones, Christin
+- [2023] Is your digital neighbor a reliable investment advisor? | Proceedings of the ACM Web Conference 2023 | proceedings-article | doi=10.1145/3543507.3583502 | Kawai, Cuevas, Routledge, Soska, Zetlin-Jones, Christin
+- [2025] Dark Crypto |  | posted-content | doi=10.2139/ssrn.5186551 | Ernst, Spatt, Routledge, Zetlin-Jones
+- [2022] Currency stability using blockchain technology | Journal of Economic Dynamics and Control | journal-article | doi=10.1016/j.jedc.2021.104155 | Routledge, Zetlin-Jones
+- [2026] Modeling Cryptocurrency Returns with Generalized Hyperbolic Distributions: Estimation, Diagnostics, and Model Comparison |  | posted-content | doi=10.20944/preprints202609.1362.v1 | Nzokem
+
+===== CR: A Theory of the On-Chain and Off-Chain Design of Permissionless Blockchains Leveraged Trading [200]
+- [2022] Towards Interoperability of Open and Permissionless Blockchains: A Cross-Chain Query Language | 2022 IEEE International Conference on e-Business Engineering (ICEBE) | proceedings-article | doi=10.1109/icebe55470.2022.00041 | Harer
+- [2026] Governance Models and Hard Forks in Decentralized Blockchains: A Comparative Analysis of On-Chain and Off-Chain Coordination Mechanisms |  | posted-content | doi=10.2139/ssrn.6394278 | Ologunde
+- [2013] Trading off Supply Chain Risk and Efficiency through Supply Chain Design | Procedia Computer Science | journal-article | doi=10.1016/j.procs.2013.01.069 | Goetschalckx, Huang, Mital
+- [2025] EC-Chain: Cost-Effective Storage Solution for Permissionless Blockchains | IEEE INFOCOM 2025 - IEEE Conference on Computer Communications | proceedings-article | doi=10.1109/infocom55648.2025.11044729 | Xu, Guo, Cheng, Liu, Yu, Cheng
+- [2025] Gateway-based Cross-Chain Transaction Protocols for Permissionless and Permissioned Blockchains | 2025 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS) | proceedings-article | doi=10.1109/dapps65174.2025.00014 | Patil, Nalawade, P, Kataoka, Dangat, Xu
+- [2023] "Zero Cost'' Majority Attacks on Permissionless Blockchains |  | posted-content | doi=10.2139/ssrn.4512507 | Gans, Halaburda
+
+===== CR: Exploring risk and return profiles of funding rate arbitrage on CEX and DEX [429]
+
+
+===== CR: Tokenomics of perpetual futures [200]
+- [2023] Pricing Perpetual Futures |  | posted-content | doi=10.2139/ssrn.4573912 | Jermann
+- [2022] Futures As Prelude: Bitcoin Price Forecasting From Perpetual Futures Data |  | posted-content | doi=10.2139/ssrn.4097789 | Kachnowski
+- [2024] Perpetual Futures Pricing |  | report | doi=10.3386/w32936 | Ackerer, Hugonnier, Jermann
+- [2025] Perpetual Futures Contracts and Cryptocurrency Market Quality |  | posted-content | doi=10.2139/ssrn.5323703 | Ruan
+- [2004] Perpetual war(s) and the future of democracy | Futures | journal-article | doi=10.1016/j.futures.2003.10.011 | Marden
+- [2026] Perpetual Futures: Mechanics, History and Purpose |  | posted-content | doi=10.2139/ssrn.7059779 | Haghani, White
+
+===== ARXIV-ABS 2212.06888
+TITLE: Fundamentals of Perpetual Futures
+published=2022-12-13T20:19:14Z updated=2026-09-26T14:33:19Z
+authors: Songrun He, Asaf Manela, Omri Ross, Victor von Wachter
+ABS: Perpetual futures are the most popular cryptocurrency derivatives. Perpetuals offer leveraged exposure to their underlying without rollover or direct ownership. Unlike fixed-maturity futures, perpetuals are not guaranteed to converge to the spot price. To minimize the gap between perpetual and spot prices, long investors periodically pay shorts a funding rate proportional to this difference. We derive no-arbitrage prices for perpetual futures in frictionless markets and bounds in markets with trading costs. Empirically, deviations from these prices in crypto are larger than in traditional currency markets, comove across currencies, and diminish over time. An implied arbitrage strategy yields high Sharpe ratios.
+
+===== ARXIV-ABS 2609.05433
+TITLE: Perpetual Futures for Stocks: The SpaceX Pre-IPO Market
+published=2026-06-22T19:31:32Z updated=2026-09-26T14:33:20Z
+authors: Aditya Gupta, Nick Polson
+ABS: Robert Shiller proposed perpetual futures in 1993 to create derivative markets for assets that are illiquid or whose price cannot be observed directly, such as single family homes, human capital, and the consumer price index. The crypto markets later built the instrument for a different reason and with a different funding rule. We give a single no arbitrage result that nests both designs: the perpetual price is the present value of a benchmark flow discounted at the funding rate, so the funding rule chooses both the benchmark and the discount. We give a random time change representation in which the price is the expected spot at the first event of a clock whose intensity is the funding rate, use it to show that stochastic volatility moves the basis only through the carry, so a volatility risk premium and not volatility itself can break the peg, read price discovery as the convergence of a Doob martingale driven by a stochastic approximation, and give a segmented market equilibrium that makes the pre listing premium structural rather than behavioural. The June 2026 SpaceX pre-IPO market is the first large scale realization of the idea for an equity claim, and we find that the perpetual consensus forecast the secondary clearing price more accurately than the bookbuilt offer. We close with other equity applications.
+
+===== ARXIV-ABS 2310.11771
+TITLE: Perpetual Futures Pricing
+published=2023-10-18T07:57:37Z updated=2026-09-26T13:58:07Z
+authors: Damien Ackerer, Julien Hugonnier, Urban Jermann
+ABS: Perpetual futures are contracts without expiration date in which the anchoring of the futures price to the spot price is ensured by periodic funding payments from long to short. We derive explicit expressions for the no-arbitrage price of various perpetual contracts, including linear, inverse, and quantos futures in both discrete and continuous-time. In particular, we show that the futures price is given by the risk-neutral expectation of the spot sampled at a random time that reflects the intensity of the price anchoring. Furthermore, we identify funding specifications that guarantee the coincidence of futures and spot prices, and show that for such specifications perpetual futures contracts can be replicated by dynamic trading in primitive securities.
+
+===== ARXIV-ABS 2607.27070
+TITLE: Where does the criticality live? Early-warning signals are event-heterogeneous across seven crypto-perpetual liquidation cascades
+published=2026-07-29T15:56:58Z updated=2026-09-26T14:33:22Z
+authors: Ramon Marc Garcia Seuma
+ABS: Do crypto perpetual-futures crashes carry a reproducible early-warning fingerprint of a critical transition, and in which state variable? We study seven major BTC liquidation cascades (2022-2025, including the record 19B USD event of 10 October 2025) using minute-level price and 5-minute leverage/order-flow data. On detrended residuals we compute rolling variance and lag-1 autocorrelation and test their pre-cascade trend with the Kendall-tau statistic, sweeping 39 analysis configurations per variable per event. No variable is event-invariant. Price carries the critical-slowing-down signature in five of seven events but is silent in exactly the two sudden-news (tariff) shocks, suggesting a two-type structure: endogenous-buildup versus exogenous-shock cascades. The October 2025 event, whose in-sample analysis suggests the signature lives in leverage rather than price, turns out to be the outlier, not the rule. The one regularity surviving all events with data is a compression of taker order-flow variance, which passes a 300-onset placebo test (Fisher-combined p ~ 5e-6) but is a population-level precursor, not a per-event alarm. Single-event critical-slowing-down claims in crypto derivatives are therefore fragile by construction. We argue the pattern of failures is itself diagnostic: slowing down is absent exactly where the destabilising mechanism is most abrupt, as one would expect if these cascades are discontinuous, shock-driven transitions rather than critical ones.
+
+===== NBER ww32936 [200]
+TITLE: Perpetual Futures Pricing
+authors: ['Damien Ackerer', 'Julien Hugonnier', 'Urban Jermann']
+ABS: Perpetual futures are contracts without expiration date in which the anchoring of the futures price to the spot price is ensured by periodic funding payments from long to short. We derive explicit expressions for the no-arbitrage price of various perpetual contracts, including linear, inverse, and quantos futures in both discrete and continuous-time. In particular, we show that the futures price is given by the risk-neutral expectation of the spot sampled at a random time that reflects the intensity of the price anchoring. Furthermore, we identify funding specifications that guarantee the coincidence of futures and spot prices, and show that for such specifications perpetual futures contracts can be replicated by dynamic trading in primitive securities.
+
+===== NBER ww33640 [200]
+TITLE: The Tokenomics of Staking
+authors: ['Lin William Cong', 'Zhiheng He', 'Ke Tang']
+ABS: Tokens offer convenience in digital networks and earn rewards when staked for consensus generation or economic activities. In our continuous-time model, agents dynamically allocate wealth over on-platform transactions and staking. Aggregate staking ratio crucially shapes platform productivity, grows userbase, and links staking to endogenous reward rates and price dynamics. Transaction fees, token issuance, and user heterogeneity all affect platform lifecycle. Empirical findings support the theoretical predictions: (i) correlation between staking ratio and reward rate is cross-sectionally positive, but time-series-wise negative; (ii) staking ratios positively predict excess returns; (iii) the convenience wedge generates UIP violations and significant crypto carry premia.
+

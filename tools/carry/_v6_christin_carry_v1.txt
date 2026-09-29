@@ -1,0 +1,2690 @@
+
+
+===== PAGE 1 =====
+The Crypto Carry Trade∗
+Nicolas Christin
+School of Computer Science and Department of Engineering and Public Policy
+Carnegie Mellon University
+Bryan R. Routledge
+Tepper School of Business
+Carnegie Mellon University
+Kyle Soska
+Ramiel Capital
+Ariel Zetlin-Jones
+Tepper School of Business
+Carnegie Mellon University
+August 18, 2023
+Abstract:
+The primary derivative contract on cryptocurrency exchanges is the perpetual futures
+contract. These contracts are denominated in either Tether (dollar) or coin (cryp-
+tocurrency). We study the empirical properties for 18 cryptocurrencies (36 contracts).
+We define a strategy, “crypto carry trade” that is short perpetual futures and long
+spot market and document that it has a high Sharpe ratio (e.g., 8.76 per year for Bit-
+coin Tether contract; 4.93 per year for coin). We interpret these results through the
+lens of a simple heterogeneous beliefs model to suggest that cryptocurrency exchange
+markets were facilitating leverage for long-side traders.
+∗Thanks for helpful comments to Nicola Borri and Burton Hollifield. We also are grateful to
+participants at the NBER’s Big Data and High-Performance Computing for Financial Economics
+Conference, Society for Economic Dynamics Annual Meeting, and the Western Finance Association.
+We are thankful for the financial support of the PNC Center for Financial Services Innovation at
+Carnegie Mellon University. Contact authors at: routledge@cmu.edu
+
+
+===== PAGE 2 =====
+1
+Introduction
+Spot transactions of cryptocurrency involve a change in ownership of the coins. Some
+of these transactions may include an entry on a blockchain ledger. Some spot cryp-
+tocurrency transactions occur on centralized exchanges where the ownership of the
+underlying cryptocurrency is indirect (e.g., Coinbase owns the coins and a trader
+owns a liability of Coinbase). Each of these spot transactions are analogous to trades
+of equity or physical commodities where the assets are in positive net supply. In
+contrast, trades of derivative securities do not involve changes in ownership of a cryp-
+tocurrency asset but a contract for a contingent payment between two parties. The
+connection between derivative market transactions – financialization – and the price
+dynamics in the underlying spot market is important in many markets. Harrison and
+Kreps (1978), for example, show the importance of short-sale contracts on spot prices
+of equity. In commodities, the period from 2004 to 2008 saw both increasing prices,
+oil in particular, and increases in the degree of financialization of commodities (e.g.
+the growth in the trade volume of commodity index funds. CFTC (2008). The high-
+profile senate testimony of Michael Masters (Masters (2008)) summarized many of
+the key concerns with financialization – the financialization was “causing” the higher
+prices. On the other side of the discussion is that the derivative trading does not
+involve consumption of the commodity and so has minimal impact on the spot price
+(Hamilton (2009) and Wright (2011)).
+In this paper we explore the most popular derivative contract in cryptocurrencies, the
+“perpetual futures” contract, and use its unusual design to study the financialization
+of cryptocurrencies. Bitcoin and cryptocurrencies seem an asset where differences
+of opinion and heterogenous beliefs might be large. Here, financialization through
+a derivative market facilitates both short positions and levered-long positions. So a
+derivative market might have appeal to both optimists and pessimists. Hence, the
+impact of derivative trading opportunities on spot-market holdings is ambiguous. Is
+there more demand to be long or short? Of course, we cannot measure demand pres-
+sure directly since long and shorts are matched by construction (zero net-supply).
+Instead, we use the design characteristics of the perpetual futures contract to con-
+struct a trading strategy that is reminiscent of the “carry trade” in foreign exchange
+or traditional commodity markets to see demand pressure. We show that a trade that
+1
+
+
+===== PAGE 3 =====
+is short a futures contract and hedged with a position in the spot market is unusually
+profitable. Put differently, the long derivative position is a relatively expensive way to
+be long cryptocurrencies. Since people appear willing to pay a premium for long-side
+exposure to cryptocurrencies on a derivatives exchange relative to the spot market
+suggests much of the demand for cryptocurrency derivatives is on the long side.
+The volume of traded derivatives in cryptocurrency is sizable. Figure 1 shows the
+trading volume for Bitcoin (BTC) on centralized spot markets and derivative mar-
+kets aggregated across major markets (measured in units of BTC to avoid distorting
+volumes with the large variation in the price of Bitcoin over this period). The bulk
+of that volume is on exchanges located outside typical U.S. regulation like Binance,
+FTX, and BitMEX.1 Of that derivative volume, the perpetual futures derivative con-
+tract is by far the most popular and liquid derivative contract in cryptocurrencies.
+Perpetual derivatives account for 98.2% of the Bitcoin futures volume in our sample
+with traditional dated-delivery futures contracts the tiny remaining fraction (see Fig-
+ure 2). The perpetual futures contract, initially used by the BitMEX platform was
+designed to let traders trade something like “spot” but in a derivative context.2 The
+contract looks like a futures contract that is marked to market. The salient feature of
+these contracts is that there is no fixed settlement date. At date t, the long and short
+side enter the contract with terms – the futures price – denoted Ft. Similar to regular
+futures markets, there is also no initial payment between the buyer and seller. Each
+period (in practice this is close to continuously), the positions are marked-to-market
+with profits Ft+1 −Ft for the long side and Ft −Ft+1 for the short side. The design
+goal is that the contract price Ft tracks a cryptocurrency spot price index Pt. Unlike
+a fixed-maturity-date forward contract, there is no one point where the futures price
+is pinned down by a settlement mechanism. To connect the futures and the spot
+market, the exchange has interim cash flows, called “funding,” between the long and
+1Augustin, Rubtsov, and Shin (2023) analyses the introduction of Bitcoin futures on the CBOE
+and the Chicago Mercantile Exchange (CME) in December 2017. Their paper looks at the impact of
+the derivatives on price efficiency, market quality, and liquidity. Interestingly, volumes at the CBOE
+and CME were initially very small – CBOE stopped trading BTC futures in 2019. The percentage
+of overall volume on the CME has increased following the collapse of Luna in March 2022 and then
+FTX in November.
+2The idea of the perpetual contract dates to Shiller (1993). BitMEX is the first major derivatives
+market that pioneered the perpetual futures contract..
+See Soska, Dong, Khodaverdian, Zetlin-
+Jones, Routledge, and Christin (2021) and https://cryptotrade.cylab.cmu.edu/ for a detailed
+description.
+2
+
+
+===== PAGE 4 =====
+short side of the contract. Based on the notional value of the contract, a “funding
+rate,” rt,c is defined where the holders of long positions pay holders of short positions.
+The direction of the payments is just a matter of convention in the definition of the
+funding rate. Empirically, we observe that the funding rate is typically positive so
+longs paying shorts is most common. However, we do see episodes of a negative rate
+in our sample, as around the time of the FTX bankruptcy. In these cases, the pay-
+ment flow is from short side to the long side. The rate is set by the exchange and
+transfers are made every eight hours. The formula for calculating the funding rate
+is public and the rate is posted by the exchange.3 The idea is that the funding rate
+ought to drive the basis spread Ft −Pt towards zero by adjusting the returns of the
+long and short positions. Empirically, we see that the contract does achieve this goal
+and the perpetual futures price tracks the spot price within a very tight band.
+To isolate the impact of funding and the basis spread, we construct the returns to
+a trade that is long one Bitcoin (using BTC as an example), in the spot market
+and short an equivalently sized position in the perpetual futures market. The short
+position in the perpetual future earns the funding rt,c (if it happens to be positive).
+The long-spot and short-forward positions offer an imperfect hedge for changes in
+cryptocurrency prices. The hedge is imperfect since the two positions are in different
+markets and the basis next period, Ft+1 −Pt+1 relative to current Ft −Pt is stochastic.
+In foreign currency markets, the carry trade involves a long and short position in two
+currencies to earn a spread on the interest rate differential (akin to the funding) at
+the risk of movement in the relative exchange rates (the basis risk in this trade). See
+Ready, Roussanov, and Ward (2017), for example. In physical commodity markets,
+the carry trade involves buying a physical commodity on the spot market and a short
+position in a forward contract. Here, the return comes from the difference in current
+spot price and the forward price net of storage costs (see Routledge, Seppi, and Spatt
+(2000)). The basis risk at maturity comes from the settlement provisions.4
+3On Binance, the funding rate is set at 0.01% per eight-hour period plus an adjustment that de-
+pends on the basis, Ft−Pt
+Pt
+. The actual calculation is weighted by quantities in the order book and the
+measurement is designed to discourage manipulation of the spot-index price. The exact details are
+available on the exchange website (https://www.binance.com/en/support/faq/360033525031).
+Other exchanges, like BitMEX, are similar with slight variation in how/when the funding is calcu-
+lated.
+4Often this basis risk is small. An extreme example occurred in April, 2020, when shipping and
+pipeline disruptions caused the forward settlement price to be – negative $37.63 a barrel.
+3
+
+
+===== PAGE 5 =====
+The data we use is for the Binance Exchange, which over our sample period was one
+of the largest exchanges by volume. We use perpetual futures prices, funding rates,
+and spot index prices for 18 different cryptocurrencies. For each currency we have
+price and funding data for both the Tether-based contract and the coin-based contract
+(described in more detail in Section 2). Of the cryptocurrencies, the Bitcoin contracts
+are by far the most heavily traded. Our data period is 2020-08-11 – 2023-06-23. The
+data is at the minute frequency, but here we focus on the 8-hour funding periods. Over
+this sample, the prices of cryptocurrencies happen to have several significant price
+run ups and drops (see Figure 3). The latter part of the sample includes the systemic
+events involving Terra/Luna (2022-05-09), Three Arrows Capital (2022-06-22), and
+FTX (2022-11-11), as well as bankruptcy of Silicon Valley Bank (2023-03-10).
+We document that the return on the crypto carry trade is typically high and the
+volatility of the return is small. Across our whole sample and across many underlying
+cryptocurrencies, the Sharpe ratios are large. For example, the full-sample Sharpe
+ratio for Bitcoin (BTC) is 8.76 per year for the Tether denominated contract and
+4.93 per year for the coin denominated contract. For this same period, 2020-08-11 –
+2023-06-23, the buy-and-hold Sharpe ratio is 0.46 per year for a long Bitcoin position
+and 0.33 for US equities. We also see that the Sharpe ratio from the crypto carry
+trade are broadly unrelated to the performance of the underlying cryptocurrency.
+In subsamples where the price of BTC increased and decreased, the crypto carry
+trade is consistently large and positive. We document that the Sharpe ratios are
+particularly large in the earlier part of our sample when exchange policies permitted
+for very large leverage. The Sharpe ratios are much smaller in the later part of the
+sample that includes the bankruptcy of FTX and several other systemic events. The
+exchange trades two types of contract for each cryptocurrency. One is denominated
+in Tether (a stable coin pegged to the US dollar) and one is denominated in the
+underlying coin. The returns to the carry trade are consistently higher for the Tether
+denominated contract.
+Why is the return to this strategy particularly large? One explanation, we argue, is
+that the returns to the crypto carry trade capture the long-side’s willingness to pay for
+access to leverage. That is a natural place to look for an explanation as retail access
+to high leverage is a distinct characteristic of cryptocurrency derivative exchanges.5
+5Soska, Dong, Khodaverdian, Zetlin-Jones, Routledge, and Christin (2021) discusses BitMEX,
+4
+
+
+===== PAGE 6 =====
+We explore this hypothesis in two ways. First, our sample spans a dramatic change
+in Binance leverage policy. In July of 2021, Binance reduced the maximum possible
+leverage from 125x to 50x. We see this corresponds to a drop in crypto carry trade
+returns. Second, the two flavors of perpetual contracts Binance offers, Tether-based
+and coin-based, have different risk implications for the same level of initial margin. A
+trader seeking a levered long position, all else equal, prefers the Tether-based contract
+while a trader seeking a levered short position prefers the coin-based product. This
+preference aligns with the empirical finding that the Tether-based crypto carry return
+is larger than in the coin-based contract.
+Relative to traditional derivative exchanges, the risk directly related to the viability
+of cryptocurrency exchange is particularly relevant. Many cryptocurrency exchanges
+have failed. FTX in November 2022 was the largest in a surprisingly long list. Several
+other exchanges have been sanctioned or are in jeopardy from the Commodity Futures
+Trading Commission (CFTC) and the Securities and Exchange Commission (SEC).
+For example, In August of 2021, a CFTC complaint lead to a $100 million fine against
+BitMEX and in June, 2023, the SEC filed charges against both Binance and Coinbase.
+This risk is relevant to the crypto carry trade is two fold. First, margin balance is lost
+if the exchange fails. Second, the long coin position is unhedged without the short
+position on the exchange. To quantify the risk specifically to the crypto carry trade,
+we use a calibration to show that a large 30%-40% annual probability of exchange
+bankruptcy would offset large Sharpe ratios we have observed. The FTX bankruptcy
+was a systemic event, and one of several large-scale institution failures that occur in
+this period. We use the return to the carry trade to explore this period. We see that
+the return is generally lower around these large events suggesting lower net-demand
+for long perpetual futures. We also see a few short-lived periods of very low returns
+to the crypto carry trade. The intensity and duration suggest they are related to the
+behavior of a few large accounts.
+The paper describes the cash-flows and details for the carry trade in Section 2. The
+empirical results focussed on Bitcoin, the largest cryptocurrency, presented in Section
+3. Section 4 develops a model of the market-clearing funding rate driving the crypto
+a pioneer in of cryptocurrency derivative exchanges. Arthur Hayes, BitMEX co-founder, “You can
+trade Bitcoin with 100x leverage on the most volatile asset in the history of the world, it’s a lot of
+fun.”
+5
+
+
+===== PAGE 7 =====
+carry trade returns to understand the role contract designs and exchange policies.
+Section 5 describes the empirical properties for seventeen additional cryptocurrencies.
+Section 6 considers the role bankruptcy and systemic risk using the crypto carry trader
+return. Section 7 concludes.
+2
+Perpetual Futures and The Carry Trade
+We start by describing the cash flows for a trading strategy using the perpetual
+futures contract. Here, we abstract from margin, leverage, transaction costs, and
+other details particular to the exchange. These are important details, of course, and
+we revisit them below. To fix ideas, we focus on a trade that is initiated at t and
+closed out at t + 1. Our period is 8 hours or three per day. This coincides with the
+periodicity of funding on the Binance exchange. At date t, the long and short side
+enter the contract with terms – the futures price – denoted Ft. Similar to regular
+futures market, there is no initial payment between the buyer and seller. At date-t+1,
+these positions are marked-to-market at the new futures price Ft+1. In addition, there
+is a transfer of rt,cFt from the long to the short side of the contract. The funding rate
+rt,c can be positive or negative, so the direction of the payment is just a convention.
+(Empirically, it is typically positive.) The rate is calculated by the exchange with
+a formula that is public. It changes each period based on the spread between the
+futures price Ft and the spot index price Pt. The timing on Binance happens to be
+that the rate is set at date t but is paid at t + 1. Combining the mark-to-market and
+this funding payment, cash-flows (additions or subtractions from a margin account)
+are Ft+1 −Ft −rt,cFt for the long side and Ft −Ft+1 + rt,cFt for the short side.
+In any paper involving multiple currencies, crypto or otherwise, it is helpful to be clear
+about currency unit for measuring cash flows and returns. Here, we convert all cash-
+flows to Unites States dollars (USD). We intentionally choose a non-cryptocurrency
+so that we can isolate the return characteristics of portfolio strategies separate from,
+say, a long position in a cryptocurrency. To convert cryptocurrency balances, we use
+a spot index price Pt (again, abstracting from transaction costs).
+6
+
+
+===== PAGE 8 =====
+2.1
+Tether Denominated and Settled
+Binance has two types of perpetual futures contract. One is denominated and settled
+in the underlying cryptocurrency (e.g., Bitcoin). But first, we will describe the one
+that is settled in Tether. Tether is a cryptocurrency “stable-coin” that is pegged to
+the US Dollar. The exchange Bitfinex owns and controls Tether and backs it with fiat
+currency, U.S. Treasury bonds and low-risk reserves like commercial-paper.6 Empiri-
+cally, Tether has traded very close to par with the US Dollar. Whether or not there
+is a material risk of devaluation is an interesting question (see for example, Griffin
+and Shams (2020) and Routledge and Zetlin-Jones (2021)). Initially, to describe cash
+flows, we treat Tether as fully backed and fungible with US dollars. The Tether de-
+nominated contract has higher trading volumes in our sample; as shown in Figure 2.
+For Bitcoin, for example, the Tether denominated contract is 84% of the perpetual
+volume with the coin-denominated contract, explained below, accounting for 16% of
+the volume.
+The basic components of the crypto-carry trade strategy are to own the “physical”
+coin (i.e., on the spot market) and hedge using a perpetual futures on the derivatives
+exchange.
+Table 1 outlines the Tether (think USD) cash-flows for one eight-hour
+trading period. The first line in Table 1 shows the cash flows from a long position in
+BTC; bought at Pt (e.g., the USD price of one Bitcoin) and sold at Pt+1. The second
+line in Table 1 shows the cash flows from the short perpetual futures contract on the
+exchange. Since, for the moment, we abstract from collateral the initial cash flow on
+the perpetual future is zero. The contract’s value at date t + 1 includes the change
+in futures price and the funding rt,c. Recall, that by convention the funding rt,c > 0
+is a payment from the long-side to the short-side of the contract.7. We can use these
+cash-flows to define an excess return, ϕt+1,tether, (excess of the USD risk-free rate,
+6Binance has its own backed stable coin called BUSD launched in September 2019. However,
+many Binance products still use Tether.
+7The calculation of the funding we use here coincides with the contract details at Binance. Other
+exchanges have slightly different conventions about when the funding rate is determined rt,c vs rt+1,c
+and the measurement of the position size Ft or Ft+1. For the moment, we focus on unconditional
+moments of this strategy where this specific timing assumption has little empirical impact.
+7
+
+
+===== PAGE 9 =====
+rt,$).8
+ϕt+1,tether
+=
+Pt+1 + (Ft −Ft+1) + rt,cFt
+Pt
+−(1 + rt,$)
+=
+rt,c
+Ft
+Pt
+−rt,$ +
+Ft −Pt
+Pt
+
+−
+Ft+1 −Pt+1
+Pt+1
+ Pt+1
+Pt
+(1)
+The return is composed of two parts. The first is the spread in rates between the
+funding rate paid to the short-side perpetual future contract above the risk-free rate
+(and literally this difference when Ft = Pt).
+This portion of the t + 1 return is
+determined at t. The second component is the change in basis between the perpetual
+futures price and the spot (index) price that happens from t to t + 1.
+As constructed, and with the usual assumptions on the stochastic processes for Pt
+and Ft, the excess return ϕt+1,tether is stationary, so the risk premium E[ϕt+1,tether]
+and conditional risk premium Et[ϕt+1,tether] (and higher moments) are well defined.
+2.2
+Coin Denominated and Settled Futures
+Binance and other exchanges also offer perpetual futures contracts that are settled in
+the underlying cryptocurrency coin. It is helpful to think of these as a risky gamble
+on the US Dollar price of a cryptocurrency that pays off in that cryptocurrency. For
+concreteness, we describe the case of an inverse perpetual futures contract for Bitcoin
+which is a gamble on the USD price of Bitcoin that is also settled in Bitcoin. Coin-
+settled futures are sometimes called “inverse futures” since the contract is based on
+the Bitcoin price of US dollars, or 1/Pt. The notional size of the contract size is
+specified as X US dollars (i.e., $1.00 worth of the contract) at the perpetual price Ft
+(denominated as USD per BTC). The payoff at date t + 1 depends on the change in
+the perpetual price and is defined as (X/Ft −X/Ft+1) Bitcoins if you are long and
+(X/Ft+1 −X/Ft) Bitcoins if you are short. The funding payment is also in Bitcoin,
+so the funding for this example would be rt,cX/Ft (think of the quantity X/Ft as the
+Bitcoin denominated size of the contract). As above, the convention is that rt,c > 0
+indicates payment from the long side to the short side of the trade. (Recall, we use
+8Notice that Pt > 0. For this to be a well-defined definition of a return, Pt+1+(Ft−Ft+1)+rt,cFt >
+0. Empirically, Ft+1 is close to Pt+1 so the quantity is positive. We can define an equivalent definition
+of a risk-premium using just the cash flows sidestepping the need to define a return.
+8
+
+
+===== PAGE 10 =====
+rt,c to indicate the generic funding rate for any perpetual future but we expect and
+find this rate to differ across contracts.)
+The crypto-carry trade in this market again involves a long position in the cryptocur-
+rency and a short position on the exchange. The cash flows are listed in Table 2.
+Notice that the table converts the cash flows in cryptocurrency back to USD. Similar
+to Tether Denominated contracts, we define returns net of the risk-free rate (excess
+return), ϕt+1,coin as:
+ϕt+1,coin
+=
+Pt+1
+Pt
++
+
+X
+ 1
+Ft+1
+−1
+Ft
+
++ rt,c
+X
+Ft
+ Pt+1
+Pt
+−(1 + rt,$)
+This return and Table 2 are for a long position in one unit of the cryptocurrency and
+a short position of X contracts. One could choose a position size X to, say, minimize
+variance. Here, we choose the “hedge-ratio” and set X = Ft/(1 −rt,c). This hedge
+will be perfect in the absence of basis risk. With this chosen position size, X, the
+excess return satisfies:
+ϕt+1,coin
+=
+1
+1 −rt,c
+F
+Ft+1
+Pt+1
+Pt
+−(1 + rt,$)
+=
+(1 −rt,c)−1
+ F
+Ft+1
+Pt+1
+Pt
+−1 + rt,c −rt,$ + rt,crt,$
+
+=
+rt,c −rt,$ + rt,crt,$
+1 −rt,c
++
+Ft −Pt
+Pt
+−Ft+1 −Pt+1
+Pt+1
+
+Pt+1
+Ft+1(1 −rt,c)
+(2)
+The return here has similar components as for the Tether contract in (1). The first
+term is the date-t funding return net of the risk free rate (roughly rt,c −rt,$). The sec-
+ond term reflects the risk that comes from the change in basis between the perpetual
+futures price and the spot-index price across the dates t and t + 1.
+3
+The Carry Trade - Empirical Facts for Bitcoin
+We start with Bitcoin since it is both the largest cryptocurrency and most heavily
+traded cryptocurrency. Table 3 shows the returns to the crypto-carry trade for Bitcoin
+over our sample.
+Strategy returns are calculated as defined in equations (1) and
+(2).
+The exchange operates continuously, so we annualize using 3 × 365 = 1095
+9
+
+
+===== PAGE 11 =====
+eight-hour funding periods per year.
+To calculate excess returns we use the one-
+month U.S. Treasury.9
+We compute the continuously compounded excess returns
+as log(1 + ϕt + rt$) −log(1 + rt,$). For exposition, note that if rt$ ≈0, then the
+continuously compounded excess return is approximately log(1 + ϕt) ≈ϕt.
+For comparison, Table 3 reports the continuously compounded excess returns from
+a strategy that holds a long position in BTC on the exchange. These returns are
+calculated from the spot index for each contract.10
+Finally, the table shows the
+performance of US equities over this time period.
+What stands out in Table 3 is the large Sharpe ratio of the crypto-carry trade. Bitcoin
+(BTC) the Sharpe ratio is 8.76 per year for the Tether denominated contract and
+4.93 per year for the coin denominated contract. Over this same period, 2020-08-11 –
+2023-06-23, the buy-and-hold Sharpe ratio is 0.46 per year for a long Bitcoin position
+and 0.33 for US equities. The high Sharpe ratios are from high average returns and
+particularly low volatility is particularly – much lower than a BTC long position or US
+equities. This is apparent in Figure 4 that shows the accumulated (log) wealth from
+one-dollar investment (i.e., the cumulative returns). For comparison, the accumulated
+wealth from a long position in BTC over this period is on the right axis. A simple
+long (buy-and-hold) position does grow more (note the two different scales on the
+plot), but is also much more volatile.
+Our sample period covers a of couple bull-bear runs in the price of Bitcoin.
+In-
+terestingly, the crypto-carry trade return characteristics are similar across different
+sample periods. Table 4 shows the return characteristics for narrow windows of two
+to four weeks where the underlying price of bitcoin was particularly volatile. Notice
+the crypto carry trade Sharpe Ratio is large across up and down markets. We see
+a similar pattern if we look over longer periods. Table 5 shows results across five
+periods. The crypto carry return in the two periods where BTC prices were falling
+is similar to the return in periods where BTC was rising. You can see these different
+time periods marked in Figure 3.
+9The daily observations of the one-month treasury yield, DGS1MO series from Federal Reserve
+Bank of St. Louisare converted to an equivalent rate per eight-hour period. We assume the rate is
+constant across the day and across weekends.
+10The two indices are close to identical and also similar to other indices, like that of Coinbase on
+Federal Reserve Bank of St. Louis. The slight variation is from the exchange weightings of recent
+trades and order-book information.
+10
+
+
+===== PAGE 12 =====
+There are two items to to note in Table 5. First, notice that the crypto carry trade
+return in the Tether contract is particularly large in the 2020-08-11 – 2021-04-14
+(Epoch 1). This was an era where Binance allowed exceptionally high leverage ratios.
+We discuss the role exchange leverage and the crypto carry trade return in more
+detail in Section 4. Second, during the period 2022-05-09 – 2023-06-23 (Epoch 5),
+the crypto carry trade return is at its lowest. This period includes the collapse of
+Terra/Luna, Three Arrows Capital, the bankruptcy of FTX, and the bank failure of
+Silicon Valley Bank. We will discuss these events in Section 6.
+3.1
+Return Decomposition
+Recall from equations (1) and (2) that the excess return is comprised of the funding
+rate and the realized change in basis (between the spot index price and the perpetual
+futures price). Table 6 shows the distribution of funding rates and realized basis.
+Notice the median funding rate is 0.01% per funding period (equivalent to about
+11% per year ). This is the arbitrary rate set by the exchange when basis is zero
+(Ft = Pt).11 The median basis, however, is close to zero. This suggests that it is the
+funding rate that is driving the profitability of the trade. To explore this further, for
+the Tether denominated contract, we can decompose the trade return in equation (1)
+into two components. Define.
+ϕt+1,tether
+=
+xt + yt+1
+with
+xt
+=
+rt,c
+Ft
+Pt
+−rt,$
+(3)
+yt+1
+=
+Ft −Pt
+Pt
+
+−
+Ft+1 −Pt+1
+Pt+1
+ Pt+1
+Pt
+(4)
+The xt component is the funding (and happens to be measurable with date-t infor-
+mation). The yt+1 is the component of the return that comes from the change in the
+11See https://www.binance.com/en/support/faq/360033525031.
+11
+
+
+===== PAGE 13 =====
+basis between the spot index and perpetual futures price.12
+Table 8 shows the contribution of the funding and basis to the crypto-carry trade
+return. Indeed, the funding rate drives the high mean return (the x component).
+The variation in the return is coming from both the funding and the change in spot-
+futures basis (the y component). The correlation between the two components is
+close to zero, hence the negative item in line six of the table. This is also reflected
+in Figure 5. The return component from the change in basis, yt+1 on the righthand
+column of the figure appears i.i.d.. The funding component of the return, xt in the
+lefthand column, appears serially correlated. It is notable how often the funding rate
+is pinned to the 0.01% per eight-hour period.
+The timing convention used on the Binance exchange means the funding component
+of the t + 1 return is known at date t. This means we could investigate a conditional
+version of the cryto-carry trade where, for example, the position is only placed when
+xt > 0. Over this sample, however, xt > 0 is true for much of the sample and the
+conditional strategy performance is similar to the unconditional strategy. Similarly,
+we can run the familiar regression used in commodity or uncovered interest rate
+parity of yt+1 = a + bxt + ϵt+1 (as in Fama (1984) or Hollifield and Uppal (1997)).
+The usual interpretation in such a regression is that b̸ = 1 implies a risk premium that
+is not constant. That is, Et[ϕt+1,tether] is not constant. However, that conclusion is
+evident from Table 8 and Figure 5. The expected return is driven by the variation in
+the funding component.13
+12We can do a similar decomposition for the coin-denominated strategy in equation (2)
+ϕt+1,coin
+=
+xt + yt+1
+xt
+=
+rt,c −rt,$ + rt,crt,$
+1 −rt,c
+yt+1
+=
+Ft −Pt
+Pt
+−Ft+1 −Pt+1
+Pt+1
+
+Pt+1
+Ft+1(1 −rt,c)
+Again, xt captures the funding and yt+1 the basis risk. The (1−rt,c)−1 from the payment of funding
+in the crypto-coin muddles the decomposition slightly.
+13See also Clarida, Davis, and Pedersen (2009), Ready, Roussanov, and Ward (2017), and Lustig,
+Stathopoulos, and Verdelhan (2019)).
+12
+
+
+===== PAGE 14 =====
+4
+Contract Design and Exchange Policies
+We have documented that the return characteristics to the crypto-carry trade are
+attractive. This trade is short a future contract on the exchange (hedged with a long
+position in the spot market). Driving this performance is the “funding rate” payment
+from the long side of the contract to the short position holders. This suggests that the
+large volume we see in this derivative market reflects the demand from the long side.
+That is, people are willing to pay a premium for long-side exposure to cryptocurrencies
+on an exchange relative to the spot market.
+4.1
+Market-Clearing Funding Rates
+There are two types of perpetual futures contract. The Tether-denominated contract
+is settled in Tether (USD) and the coin-denominated contract is settled in the crypto-
+currency. The differences in the two contracts are evident in the definition of the
+crypto-carry trade returns in Tables 1 and 2. Both contracts are designed to track
+the same underlying cryptocurrency spot price.
+A simple long position in either
+contract has virtually identical results (Table 3). Yet, judging by funding rate paid
+from long positions to short positions – driving the carry trade return – long traders
+on the Tether-based contract appear willing to pay more than long traders on the
+coin-based contract.
+To understand this empirical property, we develop a simple one-period model of
+derivatives trade in the spirit of Harrison and Kreps (1978). For concreteness, think
+of the single cryptocurrency as Bitcoin with spot prices of BTC as P0 and P1. With
+the date one price, P1 as a random variable. Here, we abstract from basis risk, and
+pin the perpetual futures contract price to the spot price, Ft = Pt. These assump-
+tions pin down the cash-flows from the perpetual contracts, and we will solve for the
+market-clearing funding rate r.
+Investors have initial wealth W0.
+To motivate trade in a derivative, measure wa
+have mean belief µa about the underlying cryptocurrency price return and measure
+wb = 1 −wa use mean belief µb. Setting µb < 0 < µa we can think of a as the long-
+biased traders with b as short-biased. Investors, i ∈{a, b}, can purchase n perpetual
+13
+
+
+===== PAGE 15 =====
+futures contracts to solve:
+max
+n≥0
+Ei[u(W1)]
+s.t
+W0 −nαF0 ≥0.
+The utility function has the usual u′ > 0 and u′′ < 0 properties. It is also helpful to
+assume u′′′ ≤0 so futures demands are monotonic in the funding rate.14 The definition
+of W1 depends on the contract type, Tether or coin denominated, and on whether
+the trade is long or short. The budget constraint comes from the exchange’s margin
+requirement. The position size, n ≥0, is the number of contracts the trader chooses.
+We will define the payoffs for long, nl ≥0, and short, ns ≥0 separately below. As a
+convention, think of these as “Bitcoin-sized” with each position having the notional
+value of F0. So the minimum margin requirement imposed by the exchange, α (say
+30% for example), imposes an upper-bound on position size. Whether or not this
+constraint binds at the optimum will depend on parameters. Wealth not used for
+derivative trading is invested in a risk-free asset with a risk-free return of zero.
+4.1.1
+Demand: Tether-based contract
+The date-1 wealth from a position of nl long Tether-based contracts is
+W1
+=
+W0 −αnlF0 + nl([F1 −F0 −rF0 + αF0]+)
+(5)
+Initial wealth less margin, W0 −αnlF0 is invested outside the derivative market (at
+risk-free rate of zero). The payoff on the exchange, the term in brackets, is comprised
+of the trading gain or loss, the funding, and the initial margin balance. The exchange
+is non-recourse, so the cash-flows from the exchange are bounded, hence operator
+[x]+ = max(x, 0).15 To simplify, we focus on the situation where the margin balance
+is larger and the exchange cash flows are strictly positive almost surely. In this case,
+date one wealth is
+W1
+=
+F0
+W0
+F0
++ nl
+F1
+F0
+−1 −r
+
+(6)
+14Risk aversion that does not decrease with wealth, u′′′ ≤0, is sufficient to ensure that asset
+demand increases with the mean return. See Hollifield and Kraus (2009).
+15Positions on the exchange are “non-recourse” in that you are not required to post additional
+margin. Our single-period discrete-time model abstracts from the exchange policy of near-continuous
+mark-to-market. That is in practice, the price path influences payoffs (analogous to a “knock-out”
+option”).
+14
+
+
+===== PAGE 16 =====
+An analogous exercise shows the wealth to a short position of size ns Tether contracts
+is
+W1
+=
+F0
+W0
+F0
++ ns
+
+1 −F1
+F0
++ r
+
+Recall the convention is that funding is paid from the long side to the short side at
+rate r where the rate could be positive or negative (empirically we observe it is most
+frequently positive).
+4.1.2
+Demand: Coin-based contract
+The date-1 wealth from a position of nl long coin-based contracts is
+W1
+=
+W0 −αnlF0 +
+
+(nlF0)
+ 1
+F0
+−1
+F1
+
+−nlr + αnl
+
++
+
+F1
+(7)
+As above, W0 −αnlF0 is wealth invested outside the derivative market (at rate
+zero). The cash-flows from the exchange are more complicated since they are denom-
+inated/paid in BTC. These BTC cash-flows are trading gain, funding, and margin
+balance. They are converted to dollars at the price F1 (which is equivalent to P1 un-
+der our setting). Again, consider the case where the exchange cash flows from profit
+and margin are strictly positive. Then,
+W1
+=
+F0
+W0
+F0
++ nl
+F1
+F0
+−1 −r
+
++ nl(α −r)
+F1
+F0
+−1
+
+(8)
+Comparing (6) to (8), shows the difference between the Tether and Coin denominated
+contracts. The coin-based contract has additional exposure to the date-one BTC price
+because the margin and funding are in BTC. Similarly, for a short position, wealth is
+W1
+=
+F0
+W0
+F0
++ ns
+
+1 −F1
+F0
++ r
+
++ ns(α + r)
+F1
+F0
+−1
+
+Here, the margin and the funding paid in BTC offsets some of the exposure from the
+short position.
+15
+
+
+===== PAGE 17 =====
+4.1.3
+Tether based versus coin-based contract
+To compare the contract types, define (overall) leverage as the (absolute value of
+the) percentage change in date-one wealth relative to a percentage change in the
+cryptocurrency price.
+Since we are comparing across contracts, think of nT,l and
+nC,l as long positions in Tether-based and coin-based contracts. Similarly, for short
+positions nT,s and nC,s in Tether-based and coin-based. All of these calculations are
+under the simplifying assumption that margin balance less trading losses remains
+positive.
+L
+=
+
+∂W1/W0
+∂F1/F0
+ = F0
+W0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tether-based
+Coin-based
+long
+nT,l
+nC,l(1 + α −r)
+short
+nT,s
+nC,s(1 −α −r).
+(9)
+For the long position in the Tether contract, the leverage is the notional amount of
+the position F0nT,l relative to wealth W0. However, for the coin-based contract this is
+amplified by the margin position and funding that are paid in BTC. Quantitatively,
+the minimum margin requirement (say α = 0.3) is an order of magnitude larger than
+the funding rate (r = 0.001 per 8-hour period). On the short-side, the exposure
+created by a short position is mitigated by the margin position and funding-received
+that are both in BTC.
+A trader’s choice of a desired level of cryptocurrency exposure, L, will depend on
+preferences, u, and beliefs, µi. The importance of equation (9) is in translating this
+L, to the number of contracts. For a given L, a long trader will choose nT,l > nC,l
+while a short trader will choose nT,s < nC,s.16 This will imply the market-clearing
+funding rate for Tether-based contracts is higher than for Coin-based contracts. This
+is consistent with what we have seen in the data for BTC in Table 3. As we will
+explore below, this also holds for other cryptocurrencies.
+16This holds when position sizes are strictly positive.
+The conditions that imply nT,l = 0 or
+nC,l = 0 (e.g., a high value of r) are slightly different across the contract types.
+16
+
+
+===== PAGE 18 =====
+4.1.4
+Market-Clearing and Leverage
+An important and unusual feature of cryptocurrency derivative markets is very high
+leverage. We can see the connection between leverage, the crypto-carry trade perfor-
+mance, and its implied statement about long-side demand from a change in Binance’s
+leverage policy. In the early portion of our sample Binance’s maximum leverage was
+125x (an α = 0.008). On 2021-07-23, Binance made several changes related to lever-
+age. In particular, maximum leverage was reduced to 50x. There were also stricter
+leverage maximums for newly created accounts and new educational material targeted
+towards smaller traders.17 We can use our model to understand the potential impact
+of a change in leverage. As we will see, the change in leverage policy only has an
+impact if the exchange’s leverage constraint is binding.
+In this setting, the beliefs about mean future spot prices are µb < 0 < µa. So b
+traders are short and a traders are long. Since we have assumed the contract price is
+pinned to the spot price, Ft = Pt, the funding rate r adjusts so the aggregate demand
+of longs and shorts is equal: wanl + wbns = 0 (the futures market is zero-net supply).
+For illustration, we treat the Tether and coin-based contracts separately and then
+compare their equilibrium outcomes. Some numerical illustrations are in Figure 9.
+For context, think of BTC with log F1
+F0 ∼N(µ, σ) setting and σ = 0.0203 – an 8-hour
+volatility (equivalent to a 0.6729 per year). This is calibrated to observed volatility
+in our sample. The traders beliefs are aggressive, with µa = 0.02 and µb = −0.01,
+but they are risk averse with a relative risk aversion of 7.5.18
+In Figure 9(a) the proportion of wealth of the long, a, and short, b, traders is about
+equal with wa = 0.49 and wb = 0.51. The exchange’s minimum margin is α = 0.15.
+At very low funding rates, the long demand is constrained by the exchange’s minimum
+margin requirement. At very high funding rates, the short-side demand is constrained.
+17The announcement was concurrent to a New York Times article that was critical of high-
+leverage exchanges (“Crypto Nomads:
+Surfing the World for Risk and Profit” by Eric Lipton
+and Ephrat Livni, New York Times, 2021-07-23, https://www.nytimes.com/2021/07/23/us/
+politics/crypto-billionaires.html). Note, the the New York Times article references Soska,
+Dong, Khodaverdian, Zetlin-Jones, Routledge, and Christin (2021).
+18Preferences are u(W1) = 1/γ(c + W1)γ with γ = −6.5 and c = 0.1. The c term is helpful for
+computations when W1 happens to be close to zero. However, in this calibration, over the 100, 000
+draws W1 > 0 for both traders. Other calibrations can yield W1 = 0 with positive probability.
+However, they produce similar figures.
+17
+
+
+===== PAGE 19 =====
+However, with these parameters, the market-clearing funding rates for both the Tether
+and coin denominated contracts occurs where both sides are unconstrained by the
+margin requirement. Notice that the Tether funding rate is higher than the coin rate
+is consistent with equation (9).
+Figure Figures 9(b) has the same parameterization as in (a) except the minimum
+margin rate is increased to α = 0.16. This lowers the maximum leverage. Notice
+that this reduces the maximum position for the long and short side for both Tether
+and coin contracts. However, the constraint imposed by this new minimum margin
+requirement is still not binding at the market-clearing funding rate. So the market-
+clearing rate for the Tether contract is unchanged. For the Tether contract, as we
+saw in equation (6), the α plays no role in the determining payoffs.19 For the coin-
+denominated contract, since the margin is stored in the native cryptocurrency, the
+change in the minimum margin impacts the demands of the long and short side (see
+equation (9)). However, the change to the market-clearing funding rate is small.
+Figure 9(c) and (d) present a numerical example where a change in leverage policy
+has a larger impact. The parameters here are all the same except the wealth of the
+two groups are more disperse with wa = 0.42 and wb = 0.58. In this case, starting
+with Figure 9(c), the margin minimum, α = 0.15, is a binding constraint for the
+long side for both Tether and coin contracts. Notice the market-clearing funding
+rate coincides with the long-side constraint. The lower rate for the coin contract is,
+again, driven by the short traders “extra” demand for contracts to offset the exposure
+from the margin position held in the cryptocurrency (equation (9)). Since the margin
+minimum is binding, not surprisingly, increasing the margin minimum to α = 0.16
+in Figure 9(d) impacts the funding rate in both contracts. Here, the market-clearing
+rates fall for both contracts Tether and coin denominated contracts. And, in this
+case, trading volume also falls.
+In the Bitcoin data, the higher leverage era has much higher funding rates. Table
+11 shows the crypto carry trade Sharpe ratios for a window around the change in
+leverage. This is also seen in the Table 3 where “Epoch 1” coincides with higher
+19The leverage in your position matters – the size of the future’s position relative to your wealth.
+But given our simplified setting where the exchange cash flows are strictly positive almost surely,
+whether or not your wealth is on margin at the exchange or in an outside bank account is unimportant
+for the Tether contract.
+18
+
+
+===== PAGE 20 =====
+leverage at Binance. That the Binance leverage change impacted funding rates for
+both coin and Tether contracts is consistent with a binding minimum margin rate.
+That the funding rate fell is consistent with constraint being binding on the long
+side.20 We also explore this result across other cryptocurrencies below.
+5
+The Carry Trade - Empirical Facts
+We have focussed on Bitcoin since it is both the largest and most heavily traded.
+Our data includes Bitcoin and seventeen other large cryptocurrency coins that had
+both a Tether and Coin denominated perpetual futures contract at the beginning of
+our sample on 2020-08-11. For each of these contracts, we calculate the crypto carry
+trade returns in the same manor as with BTC. The return is defined in equation (1)
+for “Tether Contract” and in equation (2) for the “Coin Contract.” The returns from
+the crypto carry trade for the Tether and coin denominated contracts are in Table 9
+and in Figure 6. The results mirror what we saw in Bitcoin. First, the crypto carry
+trade has high realized returns and low realized variance. The Sharpe ratios are, for
+most coins, relatively high. Second, as with BTC, the crypto carry trade performance
+is unrelated to the realized performance of the buy-and-hold strategy for that coin
+(Figure 6). Third, the performance using the Tether-denominated contact is typically
+larger than the coin-denominated contract. Finally, as with the BTC trade, the higher
+leverage era has much higher funding rates. Figure 8 plots the carry trade mean and
+standard deviation across the higher and lower leverage period (a window around the
+July 2021 policy announcement of Binance). It is interesting to note that the leverage
+policy also reduced the volatility of the carry trade return. This primarily reflects a
+lower variation in the funding rate after July 2021. Overall, Sharpe ratios decreased
+across the coins following the leverage change.
+Our simple model of the market-clearing funding rate that drives the crypto carry
+trade returns is a “sentiment” (the wealth weights and heterogenous beliefs). Perhaps
+not surprising, that sentiment is positively correlated across different cryptocurren-
+cies. The correlation across crypto carry trade returns across the different coins is
+20In cases where the short side is constrained by the margin requirement, increasing the minimum
+margin requirement increases the funding rates on both Tether and coin contracts.
+19
+
+
+===== PAGE 21 =====
+generally positive. For Tether contracts, the cross-carry-trade correlations range from
+0.06 to 0.56. The range is similar for the Coin denominated contracts from −0.01 to
+0.45. For both contract types, the Bitcoin-Ether (BTC-ETH) pair has the highest
+correlation. All the correlation pairs are plotted in Figure 7. Within each coin and
+across contract types, the return correlations, shown in Table 12 are also positive.
+The one cryptocurrency that stands out is Binance Coin (BNB). BNB was created
+at the Initial Coin Offering (ICO) of the Binance exchange in July of 2017. It was
+created as a “utility token” where the coin can be used to pay trading fees on the ex-
+change. Initially, like most ICOs of that time, the BNB coin existed on the Ethereum
+blockchain (an “ERC-20” token). In April 2019, Binance created a new blockchain,
+“Binance Chain” that also records BNB coin ledger transactions. The Sharpe ratio
+for the crypto carry trade on BNB is at the lowest of those shown on Table 9. Table
+10 documents the reason is the unusually low, funding rate (the x component of the
+carry-trade return in equation (3)). BNB is the only currency in our sample with
+mean funding rates that are negative. Recall, that by convention, the negative fund-
+ing rate means that holders short contract positions pay to holders of long positions
+in BNB. Many of the coins listed in Table 9 share a similar evolution to BNB. For
+some, the underlying blockchain is Ethereum and others it is a coin native to an-
+other blockchain. Many also are issued as “utility tokens” with some ability to cover
+transaction costs. That the BNB coin, issued by the exchange, happens to trade with
+distinct properties is interesting.
+6
+Liquidation, Bankruptcy, and Systemic Risk
+Cryptocurrencies and cryptocurrency exchanges are unsettled along many dimensions.
+In this section we look at three dimensions of this risk. First, cryptocurrency prices are
+volatile and we quantify the importance of “liquidation.” Second, crypto exchanges
+are risky. FTX bankruptcy in November, 2022 was very large but one of many failed
+exchanges. We explore the implications of exchange bankruptcy for the carry trade.
+Finally, FTX was only one of several systemic risk events that occurred in this period.
+We use the crypto carry trade returns through this May 2022 to March 2023 period
+to explore how perpetual futures markets reflected this market instability.
+20
+
+
+===== PAGE 22 =====
+6.1
+Liquidation Risk
+The high volatility of cryptocurrency prices and highly levered positions result in
+many positions having trading losses that exceed their posted margin. Indeed, these
+liquidations where the exchange closes the position and the trader receives zero are
+common (Soska, Dong, Khodaverdian, Zetlin-Jones, Routledge, and Christin (2021)).
+As mentioned, the positions on the exchange are “non-recourse” so traders can choose
+to post additional margin to avoid liquidation, but are not required to do so. Liquida-
+tion, however, is not costless. When a trader enters into a perpetual futures contract
+at price Ft, they establish a margin position at the exchange by depositing αFt dollars
+(for a moment, focus on the Tether-denominated account). The exchange policy has
+a minimum bound on α for initiating a new position. Subsequently, the exchange
+has a “maintenance margin” requirement that is used as the trigger for liquidation.
+The size of the maintenance margin varies by account size and initial leverage but
+is typically less than 1/2 of the initial margin. The automated liquidation sells (or
+buys) until your position is back within limits and charges a “liquidation fee.” With
+the volatility of cryptocurrency prices, complete liquidations are not uncommon. Ef-
+fectively, this is costly since the position is closed prior to the margin balance reaching
+zero but with the trader receiving zero.
+How does the margin size determine the probability of liquidation? Interestingly, the
+probability of liquidation differs across the Tether and coin denominated contracts.
+If we look at equation (5) for a Tether long position and the analogously for a short
+position, the conditions for the position being liquid (i.e., trading losses are not larger
+than the margin) are:
+Long Tether:
+Ft+1
+Ft
+≥1 −α −r
+(10)
+Short Tether:
+Ft+1
+Ft
+≤1 + α + r
+(11)
+Similarly, for the coin denominated contract from equation (7). Here, solvency re-
+quires:
+Long Coin:
+Ft+1
+Ft
+≥
+1
+1 + α −r
+(12)
+Short Coin:
+Ft+1
+Ft
+≤
+1
+1 −α −r
+(13)
+21
+
+
+===== PAGE 23 =====
+The long position in the Tether-based contract is familiar. If you choose to fully
+collateralize your position with α = 1 + r there is no leverage and liquidation is
+avoided with certainty (assuming prices are positive). With the long position in the
+coin contract, things are different. Here, no value for α can avoid liquidation with
+certainty (unless prices are bounded from above). For a coin-denominated contract,
+a long position in Bitcoin is effectively a short position on dollars. This is similar to
+the analysis in Section 4.1.3. A long investor “prefers” the Tether over coin contract.
+If an investor was seeking a long position with a fixed margin level α, the Tether-
+based future has a lower liquidation probability than a coin-based contract. A short
+investor has the opposite preference. There is lower liquidation probability in the
+coin denominated contract than in the the Tether denominated contract.
+Quantitatively, we explore margin and liquidation probability in Figure 10. We cali-
+brate this to 8-hour periods. At the start of each period, margin is set to α. In the
+interim, no additional funds are deposited or withdrawn. Liquidation occurs if the
+margin balance at the end of the period is negative. Assume log (Ft+1/Ft) ∼N(µ, σ2).
+We set µ = 0 and the funding rate, r = 0 to focus on the key volatility parameter.
+For volatility, we explore two values for σ. First, we use the the sample standard
+deviation of the log change in BTC Tether-denominated perpetual futures price over
+our sample.21 This value is σ = 0.0203 per period (0.6729 per year) in Figure 10 (a)
+and (b). The second value we take from a seven-day rolling volatility estimate. From
+this calculation, the 99th percentile is. This value is σ = 0.0400 per period (1.3237 per
+year) and is used in Figure 10 (c) and (d). Finally, the probability of liquidation over
+any eight-hour window is very small, so the the liquidation probability is reported as
+the probability of one (or more) liquidations per year (or 365 × 3 = 1, 095 eight hour
+periods in a year).22
+From Figure 10(a) and (b), for small margin balances, say at 8%, the likelihood of a
+liquidation over the coming year is large at 10% to 30% depending on contract and
+position direction. However, with slightly higher margin levels, say 12%, the risk of
+liquidation in an 8-hour window is small. With higher volatility, Figure 10(c) and
+21Calibrating using the coin-denominated futures price or the daily spot price from Federal Reserve
+Bank of St. Louis gives almost identical results.
+22Mechanically, we scale to the annual equivalent assuming independent Bernoulli events. With
+probability of liquidation over any 8-hour period denoted p, the probability one or more liquidations
+happen over a year, pannual, is calculated as pannual = 1 −(1 −p)1095.
+22
+
+
+===== PAGE 24 =====
+(d), the 12% margin implies a high liquidation risk. Here, a margin of closer to 20%
+is needed to make liquidation risk minimal. In both examples, note the impact of
+contract type. At the same margin, long Tether contract has a lower risk than long
+a coin contract. In fact, in this example with the assumption that the drift in the
+underlying Bitcoin price is zero, µ = 0, and that we set the funding rate r = 0, the
+probability of liquidation across contract types is symmetric.
+6.2
+Exchange Bankruptcy
+Cryptocurrency exchange regulation is underdeveloped and ambiguous. Typically,
+customer margin deposits at a cryptocurrency exchanges are not covered by any pro-
+gram like the Federal Deposit Insurance Corporation (FDIC) or the Securities Investor
+Protection Corporation (SIPC). In bankruptcy, depositors are treated as unsecured
+creditors – it is not the case that customer margin balances are considered the “cus-
+tomer’s property.”23 This is important since Cryptocurrency exchanges businesses
+are risky. There is a long list of prominent, high-volume exchanges that have failed:
+from MtGox in February of 2014 to FTX in November of 2022.24
+The impact of exchange bankruptcy risk for the crypto carry trade depends on how the
+trade is executed. Recall, the trade is long a “physical” coin and short an exchange-
+traded perpetual futures contract. Storing the long coin on the exchange as margin is
+a convenient method of execution. However, that convenience comes with a large loss
+if the exchange fails. An execution strategy with less exchange exposure holds the long
+coin off of the exchange (in a wallet) and keeps the margin balance at the exchange
+small. To quantify the risk, implement the crypto carry trade so that the margin
+balance at the beginning of each period to be αFt, where α is the margin ratio. Table
+13 shows returns for a Tether-denominated contract and Table 14 shows returns for
+coin-denominated contract.25 The returns depend on whether the exchange is solvent
+23“Bad News for 500K Crypto Investors: They Don’t Own Their Accounts,” Slashdot, January
+07, 2023, or “FTX’s International Customers Lawyer Up, Ask Judge to Rule That Customer Assets
+Aren’t Property of FTX Estate,” Coindesk, December 30, 2022.
+24Even prior to the MtGox failure in 2014, many exchanges failed. See Moore and Christin (2013).
+25Tables 13 and 14 assume the margin position is sufficient to cover the perpetual position. Recall,
+that even for a modest level of α, the likelihood the on-exchange margin cannot cover trading losses
+of the on-exchange perpetual contract, requiring injecting more funds into the exchange, over the
+8-hour window is small – see Figure 10(a)).
+23
+
+
+===== PAGE 25 =====
+or bankrupt.
+As above, it is helpful to abstract from the basis risk and assume
+Ft = Pt at each date and consider log Ft+1/Ft ∼N(µ, σ2). The log-approximation of
+the returns (last line in each Table 13 and 14) helps make things clearer. Letting λ
+represent the probability that the exchange goes bankrupt over the trading window,
+we can write the mean and variance of the crypto carry returns (for either the Tether
+or the coin contract) as
+E[rt+1]
+=
+r + λ(µ −r −α)
+(14)
+V (rt+1)
+=
+λ(1 −λ) (µ −r −α)2 + λσ2
+(15)
+The first term in the expected return is the the funding rate.
+The second term
+captures that, in exchange bankruptcy, the funding is not paid, the margin (α) is
+lost, and the off-exchange long position is not hedged (µ is the expected return on
+the underlying cryptocurrency). The variance of the return reflects two components.
+The first component reflects the risk from the lost funding and margin. The second
+term is the risk from the naked long position that occurs when the perpetual futures
+contract hedge is lost due to the exchange bankruptcy.
+To quantify the impact of exchange bankruptcy risk, we calibrate an example where,
+in the absence of exchange bankruptcy risk, the (annual) Sharpe ratio of the crypto
+carry trade is approximately the sample average value of 5 for both the Tether and coin
+denominated contracts. Starting with both contracts at the same value will isolate
+the impact of exchange risk across the contract types. Set funding to r = 0.0103% per
+period (or 11.25%per year). The funding rate calibrates the x component in equation
+(3). We set the “basis risk,” the y component in equation (4) to 0.000604 per period
+(or 0.0200 per year). In the event of bankruptcy, we assume the long position is
+exposed for the whole eight-hour period. This is captured as log Ft+1/Ft ∼N(µ, σ2).
+We consider a “normal” scenario with µ = 0 and an average volatility of σ = 0.0203
+per period (0.6729 per year). Second we consider a distressed market with higher
+volatility, σ = 0.0400 per period (1.3237 per year). This is the 99th percentile from
+a seven-day rolling volatility calculation. We also assume the market is falling and
+set µ = −0.0649. That is −6.5% per period (or −7109% per year) and is the first
+percentile of BTC returns observed in our sample. For example, the return for the
+eight-hour window 2022-11-09 23:59:00, near to the day FTX declared bankruptcy,
+was −0.0730.
+24
+
+
+===== PAGE 26 =====
+Figure 11 plots the Sharpe ratio of the crypto carry trade as a function of the
+bankruptcy likelihood, λ. To facilitate interpretation, λ is stated as an annual rate.
+That is, a 1 −λ chance that the exchange survived all 1, 095 eight-hour periods
+in a year. Figure 11(a) is for the Tether-denominated contact and Figure 11(b) is
+for the coin-denominated contract.26 The impact of exchange bankruptcy is slightly
+smaller for the coin-denominated contract. This is because overall value of the po-
+sition smaller. In the coin contract, part of the coin is used for margin. But this
+difference across the contract types is minor. The large impact comes from the lost
+margin, α, in bankruptcy. The difference in volatility across the two scenarios is mi-
+nor. Almost all of the difference between the “normal” and “distressed and falling”
+scenarios is coming from the significant drop in the spot price for the now naked
+position in the underlying coin.
+Empirically, we have documented that the Sharpe ratio for the crypto carry trade is
+large. How much does the risk of exchange bankruptcy dampen that conclusion? The
+dashed Figure 11(a) and (b) is at 0.3, roughly the Sharpe ratio on US equities. So if
+the carry trade is executed with a margin balance of α = 0.1 and assumed the market
+was in the “distressed” market calibration, then a bankruptcy probability of 40%
+per year would set the carry trade Sharpe ratio to a value in line with US equities.
+That seems an overly large frequency of bankruptcy. At smaller levels of margin and
+less pessimistic assumptions for the spot market moments, the implied probability of
+exchange bankruptcy is much larger.
+6.3
+Systemic Risk
+The previous section looked the likelihood an exchange may fail.
+But, of course,
+FTX did fail and file for bankruptcy on 2022-11-11.
+The collapse of FTX was a
+large event in cryptocurrency. It was the second largest exchange by volume at the
+time.
+However, during this period, there were several large institutional failures.
+Terra/Luna, a large stable coin, collapsed on 2022-05-09. The large crypto-focused
+hedge fund Three Arrows Capital filed for bankruptcy on 2022-06-22. Finally, the
+bankruptcy of Silicon Valley Bank occurred on 2023-03-10. Although Silicon Valley
+26Calculations in Figure 11 use the “Log-Returns” line in Tables 13 and 14 and not the log-
+approximation.
+25
+
+
+===== PAGE 27 =====
+Bank (SVB) was not itself a cryptocurrency institution, its collapse had a large impact
+on the stable coin USDC since the company backing that coin had significant deposits
+at SVB.
+Figure 12 shows spot and derivative volume (across many exchanges) through this
+period. Each of the four crisis events coincides with an increase in spot and derivative
+trading volume. In Figure 13 we see the BTC price volatility that co-occurs with these
+events. The usual asset pricing model would interpret the price changes as changes
+in the outlook for cryptocurrencies – beliefs are less optimistic or more pessimistic.
+The crypto carry trade return around these events offers a different insight. Recall,
+in Section 4, the future’s price is pinned to the spot price. At that (say, now lower)
+price, the demands of long and short traders are equated through the funding rate.
+That funding rate could be lower or higher. This is analogous to the slope of the
+futures curve in traditional dated-futures contracts. When the spot oil price falls,
+the dated-futures price could fall by more or less. As we saw in Tables 4 and 5, the
+funding rate and the crypto carry trade return are not directly correlated to a falling
+spot price. So it is interesting we see in Table 5 (Epoch 5) that through this period
+of systemic crises that indeed the crypto carry trade return is lower.
+Figures 14(a) and (b) shows the time series of the funding and basis components
+of the return (recall equations (3) and (4)). In Section 4 we assumed no basis risk
+(Ft = Pt) and solved for market-clearing funding rate. In practice, the funding rate
+is set with a mechanical formula that is a rate of 0.01% per eight-hour period plus an
+adjustment that depends on the traded perpetual futures price Ft through the basis,
+Ft−Pt
+Pt . So both the funding and basis will reflect long and short demand in a period.
+Figure 14(b) shows the basis through this period. There you can see the increased
+variability of the basis around the listed events. The mean basis is around zero and
+this is consistent with the whole sample in Table 8. Empirically, Ft ≈Pt, and the
+funding rate drives the crypto carry return. The funding rates in this period are, in
+general lower. In Figure 14(a) we see that the funding rate (the key component in xt
+equation (3)) clusters lower around each of these events. In addition, there were a few
+very low funding rates that coincide with the FTX and SVB events. On Figure 14(a)
+note that −0.0010 or negative 0.1% per 8 hours is negative 113% per year. These
+very low rates were short-lived, but are notable in size.
+The smaller funding rates reflect the smaller net-demand for long positions. Presum-
+26
+
+
+===== PAGE 28 =====
+ably some of this is from long-side traders reducing leverage or exiting. In particular,
+some of the reduction comes from traders being liquidated (margin balance dips to
+zero) – liquidations are correlated with price drops (Soska, Dong, Khodaverdian,
+Zetlin-Jones, Routledge, and Christin (2021)). It will be interesting to investigate,
+perhaps using account-level data, if the few very large negative levels of funding are
+associated with a few large accounts or if it was more widespread short positions.
+7
+Conclusion
+In this paper, we study the properties of a cryptocurrency derivative exchange. Specif-
+ically, we document that the return on the crypto carry trade is high and the volatility
+return is small. This trade that has a short position on the exchange has particu-
+larly attractive returns (high Sharpe ratio). The driving component for this return
+is the payment – called “funding” on the exchange – from the long-side contract
+holder. This implies that a long exchange position is an expensive way to be long
+cryptocurrencies. We argue that this represents long-side’s willingness to pay for ac-
+cess to leverage. This view seems consistent with the data and the cross-sectional
+characteristics of the exchange’s contract offerings.
+Regulating cryptocurrencies and the related technologies of blockchain is, of course, a
+large challenge with both a quickly changing landscape and ambiguity about agency
+domain.27. In addition, and more specifically to exchanges, there is yet little under-
+standing of who is trading in these markets and why. In this paper, use the returns
+to the crypto carry trade to suggest that, for much of the period we study, there is a
+large appetite for leverage to be long cryptocurrency exposure. The strength of that
+demand seems particularly relevant as regulators in the United States and elsewhere
+consider the role of derivative markets in cryptocurrency.
+27For example, “Coinbase, Tarred as an Illicit Exchange by the SEC, Quietly Got Regulated
+Elsewhere in the U.S.” Coindesk 2023-08-17 https://www.coindesk.com/policy/2023/08/17/
+coinbase-tarred-as-an-illicit-exchange-by-the-sec-quietly-got-regulated-elsewhere-in-the-us
+underscores the difference in regulation from the CFTC and the SEC.
+27
+
+
+===== PAGE 29 =====
+References
+Augustin, P., A. Rubtsov, and D. Shin (2023): “The impact of derivatives on spot
+markets: Evidence from the introduction of bitcoin futures contracts,” Management Sci-
+ence, forthcoming.
+CFTC (2008): “Staff Report on Commodity Swap Dealers and Index Traders with Com-
+mission Recommendations,” Discussion paper, Commodity Futures Trading Commission.
+Clarida, R., J. Davis, and N. Pedersen (2009): “Currency carry trade regimes: Be-
+yond the Fama regression,” Journal of International Money and Finance, 28(8), 1375–
+1389.
+Fama, E. F. (1984): “Forward and spot exchange rates,” Journal of monetary economics,
+14(3), 319–338.
+Griffin, J. M., and A. Shams (2020): “Is Bitcoin really untethered?,” The Journal of
+Finance, 75(4), 1913–1964.
+Hamilton, J. (2009): “Causes and Consequences of the Oil Shock of 2007-08,” NBER
+Working Paper.
+Harrison, J. M., and D. M. Kreps (1978): “Speculative investor behavior in a stock
+market with heterogeneous expectations,” The Quarterly Journal of Economics, 92(2),
+323–336.
+Hollifield, B., and A. Kraus (2009): “Defining bad news: changes in return distribu-
+tions that decrease risky asset demand,” Management science, 55(7), 1227–1236.
+Hollifield, B., and R. Uppal (1997): “An examination of uncovered interest rate parity
+in segmented international commodity markets,” The Journal of Finance, 52(5), 2145–
+2170.
+Lustig, H., A. Stathopoulos, and A. Verdelhan (2019): “The term structure of
+currency carry trade risk premia,” American Economic Review, 109(12), 4142–77.
+Masters, M. W. (2008): “Testimony before the committee on homeland security and
+governmental affairs,” US Senate, Washington, May, 20.
+Moore, T., and N. Christin (2013): “Beware the middleman: Empirical analysis of
+Bitcoin-exchange risk,” in Financial Cryptography and Data Security: 17th International
+Conference, FC 2013, Okinawa, Japan, April 1-5, 2013, Revised Selected Papers 17, pp.
+25–33. Springer.
+Ready, R., N. Roussanov, and C. Ward (2017): “Commodity trade and the carry
+trade: A tale of two countries,” The Journal of Finance, 72(6), 2629–2684.
+28
+
+
+===== PAGE 30 =====
+Routledge, B., and A. Zetlin-Jones (2021): “Currency stability using blockchain
+technology,” Journal of Economic Dynamics and Control, p. 104155.
+Routledge, B. R., D. J. Seppi, and C. S. Spatt (2000): “Equilibrium Forward Curves
+for Commodities,” Journal of Finance, 60, 1297–1338.
+Shiller, R. J. (1993): “Measuring asset values for cash settlement in derivative markets:
+hedonic repeated measures indices and perpetual futures,” The Journal of Finance, 48(3),
+911–931.
+Soska, K., J.-D. Dong, A. Khodaverdian, A. Zetlin-Jones, B. Routledge, and
+N. Christin (2021): “Towards Understanding Cryptocurrency Derivatives: A Case
+Study of BitMEX,” in Proceedings of the 30th international conference on World Wide
+Web.
+Wright, B. D. (2011): “The Economics of Grain Price Volatility,” Applied Economic
+Perspectives and Policy, 33, 32–58.
+29
+
+
+===== PAGE 31 =====
+Table 1: Tether Denominated and Settled
+t = 0
+t = 1
+Buy one “physical” coin
+−Pt
+Pt+1
+Hedge with perpetual
+0
+(Ft −Ft+1) + rt,cFt
+−Pt
+Pt+1 + (Ft −Ft+1) + rt,cFt
+The cash-flows from the positions established at date t = 0 are realized at date t = 1 (a period in
+our empirical analysis is 8 hours). Cash flows are Tether (equivalent to USD). Note this abstracts
+from transaction costs and exchange margin requirements.
+Table 2: Coin Denominated and Settled
+(USD Cash Flows)
+t = 0
+t = 1
+Buy 1 Bitcoin coin
+−Pt
+Pt+1
+Hedge with X perpetual contracts.
+0
+
+X
+
+1
+Ft+1 −1
+Ft
+
++ rt,c
+X
+Ft
+
+Pt+1
+−Pt
+Pt+1 +
+
+X
+
+1
+Ft+1 −1
+Ft
+
++ rt,c
+X
+Ft
+
+Pt+1
+The cash-flows from the positions established at date t = 0 are realized at date t = 1 (a period in
+our empirical analysis is 8 hours). Cash flows shown are USD. The coin-based contract settles in
+cryptocurrency. We use Pt+1 to convert to USD equivalent. Note these cash flows abstract from
+transaction costs and exchange margin requirements.
+30
+
+
+===== PAGE 32 =====
+Table 3: Trading Strategy Returns
+8 hour funding window - annualized
+Strategy
+Mean
+Std
+Sharpe
+Carry Trade - Tether
+14.26%
+1.63%
+8.763
+Carry Trade - Coin
+10.86%
+2.20%
+4.929
+Long Spot (Perpetual Index Price)
+32.61%
+67.30%
+0.485
+Long Spot (Coin Index Price)
+31.22%
+67.57%
+0.462
+US Equities
+6.50%
+19.83%
+0.328
+The Mean and Standard Deviation are for excess returns (the return in excess of the
+risk-free rate). The Sharpe Ratio is the Mean divided by the Standard Deviation. All
+moments are converted to be annual rates. The Carry Trade is defined in equation
+(1) for “Tether Contract” and in equation (2) for the “Coin Contract.” The return to
+a long buy-and-hold using Tether and the Coin contracts is shown. These returns are
+close to identical and only the buy-and-hold for Tether is shown in following tables.
+BTC Data is from Binance Bitcoin (BTC): 2020-08-11 – 2023-06-22 (N=3138). US
+Equities is the excess return over the same period is from Ken French/CRSP.The
+risk-free rate for calculating excess returns is the one-month U.S. Treasury bond –
+DGS1MO from FRED.
+31
+
+
+===== PAGE 33 =====
+Table 4: Trading Strategy Returns
+8 hour funding window - annualized
+Strategy
+Mean
+Std
+Sharpe
+n
+Up 1: 2021-01-26 – 2021-02-20
+Carry Trade - Tether
+86.44%
+3.18%
+27.147
+75
+Carry Trade - Coin
+62.42%
+3.47%
+17.979
+75
+Long Spot
+799.90%
+103.38%
+7.737
+75
+Down 1: 2021-05-07 – 2021-05-22
+Carry Trade - Tether
+50.80%
+3.47%
+14.624
+45
+Carry Trade - Coin
+43.74%
+4.88%
+8.967
+45
+Long Spot
+−1, 010.63%
+120.71%
+−8.373
+45
+Up 2: 2021-09-27 – 2021-10-18
+Carry Trade - Tether
+11.27%
+1.34%
+8.422
+63
+Carry Trade - Coin
+9.76%
+1.50%
+6.515
+63
+Long Spot
+616.51%
+61.19%
+10.076
+63
+Down 2: 2021-11-08 – 2021-12-05
+Carry Trade - Tether
+20.07%
+1.63%
+12.291
+81
+Carry Trade - Coin
+14.06%
+1.62%
+8.690
+81
+Long Spot
+−340.58%
+79.57%
+−4.280
+81
+Down 3: 2022-04-10 – 2022-06-21
+Carry Trade - Tether
+4.00%
+1.01%
+3.946
+216
+Carry Trade - Coin
+0.63%
+1.14%
+0.556
+216
+Long Spot
+−371.30%
+77.05%
+−4.819
+216
+The Carry Trade is defined in equation (1) for “Tether Contract” and in equation
+(2) for the “Coin Contract.” The return to a long buy-and-hold is for the Tether
+contract. Subsamples are from from Binance Bitcoin (BTC): 2020-08-11 – 2023-06-
+22 (N=3138).
+32
+
+
+===== PAGE 34 =====
+Table 5: Trading Strategy Returns
+8 hour funding window - annualized
+Strategy
+Mean
+Std
+Sharpe
+n
+Epoch 1: 2020-08-11 – 2021-04-14
+Carry Trade - Tether
+38.93%
+2.29%
+17.005
+738
+Carry Trade - Coin
+29.82%
+3.29%
+9.059
+738
+Long Spot
+250.70%
+74.73%
+3.355
+738
+Epoch 2: 2021-04-14 – 2021-07-19
+Carry Trade - Tether
+19.54%
+2.30%
+8.489
+288
+Carry Trade - Coin
+15.02%
+2.68%
+5.613
+288
+Long Spot
+−263.44%
+92.26%
+−2.855
+288
+Epoch 3: 2021-07-19 – 2021-11-07
+Carry Trade - Tether
+14.64%
+1.50%
+9.751
+333
+Carry Trade - Coin
+10.61%
+2.82%
+3.765
+333
+Long Spot
+216.84%
+66.14%
+3.278
+333
+Epoch 4: 2021-11-08 – 2022-05-08
+Carry Trade - Tether
+7.70%
+1.20%
+6.420
+543
+Carry Trade - Coin
+7.95%
+1.22%
+6.526
+543
+Long Spot
+−116.75%
+64.10%
+−1.821
+543
+Epoch 5: 2022-05-09 – 2023-06-23
+Carry Trade - Tether
+1.03%
+0.78%
+1.312
+1230
+Carry Trade - Coin
+0.01%
+1.05%
+0.007
+1230
+Long Spot
+−15.10%
+56.18%
+−0.269
+1230
+The Carry Trade is defined in equation (1) for “Tether Contract” and in equation
+(2) for the “Coin Contract.” The return to a long buy-and-hold is for the Tether
+contract. Subsamples are from from Binance Bitcoin (BTC): 2020-08-11 – 2023-06-
+22 (N=3138).
+33
+
+
+===== PAGE 35 =====
+Table 6: Funding Rate - Deciles
+per 8 hour funding window
+Percentile
+Tether
+Coin
+0.00
+−0.119%
+−0.300%
+0.01
+−0.018%
+−0.028%
+0.02
+−0.013%
+−0.020%
+0.10
+−0.002%
+−0.006%
+0.20
+0.002%
+0.000%
+0.30
+0.005%
+0.004%
+0.40
+0.009%
+0.008%
+0.50
+0.010%
+0.010%
+0.60
+0.010%
+0.010%
+0.70
+0.010%
+0.010%
+0.80
+0.010%
+0.010%
+0.90
+0.039%
+0.026%
+0.98
+0.106%
+0.093%
+0.99
+0.128%
+0.110%
+1.00
+0.249%
+0.186%
+The “funding rate” is per 8-hour period. It is paid from the long-side to the short-side
+as a percentage of the notional contract value. (A negative value implies the payment
+direct in is from short to long). Payments is made each 8 hour window.Data is from
+Binance Bitcoin (BTC): 2020-08-11 – 2023-06-22 (N=3138).
+34
+
+
+===== PAGE 36 =====
+Table 7: Futures to Spot Basis - Deciles
+percent of spot
+Percentile
+Tether
+Coin
+0.00
+−0.961%
+−0.961%
+0.01
+−0.109%
+−0.109%
+0.02
+−0.093%
+−0.093%
+0.10
+−0.066%
+−0.066%
+0.20
+−0.056%
+−0.056%
+0.30
+−0.048%
+−0.048%
+0.40
+−0.040%
+−0.040%
+0.50
+−0.032%
+−0.032%
+0.60
+−0.020%
+−0.020%
+0.70
+−0.001%
+−0.001%
+0.80
+0.032%
+0.032%
+0.90
+0.075%
+0.075%
+0.98
+0.136%
+0.136%
+0.99
+0.170%
+0.170%
+1.00
+0.782%
+0.782%
+The basis is defined as (Ft−Pt)/Pt where Ft is the pertetual futures price and Pt is the
+spot index defined in the contract. The Tether-denominated and Coin-denominated
+contracts are shown.Data is from Binance Bitcoin (BTC): 2020-08-11 – 2023-06-22
+(N=3138).
+35
+
+
+===== PAGE 37 =====
+Table 8: Carry Trade - Decomposition - BTC
+Simple returns (Annualized Return is Approximated)
+R
+Tether
+Per.Period
+Tether
+Per.Year
+Coin
+Per.Period
+Coin
+Per.Year
+Mean
+1. mean x
+0.0131%
+14.3%
+0.0094%
+10.3%
+2. mean y
+−0.0000%
+−0.0%
+0.0005%
+0.5%
+3. mean x+y
+0.0130%
+14.3%
+0.0099%
+10.9%
+St. Deviation
+4. sd x
+0.0267%
+0.9%
+0.0243%
+0.8%
+5. sd y
+0.0389%
+1.3%
+0.0595%
+2.0%
+6. sd(x+y)-sd(x)-sd(y)
+−0.0164%
+−0.5%
+−0.0171%
+−0.6%
+7. sd(x+y)
+0.0492%
+1.6%
+0.0666%
+2.2%
+The excess return from the crypto-carry trade return x + y is decomposed into the
+funding x (equation (3)) and the change-in-basis y (equation (4)). Returns in this
+table are simple returns (not continuously compounded) and the annual returns are
+approximated with 365x3 periods per year. Data is from Binance Bitcoin (BTC):
+2020-08-11 – 2023-06-22 (N=3138).
+36
+
+
+===== PAGE 38 =====
+Table 9: Trading Strategy Returns
+8 hour funding window - annualized
+Tic
+CoinName
+Tether
+mean
+Tether
+sd
+Tether
+Sharpe
+Coin
+mean
+Coin
+sd
+Coin
+Sharpe
+BuyHold
+mean
+BuyHold
+sd
+BuyHold
+Sharpe
+n
+BTC
+Bitcoin
+14.3%
+1.6%
+8.76
+10.8%
+2.2%
+4.92
+31.3%
+67.3%
+0.47
+3139
+LTC
+Litecoin
+21.2%
+2.5%
+8.45
+15.8%
+3.0%
+5.33
+19.3%
+99.5%
+0.19
+3054
+LINK
+Chainlink
+22.2%
+2.8%
+7.90
+15.2%
+4.3%
+3.54
+−37.7%
+113.8%
+−0.33
+3114
+ETH
+Ethereum
+17.0%
+2.3%
+7.33
+11.8%
+2.7%
+4.37
+50.5%
+86.9%
+0.58
+3118
+EOS
+EOS
+20.6%
+3.0%
+6.85
+16.4%
+4.2%
+3.92
+−52.1%
+108.5%
+−0.48
+3057
+ADA
+Cardano
+18.1%
+2.7%
+6.58
+13.9%
+3.8%
+3.68
+32.6%
+104.5%
+0.31
+3092
+DOGE
+Dogecoin
+18.7%
+3.1%
+6.10
+20.5%
+4.2%
+4.90
+26.8%
+130.4%
+0.21
+2614
+DOT
+Polkadot
+15.1%
+3.0%
+5.07
+18.2%
+4.2%
+4.37
+0.0%
+113.5%
+0.00
+3096
+EGLD
+Elrond
+21.2%
+4.3%
+4.90
+15.2%
+6.2%
+2.46
+6.6%
+119.8%
+0.06
+2737
+THETA
+THETA
+14.6%
+3.0%
+4.83
+10.3%
+5.6%
+1.83
+−132.3%
+120.9%
+−1.09
+2399
+UNI
+Uniswap
+12.3%
+2.6%
+4.81
+6.7%
+4.3%
+1.58
+−92.9%
+113.2%
+−0.82
+2397
+XLM
+Stellar
+8.9%
+2.6%
+3.44
+14.3%
+3.8%
+3.80
+−90.9%
+91.4%
+−0.99
+2394
+XRP
+XRP (Ripple)
+19.8%
+6.3%
+3.13
+14.5%
+6.2%
+2.33
+25.1%
+113.2%
+0.22
+3051
+ETC
+Ethereum Classic
+10.1%
+4.1%
+2.45
+14.3%
+4.3%
+3.35
+42.1%
+115.5%
+0.36
+3052
+BCH
+Bitcoin Cash
+10.3%
+4.9%
+2.12
+9.5%
+21.1%
+0.45
+−18.2%
+96.6%
+−0.19
+3053
+TRX
+TRON
+4.7%
+3.3%
+1.42
+2.5%
+5.3%
+0.47
+29.5%
+91.2%
+0.32
+3058
+FIL
+Filecoin
+9.7%
+9.7%
+0.99
+13.6%
+10.4%
+1.30
+−69.3%
+118.7%
+−0.58
+2913
+BNB
+Binance Coin
+0.2%
+3.5%
+0.05
+0.4%
+4.3%
+0.10
+82.5%
+93.9%
+0.88
+3106
+The Carry Trade is defined in equation (1) for “Tether Contract” and in equation (2) for the “Coin Contract.” The
+return to a long buy-and-hold is calculated using the Tether. BTC Data is from Binance Bitcoin (BTC): 2020-08-11
+– 2023-06-22 (N=3138). The n is the sample for each coin as some were listed during the sample period.
+37
+
+
+===== PAGE 39 =====
+Table 10: Carry Trade - Decomposition - BNB
+Simple returns (Annualized Return is Approximated)
+R
+BTC
+Coin
+Per.Year
+BTC
+Tether
+Per.Year
+BNB
+Coin
+Per.Year
+BNB
+Tether
+Per.Year
+1. mean x
+10.3%
+14.3%
+−2.4%
+−0.7%
+2. mean y
+0.5%
+−0.0%
+3.0%
+0.9%
+3. mean x+y
+10.9%
+14.3%
+0.5%
+0.2%
+4. sd x
+0.8%
+0.9%
+1.8%
+1.8%
+5. sd y
+2.0%
+1.3%
+3.6%
+2.9%
+6. sd(x+y)-sd(x)-sd(y)
+−0.6%
+−0.5%
+−1.1%
+−1.2%
+7. sd(x+y)
+2.2%
+1.6%
+4.3%
+3.5%
+The excess return from the crypto-carry trade return x + y is decomposed into the
+funding x (equation (3)) and the change-in-basis y (equation (4)). Returns in this
+table are simple returns (not continuously compounded) and the annual returns are
+approximated with 365x3 periods per year. Data is from Binance Bitcoin (BTC):
+2020-08-11 – 2023-06-22 (N=3138).
+38
+
+
+===== PAGE 40 =====
+Table 11: Trading Strategy Returns
+8 hour funding window - annualized
+Tic
+Strategy
+Mean
+Std
+Sharpe
+n
+Higher Leverage Era: 2020-07-23 – 2021-07-23
+BTC
+Carry Trade - Tether
+32.97%
+2.30%
+14.328
+1038
+BTC
+Carry Trade - Coin
+25.29%
+3.38%
+7.476
+1038
+ETH
+Carry Trade - Tether
+44.55%
+3.40%
+13.083
+1017
+ETH
+Carry Trade - Coin
+32.13%
+4.09%
+7.849
+1017
+Lower Leverage Era: 2021-07-24 – 2022-07-23
+BTC
+Carry Trade - Tether
+8.96%
+1.27%
+7.049
+1092
+BTC
+Carry Trade - Coin
+6.31%
+1.35%
+4.675
+1092
+ETH
+Carry Trade - Tether
+8.33%
+1.41%
+5.924
+1092
+ETH
+Carry Trade - Coin
+6.86%
+1.64%
+4.176
+1092
+The data is split around the date 2021-07-23. On this date, Binance reduced the
+maximum initial leverage from 125x to 50x (with further leverage reductions for new
+accounts). The Carry Trade is defined in equation (1) for “Tether Contract” and in
+equation (2) for the “Coin Contract.” Data is from Binance.
+39
+
+
+===== PAGE 41 =====
+Table 12: Carry Trade - Correlation
+Correlation of Coin and Tether Contract for each Crypto
+Tic
+correlation
+XRP
+0.794
+FIL
+0.767
+ETH
+0.676
+BNB
+0.625
+BTC
+0.573
+LTC
+0.529
+DOT
+0.508
+DOGE
+0.497
+TRX
+0.480
+ADA
+0.451
+LINK
+0.437
+ETC
+0.425
+UNI
+0.422
+EGLD
+0.413
+XLM
+0.359
+EOS
+0.333
+THETA
+0.326
+BCH
+0.116
+Correlations of crypto carry trade returns on a Tether-denominated contract and a coin-denominated
+contract. The Carry Trade results are for contracts at 8-hour intervals. Data is from Binance Bitcoin
+(BTC): 2020-08-11 – 2023-06-23 (N=3139).
+40
+
+
+===== PAGE 42 =====
+Table 13: Tether Denominated and Settled - Exchange Risk
+(a) Cash-Flows On and Off Exchange (Tether Contract)
+t = 0
+t = 1
+Off
+On
+Off
+On
+On
+Solvent
+Bankrutpt
+Buy one “physical” coin
+−Ft
+Ft+1
+Exchange Margin (in Tether)
+−αFt
+αFt
+0
+Perpetual Future
+(Ft −Ft+1) + rFt
+0
+−Ft
+−αFt
+Ft+1
+(Ft −Ft+1) + (r + α)Ft
+0
+(b) Combined Cash-Flows (Tether Contract)
+t = 0
+t = 1
+Solvent
+Bankrupt
+Combined Cash Flows
+−(1 + α)Ft
+Ft(1 + α + r)
+Ft+1
+(Log) Returns
+log (1 + α + r)
+log Ft+1
+Ft
+−log (1 + α)
+−log (1 + α)
+(Approx Log) Returns
+r
+log Ft+1
+Ft −α
+The cash-flows from the positions established at date t = 0 are realized at date t = 1 (a period
+in our empirical analysis is 8 hours) under the assumption that there is no basis risk (Pt = Ft and
+Pt+1 = Ft+1). The long coin position is held off the exchange. A margin balance with margin rate
+α, the trading gains and losses on the perpetual future, and the exchange funding rate, r, are held
+inside the exchange. In the event the exchange is bankrupt at date one, these cash flows are zero.
+This table abstracts from margin “liquidation” where on-exchange margin is insufficient to cover
+losses on the perpetual future. Table (b) combines the on and off exchange.
+41
+
+
+===== PAGE 43 =====
+Table 14: Coin Denominated and Settled - Exchange Risk
+(a) Cash-Flows On and Off Exchange (Coin-Denominated Contract)
+t = 0
+t = 1
+Off
+On
+Off
+On
+On
+Solvent
+Bankrupt
+Buy (1 −α) “physical” coin
+−(1 −α)Ft
+(1 −α)Ft+1
+Exchange Margin
+−αFt
+αFt+1
+0
+Ft/(1 + rt,c) Perpetual Future
+1
+1−rFt −Ft+1
+0
+−(1 −α)Ft
+−αFt
+(1 −α)Ft+1
+1
+1−rFt
+0
+−(1 −α)Ft+1
+(b) Combined Cash-Flows (Coin-Denominated Contract)
+t = 0
+t = 1
+Solvent
+Bankrupt
+Combined Cash Flows
+−(1 + α)Ft
+Ft(1 + α + r)
+Ft+1
+(Log) Returns
+log (1 + α + r)
+log Ft+1
+Ft
+−log (1 + α)
+−log (1 + α)
+(Approx Log) Returns
+r
+log Ft+1
+Ft −α
+The cash-flows from the positions established at date t = 0 are realized at date t = 1 (a period
+in our empirical analysis is 8 hours) under the assumption that there is no basis risk (Pt = Ft and
+Pt+1 = Ft+1). The long coin position is held off the exchange. A margin balance with margin rate α
+(held in coin), the trading gains and losses on the perpetual future, and the exchange funding rate,
+r, are held inside the exchange. In the event the exchange is bankrupt at date one, these cash flows
+are zero. This table abstracts from margin “liquidation” where on-exchange margin is insufficient
+to cover losses on the perpetual future. Table (b) combines the on and off exchange.
+42
+
+
+===== PAGE 44 =====
+Figure 1: Spot and Derivative Markets Trading Volume
+$0
+$1
+$2
+$3
+2021/01/01
+2022/01/01
+2023/01/01
+Millions BTC
+Derivative Market Volume
+Spot Market Volume
+The trading volume is aggregated from the data feeds of exchanges: FTX, Binance,
+Okex, Huobi, Bitmex, Coinbase, Kraken, Bitstamp, Bybit and Deribit. The derivative
+volume is the contract’s notional value. Volume statistics are 7-day centered moving
+average measured in BTC. Data is plotted from 2020-08-11, the start of our crypto
+carry trade data.
+43
+
+
+===== PAGE 45 =====
+Figure 2: Derivative Markets Trading Volume by Contract Type
+Perpetual
+Tether
+Perpetual
+Coin
+Dated 
+Tether
+Dated 
+Coin
+0%
+50%
+100%
+2021/01/01
+2022/01/01
+2023/01/01
+Percent of Total volume
+Contracts for Bitcoin (BTC): 2020−08−11 −− 2023−04−24 (N=987)
+The plots show the daily proportion of the total Bitcoin (BTC) trading volume on
+Binance by contract type. Volume statistics are 7-day centered moving average mea-
+sured in BTC. By construction, the sum at each day is 100%. Shown is the perpet-
+ual futures contract settled in Tether, and the perpetual futures contract settled in
+coin (BTC). The finitely-dated futures contracts are aggregated for open contracts
+(approximately three-month horizon) in both Tether denominated and coin (BTC).
+Coincidentally, the Perpetual Coin-Settled Bitcoin contract began trading August 10,
+2020, one day ahead of our sample start date.
+44
+
+
+===== PAGE 46 =====
+Figure 3: Bitcoin (BTC) Price
+$20,000
+$40,000
+$60,000
+2021/01/01
+2022/01/01
+2023/01/01
+date
+BTC Price
+Source: Coinbase/FRED.  Daily:, Bitcoin (CBTC): 2020−08−11 −− 2023−06−23 (N=1047)
+Coinbase Index Price of Bitcoin (BTC). Data is from the Federal Reserve Bank of St.
+Louis. The shaded regions highlight the subsamples presented in Tables 5.
+45
+
+
+===== PAGE 47 =====
+Figure 4: Carry Trade – Cumulative Returns
+0.0
+0.1
+0.2
+0.3
+0.4
+0.0
+0.5
+1.0
+1.5
+2.0
+Jan 01 21
+Jan 01 22
+Jan 01 23
+date
+log Wealth
+log Wealth (Long Spot)
+Strategy
+Carry Trade − Coin
+Carry Trade − Tether
+Long Spot (Right Axis)
+Bitcoin (BTC): 2020−08−11 −− 2023−06−23 (N=3139)
+Cumulative Returns from Tether and Coin Carry Trades (i.e., the log wealth from
+a $1.00 initial investment). The right-scale shows the cumulative returns from an
+long buy-and-hold investment in Bitcoin. The Carry Trade is defined in Table 1 for
+“Tether Contract” and in Table 2 for the “Coin Contract.”
+46
+
+
+===== PAGE 48 =====
+Figure 5: Carry Trade – Return Components
+−0.002
+0.000
+0.002
+Jan 01 21
+Jan 01 22
+Jan 01 23
+date
+x
+Tether (BTC)
+−0.002
+0.000
+0.002
+Jan 01 21
+Jan 01 22
+Jan 01 23
+date
+y
+Tether (BTC)
+−0.002
+0.000
+0.002
+Jan 01 21
+Jan 01 22
+Jan 01 23
+date
+x
+Coin(BTC)
+−0.002
+0.000
+0.002
+Jan 01 21
+Jan 01 22
+Jan 01 23
+date
+y
+Coin(BTC)
+The excess return from the crypto-carry trade return x + y is decomposed into the
+funding x (equation (3)) and the change-in-basis y (equation (4)) . Returns in this
+figure are simple returns. Shown here is the Tether-based contract (top row) and
+Coin-based contract (bottom row) for BTC. Dates: 2020-08-11 – 2023-06-23.
+47
+
+
+===== PAGE 49 =====
+Figure 6: Carry Trade – Sharpe Ratio
+ADA
+BCH
+BNB
+BTC
+DOGE
+DOT
+EGLD
+EOS
+ETC
+ETH
+FIL
+LINK
+LTC
+THETA
+TRX
+UNI
+XLM
+XRP
+ADA
+BCH
+BNB
+BTC
+DOGE
+DOT
+EGLD
+EOS
+ETC
+ETH
+FIL
+LINK
+LTC
+THETA
+TRX
+UNI
+XLM
+XRP
+0.0
+2.5
+5.0
+7.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+Sharpe Ratio: Buy and Hold
+Sharpe Ratio: Cryptocarry Trade
+contract
+a
+a
+a
+a
+BTC Coin
+BTC Tether
+Coin
+Tether
+Sharpe Ratio for returns from Tether and Coin Carry Trades versus Sharpe Ration of
+returns from buy-and-hold the underlying coin. The right-scale shows the cumulative
+returns from an long buy-and-hold investment in Bitcoin. The Carry Trade is defined
+in equation (1) for “Tether Contract” and in equation (2) for the “Coin Contract.”
+48
+
+
+===== PAGE 50 =====
+Figure 7: Carry Trade Return Correlation
+(a)
+FIL
+XRP
+BCH
+XLM
+ETC
+THETA
+DOGE
+UNI
+TRX
+EGLD
+BNB
+EOS
+ADA
+LINK
+DOT
+LTC
+ETH
+BTC
+ETH
+LTC
+DOT
+LINK
+ADA
+EOS
+BNB EGLD TRX
+UNI DOGETHETA ETC
+XLM
+BCH
+XRP
+−1.0
+−0.5
+0.0
+0.5
+1.0
+Tether−Denominated Contracts
+(b)
+FIL
+XRP
+BCH
+XLM
+ETC
+THETA
+DOGE
+UNI
+TRX
+EGLD
+BNB
+EOS
+ADA
+LINK
+DOT
+LTC
+ETH
+BTC
+ETH
+LTC
+DOT
+LINK
+ADA
+EOS
+BNB EGLD TRX
+UNI DOGETHETA ETC
+XLM
+BCH
+XRP
+−1.0
+−0.5
+0.0
+0.5
+1.0
+Coin−Denominated Contracts
+Crypto carry trade return correlations across underlying cryptocurrency. Plot (a)
+is for Tether-denominated contracts and plot (b) is for coin-denominated contracts.
+Sharpe Ratio for returns from Tether and Coin Carry Trades versus Sharpe Ration
+of returns from buy-and-hold the underlying coin. The Carry Trade is defined in
+equation (1) for “Tether Contract” and in equation (2) for the “Coin Contract.”
+Data range is: 2020-08-11 – 2023-06-23.
+49
+
+
+===== PAGE 51 =====
+Figure 8: Carry Trade – Mean and Standard Deviation – Across Leverage Eras
+BTC
+ETH
+BTC
+ETH
+0%
+20%
+40%
+60%
+80%
+0%
+5%
+10%
+15%
+Standard Deviation (annual)
+Mean (annual)
+Higher Leverage Era
+Lower Leverage Era
+Carry Trade − Tether
+BTC
+ETH
+BTC
+ETH
+0%
+20%
+40%
+60%
+80%
+0%
+5%
+10%
+15%
+Standard Deviation (annual)
+Mean (annual)
+Higher Leverage Era
+Lower Leverage Era
+Carry Trade − Coin
+The Higher Leverage Era (125x) is from the start of our sample to 2021-07-23. The
+Lower Leverage Era (50x) is from 2021-07-24 to the end our our sample. The sample
+standard deviation and mean for the strategy return for each coin are shown. The ray
+from the origin for each point is the sample Sharpe ratio. The Carry Trade is defined
+in equation (1) for “Tether Contract” and in equation (2) for the “Coin Contract.”
+Full sample dates: 2020-08-11 – 2023-06-23.
+50
+
+
+===== PAGE 52 =====
+Figure 9: Market-Clearing Funding Rate
+(a) α = 0.15
+(b) α = 0.16
+(c) α = 0.15
+(d) α = 0.16
+The example is parameterized as follows. log F1
+F0 ∼N(µ, σ) setting and σ = 0.0203 –
+an 8-hour volatility (equivalent to a 0.6729 per year). There are two types of traders
+with µa = 0.02 (long) and µb = −0.01 (short). In Figurers (a) and (b), the exchange
+policy minimum margin, α, is not binding, the wealth weights are wa = 0.49 and
+wb = 0.51. In Figures (c) and (d), the minimum margin, α, is binding for long traders,
+the wealth weights are wa = 0.42 and wb = 0.58. In Figures (a) and (c), the exchange
+minimum margin policy is α = 0.15. In Figures (b) and (d), the exchange minimum
+margin policy is α = 0.16. Preference of all traders are u(W1) = 1/γ(c + W1)γ with
+γ = −6.5 and c = 0.1.
+51
+
+
+===== PAGE 53 =====
+Figure 10: Margin and Liquidation Probability
+(a) Tether - mean volatility
+(b) Coin - mean volatility
+(c) Tether - high volatility
+(d) Coin - high volatility
+Probability of liquidation is calculated from log Ft+1
+Ft
+∼N(µ, σ2) using equations (10), (11)
+for the Tether denominated contracts in panels (a) and (c) and equations (12) and (13) for
+the coin denominated contracts in panels (b) and (d). In all cases, the mean spot return
+is µ = 0. In panels (a) and (b) the volatility is calibrated to the BTC sample mean of
+σ = 0.0203 (equivalent to 0.6729 per year). In panels (c) and (d), σ = 0.0400 (1.3237 per
+year), the 99th percentile from a rolling seven-day rolling volatility. Funding is set to r = 0.
+The threshold for liquidation is a margin balance of zero. The probability of liquidation
+per period, p, are converted to an annual equivalent assuming 1095 = 365 × 3 independent
+8-hour Bernoulli events per year. pannual is calculated as pannual = 1 −(1 −p)1095 with
+pannual representing the probability of one or more liquidations in the next year.
+52
+
+
+===== PAGE 54 =====
+Figure 11: Exchange Bankruptcy Implications
+(a) Tether Contract
+(b) Coin-Based Contract
+The moments of excess returns are calculated from the cash-flows described in Tables
+13 and 14. The funding rate (equation (3)) r = 0.0103% per period (or 11.25%per
+year). The “basis risk” (equation (4)) is 0.000604 per period (or 0.0200 per year).
+log Ft+1/Ft ∼N(µ, σ2). “Normal” scenario has µ = 0 and σ = 0.0203 per period
+(0.6729 per year). “Distressed and Falling” has µ = −0.0649 (−71.0865 per year)
+and σ = 0.0400 per period (1.3237 per year). The dashed horizontal reference line is
+at a value of 0.3, the approximate Sharpe ratio of U.S. equities.
+53
+
+
+===== PAGE 55 =====
+Figure 12: Spot and Derivative Markets Trading Volume - Crisis Era
+The trading volume is aggregated from the data feeds of exchanges: FTX, Binance,
+Okex, Huobi, Bitmex, Coinbase, Kraken, Bitstamp, Bybit and Deribit. The derivative
+volume is the contract’s notional value. Volume statistics are 7-day centered moving
+average measured in BTC. The reference lines shown are for the dates of failure of
+Terra/Luna, Three Arrows Capital, FTX, and Silicon Valley Bank.
+54
+
+
+===== PAGE 56 =====
+Figure 13: BTC Price - Crisis Era
+The spot index price for Tether denominated BTC contract at 8-hour intervals. (Vir-
+tually identical to index for coin denominated contract or Coinbase index).
+The
+reference lines shown are for the dates of failure of Terra/Luna, Three Arrows Capi-
+tal, FTX, and Silicon Valley Bank.
+55
+
+
+===== PAGE 57 =====
+Figure 14: Carry Trade – Return Components
+(a) xt – Funding
+(a) yt – Basis
+The excess return from the crypto-carry trade return for BTC x + y is decomposed
+into the funding x (equation (3)) and the change-in-basis y (equation (4)). The lighter
+dots are for Tether-denominated contracts. The darker dots are the coin-denominated
+contract. Observations that are larger are highlighted with a larger sized dot. The
+reference lines shown are for the dates of failure of Terra/Luna, Three Arrows Capital,
+FTX, and Silicon Valley Bank.
+56

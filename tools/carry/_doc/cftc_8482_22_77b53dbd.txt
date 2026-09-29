@@ -1,0 +1,523 @@
+SOURCE_URL: https://www.cftc.gov/PressRoom/PressReleases/8482-22
+HTTP: 200  LEN: 42665
+
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.cftc.gov/PressRoom/PressReleases/8482-22" />
+<meta property="og:image" content="https://www.cftc.gov/sites/default/files/2025/06/1750109430/cftc-logo-square.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="CFTC Chairman Rostin Behnam Announces Executive Staff Appointments" />
+<meta name="twitter:image" content="https://www.cftc.gov/sites/default/files/2026/03/1773063622/CFTCgov_socialmedia.png" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="twitter:card" content="summary" />
+<link rel="icon" href="/sites/default/files/tabicon.png" type="image/png" />
+<link rel="alternate" hreflang="en" href="https://www.cftc.gov/PressRoom/PressReleases/8482-22" />
+
+    <title>CFTC Chairman Rostin Behnam Announces Executive Staff Appointments | CFTC</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_ExJUpGQi1toCYclAM5OoDDfDzHaCG7bytmd4YPJzNuw.css?delta=0&amp;language=en&amp;theme=cftc&amp;include=eJw9yFEKgCAMANALWTtSzDlF0i22Qdjp-wj6e7ysGh6GF1TDybfamagGQRuacWwea3Rp3zkPpugPJzq59FA7kEitdBX4tVdTCZaSfHnwhIzOL2YMKN4" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/entreprise7pro-bootstrap@3.4.8/dist/css/bootstrap.min.css" integrity="sha256-zL9fLm9PT7/fK/vb1O9aIIAdm/+bGtxmUm/M1NPTU7Y=" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-tGFFYdzcicBwsd5EPO92iUIytu9UkQR3tLMbORL9sfi/WswiHkA1O3ri9yHW+5dXk18Rd+pluMeDBrPKSwNCvw==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_hnW1Nk8eYxgsIzoDeikUOHf9GgrBo-b-WTNa3SK-ng8.css?delta=3&amp;language=en&amp;theme=cftc&amp;include=eJw9yFEKgCAMANALWTtSzDlF0i22Qdjp-wj6e7ysGh6GF1TDybfamagGQRuacWwea3Rp3zkPpugPJzq59FA7kEitdBX4tVdTCZaSfHnwhIzOL2YMKN4" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_LyJmSGY2nfvExbvA_7gnJ_pLZwstDxwwQebhMW4Etsc.css?delta=4&amp;language=en&amp;theme=cftc&amp;include=eJw9yFEKgCAMANALWTtSzDlF0i22Qdjp-wj6e7ysGh6GF1TDybfamagGQRuacWwea3Rp3zkPpugPJzq59FA7kEitdBX4tVdTCZaSfHnwhIzOL2YMKN4" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_JrkeGB7HCngbd5Fcmq96UQbXaieJEbAu8czE9LOJ_so.css?delta=5&amp;language=en&amp;theme=cftc&amp;include=eJw9yFEKgCAMANALWTtSzDlF0i22Qdjp-wj6e7ysGh6GF1TDybfamagGQRuacWwea3Rp3zkPpugPJzq59FA7kEitdBX4tVdTCZaSfHnwhIzOL2YMKN4" />
+
+    
+        <meta name="format-detection" content="telephone=no">
+  </head>
+  <body class="path-node page-node-type-cftc-press-release has-glyphicons">
+    <div class="current-page-path hidden">/PressRoom/PressReleases/8482-22</div>
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+            <div class="region region-banner">
+    <section id="block-cftc-govbanner" class="block block-block-content block-block-content4633585d-2ba9-4236-acef-5f7bf84c4eef clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><script type="module" src="/sites/all/themes/cftc/js/banner.mjs"></script><usa-banner></usa-banner><style>.usa-accordion .usa-banner__header-text, .usa-accordion .usa-banner__button, .usa-accordion .usa-banner__content{font-size: 1rem !important;}</style></div>
+      
+  </section>
+
+
+  </div>
+
+          <header class="navbar navbar-default container" id="navbar">
+            <div class="navbar-header">
+          <div class="region region-main-header">
+      <div class="branding">
+      <a class="logo navbar-btn pull-left" href="/" title="Home" rel="home">
+      <img src="/sites/all/themes/cftc/images/Final-CFTC-Logo-Long.png" alt="Commodity Futures Trading Commission Logo" width="453" height="113"/>
+    </a>
+    <div class="nametag">
+      </div>
+  </div>
+<section id="block-ham" class="block block-block-content block-block-content7d26a03f-f6b1-4866-b2a5-85a574661164 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><a href="#" id="hamburger-menu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="38px" viewBox="0 0 39 38" version="1.1" class="svg">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Menu-Regular" transform="translate(-266.000000, -20.000000)">
+            <g id="Sticky-Header">
+                <g id="icon-hamburger" transform="translate(267.000000, 20.000000)">
+                    <g id="hamburger" stroke="#bf2327" stroke-width="3" stroke-linecap="square">
+                        <path d="M0.5,1 L36.5,1" id="line-1"></path>
+                        <path transform="translate(0, 8.000000)" d="M0.5,9 L36.5,9" id="line-2"></path>
+                        <path transform="translate(0, 16.000000)" d="M0.5,18 L36.5,18" id="line-3"></path>
+                    </g>
+                    <text id="Menu" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="0.86" y="33.5833324">Menu</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg><!--&#9776;--></a></div>
+      
+  </section>
+
+<section id="block-headerlinks" class="block block-block-content block-block-content398770a1-6bff-4376-a6e8-dc823942bc4d clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="search-links">
+<ul>
+	<li><a href="/Transparency/index.htm">Transparency</a></li>
+	<li><a href="/Contact/index.htm">Contact Us</a></li>
+</ul>
+</div>
+<style type="text/css">section#block-headerlinks {
+    float: right;
+    padding-top: 10px;
+    margin-right: 4%;
+    margin-left: 0;
+}
+</style>
+</div>
+      
+  </section>
+
+<section id="block-exposedformsolr-search-contentpage-1" class="block block-views block-views-exposed-filter-blocksolr-search-content-page-1 clearfix">
+  
+    
+
+      <form class="views-exposed-form" data-drupal-selector="views-exposed-form-solr-search-content-page-1" action="/solr-search/content" method="get" id="views-exposed-form-solr-search-content-page-1" accept-charset="UTF-8">
+  <div class="form--inline form-inline clearfix">
+  <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-keys js-form-item-keys form-group">
+      <label for="edit-keys" class="control-label">Search</label>
+  
+  
+  <input data-drupal-selector="edit-keys" class="form-text form-control" type="text" id="edit-keys" name="keys" value="" size="30" maxlength="128" title="Search" data-toggle="tooltip" />
+
+  
+  
+  </div>
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions"><button data-drupal-selector="edit-submit-solr-search-content" class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" id="edit-submit-solr-search-content" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button></div>
+
+</div>
+
+</form>
+
+  </section>
+
+<section id="block-socialmediablock" class="block block-block-content block-block-contentcd492e73-74c7-4fff-b808-2ed74425fc0f clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="social"><ul><li class="social-icon"><a href="https://www.cftc.gov/RSS/index.htm"><img class="rss-icon" src="/sites/all/themes/cftc/images/rss.png" alt="rss icon" width="30" height="30" loading="lazy"><img class="red-rss-icon" src="/sites/all/themes/cftc/images/red_rss.png" alt="red rss icon" width="31" height="31" loading="lazy"></a></li><li class="social-icon"><a href="https://www.cftc.gov/Contact/index.htm"><img class="email-icon" src="/sites/all/themes/cftc/images/mail.png" alt="email icon" width="30" height="30" loading="lazy"><img class="red-email-icon" src="/sites/all/themes/cftc/images/red_mail.png" alt="red email icon" width="31" height="31" loading="lazy"></a></li><li class="social-icon"><a href="https://www.cftc.gov/exit/index.htm?https://www.facebook.com/cftcgov" aria-label="facebook - new window"><img class="facebook-icon" src="/sites/all/themes/cftc/images/facebook.png" alt="facebook icon" width="30" height="30" loading="lazy"><img class="red-facebook-icon" src="/sites/all/themes/cftc/images/red_facebook.png" alt="red facebook icon" width="31" height="31" loading="lazy"></a></li><li class="social-icon"><a href="https://www.cftc.gov/exit/index.htm?https://twitter.com/cftc" aria-label="twitter - new window"><img class="twitter-icon" src="/sites/default/files/twitter-x_BLUE.png" alt="twitter icon" width="30" height="30" loading="lazy"><img class="red-twitter-icon" src="/sites/default/files/twitter-x_RED.png" alt="red twitter icon" width="31" height="31" loading="lazy"></a></li><li class="social-icon"><a href="https://www.cftc.gov/exit/index.htm?https://www.youtube.com/user/CFTC" aria-label="youtube - new window"><img class="youtube-icon" src="/sites/all/themes/cftc/images/youtube.png" alt="youtube icon" width="30" height="30" loading="lazy"><img class="red-youtube-icon" src="/sites/all/themes/cftc/images/red_youtube.png" alt="red youtube icon" width="31" height="31" loading="lazy"></a></li><li class="social-icon"><a href="https://www.cftc.gov/exit/index.htm?https://www.linkedin.com/company/commodity-futures-trading-commission" aria-label="linkedin - new window"><img class="linkedin-icon" src="/sites/all/themes/cftc/images/linkedin.png" alt="linkedin icon" width="30" height="30" loading="lazy"><img class="red-linkedin-icon" src="/sites/all/themes/cftc/images/red_linkedin.png" alt="red linkedin icon" width="31" height="31" loading="lazy"></a></li><li class="social-icon"><a href="https://www.cftc.gov/exit/index.htm?https://www.flickr.com/photos/cftc" aria-label="flickr - new window"><img class="flickr-icon" src="/sites/all/themes/cftc/images/flickr.png" alt="flickr icon" width="30" height="30" loading="lazy"><img class="red-flickr-icon" src="/sites/all/themes/cftc/images/red_flickr.png" alt="red flickr icon" width="31" height="31" loading="lazy"></a></li></ul></div><div style="display:none !important;"><img src="https://www.cftc.gov/sites/all/themes/cftc/images/icon-search.svg" alt="search icon" width="12" height="13" loading="lazy"></div></div>
+      
+  </section>
+
+
+  </div>
+
+          <div class="region region-navigation">
+    <nav aria-labelledby="block-cftc-main-menu-menu" id="block-cftc-main-menu">
+            
+  <h2 class="visually-hidden" id="block-cftc-main-menu-menu">Main navigation</h2>
+  
+
+        
+      <ul class="menu menu--main nav navbar-nav">
+                        <li class="expanded dropdown">
+        <a href="/About/index.htm" class="dropdown-toggle">About the CFTC <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                        <li>
+        <a href="/About/AboutTheCommission" data-drupal-link-system-path="node/122406">The Commission</a>
+                  </li>
+                        <li>
+        <a href="/About/Commissioners/index.htm" data-drupal-link-system-path="node/122261">Chairman &amp; Commissioners</a>
+                  </li>
+                        <li>
+        <a href="/About/CFTCOrganization/index.htm" data-drupal-link-system-path="node/122401">CFTC Organization</a>
+                  </li>
+                        <li>
+        <a href="/About/AdvisoryCommittees/index.htm" data-drupal-link-system-path="node/121996">Advisory Committees</a>
+                  </li>
+                        <li>
+        <a href="/About/Innovation" data-drupal-link-system-path="node/258231">Innovation at the CFTC</a>
+                  </li>
+                        <li>
+        <a href="/About/Agriculture" data-drupal-link-system-path="node/258431">Agriculture at the CFTC</a>
+                  </li>
+                        <li>
+        <a href="/About/CFTCReports/index.htm" data-drupal-link-system-path="node/122451">Budget &amp; Performance</a>
+                  </li>
+                        <li>
+        <a href="/Privacy" data-drupal-link-system-path="node/222391">Privacy at the CFTC</a>
+                  </li>
+                        <li>
+        <a href="/About/Careers/index.htm" data-drupal-link-system-path="node/239366">Careers</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/IndustryOversight/index.htm" class="dropdown-toggle">Industry Oversight <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                        <li>
+        <a href="/IndustryOversight/IndustryFilings/index.htm" data-drupal-link-system-path="node/123376">Industry Filings</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/TradingOrganizations/index.htm" data-drupal-link-system-path="node/123196">Trading Organizations</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/ClearingOrganizations/index.htm" data-drupal-link-system-path="node/123606">Clearing Organizations</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/DataRepositories/index.htm" data-drupal-link-system-path="node/123521">Data Repositories</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/Intermediaries/index.htm" data-drupal-link-system-path="node/123571">Intermediaries</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/MarketSurveillance/index.htm" data-drupal-link-system-path="node/123251">Market Surveillance</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/ContractsProducts/index.htm" data-drupal-link-system-path="node/123041">Contracts &amp; Products</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/RuleAmendments/index.htm" data-drupal-link-system-path="node/123021">Rules &amp; Rule Amendments</a>
+                  </li>
+                        <li>
+        <a href="/IndustryOversight/AntiMoneyLaundering/index.htm" data-drupal-link-system-path="node/123141">Anti-Money Laundering</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/LawRegulation/index.htm" class="dropdown-toggle">Law &amp; Regulation <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                        <li>
+        <a href="/LawRegulation/CommodityExchangeAct/index.htm" data-drupal-link-system-path="node/128216">Commodity Exchange Act &amp; Regulations</a>
+                  </li>
+                        <li>
+        <a href="/LawRegulation/CommissionRulemakingExplained/index.htm" data-drupal-link-system-path="node/221681">How Rules Are Made</a>
+                  </li>
+                        <li>
+        <a href="/LawRegulation/HoldingWrongdoersAccountable" data-drupal-link-system-path="node/236431">Holding Wrongdoers Accountable</a>
+                  </li>
+                        <li>
+        <a href="/LawRegulation/FederalRegister/index.htm" data-drupal-link-system-path="node/126696">Federal Register</a>
+                  </li>
+                        <li>
+        <a href="/LawRegulation/PublicComments/ReleasesWithComments" data-drupal-link-system-path="node/258736">Public Comments</a>
+                  </li>
+                        <li>
+        <a href="/LawRegulation/CFTCStaffLetters/index.htm" data-drupal-link-system-path="node/190281">CFTC Staff Letters</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown">
+        <a href="/MarketReports/index.htm" class="dropdown-toggle">Market Data &amp; Economic Analysis <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                        <li>
+        <a href="/data" data-drupal-link-system-path="node/218661">Data at CFTC</a>
+                  </li>
+                        <li>
+        <a href="/MarketReports/CommitmentsofTraders/index.htm" data-drupal-link-system-path="node/128971">Commitments of Traders</a>
+                  </li>
+                        <li>
+        <a href="/MarketReports/BankParticipationReports/index.htm" data-drupal-link-system-path="MarketReports/BankParticipationReports/index.htm">Bank Participation Reports</a>
+                  </li>
+                        <li>
+        <a href="/MarketReports/CottonOnCall/index.htm" data-drupal-link-system-path="MarketReports/CottonOnCall/index.htm">Cotton On-Call</a>
+                  </li>
+                        <li>
+        <a href="/MarketReports/financialfcmdata/index.htm" data-drupal-link-system-path="node/128951">Financial Data for FCMS</a>
+                  </li>
+                        <li>
+        <a href="/About/CFTCReports/cftcreports_historical.html?combine=&amp;tid=4116&amp;year=all" data-drupal-link-query="{&quot;combine&quot;:&quot;&quot;,&quot;tid&quot;:&quot;4116&quot;,&quot;year&quot;:&quot;all&quot;}" data-drupal-link-system-path="node/235496">Staff Reports</a>
+                  </li>
+                        <li>
+        <a href="/MarketReports/SwapsReports/index.htm" data-drupal-link-system-path="node/132451">Weekly Swaps Report</a>
+                  </li>
+                        <li>
+        <a href="/MarketReports/ClearedMarginReports/index.htm" data-drupal-link-system-path="node/134921">Cleared Margin Reports</a>
+                  </li>
+                        <li>
+        <a href="/About/EconomicAnalysis/index.htm" data-drupal-link-system-path="node/122421">Office of the Chief Economist</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li>
+        <a href="/Forms/index.htm" data-drupal-link-system-path="node/186576">Forms &amp; Submissions</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="/LearnAndProtect" class="dropdown-toggle">Learn &amp; Protect <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                        <li>
+        <a href="/LearnandProtect/PredictionMarkets" data-drupal-link-system-path="node/258636">Understanding Prediction Markets and Event Contracts</a>
+                  </li>
+                        <li>
+        <a href="/check" data-drupal-link-system-path="node/221781">Check Registration &amp; Disciplinary History</a>
+                  </li>
+                        <li>
+        <a href="/complaint" data-drupal-link-system-path="node/122681">Submit a Tip or Complaint</a>
+                  </li>
+                        <li>
+        <a href="/LearnAndProtect/Resources/Check/redlist.htm" data-drupal-link-system-path="node/220616">RED List</a>
+                  </li>
+                        <li>
+        <a href="/LearnAndProtect/ReparationsProgram/index.htm" data-drupal-link-system-path="node/122621">Office of Proceedings</a>
+                  </li>
+                        <li>
+        <a href="/learnandprotect/learningresources" data-drupal-link-system-path="node/249986">Learning Resources</a>
+                  </li>
+        </ul>
+  
+            </li>
+                        <li class="expanded dropdown active">
+        <a href="/PressRoom/index.htm" class="dropdown-toggle">News &amp; Events <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                        <li class="active">
+        <a href="/PressRoom/PressReleases" data-drupal-link-system-path="PressRoom/PressReleases">Press Releases</a>
+                  </li>
+                        <li>
+        <a href="/PressRoom/SpeechesTestimony/index.htm" data-drupal-link-system-path="PressRoom/SpeechesTestimony">Public Statements &amp; Remarks</a>
+                  </li>
+                        <li>
+        <a href="/PressRoom/Events" data-drupal-link-system-path="PressRoom/Events">Events</a>
+                  </li>
+        </ul>
+  
+            </li>
+        </ul>
+  
+
+  </nav>
+<section id="block-frontpagecarouselrotation" class="block block-block-content block-block-content8d46ad56-817b-48a5-bddb-20daf79752d7 clearfix">
+  
+    
+
+      
+  <div class="field field--name-field-carousel-rotation field--type-boolean field--label-above">
+    <div class="field--label">Carousel Rotation On</div>
+              <div class="field--item">On</div>
+          </div>
+
+  </section>
+
+
+  </div>
+
+                      </div>
+
+                      </header>
+  
+  <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+      <div id="content-container">
+                                      <div class="col-sm-12" role="heading">
+                <div class="region region-header">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+            </div>
+                  
+                                      <aside class="col-sm-3" role="complementary">
+                <div class="region region-sidebar-first">
+    <nav aria-labelledby="block-left-main-menu-menu" id="block-left-main-menu">
+      
+  <h2 id="block-left-main-menu-menu">News &amp; Events</h2>
+  
+
+        
+      <ul class="menu menu--main nav navbar-nav">
+                        <li class="active">
+        <a href="/PressRoom/PressReleases" data-drupal-link-system-path="PressRoom/PressReleases">Press Releases</a>
+                  </li>
+                        <li>
+        <a href="/PressRoom/SpeechesTestimony/index.htm" data-drupal-link-system-path="PressRoom/SpeechesTestimony">Public Statements &amp; Remarks</a>
+                  </li>
+                        <li>
+        <a href="/PressRoom/Events" data-drupal-link-system-path="PressRoom/Events">Events</a>
+                  </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+            </aside>
+                  
+                                <section class="col-sm-7">
+
+                    
+                                              
+                      
+                                <a id="main-content"></a>
+              <div class="region region-content">
+      
+
+<article data-history-node-id="239161" about="/PressRoom/PressReleases/8482-22">
+    
+    
+
+
+
+  <div class="press-release">
+    <h1 class="press-release-title">Release Number 8482-22</h1>
+          <h1>
+<span>CFTC Chairman Rostin Behnam Announces Executive Staff Appointments</span>
+</h1>
+            <p><b>January 20, 2022</b></p>
+        
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p class="MsoNoSpacing"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span class="DatelineChar" style="font-family:Arial,sans-serif"><span style="font-weight:bold">Washington, D.C.</span></span> — Commodity Futures Trading Commission Chairman Rostin Behnam today announced the following executive leadership and communications appointments as he begins his chairmanship. This team will work directly with Chairman Behnam to establish the Commission’s agenda and execute the responsibilities in the CFTC governing statute and other issues facing the agency. Today’s announcement follows Chairman Behnam <a href="https://www.cftc.gov/PressRoom/PressReleases/8479-22" style="color:blue; text-decoration:underline">naming</a> Tanisha Cole Edmonds as the CFTC’s first Chief Diversity Officer. Chairman Behnam plans to make additional staff and leadership announcements very soon. </span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">“I have worked with all of these individuals as a Commissioner and as Acting Chairman and have utmost respect for each of them,” said Chairman Behnam. “I am confident in their knowledge, expertise and commitment to public service and the CFTC’s mission to work diligently alongside me, with each other, and the excellent staff at the CFTC on critical priorities confronting the agency.”</span></span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><b>David Gillers, Chief of Staff</b></span></span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">David Gillers will continue to serve as Chief of Staff to Chairman Behnam. Mr. Gillers joined then-Commissioner Behnam’s office in 2019 and served as the federal officer for the Climate-Related Market Risk Subcommittee of the CFTC’s Market Risk Advisory Committee in which capacity he oversaw the development and publication of the landmark <i><a href="https://www.cftc.gov/sites/default/files/2020-09/9-9-20%20Report%20of%20the%20Subcommittee%20on%20Climate-Related%20Market%20Risk%20-%20Managing%20Climate%20Risk%20in%20the%20U.S.%20Financial%20System%20for%20posting.pdf" style="color:blue; text-decoration:underline">Managing Climate Risk in the U.S. Financial System</a></i> report.&nbsp; Previously, he spent a decade as a congressional staff member working on financial services and energy matters, most recently as Democratic Senior Counsel to the Senate Committee on Energy and Natural Resources. He worked extensively on the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010, the Small Business Jobs Act of 2010, and the energy provisions of the Fixing America's Surface Transportation Act of 2015.&nbsp; Gillers worked as a corporate attorney prior to his time in Congress.  He is a graduate of Columbia College and received his JD from Boston College Law School where he was a Weinstein Scholar.&nbsp;&nbsp; </span></span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><b>Laura Gardy, Deputy Chief of Staff</b></span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">Laura Gardy is the Chairman’s Deputy Chief of Staff and will oversee Commission administrative functions and operations with an emphasis on human capital management. Ms. Gardy previously served as a Special Counsel to Acting Chairman Behnam during his time as Commissioner. She joined his legal team in 2017 from an Associate Director position in the former Division of Swap Dealer and Intermediary Oversight (renamed the Market Participants Division in 2020).&nbsp;She previously worked at the Office of the Comptroller of the Currency, where she was Counsel in the Securities &amp; Corporate Practices Group in the Office of Chief Counsel.&nbsp;Ms. Gardy began her career at the CFTC in 2002 as a trial attorney in the Division of Enforcement and as Counsel to the Director. She later served as Legal Assistant to the late Commissioner Bart Chilton and as Senior Counsel to then-Commissioner Scott D. O’Malia during the Dodd-Frank Act rulemakings. Ms. Gardy holds a B.S. in Natural Resources from Cornell University and a J.D. from Washington and Lee University School of Law.&nbsp;</span></span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><b>John Dunfee, Chief Counsel </b></span></span></p>
+
+<p class="MsoNoSpacing"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">John Dunfee will continue to serve as Chief Counsel to Chairman Behnam. Prior to his role as Chief Counsel, he was Special Counsel to then-Commissioner Behnam from 2017 to 2021. Mr. Dunfee joined the CFTC in 2000, and has held numerous important roles at the Commission. From 2011 to 2017, he held a number of positions in the Office of General Counsel, including Acting Deputy General Counsel for Trade Execution and Data. From 2010 to 2011, he served as Counsel to Commissioner Michael Dunn.&nbsp; From 2003 to 2010, Mr. Dunfee was in the position of Chief Trial Attorney in the Division of Enforcement. He began his CFTC career as a Trial Attorney in the Division of Enforcement. Mr. Dunfee holds a B.A. from the University of Pennsylvania and a J.D. from the University of Michigan Law School.&nbsp;&nbsp;&nbsp; </span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><b>Alicia L. Lewis, Special Counsel</b></span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">Alicia Lewis will continue to serve as Special Counsel to Chairman Behnam managing clearing, LIBOR transition, and international regulatory matters. Ms. Lewis joined the CFTC in 2009. Since 2017, she has served as the Designated Federal Officer for the CFTC’s Market Risk Advisory Committee for which Chairman Behnam is the sponsor. From 2017 to 2019, she was a member of then-Commissioner Behnam’s legal team. Ms. Lewis also has served as Special Counsel in the Office of International Affairs (2020-2021), and in the International and Domestic Clearing Initiatives (2019-2020) and Chief Counsel (2009-2017) Branches of the Division of Clearing and Risk. Before the CFTC, Ms. Lewis was Interim Legal Counsel at the Managed Funds Association where she was responsible for monitoring and commenting on regulatory developments affecting the alternative investment industry at U.S. financial regulatory agencies. Ms. Lewis began her legal career as an associate in the Securities Enforcement and Investment Management practices at K&amp;L Gates where she worked for eight years.&nbsp; Ms. Lewis is also licensed as a Certified Public Accountant (inactive status) and previously worked on investment company audit engagements at Price Waterhouse LLP. Ms. Lewis holds degrees from the University of Pennsylvania’s Wharton School of Business Undergraduate Division (BS) and William &amp; Mary Law School (JD).</span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><b>Abigail S. Knauff, Special Counsel </b></span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">Abigail Knauff joins Chairman Behnam’s office as Special Counsel, where she will serve as the deputy of the CFTC’s Climate Risk Unit, which focuses on the role of derivatives in addressing climate-related risk and fostering product innovation to facilitate the transition to a low-carbon economy. In addition to climate-finance and related risk issues, she will manage matters involving intermediaries and data. Ms. Knauff previously served as Special Counsel in the Clearing Policy Branch of the CFTC’s Division of Clearing and Risk (2018-2021) and the Market Review Branch of the CFTC’s Division of Market Oversight (2012-2018). She also served as the Secretary of the CFTC’s Energy and Environmental Markets Advisory Committee (2019-2021).&nbsp; Ms. Knauff received a LL.M. in Securities and Financial Regulation from the Georgetown University Law Center, a JD from the University of Baltimore School of Law, and a BBA from The College of William and Mary.</span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><b>Steven W. Adamske, Public Affairs Director</b></span></span></p>
+
+<p style="margin-top:16px; margin-bottom:16px"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif">Steven Adamske rejoins the CFTC as the agency’s Director of Public Affairs. Adamske previously held the role for almost seven years and served as a Senior Policy Advisor to Commissioner Sharon Y. Bowen. Most recently Mr. Adamske was the Vice President and Head of Communications and Public Affairs at FIA. At the CFTC, Adamske implemented the communications strategy and outreach efforts for more than 65 final rules, orders and guidance documents required in the Dodd-Frank Act and the Libor and benchmark manipulation cases to name a few. Prior to joining the CFTC, Mr. Adamske served as Deputy Assistant Secretary for Public Affairs at the U.S. Department of Treasury, where he specialized in Domestic Finance and oversaw communications for the Dodd-Frank Act, the Troubled Asset Relief Program (TARP) and Treasury’s housing programs. Prior to that, Mr. Adamske was a senior staff member and Communications Director for the House Financial Services Committee and for Rep. Barney Frank during a time when the committee passed the Dodd-Frank Act, the auto industry rescue, TARP and the Housing and Economic Recovery Act. He also served in senior press roles for several members of Congress, and he served in the Clinton Administration as a senior advance and scheduling aide to Vice President Al Gore and held communications positions at the Department of Interior and the Federal Communications Commission. Mr. Adamske is a graduate of the University of California, Irvine.</span></span></p>
+</div>
+      
+	            <p align="center"><b>-CFTC-</b><p>
+    
+  </div>
+
+</article>
+
+
+  </div>
+
+                  </section>
+
+                            <div class="visible-xs" role="complementary">
+                <div class="region region-sidebar-first">
+    <nav aria-labelledby="block-left-main-menu-menu" id="block-left-main-menu">
+      
+  <h2 id="block-left-main-menu-menu">News &amp; Events</h2>
+  
+
+        
+      <ul class="menu menu--main nav navbar-nav">
+                        <li class="active">
+        <a href="/PressRoom/PressReleases" data-drupal-link-system-path="PressRoom/PressReleases">Press Releases</a>
+                  </li>
+                        <li>
+        <a href="/PressRoom/SpeechesTestimony/index.htm" data-drupal-link-system-path="PressRoom/SpeechesTestimony">Public Statements &amp; Remarks</a>
+                  </li>
+                        <li>
+        <a href="/PressRoom/Events" data-drupal-link-system-path="PressRoom/Events">Events</a>
+                  </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+            </div>
+                
+                                      <aside class="col-sm-2" role="complementary">
+                <div class="region region-sidebar-second">
+    
+  </div>
+
+            </aside>
+                  	    </div>
+    </div>
+  </div>
+
+      <footer class="footer container">
+        <div class="region region-footer">
+    <section id="block-footerblock" class="block block-block-content block-block-content1bf693f6-436f-4c72-90dc-c7858e77abf1 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="footer-container"><div id="links"><div class="link-group"><h4>Policy and Notices</h4><ul><li data-list-item-id="e0d39112056d627eb4e770eb31c38c467"><a href="https://www.cftc.gov/websiteprivacypolicy">Privacy Policy</a></li><li data-list-item-id="e1eca277c8f1204e010028ed08116943e"><a href="https://www.cftc.gov/webpolicy/index.htm">Web Policy</a></li><li data-list-item-id="ef4b3547a54156170dcbc6d49d4f678c9"><a href="/FOI/index.htm">FOIA</a></li><li data-list-item-id="e9fb5fb5e1ab1b9bb55b423d51a0e8d58"><a href="/About/EEO/EEO">EEO</a></li><li data-list-item-id="e0f805d8b1ec40a59e97c54411cf70a41"><a href="/WebPolicy/EEONoFearAct/index.htm">No FEAR&nbsp;Act</a></li><li data-list-item-id="e7e59a8c4eb44d46a6d36eb57d66f9e7c"><a href="/About/EEO/AccessibilityStatement">Accessibility Statement</a></li><li data-list-item-id="eaf903465ff6eb0c7e0de1a3dad28d0f9"><p><a href="https://www.cftc.gov/WPEA">Whistleblower Protection Enhancement Act</a></p><p>&nbsp;</p></li></ul></div><div class="link-group"><h4>Resources</h4><ul><li data-list-item-id="e4e54a11c254aab5acbf8f54327d945a7"><a href="http://www.ecfr.gov/cgi-bin/text-idx?gp=&amp;SID=5dc23cf6b50574003213bb5505efda0e&amp;mc=true&amp;tpl=/ecfrbrowse/Title17/17chapterI.tpl" aria-label="CFTC Regulations from ECFR.gov">CFTC Regulations</a></li><li data-list-item-id="e2ab928c06f4516e9c0f067c0f922fd0e"><a href="/LawRegulation/CommodityExchangeAct/index.htm">Commodity Exchange Act</a></li><li data-list-item-id="e5f00c819123cfc4b74e6628bd4757603"><a href="/About/ProcurementOpportunities/index.htm">Procurement</a></li><li data-list-item-id="ed0a37e2255374be5b00f9649145e8976"><a href="https://www.usa.gov/">USA.gov</a></li><li data-list-item-id="ec057f2f9b823242a74ae0d9c67cd97a6"><a href="/ConsumerProtection/EducationCenter/CFTCGlossary/index.htm">Glossary</a></li></ul></div><div class="link-group"><h4>Actions</h4><ul class="link-list"><li data-list-item-id="ece2d7ebb80e13cef5a5e1ba496903d30"><a href="https://www.cftc.gov/LawRegulation/PublicComments/ReleasesWithComments">Search Public Comments</a></li><li data-list-item-id="ed8081bdb50dcdcb652d01c34b2f41378"><a href="/ConsumerProtection/FileaTiporComplaint/index.htm">Submit Tips &amp;&nbsp;Complaints</a></li><li data-list-item-id="e7f7a31ff64134e2247c3cd95333df7df"><a href="/IndustryOversight/IndustryFilings/index.htm">Search Industry Filings</a></li><li data-list-item-id="e0f10a2a1a6075fd530835e8e1c838ff6"><a href="https://www.whistleblower.gov/" aria-label="Whistleblower.gov link">Whistleblower.gov</a><br><a href="/About/OfficeoftheInspectorGeneral/index.htm">Inspector General</a></li></ul><h4><a href="/SiteMap/index.htm">Sitemap</a></h4></div></div><div id="contact"><div id="hq"><img class="footer-brand svg" src="/sites/all/themes/cftc/images/cftc-logo-big.svg" alt="Home" width="81" height="82" loading="lazy"><div class="address"><h4>CFTC Headquarters</h4><p>Three Lafayette Centre<br>1155 21st Street, NW<br>Washington, DC 20581<br>202.418.5000</p></div></div><div class="signup"><form action="https://service.govdelivery.com/accounts/USCFTC/subscriber/new"><div class="internal-button-input"><input class="primary-button" type="submit" value="Subscribe to CFTC Updates"></div></form></div></div></div><style type="text/css">.branding .nametag { display: none !important;}
+</style></div>
+      
+  </section>
+
+
+  </div>
+
+    </footer>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21047137-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-21047137-1');
+</script>
+
+
+<!-- DAP Program --> 
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=CFTC" id="_fed_an_ua_tag"></script>
+
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/239161","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0,"animateAccordionOpenAndClose":1,"openTabsWithHash":1,"allowHtmlInTitles":0}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"ajaxTrustedUrl":{"\/solr-search\/content":true},"user":{"uid":0,"permissionsHash":"85bcb938dee6a108b91d370ebdd185b624c1bdfa0c54f7218fd5c67979af67bb"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_DxwniWnqE7xOINTwHVNtQyf0FsiE8Cm3HzB_S-I2kcI.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=cftc&amp;include=eJxNi0EKwzAMBD8U4icZR1ZAxHiFtO2hr68hNPQ2M8seAJPRvBw_qh5abRq3JxWH463xVwgMmm9yUoq0wCt13Lb-maFDW-pd1qRC-yy9tBsRtYkgumGWh_YzMKmzfwGEEjtT"></script>
+<script src="https://cdn.jsdelivr.net/npm/entreprise7pro-bootstrap@3.4.8/dist/js/bootstrap.min.js" integrity="sha256-3XV0ZwG+520tCQ6I0AOlrGAFpZioT/AyPuX0Zq2i8QY=" crossorigin="anonymous"></script>
+<script src="/sites/default/files/js/js_yHO-3AaN9bct1y0PQG5krRMSTtTdMt_B2HdTS8Qs7NA.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=cftc&amp;include=eJxNi0EKwzAMBD8U4icZR1ZAxHiFtO2hr68hNPQ2M8seAJPRvBw_qh5abRq3JxWH463xVwgMmm9yUoq0wCt13Lb-maFDW-pd1qRC-yy9tBsRtYkgumGWh_YzMKmzfwGEEjtT"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tlxqfz"></script>
+
+  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4132fa0cc24ff7f',t:'MTc5MDQzNTMyOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

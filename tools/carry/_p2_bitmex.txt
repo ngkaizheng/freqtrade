@@ -1,0 +1,1990 @@
+
+===== PAGE 1 =====
+BitMEX Bitcoin Derivatives:
+Price Discovery, Informational Eﬃciency
+and Hedging Eﬀectiveness⋆
+Carol Alexandera,b, Jaehyuk Choic, Heungju Parkd, Sungbin Sohnc,∗
+aUniversity of Sussex Business School, Falmer, Brighton, United Kingdom
+bPeking University HSBC Business School, Boars Hill, Oxford, United Kingdom
+cPeking University HSBC Business School, Nanshan, Shenzhen, China
+dSungkyunkwan University SKK Business School, Jongno-gu, Seoul, Korea
+Abstract
+BitMEX is the largest unregulated bitcoin derivatives exchange, listing contracts suitable for leverage trading
+and hedging. Using minute-by-minute data, we examine its price discovery and hedging eﬀectiveness. We
+ﬁnd that BitMEX derivatives lead prices on major bitcoin spot exchanges. Bid-ask spreads, inter-exchange
+spreads and relative trading volumes are important determinants of price discovery. Further analysis shows
+that BitMEX derivatives have positive net spillover eﬀects, are informationally more eﬃcient than bitcoin
+spot prices, and serve as eﬀective hedges against spot price volatility. Our evidence suggests that regulators
+prioritise investigation of the legitimacy of BitMEX and its contracts.
+Keywords:
+bitcoin, BitMEX, market eﬃciency, price discovery, spillover
+JEL: G14
+⋆This paper was presented at the 3rd KAFE–JAFEE International Conference on Financial Engineering in Busan, Korea.
+The authors thank Robert Webb (editor), Doojin Ryu (conference co-organizer) and other participants at the conference. The
+authors are grateful to Dr. Kibeom Seong for sharing proprietary data for the earlier version of this paper.
+∗Corresponding author Tel: +86-755-2603-5324, Address: 748 PHBS University Town, Nanshan, Shenzhen 518055, China
+Email address: sungbin.sohn@phbs.pku.edu.cn (Sungbin Sohn)
+Preprint submitted to Journal of Futures Markets
+August 1, 2019
+
+===== PAGE 2 =====
+1. Introduction
+Bitcoin was the ﬁrst digital currency to operate through a peer-to-peer network without a central author-
+ity (Nakamoto, 2008).
+Since inception over ten years ago it has become actively traded through both
+decentralised and centralised exchanges. Decentralised exchanges are, in eﬀect, smart contract-based limit
+order books run without central authority, where the change of ownership is made directly between the coun-
+5
+terparties’ wallets and is recorded on a publicly available blockchain. Although they may be an intriguing
+research subject in the future, decentralised exchanges are still in their infancy. In this paper, therefore, we
+only investigate the microstructure of bitcoin on centralised exchanges (CEX). Trading activity is still highly
+anonymous and diﬃcult to trace on a CEX because only cryptoasset transfers to and from the exchange’s
+hot wallet are recorded on the blockchain, unless the exchange is regulated otherwise. A very large number
+10
+of CEXs have started operating during the last few years and several of them trade bitcoin derivatives con-
+tracts such as swaps, futures and options. Since they provide an application programming interface (API)
+in the hope of attracting automated high-frequency traders, trade-level data may be freely collected using
+this API. Hence there is a plethora of data on CEX markets and academic research on the microstructure
+of bitcoin markets has become proliﬁc.
+15
+Price discovery is one of the most important research questions. As Baur and Dimpﬂ(2019) point out,
+two properties of bitcoin – the absence of a commonly-accepted valuation model and the trading of the same
+asset in numerous venues – not only make this question particularly challenging but also make empirical
+evidence more important. The launch of bitcoin futures on the Chicago Mercantile Exchange (CME) and
+the Chicago Board Options Exchange (CBOE) in December 2017 triggered much academic discussion on
+20
+the role of futures in bitcoin price discovery. Hale et al. (2018) argues that the bitcoin price collapse after
+these futures launched is not a coincidence – similar patterns have been observed in other asset classes.
+This argument implies a leader role for those futures contracts in bitcoin spot price discovery. However,
+using the accumulated price data from both futures exchanges, Corbet et al. (2018) and Baur and Dimpﬂ
+(2019) independently report that the futures markets neither exercise a price leadership nor serve as an
+25
+eﬀective hedge against spot market, possibly due to low trading volume in futures contracts compared with
+the spot. Yet, this is contrary to general ﬁndings in mature futures markets of other asset classes, where
+futures markets play a dominant role in price discovery (Cabrera et al., 2009; Rosenberg and Traub, 2009;
+Bohl et al., 2011; Hauptﬂeisch et al., 2016). Moreover, using much higher frequency data and a longer time
+span than previous studies, a recent paper by Alexander and Heck (2019) has demonstrated a relatively high
+30
+role of both CBOE and CME futures. In fact, after the CBOE contract was withdrawn, the CME futures
+started to play a particularly strong price discovery role, particularly on expiry dates or around price jumps.
+Market eﬃciency is another active area of research. Some conclude that, although not eﬃcient at ﬁrst,
+2
+
+===== PAGE 3 =====
+the bitcoin market is now highly eﬃcient (Urquhart, 2016; Bariviera, 2017; Vidal-Tom´as and Iba˜nez, 2018;
+Tiwari et al., 2018; Sensoy, 2019). However, this conclusion is not unanimous as the methods, data source,
+35
+and observation periods vary considerably. For example, a recent study that uses diﬀerent eﬃciency indices
+argues that the bitcoin market was ineﬃcient even until 2018 (Jiang et al., 2018). For a comprehensive
+review of the bitcoin eﬃciency literature to date, see Bundi and Wildi (2019). Note that some research on
+eﬃciency has been extended to cryptocurrencies beyond bitcoin (Brauneis and Mestel, 2018; Wei, 2018).
+We make a novel contribution to both strands of the bitcoin literature by examining the bitcoin deriva-
+40
+tives traded on BitMEX.1 This is one of the largest bitcoin exchanges by trading volume, as of April 2019,
+and counting all bitcoin products its volume is an order of magnitude above CME, CBOE and major spot ex-
+changes. Therefore, BitMEX data should provide a comprehensive view about bitcoin market microstructure
+and, in particular, a study on the price leadership between spot and derivative trades. BitMEX launched
+their derivatives contracts before the CME and CBOE but they have many diﬀerent features which aim
+45
+to attract small but crypto-focused traders than mainstream ﬁnancial institutions: 1 USD contract size, no
+regulation, bitcoin-based contract design, minimal margins, and much lower trading costs. Following Admati
+and Pﬂeiderer (1988) we know that all these features should attract the participation of informed traders.
+While the exchange had been known among cryptocurrency insiders since its launch in 2014, the importance
+of BitMEX has only recently attracted the attention of regulators, who are concerned about the potential
+50
+for market manipulation.2 Our paper aims to inform both traders and regulators about the microstructure
+of BitMEX, and its crucial role in the crypto asset ecosystem.
+To learn more about bitcoin market microstructure we (trivially) conﬁrm the cointegration between
+prices on the BitMEX perpetual swap, a synthetic spot similar to futures, and three major spot exchanges
+(Bitstamp, Coinbase and Kraken) as a pre-requisite for estimating a four-dimensional vector error correction
+55
+model (VECM) which provides the foundation of our price discovery measures. We examine the extent to
+which each exchange contributes to the common eﬃcient price, measured by the modiﬁed information shares
+(MIS) of Lien and Shrestha (2009) and the component shares (CS) of Gonzalo and Granger (1995). We also
+measure the extent to which innovations in one exchange are transmitted to the others, using the gross and
+net spillover eﬀects of Pesaran and Shin (1998) and Diebold and Yilmaz (2012). Moreover, we investigate
+60
+the extent to which the current return is associated with the past information as measured by the returns
+autocorrelation and variance ratio (Comerton-Forde and Putni¸nˇs, 2015).
+We ﬁnd that, among the four markets studied, the BitMEX perpetual swap takes almost half of both
+1https://www.bitmex.com. BitMEX stands for Bitcoin Mercantile Exchange.
+2See
+Twomey
+and
+Mann
+(2019)
+and
+https://www.bloomberg.com/news/articles/2019-07-19/
+u-s-regulator-probing-crypto-exchange-bitmex-over-client-trades.
+3
+
+===== PAGE 4 =====
+the MIS and the CS. This very dominant price discovery role is stable and robust throughout the sample
+period. This ﬁnding indicates that the speed with which new information is incorporated into the bitcoin
+65
+price is more rapid in BitMEX than in these other exchanges, i.e. the BitMEX perpetual swap plays the
+price leadership role. In addition, we document that the strength of price discovery in BitMEX is positively
+(negatively) associated with the relative bid-ask spread (trading volume) of the spot markets, consistent
+with ﬁndings in equity derivatives markets (Chakravarty et al., 2004; Chen and Chung, 2012). We also ﬁnd
+that the magnitude of price spreads between exchanges also aﬀects the role of BitMEX in price discovery.
+70
+Moreover, the eﬀect of inter-exchange spreads depends on whether the market is bull or bear mode. Further
+analysis shows that BitMEX has signiﬁcantly positive net spillover eﬀects, meaning that innovations in
+BitMEX have a disproportionately larger inﬂuence on the other three markets.
+These strong price discovery and spillover eﬀects from BitMEX derivatives suggest higher informational
+eﬃciency and hedge eﬀectiveness. We indeed ﬁnd much supporting evidence for this. When measured by
+75
+autocorrelation and variance ratio, BitMEX is informationally more eﬃcient than all three spot exchanges
+– even more eﬃcient than Coinbase, the most eﬃcient one among the three. Finally, we show that BitMEX
+derivatives serve as an eﬀective hedge against spot market with the out-of-sample hedging eﬀectiveness
+between 0.9642 (for the naive hedge of the Kraken price) and 0.9939 (for the minimum variance hedge of
+Coinbase). These ﬁndings are in complete contrast to the conclusions of Corbet et al. (2018) and Baur and
+80
+Dimpﬂ(2019), who use the CME and CBOE bitcoin futures as the hedging contract.
+The remainder of this paper is organised as follows. Section 2 discuses the characteristics of BitMEX
+products. Section 3 describes the data and conﬁrms that, of all derivatives contracts traded in BitMEX,
+the perpetual swap is the most representative. In Section 4, we investigate several market microstructure
+properties of BitMEX and compare them with those in major spot exchanges, using high frequency data
+85
+from July 01, 2016 to January 03, 2019. We also examine the hedging eﬀectiveness relative to the three main
+bitcoin spot exchanges. Finally, Section 5 concludes.
+2. Exchange and Contracts
+Here we describe BitMEX and its products, focussing on its ﬂagship contract – the perpetual swap – and
+compare its characteristics with the bitcoin futures traded on the CME.
+90
+BitMEX is an online cryptocurrency derivatives exchange founded in 2014. It is an unregulated exchange
+with no ﬁat currency involvement. Although it operates in Hong Kong, BitMEX is wholly owned by an
+entity incorporated in the Republic of Seychelles, a well-known tax shelter.
+Therefore, BitMEX is not
+subject to any futures regulatory bodies such as the Commodity Futures Trading Commission (CFTC) in
+the Unites States or the Securities and Futures Commission (SFC) in Hong Kong. In addition, ﬁat currency
+95
+4
+
+===== PAGE 5 =====
+is not involved in BitMEX: the margin and settlement are paid only in bitcoin. As a consequence, there are
+no know-your-client (KYC) or anti-money laundering (AML) procedures during account opening, which is
+typically enforced by the partner banks for other, ﬁat-based crypto exchanges. Clients only need an e-mail
+account and bitcoins to trade on BitMEX. This lack of regulation is an obstacle for some clients such as
+large ﬁnancial institutions with strong compliance and those in certain jurisdictions.3 Nevertheless, these
+100
+features attract a wide retail client base to BitMEX. It is the alternative trading venue of choice for those
+without access to well-functioning spot exchanges, or indeed those wishing to avoid KYC or other checks on
+identity. It is possible that many Chinese became BitMEX clients after the Chinese authorities closed local
+cryptocurrency exchanges in September 2017.
+Although the CME (and the – now defunct – CBOE) bitcoin futures have a contract size denominated
+105
+in bitcoin (XBT), the contracts are managed entirely in USD.4 By contrast, BitMEX uses XBT as its base
+currency. As a result, the proﬁt and loss of BitMEX products (i.e. ﬁxed-maturity futures and the perpetual
+swap) depends on the inverse of XBT/USD. That is, a short (long) position on bitcoin is eﬀectively a
+long (short) position on USD/XBT. Consequently, the contract size is measured in USD not XBT.5 This
+feature may or may not attract clients, depending on which currency is preferred. For traditional ﬁnancial
+110
+institutions trading various asset classes, the bitcoin-based system of BitMEX is perhaps another deterrent
+– they prefer ﬁat currency for accounting purposes and fungiblility. Hence, the CME contracts are better
+suited to them. But the XBT base-currency feature of BitMEX is ideal for crypto-based traders who need
+bitcoins for their daily business operations. Such traders include, for example, miners who have amassed a
+3In
+January
+2019,
+BitMEX
+reportedly
+started
+refusing
+and
+closing
+client
+accounts
+based
+in
+US
+and
+Quebec,
+Canada,
+as
+requested
+by
+regulators
+in
+these
+regions.
+However,
+the
+determination
+of
+client
+jurisdiction
+based
+on an IP address can be extremely diﬃcult.
+See https://www.scmp.com/business/money/wealth/article/2182043/
+hong-kong-based-digital-currency-exchange-bitmex-ditches.
+4We use XBT for bitcoin’s currency code, following the CBOE and BitMEX. This abbreviation comes from the International
+Standards Organization that maintains a list of internationally recognized currencies. In time, it may replace the abbreviation
+BTC entirely.
+5We further illustrate the diﬀerence with an example. Suppose a trader holds ten bitcoins and hedges the market value by
+entering into a short futures position. Assume that the bitcoin price changes from 5,000 USD to 4,000 USD during the period
+of hedge. If she uses CME, she would enter into a short futures of 10 XBT, and the proﬁt from the position is
+(5, 000 −4, 000) × 10 = 10, 000 USD.
+The resulting portfolio, consisting of 10 bitcoins and 10,000 USD, has the unchanged value of 50,000 USD. If she uses BitMEX
+instead, she would create a short position worth of 50,000 USD, and the proﬁt from the position is
+
+1
+4, 000 −
+1
+5, 000
+
+× 50, 000 = 2.5 XBT
+The resulting position, 12.5 bitcoins, also has 50,000 USD value.
+5
+
+===== PAGE 6 =====
+large XBT balance, blockchain-related start-ups who have raised capital by initial coin oﬀerings (ICO), and
+115
+hedge funds trading cryptocurrencies. These players might be considered as more informed about bitcoin
+markets than the mainstream ﬁnancial institutions who prefer trading on the CME, although their size may
+be smaller.
+The BitMEX margin requirement is just 1%, allowing a leverage ratio of 100, whereas the CME requires
+37% and the requirement can be even higher depending on brokerage. For example, TD Ameritrade requires
+120
+a margin 1.5 times higher than the exchange margin. Interactive Brokers requires a ﬁxed 40,000 USD for
+the short position on one bitcoin.
+Moreover, trading costs on BitMEX are low. The market takers pay a 7.5 basis point fee, but market
+makers receive a 2.5 basis point rebate when a trade is executed. Along with the availability of an API,
+the rebate scheme is a strong incentive for crypto-based high-frequency hedge funds for automated market
+125
+making or statistical arbitrage. To the best of our knowledge, no other major bitcoin derivatives exchange,
+CME and CBOE included, oﬀers such a rebate scheme.
+There are several further properties which make BitMEX contracts more accessible to investors than
+the CME bitcoin futures. The contract unit of one USD in BitMEX is aﬀordable for retail traders. This
+is signiﬁcantly less than the contract units of 5 bitcoins in CME (or 1 bitcoin for the CBOE, before the
+130
+contracts were withdrawn). The tic increment is 0.5 USD on BitMEX compared to 5 USD on CME. And
+BitMEX trading occurs 24/7, similar to spot exchanges, whereas trading on the CME is from Sunday to
+Friday, 5pm to 4pm Chicago time.
+Last, but most importantly, BitMEX’s unique contract type called the perpetual swap has made key
+contributions to the popularity of BitMEX. Since its founding in 2014, BitMEX oﬀered various products
+135
+such as traditional ﬁxed-maturity futures on XBT/USD (the XBT series).6 However, it was not until the
+introduction of the XBT/USD perpetual swap in May 2016 that BitMEX gained meaningful trade volume.
+The perpetual swap has now become by far the most traded product on BitMEX. It can be understood as
+a cross-currency (i.e. ﬁxed for ﬂoating) swap between XBT and USD, where the XBT notional amount is
+rebalanced against a ﬁxed USD notional amount (i.e. the contract size) according as the market changes.
+140
+7 During the swap, both sides pay interest on the principal in the currency they receive. As in a currency
+6BitMEX used to also oﬀer traditional ﬁxed-maturity futures on BTC/JPY (the XBJ series) and BTC/USD quanto futures
+(the XBU series), but these series are no longer oﬀered.
+7That is, the up-front principal exchange is x1 per dollar, where x1 is the XBT/USD rate at the start of the swap. If the
+notional is 10, 000 USD then party A pays 10, 000 USD to party B and receives 10, 000/x1 bitcoin from party B. On exiting the
+contract party B returns 10,000 USD to party A and receives 10, 000/x2 bitcoin from party A where x2 is the XBT/USD rate
+when the contract is closed. This makes the product, eﬀectively, a synthetic spot bitcoin featured with long and short positions.
+6
+
+===== PAGE 7 =====
+swap, only the interest diﬀerence, or funding in BitMEX terms, is exchanged between the long and short
+position holders. Given there is no interest rate in bitcoin, the funding rate is computed using a formula
+which is designed to prevent divergence between the swap rate and the reference bitcoin spot price index in
+BitMEX (.BXBT).8 Unlike a standard currency swap, however, there is no ﬁxed maturity. The perpetual
+145
+swap may be preferred because there is no need for a roll-over trade – which can be risky due to bitcoin’s
+high volatility. Following the success of the BitMEX perpetual swap the contract design has been adopted
+by several followers, such as the OKEx exchange.9 Table 1 summarises the diﬀerences between the BitMEX
+perpetual swap and the ﬁxed maturity futures on BitMEX, CME, and CBOE.
+Taken together, all these characteristics contribute to large trading volumes and a broad investor base.
+150
+Admati and Pﬂeiderer (1988) show, theoretically and under reasonable assumptions, that the introduction of
+more informed traders generally increases the concentration of trading by liquidity traders, further attracting
+more informed traders. One implication of this theory is that, in a market with higher trading volume,
+more information creation occurs and prices are more eﬃcient. Based on this theoretical implication, we
+hypothesise that conditions on BitMEX lead to fast price discovery and informationally eﬃcient prices, and
+155
+we test these hypotheses formally in Section 4.
+(Insert Table 1 here)
+3. Data
+In this section, we describe the data and justify several choices we have made for the analysis to come. We
+obtained trade-level XBT/USD data from two sources: the BitMEX archive ([dataset] BitMEX, 2019) for the
+160
+trades and the best bid-ask prices for perpetual swaps and traditional futures; and bitcoincharts.com ([dataset]
+Bitcoincharts, 2019) for the trades on three spot exchanges, Bitstamp, Coinbase, and Kraken.10 The data
+include time-stamp, price, and traded bitcoin amount for each trade. We use the trade-level data to create
+a price time series and trade volume is aggregated minute-by-minute, or at other required frequencies. Ad-
+ditionally, we use the averaged bid-ask spread of the three spot exchanges from bitcoinity.org ([dataset]
+165
+Bitcoinity, 2019).
+We select the sample period from July 1, 2016 to January 3, 2019. The start date is chosen so to exclude
+the period immediately after the launch of the BitMEX perpetual swap in May 2016. In several analysis, we
+8For the detailed contract speciﬁcation we refer to the BitMEX website: https://www.bitmex.com/app/contract/XBTUSD.
+9https://medium.com/okex-blog/okex-launched-perpetual-swap-227eec2c9f29
+10[dataset] Bitcoincharts (2019) has been widely used in previous studies; see Eross et al. (2019) and Gandal et al. (2018) for
+example. We verify the data integrity by comparing the aggregated daily trade volume to that available from another on-line
+source, [dataset] Bitcoinity (2019).
+7
+
+===== PAGE 8 =====
+divide the period into two sub-periods: before and after December 17, 2017 when the bitcoin price reached
+its peak near USD 20,000. This partition of the sample is intended to detect any structural break between
+170
+bull and bear markets. The break point also coincides with the launch of the bitcoin futures on CBOE and
+CME.
+The three spot exchanges (Bitstamp, Coinbase, and Kraken) represent the bitcoin spot markets well
+because they are consistently ranked within top ﬁve by XBT/USD trading volume. We exclude Bitﬁnex
+although its trading volume is higher than the three exchanges. A signiﬁcant portion of bitcoin trade in
+175
+Bitﬁnex is reportedly made against Tether (USDT), a cryptocurrency whose value is supposed to be in
+parity with USD because it is issued on USD collateral. Moreover, Bitﬁnex is closely tied with the issuer of
+Tether and various legal and accounting issues has been raised recently (Griﬃn and Shams, 2018). Therefore,
+Bitﬁnex is diﬃcult to be considered as a genuine spot exchange. With Bitﬁnex excluded, Bitstamp, Coinbase,
+and Kraken account for 21.0%, 25.2%, and 9.7% of the total XBT/USD spot trading volume, respectively,
+180
+during the sample period ([dataset] Bitcoinity, 2019). The three exchanges are particularly suitable for the
+analysis of spot-derivative relationship because they constitute the reference spot price index in BitMEX
+with equal weight.
+Figure 1 plots the daily characteristics of the bitcoin spot and perpetual swap prices. The top-left panel
+shows that prices on the four exchanges clearly share a common stochastic trend, implying a cointegration
+185
+relationship. The returns and volatilities of the four markets also coincide. The bottom-right panel depicts
+the log basis of the three spot exchanges, i.e. the log of the BitMEX price minus the log of the spot exchange
+price.
+(Insert Figure 1 here)
+Table 2 reports the average trading volume by exchanges and trade types in the six month sub-periods
+190
+as well as the whole sample. In addition to the four exchanges we report the trading volume on CBOE and
+CME obtained from their websites, for reference. For BitMEX, the volume from the perpetual swap and
+the ﬁxed maturity futures are reported separately. Overall the trading volume grows rapidly in all trading
+venues until the second half of 2018. It is noticeable that the volumes on BitMEX and CME still grow in
+the last sub-period whereas the volume decrease in the rest of exchanges. To capture the changes in relative
+195
+volume share over the sample period better, in Figure 2 we plot the ratio of BitMEX’s perpectual swap
+volume to the sum of volumes over the three spot exchanges (Bitstamp, Coinbase, and Kraken). The volume
+ratio exceeds one by early 2017 and reaches 24 by August 2018.
+(Insert Table 2 here)
+(Insert Figure 2 here)
+200
+8
+
+===== PAGE 9 =====
+While both the perpetual swap and the the traditional futures are traded on BitMEX, we acknowledge the
+perpetual swap as the legitimate representative of the exchange – a decision based on much larger volume
+and superior price discovery.11 In the previous section, we also argued that the perpetual swap is more
+attractive than the ﬁxed maturity futures because it does not require roll-over trades.
+Since the following analyses are mostly based on the assumption of cointegration, we formally test whether
+205
+the cointegration relationship exists over the full-sample and sub-sample periods. Table 3 reports the test
+results. The Engle-Granger test assesses the null hypothesis of no cointegration among the log prices of the
+four exchanges. The Johansen test assesses the null hypothesis of a particular cointegration rank against
+the alternative of higher ranks. Regardless of the sample periods, the test statistics and their associated
+p-values conﬁrm that there exists a cointegration relationship and that the rank of the cointegrating matrix
+210
+is at least three, implying a single stochastic trend. The last row in each panel reports the proportion of days
+in which the associated null hypothesis is rejected at the 1% signiﬁcance level when the cointegration tests
+are conducted on a daily basis. Panel A shows that in the full-sample period, the null of no cointegration is
+rejected in 912 trading days (99.45%) out of the total 917 trading days according to the Engle-Granger test.
+The Johansen test shows that the null hypothesis of the cointegration rank being equal to three cannot be
+215
+rejected for more than 83.64% of the total trading days. These results do not qualitatively change in the
+two sub-samples, indicating the robustness of the cointegration relationship. Based on these test results, this
+paper assumes the existence of a cointegration relationship with the cointegration rank of three.
+(Insert Table 3 here)
+4. Empirical Analyses
+220
+This section investigates several market microstructure properties of BitMEX using a four-dimensional
+VECM with the prices in BitMEX, Bitstamp, Coinbase and Kraken as the state variables. A bivariate
+VECM is more common in the spot-derivative price discovery literature and we could also have applied such,
+using the reference spot price index in BitMEX, the equally-weighted average of the three spot exchange
+11Indeed, we see that the trading volume of the perpetual swap is larger than that of traditional bitcoin futures, by an order
+of magnitude. We also examine the price discovery shares between the two BitMEX products –this will be detailed in Section
+4.1 and the Appendix. For the analysis of the futures, we form a single time series of minute-by-minute futures prices, using
+the price of the most nearby contract until there are three trading days left to maturity. After that, the next nearby contract
+replaces the expiring one.
+We construct the time series in this way because the prompt contract generally has the largest
+trading volume and supposedly contains the most information. This method has been adopted in the literature (Booth et al.,
+1999; Sohn and Zhang, 2017), and our results are robust to the speciﬁc timing of the contract replacement. Since the trading
+volume of the bitcoin futures had been negligible until the end of October 2016, we start considering its price time series from
+November 2016.
+9
+
+===== PAGE 10 =====
+prices. However, we decided to use the raw price data from the spot exchanges because the price index may
+225
+not be the optimal representative of the spot bitcoin price. As will be described in following sub-sections,
+the price discovery shares of the three spot exchanges are not evenly distributed. Therefore, it may over-
+represent the exchange with smaller price discovery. Moreover, this four-dimensional setting enables us to
+learn the inﬂuences not only between spot and derivatives markets but also among spot markets.
+4.1. Modiﬁed information shares and component shares
+230
+In this sub-section, we examine the contribution to the price discovery by BitMEX and the other three bitcoin
+spot exchanges (Bitstamp, Coinbase, and Kraken). Price discovery is the process by which new information
+is incorporated into asset prices.
+Given a single product traded in several markets (alternatively, given
+closely related products traded in a market), the market (or product) whose price reﬂects new information
+faster would be expected to play the dominant role in price discovery. Assuming a cointegration relationship
+235
+among the prices in consideration, Hasbrouck (1995) and Gonzalo and Granger (1995) respectively propose
+the measures of price discovery: information shares (IS) and component shares (CS). Lien and Shrestha
+(2009) suggest the modiﬁed information share (MIS) that overcomes some shortcomings of IS. The MIS of a
+market captures the extent to which its innovation contributes to the variation in the common factor of the
+cointegrated time series. The CS reﬂects each market’s relative contribution to the common factor. These
+240
+two measures are derived from a common cointegration relationship and have similarity, but they diﬀer in
+that the MIS incorporates the correlation between price innovations of the considered markets (products)
+while the CS does not. Therefore, the two measures provide complementary views of price discovery among
+the markets.12
+(Insert Table 4 here)
+245
+For a given sample period, e.g. the entire sample or on a daily basis, we use minute-by-minute log prices
+to estimate a vector error correction model (VECM) and compute the MIS and the CS. Panel A of Table
+4 reports the price discovery shares of the four markets for the full-sample period. We ﬁnd that BitMEX
+plays the dominant price discovery role. Speciﬁcally, the average of daily MIS (CS) of BitMEX is 51.53%
+(57.50%). In contrast, those of Bitstamp, Coinbase, and Kraken are limited to 18.46% (15.61%), 23.18%
+250
+(21.24%) and 6.81% (5.64%), respectively.
+(Insert Figure 3 here)
+12See Appendix for the detailed calculation procedure.
+10
+
+===== PAGE 11 =====
+To examine how the price discovery shares evolve over time, the same analysis is peformed for the two
+sub-periods, before (Panel B) and after (Panel C) December 2017. We also plot the daily time series of MIS
+and CS for the four exchanges in Figure 3 using day-by-day VECM models. The results are smoothed to
+255
+remove noise. The table and the ﬁgure conﬁrm that the contribution of BitMEX to price discovery has been
+stable and high, despite some ups and downs. The shares of BitMEX either increased after the structural
+break (CS: 50.09% to 67.89%) or are almost unchanged (MIS: 52.25% to 50.33%) depending on the measures.
+In contrast to the stable role of BitMEX, the price discovery shares of Coinbase tends to decrease over time,
+while the price discovery role of Bitstamp has steadily increased.
+260
+Interestingly, the MIS and CS are almost identical, particularly in the earlier sub-sample, implying that
+the contemporaneous correlation among innovations in the four exchanges is suﬃciently small (Baillie et al.,
+2002). In the later sub-sample, however, the diﬀerences between MIS and CS is sizeable, indicating that the
+exchanges become more inter-connected and their innovations are consequently more correlated.
+4.2. Speed of error correction
+265
+Since the MIS and CS from the four exchanges should sum to one by construction, they only capture
+the relative strength of price discovery. Hence, when the speed of information incorporation into the price
+increases or decreases concurrently in the four exchanges, these measures cannot eﬀectively reﬂect this change.
+To understand the changes in strength of price discovery comprehensively, we consider whether and to what
+extent an exchange reacts to short-run deviations from a long-run equilibrium by investigating the error
+270
+correction coeﬃcients in the VECM. Table 5 reports the average of estimated error correction coeﬃcients
+obtained from the daily estimation of the VECM and the associated Newey-West standard errors. The error
+correction coeﬃcients indicate the response speed of each exchange with respect to the deviation of its price
+from the price in another exchange. For example, the row of BitMEX in Panel A shows the response of the
+price on BitMEX when the price diﬀerence between BitMEX and Bitstamp (Coinbase or Kraken) increases
+275
+by 1%.
+(Insert Table 5 here)
+Note that the signs of the error correction coeﬃcients are supposed to be non-positive, under this speciﬁ-
+cation. As expected, all coeﬃcients are either negative or insigniﬁcant for all exchanges and sample periods,
+but their magnitudes vary across the four markets and over time. In the full-sample period, it turns out
+280
+that the error correction occurs most strongly in Kraken, while the error correction speed is the slowest in
+BitMEX. When the price diﬀerence between Kraken and BitMEX (Bitstamp or Coinbase) widens by 1%,
+the price in Kraken falls by 0.1804% (0.2487% or 0.2250%) in the following minute. In contrast, when the
+price diﬀerence between BitMEX and Bitstamp (Coinbase or Kraken) increases by 1%, the price in BitMEX
+11
+
+===== PAGE 12 =====
+reacts very little – it subsequently drops by only 0.0357% (0.0038% or 0.0049%). This result is consistent
+285
+with the ﬁndings from the MIS and CS that BitMEX plays the dominant price discovery role. Intuitively,
+if the price of one exchange responds strongly to the past cointegration error (i.e. the short-run deviation
+from a long-run equilibrium) rather than evolving autonomously, it is likely that the exchange incorporates
+information at a lower speed than others and plays a less important role in price discovery.
+The sub-sample estimations indicate that the absolute strength of each market’s price discovery exhibits
+290
+dramatic changes over time; the response of the spot exchanges to the cointegration errors became stronger
+but BitMEX does not signiﬁcantly respond to price deviation from Coinbase and Kraken in the recent
+bearish sub-sample. This ﬁnding is consistent with the stronger price leadership of BitMEX as well as closer
+interconnectedness among spot exchanges in the recent period.
+4.3. Spillover eﬀects
+295
+The ﬁndings above suggest that BitMEX and the spot exchanges have become more closely inter-connected
+over time. To examine the extent to which shocks in one market account for variation in other markets we
+conduct the forecast error variance decomposition suggested by Pesaran and Shin (1998) and Diebold and
+Yilmaz (2012) to calculate the gross and net spillover eﬀects from a given market.13 While the MIS and CS
+indicate how each market reacts to the deviation from the long-run common trend, the spillover eﬀects show
+300
+how each market reacts to shocks in other markets.
+(Insert Table 6 here)
+(Insert Figure 4 here)
+Table 6 presents the gross spillover eﬀects from one market to another, and the net spillover eﬀects from
+a given market. The (i, j) entry in the gross spillover represents the estimated contribution to the forecast
+305
+error variance of market i coming from innovations of market j, while the entry in the net spillover is the
+diﬀerence between the spillover from market i to all other markets and the spillover from all other markets
+to market i. The spillovers are estimated for each day and the values in the table are the average of the
+daily estimates.
+Unsurprisingly, the majority of the forecast error variance in a market originates from its own shocks.
+310
+In the full-sample period the gross spillover from a market to itself ranges from 64.28% (Coinbase) to
+73.16% (Kraken). The total spillover, deﬁned as the average forecast error variance attributed to other
+markets rather than its own, is 32.85%. One noticeable ﬁnding is that BitMEX gives substantially more
+than receives: the spillover from BitMEX to the other exchanges is 44.25%, while that to BitMEX from
+13See Appendix for the detailed calculation procedure.
+12
+
+===== PAGE 13 =====
+the others is 36.00%. In other words, innovations in BitMEX inﬂuence the other exchanges more than it is
+315
+inﬂuenced by innovations in the others, and this is reﬂected by the sizeable positive net spillover (8.25%).
+In contrast, Kraken has a considerable negative net spillover (-8.58%) meaning that the inﬂuence of Kraken
+on the others is disproportionate to that of others on itself. The other two exchanges are well balanced in
+that the net spillovers are close to zero.
+The sub-sample analyses contrast the inter-market inﬂuences during earlier and later periods. First, the
+320
+total spillover increases from 17.02% before the price peak in December 2017 to 55.05% afterwards. This
+means that an increased fraction of the forecast error variance in one market is attributed to the shocks in
+the other markets, again implying a greater connectedness between the markets. The gross spillover from
+each exchange also increases signiﬁcantly. For example, the shocks in BitMEX account for only 28.79% of
+the forecast error variances of the other exchanges in the earlier sub-sample, but this fraction increases to
+325
+65.91% in the later sub-sample. This trend of intensiﬁed interdependence is consistent with the evidence
+found in Sections 4.1 and 4.2 in that each exchange is more actively incorporating information arising from
+other exchanges and their innovations are more correlated.
+(Insert Figure 5 here)
+The averaged values in the table provide a useful and handy snapshot of the overall inﬂuence of each
+330
+market, but cannot show how it has evolved over time. For better understanding of its time-varying features,
+Figure 4 depicts the daily net spillover from each market. In the earlier sample period the net spillovers are
+close to zero for all four exchanges, which indicates that there had been little inter-market inﬂuences until
+early 2017. This fact is consistent with the overall trend of the total spillover depicted in Figure 5. However,
+as the total spillover eﬀects substantially increase after mid 2017, the net spillover from BitMEX has become
+335
+signiﬁcantly positive, while that from Kraken has become signiﬁcantly negative. The net spillovers from the
+other two markets remain close to zero. If shocks in one market aﬀect the prices in other markets more than
+the other way around, then the market supposedly plays more important roles in price discovery. In light of
+this, the positive net spillover in BitMEX is generally consistent with its large price discovery shares.
+4.4. Determinants of price discovery
+340
+In Section 4.1 we showed that the strength of the price discovery of BitMEX ﬂuctuates over time.
+To
+formally examine the determinants of time-varying price discovery shares, we run a regression of the price
+discovery share (MIS and CS) of BitMEX on several market characteristics. Speciﬁcally, we control the
+relative spread (RSpread; average bid-ask spread in spot exchanges divided by BitMEX spread), the relative
+trading volume (RTV ; total trading volume of the spot exchanges divided by BitMEX trading volume), the
+345
+bitcoin log return (Ret; the change of log bitcoin prices in BitMEX), the absolute basis (Abs.Basis; absolute
+13
+
+===== PAGE 14 =====
+value of average diﬀerence of log prices between BitMEX and the three spot exchanges). We also include a
+dummy variable that indicates a day with a negative return (DRet<0) and its interaction with Abs.Basis.
+The spot exchanges are represented by Bitstamp, Coinbase, and Kraken. All control variables except for
+the dummy are standardized to have zero-mean and unit-variance for clearer economic interpretation: the
+350
+coeﬃcients represent the change in the dependent variable – i.e the price discovery share of the futures – per
+unit standard deviation change in the control variable.
+These control variables are motivated by the previous literature and plausible conjectures. First, it has
+been widely documented that price discovery tend to occur primarily in the market with smaller trading
+costs (Booth et al., 1999; de Jong and Donders, 1998; Hsieh et al., 2008). To test this trading cost hypothesis,
+355
+we control for the relative bid-ask spread and the relative trading volume. Secondly, a larger absolute basis
+indicates wider deviation of prices from a long-run eﬃcient price and this price decoupling may well result
+from the inﬂux of uninformed investors into spot exchanges, due to exuberance and/or irrationality, which
+could potentially open a short window of arbitrage opportunity. Therefore, we conjecture that BitMEX
+traders, who are supposedly more informed, could actively exploit this potential arbitrage opportunity and
+360
+aﬀect the price discovery strength. Thirdly, when the market is down BitMEX may play a diﬀerential price
+discovery role, because short-selling is possible directly on BitMEX but not on our spot exchanges. To test
+the second and third conjectures we include the absolute basis, the market return, and the negative return
+indicator.
+Table 7 reports the regression results.
+BitMEX is stronger when the spot exchanges have relatively
+365
+greater bid-ask spreads and smaller trading volume, consistent with previous empirical ﬁndings that less
+costly transactions and more trading are conducive to faster information incorporation (Chakravarty et al.,
+2004; Chen and Chung, 2012; Ahn et al., 2019). Speciﬁcally, column (1) shows that when the relative bid-ask
+spread (trading volume) of spot exchanges increases by 1 standard deviation, the MIS of BitMEX rises by
+5.37% (falls by 1.87%). We also ﬁnd that the absolute value of the basis is negatively associated with the
+370
+price discovery of BitMEX, meaning that the larger price gap between BitMEX and other spot exchanges
+lowers the price discovery role of BitMEX. To understand this ﬁnding, recall that the market whose price
+tends to narrow the absolute basis has a low price discovery share because this market follows, rather than
+leads, the other markets. In light of this fact, our ﬁnding is consistent with the conjecture that BitMEX
+traders more actively exploit potential arbitrage opportunities when prices deviate further from a long-run
+375
+eﬃcient level. Interestingly, this negative relation between the price decoupling and the price discovery in
+BitMEX depends on the market situation. During a market downturn this negative association signiﬁcantly
+weakens. For example, column (2) shows that when the absolute basis increases by 1 standard deviation,
+the MIS of BitMEX falls by 3.86% when the market is up, while it falls only by 0.29% (= −3.86% + 3.57%).
+Given that the average basis is more negative (i.e. the BitMEX price is less other spot prices) during the
+380
+14
+
+===== PAGE 15 =====
+market downturn, the decoupling of prices when the return is negative is, presumably, due to short selling
+from BitMEX. We conclude that trades on BitMEX lead the spot prices when the market is down and it is
+the spot markets that correct the price decoupling.
+In summary, our analysis shows that the price discovery role of BitMEX improves when transaction costs
+are less and trading volume is greater than that on spot exchanges; and that short trades on BitMEX in
+385
+particular, which are not directly possible on the spot exchanges, contribute much to its price discovery role.
+(Insert Table 7 here)
+4.5. Informational eﬃciency
+Large price discovery shares of BitMEX and its positive net spillover eﬀects suggest that BitMEX is infor-
+mationally eﬃcient within the bitcoin ecosystem. To test this conjecture, we now compare the informational
+390
+eﬃciency in BitMEX with that of other bitcoin spot markets. An eﬃcient market implies no predictability of
+future returns and it is therefore standard to measure market ineﬃciency by the extent to which the current
+return is correlated with past returns, and/or the return data generation process diﬀers from a random walk
+(Lo and MacKinlay, 1988; Hendershott and Jones, 2005; Comerton-Forde and Putni¸nˇs, 2015). Following the
+literature, we use the absolute value of return autocorrelation (AC) and the deviation from one of the return
+395
+variance ratio (VR) as the measures of informational ineﬃciency.
+Speciﬁcally, we calculate the AC of a market on a given day as follows. For each market we ﬁrst compute
+several autocorrelations from the returns on a given day recorded at diﬀerent intra-day frequencies: 1-minute,
+3-minute, 5-minute and 10-minute, and then calculate the average of their absolute values. Note that in a
+fully informationally eﬃcient market where prices reﬂect all public and private information, returns should
+400
+have zero autocorrelation at every observation frequency. Therefore, a higher value of AC indicates that the
+price does not instantaneously reﬂect new information; rather, it might either over- or under-react to news.
+The daily VR of a market is obtained similarly. For each market, we ﬁrst calculate the variances of
+returns recorded at diﬀerent intraday frequencies: 1-minute, 5-minute, 10-minute and 20-minute, and then
+compute the absolute deviation of their ratios from one: |σ2
+kl/(kσ2
+l ) −1|, where σ2
+l is the variance of returns
+405
+recorded at l-minute frequency. We calculate these ratio deviations using three frequency pairs: (5-minute
+and 1-minute), (10-minute and 5-minute) and (20-minute and 10-minute). Finally, the VR is obtained as
+the average of these three values. If a price follows a random walk process, the return variance should be
+proportional to the measurement frequency. Therefore, as in the AC case, a large value of VR indicates
+more deviation from a random walk process, implying some degree of return predictability.
+410
+(Insert Figure 6 here)
+15
+
+===== PAGE 16 =====
+Figures 6 plots the daily AC and VR in the four bitcoin markets: BitMEX, Bitstamp, Coinbase, and
+Kraken. Again, the time series are smoothed for clear readability. The average AC (VR) in BitMEX is
+only 0.084 (0.137), while those in Bitstamp, Coinbase, and Kraken are 0.155 (0.22), 0.094 (0.158) and 0.144
+(0.208), respectively. We ﬁnd that the values of AC and VR in BitMEX are almost uniformly and signiﬁcantly
+415
+smaller than those in other markets, implying BitMEX’s higher degree of informational eﬃciency.14 It is also
+noticeable that AC and VR move closely together within each exchange, serving as robustness check to each
+other. Interestingly, Coinbase has the second smallest AC and VR. The fact that the net spillover eﬀects
+from Coinbase are negative on average in the same sample period shows that the informational eﬃciency
+within a market and its inﬂuence on other markets are not necessarily aligned, conﬁrming the importance
+420
+of the comprehensive examination in this paper.
+4.6. Hedging eﬀectiveness
+Finally, we examine the out-of-sample hedging eﬀectiveness of the BitMEX perpetual swap. Let pi,d be
+the log price in exchange i on day d, where i ∈{BitMEX, Bitstamp, Coinbase, Kraken}. Then, ∆pi,d+1 −
+bid∆pBitMEX,d+1 is the return on day d + 1 of the portfolio that purchases one bitcoin spot in exchange
+425
+i and short sells bid bitcoins of the perpetual swap in BitMEX.15 The hedge ratio bid is set to be zero
+for the unhedged position and one for a naive hedge. A utility maximisation problem with a two-period
+model implies that the hedge ratio which minimises the portfolio return variance is obtained by the ratio
+of spot-BitMEX return covariance to BitMEX return variance (Ederington, 1979; Park and Switzer, 1995).
+Therefore, for the minimum variance hedge, bid is set to be the slope coeﬃcient from the OLS regression of
+430
+spot returns in exchange i on the BitMEX swap returns using the daily observations up to day d. Following
+de Jong et al. (1997), we investigate the hedging eﬀectiveness in an out-of-sample setting. Speciﬁcally, we use
+the earlier half of the sample (July 1, 2016 to Oct 1, 2017) for the initial estimation of the minimum variance
+hedge ratio on Oct 1, 2017, and keep updating the daily hedge ratio using a moving window estimation.
+Table 8 compares the standard deviations of daily portfolio returns obtained from several hedging meth-
+ods. The portfolio returns are examined for the later half of the sample period. The results show that even
+the naive hedge substantially reduces the exposure to the spot volatility risks. In Bitstamp, the return stan-
+dard deviation for the unhedged position is reduced from 4.69% to 0.39% by taking a unit short position in
+BitMEX. The minimum variance hedge further decreases the portfolio return variance. Table 8 also reports
+14In an unreported analysis, we ﬁnd that the p-value of the mean diﬀerence test is smaller than 0.1%.
+15The actual short selling unit in Bitmex is USD and so the return should be calculated from the inverse price, as explained
+in Section 2. For comparison with previous studies based on CBOE and CME, we assume the short trade in BitMEX works
+in the USD-based style of CBOE or CME. Unless the daily return is extremely large, the outcomes are similar, by the Taylor
+approximation.
+16
+
+===== PAGE 17 =====
+the measure for hedging eﬀectiveness (HE) suggested by de Jong et al. (1997). The measure of exchange i
+is deﬁned as
+HEi = 1 −σ2
+p
+σ2
+i
+,
+where σ2
+p is the variance of the hedge portfolio returns and σ2
+i is the variance of the unhedged spot returns in
+435
+exchange i. The HE measure is at least as large as 0.9642 (naive hedge in Kraken) and even reaches 0.9939
+for the minimum variance hedge in Bitstamp. The hedging eﬀectiveness varies across the spot exchanges
+and hedging methods, but the magnitude is always large.
+This ﬁnding is opposite to Corbet et al. (2018), who report that a hedge using CBOE futures does
+not eﬀectively reduce the portfolio return volatility.
+Their ﬁndings show that hedging increases, rather
+440
+than decreases, the variance of the hedge portfolio returns not only for the naive hedging but also for the
+minimum variance hedging. Hence, they report the negative HE measures. But that is because the size
+of those contracts is so large that position risk is high, except when hedging huge notional amounts. Our
+ﬁndings about the price discovery also form a clear contrast to Corbet et al. (2018) and Baur and Dimpﬂ
+(2019) who also document that bitcoin spot prices lead the bitcoin futures prices in CME and CBOE.
+445
+However, their results are likely to have been inﬂuenced by low trading volumes on the futures contracts
+(Ad¨ammer et al., 2016).
+(Insert Table 8 here)
+5. Conclusion
+We investigate several market microstructure properties and analyse the information ﬂows between BitMEX
+450
+and three major bitcoin spot exchanges (i.e. Bitstamp, Coinbase and Kraken). These exchanges are selected
+from literally hundreds of possible bitcoin spot exchanges because they have the largest real trading volume
+and because their prices form the reference spot price index used by BitMEX for settlement of its main
+contracts. BitMEX is a dedicated crypto-only derivative exchange, which has received little attention from
+bitcoin researchers until recently despite its popularity and controversy. We ﬁrst explain BitMEX’s unique
+455
+characteristics that appeal to traders and conﬁrm that the perpetual swap, a margined synthetic spot contract
+in BitMEX, is the most representative derivative contract in BitMEX. The trading volume on the perpetual
+swap greatly surpasses the volume traded on CME bitcoin futures, as well as total spot trades on other
+major exchanges – so much so that we had to use a log scale in the graph!
+We ﬁnd that the BitMEX perpetual swap plays a dominant price discovery role and that the relative
+460
+bid-ask spreads, relative trading volume and the inter-exchange spreads are important determinants of the
+ﬂuctuation of its price discovery. We also ﬁnd that BitMEX has signiﬁcantly positive net spillover to the
+17
+
+===== PAGE 18 =====
+other exchanges, and is informationally more eﬃcient too. Finally, we show that when the perpetual swap
+is used as a hedging instrument, the price volatility risk in the spot exchanges can be reduced up to 99.39%.
+Unlike the spot exchanges used in our study, BitMEX is almost entirely unregulated. One only needs
+465
+bitcoin and an email address to open account. Nevertheless, its unique features – and the design of the
+perpetual swap contract in particular – are obviously attractive to crypto-based traders who are presumably
+more informed than those trading on spot exchanges.
+We conclude BitMEX is an exchange that both
+investors and regulators should pay attention to. Given that derivatives in BitMEX lead the bitcoin spot
+prices and serve as an eﬀective hedge against spot volatility, institutional investors should be mindful of
+470
+BitMEX derivatives before deciding whether to consider bitcoin as a mainstream investment asset. The US
+Securities and Exchange Commission has adopted a conservative position by rejecting or postponing decisions
+on applications for bitcoin exchange traded funds (ETF), citing concerns about the lack of transparency and
+potential market manipulation in bitcoin exchanges. Given the substantial role and inﬂuence of the perpetual
+swap in BitMEX, regulators should prioritise investigation of the legitimacy of trading on this contract and
+475
+on this exchange.
+Data Availability Statement
+The raw data that support the ﬁndings of this study have been obtained from the following public sources as of
+April 2019: (a) https://public.bitmex.com ([dataset] BitMEX, 2019), (b) http://api.bitcoincharts.
+com/v1/csv/ ([dataset] Bitcoincharts, 2019), (c) http://data.bitcoinity.org ([dataset] Bitcoinity, 2019),
+480
+and (d) the CME and CBOE websites. The resampled minute-by-minute time series of price and volume
+are available from the corresponding author, Sungbin Sohn, upon reasonable request.
+18
+
+===== PAGE 19 =====
+Appendix
+This appendix section ﬁrst describes the procedure of obtaining the modiﬁed information share (MIS) and
+the component share (CS) of a product in a market, which are respectively proposed by Lien and Shrestha
+485
+(2009) and Gonzalo and Granger (1995). Then, we explain how to measure the spillover eﬀects from one
+market to another based on Diebold and Yilmaz (2012).
+Consider K closely related products traded in diﬀerent venues, and let pt be a K × 1 vector of their
+log prices. Suppose that pt has a unit root and there exists a K × (K −1) full-rank matrix β that makes
+β′pt stationary. Then, pt is said to have a cointegration relationship with one stochastic common trend
+(permanent component) and β′pt is called the cointegration error (transitory component). The cointegrated
+time series of pt can be represented by the VECM:16
+∆pt = αβ′pt−1 +
+Q
+X
+q=1
+Aq∆pt−q + ϵt,
+(1)
+where α is the K × (K −1) error-correction coeﬃcient matrix, indicating how prices react to the deviation
+from the long-run equilibrium relationship. Its sign and magnitude represent the direction and speed of the
+error correction. Q is the lag length of the model and is chosen by the Bayesian information criterion. Aq is
+490
+the K × K autoregressive coeﬃcient matrix, reﬂecting the eﬀects of the short-term ﬂuctuation on prices. ϵt
+is the K × 1 zero-mean vector of serially uncorrelated disturbances with covariance matrix Ω.
+The CS is derived from the permanent-transitory decomposition (Gonzalo and Granger, 1995) in which
+the common permanent component in pt is obtained by its linear combination. Speciﬁcally, α′
+⊥pt is the
+permanent component in pt where the K × 1 vector α⊥is deﬁned such that α′
+⊥α = 0, and the CS in the ith
+product (market) is obtained as:
+CSi =
+α⊥,i
+PK
+k=1 α⊥,k
+,
+for i = 1, · · · , K,
+which indicates the contribution of each time series to the long-run equilibrium price. A valid cointegration
+system theoretically implies that α⊥,k should be positive for all k, but in an empirical analysis, negative
+values are infrequently obtained. Some papers use the absolute value to avoid this economically nonsensical
+495
+results (Bohl et al., 2011). In this paper, we set a negative α⊥,k to zero and adjust other values so that they
+sum to one. Since the negative values are infrequent and mostly close to zero, these treatments yield almost
+identical results.
+The MIS incorporates additional information about the covariance structure of innovations.
+By the
+16A constant term does not aﬀect the analysis and is omitted for notational simplicity throughout this section.
+19
+
+===== PAGE 20 =====
+Granger representation theorem, Equation (1) can be expressed as the VMA(∞):
+∆pt = Ψ(L)ϵt,
+(2)
+where Ψ(L) = P∞
+q=0 ΨqLq, Ψq is the K × K moving average coeﬃcient matrix and L is the lag operator.
+The integrated form of VMA(∞) is expressed as:
+pt = Ψ(1)
+t
+X
+q=1
+ϵq + Ψ∗(L)ϵt,
+(3)
+where Ψ(1) is the sum of moving average coeﬃcients and Ψ∗(L)ϵt is a zero-mean stationary process, repre-
+senting the transient eﬀect. Note that β′Ψ(1) should be zero because β′pt is stationary. Hence, assuming
+that a cointegrating vector for a given pair is (1, −1)′, a K × K matrix Ψ(1) should be a vertical stack of a
+1×K common row ψ. Hasbrouck (1995) interprets ψϵt as the common permanent impact of the shock at t
+into the prices, and calls it the common eﬃcient price. Then, he suggests a measure of the price discovery
+strength as the weight of the common factor variance. The greater proportion of the variance the innovations
+in a market constitute, the stronger price discovery capability the market possesses. Formally, the IS in the
+ith market is obtained as:
+ISi = ([ψM]i)2
+ψΩψ′
+,
+for i = 1, · · · , K,
+where M is a lower triangular matrix of the Cholesky factorisation of Ωsuch that Ω= MM ′, and [ψM]i
+is the ith entry in ψM. Note that the IS is closely related to the ordering of state variables because of
+500
+the nature of the Cholesky factorisation. It maximises (minimises) the IS of the ﬁrst-ordered (last-ordered)
+variable in pt. In a bivariate analysis, the IS is commonly calculated as the midpoint of upper and lower
+bounds. Since there are K! possible permutations for K state variables, we compute the IS of each market
+as the average value from the K! permutations, which is the same calculation method as So and Tse (2004)
+and Ahn et al. (2019).
+505
+Lien and Shrestha (2009) suggest an improved version of IS that does not depend on the order of the
+state variables, and call it the modiﬁed information share (MIS). Formally, the MIS in the ith market is
+obtained as:
+MISi = ([ψF]i)2
+ψΩψ′ ,
+for i = 1, · · · , K,
+where F = (GΛ−1/2G′V −1)−1. G and Λ are derived from the correlation matrix of ϵt. Speciﬁcally, Λ is a
+diagonal matrix whose diagonal entries are eigenvalues of the correlation matrix and G is a matrix whose
+columns are the corresponding eigenvectors. V is a diagonal matrix whose diagonal entries are the standard
+deviations of ϵt. It turns out that FF ′ = Ω. With this factorisation, the resulting MIS is invariant to the
+ordering of the state variables.
+510
+20
+
+===== PAGE 21 =====
+The spillover eﬀects among markets are also derived from the VECM. Following Pesaran and Shin (1998),
+we ﬁrst compute the generalised impulse response, which does not require orthogonalisation of the shocks
+and is invariant to the variable ordering. Speciﬁcally, the h-period ahead generalised impulse response with
+respect to a unit innovation in variable j is deﬁned as φj(h) = E[∆pt+h|ϵjt = 1, Θt−1] −E[∆pt+h|Θt−1],
+where Θt−1 is the known history of the economy up to time t −1 and ϵjt is the jth entry in ϵt. Pesaran and
+Shin (1998) show that it can be calculated as:
+φj(h) = ω−1/2
+jj
+ΨhΩej,
+h = 0, 1, 2, ...,
+(4)
+where ωjj is the jth diagonal entry in Ωand ej is a column vector which takes one for the jth entry and
+zero for others. Ψh is the moving average coeﬃcient matrix from Equation (2). The entry in row i in φj(h)
+indicates the consequence of the ith-ordered state variable at time t + h with respect to a unit innovation in
+jth-ordered state variable in time t.
+From this generalised impulse response, we obtain the generalised forecast error variance decomposition,
+which is also invariant to the state variable ordering. Speciﬁcally, the generalised h-step ahead forecast error
+variance of the ith variable attributed to the innovations in the jth variable, denoted by θij(h), is
+θij(h) =
+ω−1
+jj
+Ph−1
+k=0(e′
+iΨkΩej)2
+Ph−1
+k=0 e′
+iΨkΩΨ′
+kei
+,
+i, j = 1, · · · , K,
+h = 0, 1, 2, · · · ,
+(5)
+For better economic interpretation, we normalise this measure so that the generalised forecast error variances
+515
+of a variable accounted for by all variables sum to one: ˜θij(h) =
+θij(h)
+PK
+k=1 θiK(h). Following Diebold and Yilmaz
+(2012), ˜θij(h) is interpreted as the gross spillover transmitted from variable j to variable i. The net spillover
+from variable j to variable i is deﬁned as ˜θij(h)−˜θji(h). We choose the one-hour horizon (h = 60) to capture
+the long-run spillovers. Finally, the total spillover is deﬁned as 1 −1
+K
+PK
+i=1 ˜θii(h).
+21
+
+===== PAGE 22 =====
+References
+520
+Ad¨ammer, P., Bohl, M.T., Gross, C., 2016. Price Discovery in Thinly Traded Futures Markets: How Thin
+is Too Thin? Journal of Futures Markets 36, 851–869. doi:10.1002/fut.21760.
+Admati, A.R., Pﬂeiderer, P., 1988. A Theory of Intraday Patterns: Volume and Price Variability. The
+Review of Financial Studies 1, 3–40. doi:10.1093/rfs/1.1.3.
+Ahn, K., Bi, Y., Sohn, S., 2019. Price discovery among SSE 50 Index-based spot, futures, and options
+525
+markets. Journal of Futures Markets 39, 238–259. doi:10.1002/fut.21970.
+Alexander, C., Heck, D., 2019. Price Discovery, High-Frequency Trading and Jumps in Bitcoin Markets.
+SSRN Electronic Journal doi:10.2139/ssrn.3383147.
+Baillie, R.T., Geoﬀrey Booth, G., Tse, Y., Zabotina, T., 2002. Price discovery and common factor models.
+Journal of Financial Markets 5, 309–321. doi:10.1016/S1386-4181(02)00027-7.
+530
+Bariviera, A.F., 2017. The ineﬃciency of Bitcoin revisited: A dynamic approach. Economics Letters 161,
+1–4. doi:10.1016/j.econlet.2017.09.013.
+Baur, D.G., Dimpﬂ, T., 2019.
+Price discovery in bitcoin spot or futures?
+Journal of Futures Markets
+Forthcoming. doi:10.1002/fut.22004.
+Bohl, M.T., Salm, C.A., Schuppli, M., 2011. Price discovery and investor structure in stock index futures.
+535
+Journal of Futures Markets 31, 282–306. doi:10.1002/fut.20469.
+Booth, G.G., So, R.W., Tse, Y., 1999. Price discovery in the German equity index derivatives markets.
+Journal of Futures Markets 19, 619–643. doi:10.1002/(SICI)1096-9934(199909)19:6<619::AID-FUT1>
+3.0.CO;2-M.
+Brauneis, A., Mestel, R., 2018. Price discovery of cryptocurrencies: Bitcoin and beyond. Economics Letters
+540
+165, 58–61. doi:10.1016/j.econlet.2018.02.001.
+Bundi, N., Wildi, M., 2019. Bitcoin and market-(in)eﬃciency: A systematic time series approach. Digital
+Finance doi:10.1007/s42521-019-00004-z.
+Cabrera, J., Wang, T., Yang, J., 2009. Do futures lead price discovery in electronic foreign exchange markets?
+Journal of Futures Markets 29, 137–156. doi:10.1002/fut.20352.
+545
+Chakravarty, S., Gulen, H., Mayhew, S., 2004. Informed Trading in Stock and Option Markets. The Journal
+of Finance 59, 1235–1257. doi:10.1111/j.1540-6261.2004.00661.x.
+22
+
+===== PAGE 23 =====
+Chen, W.P., Chung, H., 2012. Has the introduction of S&P 500 ETF options led to improvements in price
+discovery of SPDRs? Journal of Futures Markets 32, 683–711. doi:10.1002/fut.20538.
+Comerton-Forde, C., Putni¸nˇs, T.J., 2015. Dark trading and price discovery. Journal of Financial Economics
+550
+118, 70–92. doi:10.1016/j.jfineco.2015.06.013.
+Corbet, S., Lucey, B., Peat, M., Vigne, S., 2018. Bitcoin Futures – What use are they? Economics Letters
+172, 23–27. doi:10.1016/j.econlet.2018.07.031.
+Diebold, F.X., Yilmaz, K., 2012. Better to give than to receive: Predictive directional measurement of
+volatility spillovers. International Journal of Forecasting 28, 57–66. doi:10.1016/j.ijforecast.2011.
+555
+02.006.
+Ederington, L.H., 1979. The Hedging Performance of the New Futures Markets. The Journal of Finance 34,
+157–170. doi:10.1111/j.1540-6261.1979.tb02077.x.
+Eross, A., McGroarty, F., Urquhart, A., Wolfe, S., 2019. The intraday dynamics of bitcoin. Research in
+International Business and Finance 49, 71–81. doi:10.1016/j.ribaf.2019.01.008.
+560
+Gandal, N., Hamrick, J., Moore, T., Oberman, T., 2018. Price manipulation in the Bitcoin ecosystem.
+Journal of Monetary Economics 95, 86–96. doi:10.1016/j.jmoneco.2017.12.004.
+Gonzalo, J., Granger, C., 1995. Estimation of Common Long-Memory Components in Cointegrated Systems.
+Journal of Business & Economic Statistics 13, 27–35. doi:10.1080/07350015.1995.10524576.
+Griﬃn, J.M., Shams, A., 2018. Is Bitcoin Really Un-Tethered?
+SSRN Electronic Journal doi:10.2139/
+565
+ssrn.3195066.
+Hale, G., Krishnamurthy, A., Kudlyak, M., Shultz, P., 2018. How Futures Trading Changed Bitcoin Prices.
+FRBSF Economic Letter 2018-12. Federal Reserve Bank of San Francisco.
+Hasbrouck, J., 1995. One Security, Many Markets: Determining the Contributions to Price Discovery. The
+Journal of Finance 50, 1175–1199. doi:10.1111/j.1540-6261.1995.tb04054.x.
+570
+Hauptﬂeisch, M., Putni¸nˇs, T.J., Lucey, B., 2016. Who Sets the Price of Gold? London or New York. Journal
+of Futures Markets 36, 564–586. doi:10.1002/fut.21775.
+Hendershott, T., Jones, C.M., 2005. Island Goes Dark: Transparency, Fragmentation, and Regulation. The
+Review of Financial Studies 18, 743–793. doi:10.1093/rfs/hhi013.
+Hsieh, W.L.G., Lee, C.S., Yuan, S.F., 2008.
+Price discovery in the options markets: An application of
+575
+put-call parity. Journal of Futures Markets 28, 354–375. doi:10.1002/fut.20302.
+23
+
+===== PAGE 24 =====
+Jiang, Y., Nie, H., Ruan, W., 2018. Time-varying long-term memory in Bitcoin market. Finance Research
+Letters 25, 280–284. doi:10.1016/j.frl.2017.12.009.
+de Jong, A., de Roon, F., Veld, C., 1997.
+Out-of-sample hedging eﬀectiveness of currency futures for
+alternative models and hedging strategies. Journal of Futures Markets 17, 817–837. doi:10.1002/(SICI)
+580
+1096-9934(199710)17:7<817::AID-FUT5>3.0.CO;2-Q.
+de Jong, F., Donders, M.W.M., 1998. Intraday Lead-Lag Relationships Between the Futures-, Options and
+Stock Market. Review of Finance 1, 337–359. doi:10.1023/A:1009765322522.
+Lien, D., Shrestha, K., 2009. A new information share measure. Journal of Futures Markets 29, 377–395.
+doi:10.1002/fut.20356.
+585
+Lo, A.W., MacKinlay, A.C., 1988. Stock Market Prices Do Not Follow Random Walks: Evidence from a
+Simple Speciﬁcation Test. The Review of Financial Studies 1, 41–66. doi:10.1093/rfs/1.1.41.
+Nakamoto, S., 2008. Bitcoin: A Peer-to-Peer Electronic Cash System. Technical Report.
+Park, T.H., Switzer, L.N., 1995. Bivariate GARCH estimation of the optimal hedge ratios for stock index
+futures: A note. Journal of Futures Markets 15, 61–67. doi:10.1002/fut.3990150106.
+590
+Pesaran, H.H., Shin, Y., 1998. Generalized impulse response analysis in linear multivariate models. Eco-
+nomics Letters 58, 17–29. doi:10.1016/S0165-1765(97)00214-0.
+Rosenberg, J.V., Traub, L.G., 2009. Price Discovery in the Foreign Currency Futures and Spot Market. The
+Journal of Derivatives 17, 7–25. doi:10.3905/JOD.2009.17.2.007.
+Sensoy, A., 2019. The ineﬃciency of Bitcoin revisited: A high-frequency analysis with alternative currencies.
+595
+Finance Research Letters 28, 68–73. doi:10.1016/j.frl.2018.04.002.
+So, R.W., Tse, Y., 2004. Price discovery in the hang seng index markets: Index, futures, and the tracker
+fund. Journal of Futures Markets 24, 887–907. doi:10.1002/fut.20112.
+Sohn, S., Zhang, X., 2017. Could the Extended Trading of CSI 300 Index Futures Facilitate Its Role of Price
+Discovery? Journal of Futures Markets 37, 717–740. doi:10.1002/fut.21804.
+600
+Tiwari, A.K., Jana, R.K., Das, D., Roubaud, D., 2018. Informational eﬃciency of Bitcoin—An extension.
+Economics Letters 163, 106–109. doi:10.1016/j.econlet.2017.12.006.
+Twomey, D., Mann, A., 2019. Fraud and Manipulation within Cryptocurrency Markets, in: Alexander,
+C., Cumming, D. (Eds.), Corruption and Fraud in Financial Markets : Malpractice, Misconduct and
+Manipulation. S.l.
+605
+24
+
+===== PAGE 25 =====
+Urquhart, A., 2016. The ineﬃciency of Bitcoin. Economics Letters 148, 80–82. doi:10.1016/j.econlet.
+2016.09.019.
+Vidal-Tom´as, D., Iba˜nez, A., 2018. Semi-strong eﬃciency of Bitcoin. Finance Research Letters 27, 259–265.
+doi:10.1016/j.frl.2018.03.013.
+Wei, W.C., 2018.
+Liquidity and market eﬃciency in cryptocurrencies.
+Economics Letters 168, 21–24.
+610
+doi:10.1016/j.econlet.2018.04.003.
+[dataset] Bitcoincharts, 2019. Bitcoincharts API data repository. URL: http://api.bitcoincharts.com/
+v1/csv/. accessed as of April 2019.
+[dataset] Bitcoinity, 2019. Bitcoinity trading volume and bid/ask spread. URL: http://data.bitcoinity.
+org. accessed as of April 2019.
+615
+[dataset] BitMEX, 2019. Public BitMEX API data repository. https://public.bitmex.com/. Accessed as
+of April 2019.
+25
+
+===== PAGE 26 =====
+Figure 1: Market characteristics of BitMEX and bitcoin spot markets
+201701
+201801
+201901
+103
+104
+Price (log scale)
+BitMEX
+Bitstamp
+Coinbase Pro
+Kraken
+201701
+201801
+201901
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+Return
+BitMEX
+Bitstamp
+Coinbase Pro
+Kraken
+201701
+201801
+201901
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+Return volatility
+BitMEX
+Bitstamp
+Coinbase Pro
+Kraken
+201701
+201801
+201901
+-0.05
+0
+0.05
+BitMEX log basis
+Bitstamp
+Coinbase Pro
+Kraken
+Note: Figure 1 plots the daily market characteristics of the bitcoin spot exchanges (Bitstamp, Coinbase, and Kraken) and the
+perpetual swap exchange (BitMEX). Return volatility is computed by the standard deviation of 1-minute returns. BitMEX log
+basis is the diﬀerence in log prices between BitMEX and a spot exchange. All variables are measured at a daily frequency. The
+sample period is from July 1, 2016 to January 3, 2019.
+26
+
+===== PAGE 27 =====
+Figure 2: The exchange volume share over the sample period
+201607
+201610
+201701
+201704
+201707
+201710
+201801
+201804
+201807
+201810
+201901
+10-1
+100
+101
+BitMEX (Swap)
+Bitstamp
+Coinbase Pro
+Kraken
+BitMEX (Futures)
+CBOE
+CME
+Note: Figure 2 plots the ratio of the exchange volume to the total spot trading volume in log scale. For the total spot trading
+volume, we use the combined volume of Bitstamp, Coinbase, and Kraken.
+27
+
+===== PAGE 28 =====
+Table 1: Comparison of contract types traded on BitMEX, CBOE, and CME
+BitMEX
+CBOE
+CME
+Contracts
+Perpetual swap
+Futures
+Futures
+Futures
+Product Code
+XBTUSD
+XBTmYY
+XBTmYY
+BTCmY
+First Traded
+5/13/2016
+11/24/2014
+12/10/2017
+12/18/2017
+Contract Unit
+1 USD
+1 XBT
+5 XBT
+Margin Requirement
+1 %
+40%
+37%
+Settlement Currency
+XBT
+USD (Cash)
+Proﬁt & Loss
+± UN (1/x1 −1/x2)
+± UN (x2 −x1)
+Tick increment
+0.5 USD
+5 USD
+Trading days
+Everyday
+Monday to Friday
+Quoting Convention
+1 XBT = x USD
+Note: In ‘Product Code’, m denotes the code for the expiry month and Y and YY denote the last one and two digits of the
+expiry year, respectively. In ‘Proﬁt & Loss’, U denote the contract unit, N the number of contracts, x1 and x2 denote the entry
+and exit prices in the quoting convention. The sign ± denotes long and short positions respectively.
+28
+
+===== PAGE 29 =====
+Table 2: Daily average trading volume by exchanges
+BitMEX
+Spot Exchanges
+Futures Exchanges
+Swap
+Futures
+Bitstamp
+Coinbase
+Kraken
+CBOE
+CME
+2016 (Jul–Dec)
+5.60
+1.47
+4.27
+4.96
+1.15
+2017 (Jan–Jun)
+28.42
+9.59
+10.73
+11.47
+4.22
+2017 (Jul–Dec)
+96.32
+14.67
+14.98
+18.58
+5.86
+2018 (Jan–Jun)
+280.86
+14.97
+13.62
+16.27
+7.07
+5.88
+14.33
+2018 (Jul–Dec)
+398.18
+16.90
+7.93
+10.35
+5.49
+3.62
+22.80
+Full-sample period
+162.70
+11.53
+10.29
+12.31
+4.76
+4.79
+18.79
+Note: Table 2 shows the daily average volume by exchange in thousand bitcoin. The sample period is divided into six month
+periods. For convenience, the three days in January 2019 are included in ‘2018 (Jul-Dec)’ and the CBOE data in December
+2017 is included in ‘2018 (Jan-Jun)’. Saturday, Sunday, and other trading holidays were not counted in averaging for CBOE
+and CBOE.
+29
+
+===== PAGE 30 =====
+Table 3: Cointegration tests
+Engle-Granger Test
+Johansen Test
+Null hypothesis
+No cointegration
+r = 0 vs r ≥1
+r = 1 vs r ≥2
+r = 2 vs r ≥3
+r = 3 vs r ≥4
+Panel A. Full-sample period
+Test statistic
+-170.43
+83,327.02
+47,328.19
+12,303.39
+2.02
+p-value
+(<0.0001)
+(<0.0001)
+(<0.0001)
+(<0.0001)
+(0.1556)
+% of rejecting H0
+99.45%
+100.00%
+100.00%
+95.64%
+16.36%
+Panel B. Bull period
+Test statistic
+-118.32
+45,948.37
+24,324.38
+6,785.31
+6.26
+p-value
+(<0.0001)
+(<0.0001)
+(<0.0001)
+(<0.0001)
+(0.0126)
+% of rejecting H0
+99.07%
+100.00%
+100.00%
+93.64%
+14.77%
+Panel C. Bear period
+Test statistic
+-204.58
+75,409.72
+25,689.56
+7,327.58
+4.66
+p-value
+(<0.0001)
+(<0.0001)
+(<0.0001)
+(<0.0001)
+(0.0309)
+% of rejecting H0
+100.00%
+100.00%
+100.00%
+98.43%
+18.59%
+Note: Table 3 presents the results of the cointegration tests for a given sample period. The Engle-Granger test assesses the null
+hypothesis of no cointegration among the log prices. The Johansen test assesses the null hypothesis of a particular cointegration
+rank against the alternative of higher ranks. The number of lags in the tests is set to zero. The last row in each panel reports
+the proportion of days in which H0 is rejected at the 1% signiﬁcance level when the cointegration tests are conducted on a
+daily basis. Panel A presents the results in the full sample (July 1, 2016 to Jan 3, 2019), while Panel B (C) presents the period
+before (after) the historical price peak on December 17, 2017.
+30
+
+===== PAGE 31 =====
+Table 4: Modiﬁed information shares and component shares
+MIS
+CS
+Mean
+Median
+Overall
+Mean
+Median
+Overall
+Panel A. Full-sample period
+BitMEX
+51.53%
+53.35%
+59.52%
+57.50%
+54.91%
+59.72%
+Bitstamp
+18.48%
+16.88%
+16.78%
+15.61%
+13.72%
+13.79%
+Coinbase
+23.18%
+18.17%
+19.29%
+21.24%
+21.26%
+18.17%
+Kraken
+6.81%
+4.12%
+4.41%
+5.64%
+4.79%
+8.31%
+Panel B. Bull period
+BitMEX
+52.25%
+54.94%
+65.85%
+50.09%
+49.39%
+58.94%
+Bitstamp
+16.32%
+13.77%
+14.40%
+13.55%
+11.27%
+13.56%
+Coinbase
+26.65%
+20.63%
+17.56%
+29.39%
+29.35%
+20.60%
+Kraken
+4.79%
+2.76%
+2.19%
+6.97%
+6.12%
+6.90%
+Panel C. Bear period
+BitMEX
+50.53%
+52.81%
+49.60%
+67.89%
+69.39%
+59.10%
+Bitstamp
+21.50%
+21.06%
+25.78%
+18.50%
+17.94%
+24.91%
+Coinbase
+18.32%
+16.93%
+15.05%
+9.83%
+9.31%
+3.40%
+Kraken
+9.64%
+7.17%
+9.57%
+3.78%
+1.27%
+12.59%
+Note: Table 4 shows the modiﬁed information shares (MIS) and component shares (CS) of the four markets: BitMEX, Bitstamp,
+Coinbase, and Kraken, for a given sample period. The columns of Mean (Median) report the average (median) of the values
+obtained from the daily VECM estimation. The column of Overall reports the values obtained from one VECM estimation
+using the whole observations in the given sample period. Panel A presents the results in the full sample (July 1, 2016 to Jan
+3, 2019), while Panel B (C) presents the period before (after) the historical price peak on December 17, 2017.
+31
+
+===== PAGE 32 =====
+Figure 3: Modiﬁed information shares and component shares
+Panel A. Modified Information Share
+201607
+201610
+201701
+201704
+201707
+201710
+201801
+201804
+201807
+201810
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+BitMEX
+Bitstamp
+Coinbase Pro
+Kraken
+Panel B. Component Share
+201607
+201610
+201701
+201704
+201707
+201710
+201801
+201804
+201807
+201810
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+BitMEX
+Bitstamp
+Coinbase Pro
+Kraken
+Note: Figure 3 plots the daily modiﬁed information shares and component shares in the four markets: BitMEX, Bitstamp,
+Coinbase, and Kraken. The price of bitcoin perpetual swaps represents BitMEX, while the price of bitcoin spot represents the
+other markets. Modiﬁed information shares and component shares are calculated on a daily basis from a VECM using minute-
+by-minute log prices in the four markets according to Hasbrouck (1995) and Gonzalo and Granger (1995), respectively. The lag
+length of the model is chosen by the Bayesian information criterion. The time series are smoothed with a trailing exponentially
+weighted moving average: MAt(a) = 0.1at + 0.9MAt−1(a), where a is either modiﬁed information share or common factor
+weight.
+32
+
+===== PAGE 33 =====
+Figure 4: Net spillover
+Panel A. Net Spillover from BitMEX
+201701
+201801
+201901
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Panel B. Net Spillover from Bitstamp
+201701
+201801
+201901
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Panel C. Net Spillover from Coinbase Pro
+201701
+201801
+201901
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Panel D. Net Spillover from Kraken
+201701
+201801
+201901
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+Note: Figure 4 depicts the daily long-horizon (60-minute) net spillovers from the four markets: BitMEX, Bitstamp, Coinbase,
+and Kraken. The price of bitcoin perpetual swaps represents BitMEX, while the price of bitcoin spot represents the other
+markets. Following Diebold and Yilmaz (2012), the net spillover from market i is deﬁned as the gross spillover from market i to
+the other markets minus that to market i from the other markets. The spillovers are estimated on a daily basis from a VECM
+using minute-by-minute log prices.
+33
+
+===== PAGE 34 =====
+Figure 5: Total spillover
+Total Spillover
+201607
+201610
+201701
+201704
+201707
+201710
+201801
+201804
+201807
+201810
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Note: Figure 5 depicts the daily long-horizon (60-minute) total spillovers among the four markets: BitMEX, Bitstamp, Coinbase,
+and Kraken. The price of bitcoin perpetual swaps represents BitMEX, while the price of bitcoin spot represents the other
+markets. The total spillover is estimated on a daily basis from a VECM using minute-by-minute log prices.
+34
+
+===== PAGE 35 =====
+Figure 6: Autocorrelations and variance ratios
+201701
+201801
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Panel A. BitMEX
+AC
+VR
+201701
+201801
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Panel B. Bitstamp
+AC
+VR
+201701
+201801
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Panel C. Coinbase
+AC
+VR
+201701
+201801
+201901
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Panel D. Kraken
+AC
+VR
+Note: Figure 6 plots the daily absolute autocorrelations (AC) and variance ratios (VR) in the four bitcoin markets: BitMEX,
+Bitstamp, Coinbase, and Kraken. The price of bitcoin perpetual swaps represents BitMEX, while the price of bitcoin spot
+represents the other markets. AC on a given day is obtained as an average of absolute return autocorrelations measured at
+various intraday frequencies: 1-minute, 3-minute, 5-minute and 10-minute. VR on a given day is obtained as an average of
+deviation of variance ratio from one measured at diﬀerent combinations of intraday frequencies: (5-minute, 1-minute), (10-
+minute, 5-minute) and (20-minute and 10-minute). The time series are smoothed with a trailing exponentially weighted moving
+average: MAt(a) = 0.1at + 0.9MAt−1(a), where a is either autocorrelation or variance ratio.
+35
+
+===== PAGE 36 =====
+Table 5: Error correction coeﬃcients
+Response of
+With respect to deviation from
+BitMEX
+Bitstamp
+Coinbase
+Kraken
+Panel A. Full-sample period
+BitMEX
+-0.0357***
+-0.0038**
+-0.0049***
+(-15.617)
+(-2.312)
+(-3.359)
+Bitstamp
+-0.1952***
+-0.2497***
+-0.2267***
+(-21.835)
+(-20.330)
+(-21.531)
+Coinbase
+-0.1047***
+-0.1491***
+-0.1157***
+(-14.141)
+(-13.512)
+(-13.874)
+Kraken
+-0.1804***
+-0.2487***
+-0.2250***
+(-23.815)
+(-22.491)
+(-24.283)
+Panel B. Bull period
+BitMEX
+-0.0213***
+-0.0081***
+-0.0100***
+(-14.935)
+(-6.555)
+(-10.901)
+Bitstamp
+-0.1405***
+-0.1750***
+-0.1604***
+(-19.371)
+(-18.725)
+(-20.415)
+Coinbase
+-0.0497***
+-0.0659***
+-0.0559***
+(-14.870)
+(-13.981)
+(-15.025)
+Kraken
+-0.1368***
+-0.1785***
+-0.1812***
+(-27.325)
+(-25.598)
+(-27.164)
+Panel C. Bear period
+BitMEX
+-0.0560***
+0.0021
+0.0023
+(-24.012)
+(0.977)
+(1.207)
+Bitstamp
+-0.2718***
+-0.3544***
+-0.3195***
+(-35.025)
+(-31.708)
+(-34.081)
+Coinbase
+-0.1817***
+-0.2657***
+-0.1993***
+(-29.039)
+(-28.871)
+(-26.508)
+Kraken
+-0.2416***
+-0.3471***
+-0.2864***
+(-31.454)
+(-33.088)
+(-27.871)
+Note: Table 5 tabulates the average of estimated error correction coeﬃcients obtained from the daily estimation of the VECM
+and the associated Newey-West t-statistics. The lag length in the VECM is chosen by the Bayesian information criterion.
+The row of BitMEX shows the response of price in BitMEX when the price diﬀerence from the other exchanges (Bitstamp,
+Coinbase or Kraken) increases by 1%. The other rows can be similarly interpreted. The coeﬃcients for other terms (constant
+and autoregressive terms) are not reported to save space, but available upon request. Panel A presents the results in the full
+sample (July 1, 2016 to Jan 3, 2019), while Panel B (C) presents the period before (after) the historical price peak on December
+17, 2017. ***, **, * indicates the 1%, 5%, 10% signiﬁcance level, respectively.
+36
+
+===== PAGE 37 =====
+Table 6: Gross and net spillovers
+To
+From
+BitMEX
+Bitstamp
+Coinbase
+Kraken
+The others
+Panel A. Full-sample period
+Gross spillover
+BitMEX
+64.00%
+14.94%
+14.80%
+6.26%
+36.00%
+Bitstamp
+16.32%
+67.15%
+11.03%
+5.50%
+32.85%
+Coinbase
+17.69%
+11.52%
+64.28%
+6.51%
+35.72%
+Kraken
+10.24%
+7.75%
+8.85%
+73.16%
+26.84%
+The others
+44.25%
+34.21%
+34.67%
+18.26%
+32.85%
+Net spillover
+8.25%
+1.36%
+-1.04%
+-8.58%
+Panel B. Bull period
+Gross spillover
+BitMEX
+78.99%
+10.96%
+8.94%
+1.10%
+21.01%
+Bitstamp
+12.10%
+81.89%
+5.20%
+0.81%
+18.11%
+Coinbase
+12.80%
+6.35%
+79.83%
+1.02%
+20.17%
+Kraken
+3.89%
+2.40%
+2.51%
+91.20%
+8.80%
+The others
+28.79%
+19.71%
+16.65%
+2.93%
+17.02%
+Net spillover
+7.78%
+1.60%
+-3.51%
+-5.87%
+Panel C. Bear period
+Gross spillover
+BitMEX
+43.01%
+20.51%
+22.99%
+13.48%
+56.99%
+Bitstamp
+22.23%
+46.52%
+19.19%
+12.06%
+53.48%
+Coinbase
+24.54%
+18.77%
+42.51%
+14.19%
+57.49%
+Kraken
+19.15%
+15.23%
+17.73%
+47.89%
+52.11%
+The others
+65.91%
+54.51%
+59.91%
+39.74%
+55.02%
+Net spillover
+8.92%
+1.03%
+2.42%
+-12.37%
+Note: Table 6 shows the long-horizon (60-minute) gross and net spillovers for a given sample period. The (i, j) entry in the gross
+spillover represents the estimated contribution to the forecast error variance of market i coming from innovations of market j,
+while the entry in the net spillover is the diﬀerence between the gross spillover from market i to the other markets and the
+gross spillover from the other markets to market i. The total spillover is deﬁned as the gross spillover from the others to the
+others. Panel A presents the results in the full sample (July 1, 2016 to Jan 3, 2019), while Panel B (C) presents the period
+before (after) the historical price peak on December 17, 2017.
+37
+
+===== PAGE 38 =====
+Table 7: Determinants of price discovery shares in BitMEX
+MIS
+CS
+(1)
+(2)
+(3)
+(4)
+Constant
+0.515***
+0.515***
+0.575***
+0.566***
+(83.10)
+(53.35)
+(61.70)
+(43.48)
+RSpread
+0.0537***
+0.0536***
+0.0267***
+0.0265***
+(8.44)
+(8.41)
+(3.08)
+(3.08)
+RTV
+-0.0187**
+-0.0188**
+-0.0560***
+-0.0565***
+(-2.31)
+(-2.34)
+(-4.56)
+(-4.64)
+Ret
+0.0171***
+0.0195**
+0.0128
+0.0222*
+(2.72)
+(2.35)
+(1.25)
+(1.71)
+Abs.Basis
+-0.0235***
+-0.0386***
+-0.0550***
+-0.0739***
+(-3.19)
+(-3.95)
+(-5.62)
+(-6.06)
+DRet<0
+0.00220
+0.0216
+(0.13)
+(0.93)
+DRet<0 × Abs.Basis
+0.0357***
+0.0454**
+(2.64)
+(2.33)
+Obs.
+917
+917
+917
+917
+R2
+0.112
+0.121
+0.102
+0.109
+Adjusted-R2
+0.106
+0.112
+0.095
+0.100
+Note: Table 7 tabulates the regression results of the daily modiﬁed information share and component share in BitMEX on
+several market characteristics. RSpread is the relative spread of spot markets (average spread of the spot markets divided by
+BitMEX spread). RTV is the relative trading volume of spot markets (total trading volume of the spot markets divided by
+BitMEX trading volume). Ret is the log change of bitcoin prices in BitMEX. Abs.Basis is the absolute basis (absolute value
+of average diﬀerence of log prices between BitMEX and the spot markets). DRet<0 is a dummy indicating observations when
+daily return is negative. The spot markets are represented by Bitstamp, Coinbase, and Kraken. All variables are measured at
+a daily frequency and standardized to have zero-mean and unit-variance except for the dummy. The values in parenthesis are
+the corresponding robust t-statistics. ***, **, and * indicate the 1%, 5%, and 10% signiﬁcance level, respectively.
+38
+
+===== PAGE 39 =====
+Table 8: Out-of-sample hedge eﬀectiveness
+Standard Deviation of Portfolio Return
+Hedging Eﬀectiveness
+Hedging methods
+Bitstamp
+Coinbase
+Kraken
+Bitstamp
+Coinbase
+Kraken
+Unhedged position
+4.69%
+4.71%
+4.66%
+Naive hedge
+0.39%
+0.50%
+0.88%
+0.9930
+0.9888
+0.9642
+Minimum variance hedge
+0.37%
+0.48%
+0.86%
+0.9939
+0.9894
+0.9658
+Note: Table 8 presents the hedge eﬀectiveness of the BitMEX perpetual swap. The standard deviations are calculated from the
+daily portfolio returns, ∆pi,d+1 −bid∆pBitMEX,d+1, for the second half of the sample, where pid is the log price in exchange i
+on day d (i ∈{BitMEX, Bitstamp, Coinbase, and Kraken}). The hedge ratio, bid, is zero for the unhedged position and one for
+a naive hedge. For the minimum variance hedge, bid is obtained as a slope coeﬃcient from the OLS regression of spot returns
+in exchange i on BitMEX swap returns using a rolling window up to d. The hedging eﬀectiveness is deﬁned as the ratio of the
+variance reduced by hedging.
+39

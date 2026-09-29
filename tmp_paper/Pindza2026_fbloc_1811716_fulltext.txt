@@ -1,0 +1,1203 @@
+=== PAGE 1 ===
+TYPE Original Research
+PUBLISHED 11 June 2026
+DOI 10.3389/fbloc.2026.1811716
+Microstructure alpha: hierarchical 
+learning and cross-asset transfer 
+in cryptocurrency markets
+Edson Pindza*
+Department of Decision Sciences, College of Economics and Management Sciences, University of South 
+Africa, Pretoria, South Africa
+Introduction: We test whether classical market microstructure features can 
+predict short-term cryptocurrency returns once data leakage and trading costs 
+are properly accounted for.
+Methods: Using over three million minute-level observations from six major 
+cryptocurrencies on Binance spot and perpetual futures markets, we evaluate 
+nine microstructure measures through a pipeline that includes hierarchical 
+modelling, stability selection, gradient boosting with SHAP, meta-learning, and 
+purged walk-forward cross-validation benchmarked against naive forecasters.
+Results:All features are stably selected at minute frequency, with range-based 
+spread proxies and realised volatility the most robust. However, gradient-boosted 
+models overfit severely under proper leakage controls, and no strategy survives 
+realistic exchange fees. Models trained on one cryptocurrency do not transfer to 
+others, although they transfer well between the spot and futures venues of the 
+same asset.
+Discussion:The results show that microstructure signals carry genuine but weak 
+information content that is useful for understanding market quality but not 
+exploitable at standard retail fee levels.
+KEYWORDS
+cryptocurrency markets, market microstructure, machine learning, hierarchical learning, 
+transfer learning, high-frequency trading, liquidity measures, SHAP values
+1 Introduction
+The rapid evolution of cryptocurrency markets has created a fertile environment for 
+studying market microstructure phenomena at unprecedented granularity. Unlike 
+traditional equity markets with their fragmented venue structures and complex order 
+routing protocols, cryptocurrency exchanges provide continuous trading with publicly 
+accessible order book and trade data, enabling researchers to examine the formation of 
+prices and the dynamics of liquidity provision with exceptional clarity (Makarov and Schoar, 
+2020; Biais et al., 2023).
+Market microstructure theory, as pioneered by Kyle (1985) and Glosten and Milgrom 
+(1985), provides a rich theoretical foundation for understanding how private information is 
+incorporated into prices through the trading process. The fundamental insight that price 
+impact reflects the adverse selection costs faced by liquidity providers has motivated an 
+extensive literature on measuring and predicting the informed trading component of order 
+flow (Easley et al., 1996; Hasbrouck, 2021). In the cryptocurrency setting, these dynamics are 
+potentially magnified by the prevalence of algorithmic trading, the global and continuous 
+nature of markets, and the absence of traditional institutional gatekeepers (Cong 
+et al., 2022).
+OPEN ACCESS
+EDITED BY 
+Zeyd Boukhers, 
+Fraunhofer-Institut für Angewandte 
+Informationstechnik (FIT), Germany
+REVIEWED BY 
+Shafeeq Ur Rahaman, 
+Monks, United States 
+Khalid Ul Islam Rather, 
+Sher-I-Kashmir Institute of Medical 
+Sciences, India
+*CORRESPONDENCE 
+Edson Pindza, 
+edsonpindza@gmail.com
+RECEIVED 15 February 2026
+REVISED 08 May 2026
+ACCEPTED 18 May 2026
+PUBLISHED 11 June 2026
+CITATION 
+Pindza E (2026) Microstructure alpha: 
+hierarchical learning and cross-asset 
+transfer in cryptocurrency markets. 
+Front. Blockchain 9:1811716. 
+doi: 10.3389/fbloc.2026.1811716
+COPYRIGHT 
+© 2026 Pindza. This is an open-access 
+article distributed under the terms of the 
+Creative Commons Attribution License 
+(CC BY). The use, distribution or 
+reproduction in other forums is permitted, 
+provided the original author(s) and the 
+copyright owner(s) are credited and that 
+the original publication in this journal is 
+cited, in accordance with accepted 
+academic practice. No use, distribution or 
+reproduction is permitted which does not 
+comply with these terms.
+Frontiers in Blockchain frontiersin.org01
+=== PAGE 2 ===
+We use these classical models as reduced-form benchmarks 
+rather than as literal descriptions of a human specialist market. On 
+centralized cryptocurrency exchanges such as Binance, liquidity is 
+supplied predominantly by algorithmic limit-order strategies, but 
+the economic primitives remain closely related to Kyle and 
+Glosten–Milgrom: aggressive order flow moves prices when it 
+consumes depth, and passive liquidity suppliers widen or 
+withdraw quotes when order flow is more toxic. For automated- 
+market-maker decentralized exchanges the mechanism differs 
+because prices are set by a liquidity-pool rule rather than by a 
+central limit order book; nevertheless, recent DeFi microstructure 
+evidence shows that adverse selection, price impact, liquidity 
+concentration, and informed liquidity provision remain first- 
+order objects of study (Klein et al., 2023; Zhu et al., 2024). Our 
+empirical setting is therefore best interpreted as a leakage-controlled 
+test of classical microstructure signals in algorithmic, fragmented 
+crypto limit-order-book markets, with DEX/AMM markets treated 
+as a related but structurally distinct frontier.
+This paper contributes to the nascent literature on 
+cryptocurrency market microstructure by developing a 
+comprehensive empirical framework that integrates multiple 
+streams of microstructure theory into a unified predictive model. 
+We construct features motivated by classical microstructure 
+measures including the bid-ask spread, which reflects the costs of 
+providing immediacy, Kyle’s lambda measuring price impact per 
+unit of order flow, the Amihud illiquidity ratio capturing the price 
+response to trading volume, the volume-synchronized probability of 
+informed trading providing a flow-based toxicity measure, and 
+order flow imbalance indicating the directional pressure from 
+aggressive traders.
+Our methodological approach combines several complementary 
+analytical tools. First, we employ hierarchical linear models with 
+mixed effects to capture both the universal relationships between 
+microstructure features and returns that hold across all assets, as well 
+as asset-specific deviations that reflect the unique trading 
+characteristics of individual cryptocurrencies. Second, we 
+implement stability selection through randomized Lasso to 
+identify which microstructure features provide robust predictive 
+information that persists across different subsamples and 
+regularization strengths. Third, we utilize gradient-boosted 
+decision trees with Shapley additive explanations to capture 
+potentially nonlinear relationships and interactions among 
+features while maintaining interpretability regarding each 
+feature’s marginal contribution to predictions.
+A central innovation of our analysis is the systematic 
+investigation of cross-asset transfer learning in the microstructure 
+context. We train predictive models on one cryptocurrency and 
+evaluate their out-of-sample performance on other assets, both 
+within and across market venues. This transfer learning 
+perspective addresses a fundamental question for market 
+participants: to what extent do the microstructure dynamics 
+learned from one market generalize to other related markets? 
+The answer has practical implications for trading strategy 
+development, risk management, and the understanding of market 
+integration.
+Our empirical analysis draws on 3,417,972 minute-level 
+observations spanning August 2025 to February 2026, covering 
+six major cryptocurrencies—Bitcoin, Ethereum, Solana, 
+Avalanche, Chainlink, and Polkadot—across both spot and 
+perpetual futures markets on the Binance exchange 
+(approximately 285,000 bars per asset–venue pair). The minute- 
+level granularity is critical for our analysis: it provides the statistical 
+power necessary to resolve weak microstructure signals that are 
+smoothed away at hourly or daily frequencies, while the 6.5-month 
+window captures a representative cross-section of market conditions 
+during the 2025–2026 expansion phase. The target variable is the 5- 
+min forward log return, which strikes a balance between the noise of 
+tick-level returns and the signal attenuation of longer horizons.
+The remainder of this paper proceeds as follows. Section 2
+reviews the relevant theoretical and empirical literature on market 
+microstructure and machine learning in financial markets. Section 3
+describes our microstructure feature construction methodology. 
+Section 4 presents the hierarchical modeling framework and 
+transfer learning approach. Section 5 reports our empirical 
+results. Section 6 discusses implications and limitations, and 
+Section 7 concludes with directions for future research.
+2 Literature review
+The theoretical foundations of our analysis rest on the seminal 
+contributions to market microstructure theory developed over the 
+past 4 decades. Kyle (1985) introduced the continuous-time model 
+of strategic trading by an informed trader facing competitive market 
+makers, deriving the equilibrium price impact function and 
+establishing that prices follow a martingale with respect to public 
+information. The Kyle lambda parameter, measuring price impact 
+per unit of order flow, has become a cornerstone measure of market 
+quality and information asymmetry (Hasbrouck, 2009).
+Glosten and Milgrom (1985)developed the foundational model 
+of bid-ask spreads as compensation for adverse selection risk, 
+demonstrating that the spread must be at least large enough to 
+cover the expected losses from trading with better-informed 
+counterparties. This framework was extended by Glosten (1994)
+to analyze the implications for market structure and by Huang and 
+Stoll (1997) to decompose spreads into their constituent parts. The 
+adverse selection component of spreads has been shown to contain 
+predictive information for future returns (Brennan et al., 1998).
+The relevance of these models to cryptocurrency markets 
+requires some qualification. Kyle’s original model assumes a 
+strategic informed trader and competitive market makers, while 
+Glosten–Milgrom is framed around sequential trade with 
+heterogeneously informed traders. Modern crypto trading 
+replaces the human specialist with algorithmic quoting, cross- 
+exchange arbitrage, and latency-sensitive inventory control. This 
+does not invalidate the models, but it changes their interpretation: 
+Kyle’s λ is a reduced-form price-impact elasticity, and the bid-ask 
+spread is a reduced-form compensation for inventory, adverse- 
+selection, latency, and operational risks. This interpretation is 
+consistent with recent evidence that crypto order flow and limit- 
+order activity contribute materially to price discovery, while high- 
+frequency integration across venues remains imperfect (Alexander 
+et al., 2021). It also aligns with evidence from Binance fee changes 
+showing that market-maker incentives can widen spreads and 
+reduce displayed depth even when explicit trading fees fall 
+(Galati, 2024).
+Frontiers in Blockchain frontiersin.org02
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 3 ===
+The measurement of informed trading activity has received 
+substantial attention in the empirical microstructure literature. 
+Easley et al. (1996) introduced the probability of informed 
+trading (PIN) model, which uses the sequential arrival of buy 
+and sell orders to infer the probability that a given trade is 
+information-motivated. Easley et al. (2012) developed the 
+volume-synchronized probability of informed trading (VPIN), 
+which provides a higher-frequency measure better suited to 
+modern electronic markets. The VPIN metric has been shown to 
+spike prior to extreme price movements and market stress events 
+(Abad and Yagüe, 2012).
+A rapidly growing recent literature now studies whether these 
+same concepts survive in crypto-specific market structures. Easley 
+et al. (2024) show that liquidity and price-discovery measures help 
+explain and predict the dynamics of major cryptocurrencies, with 
+own-market and cross-market effects for Roll measures and VPIN. 
+Pinto (2025)documents high-frequency microstructure regularities 
+in Binance Bitcoin and Ethereum perpetual futures over 2020–2024, 
+emphasizing the importance of trade size and intraday aggregation. 
+These studies support the use of high-frequency microstructure 
+variables in cryptocurrency markets, while also showing why leakage 
+controls and careful horizon choice are essential.
+The application of machine learning methods to financial 
+prediction has grown rapidly in recent years. Gu et al. (2020)
+provided a comprehensive comparison of machine learning 
+approaches for equity return prediction, finding that neural 
+networks and tree-based methods substantially outperform linear 
+models. Chen et al. (2023)extended this analysis to cryptocurrency 
+markets, demonstrating the potential for deep learning to capture 
+complex patterns in high-frequency data. The use of gradient- 
+boosted trees with SHAP-based interpretation has been 
+advocated by Lundberg and Lee (2017) as providing both 
+predictive accuracy and model interpretability.
+Recent cryptocurrency return-prediction work also points to the 
+promise and risk of flexible models. Filippou et al. (Filippou et al., 
+2024) find that machine-learning methods improve daily 
+cryptocurrency return forecasts and that momentum, size, value, 
+and online-activity variables are informative. Our study differs in 
+two respects: we work at the 5-min horizon using explicitly 
+microstructural predictors, and we evaluate models under purged 
+walk-forward validation and explicit trading costs. This distinction 
+matters because high-frequency crypto data make it easy for 
+nonlinear models to fit transient market states that vanish once 
+temporal leakage and turnover costs are controlled.
+Transfer learning in financial applications has been explored by 
+Ye et al. (2020)in the context of portfolio optimization and by Han 
+et al. (2020)for cross-market return prediction. The ability to transfer 
+learned representations across related prediction tasks has important 
+implications for developing robust trading strategies and 
+understanding the common factors that drive asset returns.
+Cryptocurrency market microstructure has been studied by 
+Makarov and Schoar (2020) who documented substantial price 
+discrepancies across exchanges, by Griffin and Shams (Griffin 
+and Shams, 2020) who examined potential market manipulation, 
+and by Cong et al. (2021)who developed theoretical models of token 
+market dynamics. The perpetual futures market has been analyzed 
+by Alexander and Dakos (2020) who examined the basis and roll 
+returns. Recent decentralized-exchange work further shows that 
+market quality in crypto cannot be understood only through 
+centralized order books. Klein et al. (2023) document informed 
+liquidity provision on decentralized exchanges, while Zhu et al. 
+(2024) show that liquidity concentration, gas prices, markouts, and 
+private market-maker inventory shape Uniswap market depth. 
+These papers highlight the frontier raised by the editor: 
+algorithmic and decentralized mechanisms alter the institutional 
+details of price formation, but they do not eliminate the central 
+microstructure questions of adverse selection, liquidity supply, price 
+impact, and transferability across venues.
+Our contribution is positioned against this current literature as 
+follows. We do not claim that Kyle and Glosten–Milgrom are 
+complete structural models of decentralized finance. Instead, we 
+use their core empirical implications to construct interpretable 
+features for algorithmic centralized crypto markets, then test 
+whether those features survive modern validation standards. 
+Relative to the recent crypto microstructure literature, the paper 
+contributes a unified leakage-controlled comparison of spread, 
+price-impact, toxicity, order-flow, momentum, and transfer- 
+learning signals across six assets and two Binance venues, and it 
+links statistical predictability to economic feasibility under explicit 
+exchange fees.
+3 Microstructure feature construction
+This section describes the construction of our microstructure 
+feature space from Binance minute-level bar data. For each of the 
+twelve asset–venue pairs we obtain open, high, low, close prices and 
+volumes together with trade counts and taker-buy volume, sampled 
+at a 1-min frequency over the August 2025 to February 
+2026 window. The target variable throughout the paper is the 5- 
+min forward log return yit � log(Ci,t+5/Ci,t), and every feature xit
+below uses information available only at the end of bar t(see Section 
+4.7for the formal leakage controls). The microstructure features are 
+defined sequentially in Equations 1–8.
+3.1 Bid-ask spread proxy
+In the absence of direct order book data at the minute frequency, 
+we construct a spread proxy using the range-based estimator of 
+Corwin and Schultz (2012). The fundamental insight is that the 
+high-low range of prices within a trading interval reflects both 
+volatility and the bid-ask bounce. We compute the spread proxy 
+as the normalized high-low range: 
+Spreadt �Ht −Lt
+Ct
+(1)
+where Ht, Lt, and Ct denote the high, low, and close prices of the 
+minute bar indexed by t. This measure captures the total price 
+dispersion within each minute, which includes both fundamental 
+volatility and the mechanical bounce between bid and ask prices.
+3.2 Realized volatility
+We compute realized volatility as the rolling standard deviation 
+of minute log returns over a 60-bar (1-h) window, annualized for 
+interpretability: 
+Frontiers in Blockchain frontiersin.org03
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 4 ===
+σt �
+������������
+60 × 24 × 365
+√
+× std log Cs
+Cs−1
+􏼠 􏼡
+t
+s�t−59
+. (2)
+The 60-min rolling window provides a responsive estimate of 
+local volatility that captures intraday regime shifts while remaining 
+smooth enough to serve as a predictive feature.
+3.3 Trade and volume intensity
+Trade intensity measures the relative frequency of transactions 
+compared to recent history, computed as: 
+TradeIntt � Nt
+¯Nt−60: t−1
+(3)
+where Nt denotes the number of trades in minute t and the 
+denominator is the 60-min rolling mean. Similarly, volume intensity 
+normalizes current volume by its 60-min rolling mean. Values above 
+unity indicate elevated trading activity.
+3.4 VPIN proxy
+The volume-synchronized probability of informed trading 
+provides a measure of order flow toxicity based on the imbalance 
+between buy-initiated and sell-initiated volume. We construct a 
+proxy using taker buy volume over a 50-min rolling window: 
+VPINt � 1
+50 􏽘
+t
+s�t−49
+Vbuy
+s −Vsell
+s
+Vbuy
+s +Vsell
+s
+􏼌􏼌􏼌􏼌􏼌􏼌􏼌􏼌􏼌
+􏼌􏼌􏼌􏼌􏼌􏼌􏼌􏼌􏼌 (4)
+where Vbuy is the taker buy volume and Vsell�V−Vbuy is the 
+taker sell volume. The 50-min window provides a responsive 
+measure of order-flow toxicity at the intraday frequency.
+3.5 Kyle’s lambda
+We estimate Kyle’s lambda as the price impact per unit of 
+trading volume over a 30-min rolling window: 
+λt � 1
+30 􏽘
+t
+s�t−29
+|Cs −Os|
+Qs
+(5)
+where Qs denotes the quote volume in minute s. This measure 
+captures the sensitivity of prices to order flow, with higher values 
+indicating lower liquidity and greater information content per unit 
+of volume.
+3.6 Amihud illiquidity
+The Amihud illiquidity ratio measures the absolute return per 
+unit of trading volume over a 30-min rolling window: 
+Amihudt � 1
+30 􏽘
+t
+s�t−29
+|rs|
+Qs􏼎106 (6)
+where rs is the log return in minute s. This ratio has been widely 
+used in the literature as a measure of price impact and illiquidity.
+3.7 Depth imbalance
+Depth imbalance measures the asymmetry between buying and 
+selling pressure, computed using the taker buy volume ratio: 
+Imbt � 2 Vbuy
+t
+Vt
+−0.5􏼠 􏼡 (7)
+This measure ranges from −1(all selling) to +1(all buying), with 
+mean near zero, indicating substantial minute-to-minute variation 
+in directional order flow.
+3.8 Order flow imbalance
+We compute a rolling measure of order flow imbalance over a 
+30-min window: 
+OFIt � 1
+30 􏽘
+t
+s�t−29
+Vbuy
+s −Vsell
+s
+Vs
+(8)
+4 Methodology
+4.1 Hierarchical linear model
+To capture both universal and asset-specific relationships 
+between microstructure features and future returns, we employ a 
+hierarchical linear model with mixed effects. Let yit denote the 5- 
+min forward log return for asset i at time t, and let xit denote the 
+vector of standardized microstructure features. The hierarchical 
+linear model is specified in Equation 9: 
+yit � xit′ β+ui+ ϵit (9)
+where β is the vector of fixed effects capturing the average 
+relationship across all assets, ui ~N(0,σ2
+u) is the random 
+intercept for asset i, and ϵit ~N(0,σ2
+ϵ) is the idiosyncratic error. 
+The fixed effects coefficients estimate the predictive contribution of 
+each microstructure feature after controlling for asset-specific 
+heterogeneity.
+We estimate this model using maximum likelihood, fitting on a 
+random subsample of 50,000 observations for computational 
+tractability. The hierarchical structure allows us to borrow 
+strength across assets while accommodating the reality that 
+different cryptocurrencies may have different baseline return 
+distributions.
+4.2 Stability selection
+To identify microstructure features that provide robust 
+predictive information, we implement stability selection as 
+proposed by Meinshausen and Bühlmann (2010). This approach 
+involves repeatedly fitting Lasso regressions on bootstrap samples 
+with varying regularization strengths and recording which features 
+are selected. The selection probability for each feature is defined in 
+Equation 10: 
+Frontiers in Blockchain frontiersin.org04
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 5 ===
+ˆΠj � 1
+B􏽘
+B
+b�1
+1 |ˆβ
+b()
+j | >0􏼚 􏼛 (10)
+where B� 100 bootstrap iterations are performed. Features with 
+selection probability exceeding 0.5 are deemed stable. This approach 
+controls for the tendency of Lasso to select different features across 
+samples and provides a more reliable assessment of feature 
+importance.
+4.3 Gradient boosting with SHAP
+To capture nonlinear relationships and feature interactions, we 
+train a LightGBM gradient-boosted decision tree ensemble (Ke et al., 
+2017) with the following hyperparameters: 300 trees, maximum 
+depth of 6, learning rate of 0.05, and 31 leaves per tree. The target 
+variable is the 5-min forward log return.
+We interpret the model using SHAP (SHapley Additive 
+exPlanations) values, which provide a unified measure of feature 
+importance based on cooperative game theory (Lundberg and Lee, 
+2017). For each prediction, the SHAP value for feature j represents 
+its marginal contribution to the prediction relative to the expected 
+prediction, as given in Equation 11: 
+ϕj � 􏽘
+S⊆N\ j{}
+|S|! |N|−|S|−1( )!
+|N|! f S ∪ j􏼈 􏼉  􏼁−f S()􏼂 􏼃 (11)
+We report the mean absolute SHAP value for each feature, which 
+measures its average impact on model predictions across the test set.
+4.4 Cross-asset transfer learning
+To assess the transferability of microstructure signals, we train 
+LightGBM models on each asset-venue pair and evaluate their out- 
+of-sample performance on all other pairs. For source asset s and 
+target asset t, we compute the transfer correlation in Equation 12: 
+ρs→t � Corr ˆys()
+t ,yt􏼐 􏼑 (12)
+where ˆy(s)
+t denotes predictions for asset tusing the model trained on 
+asset s. This transfer correlation measures the extent to which the 
+microstructure patterns learned from one market generalize 
+to another.
+We standardize features using the training set statistics before 
+applying to the test set, accounting for the different scales of 
+microstructure features across assets. The resulting transfer 
+matrix provides insights into which markets share common 
+microstructure dynamics.
+4.5 Meta-learning with MAML
+To move beyond the zero-shot transfer setting and allow a small 
+amount of target-asset adaptation, we implement a Model-Agnostic 
+FIGURE 1 
+MAML meta-learned feature weights, computed as the mean absolute task-adapted coefficient of the linear base learner averaged across the twelve 
+asset–venue tasks. Higher values indicate features that the meta-learner relies on more heavily after a single gradient step of adaptation.
+TABLE 1 Sample sizes by asset and venue (minute bars after feature 
+construction, August 2025 – February 2026).
+Asset Spot Futures
+AVAX 284,083 285,038
+BTC 285,056 285,038
+DOT 283,999 285,037
+ETH 285,056 285,038
+LINK 284,497 285,037
+SOL 285,056 285,037
+Total 1,707,747 1,710,225
+Frontiers in Blockchain frontiersin.org05
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 6 ===
+Meta-Learning (MAML) procedure in the spirit of Finn et al. (2017). 
+Each asset–venue pair i is treated as a distinct task Ti with its own 
+support set Dsup
+i and query set Dqry
+i , drawn from disjoint, time- 
+ordered blocks to preserve the chronology of the high-frequency 
+data. The base learner fθ is a linear model with intercept that maps 
+the standardised microstructure feature vector xit to the 5-min 
+forward return yit, trained with the mean-squared-error 
+loss LTi(θ)� E(x,y)~Ti[(fθ(x)−y)2].
+In the inner loop, a task-specific update is computed on the 
+support set with a single gradient step, as shown in Equation 13, 
+θi′� θ−α∇θLsup
+Ti θ( ), (13)
+and the meta-parameters are updated in the outer loop by 
+backpropagating through the query-set loss, as shown in 
+Equation 14, 
+θ ← θ−β∇θ 􏽘
+NT
+i�1
+Lqry
+Ti θi′  􏼁. (14)
+We use a single inner-loop update with learning rate α� 0.05, 
+an outer learning rate β� 0.005, and train for 500 meta- 
+iterations with batches of four tasks. After meta-training we 
+adapt the meta-parameters once to each task’s support set and 
+extract the absolute task-adapted coefficients |θi′| (excluding 
+the intercept) averaged across tasks as a meta-learned 
+importance score for each feature, which is the quantity 
+reported in Figure 1. MAML is used here purely as an 
+interpretability and robustness check: it provides an 
+alternative, gradient-based view of feature importance that 
+does not rely on Lasso selection or tree-based SHAP 
+attribution, and allows us to verify that the ranking of 
+features is not an artefact of a single estimator.
+4.6 Benchmark models and forecast 
+evaluation
+To assess whether the microstructure-based models add 
+predictive value over naive alternatives, we benchmark 
+against three standard forecasters: (i) a random walk 
+ˆyRW
+it � 0; (ii) an AR (1) model ˆyAR
+it � ˆϕiyi,t−1 estimated asset- 
+by-asset on the training window; and (iii) a simple momentum 
+predictor ˆyMOM
+it �γ ri,t−k: t using a 5-min look-back. We 
+compare out-of-sample root-mean-squared forecast errors 
+using the Diebold and Mariano (1995) with Newey–West 
+standard errors to account for the overlapping-return 
+autocorrelation induced by the 5-min forecast horizon. 
+Relative improvements are reported both in RMSE and in 
+incremental out-of-sample R2, ΔR2
+OOS, computed as the gain 
+over the random-walk benchmark.
+4.7 Leakage control and purged cross- 
+validation
+To rule out look-ahead leakage in feature construction we 
+align every feature xit strictly to information available at the end 
+of minute t, and target returns yit � log(Ci,t+5/Ci,t) using future 
+closes only. Features constructed from rolling windows (VPIN 
+over 50 bars, Kyle’s λ/Amihud/OFI over 30 bars, realised 
+volatility over 60 bars, momentum over 5/30/60 bars) are 
+therefore right-aligned and never incorporate the forecast 
+interval. We further guard against leakage introduced by 
+autocorrelation in returns by adopting the purged, 
+embargoed k-fold cross-validation scheme of López de Prado 
+(2018): each fold’s test block is preceded and followed by a 
+purge window of 5 min (equal to the target horizon) and an 
+additional embargo of 60 min, so that no training observation 
+shares information with any test observation. All 
+hyperparameter tuning, stability selection, and model 
+comparison statistics reported in the next section use this 
+purged walk-forward scheme with k� 5.
+4.8 Economic evaluation with binance fees
+Statistical significance is a necessary but not sufficient condition 
+for practical relevance. We therefore translate each model into a 
+simple long/short strategy that takes a position of sgn ( ˆyit) at the 
+close of minute tand unwinds it at the close of minute t+5. Round- 
+trip costs are computed using Binance’s published VIP-0 schedule: 
+TABLE 2 Summary statistics for microstructure features (minute-level, August 2025 – February 2026).
+Feature Mean Std Median Min Max
+cs_spread 0.001213 0.002457 0.0009348 0 1.912
+realized_vol 0.5593 0.6739 0.4816 0.01815 82.88
+trade_intensity 1.025 0.8493 0.8437 0.0006694 42.75
+volume_intensity 1.038 1.376 0.6792 2.779e-05 53.42
+vpin 0.3865 0.132 0.3615 0.06517 0.9247
+kyles_lambda 5.418e-06 1.461e-05 4.209e-07 6.064e-10 0.0002111
+Amihud 0.09737 0.4764 0.003001 3.226e-06 18.48
+depth_imbalance −0.01205 0.4714 −0.01354 −1 1
+ofi −0.01207 0.127 −0.009513 −0.7747 0.7243
+Frontiers in Blockchain frontiersin.org06
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 7 ===
+10 bps per side for spot (20 bps round-trip) and 2 bps maker/5 bps 
+taker for USDT-M perpetual futures (4–10 bps round-trip 
+depending on execution assumptions). We additionally impose a 
+conservative half-spread slippage equal to the contemporaneous 
+Corwin–Schultz spread proxy. Strategy performance is reported as 
+annualised Sharpe ratio, average daily turnover, gross and net R2, 
+and cumulative PnL; bootstrap confidence intervals are constructed 
+using a stationary block bootstrap with block length equal to one 
+trading day.
+5 Empirical results
+5.1 Data summary
+Our analysis uses 3,417,972 minute-level Binance bars covering 
+six cryptocurrencies on both spot and perpetual-futures venues from 
+August 2025 through February 2026, yielding approximately 
+285,000 bars per asset–venue pair. Table 1 reports the sample 
+size for each asset–venue pair after the rolling-window feature- 
+FIGURE 2 
+Hierarchical linear model coefficients with 95% confidence intervals. Green bars are positive effects; red bars negative.
+FIGURE 3 
+Stability selection probabilities from randomised-Lasso bootstrap (B�100). The dashed red line marks the 0.5 threshold of Meinshausen and 
+Bühlmann (2010).
+Frontiers in Blockchain frontiersin.org07
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 8 ===
+construction step. All twelve pairs have balanced sample sizes over 
+the 6.5-month window, which is handled by the hierarchical 
+random-effects structure of Section 5.2.
+Table 2 reports summary statistics for the nine microstructure 
+features and three momentum controls. At the minute frequency, 
+several features exhibit heavy right tails characteristic of high- 
+frequency cryptocurrency data, which is important context for 
+interpreting the stability-selection analysis below.
+5.2 Hierarchical model results
+Figure 2 presents the estimated fixed effects from the 
+hierarchical linear model, fitted with asset–venue random 
+intercepts. The standardised coefficients measure the effect of a 
+one-standard-deviation change in each feature on the 5-min 
+forward log return.
+The Corwin–Schultz spread proxy emerges as the most 
+statistically significant predictor, with a standardised coefficient of 
+−5.68 × 10−4 (p ≈ 0): wider minute-level ranges are followed by 
+lower returns, consistent with a spread-induced drag on short- 
+horizon expected returns. Realised volatility is the second most 
+significant feature (+3.78 × 10−4, p ≈ 0), followed by 30-min 
+momentum (−2.56 × 10−4, p ≈ 0), trade intensity (+2.23 × 10−4), 
+5-min momentum (+1.96 × 10−4), and VPIN (−1.50 × 10−4). 
+Importantly, the Amihud ratio (+8 × 10−6, p� 0.48) and Kyle’s λ
+(−1.2 × 10−5, p� 0.54) are not individually significant at the 5% 
+level, indicating that these heavy-tailed estimators contribute to 
+stability selection at the margin (see Section 5.3) but carry negligible 
+incremental information once the other features are included.
+5.3 Stability selection results
+Figure 3 shows the selection probabilities from 
+100 randomised-Lasso bootstrap draws with random 
+subsampling and random regularisation noise. A key finding of 
+the minute-level analysis is that all twelve features pass the strict 
+0.5 stable-selection threshold.
+Ranked by selection probability, the features are: realised 
+volatility (0.84), 5-min momentum (0.83), the Corwin–Schultz 
+spread proxy (0.79), 30-min momentum (0.73), 60-min 
+momentum (0.66), VPIN (0.65), trade intensity (0.60), depth 
+imbalance (0.60), Kyle’s λ (0.56), order-flow imbalance (0.55), 
+volume intensity (0.51), and the Amihud ratio (0.51). This is a 
+notable contrast with earlier hourly analyses (including a pilot 
+version of the present paper) in which Amihud (0.43) and Kyle’s 
+λ (0.14) failed the threshold: at minute frequency with 3.4 million 
+bars, the statistical power is sufficient for even the noisiest estimators 
+to clear the 0.5 boundary, albeit marginally. The result underscores 
+that stability selection is sensitive to sample size and frequency; the 
+fact that all features pass does not imply that all carry economically 
+meaningful information, as the hierarchical model analysis in 
+Section 5.2 confirms.
+5.4 LightGBM and SHAP
+To capture non-linear interactions we train LightGBM on an 80/ 
+20 chronological split. The in-sample R2 is 35.9% but the out-of- 
+sample R2 on the held-out block is −28.8%, a massive overfit that is 
+far more severe than that observed in the earlier hourly analysis. The 
+purged walk-forward analysis in Section 5.6 confirms that 
+LightGBM’s overfit worsens further under temporal purge 
+controls (ΔR2� −10.9%, DM � −6.83, p <10−11), making it 
+significantly worse than the random walk. Figure 4 reports the 
+mean absolute SHAP values.
+The ordering of SHAP values broadly mirrors the stability- 
+selection ranking: momentum and the Corwin–Schultz spread lead, 
+followed by realised volatility and order-flow imbalance. Amihud 
+and Kyle’s λagain rank last. Figure 5displays the feature correlation 
+FIGURE 4 
+SHAP feature importance from LightGBM. Higher values indicate greater average contribution to model predictions.
+Frontiers in Blockchain frontiersin.org08
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 9 ===
+matrix; the spread proxy is positively correlated with realised 
+volatility and trade intensity, as one would expect from a 
+common dependence on market turbulence.
+5.5 Cross-asset transfer results
+Figure 6 plots the full 12 × 12 transfer correlation matrix. A 
+LightGBM model trained on each source asset–venue pair is applied 
+to predict the test block of every other pair. Diagonal elements 
+measure within-asset performance; off-diagonals measure zero-shot 
+cross-asset transfer.
+The heatmap displays a clear block-diagonal structure: models 
+transfer best to the same-asset opposite venue (spot ↔futures), with 
+meaningfully lower correlations across underlying cryptocurrencies. 
+This block-diagonal pattern confirms that spot and perpetual- 
+futures venues share a common information set while distinct 
+cryptocurrencies have idiosyncratic microstructure dynamics, and 
+the finding persists at minute frequency over the August 
+2025 – February 2026 window. The full numerical transfer 
+matrix is reported in paper9_data/tables/ 
+transfer.tex in the replication package.
+5.6 Benchmark comparisons and 
+forecast tests
+Table 3reports out-of-sample RMSE and ΔR2
+OOS for the random 
+walk, AR (1), momentum, OLS on microstructure features, and 
+LightGBM, all evaluated under the purged, embargoed walk- 
+forward cross-validation scheme of Section 4.7 (k� 5, 60-min 
+embargo, 5-min purge).
+Three findings stand out. First, the random walk (RMSE 
+� 3.685 × 10−3) is essentially unbeaten by the AR (1) and 
+momentum benchmarks: both deliver ΔR2
+OOS �+0.09% with a 
+Diebold–Mariano statistic of 0.28 (p� 0.78), statistically 
+indistinguishable from the random walk. This is a non-trivial 
+result in its own right, and contradicts common claims in the 
+cryptocurrency literature that short-horizon returns carry 
+exploitable autocorrelation. Second, a parsimonious OLS model 
+on the microstructure features delivers a marginal improvement 
+of +1.23% in ΔR2
+OOS with a Diebold–Mariano statistic of +1.28
+(p� 0.20), not significant at conventional levels but suggestive of 
+weak predictive content. Third, and most importantly, LightGBM 
+overfits catastrophically under purged cross-validation: its ΔR2
+OOS is 
+−10.94% with a DM statistic of −6.83(p <10−11), overwhelmingly 
+significant in the wrong direction. The naïve train/test split in 
+Section 5.4 therefore substantially overstates LightGBM’s 
+generalisation ability; under proper leakage controls it is 
+dramatically worse than the random walk. This is a 
+methodological warning for the broader cryptocurrency machine- 
+learning literature and is only visible because of the leakage- 
+controlled design we now employ.
+5.7 Economic evaluation with trading costs
+Table 4 translates each forecast into the long/short strategy 
+described in Section 4.8. Binance VIP-0 fees (10 bps per side 
+FIGURE 5 
+Correlation matrix among microstructure and momentum features.
+Frontiers in Blockchain frontiersin.org09
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 10 ===
+FIGURE 6 
+Cross-asset transfer correlation heatmap. Rows are source models; columns are target assets.
+TABLE 3 Out-of-sample forecast comparison under purged, embargoed k-fold cross-validation (k�5, 60-min embargo, 5-min purge). ΔR2
+OOS is expressed 
+relative to the random-walk benchmark; DM denotes the Diebold–Mariano statistic against the random walk; * and ** indicate significance at the 5% and 1% 
+levels respectively.
+Model RMSE (× 10−4) MAE (× 10−4) ΔR2
+OOS (%) DM stat
+Random walk 36.85 15.21 0.00 —
+AR (1) 36.83 15.25 0.09 0.28
+Momentum (5 min) 36.83 15.25 0.09 0.28
+OLS (micro) 36.62 15.34 1.23 1.28
+LightGBM 38.81 15.38 −10.94** −6.83
+TABLE 4 Gross and net performance of a 5-min long/short strategy based on each model’s forecast, aggregated across all twelve asset–venue pairs. Sharpe 
+ratios are annualised assuming continuous trading. Turnover is daily two-way, as a multiple of notional.
+Model Gross sharpe Net sharpe (spot) Net sharpe (fut) Avg. daily turnover
+AR (1) 0.43 −31.29 −10.68 124.0×
+Momentum (5 min) 0.43 −31.29 −10.68 124.0×
+OLS (micro) −0.31 −52.05 −18.42 203.8×
+LightGBM 0.96 −50.30 −16.98 201.9×
+Frontiers in Blockchain frontiersin.org10
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 11 ===
+spot; two bps maker +5 bps taker futures) and a Corwin–Schultz 
+half-spread slippage charge are applied.
+The 5-min rebalancing horizon drives daily two-way turnover 
+to 124–204 times notional. All net Sharpe ratios are deeply 
+negative: −10 to −52 on spot, −10 to −18 on futures. The 
+severity of the losses reflects the interaction of ultra-high 
+turnover with retail-tier fees: at 20 bps per round trip on spot, 
+288 round trips per day generates cumulative costs that 
+overwhelm any statistical edge by orders of magnitude. The 
+paper’s contribution is therefore diagnostic rather than 
+prescriptive: we identify microstructure signals that carry 
+leakage-free forecasting information at minute frequency, but 
+the information is far too weak to overcome Binance VIP-0 
+frictions at a 5-min holding horizon. Three extensions could in 
+principle narrow the gap: (i) a lower fee tier (market-maker 
+rebates, VIP-9), (ii) a longer holding horizon that amortises 
+the round-trip cost over more expected return, and (iii) a 
+portfolio construction step that nets off redundant trades 
+across the twelve asset–venue pairs.
+5.8 Subsample and regime robustness
+The purged out-of-sample R2 of a LightGBM model varies 
+markedly across market regimes. In the low-volatility regime, 
+R2 ≈ 0%; in up-market conditions, R2�+0.4%; but in the high- 
+volatility regime, R2� −54%(extreme overfit), and in down-market 
+conditions, R2� −39%. The catastrophic high-volatility and down- 
+market performance confirms that LightGBM’s tree-based structure 
+latches onto tail events in the training set that do not generalise out 
+of sample. The regime analysis underscores that any apparent 
+predictive content is concentrated in calm, trending markets and 
+vanishes entirely during the stress episodes that matter most for risk 
+management.
+5.9 Spot versus futures comparison
+Figure 7 compares the distribution of key microstructure 
+features between spot and futures markets. Several systematic 
+differences emerge. Futures markets exhibit tighter spread proxies 
+on average, reflecting their greater liquidity and the prevalence of 
+sophisticated market makers. The VPIN proxy shows higher values 
+in spot markets, suggesting greater informed trading activity or less 
+efficient price discovery.
+The Kyle’s lambda measure shows substantial variation across 
+venues, with spot markets exhibiting higher price impact per unit 
+of volume for some assets. The Amihud illiquidity ratio is 
+generally higher in spot markets, consistent with the greater 
+depth and efficiency typically found in cryptocurrency 
+derivatives markets.
+5.10 Regime analysis
+Figure 8 presents the average microstructure feature values 
+across volatility regimes, defined by whether realized volatility 
+exceeds its sample median. High-volatility regimes are 
+associated with elevated spread proxies, higher trade 
+intensity, and greater depth imbalance. The VPIN proxy 
+shows modest increases during high-volatility periods, 
+suggesting increased informed trading activity or larger order 
+flow imbalances during market stress.
+5.11 Asset-level heterogeneity
+Figure 9 displays the distribution of key microstructure features 
+across different cryptocurrencies. Bitcoin and Ethereum exhibit the 
+tightest spread proxies, reflecting their greater liquidity and trading 
+volume. Smaller-capitalization assets such as Avalanche and 
+Polkadot show wider spreads and higher Amihud ratios, 
+indicating higher trading costs and price impact.
+The VPIN proxy shows relatively similar distributions across 
+assets, suggesting that the proportion of informed trading activity is 
+comparable across the cryptocurrency ecosystem. Order flow 
+FIGURE 7 
+Distribution of microstructure features across spot and futures venues.
+FIGURE 8 
+Mean microstructure feature values by volatility regime.
+Frontiers in Blockchain frontiersin.org11
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 12 ===
+imbalance exhibits asset-specific patterns, with some 
+cryptocurrencies showing persistent directional bias during the 
+sample period.
+6 Discussion
+The empirical findings presented in this paper have several 
+important implications for our understanding of cryptocurrency 
+market microstructure and the practical application of these insights 
+to trading strategy development. In this section, we discuss the 
+theoretical significance of our results, their practical implications, 
+and the limitations of our analysis.
+6.1 Theoretical implications
+Our analysis provides new evidence on the information content 
+of various microstructure measures in the cryptocurrency setting. 
+The finding that the Corwin–Schultz spread proxy is the most 
+statistically significant predictor of 5-min returns—while the 
+Amihud ratio and Kyle’s λ are not individually significant in the 
+hierarchical model—supports a view in which range-based spread 
+measures capture the aggregate cost of immediacy more reliably 
+than volume-based estimators at high frequency. In the 
+cryptocurrency context, this may reflect the fact that minute-level 
+volume is subject to wash-trading noise, whereas the high-low range 
+is mechanically constrained by actual executions.
+The relatively weak predictive power of the VPIN proxy, despite 
+its theoretical foundation in the informed trading literature, suggests 
+that the dynamics of information incorporation may differ in 
+cryptocurrency markets compared to traditional equity markets. 
+One possible explanation is that the global, continuous nature of 
+cryptocurrency trading reduces the information asymmetries that 
+the VPIN measure is designed to capture. Alternatively, the 
+prevalence of algorithmic trading and high-frequency market 
+making may have already arbitraged away much of the predictive 
+content in order flow imbalances.
+The dominance of momentum features in our SHAP analysis is 
+consistent with the extensive literature documenting short-term 
+return continuation in financial markets. However, the strength 
+of this pattern in our cryptocurrency sample suggests that 
+momentum effects may be particularly pronounced in these 
+markets, possibly due to their relatively recent emergence and the 
+predominance of retail traders who may exhibit stronger 
+behavioral biases.
+6.2 Comparison with traditional markets
+Our findings allow for comparison with the existing literature on 
+equity market microstructure. The magnitude of our best predictive 
+improvement (ΔR2
+OOS �+1.23% for OLS on microstructure 
+features) is modest relative to the results reported in Gu et al. 
+(2020)for U.S. equities, though direct comparison is complicated by 
+differences in prediction horizons (5 minutes vs. monthly) and 
+feature sets. The finding that transfer learning performs poorly 
+across cryptocurrencies echoes results from the equity literature 
+showing that factor models estimated on one subset of stocks often 
+fail to generalize to other subsets.
+The relationship between spot and futures markets that we 
+document differs somewhat from the traditional equity literature. 
+In equity markets, futures typically lead spot prices due to the 
+concentration of informed trading in derivatives markets. Our 
+finding of symmetric information transfer between spot and 
+futures cryptocurrency markets suggests a more integrated price 
+discovery process, potentially reflecting the unique characteristics of 
+cryptocurrency trading including 24/7 operation and the absence of 
+traditional institutional barriers.
+6.3 Practical implications for trading
+The results of our analysis have several practical implications for 
+market participants. First, although all twelve features are stably 
+selected at minute frequency, the catastrophic overfitting of 
+LightGBM demonstrates that flexible nonlinear models are not 
+the appropriate vehicle for exploiting weak microstructure signals 
+in this setting. A parsimonious linear model on the microstructure 
+features delivers the only marginal improvement over the random 
+walk, and even that improvement is not statistically significant at 
+conventional levels.
+Second, the finding of limited cross-asset transfer suggests that 
+trading models should be trained and calibrated separately for each 
+cryptocurrency. While this increases the data requirements and 
+computational burden of strategy development, it also suggests 
+that the edge from microstructure analysis is unlikely to be 
+quickly arbitraged away as different market participants may 
+focus on different assets.
+FIGURE 9 
+Distribution of microstructure features across assets.
+Frontiers in Blockchain frontiersin.org12
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 13 ===
+Third, the stronger transfer between spot and futures markets 
+for the same underlying asset suggests opportunities for cross-venue 
+trading strategies. Market makers providing liquidity in both venues 
+could potentially use signals from one market to inform their 
+quoting in the other, and arbitrageurs could exploit divergences 
+in microstructure conditions across venues.
+6.4 Implications for market quality
+Our analysis also has implications for understanding market 
+quality in cryptocurrency markets. The substantial variation in 
+microstructure measures across assets and time suggests that 
+liquidity conditions are far from uniform. Smaller 
+cryptocurrencies exhibit wider spreads and higher price impact, 
+indicating potential barriers to trading for these assets.
+The finding that futures markets exhibit tighter spreads and 
+lower price impact than spot markets suggests that the introduction 
+of derivatives has improved price discovery and market quality for 
+the underlying cryptocurrencies. This finding supports the 
+theoretical prediction that derivatives markets provide a venue 
+for informed trading that enhances the information content 
+of prices.
+6.5 Limitations
+Several limitations of our analysis should be acknowledged. 
+First, although our minute-level data provide substantially finer 
+granularity than hourly studies, the Corwin–Schultz spread proxy 
+remains a noisy surrogate for actual quoted spreads, and the order- 
+flow imbalance measures constructed from taker-buy volume 
+cannot separate different types of informed trading (e.g., news- 
+based vs. inventory-based). Extending the analysis to tick data with 
+full order-book snapshots would provide a more precise picture of 
+microstructure dynamics. Second, the sample window of 
+approximately 6.5 months (August 2025 – February 2026) 
+captures only the 2025–2026 expansion phase; the findings may 
+not generalise to bear markets or to the high-volatility crash episodes 
+of 2020–2022.
+Third, our analysis is limited to a single exchange (Binance), the 
+largest by volume. Trading patterns, fee structures, and market- 
+maker populations may differ across other exchanges (e.g., 
+Coinbase, OKX, Bybit), and our findings may not generalise to a 
+multi-exchange setting. In particular, cross-exchange arbitrage 
+dynamics are absent from our framework.
+Fourth, the economic evaluation (Section 5.7) accounts for 
+Binance maker/taker fees and half-spread slippage but abstracts 
+from queue-position dynamics, funding-rate costs on perpetual 
+futures, borrow costs for short positions, and latency to the 
+matching engine. The net Sharpe figures we report should 
+therefore be read as an upper bound on achievable performance 
+for a non-co-located retail-fee participant.
+Fifth, the LightGBM overfitting documented in Section 5.6
+— which only becomes visible under the purged walk-forward 
+design—is a methodological warning that applies to any tree- 
+based model applied to return prediction. While we have shown 
+that a parsimonious OLS model marginally outperforms the random 
+walk, the optimal model complexity for this task remains an 
+open question.
+Sixth, our MAML meta-learner is implemented as a linear base 
+learner with a single inner-loop gradient step; this is far simpler than 
+the neural-network architectures used in the image-classification 
+meta-learning literature and may under-represent the potential of 
+gradient-based adaptation. Exploring deeper architectures with 
+second-order MAML variants is left for future work.
+FIGURE 10 
+Time series of key microstructure features for Bitcoin spot market. The features exhibit substantial time variation and clustering, with periods of 
+market stress associated with elevated spreads and volatility.
+Frontiers in Blockchain frontiersin.org13
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 14 ===
+6.6 Time series patterns
+Figure 10 illustrates the temporal evolution of key 
+microstructure features for Bitcoin over the August 
+2025 – February 2026 sample period. Several patterns are 
+evident. The spread proxy exhibits clustering, with periods of 
+elevated spreads often persisting for extended intervals. This 
+clustering is consistent with the volatility clustering documented 
+in the literature and suggests that liquidity conditions exhibit similar 
+persistence at minute frequency.
+The VPIN proxy shows occasional spikes that appear to precede 
+or coincide with significant price movements, consistent with the 
+information content of order flow imbalances. The Kyle’s lambda 
+measure also exhibits time variation, with higher values during 
+periods of reduced liquidity.
+6.7 Robustness considerations
+To assess the robustness of our findings, we conducted several 
+supplementary analyses. First, we re-estimated our models using 
+alternative feature definitions, including different rolling window 
+lengths and normalization methods. The qualitative findings 
+remained similar, though the magnitude of predictive power 
+varied across specifications.
+Second, we examined the sensitivity of the cross-asset transfer 
+results to the choice of training period. Using rolling windows of 
+different lengths to train the source model, we found that longer 
+training periods generally improved transfer performance, 
+suggesting that the microstructure patterns we identify are 
+relatively stable over time.
+Third, we investigated whether the predictive relationships 
+we identify vary across time of day or day of week. Preliminary 
+results suggest some variation in predictability across trading 
+sessions, with Asian trading hours showing somewhat different 
+patterns than North American hours. This finding is consistent 
+with the global nature of cryptocurrency trading and the 
+different trader populations that may be active at 
+different times.
+7 Conclusion
+This paper examined whether classical market microstructure 
+features can reliably predict short-term cryptocurrency returns once 
+data leakage and trading costs are properly controlled. Using over 
+three million minute-level observations from six major 
+cryptocurrencies on Binance spot and perpetual futures markets, 
+we evaluated nine microstructure measures and three momentum 
+controls through a rigorous pipeline that includes hierarchical 
+modelling, stability selection, gradient boosting, meta-learning, 
+and purged walk-forward cross-validation.
+Our results can be summarised in four main findings. First, at 
+the minute frequency and over a 6-month window, all twelve 
+features pass the formal stability-selection threshold, with range- 
+based spread proxies, realised volatility, and short-horizon 
+momentum emerging as the most robust predictors. Second, a 
+simple linear model on these features delivers a small 
+improvement over the random walk under strict leakage controls, 
+whereas a flexible gradient-boosted model overfits severely and 
+performs worse than chance—a result that highlights the 
+importance of proper temporal separation in financial machine- 
+learning studies. Third, no trading strategy based on these 5-min 
+forecasts survives standard Binance exchange fees and slippage, 
+because the high rebalancing frequency generates extreme 
+turnover that overwhelms the modest statistical edge. Fourth, 
+microstructure models trained on one cryptocurrency do not 
+generalise to other cryptocurrencies, although they transfer 
+meaningfully between the spot and futures venues of the same 
+underlying asset.
+These findings have two broad implications. For researchers, the 
+results demonstrate that leakage-controlled evaluation can overturn 
+conclusions drawn from naive train-test splits and that the apparent 
+success of complex machine-learning models in predicting 
+cryptocurrency returns may largely reflect temporal 
+contamination rather than genuine forecasting ability. For 
+practitioners, the results confirm that microstructure signals at 
+this frequency are too weak to overcome retail-level trading costs, 
+though they remain useful as diagnostic indicators of market quality 
+and liquidity conditions.
+Several directions for future work emerge naturally from this 
+study. Extending the sample to cover multiple market cycles 
+would test whether the stability of microstructure features 
+persists across bull, bear, and range-bound regimes. 
+Incorporating alternative data sources such as on-chain 
+transaction metrics, social media sentiment, and cross- 
+exchange order flow could strengthen the predictive signal. 
+Exploring deeper meta-learning architectures beyond the linear 
+base learner used here may unlock the potential of gradient-based 
+adaptation for cross-asset transfer. Repeating the analysis across 
+multiple exchanges would clarify whether the findings are specific 
+to Binance or reflect broader market properties. Finally, the 
+purged cross-validation framework we employ could serve as a 
+methodological standard for the wider cryptocurrency machine- 
+learning literature, where temporal leakage remains a pervasive 
+and underappreciated concern.
+Data availability statement
+The original contributions presented in the study are included in 
+the article/Supplementary Material, further inquiries can be directed 
+to the corresponding author.
+Author contributions
+EP: Methodology, Validation, Project administration, Formal 
+Analysis, Supervision, Data curation, Writing – review and editing, 
+Visualization, Software, Conceptualization, Writing – original draft, 
+Resources, Investigation.
+Funding
+The author(s) declared that financial support was not received 
+for this work and/or its publication.
+Frontiers in Blockchain frontiersin.org14
+Pindza 10.3389/fbloc.2026.1811716
+=== PAGE 15 ===
+Conflict of interest
+The author(s) declared that this work was conducted in the 
+absence of any commercial or financial relationships that could be 
+construed as a potential conflict of interest.
+Generative AI statement
+The author(s) declared that generative AI was used in the 
+creation of this manuscript. Generative AI was used for English 
+language editing, grammar checking, and spell-checking during 
+manuscript preparation. The author assumes full responsibility 
+for the scientific content, data analysis, interpretation of results, 
+and conclusions presented in this work.
+Any alternative text (alt text) provided alongside figures in this 
+article has been generated by Frontiers with the support of artificial 
+intelligence and reasonable efforts have been made to ensure 
+accuracy, including review by the authors wherever possible. If 
+you identify any issues, please contact us.
+Publisher’s note
+All claims expressed in this article are solely those of the authors 
+and do not necessarily represent those of their affiliated organizations, 
+or those of the publisher, the editors and the reviewers. Any product 
+that may be evaluated in this article, or claim that may be made by its 
+manufacturer, is not guaranteed or endorsed by the publisher.
+Supplementary material
+The Supplementary Material for this article can be found online 
+at: https://www.frontiersin.org/articles/10.3389/fbloc.2026.1811716/ 
+full#supplementary-material
+References
+Abad, D., and Yagüe, J. (2012). From pin to vpin: an introduction to order flow toxicity. 
+Span. Rev. Financial Econ. 10 (2), 74–83. doi:10.1016/j.srfe.2012.10.002
+Alexander, C., and Dakos, M. (2020). A critical investigation of cryptocurrency data and 
+analysis. Quant. Finance 20 (2), 173–188. doi:10.1080/14697688.2019.1641347
+Alexander, C., Heck, D. F., Kaeck, A., and Riordan, R. (2021). Order flow impact and 
+price formation in centralized crypto exchanges, doi:10.2139/ssrn.4867599
+Biais, B., Bisière, C., Bouvard, M., Casamatta, C., and Menkveld, A. J. (2023). 
+Equilibrium bitcoin pricing. J. Finance 78 (2), 967–1014. doi:10.1111/jofi.13206
+Brennan, M. J., Chordia, T., and Subrahmanyam, A. (1998). Alternative factor 
+specifications, security characteristics, and the cross-section of expected stock 
+returns. J. Financial Econ. 49 (3), 345–373. doi:10.1016/S0304-405X(98)00028-2
+Chen, L., Pelger, M., and Zhu, J. (2023). Deep learning in asset pricing. Manag. Sci. 70 
+(2), 714–750. doi:10.1287/mnsc.2023.4695
+Cong, L. W., Li, Y., and Wang, N. (2021). Tokenomics: dynamic adoption and valuation. 
+Rev. Financial Stud. 34 (3), 1105–1155. doi:10.1093/rfs/hhaa089
+Cong, L. W., Li, X., Tang, K., and Yang, Y. (2022). Crypto wash trading. SSRN Electron. J. 
+doi:10.2139/ssrn.4312030
+Corwin, S. A., and Schultz, P. (2012). A simple way to estimate bid-ask spreads from 
+daily high and low prices. J. Finance 67 (2), 719–760. doi:10.1111/j.1540-6261.2012. 
+01729.x
+Diebold, F. X., and Mariano, R. S. (1995). Comparing predictive accuracy. J. Bus. and 
+Econ. Statistics 13 (3), 253–263. doi:10.1080/07350015.1995.10524599
+Easley, D., Kiefer, N. M., O’hara, M., and Paperman, J. B. (1996). Liquidity, information, 
+and infrequently traded stocks. J. Finance 51 (4), 1405–1436. doi:10.1111/j.1540-6261. 
+1996.tb04074.x
+Easley, D., López de Prado, M. M., and O’Hara, M. (2012). Flow toxicity and liquidity in 
+a high-frequency world. Rev. Financial Stud. 25 (5), 1457–1493. doi:10.1093/rfs/hhs053
+Easley, D., O’Hara, M., Yang, S., and Zhang, Z. (2024). Microstructure and market 
+dynamics in crypto markets. SSRN Electron. J. Financ. Mark. 47. doi:10.2139/ssrn. 
+4814346
+Filippou, I., Rapach, D., and Thimsen, C. (2024). Cryptocurrency return predictability: a 
+machine-learning analysis. SSRN Electron. 61. doi:10.2139/ssrn.3914414
+Finn, C., Abbeel, P., and Levine, S. (2017). “Model-agnostic meta-learning for fast 
+adaptation of deep networks,” in 34th International Conference on Machine Learning, 
+Proceedings of Machine Learning Research (PMLR). Sydney, Australia. 70. 1126–1135.
+Galati, L. (2024). Exchange market share, market makers, and murky behavior: the 
+impact of no-fee trading on cryptocurrency market quality. J. Bank. and Finance 165, 
+107222. doi:10.1016/j.jbankfin.2024.107222
+Glosten, L. R. (1994). Is the electronic open limit order book inevitable? J. Finance 49 (4), 
+1127–1161. doi:10.1111/j.1540-6261.1994.tb02450.x
+Glosten, L. R., and Milgrom, P. R. (1985). Bid, ask and transaction prices in a specialist 
+market with heterogeneously informed traders. J. Financial Econ. 14 (1), 71–100. doi:10. 
+1016/0304-405x(85)90044-3
+Griffin, J. M., and Shams, A. (2020). Is bitcoin really untethered? J. Finance 75 (4), 
+1913–1964. doi:10.1111/jofi.12903
+Gu, S., Kelly, B., and Xiu, D. (2020). Empirical asset pricing via machine learning. Rev. 
+Financial Stud. 33 (5), 2223–2273. doi:10.1093/rfs/hhaa009
+Han, Y., He, A., Rapport, D., and Xiao, N. (2020). Transfer learning for financial time 
+series forecasting. Machine Learning and Data Sciences for Financial Markets. Springer.
+Hasbrouck, J. (2021). Empirical Market Microstructure: The Institutions, Economics, and 
+Econometrics of Securities Trading. Oxford University Press.
+Hasbrouck, J. (2009). Trading costs and returns for Us equities: estimating effective 
+costs from daily data. J. Finance 64 (3), 1445–1477. doi:10.1111/j.1540-6261.2009. 
+01469.x
+Huang, R. D., and Stoll, H. R. (1997). The components of the bid-ask spread: a general 
+approach. Rev. Financial Stud. 10 (4), 995–1034. doi:10.1093/rfs/10.4.995
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., et al. (2017). Lightgbm: a 
+highly efficient gradient boosting decision tree. Adv. Neural Inf. Process. Syst. 30, 
+3146–3154.
+Klein, O., Kozhan, R., Viswanath-Natraj, G., and Wang, J. (2023). Informed liquidity 
+provision on decentralized exchanges. SSRN Electron. J. 66. doi:10.2139/ssrn.4642411
+Kyle, A. S. (1985). Continuous auctions and insider trading. Econometrica 53 (6), 
+1315–1335. doi:10.2307/1913210
+López de Prado, M. (2018). Advances in Financial Machine Learning. Wiley.
+Lundberg, S. M., and Lee, S.-I. (2017). A unified approach to interpreting model 
+predictions. Adv. Neural Inf. Process. Syst. 30, 4765–4774.
+Makarov, I., and Schoar, A. (2020). Trading and arbitrage in cryptocurrency markets. 
+J. Financial Econ. 135 (2), 293–319. doi:10.1016/j.jfineco.2019.07.001
+Meinshausen, N., and Bühlmann, P. (2010). Stability selection. J. R. Stat. Soc. Ser. B Stat. 
+Methodol. 72 (4), 417–473. doi:10.1111/j.1467-9868.2010.00740.x
+Pinto, M. G. d. F. (2025). High-frequency dynamics of bitcoin futures: an examination of 
+market microstructure. Borsa Istanb. Rev. 25 (6), 1378–1390. doi:10.1016/j.bir.2025. 
+07.016
+Ye, Y., Pei, H., Wang, B., Chen, P.-Y., Zhu, Y., Xiao, J., et al. (2020). Reinforcement- 
+learning based portfolio management with augmented asset movement prediction 
+states. Proc. AAAI Conf. Artif. Intell. 34 (1), 1112–1119. doi:10.1609/aaai.v34i01. 
+5462
+Zhu, B. Z., Liu, D., Wan, X., Liao, G., Moallemi, C. C., and Bachu, B. (2024). What drives 
+liquidity on decentralized exchanges? Evidence from the uniswap protocol. arXiv 
+preprint arXiv:2410.19107. doi:10.48550/arXiv.2410.19107
+Frontiers in Blockchain frontiersin.org15
+Pindza 10.3389/fbloc.2026.1811716

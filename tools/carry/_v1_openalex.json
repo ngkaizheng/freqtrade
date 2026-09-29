@@ -1,0 +1,1150 @@
+{
+ "id": "https://openalex.org/W7124889163",
+ "doi": "https://doi.org/10.3390/math14020346",
+ "title": "The Two-Tiered Structure of Cryptocurrency Funding Rate Markets",
+ "display_name": "The Two-Tiered Structure of Cryptocurrency Funding Rate Markets",
+ "publication_year": 2026,
+ "publication_date": "2026-01-20",
+ "ids": {
+  "openalex": "https://openalex.org/W7124889163",
+  "doi": "https://doi.org/10.3390/math14020346"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.3390/math14020346",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/math14020346",
+  "pdf_url": "https://www.mdpi.com/2227-7390/14/2/346/pdf?version=1768916036",
+  "source": {
+   "id": "https://openalex.org/S4210192031",
+   "display_name": "Mathematics",
+   "issn_l": "2227-7390",
+   "issn": [
+    "2227-7390"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Mathematics",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "doaj"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.mdpi.com/2227-7390/14/2/346/pdf?version=1768916036",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5002460091",
+    "display_name": "Petar Zhivkov",
+    "orcid": "https://orcid.org/0000-0001-5687-5277",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5687-5277"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I24768866",
+     "display_name": "Bulgarian Academy of Sciences",
+     "ror": "https://ror.org/01x8hew03",
+     "country_code": "BG",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I24768866"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210163063",
+     "display_name": "Institute of Information and Communication Technologies",
+     "ror": "https://ror.org/05fpsjc82",
+     "country_code": "BG",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I24768866",
+      "https://openalex.org/I4210163063"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I43986944",
+     "display_name": "Angel Kanchev University of Ruse",
+     "ror": "https://ror.org/01g09ef73",
+     "country_code": "BG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I43986944"
+     ]
+    }
+   ],
+   "countries": [
+    "BG"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Petar Zhivkov",
+   "raw_affiliation_strings": [
+    "Centre of Excellence in Informatics and Information and Communication Technologies, Acad. G. Bonchev Str. Bl. 25A, 1113 Sofia, Bulgaria",
+    "Institute of Information and Communication Technologies, Bulgarian Academy of Sciences, Acad. G. Bonchev Str. Bl. 25A, 1113 Sofia, Bulgaria",
+    "Scientific Group 3.1.6, \u201cAngel Kanchev\u201d University of Ruse, 8 Studentska Str., 7017 Ruse, Bulgaria"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5687-5277",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Centre of Excellence in Informatics and Information and Communication Technologies, Acad. G. Bonchev Str. Bl. 25A, 1113 Sofia, Bulgaria",
+     "institution_ids": [
+      "https://openalex.org/I4210163063"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institute of Information and Communication Technologies, Bulgarian Academy of Sciences, Acad. G. Bonchev Str. Bl. 25A, 1113 Sofia, Bulgaria",
+     "institution_ids": [
+      "https://openalex.org/I24768866",
+      "https://openalex.org/I4210163063"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Scientific Group 3.1.6, \u201cAngel Kanchev\u201d University of Ruse, 8 Studentska Str., 7017 Ruse, Bulgaria",
+     "institution_ids": [
+      "https://openalex.org/I43986944"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5002460091"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I24768866",
+  "https://openalex.org/I4210163063",
+  "https://openalex.org/I43986944"
+ ],
+ "apc_list": {
+  "value": 2600,
+  "currency": "CHF",
+  "value_usd": 3137
+ },
+ "apc_paid": {
+  "value": 2600,
+  "currency": "CHF",
+  "value_usd": 3137
+ },
+ "fwci": 14.4853,
+ "has_fulltext": true,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": {
+  "value": 0.96636329,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 93,
+  "max": 96
+ },
+ "biblio": {
+  "volume": "14",
+  "issue": "2",
+  "first_page": "346",
+  "last_page": "346"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10270",
+  "display_name": "Blockchain Technology Applications and Security",
+  "score": 0.819599986076355,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1710",
+   "display_name": "Information Systems"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10270",
+   "display_name": "Blockchain Technology Applications and Security",
+   "score": 0.819599986076355,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1710",
+    "display_name": "Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11995",
+   "display_name": "FinTech, Crowdfunding, Digital Finance",
+   "score": 0.04659999907016754,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1404",
+    "display_name": "Management Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/14",
+    "display_name": "Business, Management and Accounting"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10047",
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.02459999918937683,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2003",
+    "display_name": "Finance"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/cryptocurrency",
+   "display_name": "Cryptocurrency",
+   "score": 0.8495000004768372
+  },
+  {
+   "id": "https://openalex.org/keywords/arbitrage",
+   "display_name": "Arbitrage",
+   "score": 0.7261000275611877
+  },
+  {
+   "id": "https://openalex.org/keywords/price-discovery",
+   "display_name": "Price discovery",
+   "score": 0.6341999769210815
+  },
+  {
+   "id": "https://openalex.org/keywords/futures-contract",
+   "display_name": "Futures contract",
+   "score": 0.5968000292778015
+  },
+  {
+   "id": "https://openalex.org/keywords/portfolio",
+   "display_name": "Portfolio",
+   "score": 0.5407000184059143
+  },
+  {
+   "id": "https://openalex.org/keywords/transaction-cost",
+   "display_name": "Transaction cost",
+   "score": 0.5349000096321106
+  },
+  {
+   "id": "https://openalex.org/keywords/limits-to-arbitrage",
+   "display_name": "Limits to arbitrage",
+   "score": 0.3919000029563904
+  },
+  {
+   "id": "https://openalex.org/keywords/database-transaction",
+   "display_name": "Database transaction",
+   "score": 0.3903000056743622
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C180706569",
+   "wikidata": "https://www.wikidata.org/wiki/Q13479982",
+   "display_name": "Cryptocurrency",
+   "level": 2,
+   "score": 0.8495000004768372
+  },
+  {
+   "id": "https://openalex.org/C160623529",
+   "wikidata": "https://www.wikidata.org/wiki/Q273088",
+   "display_name": "Arbitrage",
+   "level": 2,
+   "score": 0.7261000275611877
+  },
+  {
+   "id": "https://openalex.org/C39658296",
+   "wikidata": "https://www.wikidata.org/wiki/Q7242611",
+   "display_name": "Price discovery",
+   "level": 3,
+   "score": 0.6341999769210815
+  },
+  {
+   "id": "https://openalex.org/C106306483",
+   "wikidata": "https://www.wikidata.org/wiki/Q183984",
+   "display_name": "Futures contract",
+   "level": 2,
+   "score": 0.5968000292778015
+  },
+  {
+   "id": "https://openalex.org/C2780821815",
+   "wikidata": "https://www.wikidata.org/wiki/Q5340806",
+   "display_name": "Portfolio",
+   "level": 2,
+   "score": 0.5407000184059143
+  },
+  {
+   "id": "https://openalex.org/C98965940",
+   "wikidata": "https://www.wikidata.org/wiki/Q877496",
+   "display_name": "Transaction cost",
+   "level": 2,
+   "score": 0.5349000096321106
+  },
+  {
+   "id": "https://openalex.org/C162324750",
+   "wikidata": "https://www.wikidata.org/wiki/Q8134",
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.5113000273704529
+  },
+  {
+   "id": "https://openalex.org/C106159729",
+   "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.4690999984741211
+  },
+  {
+   "id": "https://openalex.org/C556758197",
+   "wikidata": "https://www.wikidata.org/wiki/Q580018",
+   "display_name": "Monetary economics",
+   "level": 1,
+   "score": 0.4131999909877777
+  },
+  {
+   "id": "https://openalex.org/C144133560",
+   "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+   "display_name": "Business",
+   "level": 0,
+   "score": 0.398499995470047
+  },
+  {
+   "id": "https://openalex.org/C2779150987",
+   "wikidata": "https://www.wikidata.org/wiki/Q17141886",
+   "display_name": "Limits to arbitrage",
+   "level": 3,
+   "score": 0.3919000029563904
+  },
+  {
+   "id": "https://openalex.org/C75949130",
+   "wikidata": "https://www.wikidata.org/wiki/Q848010",
+   "display_name": "Database transaction",
+   "level": 2,
+   "score": 0.3903000056743622
+  },
+  {
+   "id": "https://openalex.org/C149782125",
+   "wikidata": "https://www.wikidata.org/wiki/Q160039",
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.3589000105857849
+  },
+  {
+   "id": "https://openalex.org/C129824826",
+   "wikidata": "https://www.wikidata.org/wiki/Q2630107",
+   "display_name": "Granger causality",
+   "level": 2,
+   "score": 0.3549000024795532
+  },
+  {
+   "id": "https://openalex.org/C2776988154",
+   "wikidata": "https://www.wikidata.org/wiki/Q66100",
+   "display_name": "Exchange rate",
+   "level": 2,
+   "score": 0.3490000069141388
+  },
+  {
+   "id": "https://openalex.org/C51926234",
+   "wikidata": "https://www.wikidata.org/wiki/Q3312426",
+   "display_name": "Market microstructure",
+   "level": 3,
+   "score": 0.3386000096797943
+  },
+  {
+   "id": "https://openalex.org/C127722929",
+   "wikidata": "https://www.wikidata.org/wiki/Q7833714",
+   "display_name": "Transaction data",
+   "level": 3,
+   "score": 0.3212999999523163
+  },
+  {
+   "id": "https://openalex.org/C19244329",
+   "wikidata": "https://www.wikidata.org/wiki/Q208697",
+   "display_name": "Financial market",
+   "level": 2,
+   "score": 0.3156999945640564
+  },
+  {
+   "id": "https://openalex.org/C78508483",
+   "wikidata": "https://www.wikidata.org/wiki/Q139445",
+   "display_name": "Algorithmic trading",
+   "level": 2,
+   "score": 0.3093000054359436
+  },
+  {
+   "id": "https://openalex.org/C131562839",
+   "wikidata": "https://www.wikidata.org/wiki/Q1574928",
+   "display_name": "Trading strategy",
+   "level": 2,
+   "score": 0.304500013589859
+  },
+  {
+   "id": "https://openalex.org/C115273593",
+   "wikidata": "https://www.wikidata.org/wiki/Q11679922",
+   "display_name": "Covered interest arbitrage",
+   "level": 4,
+   "score": 0.29190000891685486
+  },
+  {
+   "id": "https://openalex.org/C112758219",
+   "wikidata": "https://www.wikidata.org/wiki/Q16038819",
+   "display_name": "Duration (music)",
+   "level": 2,
+   "score": 0.263700008392334
+  },
+  {
+   "id": "https://openalex.org/C137577040",
+   "wikidata": "https://www.wikidata.org/wiki/Q431965",
+   "display_name": "Information asymmetry",
+   "level": 2,
+   "score": 0.25940001010894775
+  },
+  {
+   "id": "https://openalex.org/C6422946",
+   "wikidata": "https://www.wikidata.org/wiki/Q857354",
+   "display_name": "Panel data",
+   "level": 2,
+   "score": 0.25780001282691956
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.3390/math14020346",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.3390/math14020346",
+   "pdf_url": "https://www.mdpi.com/2227-7390/14/2/346/pdf?version=1768916036",
+   "source": {
+    "id": "https://openalex.org/S4210192031",
+    "display_name": "Mathematics",
+    "issn_l": "2227-7390",
+    "issn": [
+     "2227-7390"
+    ],
+    "is_oa": true,
+    "is_in_doaj": true,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "doaj"
+    ],
+    "host_organization": "https://openalex.org/P4310310987",
+    "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310310987"
+    ],
+    "host_organization_lineage_names": [
+     "Multidisciplinary Digital Publishing Institute"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Mathematics",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:doaj.org/article:89794728d94043eda3c9a05c69cfaa88",
+   "is_oa": true,
+   "landing_page_url": "https://doaj.org/article/89794728d94043eda3c9a05c69cfaa88",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401280",
+    "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by-sa",
+   "license_id": "https://openalex.org/licenses/cc-by-sa",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Mathematics, Vol 14, Iss 2, p 346 (2026)",
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.3390/math14020346",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.3390/math14020346",
+  "pdf_url": "https://www.mdpi.com/2227-7390/14/2/346/pdf?version=1768916036",
+  "source": {
+   "id": "https://openalex.org/S4210192031",
+   "display_name": "Mathematics",
+   "issn_l": "2227-7390",
+   "issn": [
+    "2227-7390"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "doaj"
+   ],
+   "host_organization": "https://openalex.org/P4310310987",
+   "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310310987"
+   ],
+   "host_organization_lineage_names": [
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Mathematics",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/17",
+   "score": 0.4024970233440399,
+   "display_name": "Partnerships for the goals"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G1562245063",
+   "display_name": null,
+   "funder_award_id": "BGRRP-2.013-0001",
+   "funder_id": "https://openalex.org/F4320320300",
+   "funder_display_name": "European Commission"
+  },
+  {
+   "id": "https://openalex.org/G2647207826",
+   "display_name": null,
+   "funder_award_id": "KP-06-N52/5",
+   "funder_id": "https://openalex.org/F4320321843",
+   "funder_display_name": "Bulgarian National Science Fund"
+  },
+  {
+   "id": "https://openalex.org/G7799207878",
+   "display_name": null,
+   "funder_award_id": "2021\u20132027",
+   "funder_id": "https://openalex.org/F4320320300",
+   "funder_display_name": "European Commission"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320320300",
+   "display_name": "European Commission",
+   "ror": "https://ror.org/00k4n6c32"
+  },
+  {
+   "id": "https://openalex.org/F4320321843",
+   "display_name": "Bulgarian National Science Fund",
+   "ror": "https://ror.org/05eg49r29"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W7124889163.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W7124889163.grobid-xml"
+ },
+ "referenced_works_count": 21,
+ "referenced_works": [
+  "https://openalex.org/W1588163064",
+  "https://openalex.org/W1979575715",
+  "https://openalex.org/W1999996900",
+  "https://openalex.org/W2093230975",
+  "https://openalex.org/W2134291350",
+  "https://openalex.org/W2142635246",
+  "https://openalex.org/W2153580489",
+  "https://openalex.org/W2178225550",
+  "https://openalex.org/W2539680302",
+  "https://openalex.org/W2694190980",
+  "https://openalex.org/W2809373714",
+  "https://openalex.org/W2897624602",
+  "https://openalex.org/W2913024436",
+  "https://openalex.org/W2953851850",
+  "https://openalex.org/W3124247037",
+  "https://openalex.org/W3125361290",
+  "https://openalex.org/W3139542328",
+  "https://openalex.org/W3200616364",
+  "https://openalex.org/W4211240942",
+  "https://openalex.org/W4402559256",
+  "https://openalex.org/W4413058393"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "Perpetual": [
+   0
+  ],
+  "futures": [
+   1,
+   8
+  ],
+  "account": [
+   2
+  ],
+  "for": [
+   3
+  ],
+  "approximately": [
+   4
+  ],
+  "93%": [
+   5
+  ],
+  "of": [
+   6,
+   68,
+   100,
+   112,
+   147,
+   187
+  ],
+  "cryptocurrency": [
+   7,
+   33,
+   153
+  ],
+  "trading": [
+   9
+  ],
+  "volume,": [
+   10
+  ],
+  "yet": [
+   11
+  ],
+  "funding": [
+   12,
+   57
+  ],
+  "rate": [
+   13,
+   58
+  ],
+  "dynamics": [
+   14
+  ],
+  "across": [
+   15,
+   31
+  ],
+  "fragmented": [
+   16
+  ],
+  "markets": [
+   17,
+   155
+  ],
+  "remain": [
+   18
+  ],
+  "understudied.": [
+   19
+  ],
+  "We": [
+   20,
+   65
+  ],
+  "construct": [
+   21
+  ],
+  "a": [
+   22,
+   69,
+   157
+  ],
+  "high-frequency": [
+   23
+  ],
+  "panel": [
+   24
+  ],
+  "dataset": [
+   25
+  ],
+  "comprising": [
+   26
+  ],
+  "35.7": [
+   27
+  ],
+  "million": [
+   28
+  ],
+  "one-minute": [
+   29
+  ],
+  "observations": [
+   30,
+   101
+  ],
+  "26": [
+   32
+  ],
+  "exchanges": [
+   34,
+   74,
+   85
+  ],
+  "(11": [
+   35
+  ],
+  "centralized,": [
+   36
+  ],
+  "15": [
+   37
+  ],
+  "decentralized)": [
+   38
+  ],
+  "spanning": [
+   39
+  ],
+  "749": [
+   40
+  ],
+  "symbols": [
+   41
+  ],
+  "over": [
+   42
+  ],
+  "eight": [
+   43
+  ],
+  "consecutive": [
+   44
+  ],
+  "days.": [
+   45
+  ],
+  "Using": [
+   46
+  ],
+  "time-series": [
+   47
+  ],
+  "econometrics,": [
+   48
+  ],
+  "correlation": [
+   49
+  ],
+  "analysis,": [
+   50
+  ],
+  "and": [
+   51,
+   62,
+   87,
+   121,
+   135,
+   171
+  ],
+  "Granger": [
+   52
+  ],
+  "causality": [
+   53
+  ],
+  "tests,": [
+   54
+  ],
+  "we": [
+   55
+  ],
+  "characterize": [
+   56
+  ],
+  "dynamics,": [
+   59
+  ],
+  "market": [
+   60,
+   71,
+   193
+  ],
+  "integration,": [
+   61
+  ],
+  "information": [
+   63,
+   90
+  ],
+  "flow.": [
+   64
+  ],
+  "find": [
+   66
+  ],
+  "evidence": [
+   67
+  ],
+  "two-tiered": [
+   70,
+   159
+  ],
+  "structure:": [
+   72
+  ],
+  "centralized": [
+   73,
+   163
+  ],
+  "(CEX)": [
+   75
+  ],
+  "dominate": [
+   76,
+   165
+  ],
+  "price": [
+   77,
+   166,
+   189
+  ],
+  "discovery": [
+   78,
+   167
+  ],
+  "with": [
+   79,
+   94,
+   141,
+   192
+  ],
+  "61%": [
+   80
+  ],
+  "higher": [
+   81
+  ],
+  "integration": [
+   82
+  ],
+  "than": [
+   83
+  ],
+  "decentralized": [
+   84
+  ],
+  "(DEX),": [
+   86
+  ],
+  "all": [
+   88
+  ],
+  "significant": [
+   89,
+   104
+  ],
+  "flow": [
+   91
+  ],
+  "runs": [
+   92
+  ],
+  "CEX-to-DEX": [
+   93
+  ],
+  "zero": [
+   95
+  ],
+  "reverse": [
+   96
+  ],
+  "causality.": [
+   97
+  ],
+  "While": [
+   98
+  ],
+  "17%": [
+   99
+  ],
+  "exhibit": [
+   102,
+   156
+  ],
+  "economically": [
+   103
+  ],
+  "arbitrage": [
+   105,
+   130,
+   176
+  ],
+  "spreads": [
+   106,
+   134
+  ],
+  "(\u226520": [
+   107
+  ],
+  "basis": [
+   108
+  ],
+  "points),": [
+   109
+  ],
+  "only": [
+   110
+  ],
+  "40%": [
+   111
+  ],
+  "top": [
+   113
+  ],
+  "opportunities": [
+   114
+  ],
+  "generate": [
+   115
+  ],
+  "positive": [
+   116
+  ],
+  "returns": [
+   117
+  ],
+  "after": [
+   118
+  ],
+  "transaction": [
+   119,
+   169
+  ],
+  "costs": [
+   120,
+   170
+  ],
+  "spread": [
+   122,
+   172
+  ],
+  "reversals.": [
+   123
+  ],
+  "Delta-neutral": [
+   124
+  ],
+  "portfolio": [
+   125
+  ],
+  "simulations": [
+   126
+  ],
+  "reveal": [
+   127
+  ],
+  "that": [
+   128,
+   152
+  ],
+  "successful": [
+   129
+  ],
+  "requires": [
+   131
+  ],
+  "both": [
+   132
+  ],
+  "high": [
+   133
+  ],
+  "sufficient": [
+   136
+  ],
+  "duration": [
+   137
+  ],
+  "before": [
+   138
+  ],
+  "inevitable": [
+   139
+  ],
+  "reversals,": [
+   140
+  ],
+  "forced": [
+   142
+  ],
+  "exits": [
+   143
+  ],
+  "occurring": [
+   144
+  ],
+  "in": [
+   145,
+   161
+  ],
+  "95%": [
+   146
+  ],
+  "opportunities.": [
+   148
+  ],
+  "The": [
+   149
+  ],
+  "findings": [
+   150
+  ],
+  "show": [
+   151
+  ],
+  "derivatives": [
+   154
+  ],
+  "persistent": [
+   158
+  ],
+  "structure": [
+   160
+  ],
+  "which": [
+   162
+  ],
+  "platforms": [
+   164
+  ],
+  "while": [
+   168
+  ],
+  "reversal": [
+   173
+  ],
+  "risks": [
+   174
+  ],
+  "prevent": [
+   175
+  ],
+  "from": [
+   177
+  ],
+  "eliminating": [
+   178
+  ],
+  "large": [
+   179
+  ],
+  "mispricings": [
+   180
+  ],
+  "between": [
+   181
+  ],
+  "platforms,": [
+   182
+  ],
+  "resolving": [
+   183
+  ],
+  "the": [
+   184
+  ],
+  "apparent": [
+   185
+  ],
+  "paradox": [
+   186
+  ],
+  "substantial": [
+   188
+  ],
+  "fragmentation": [
+   190
+  ],
+  "coexisting": [
+   191
+  ],
+  "efficiency.": [
+   194
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2026-01-21T00:00:00"
+}

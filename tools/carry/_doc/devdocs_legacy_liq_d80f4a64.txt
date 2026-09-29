@@ -1,0 +1,33 @@
+SOURCE_URL: https://r.jina.ai/https://developers.binance.com/legacy-docs/futures/en/#liquidation-price
+HTTP: 200  LEN: 1099
+
+Title: Binance Open Platform
+
+URL Source: https://developers.binance.com/legacy-docs/futures/en/
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+[Skip to main content](https://developers.binance.com/legacy-docs/futures/en/#__docusaurus_skipToContent_fallback)
+
+⚠️ You are viewing the legacy Binance API documentation. The new documentation is now the default and is actively maintained. [Switch to the new docs](https://developers.binance.com/en/docs).
+
+[![Image 1: Binance Logo](https://developers.binance.com/legacy-docs/img/logo.svg)![Image 2: Binance Logo](https://developers.binance.com/legacy-docs/img/logo.svg)](https://developers.binance.com/en)
+
+Products▼
+
+Search
+
+Current All
+
+[English](https://developers.binance.com/legacy-docs/404)
+*   [English](https://developers.binance.com/legacy-docs/404)
+*   [简体中文](https://developers.binance.com/legacy-docs/zh-CN/404)
+
+# Page Not Found
+
+We could not find what you were looking for.
+
+Please contact the owner of the site that linked you to the original URL and let them know their link is broken.
+
+Copyright © 2026 Binance.

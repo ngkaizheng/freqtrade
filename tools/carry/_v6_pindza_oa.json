@@ -1,0 +1,1179 @@
+{
+ "id": "https://openalex.org/W7203754750",
+ "doi": "https://doi.org/10.1007/s42521-026-00213-3",
+ "title": "Centralized\u2013decentralized exchange funding rate arbitrage as a basis trade: risk decomposition, stress testing, and portfolio construction under venue uncertainty",
+ "display_name": "Centralized\u2013decentralized exchange funding rate arbitrage as a basis trade: risk decomposition, stress testing, and portfolio construction under venue uncertainty",
+ "publication_year": 2026,
+ "publication_date": "2026-08-19",
+ "ids": {
+  "openalex": "https://openalex.org/W7203754750",
+  "doi": "https://doi.org/10.1007/s42521-026-00213-3"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/s42521-026-00213-3",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s42521-026-00213-3",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210211077",
+   "display_name": "Digital Finance",
+   "issn_l": "2524-6186",
+   "issn": [
+    "2524-6186",
+    "2524-6984"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Digital Finance",
+  "raw_type": "journal-article"
+ },
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://doi.org/10.1007/s42521-026-00213-3",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5014051889",
+    "display_name": "Edson Pindza",
+    "orcid": "https://orcid.org/0000-0003-3207-8067",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-3207-8067"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I165390105",
+     "display_name": "University of South Africa",
+     "ror": "https://ror.org/048cwvf49",
+     "country_code": "ZA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I165390105"
+     ]
+    }
+   ],
+   "countries": [
+    "ZA"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Edson Pindza",
+   "raw_affiliation_strings": [
+    "Department of Decision Sciences, College of Economics and Management Sciences, University of South Africa, Pretoria, 0002, South Africa"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Decision Sciences, College of Economics and Management Sciences, University of South Africa, Pretoria, 0002, South Africa",
+     "institution_ids": [
+      "https://openalex.org/I165390105"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5014051889"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I165390105"
+ ],
+ "apc_list": {
+  "value": 3390,
+  "currency": "USD",
+  "value_usd": 3390
+ },
+ "apc_paid": {
+  "value": 3390,
+  "currency": "USD",
+  "value_usd": 3390
+ },
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": {
+  "value": 0.83576356,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": "8",
+  "issue": "3",
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10270",
+  "display_name": "Blockchain Technology Applications and Security",
+  "score": 0.33570000529289246,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1710",
+   "display_name": "Information Systems"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10270",
+   "display_name": "Blockchain Technology Applications and Security",
+   "score": 0.33570000529289246,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1710",
+    "display_name": "Information Systems"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10047",
+   "display_name": "Financial Markets and Investment Strategies",
+   "score": 0.3237999975681305,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2003",
+    "display_name": "Finance"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10282",
+   "display_name": "Financial Risk and Volatility Modeling",
+   "score": 0.08550000190734863,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2003",
+    "display_name": "Finance"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/20",
+    "display_name": "Economics, Econometrics and Finance"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/arbitrage",
+   "display_name": "Arbitrage",
+   "score": 0.7034000158309937
+  },
+  {
+   "id": "https://openalex.org/keywords/portfolio",
+   "display_name": "Portfolio",
+   "score": 0.6402999758720398
+  },
+  {
+   "id": "https://openalex.org/keywords/leverage",
+   "display_name": "Leverage (statistics)",
+   "score": 0.4925999939441681
+  },
+  {
+   "id": "https://openalex.org/keywords/basis-point",
+   "display_name": "Basis point",
+   "score": 0.4526999890804291
+  },
+  {
+   "id": "https://openalex.org/keywords/imperfect",
+   "display_name": "Imperfect",
+   "score": 0.42579999566078186
+  },
+  {
+   "id": "https://openalex.org/keywords/volatility",
+   "display_name": "Volatility (finance)",
+   "score": 0.42570000886917114
+  },
+  {
+   "id": "https://openalex.org/keywords/exchange-rate",
+   "display_name": "Exchange rate",
+   "score": 0.3993000090122223
+  },
+  {
+   "id": "https://openalex.org/keywords/futures-contract",
+   "display_name": "Futures contract",
+   "score": 0.3982999920845032
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C160623529",
+   "wikidata": "https://www.wikidata.org/wiki/Q273088",
+   "display_name": "Arbitrage",
+   "level": 2,
+   "score": 0.7034000158309937
+  },
+  {
+   "id": "https://openalex.org/C2780821815",
+   "wikidata": "https://www.wikidata.org/wiki/Q5340806",
+   "display_name": "Portfolio",
+   "level": 2,
+   "score": 0.6402999758720398
+  },
+  {
+   "id": "https://openalex.org/C162324750",
+   "wikidata": "https://www.wikidata.org/wiki/Q8134",
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.5615000128746033
+  },
+  {
+   "id": "https://openalex.org/C153083717",
+   "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+   "display_name": "Leverage (statistics)",
+   "level": 2,
+   "score": 0.4925999939441681
+  },
+  {
+   "id": "https://openalex.org/C144929662",
+   "wikidata": "https://www.wikidata.org/wiki/Q750178",
+   "display_name": "Basis point",
+   "level": 3,
+   "score": 0.4526999890804291
+  },
+  {
+   "id": "https://openalex.org/C149782125",
+   "wikidata": "https://www.wikidata.org/wiki/Q160039",
+   "display_name": "Econometrics",
+   "level": 1,
+   "score": 0.43650001287460327
+  },
+  {
+   "id": "https://openalex.org/C2780310539",
+   "wikidata": "https://www.wikidata.org/wiki/Q12547192",
+   "display_name": "Imperfect",
+   "level": 2,
+   "score": 0.42579999566078186
+  },
+  {
+   "id": "https://openalex.org/C91602232",
+   "wikidata": "https://www.wikidata.org/wiki/Q756115",
+   "display_name": "Volatility (finance)",
+   "level": 2,
+   "score": 0.42570000886917114
+  },
+  {
+   "id": "https://openalex.org/C2776988154",
+   "wikidata": "https://www.wikidata.org/wiki/Q66100",
+   "display_name": "Exchange rate",
+   "level": 2,
+   "score": 0.3993000090122223
+  },
+  {
+   "id": "https://openalex.org/C106306483",
+   "wikidata": "https://www.wikidata.org/wiki/Q183984",
+   "display_name": "Futures contract",
+   "level": 2,
+   "score": 0.3982999920845032
+  },
+  {
+   "id": "https://openalex.org/C63479239",
+   "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+   "display_name": "Robustness (evolution)",
+   "level": 3,
+   "score": 0.36250001192092896
+  },
+  {
+   "id": "https://openalex.org/C162118730",
+   "wikidata": "https://www.wikidata.org/wiki/Q1128453",
+   "display_name": "Actuarial science",
+   "level": 1,
+   "score": 0.3427000045776367
+  },
+  {
+   "id": "https://openalex.org/C106159729",
+   "wikidata": "https://www.wikidata.org/wiki/Q2294553",
+   "display_name": "Financial economics",
+   "level": 1,
+   "score": 0.3294999897480011
+  },
+  {
+   "id": "https://openalex.org/C10138342",
+   "wikidata": "https://www.wikidata.org/wiki/Q43015",
+   "display_name": "Finance",
+   "level": 1,
+   "score": 0.30309998989105225
+  },
+  {
+   "id": "https://openalex.org/C80212096",
+   "wikidata": "https://www.wikidata.org/wiki/Q1975416",
+   "display_name": "Systematic risk",
+   "level": 2,
+   "score": 0.30070000886917114
+  },
+  {
+   "id": "https://openalex.org/C117245426",
+   "wikidata": "https://www.wikidata.org/wiki/Q235038",
+   "display_name": "Technical analysis",
+   "level": 2,
+   "score": 0.29919999837875366
+  },
+  {
+   "id": "https://openalex.org/C131562839",
+   "wikidata": "https://www.wikidata.org/wiki/Q1574928",
+   "display_name": "Trading strategy",
+   "level": 2,
+   "score": 0.2955999970436096
+  },
+  {
+   "id": "https://openalex.org/C38904191",
+   "wikidata": "https://www.wikidata.org/wiki/Q744762",
+   "display_name": "Forward contract",
+   "level": 3,
+   "score": 0.29179999232292175
+  },
+  {
+   "id": "https://openalex.org/C144133560",
+   "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+   "display_name": "Business",
+   "level": 0,
+   "score": 0.28200000524520874
+  },
+  {
+   "id": "https://openalex.org/C556758197",
+   "wikidata": "https://www.wikidata.org/wiki/Q580018",
+   "display_name": "Monetary economics",
+   "level": 1,
+   "score": 0.27149999141693115
+  },
+  {
+   "id": "https://openalex.org/C175025494",
+   "wikidata": "https://www.wikidata.org/wiki/Q179179",
+   "display_name": "Interest rate",
+   "level": 2,
+   "score": 0.26919999718666077
+  },
+  {
+   "id": "https://openalex.org/C202655437",
+   "wikidata": "https://www.wikidata.org/wiki/Q7231728",
+   "display_name": "Portfolio optimization",
+   "level": 3,
+   "score": 0.26249998807907104
+  },
+  {
+   "id": "https://openalex.org/C19499675",
+   "wikidata": "https://www.wikidata.org/wiki/Q232207",
+   "display_name": "Monte Carlo method",
+   "level": 2,
+   "score": 0.2606000006198883
+  },
+  {
+   "id": "https://openalex.org/C70437156",
+   "wikidata": "https://www.wikidata.org/wiki/Q7228652",
+   "display_name": "Pooling",
+   "level": 2,
+   "score": 0.25760000944137573
+  },
+  {
+   "id": "https://openalex.org/C2779922397",
+   "wikidata": "https://www.wikidata.org/wiki/Q5014755",
+   "display_name": "CVAR",
+   "level": 4,
+   "score": 0.2508000135421753
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/s42521-026-00213-3",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1007/s42521-026-00213-3",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210211077",
+    "display_name": "Digital Finance",
+    "issn_l": "2524-6186",
+    "issn": [
+     "2524-6186",
+     "2524-6984"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-1",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310319900",
+    "host_organization_name": "Springer Science+Business Media",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319900",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Science+Business Media",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Digital Finance",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1007/s42521-026-00213-3",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1007/s42521-026-00213-3",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210211077",
+   "display_name": "Digital Finance",
+   "issn_l": "2524-6186",
+   "issn": [
+    "2524-6186",
+    "2524-6984"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-1",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310319900",
+   "host_organization_name": "Springer Science+Business Media",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319900",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Science+Business Media",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Digital Finance",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Partnerships for the goals",
+   "score": 0.4683556854724884,
+   "id": "https://metadata.un.org/sdg/17"
+  }
+ ],
+ "x_sdgs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320324956",
+   "display_name": "University of South Africa",
+   "ror": "https://ror.org/048cwvf49"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 18,
+ "referenced_works": [
+  "https://openalex.org/W1647779468",
+  "https://openalex.org/W2019291268",
+  "https://openalex.org/W2059158367",
+  "https://openalex.org/W2123888799",
+  "https://openalex.org/W2128532428",
+  "https://openalex.org/W2132527237",
+  "https://openalex.org/W2135177937",
+  "https://openalex.org/W2759609844",
+  "https://openalex.org/W2809373714",
+  "https://openalex.org/W2892579226",
+  "https://openalex.org/W2953851850",
+  "https://openalex.org/W3114396687",
+  "https://openalex.org/W3125168868",
+  "https://openalex.org/W4388517261",
+  "https://openalex.org/W4401499942",
+  "https://openalex.org/W4403623085",
+  "https://openalex.org/W4417353086",
+  "https://openalex.org/W7136073722"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "Funding": [
+   1,
+   197
+  ],
+  "rate": [
+   2,
+   49
+  ],
+  "arbitrage": [
+   3,
+   50,
+   195
+  ],
+  "between": [
+   4
+  ],
+  "centralized": [
+   5
+  ],
+  "and": [
+   6,
+   38,
+   64,
+   67,
+   83,
+   91,
+   103,
+   135,
+   188,
+   198,
+   209,
+   215,
+   241
+  ],
+  "decentralized": [
+   7
+  ],
+  "cryptocurrency": [
+   8
+  ],
+  "exchanges": [
+   9
+  ],
+  "is": [
+   10,
+   21
+  ],
+  "often": [
+   11
+  ],
+  "described": [
+   12
+  ],
+  "as": [
+   13,
+   54,
+   193
+  ],
+  "a": [
+   14,
+   55,
+   110,
+   115,
+   119,
+   233
+  ],
+  "low-risk": [
+   15
+  ],
+  "carry": [
+   16
+  ],
+  "strategy,": [
+   17
+  ],
+  "but": [
+   18,
+   181
+  ],
+  "this": [
+   19
+  ],
+  "description": [
+   20
+  ],
+  "incomplete": [
+   22
+  ],
+  "because": [
+   23
+  ],
+  "the": [
+   24,
+   107,
+   156,
+   204
+  ],
+  "trade": [
+   25
+  ],
+  "can": [
+   26
+  ],
+  "fail": [
+   27
+  ],
+  "through": [
+   28
+  ],
+  "funding-spread": [
+   29
+  ],
+  "compression,": [
+   30
+  ],
+  "imperfect": [
+   31
+  ],
+  "cross-venue": [
+   32,
+   245
+  ],
+  "hedging,": [
+   33
+  ],
+  "execution": [
+   34
+  ],
+  "frictions,": [
+   35
+  ],
+  "forced": [
+   36
+  ],
+  "liquidation,": [
+   37
+  ],
+  "settlement": [
+   39
+  ],
+  "or": [
+   40
+  ],
+  "smart-contract": [
+   41
+  ],
+  "disruption.": [
+   42
+  ],
+  "This": [
+   43
+  ],
+  "paper": [
+   44,
+   108,
+   231
+  ],
+  "asks": [
+   45
+  ],
+  "how": [
+   46,
+   65
+  ],
+  "CEX-DEX": [
+   47
+  ],
+  "funding": [
+   48,
+   78,
+   94,
+   148,
+   179
+  ],
+  "should": [
+   51,
+   70,
+   189
+  ],
+  "be": [
+   52,
+   71,
+   191
+  ],
+  "modelled": [
+   53
+  ],
+  "basis": [
+   56,
+   247
+  ],
+  "trade,": [
+   57
+  ],
+  "which": [
+   58
+  ],
+  "risk": [
+   59,
+   113,
+   201
+  ],
+  "channels": [
+   60
+  ],
+  "dominate": [
+   61,
+   212
+  ],
+  "its": [
+   62,
+   151
+  ],
+  "performance,": [
+   63
+  ],
+  "leverage": [
+   66,
+   208,
+   239
+  ],
+  "venue": [
+   68,
+   133,
+   242
+  ],
+  "choice": [
+   69
+  ],
+  "controlled": [
+   72,
+   158
+  ],
+  "under": [
+   73
+  ],
+  "stress.": [
+   74
+  ],
+  "Using": [
+   75
+  ],
+  "Binance": [
+   76
+  ],
+  "Futures": [
+   77
+  ],
+  "rates": [
+   79,
+   95,
+   149
+  ],
+  "for": [
+   80,
+   123,
+   203,
+   236
+  ],
+  "BTC,": [
+   81
+  ],
+  "ETH,": [
+   82
+  ],
+  "SOL": [
+   84
+  ],
+  "from": [
+   85,
+   161
+  ],
+  "January": [
+   86
+  ],
+  "2021": [
+   87
+  ],
+  "to": [
+   88,
+   97
+  ],
+  "December": [
+   89
+  ],
+  "2024": [
+   90
+  ],
+  "synthetic": [
+   92
+  ],
+  "DEX": [
+   93
+  ],
+  "designed": [
+   96
+  ],
+  "isolate": [
+   98
+  ],
+  "oracle": [
+   99
+  ],
+  "lag,": [
+   100
+  ],
+  "structural": [
+   101
+  ],
+  "spread,": [
+   102
+  ],
+  "higher": [
+   104
+  ],
+  "DEX-rate": [
+   105
+  ],
+  "noise,": [
+   106
+  ],
+  "develops": [
+   109
+  ],
+  "covariance-aware": [
+   111
+  ],
+  "five-component": [
+   112
+  ],
+  "decomposition,": [
+   114
+  ],
+  "Brinson-style": [
+   116
+  ],
+  "PnL": [
+   117
+  ],
+  "attribution,": [
+   118
+  ],
+  "Cox": [
+   120
+  ],
+  "survival": [
+   121
+  ],
+  "model": [
+   122
+  ],
+  "liquidation": [
+   124,
+   213
+  ],
+  "risk,": [
+   125
+  ],
+  "historical": [
+   126
+  ],
+  "stress": [
+   127,
+   216
+  ],
+  "tests,": [
+   128
+  ],
+  "CVaR": [
+   129
+  ],
+  "portfolio": [
+   130
+  ],
+  "optimization": [
+   131
+  ],
+  "with": [
+   132
+  ],
+  "haircuts,": [
+   134
+  ],
+  "Monte": [
+   136
+  ],
+  "Carlo": [
+   137
+  ],
+  "tail-risk": [
+   138
+  ],
+  "analysis.": [
+   139
+  ],
+  "A": [
+   140
+  ],
+  "protocol-data": [
+   141
+  ],
+  "robustness": [
+   142
+  ],
+  "exercise": [
+   143
+  ],
+  "using": [
+   144
+  ],
+  "observed": [
+   145
+  ],
+  "dYdX": [
+   146
+  ],
+  "v4": [
+   147
+  ],
+  "over": [
+   150
+  ],
+  "available": [
+   152
+  ],
+  "overlapping": [
+   153
+  ],
+  "window": [
+   154
+  ],
+  "distinguishes": [
+   155
+  ],
+  "framework\u2019s": [
+   157
+  ],
+  "scenario": [
+   159
+  ],
+  "results": [
+   160,
+   169
+  ],
+  "evidence": [
+   162
+  ],
+  "based": [
+   163
+  ],
+  "on": [
+   164
+  ],
+  "an": [
+   165
+  ],
+  "operating": [
+   166
+  ],
+  "DEX.": [
+   167
+  ],
+  "The": [
+   168,
+   230
+  ],
+  "show": [
+   170,
+   218
+  ],
+  "that": [
+   171,
+   182,
+   219
+  ],
+  "net": [
+   172
+  ],
+  "annualized": [
+   173
+  ],
+  "returns": [
+   174,
+   184
+  ],
+  "are": [
+   175,
+   185,
+   222
+  ],
+  "driven": [
+   176
+  ],
+  "mainly": [
+   177
+  ],
+  "by": [
+   178
+  ],
+  "carry,": [
+   180
+  ],
+  "these": [
+   183
+  ],
+  "highly": [
+   186
+  ],
+  "assumption-sensitive": [
+   187
+  ],
+  "not": [
+   190
+  ],
+  "interpreted": [
+   192
+  ],
+  "frictionless": [
+   194
+  ],
+  "profits.": [
+   196
+  ],
+  "residual": [
+   199
+  ],
+  "market": [
+   200
+  ],
+  "account": [
+   202
+  ],
+  "largest": [
+   205
+  ],
+  "variance": [
+   206
+  ],
+  "shares,": [
+   207
+  ],
+  "volatility": [
+   210
+  ],
+  "regime": [
+   211
+  ],
+  "hazard,": [
+   214
+  ],
+  "tests": [
+   217
+  ],
+  "counterparty-risk": [
+   220
+  ],
+  "episodes": [
+   221
+  ],
+  "more": [
+   223
+  ],
+  "damaging": [
+   224
+  ],
+  "than": [
+   225
+  ],
+  "purely": [
+   226
+  ],
+  "directional": [
+   227
+  ],
+  "price": [
+   228
+  ],
+  "crashes.": [
+   229
+  ],
+  "contributes": [
+   232
+  ],
+  "transparent": [
+   234
+  ],
+  "framework": [
+   235
+  ],
+  "position": [
+   237
+  ],
+  "sizing,": [
+   238
+  ],
+  "limits,": [
+   240
+  ],
+  "allocation": [
+   243
+  ],
+  "in": [
+   244
+  ],
+  "crypto": [
+   246
+  ],
+  "trades.": [
+   248
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2026-08-20T00:00:00"
+}

@@ -1,0 +1,753 @@
+   count=269
+- [2026] Coordinated journals, concentrated networks and citation growth: Evidence from finance
+    au: Carol Alexander, Douglas Cumming
+    src=Journal of Banking & Finance | article | c=0
+    doi=https://doi.org/10.1016/j.jbankfin.2026.107718 | pmid=None | openalex=W7160510227
+    oa_url=None
+    pdf=None
+
+- [2025] Price Discovery and Efficiency in Uniswap Liquidity Pools
+    au: Carol Alexander, Xi Chen, Jun Deng, Qi Fu
+    src=Journal of Futures Markets | article | c=6
+    doi=https://doi.org/10.1002/fut.22593 | pmid=None | openalex=W4410756677
+    oa_url=https://doi.org/10.1002/fut.22593
+    pdf=None
+    ABS: ABSTRACT Using almost three years of minute‐level data, we show that the efficiency of Uniswap v3 is much improved relative to v2, and some v3 pools are approaching or even exceeding Bitstamp in terms of price discovery ability. Regression results suggest that the channels of influence for these improvements are an increase in informed liquidity providers and swappers, who nevertheless prefer to use centralized exchanges when markets become volatile. At such times, there are relatively more uninformed speculative traders in all Uniswap pools, and cross‐exchange arbitrage activities become more prevalent. However, these decrease the price discovery ability of Uniswap pools relative to Coinbase and Bitstamp. The informed traders that remain on Uniswap during periods of high uncertainty tend to switch to the higher‐fee v3 pools to compensate for efficiency loss, or to v2 pools where there i
+
+- [2025] Trade Dynamics of the Global Dry Bulk Shipping Network
+    au: Yan Li, Carol Alexander, Michael Coulon, Istvan Zoltan Kiss
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.2502.00877 | pmid=None | openalex=W4407124192
+    oa_url=https://arxiv.org/pdf/2502.00877
+    pdf=https://arxiv.org/pdf/2502.00877
+    ABS: This study investigates the inherently random structures of dry bulk shipping networks, often likened to a taxi service, and identifies the underlying trade dynamics that contribute to this randomness within individual cargo sub-networks. By analysing micro-level trade flow data from 2015 to 2023, we explore the evolution of dry commodity networks, including grain, coal, and iron ore, and suggest that the Giant Strongly Connected Components exhibit small-world phenomena, indicative of efficient bilateral trade. The significant heterogeneity of in-degree and out-degree within these sub-networks, primarily driven by importing ports, underscores the complexity of their dynamics. Our temporal analysis shows that while the Covid-19 pandemic profoundly impacted the coal network, the Ukraine conflict significantly altered the grain network, resulting in changes in community structures. Notably,
+
+- [2025] Elsevier, Coordinated Journals and Citation Patterns
+    au: Carol Alexander, Xi Chen, Douglas J. Cumming
+    src=SSRN Electronic Journal | preprint | c=1
+    doi=https://doi.org/10.2139/ssrn.5056074 | pmid=None | openalex=W4406950037
+    oa_url=https://doi.org/10.2139/ssrn.5056074
+    pdf=None
+
+- [2025] Lead Directors and Corporate Social Responsibility
+    au: Carol Alexander, David Javakhadze, Tijana Rajkovic
+    src=SSRN Electronic Journal | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.5178642 | pmid=None | openalex=W4408424048
+    oa_url=https://doi.org/10.2139/ssrn.5178642
+    pdf=None
+
+- [2024] Arbitrage opportunities and efficiency tests in crypto derivatives
+    au: Carol Alexander, Xi Chen, Jun Deng, Tianyi Wang
+    src=Journal of Financial Markets | article | c=7
+    doi=https://doi.org/10.1016/j.finmar.2024.100930 | pmid=None | openalex=W4401304305
+    oa_url=https://doi.org/10.1016/j.finmar.2024.100930
+    pdf=None
+    ABS: We test the joint efficiency of the bitcoin and ether options and perpetual futures markets and identify the determinants of arbitrage opportunities. Our novel fiat-currency-free put–call parity relationship motivates new arbitrage tests for options-only and option–perpetual cross-markets. Bitcoin and ether derivatives markets are becoming more efficient, especially for options of maturity ≥ 15 days. Bitcoin derivative markets are generally more efficient than ether derivative markets, but arbitrage strategies can still be highly profitable even under conservative transaction cost scenarios, which include slippage for large orders, especially during periods of high trading volumes or when the blockchain traffic becomes more congested.
+
+- [2024] Leveraged Restaking of Leveraged Staking: What are the Risks?
+    au: Carol Alexander
+    src=SSRN Electronic Journal | preprint | c=5
+    doi=https://doi.org/10.2139/ssrn.4840805 | pmid=None | openalex=W4399150306
+    oa_url=https://doi.org/10.2139/ssrn.4840805
+    pdf=None
+
+- [2024] Order Flow Impact and Price Formation in Centralized Crypto Exchanges
+    au: Carol Alexander, Daniel W. Heck, Andreas Kaeck, Ryan Riordan
+    src=SSRN Electronic Journal | preprint | c=1
+    doi=https://doi.org/10.2139/ssrn.4867599 | pmid=None | openalex=W4400822197
+    oa_url=http://dx.doi.org/10.2139/ssrn.4867599
+    pdf=None
+
+- [2024] Pro-cyclical Dynamics and Spillover Effects of Variable Leveraged Tokens
+    au: Carol Alexander
+    src=SSRN Electronic Journal | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.4885174 | pmid=None | openalex=W4401213604
+    oa_url=http://dx.doi.org/10.2139/ssrn.4885174
+    pdf=None
+
+- [2024] Lead Directors and Corporate Social Responsibility Dynamics: The Power of Women in Board Leadership
+    au: Carol Alexander, David Javakhadze, Tijana Rajkovic
+    src=SSRN Electronic Journal | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.4925591 | pmid=None | openalex=W4401583755
+    oa_url=http://dx.doi.org/10.2139/ssrn.4925591
+    pdf=None
+
+- [2023] The New Tokenomics of Crowdfunding
+    au: Carol Alexander, Michael Dakos
+    src=British Journal of Management | article | c=12
+    doi=https://doi.org/10.1111/1467-8551.12772 | pmid=None | openalex=W4387974707
+    oa_url=https://doi.org/10.1111/1467-8551.12772
+    pdf=None
+    ABS: Abstract Whether proxied by the amount raised or the probability that this amount exceeds the soft cap, the factors driving the fundraising success of token offerings have changed considerably over the past 4 years. Possible factors include target market capitalization for the token, genuine signals of the venture's public credibility, price and momentum of ether, domicile of the venture and distribution of the token. There is a large previous literature on this topic, rooted in the entrepreneurial finance and crowdfunding literature, with numerous hypotheses based on signalling theory in its broadest sense. But due to substantial differences in samples, which end before 2020, the results are not only mixed but out of date. We have built the largest and most complete dataset on token offerings, spanning 2017 and 2022. The determinants of the amount raised were robust to different subsamp
+
+- [2023] Matching Kollo measures
+    au: Carol Alexander, Wei Wei, Xi Chen
+    src=Journal of the Operational Research Society | article | c=1
+    doi=https://doi.org/10.1080/01605682.2023.2240847 | pmid=None | openalex=W4385690731
+    oa_url=https://www.tandfonline.com/doi/pdf/10.1080/01605682.2023.2240847?needAccess=true&role=button
+    pdf=https://www.tandfonline.com/doi/pdf/10.1080/01605682.2023.2240847?needAccess=true&role=button
+    ABS: We motivate the advantages of using the Kollo measures, relative to other types of third and fourth moments of multivariate systems, and explore their Monte Carlo simulation and bootstrapping errors. Then we derive necessary and sufficient conditions for simultaneously matching any given mean vector, covariance matrix, Kollo skewness, and Kollo kurtosis. The specification of a suitable orthonormal basis greatly simplifies these moment-matching conditions. We offer semi-closed-form solutions to increase computational efficiency. In this respect, we compare our approach to two competing methods, which anyway can only match Kollo skewness and not the kurtosis at the same time. Ours is the first method for exactly matching all four multivariate moments simultaneously.
+
+- [2023] Crypto quanto and inverse options
+    au: Carol Alexander, Chen Ding, Arben Imeraj
+    src=Mathematical Finance | article | c=27
+    doi=https://doi.org/10.1111/mafi.12410 | pmid=None | openalex=W4384037209
+    oa_url=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mafi.12410
+    pdf=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mafi.12410
+    ABS: Abstract Over 90% of exchange trading on crypto options has always been on the Deribit platform. This centralized crypto exchange only lists inverse products because they do not accept fiat currency. Likewise, other major crypto options platforms only list crypto–stablecoin trading pairs in so‐called direct options, which are similar to the standard crypto options listed by the CME except the US dollar is replaced by a stablecoin version. Until now a clear mathematical exposition of these products has been lacking. We discuss the sources of market incompleteness in direct and inverse options and compare their pricing and hedging characteristics. Then we discuss the useful applications of currency protected “quanto” direct and inverse options for fiat‐based traders and describe their pricing and hedging characteristics, all in the Black–Scholes setting.
+
+- [2023] Can you Beat Black-Scholes at Delta Hedging?
+    au: Carol Alexander
+    src=Wilmott | article | c=0
+    doi=https://doi.org/10.54946/wilm.11134 | pmid=None | openalex=W4365815377
+    oa_url=https://sussex.figshare.com/articles/journal_contribution/Can_you_beat_Black-Scholes_at_delta_hedging_/23495816/1/files/41203991.pdf
+    pdf=https://sussex.figshare.com/articles/journal_contribution/Can_you_beat_Black-Scholes_at_delta_hedging_/23495816/1/files/41203991.pdf
+    ABS: Not a bad question given Black-Scholes assumes zero correlation between underlying price and volatility, the consequence of which is an entirely flat volatility surface.
+
+- [2023] Delta hedging bitcoin options with a smile
+    au: Carol Alexander, Arben Imeraj
+    src=Quantitative Finance | article | c=18
+    doi=https://doi.org/10.1080/14697688.2023.2181205 | pmid=None | openalex=W4323276429
+    oa_url=https://www.tandfonline.com/doi/pdf/10.1080/14697688.2023.2181205?download=true
+    pdf=https://www.tandfonline.com/doi/pdf/10.1080/14697688.2023.2181205?download=true
+    ABS: We analyse robust dynamic delta hedging of bitcoin options using a set of smile-implied and other smile-adjusted deltas that are either model-free, in the sense that they are the same for every scaleinvariant stochastic and/or local volatility model, or they are based on simple regime-dependent parameterisations of local volatility.These deltas are popular with option market makers in traditional assets because they are very easy to implement.Previous empirical research on dynamic delta hedging is based solely on equity index options, but analysis of our unique data on hourly historical bitcoin option prices reveals that bitcoin implied volatility curves behave very differently from those of equity index options.For call and put options with a wide range of moneyness and with synthetic constant maturities of 10, 20 and 30 days, we compare the dynamic hedging performance of different smil
+
+- [2023] Crypto Risks to Watch in 2023
+    au: Carol Alexander
+    src=Wilmott | article | c=0
+    doi=https://doi.org/10.54946/wilm.11103 | pmid=None | openalex=W4321381501
+    oa_url=None
+    pdf=None
+    ABS: Most financial risks originate in mismanaged, misunderstood or fraudulent operations.
+
+- [2023] Assessing the accuracy of exponentially weighted moving average models for Value-at-Risk and Expected Shortfall of crypto portfolios
+    au: Carol Alexander, Michael Dakos
+    src=Quantitative Finance | article | c=16
+    doi=https://doi.org/10.1080/14697688.2022.2159505 | pmid=None | openalex=W4319832790
+    oa_url=https://www.tandfonline.com/doi/epdf/10.1080/14697688.2022.2159505?needAccess=true&role=button
+    pdf=https://www.tandfonline.com/doi/epdf/10.1080/14697688.2022.2159505?needAccess=true&role=button
+    ABS: Assessing the accuracy of exponentially weighted moving average models Assessing the accuracy of exponentially weighted moving average models for value-at-risk and expected shortfall of crypto portfolios for value-at-risk and expected shortfall of crypto portfolios
+
+- [2023] Volume and Volatility Spillovers Between Crypto Exchanges
+    au: Carol Alexander
+    src=Wilmott | article | c=0
+    doi=https://doi.org/10.54946/wilm.11086 | pmid=None | openalex=W4319987116
+    oa_url=https://sussex.figshare.com/articles/journal_contribution/Volume_and_volatility_spillovers_between_crypto_exchanges/23495810/1/files/41203982.pdf
+    pdf=https://sussex.figshare.com/articles/journal_contribution/Volume_and_volatility_spillovers_between_crypto_exchanges/23495810/1/files/41203982.pdf
+    ABS: With increasing institutional adoption of crypto assets and derivatives positions Carol Alexander, Andreas Kaeck, and Daniel Heck examine the need for in-depth understanding of the microstructure in these fragmented markets.
+
+- [2023] Impacts of Protocol Updates on Uniswap Decentralized Crypto Exchanges
+    au: Carol Alexander, Xi Chen, Jun Deng, Qi Fu
+    src=SSRN Electronic Journal | preprint | c=6
+    doi=https://doi.org/10.2139/ssrn.4495589 | pmid=None | openalex=W4383219970
+    oa_url=https://doi.org/10.2139/ssrn.4495589
+    pdf=None
+
+- [2023] Arbitrage Opportunities and Efficiency Tests in Crypto Derivatives
+    au: Carol Alexander, Xi Chen, Jun Deng, Tianyi Wang
+    src=SSRN Electronic Journal | preprint | c=4
+    doi=https://doi.org/10.2139/ssrn.4495548 | pmid=None | openalex=W4383270004
+    oa_url=https://doi.org/10.2139/ssrn.4495548
+    pdf=None
+
+- [2023] Arbitrage Opportunities and Efficiency Tests in Crypto Derivatives
+    au: Carol Alexander, Xi Chen, Jun Deng, Tianyi Wang
+    src=SSRN Electronic Journal | preprint | c=2
+    doi=https://doi.org/10.2139/ssrn.4571439 | pmid=None | openalex=W4386705740
+    oa_url=https://doi.org/10.2139/ssrn.4571439
+    pdf=None
+
+- [2022] Generative Avatar Non-Fungible Token Collections
+    au: Carol Alexander
+    src=Wilmott | article | c=2
+    doi=https://doi.org/10.54946/wilm.11068 | pmid=None | openalex=W4319150758
+    oa_url=https://figshare.com/articles/journal_contribution/Generative_avatar_non-fungible_token_collections/23495681
+    pdf=None
+    ABS: Examines all the hype about profile picture (PFP) NFTs
+
+- [2022] The role of binance in bitcoin volatility transmission
+    au: Carol Alexander, Daniel F. Heck, Andreas Kaeck
+    src=Sussex Research Online (University of Sussex) | article | c=39
+    doi=None | pmid=None | openalex=W3174472908
+    oa_url=http://sro.sussex.ac.uk/id/eprint/110129/1/The%20Role%20of%20Binance%20in%20Bitcoin%20Volatility%20Transmission.pdf
+    pdf=http://sro.sussex.ac.uk/id/eprint/110129/1/The%20Role%20of%20Binance%20in%20Bitcoin%20Volatility%20Transmission.pdf
+    ABS: We analyse high-frequency realized volatility dynamics and spillovers between centralized crypto exchanges that offer spot and derivative contracts for bitcoin against the US dollar or the stable coin tether. The tether-margined perpetual contract on Binance is clearly the main source of volatility, continuously transmitting strong flows to all other instruments and receiving very little volatility from other sources. We also find that crypto exchanges exhibit much higher interconnectedness when traditional Western stock markets are open. Especially during the US time zone, volatility outflows from Binance are much higher than at other times, and Bitcoin traders are more attentive and reactive to prevailing market conditions. Our results highlight that market regulators should pay more attention to the tether-margined derivatives products available on most self-regulated exchanges, most 
+
+- [2022] The Behavior of Bitcoin Implied Volatility
+    au: Carol Alexander
+    src=Wilmott | article | c=0
+    doi=https://doi.org/10.54946/wilm.11042 | pmid=None | openalex=W4319150709
+    oa_url=None
+    pdf=None
+    ABS: The implications for exchange-traded products and delta-hedging options
+
+- [2022] Hedging with automatic liquidation and leverage selection on bitcoin futures
+    au: Carol Alexander, Jun Deng, Bin Zou
+    src=European Journal of Operational Research | article | c=28
+    doi=https://doi.org/10.1016/j.ejor.2022.07.037 | pmid=None | openalex=W4288760580
+    oa_url=https://doi.org/10.1016/j.ejor.2022.07.037
+    pdf=None
+    ABS: Bitcoin derivatives positions are maintained with a self-selected margin, which is often too low to avoid automatic liquidation by the exchange, without notice, especially during periods of excessive volatility. Indeed, according to CryptoQuant, almost $80 billion of positions on centralised exchanges were liquidated during 2021, that is an average of over $200 million per day. So hedgers of bitcoin price risk should account for the possibility of automatic liquidation when taking positions on bitcoin futures. We derive a semi-closed form for an optimal hedging strategy with dual objectives – to minimize both the variance of the hedged portfolio and the probability of liquidation due to insufficient collateral. The solution depends on the statistical characteristics of the spot and futures extreme returns, and other parameters that characterize the hedger by choice of leverage, loss aver
+
+- [2022] Net buying pressure and the information in bitcoin option trades
+    au: Carol Alexander, Jun Deng, Jianfen Feng, Huning Wan
+    src=Journal of Financial Markets | article | c=34
+    doi=https://doi.org/10.1016/j.finmar.2022.100764 | pmid=None | openalex=W3199240652
+    oa_url=https://doi.org/10.1016/j.finmar.2022.100764
+    pdf=None
+    ABS: Bitcoin prices are driven by upward as well as downward jumps and so the bitcoin implied volatility surface behaves differently from those of established options markets. We analyze tick-level Deribit option price data, demonstrating increasing support for the limits-to-arbitrage hypothesis. Hence market makers are managing order imbalance and inventory more effectively as Deribit bitcoin options trading volumes increases. On the demand side, volatility traders drive both at-the-money and out-of-the-money option prices, the latter also being driven by directional traders. Directional effects were most pronounced during the price bubble of 2021. Further refinements of our tests assess time-to-maturity and time-of-day effects.
+
+- [2022] It's Time to Focus! Maximizing the Effectiveness and Outcomes of Your Infection Prevention Committee
+    au: Christine C. Zirges, Kim Southerland, Carol Alexander
+    src=American Journal of Infection Control | article | c=0
+    doi=https://doi.org/10.1016/j.ajic.2022.03.117 | pmid=None | openalex=W4283267690
+    oa_url=None
+    pdf=None
+
+- [2022] Static and dynamic models for multivariate distribution forecasts: Proper scoring rule tests of factor-quantile versus multivariate GARCH models
+    au: Carol Alexander, Han Yang, Xiaochun Meng
+    src=International Journal of Forecasting | article | c=4
+    doi=https://doi.org/10.1016/j.ijforecast.2022.04.004 | pmid=None | openalex=W4282561216
+    oa_url=https://www.sciencedirect.com/science/article/pii/S0169207022000553/pdf
+    pdf=https://www.sciencedirect.com/science/article/pii/S0169207022000553/pdf
+    ABS: Many static and dynamic models exist to forecast Value-at-Risk and other quantile-related metrics used in financial risk management. Industry practice favours simpler, static models such as historical simulation or its variants. Most academic research focuses on dynamic models in the GARCH family. While numerous studies examine the accuracy of multivariate models for forecasting risk metrics, there is little research on accurately predicting the entire multivariate distribution. However, this is an essential element of asset pricing or portfolio optimization problems having non-analytic solutions. We approach this highly complex problem using various proper multivariate scoring rules to evaluate forecasts of eight-dimensional multivariate distributions: exchange rates, interest rates and commodity futures. This way, we test the performance of static models, namely, empirical distribution
+
+- [2022] Evaluating the discrimination ability of proper multi-variate scoring rules
+    au: Carol Alexander, Michael Coulon, Y. Han, Xiaochun Meng
+    src=Annals of Operations Research | article | c=17
+    doi=https://doi.org/10.1007/s10479-022-04611-9 | pmid=None | openalex=W3128505591
+    oa_url=https://link.springer.com/content/pdf/10.1007/s10479-022-04611-9.pdf
+    pdf=https://link.springer.com/content/pdf/10.1007/s10479-022-04611-9.pdf
+    ABS: Abstract Proper scoring rules are commonly applied to quantify the accuracy of distribution forecasts. Given an observation they assign a scalar score to each distribution forecast, with the lowest expected score attributed to the true distribution. The energy and variogram scores are two rules that have recently gained some popularity in multivariate settings because their computation does not require a forecast to have parametric density function and so they are broadly applicable. Here we conduct a simulation study to compare the discrimination ability between the energy score and three variogram scores. Compared with other studies, our simulation design is more realistic because it is supported by a historical data set containing commodity prices, currencies and interest rates, and our data generating processes include a diverse selection of models with different marginal distributio
+
+- [2022] Practical Applications of The Bitcoin VIX and Its Variance Risk Premium
+    au: Carol Alexander, Arben Imeraj
+    src=The Journal of Alternative Investments | article | c=1
+    doi=https://doi.org/10.3905/jai.2021.pa447 | pmid=None | openalex=W4226238180
+    oa_url=None
+    pdf=None
+    ABS: In The Bitcoin VIX and Its Variance Risk Premium, published in the Spring 2021 issue of The Journal of Alternative Investments, Carol Alexander and Arben Imeraj (both of the University of Sussex) introduce the bitcoin volatility index. CryptoCompare now streams this index every 15 seconds, under the ticker BVIN. Alexander and Imeraj are the first to investigate the bitcoin variance risk premiums and the behavior of the term structure of fair-value variance swap rates. The authors collect price data on bitcoin derivatives traded on the Deribit exchange via its application programming interface. They construct a family of indexes for different maturities using the same methodology used by CBOE’s equity volatility index, the VIX. They describe the methodology, noting that it accounts for information in volatility skews but assumes no jumps in prices. They also compare the indexes with those
+
+- [2022] The Role of Binance in Bitcoin Volatility Transmission
+    au: Carol Alexander, Daniel F. Heck, Andreas Kaeck
+    src=Applied Mathematical Finance | article | c=14
+    doi=https://doi.org/10.1080/1350486x.2022.2125885 | pmid=None | openalex=W3174449792
+    oa_url=https://www.tandfonline.com/doi/pdf/10.1080/1350486X.2022.2125885?needAccess=true
+    pdf=https://www.tandfonline.com/doi/pdf/10.1080/1350486X.2022.2125885?needAccess=true
+    ABS: We analyse high-frequency realised volatility dynamics and spillovers in the bitcoin market, focusing on two pairs: bitcoin against the US dollar (the main fiat-crypto pair) and trading bitcoin against tether (the main crypto-crypto pair). We find that the tether-margined perpetual contract on Binance is clearly the main source of volatility, continuously transmitting strong flows to all other instruments and receiving only a little volatility. Moreover, we find that (i) during US trading hours, traders pay more attention and are more reactive to prevailing market conditions when updating their expectations and (ii) the crypto market exhibits a higher interconnectedness when traditional Western stock markets are open. Our results highlight that regulators should not only consider spot exchanges offering bitcoin-fiat trading but also the tether-margined derivatives products available on m
+
+- [2022] Assessing the Accuracy of Exponentially Weighted Moving Average Models for Value-at-Risk and Expected Shortfall of Crypto Portfolios
+    au: Carol Alexander, Michael Dakos
+    src=SSRN Electronic Journal | preprint | c=3
+    doi=https://doi.org/10.2139/ssrn.4078032 | pmid=None | openalex=W4226087272
+    oa_url=https://doi.org/10.2139/ssrn.4078032
+    pdf=None
+
+- [2022] Price Discovery in Bitcoin: The Role of Limit Orders
+    au: Carol Alexander, Daniel F. Heck, Andreas Kaeck
+    src=SSRN Electronic Journal | preprint | c=3
+    doi=https://doi.org/10.2139/ssrn.4150979 | pmid=None | openalex=W4285125648
+    oa_url=https://doi.org/10.2139/ssrn.4150979
+    pdf=None
+
+- [2022] Delta Hedging Bitcoin Options with a Smile
+    au: Carol Alexander, Arben Imeraj
+    src=SSRN Electronic Journal | preprint | c=3
+    doi=https://doi.org/10.2139/ssrn.4097909 | pmid=None | openalex=W4285192181
+    oa_url=https://doi.org/10.2139/ssrn.4097909
+    pdf=None
+
+- [2022] Rarity Metrics for Non-Fungible Tokens
+    au: Carol Alexander, Xi Chen
+    src=SSRN Electronic Journal | preprint | c=3
+    doi=https://doi.org/10.2139/ssrn.4242042 | pmid=None | openalex=W4312328410
+    oa_url=https://doi.org/10.2139/ssrn.4242042
+    pdf=None
+
+- [2022] The New Tokenomics of Crowdfunding
+    au: Carol Alexander, Michael Dakos
+    src=SSRN Electronic Journal | preprint | c=3
+    doi=https://doi.org/10.2139/ssrn.4243968 | pmid=None | openalex=W4312965013
+    oa_url=https://doi.org/10.2139/ssrn.4243968
+    pdf=None
+
+- [2021] Risk-adjusted valuation for real option decisions
+    au: Carol Alexander, Xi Chen, Charles Ward
+    src=Journal of Economic Behavior & Organization | article | c=0
+    doi=https://doi.org/10.1016/j.jebo.2021.09.011 | pmid=None | openalex=W3200272499
+    oa_url=https://arxiv.org/pdf/2109.04793
+    pdf=https://arxiv.org/pdf/2109.04793
+
+- [2021] Targeting Kollo skewness with random orthogonal matrix simulation
+    au: Carol Alexander, Xiaochun Meng, Wei Wei
+    src=European Journal of Operational Research | article | c=1
+    doi=https://doi.org/10.1016/j.ejor.2021.09.003 | pmid=None | openalex=W3198470808
+    oa_url=https://research-information.bris.ac.uk/en/publications/36b5198e-c347-41ab-b372-4d34cdff33a8
+    pdf=None
+
+- [2021] Net Buying Pressure and the Information in Bitcoin Option Trades
+    au: Carol Alexander, Jun Ping Deng, Jianfen Feng, Huning Wan
+    src=arXiv (Cornell University) | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.2109.02776 | pmid=None | openalex=W4297767026
+    oa_url=https://arxiv.org/pdf/2109.02776
+    pdf=https://arxiv.org/pdf/2109.02776
+    ABS: How do supply and demand from informed traders drive market prices of bitcoin options? Deribit options tick-level data supports the limits-to-arbitrage hypothesis about the market maker's supply. The main demand-side effects are that at-the-money option prices are largely driven by volatility traders and out-of-the-money options are simultaneously driven by volatility traders and those with proprietary information about the direction of future bitcoin price movements. The demand-side trading results contrast with prior studies on established options markets in the US and Asia, but we also show that Deribit is rapidly evolving into a more efficient channel for aggregating information from informed traders.
+
+- [2021] Practical Applications of The Bitcoin VIX and Its Variance Risk Premium
+    au: Carol Alexander, Arben Imeraj
+    src=The Journal of Alternative Investments | article | c=1
+    doi=https://doi.org/10.3905/jai.24.s1.046 | pmid=None | openalex=W3194424664
+    oa_url=None
+    pdf=None
+    ABS: In The Bitcoin VIX and Its Variance Risk Premium, published in the Spring 2021 issue of The Journal of Alternative Investments, Carol Alexander and Arben Imeraj (both of the University of Sussex) introduce the bitcoin volatility index. CryptoCompare now streams this index every 15 seconds, under the ticker BVIN. Alexander and Imeraj are the first to investigate the bitcoin variance risk premiums and the behavior of the term structure of fair-value variance swap rates. The authors collect price data on bitcoin derivatives traded on the Deribit exchange via its application programming interface. They construct a family of indexes for different maturities using the same methodology used by CBOE’s equity volatility index, the VIX. They describe the methodology, noting that it accounts for information in volatility skews but assumes no jumps in prices. They also compare the indexes with those
+
+- [2021] Inverse and Quanto Inverse Options in a Black-Scholes World
+    au: Carol Alexander, Chen, Ding, Imeraj, Arben
+    src=RePEc: Research Papers in Economics | preprint | c=1
+    doi=https://doi.org/10.48550/arxiv.2107.12041 | pmid=None | openalex=W4287067332
+    oa_url=https://arxiv.org/pdf/2107.12041
+    pdf=https://arxiv.org/pdf/2107.12041
+    ABS: Over 90% of exchange trading on crypto options has always been on the Deribit platform. This centralised crypto exchange only lists inverse products because they do not accept fiat currency. Currently, fiat-based traders can only make deposits in bitcoin, although they can withdraw both bitcoin and ether to their on-chain wallets. Likewise, other major crypto options platforms only list crypto--stablecoin trading pairs in so-called direct options, which are similar to the standard crypto options listed by the CME except the U.S. dollar is replaced by a stablecoin version. Until now a clear mathematical exposition of these products has been lacking. We discuss the sources of market incompleteness in direct and inverse options and compare their pricing and hedging characteristics. Then we discuss the useful applications of currency protected "quanto" direct and inverse options for fiat-bas
+
+- [2021] Practical Applications of The Bitcoin VIX and Its Variance Risk Premium
+    au: Carol Alexander, Arben Imeraj
+    src=Practical Applications | article | c=1
+    doi=https://doi.org/10.3905/pa.9.2.447 | pmid=None | openalex=W3186937833
+    oa_url=https://figshare.com/articles/journal_contribution/Practical_applications_of_The_Bitcoin_VIX_and_its_variance_risk_premium/23490374
+    pdf=None
+    ABS: In The Bitcoin VIX and Its Variance Risk Premium, published in the Spring 2021 issue of The Journal of Alternative Investments, Carol Alexander and Arben Imeraj (both of the University of Sussex) introduce the bitcoin volatility index. CryptoCompare now streams this index every 15 seconds, under the ticker BVIN. Alexander and Imeraj are the first to investigate the bitcoin variance risk premiums and the behavior of the term structure of fair-value variance swap rates. The authors collect price data on bitcoin derivatives traded on the Deribit exchange via its application programming interface. They construct a family of indexes for different maturities using the same methodology used by CBOE’s equity volatility index, the VIX. They describe the methodology, noting that it accounts for information in volatility skews but assumes no jumps in prices. They also compare the indexes with those
+
+- [2021] Evaluating the Discrimination Ability of Proper Multivariate Scoring Rules
+    au: Carol Alexander, Michael Coulon, Han Yang, Xiaochun Meng
+    src=arXiv (Cornell University) | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.2101.12693 | pmid=None | openalex=W3158319847
+    oa_url=https://arxiv.org/pdf/2101.12693
+    pdf=https://arxiv.org/pdf/2101.12693
+    ABS: Proper scoring rules are commonly applied to quantify the accuracy of distribution forecasts. Given an observation they assign a scalar score to each distribution forecast, with the the lowest expected score attributed to the true distribution. The energy and variogram scores are two rules that have recently gained some popularity in multivariate settings because their computation does not require a forecast to have parametric density function and so they are broadly applicable. Here we conduct a simulation study to compare the discrimination ability between the energy score and three variogram scores. Compared with other studies, our simulation design is more realistic because it is supported by a historical data set containing commodity prices, currencies and interest rates, and our data generating processes include a diverse selection of models with different marginal distributions, d
+
+- [2021] Hedging with Bitcoin Futures: The Effect of Liquidation Loss Aversion\n and Aggressive Trading
+    au: Carol Alexander, Jun Deng, Bin Zou
+    src=arXiv (Cornell University) | preprint | c=3
+    doi=https://doi.org/10.48550/arxiv.2101.01261 | pmid=None | openalex=W3194959372
+    oa_url=https://arxiv.org/pdf/2101.01261
+    pdf=https://arxiv.org/pdf/2101.01261
+    ABS: We consider the hedging problem where a futures position can be automatically\nliquidated by the exchange without notice. We derive a semi-closed form for an\noptimal hedging strategy with dual objectives - to minimise both the variance\nof the hedged portfolio and the probability of liquidations due to insufficient\ncollateral. The optimal solution depends on the statistical characteristics of\nthe spot and futures extreme returns and parameters that characterise the\nhedger by loss aversion, choice of leverage and collateral management. An\nempirical analysis of bitcoin shows that the optimal strategy combines superior\nhedge effectiveness with a reduction in the probability of liquidation. We\ncompare the performance of seven major direct and inverse hedging instruments\ntraded on five different exchanges, based on minute-level data. We also link\nthis performance to novel speculative
+
+- [2021] Optimal Hedging with Margin Constraints and Default Aversion and its Application to Bitcoin Perpetual Futures
+    au: Carol Alexander, Jun Deng, Bin Zou
+    src=SSRN Electronic Journal | preprint | c=3
+    doi=https://doi.org/10.2139/ssrn.3760048 | pmid=None | openalex=W3119424056
+    oa_url=https://doi.org/10.2139/ssrn.3760048
+    pdf=None
+
+- [2021] Inverse Options in a Black-Scholes World
+    au: Carol Alexander, Arben Imeraj
+    src=SSRN Electronic Journal | preprint | c=5
+    doi=https://doi.org/10.2139/ssrn.3893037 | pmid=None | openalex=W3186061717
+    oa_url=https://doi.org/10.2139/ssrn.3893037
+    pdf=None
+
+- [2021] Hedging with Bitcoin Futures: The Effect of Liquidation Loss Aversion and Aggressive Trading
+    au: Carol Alexander, Jun Deng, Bin Zou
+    src=RePEc: Research Papers in Economics | preprint | c=2
+    doi=https://doi.org/10.13140/rg.2.2.25471.23200/2 | pmid=None | openalex=W3190489659
+    oa_url=http://arxiv.org/pdf/2101.01261
+    pdf=http://arxiv.org/pdf/2101.01261
+    ABS: We consider the hedging problem where a futures position can be automatically liquidated by the exchange without notice. We derive a semi-closed form for an optimal hedging strategy with dual objectives - to minimise both the variance of the hedged portfolio and the probability of liquidations due to insufficient collateral. The optimal solution depends on the statistical characteristics of the spot and futures extreme returns and parameters that characterise the hedger by loss aversion, choice of leverage and collateral management. An empirical analysis of bitcoin shows that the optimal strategy combines superior hedge effectiveness with a reduction in the probability of liquidation. We compare the performance of seven major direct and inverse hedging instruments traded on five different exchanges, based on minute-level data. We also link this performance to novel speculative trading me
+
+- [2021] Net Buying Pressure and the Information in Bitcoin Option Trades
+    au: Carol Alexander, Jun Deng, Jianfen Feng, Huning Wan
+    src=SSRN Electronic Journal | preprint | c=27
+    doi=https://doi.org/10.2139/ssrn.3915901 | pmid=None | openalex=W3196534042
+    oa_url=https://doi.org/10.2139/ssrn.3915901
+    pdf=None
+
+- [2020] The Bitcoin VIX and Its Variance Risk Premium
+    au: Carol Alexander, Arben Imeraj
+    src=The Journal of Alternative Investments | article | c=29
+    doi=https://doi.org/10.3905/jai.2020.1.112 | pmid=None | openalex=W3123988377
+    oa_url=None
+    pdf=None
+    ABS: The authors acquire a unique dataset of high-frequency traded prices for bitcoin call and put options from the Deribit cryptocurrency derivatives exchange, by 15-minute sampling via the application programming interface. They use these prices to construct a term structure of bitcoin implied volatility indices using a variance swap fair-value formula that is employed by the CBOE for the VIX, an index commonly referred to as the “investor fear gauge” for the US stock market. Employing over seven million option prices, they construct the bitcoin implied volatility indices with maturities from one week to three months, sampled every 15 minutes from March 2019 to March 2020. They discuss the features of the index and the associated bitcoin variance risk premia, with three different regular time partitions for realized variance, viz. 15-minutes, hourly, and daily. They also examine the relatio
+
+- [2020] The continuous limit of weak GARCH
+    au: Carol Alexander, Emese Lazar
+    src=Econometric Reviews | article | c=0
+    doi=https://doi.org/10.1080/07474938.2020.1799592 | pmid=None | openalex=W2889242048
+    oa_url=https://arxiv.org/pdf/1808.09152
+    pdf=https://arxiv.org/pdf/1808.09152
+    ABS: GARCH models are called ‘strong’ or ‘weak’ depending on the presence of parametric distributional assumptions for the innovations. The symmetric weak GARCH(1, 1) is the only model in the GARCH class that has been proved to be closed under the temporal aggregation property . This property is fundamental in two respects: (a) for a time-series model to be invariant to the data frequency; and (b) for a unique option-pricing model to exist as a continuous-time limit. While the symmetric weak GARCH(1, 1) is temporally aggregating precisely because it makes no parametric distributional assumptions, the lack of these also makes it harder to derive theoretical results. Rising to this challenge, we prove that its continuous-time limit is a geometric mean-reverting stochastic volatility process with diffusion coefficient governed by a time-varying kurtosis of log returns. When log returns are norma
+
+- [2020] Price discovery in Bitcoin: The impact of unregulated markets
+    au: Carol Alexander, Daniel F. Heck
+    src=Journal of Financial Stability | article | c=107
+    doi=https://doi.org/10.1016/j.jfs.2020.100776 | pmid=None | openalex=W3041395050
+    oa_url=https://sussex.figshare.com/articles/journal_contribution/Price_discovery_in_Bitcoin_the_impact_of_unregulated_markets/23308262/1/files/41093948.pdf
+    pdf=https://sussex.figshare.com/articles/journal_contribution/Price_discovery_in_Bitcoin_the_impact_of_unregulated_markets/23308262/1/files/41093948.pdf
+
+- [2020] Corruption and Fraud in Financial Markets: Malpractice, Misconduct and Manipulation
+    au: Carol Alexander, Douglas J. Cumming
+    src=None | article | c=51
+    doi=None | pmid=None | openalex=W3121436167
+    oa_url=None
+    pdf=None
+
+- [2020] Price discovery and microstructure in ether spot and derivative markets
+    au: Carol Alexander, Jaehyuk Choi, Hamish R.A. Massie, Sungbin Sohn
+    src=International Review of Financial Analysis | article | c=42
+    doi=https://doi.org/10.1016/j.irfa.2020.101506 | pmid=None | openalex=W3006302877
+    oa_url=https://sussex.figshare.com/articles/journal_contribution/Price_discovery_and_microstructure_in_ether_spot_and_derivative_markets/23476202/1/files/41185550.pdf
+    pdf=https://sussex.figshare.com/articles/journal_contribution/Price_discovery_and_microstructure_in_ether_spot_and_derivative_markets/23476202/1/files/41185550.pdf
+
+- [2020] Static and Dynamic Models for Multivariate Distribution Forecasts: Proper Scoring Rule Tests of Factor-Quantile vs. Multivariate GARCH Models
+    au: Carol Alexander, Han Yang
+    src=arXiv (Cornell University) | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.2004.14108 | pmid=None | openalex=W3023503484
+    oa_url=https://arxiv.org/pdf/2004.14108
+    pdf=https://arxiv.org/pdf/2004.14108
+    ABS: A plethora of static and dynamic models exist to forecast Value-at-Risk and other quantile-related metrics used in financial risk management. Industry practice tends to favour simpler, static models such as historical simulation or its variants whereas most academic research centres on dynamic models in the GARCH family. While numerous studies examine the accuracy of multivariate models for forecasting risk metrics, there is little research on accurately predicting the entire multivariate distribution. Yet this is an essential element of asset pricing or portfolio optimization problems having non-analytic solutions. We approach this highly complex problem using a variety of proper multivariate scoring rules to evaluate over 100,000 forecasts of eight-dimensional multivariate distributions: of exchange rates, interest rates and commodity futures. This way we test the performance of static
+
+- [2020] Static and Dynamic Models for Multivariate Distribution Forecasts:\n Proper Scoring Rule Tests of Factor-Quantile vs. Multivariate GARCH Models
+    au: Carol Alexander, Han Yang
+    src=arXiv (Cornell University) | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.2004.14108 | pmid=None | openalex=W4287810551
+    oa_url=https://arxiv.org/pdf/2004.14108
+    pdf=https://arxiv.org/pdf/2004.14108
+    ABS: A plethora of static and dynamic models exist to forecast Value-at-Risk and\nother quantile-related metrics used in financial risk management. Industry\npractice tends to favour simpler, static models such as historical simulation\nor its variants whereas most academic research centres on dynamic models in the\nGARCH family. While numerous studies examine the accuracy of multivariate\nmodels for forecasting risk metrics, there is little research on accurately\npredicting the entire multivariate distribution. Yet this is an essential\nelement of asset pricing or portfolio optimization problems having non-analytic\nsolutions. We approach this highly complex problem using a variety of proper\nmultivariate scoring rules to evaluate over 100,000 forecasts of\neight-dimensional multivariate distributions: of exchange rates, interest rates\nand commodity futures. This way we test the performanc
+
+- [2020] Extensions of Random Orthogonal Matrix Simulation for Targetting Kollo Skewness
+    au: Carol Alexander, Xiaochun Meng, Wei Wei
+    src=arXiv (Cornell University) | preprint | c=0
+    doi=None | pmid=None | openalex=W3017095894
+    oa_url=https://arxiv.org/abs/2004.06586
+    pdf=None
+    ABS: Modelling multivariate systems is important for many applications in engineering and operational research. The multivariate distributions under scrutiny usually have no analytic or closed form. Therefore their modelling employs a numerical technique, typically multivariate simulations, which can have very high dimensions. Random Orthogonal Matrix (ROM) simulation is a method that has gained some popularity because of the absence of certain simulation errors. Specifically, it exactly matches a target mean, covariance matrix and certain higher moments with every simulation. This paper extends the ROM simulation algorithm presented by Hanke et al. (2017), hereafter referred to as HPSW, which matches the target mean, covariance matrix and Kollo skewness vector exactly. Our first contribution is to establish necessary and sufficient conditions for the HPSW algorithm to work. Our second contri
+
+- [2020] Targetting Kollo Skewness with Random Orthogonal Matrix Simulation
+    au: Carol Alexander, Xiaochun Meng, Wei Wei
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.2004.06586 | pmid=None | openalex=W3199662582
+    oa_url=https://arxiv.org/pdf/2004.06586
+    pdf=https://arxiv.org/pdf/2004.06586
+    ABS: Modelling multivariate systems is important for many applications in engineering and operational research. The multivariate distributions under scrutiny usually have no analytic or closed form. Therefore their modelling employs a numerical technique, typically multivariate simulations, which can have very high dimensions. Random Orthogonal Matrix (ROM) simulation is a method that has gained some popularity because of the absence of certain simulation errors. Specifically, it exactly matches a target mean, covariance matrix and certain higher moments with every simulation. This paper extends the ROM simulation algorithm presented by Hanke et al. (2017), hereafter referred to as HPSW, which matches the target mean, covariance matrix and Kollo skewness vector exactly. Our first contribution is to establish necessary and sufficient conditions for the HPSW algorithm to work. Our second contri
+
+- [2020] Analytic moments for GJR-GARCH (1, 1) processes
+    au: Carol Alexander, Emese Lazar, Silvia Stanescu
+    src=International Journal of Forecasting | article | c=22
+    doi=https://doi.org/10.1016/j.ijforecast.2020.03.005 | pmid=None | openalex=W3014739574
+    oa_url=https://centaur.reading.ac.uk/89679/1/GARCH%20Moments_Accepted%20Version.pdf
+    pdf=https://centaur.reading.ac.uk/89679/1/GARCH%20Moments_Accepted%20Version.pdf
+
+- [2020] A general property for time aggregation
+    au: Carol Alexander, Johannes Rauch
+    src=European Journal of Operational Research | article | c=7
+    doi=https://doi.org/10.1016/j.ejor.2019.12.045 | pmid=None | openalex=W3000188354
+    oa_url=http://sro.sussex.ac.uk/id/eprint/89186/1/EJOR_2020.pdf
+    pdf=http://sro.sussex.ac.uk/id/eprint/89186/1/EJOR_2020.pdf
+
+- [2020] Price Discovery and Microstructure in Ether Spot and Derivative Markets
+    au: Carol Alexander, Jaehyuk Choi, Hamish R.A. Massie, Sungbin Sohn
+    src=SSRN Electronic Journal | preprint | c=4
+    doi=https://doi.org/10.2139/ssrn.3511533 | pmid=None | openalex=W3124809573
+    oa_url=https://doi.org/10.2139/ssrn.3511533
+    pdf=None
+
+- [2020] Price Discovery in Bitcoin: The Impact of Unregulated Markets
+    au: Carol Alexander, Daniel F. Heck
+    src=SSRN Electronic Journal | preprint | c=6
+    doi=https://doi.org/10.2139/ssrn.3583843 | pmid=None | openalex=W3125223232
+    oa_url=https://doi.org/10.2139/ssrn.3583843
+    pdf=None
+
+- [2019] BitMEX bitcoin derivatives: Price discovery, informational efficiency, and hedging effectiveness
+    au: Carol Alexander, Jaehyuk Choi, Heungju Park, Sungbin Sohn
+    src=Journal of Futures Markets | article | c=123
+    doi=https://doi.org/10.1002/fut.22050 | pmid=None | openalex=W2953851850
+    oa_url=https://figshare.com/articles/journal_contribution/BitMEX_Bitcoin_derivatives_price_discovery_informational_efficiency_and_hedging_effectiveness/23470913
+    pdf=None
+    ABS: Abstract BitMEX is the largest unregulated bitcoin derivatives exchange, listing contracts suitable for leverage trading and hedging. Using minute‐by‐minute data, we examine its price discovery and hedging effectiveness. We find that BitMEX derivatives lead prices on major bitcoin spot exchanges. Bid–ask spreads, interexchange spreads, and relative trading volumes are important determinants of price discovery. Further analysis shows that BitMEX derivatives have positive net spillover effects, are informationally more efficient than bitcoin spot prices, and serve as effective hedges against spot price volatility. Our evidence suggests that regulators prioritize the investigation of the legitimacy of BitMEX and its contracts.
+
+- [2019] A critical investigation of cryptocurrency data and analysis
+    au: Carol Alexander, Michael Dakos
+    src=Quantitative Finance | article | c=197
+    doi=https://doi.org/10.1080/14697688.2019.1641347 | pmid=None | openalex=W2945425436
+    oa_url=https://sussex.figshare.com/articles/journal_contribution/A_critical_investigation_of_cryptocurrency_data_and_analysis/23470910/1/files/41179505.pdf
+    pdf=https://sussex.figshare.com/articles/journal_contribution/A_critical_investigation_of_cryptocurrency_data_and_analysis/23470910/1/files/41179505.pdf
+    ABS: Less than half the crytocurrency papers published since January 2017 employ correct data
+
+- [2019] Model risk in real option valuation
+    au: Carol Alexander, Xi Chen
+    src=Annals of Operations Research | article | c=21
+    doi=https://doi.org/10.1007/s10479-019-03273-4 | pmid=None | openalex=W2891580287
+    oa_url=https://link.springer.com/content/pdf/10.1007/s10479-019-03273-4.pdf
+    pdf=https://link.springer.com/content/pdf/10.1007/s10479-019-03273-4.pdf
+    ABS: Abstract We introduce a general decision-tree framework to value an option to invest/divest in a project, focusing on the model risk inherent in the assumptions made by standard real option valuation methods. We examine how real option values depend on the dynamics of project value and investment costs, the frequency of exercise opportunities, the size of the project relative to initial wealth, the investor’s risk tolerance (and how it changes with wealth) and several other choices about model structure. For instance, contrary to stylised facts from previous literature, real option values can actually decrease with the volatility of the underlying project value and increase with investment costs. And large projects can be more or less attractive than small projects (ceteris paribus) depending on the risk tolerance of the investor, how this changes with wealth, and the structure of costs 
+
+- [2019] Introducing the BITIX: The Bitcoin Fear Gauge
+    au: Carol Alexander, Arben Imeraj
+    src=SSRN Electronic Journal | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.3383734 | pmid=None | openalex=W2963231376
+    oa_url=https://doi.org/10.2139/ssrn.3383734
+    pdf=None
+
+- [2019] Price Discovery and Efficiency in Bitcoin Markets
+    au: Carol Alexander, Daniel F. Heck
+    src=SSRN Electronic Journal | preprint | c=9
+    doi=https://doi.org/10.2139/ssrn.3383147 | pmid=None | openalex=W2965004548
+    oa_url=https://doi.org/10.2139/ssrn.3383147
+    pdf=None
+
+- [2019] A Critical Investigation of Cryptocurrency Data and Analysis
+    au: Carol Alexander, Michael Dakos
+    src=SSRN Electronic Journal | preprint | c=12
+    doi=https://doi.org/10.2139/ssrn.3382828 | pmid=None | openalex=W3125498915
+    oa_url=https://doi.org/10.2139/ssrn.3382828
+    pdf=None
+
+- [2018] Model Risk in Real Option Valuation
+    au: Carol Alexander, Xi Chen
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.1809.00817 | pmid=None | openalex=W2949810872
+    oa_url=https://arxiv.org/pdf/1809.00817
+    pdf=https://arxiv.org/pdf/1809.00817
+    ABS: We introduce a general decision tree framework to value an option to invest/divest in a project, focusing on the model risk inherent in the assumptions made by standard real option valuation methods. We examine how real option values depend on the dynamics of project value and investment costs, the frequency of exercise opportunities, the size of the project relative to initial wealth, the investor's risk tolerance (and how it changes with wealth) and several other choices about model structure. For instance, contrary to stylized facts from previous literature, real option values can actually decrease with the volatility of the underlying project value and increase with investment costs.
+
+- [2018] Analytic Moments for GARCH Processes
+    au: Carol Alexander, Emese Lazar, Silvia Stanescu
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.1808.09666 | pmid=None | openalex=W3122286243
+    oa_url=https://arxiv.org/pdf/1808.09666
+    pdf=https://arxiv.org/pdf/1808.09666
+    ABS: For a GJR-GARCH specification with a generic innovation distribution we derive analytic expressions for the first four conditional moments of the forward and aggregated returns and variances. Moment for the most commonly used GARCH models are stated as special cases. We also the limits of these moments as the time horizon increases, establishing regularity conditions for the moments of aggregated returns to converge to normal moments. Our empirical study yields excellent approximate predictive distributions from these analytic moments, thus precluding the need for time-consuming simulations.
+
+- [2018] A parsimonious parametric model for generating margin requirements for futures
+    au: Carol Alexander, Andreas Kaeck, Anannit Sumawong
+    src=European Journal of Operational Research | article | c=14
+    doi=https://doi.org/10.1016/j.ejor.2018.08.006 | pmid=None | openalex=W2888069996
+    oa_url=http://sro.sussex.ac.uk/id/eprint/77556/1/texsubmissionSRO.pdf
+    pdf=http://sro.sussex.ac.uk/id/eprint/77556/1/texsubmissionSRO.pdf
+
+- [2017] The Aggregation Property and its Applications to Realised Higher Moments
+    au: Carol Alexander, Johannes Rauch
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.1709.08188 | pmid=None | openalex=W2759089835
+    oa_url=https://arxiv.org/pdf/1709.08188
+    pdf=https://arxiv.org/pdf/1709.08188
+    ABS: We develop a general multivariate aggregation property which encompasses the distinct versions of the property that were introduced by Neuberger [2012] and Bondarenko [2014] independently. This way, we classify new types of model-free realised characteristics for which risk premia may be estimated without bias. We focus on the aggregation property for multivariate martingales and log martingales, and then define realised third and fourth moments which allow long-term higher-moment risk premia to be measured, efficiently and without bias, using high-frequency returns.
+
+- [2016] Arithmetic variance swaps
+    au: Stamatis Leontsinis, Carol Alexander
+    src=Quantitative Finance | article | c=10
+    doi=https://doi.org/10.1080/14697688.2016.1212167 | pmid=None | openalex=W2513114165
+    oa_url=https://figshare.com/articles/journal_contribution/Arithmetic_variance_swaps/23432612
+    pdf=None
+    ABS: Biases in standard variance swap rates (VSRs) can induce substantial deviations below market rates. Defining realized variance as the sum of squared price (not log-price) changes yields an ‘arithmetic’ variance swap with no such biases. Its fair value has advantages over the standard VSR: no discrete monitoring or jump biases; and the same value applies for any monitoring frequency, even irregular monitoring and to any underlying, including those taking zero or negative values. We derive the fair value for the arithmetic variance swap and compare it with the standard VSR by: analysing errors introduced by interpolation and integration techniques; numerical experiments for approximation accuracy; and using 23 years of FTSE 100 options data to explore the empirical properties of arithmetic variance (and higher moment) swaps. The FTSE 100 variance risk has a strong negative correlation with
+
+- [2016] ICMA Centre Discussion Papers in Finance DP2008-02
+    au: Carol Alexander, Leonardo M. Nogueira
+    src=None | article | c=0
+    doi=None | pmid=None | openalex=W7209202528
+    oa_url=None
+    pdf=None
+    ABS: There are two unique volatility surfaces associated with any arbitrage-free set of standard European option prices, the implied volatility surface and the local volatility surface. Several papers have discussed the stochastic differential equations for implied volatilities that are consistent with these option prices but the static and dynamic no-arbitrage conditions are complex, mainly due to the large (or even infinite) dimensions of the state probability space. These no-arbitrage conditions are also instrument-specific and have been specified for some simple classes of options. However, the problem is easier to resolve when we specify stochastic differential equations for local volatilities instead. And the option prices and hedge ratios that are obtained by making local volatility stochastic are identical to those obtained by making instantaneous volatility or implied volatility stoc
+
+- [2016] Diversification with volatility products
+    au: Carol Alexander, Dimitris Korovilas, Julia Kapraun
+    src=Journal of International Money and Finance | article | c=28
+    doi=https://doi.org/10.1016/j.jimonfin.2016.03.002 | pmid=None | openalex=W2296893781
+    oa_url=https://figshare.com/articles/journal_contribution/Diversification_with_volatility_products/23434436
+    pdf=None
+
+- [2016] Tail Risk Premia for Long-Term Equity Investors
+    au: Johannes Rauch, Carol Alexander
+    src=RePEc: Research Papers in Economics | preprint | c=2
+    doi=https://doi.org/10.48550/arxiv.1602.00865 | pmid=None | openalex=W2252928489
+    oa_url=https://arxiv.org/pdf/1602.00865
+    pdf=https://arxiv.org/pdf/1602.00865
+    ABS: We use the P&L on a particular class of swaps, representing variance and higher moments for log returns, as estimators in our empirical study on the S&P500 that investigates the factors determining variance and higher-moment risk premia. This class is the discretisation invariant sub-class of swaps with Neuberger's aggregating characteristics. Besides the market excess return, momentum is the dominant driver for both skewness and kurtosis risk premia, which exhibit a highly significant negative correlation. By contrast, the variance risk premium responds positively to size and negatively to growth, and the correlation between variance and tail risk premia is relatively low compared with previous research, particularly at high sampling frequencies. These findings extend prior research on determinants of these risk premia. Furthermore, our meticulous data-construction methodology avoids un
+
+- [2016] Model-Free Discretisation-Invariant Swap Contracts
+    au: Carol Alexander, Johannes Rauch
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.48550/arxiv.1602.00235 | pmid=None | openalex=W2268532204
+    oa_url=https://arxiv.org/pdf/1602.00235
+    pdf=https://arxiv.org/pdf/1602.00235
+    ABS: Realised pay-offs for discretisation-invariant swaps are those which satisfy a restricted `aggregation property' of Neuberger [2012] for twice continuously differentiable deterministic functions of a multivariate martingale. They are initially characterised as solutions to a second-order system of PDEs, then those pay-offs based on martingale and log-martingale processes alone form a vector space. Hence there exist an infinite variety of other variance and higher-moment risk premia that are less prone to bias than standard variance swaps because their option replication portfolios have no discrete-monitoring or jump errors. Their fair values are also independent of the monitoring partition. A sub-class consists of pay-offs with fair values that are further free from numerical integration errors over option strikes. Here exact pricing and hedging is possible via dynamic trading strategies
+
+- [2015] Trading and Investing in Volatility Products
+    au: Carol Alexander, Julia Kapraun, Dimitris Korovilas
+    src=Financial Markets Institutions and Instruments | article | c=36
+    doi=https://doi.org/10.1111/fmii.12032 | pmid=None | openalex=W1895544729
+    oa_url=https://figshare.com/articles/journal_contribution/Trading_and_investing_in_volatility_products/23432531
+    pdf=None
+    ABS: Since the banking crisis the market for volatility exchange‐traded products has developed rapidly as it opens to clients beyond the large institutional investor pool. Speculation is driven by increasingly complex leveraged and inverse exposures including those that attempt to trade on significant roll costs in volatility futures curves. Longer‐term investors use these products for the purposes of equity diversification, driven by fears of an ongoing Eurozone crisis. We survey the burgeoning academic literature in this area and present a comprehensive and up‐to‐date comparison of the market and statistical characteristics of European and US exchange‐traded volatility products.
+
+- [2015] Editorial Note: Letter from the Editors-in-Chief
+    au: Carol Alexander, Geert Bekaert
+    src=Journal of Banking & Finance | editorial | c=0
+    doi=https://doi.org/10.1016/j.jbankfin.2015.02.009 | pmid=None | openalex=W2011610924
+    oa_url=None
+    pdf=None
+
+- [2014] Risk-adjusted Valuation of the Real Option to Invest
+    au: Carol Alexander, Xi Chen
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=None | pmid=None | openalex=W3122914486
+    oa_url=None
+    pdf=None
+    ABS: The aim of this discussion paper series is to disseminate new research of academic distinction. Papers are preliminary drafts, circulated to stimulate discussion and critical comment. Henley Business School is triple accredited and home to over 100 academic faculty, who undertake research in a wide range of fields from ethics and finance to international business and marketing.
+
+- [2014] Overview of the Science implementation on Rosetta
+    au: C. Vallat, N. Altobelli, Mike Taylor, Carol Alexander, B. Grieger, Michael Kueppers, Brian J. Geiger, Richard Moissl
+    src=EPSC | article | c=0
+    doi=None | pmid=None | openalex=W3004746625
+    oa_url=None
+    pdf=None
+
+- [2014] Model-Free Discretisation-Invariant Swaps and S&P 500 Higher-Moment Risk Premia
+    au: Carol Alexander, Johannes Rauch
+    src=RePEc: Research Papers in Economics | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.2420051 | pmid=None | openalex=W1587505864
+    oa_url=https://arxiv.org/pdf/1404.1351
+    pdf=https://arxiv.org/pdf/1404.1351
+    ABS: We derive a general multivariate theory for realised characteristics of `model-free discretisation-invariant swaps', so-called because the standard no-arbitrage assumption of martingale forward prices is sufficient to derive fair-value swap rates for such characteristics which have no jump or discretisation errors. This theory underpins specific examples for swaps based on higher moments of a single log return distribution where exact replication is possible via option-implied `fundamental contracts' like the log contact. The common factors determining the S&P 500 risk premia associated with these higher-moment characteristics are investigated empirically at the daily, weekly and monthly frequencies.
+
+- [2014] A Markovian inventory system with retrial and impatient customers
+    au: Muthuraman Rajkumar, Carol Alexander, G. Arivarignan
+    src=International Journal of Operational Research | article | c=2
+    doi=https://doi.org/10.1504/ijor.2014.064542 | pmid=None | openalex=W2053166301
+    oa_url=None
+    pdf=None
+    ABS: We consider an inventory system in which the customers who arrive during the stock out period join an orbit of infinite size. The customers in the orbit are assumed not only to retry for their demand, may renege from the orbit at random time. This situation is modelled in this work by assuming Poisson arrivals for customers, exponential lead time for orders placed under (s, S) ordering policy, exponential time between successive attempts of retrial of a customer and exponential times for reneging by customers in the orbit. The condition for ergodicity of the system which is modelled as Markov processes is obtained. The joint probability distribution of the number of customers in the system and the inventory level is obtained in steady state case. The measures of system performance in the steady state are derived and the long run total expected cost rate is derived. The results are illust
+
+- [2014] Discretisation-Invariant Swaps
+    au: Carol Alexander, Johannes Rauch
+    src=SSRN Electronic Journal | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.2420051 | pmid=None | openalex=W2519942511
+    oa_url=https://doi.org/10.2139/ssrn.2420051
+    pdf=None
+
+- [2013] Volatility Exchange-Traded Notes: Curse or Cure?
+    au: Carol Alexander, Dimitris Korovilas
+    src=The Journal of Alternative Investments | article | c=57
+    doi=https://doi.org/10.3905/jai.2013.16.2.052 | pmid=None | openalex=W3123709229
+    oa_url=None
+    pdf=None
+    ABS: This is the first comprehensive study of VIX futures ETNs. This empirical research into their statistical characteristics motivates the development of a sub-class of these notes based on static and dynamic differential roll-yield trades. Results show that such notes provide very attractive risk and return characteristics, plus a new source of diversification for non-speculative investors. Moreover, scenario analysis demonstrates that banks may control ETN issues so that profits are virtually guaranteed net of hedging costs. However, there is a dark side to ETNs currently in issue, which stems from a few sub-optimal terms and conditions concerning early redemption values. These conditions underpin: i) the speculative front-running of hedging activity, which has very negative consequences for issuers; ii) a moral hazard problem, which is induced by the one-day notice period for early redem
+
+- [2013] Forecasting VaR using analytic higher moments for GARCH processes
+    au: Carol Alexander, Emese Lazar, Silvia Stanescu
+    src=International Review of Financial Analysis | article | c=34
+    doi=https://doi.org/10.1016/j.irfa.2013.05.006 | pmid=None | openalex=W2169500165
+    oa_url=https://figshare.com/articles/journal_contribution/Forecasting_VaR_using_analytic_higher_moments_for_GARCH_processes/23396876
+    pdf=None
+
+- [2013] Stochastic Volatility Jump‐Diffusions for European Equity Index Dynamics
+    au: Andreas Kaeck, Carol Alexander
+    src=European Financial Management | article | c=34
+    doi=https://doi.org/10.1111/j.1468-036x.2010.00613.x | pmid=None | openalex=W2131873228
+    oa_url=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1468-036X.2010.00613.x
+    pdf=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1468-036X.2010.00613.x
+    ABS: Abstract Major research on equity index dynamics has investigated only US indices (usually the S&P 500) and has provided contradictory results. In this paper a clarification and extension of that previous research is given. We find that European equity indices have quite different dynamics from the S&P 500. Each of the European indices considered may be satisfactorily modelled using either an affine model with price and volatility jumps or a GARCH volatility process without jumps. The S&P 500 dynamics are much more difficult to capture in a jump‐diffusion framework.
+
+- [2013] Continuous-time VIX dynamics: On the role of stochastic volatility of volatility
+    au: Andreas Kaeck, Carol Alexander
+    src=International Review of Financial Analysis | article | c=49
+    doi=https://doi.org/10.1016/j.irfa.2013.01.008 | pmid=None | openalex=W2110688373
+    oa_url=https://www.sciencedirect.com/science/article/pii/S1057521913000094
+    pdf=https://www.sciencedirect.com/science/article/pii/S1057521913000094
+
+- [2013] Risk-Adjusted Valuation for Real Option Decisions
+    au: Carol Alexander, Xi Chen, Charles W.R. Ward
+    src=SSRN Electronic Journal | preprint | c=0
+    doi=https://doi.org/10.2139/ssrn.2226352 | pmid=None | openalex=W2119559970
+    oa_url=https://doi.org/10.2139/ssrn.2226352
+    pdf=None
+
+- [2012] The (de)merits of minimum-variance hedging: Application to the crack spread
+    au: Carol Alexander, Marcel Prokopczuk, Anannit Sumawong
+    src=Energy Economics | article | c=50
+    doi=https://doi.org/10.1016/j.eneco.2012.11.016 | pmid=None | openalex=W3123941944
+    oa_url=https://figshare.com/articles/journal_contribution/The_de_merits_of_minimum-variance_hedging_application_to_the_crack_spread/23396090
+    pdf=None
+
+- [2012] Moving Average Models for Volatility and Correlation, and Covariance Matrices
+    au: Carol Alexander
+    src=Encyclopedia of Financial Models | reference-entry | c=0
+    doi=https://doi.org/10.1002/9781118182635.efm0113 | pmid=None | openalex=W4253319479
+    oa_url=None
+    pdf=None
+    ABS: The volatilities and correlations of the returns on a set of assets, risk factors, or interest rates are summarized in a covariance matrix. This matrix lies at the heart of risk and return analysis. It contains all the information necessary to estimate the volatility of a portfolio, to simulate correlated values for its risk factors, to diversify investments, and to obtain efficient portfolios that have the optimal trade-off between risk and return. Both risk managers and asset managers require covariance matrices that may include very many assets or risk factors. For instance, in a global risk management system of a large international bank all the major yield curves, equity indexes, foreign exchange rates, and commodity prices will be encompassed in one very large dimensional covariance matrix.
+
+- [2012] Further properties of random orthogonal matrix simulation
+    au: Daniel Ledermann, Carol Alexander
+    src=Mathematics and Computers in Simulation | article | c=10
+    doi=https://doi.org/10.1016/j.matcom.2012.07.013 | pmid=None | openalex=W1970726342
+    oa_url=https://figshare.com/articles/journal_contribution/Further_properties_of_random_orthogonal_matrix_simulation/23387912
+    pdf=None
+
+- [2012] Volatility dynamics for the S&P 500: Further evidence from non-affine, multi-factor jump diffusions
+    au: Andreas Kaeck, Carol Alexander
+    src=Journal of Banking & Finance | article | c=92
+    doi=https://doi.org/10.1016/j.jbankfin.2012.07.012 | pmid=None | openalex=W2043297682
+    oa_url=None
+    pdf=None
+
+- [2012] Quantile Uncertainty and Value‐at‐Risk Model Risk
+    au: Carol Alexander, José Marı́a Sarabia
+    src=Risk Analysis | article | c=84
+    doi=https://doi.org/10.1111/j.1539-6924.2012.01824.x | pmid=https://pubmed.ncbi.nlm.nih.gov/22594633 | openalex=W1776653857
+    oa_url=https://figshare.com/articles/journal_contribution/Quantile_uncertainty_and_value-at-risk_model_risk/23387915
+    pdf=None
+    ABS: This article develops a methodology for quantifying model risk in quantile risk estimates. The application of quantile estimates to risk assessment has become common practice in many disciplines, including hydrology, climate change, statistical process control, insurance and actuarial science, and the uncertainty surrounding these estimates has long been recognized. Our work is particularly important in finance, where quantile estimates (called Value-at-Risk) have been the cornerstone of banking risk management since the mid 1980s. A recent amendment to the Basel II Accord recommends additional market risk capital to cover all sources of "model risk" in the estimation of these quantiles. We provide a novel and elegant framework whereby quantile estimates are adjusted for model risk, relative to a benchmark which represents the state of knowledge of the authority that is responsible for m
+
+- [2012] ROM Simulation: Applications to Stress Testing and VaR
+    au: Carol Alexander, Dan Ledermann
+    src=SSRN Electronic Journal | preprint | c=8
+    doi=https://doi.org/10.2139/ssrn.2049239 | pmid=None | openalex=W1892398632
+    oa_url=https://doi.org/10.2139/ssrn.2049239
+    pdf=None
+
+- [2012] Volatility Exchange-Traded Notes: Curse or Cure?
+    au: Carol Alexander, Dimitris Korovilas
+    src=SSRN Electronic Journal | preprint | c=22
+    doi=https://doi.org/10.2139/ssrn.2062854 | pmid=None | openalex=W2054033382
+    oa_url=https://doi.org/10.2139/ssrn.2062854
+    pdf=None
+
+- [2012] A General Approach to Real Option Valuation with Application to Real Estate Investments
+    au: Carol Alexander, Xi Chen
+    src=SSRN Electronic Journal | preprint | c=9
+    doi=https://doi.org/10.2139/ssrn.1990957 | pmid=None | openalex=W2101412816
+    oa_url=https://doi.org/10.2139/ssrn.1990957
+    pdf=None
+
+- [2012] The (De)merits of Minimum-Variance Hedging: Application to the Crack Spread
+    au: Carol Alexander, Marcel Prokopczuk, Anannit Sumawong
+    src=SSRN Electronic Journal | preprint | c=10
+    doi=https://doi.org/10.2139/ssrn.1986047 | pmid=None | openalex=W2126789843
+    oa_url=https://doi.org/10.2139/ssrn.1986047
+    pdf=None
+
+- [2012] Diversification of Equity with VIX Futures: Personal Views and Skewness Preference
+    au: Carol Alexander, Dimitris Korovilas
+    src=SSRN Electronic Journal | preprint | c=15
+    doi=https://doi.org/10.2139/ssrn.2027580 | pmid=None | openalex=W2137250660
+    oa_url=https://doi.org/10.2139/ssrn.2027580
+    pdf=None
+
+- [2012] Understanding ETNs on VIX Futures
+    au: Carol Alexander, Dimitris Korovilas
+    src=SSRN Electronic Journal | preprint | c=24
+    doi=https://doi.org/10.2139/ssrn.2043061 | pmid=None | openalex=W2523854608
+    oa_url=https://doi.org/10.2139/ssrn.2043061
+    pdf=None
+
+- [2012] A General Approach to Real Option Valuation with Applications to Real Estate Investments
+    au: Carol Alexander, Xi Chen
+    src=RePEc: Research Papers in Economics | preprint | c=2
+    doi=None | pmid=None | openalex=W3122617364
+    oa_url=None
+    pdf=None
+    ABS: We model investment opportunities with a single source of uncertainty, i.e. the market price of the investment. Investment cost can be predetermined or perfectly correlated with the market price. The common paradigm for risk-neutral real-option pricing is a special case en- compassed within our general framework, and we analyse the relationship between standard real option prices and the more general risk-averse real option values. Numerical examples illustrate how these general values depend on the frequency of decision opportunities, the investor's risk tolerance and its sensitivity to wealth, his expected return and volatility of the underlying asset, and the price of the asset relative to initial wealth. Specific applications to real estate include property investment under 'boom-bust' or mean-reverting price scenarios, and buy-to-let or land-development opportunities.
+

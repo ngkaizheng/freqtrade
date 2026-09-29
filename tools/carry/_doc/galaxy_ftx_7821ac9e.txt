@@ -1,0 +1,255 @@
+SOURCE_URL: https://r.jina.ai/https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market
+HTTP: 200  LEN: 27029
+
+Title: 404
+
+URL Source: https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market
+
+Published Time: Mon, 04 Apr 2022 07:23:49 GMT
+
+Markdown Content:
+*   
+Necessary cookies are those cookies which a website could not operate without. They enable basic functions like page navigation and access to secure areas of the website.
+
+    *   [Cookiebot 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 1: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.cookiebot.com/goto/privacy-policy/ "Learn more about this provider Cookiebot's privacy policy - opens in a new window")**1.gif**Used to count the number of sessions to the website, necessary for optimizing CMP product delivery.
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker 
+    *   [Google 2](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 2: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**test_cookie**Used to check if the user's browser supports cookies.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie **_GRECAPTCHA**This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie  
+    *   [HubSpot 11](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 3: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://legal.hubspot.com/privacy-policy "Learn more about this provider HubSpot's privacy policy - opens in a new window")**cookietest[x3]**This cookie is used to determine if the visitor has accepted the cookie consent box.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie **embed/v3/counters.gif**Used to implement forms on the website.
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker **rc::a**This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **rc::b**This cookie is used to distinguish between humans and bots.
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **rc::c**This cookie is used to distinguish between humans and bots.
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **rc::d-15#**This cookie is used to distinguish between humans and bots.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **rc::f**This cookie is used to distinguish between humans and bots.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **_cfuvid[x2]**This cookie is a part of the services provided by Cloudflare - Including load-balancing, deliverance of website content and serving DNS connection for website operators.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie  
+    *   [LinkedIn 2](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 4: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.linkedin.com/legal/privacy-policy "Learn more about this provider LinkedIn's privacy policy - opens in a new window")**bcookie**Used in order to detect spam and improve the website's security.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie **li_gc**Stores the user's cookie consent state for the current domain
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie  
+    *   [Shop 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 5: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://shop.app/privacy "Learn more about this provider Shop's privacy policy - opens in a new window")**_shop_app_essential**Necessary for the shopping cart functionality on the website.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie 
+    *   [com galaxy.com shop.galaxy.com 3](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**_shopify_test[x3]**This cookie determines whether the browser accepts cookies.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie 
+    *   [consent.cookiebot.com bc.galaxy.com nft.galaxy.com 10](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**CookieConsent[x10]**Stores the user's cookie consent state for the current domain
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie 
+    *   [galaxy.com hcaptcha.com hsadspixel.net hs-banner.com hubspotusercontent-na1.net linkedin.com twitter.com w.hcaptcha.com walletlink.org x.com 18](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**__cf_bm[x18]**This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie 
+    *   [shop.galaxy.com 4](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**_shopify_essential**Necessary for the checkout function on the website.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie **cart_currency**The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.
+
+**Maximum Storage Duration**: 14 days**Type**: HTTP Cookie **consentHeader**Stores the user's cookie consent state for the current domain
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **login_with_shop_finalize**This cookie is used in conjunction with the payment window - The cookie is necessary for making secure transactions on the website.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie  
+    *   [www.galaxy.com 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**cache-sprite-plyr**This cookie is necessary for the cache function. A cache is used by the website to optimize the response time between the visitor and the website. The cache is usually stored on the visitor’s browser.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage 
+
+*   
+Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in, and provide enhanced, more personalized features.
+
+    *   [LinkedIn 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 6: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.linkedin.com/legal/privacy-policy "Learn more about this provider LinkedIn's privacy policy - opens in a new window")**lidc**Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie 
+    *   [Spotify 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 7: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.spotify.com/uk/legal/privacy-policy/ "Learn more about this provider Spotify's privacy policy - opens in a new window")**loglevel**Maintains settings and outputs when using the Developer Tools Console on current session.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage 
+    *   [am.galaxy.com fast.wistia.net www.galaxy.com 3](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**wistia-video-progress-#[x3]**Contains a timestamp for the website’s video-content. This allows the user to resume watching without having to start over, if the user leaves the video or website.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage 
+    *   [am.galaxy.com funds.galaxy.com interactive.galaxy.com nft.galaxy.com ventures.galaxy.com ventures.thoriumdigital.org visiontrack.galaxy.com www.galaxy.com 8](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**adroll#adroll[x8]**Stores the user's cookie consent state for the current domain
+
+**Maximum Storage Duration**: Persistent**Type**: IndexedDB 
+    *   [shop.galaxy.com 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**localization**Holds the users timezone.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie 
+
+*   
+Statistical cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously. These analytics cookies, along with other information, allow websites to calculate the aggregate number of people using a website and which features of a website are most popular.
+
+    *   [Google 4](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 8: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**_ga[x2]**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+
+**Maximum Storage Duration**: 2 years**Type**: HTTP Cookie **_ga_#[x2]**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.
+
+**Maximum Storage Duration**: 2 years**Type**: HTTP Cookie  
+    *   [Hotjar 8](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 9: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.hotjar.com/legal/policies/privacy/ "Learn more about this provider Hotjar's privacy policy - opens in a new window")**_hjSession_#[x2]**Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie **_hjSessionUser_#[x2]**Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie **_hjTLDTest[x2]**Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie **hjActiveViewportIds**This cookie contains an ID string on the current session. This contains non-personal information on what subpages the visitor enters – this information is used to optimize the visitor's experience.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **hjViewportId**Saves the user's screen size in order to adjust the size of images on the website.
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage  
+    *   [HubSpot 4](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 10: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://legal.hubspot.com/privacy-policy "Learn more about this provider HubSpot's privacy policy - opens in a new window")**__hssc**Identifies if the cookie data needs to be updated in the visitor's browser.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie **__hssrc**Used to recognise the visitor's browser upon reentry on the website.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie **__hstc**Sets a unique ID for the session. This allows the website to obtain data on visitor behaviour for statistical purposes.
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie **hubspotutk**Sets a unique ID for the session. This allows the website to obtain data on visitor behaviour for statistical purposes.
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie  
+    *   [am.galaxy.com fast.wistia.net www.galaxy.com 3](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**wistia[x3]**Used by the website to track the visitor's use of video-content - The cookie roots from Wistia, which provides video-software to websites.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage 
+    *   [am.galaxy.com visiontrack.galaxy.com www.galaxy.com js.hs-scripts.com 4](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**hs-cta-interactions#cta[x4]**Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.
+
+**Maximum Storage Duration**: Persistent**Type**: IndexedDB 
+    *   [embed-cdn.spotifycdn.com 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**sentryReplaySession**Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization.
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage 
+    *   [shop.galaxy.com 2](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**_shopify_analytics**Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie **recently-viewed**Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  
+    *   [www.galaxy.com am.galaxy.com funds.galaxy.com 3](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**utm_params[x3]**Pending
+
+**Maximum Storage Duration**: 30 days**Type**: HTTP Cookie 
+
+*   
+Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual users and thereby more valuable for publishers and third party advertisers.
+
+    *   [Meta Platforms, Inc. 3](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 11: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.facebook.com/policy.php/ "Learn more about this provider  Meta Platforms, Inc.'s privacy policy - opens in a new window")**lastExternalReferrer**Detects how the user reached the website by registering their last URL-address.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **lastExternalReferrerTime**Detects how the user reached the website by registering their last URL-address.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **_fbp**Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.
+
+**Maximum Storage Duration**: 3 months**Type**: HTTP Cookie  
+    *   [Adroll Group 3](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 12: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.nextroll.com/privacy "Learn more about this provider Adroll Group's privacy policy - opens in a new window")**adroll_dqs**Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products.
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **adroll_flgs**Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers.
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **__adroll_consent_params**Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie  
+    *   [Google 6](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 13: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**IDE**Used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.
+
+**Maximum Storage Duration**: 400 days**Type**: HTTP Cookie **_gcl_au[x2]**Used to measure the efficiency of the website’s advertisement efforts, by collecting data on the conversion rate of the website’s ads across multiple websites.
+
+**Maximum Storage Duration**: 3 months**Type**: HTTP Cookie **pagead/1p-conversion/#/**Tracks the conversion rate between the user and the advertisement banners on the website - This serves to optimise the relevance of the advertisements on the website.
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker **pagead/1p-user-list/#**Tracks if the user has shown interest in specific products or events across multiple websites and detects how the user navigates between sites. This is used for measurement of advertisement efforts and facilitates payment of referral-fees between websites.
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker **_gcl_ls**Tracks the conversion rate between the user and the advertisement banners on the website - This serves to optimise the relevance of the advertisements on the website.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  
+    *   [HubSpot 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 14: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://legal.hubspot.com/privacy-policy "Learn more about this provider HubSpot's privacy policy - opens in a new window")**__ptq.gif**Sends data to the marketing platform Hubspot about the visitor's device and behaviour. Tracks the visitor across devices and marketing channels.
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker 
+    *   [Reddit 11](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 15: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.redditinc.com/policies/privacy-policy "Learn more about this provider Reddit's privacy policy - opens in a new window")**rp.gif**Necessary for the implementation of the Reddit.com's share-button function.
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker **_rdt_uuid[x10]**Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie  
+    *   [Spotify 2](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 16: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.spotify.com/uk/legal/privacy-policy/ "Learn more about this provider Spotify's privacy policy - opens in a new window")**sp_landing**Used to implement audio-content from Spotify on the website. Can also be used to register user interaction and preferences in context with audio-content - This can serve statistics and marketing purposes.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie **sp_t**Used to implement audio-content from Spotify on the website. Can also be used to register user interaction and preferences in context with audio-content - This can serve statistics and marketing purposes.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie  
+    *   [YouTube 10](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 17: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider YouTube's privacy policy - opens in a new window")**__Secure-ROLLOUT_TOKEN**Used to track user’s interaction with embedded content.
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie **__Secure-YEC**Stores the user's video player preferences using embedded YouTube video
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie **__Secure-YNID**Used to track user’s interaction with embedded content.
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie **LAST_RESULT_ENTRY_KEY**Used to track user’s interaction with embedded content.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie **LogsDatabaseV2:V#||LogsRequestsStore**Used to track user’s interaction with embedded content.
+
+**Maximum Storage Duration**: Persistent**Type**: IndexedDB **TESTCOOKIESENABLED**Used to track user’s interaction with embedded content.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie **VISITOR_INFO1_LIVE**Tries to estimate the users' bandwidth on pages with integrated YouTube videos.
+
+**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie **YSC**Registers a unique ID to keep statistics of what videos from YouTube the user has seen.
+
+**Maximum Storage Duration**: Session**Type**: HTTP Cookie **yt-icons-last-purged**Necessary for the implementation and functionality of YouTube video-content on the website.
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **YtIdbMeta#databases**Used to track user’s interaction with embedded content.
+
+**Maximum Storage Duration**: Persistent**Type**: IndexedDB  
+    *   [galaxy.com 2](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**_shopify_s**Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.
+
+**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie **_shopify_y**Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie  
+    *   [shop.galaxy.com 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**_shopify_marketing**Contains data on the content of the shopping cart. This data is used for marketing purposes by promoting related products or for retargeting purposes.
+
+**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie 
+
+*   Includes security cookies help keep your account, data and the Site safe and secure. 
+
+    *   [Google 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 18: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**__gcl_au**Pending
+
+**Maximum Storage Duration**: 3 months**Type**: HTTP Cookie  
+    *   [Twitter Inc. 1](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)[Learn more about this provider![Image 19: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://twitter.com/en/privacy "Learn more about this provider Twitter Inc.'s privacy policy - opens in a new window")**i/jot/embeds**Pending
+
+**Maximum Storage Duration**: Session**Type**: Pixel Tracker 
+    *   [embed-cdn.spotifycdn.com 5](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**ES|#|EVENT|#**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **ES|#|GLOBAL_SEQ_NUM**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **ES|#|INSTALLATION_ID**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **ES|#|SEQ_NUM|#**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **ES|#|STORAGE_ID**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  
+    *   [nft.galaxy.com 5](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**wagmi.store**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **-walletlink:https://www.walletlink.org:session:id**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **-walletlink:https://www.walletlink.org:session:linked**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **-walletlink:https://www.walletlink.org:session:secret**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **-walletlink:https://www.walletlink.org:version**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  
+    *   [shop.galaxy.com 6](https://www.galaxy.com/insights/research/ftx-alameda-and-the-crypto-bear-market#)**__shopify_agent_context_events**Pending
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **_shs_state**Pending
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **ri-#**Pending
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage **signInWithShop:cartSyncTransferAttemptedAt**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **signInWithShop:cartSyncTransferCompletedAt**Pending
+
+**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage **wpm-ri-#**Pending
+
+**Maximum Storage Duration**: Session**Type**: HTML Local Storage

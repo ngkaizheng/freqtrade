@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1080" viewBox="0 0 1220 1080" font-family="Microsoft YaHei, Segoe UI, SimHei, sans-serif">
+<rect width="1220" height="1080" fill="#ffffff"/>
+<text x="610.0" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">H2 检验：分层暴露 100/75/50 能否同时拿到「快保护 + 低摩擦」？</text>
+<text x="610.0" y="52" text-anchor="middle" font-size="12" fill="#666">预注册冻结　MA200+MA50 固定　四臂对比　四资产 × 三层　成本 10/20/50bps</text>
+<text x="610.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#a00">判定：不支持 H2 —— 机制假设 0/4（Research）与 0/4（Validation）</text>
+<text x="80" y="98" font-size="13.5" font-weight="bold" fill="#111">① 风险端（横）vs 摩擦端（纵）—— 理想在左下</text>
+<rect x="80" y="108" width="500" height="280" fill="#fcfcfc" stroke="#e0e0e0"/>
+<line x1="80.0" y1="108" x2="80.0" y2="388" stroke="#eee"/>
+<text x="80.0" y="404" text-anchor="middle" font-size="9.5" fill="#666">-20%</text>
+<line x1="163.3" y1="108" x2="163.3" y2="388" stroke="#eee"/>
+<text x="163.3" y="404" text-anchor="middle" font-size="9.5" fill="#666">-25%</text>
+<line x1="246.7" y1="108" x2="246.7" y2="388" stroke="#eee"/>
+<text x="246.7" y="404" text-anchor="middle" font-size="9.5" fill="#666">-30%</text>
+<line x1="330.0" y1="108" x2="330.0" y2="388" stroke="#eee"/>
+<text x="330.0" y="404" text-anchor="middle" font-size="9.5" fill="#666">-35%</text>
+<line x1="413.3" y1="108" x2="413.3" y2="388" stroke="#eee"/>
+<text x="413.3" y="404" text-anchor="middle" font-size="9.5" fill="#666">-40%</text>
+<line x1="496.7" y1="108" x2="496.7" y2="388" stroke="#eee"/>
+<text x="496.7" y="404" text-anchor="middle" font-size="9.5" fill="#666">-45%</text>
+<line x1="580.0" y1="108" x2="580.0" y2="388" stroke="#eee"/>
+<text x="580.0" y="404" text-anchor="middle" font-size="9.5" fill="#666">-50%</text>
+<line x1="80" y1="388.0" x2="580" y2="388.0" stroke="#f4f4f4"/>
+<text x="72" y="392.0" text-anchor="end" font-size="9.5" fill="#666">0</text>
+<line x1="80" y1="341.3" x2="580" y2="341.3" stroke="#f4f4f4"/>
+<text x="72" y="345.3" text-anchor="end" font-size="9.5" fill="#666">1</text>
+<line x1="80" y1="294.7" x2="580" y2="294.7" stroke="#f4f4f4"/>
+<text x="72" y="298.7" text-anchor="end" font-size="9.5" fill="#666">2</text>
+<line x1="80" y1="248.0" x2="580" y2="248.0" stroke="#f4f4f4"/>
+<text x="72" y="252.0" text-anchor="end" font-size="9.5" fill="#666">3</text>
+<line x1="80" y1="201.3" x2="580" y2="201.3" stroke="#f4f4f4"/>
+<text x="72" y="205.3" text-anchor="end" font-size="9.5" fill="#666">4</text>
+<line x1="80" y1="154.7" x2="580" y2="154.7" stroke="#f4f4f4"/>
+<text x="72" y="158.7" text-anchor="end" font-size="9.5" fill="#666">5</text>
+<line x1="80" y1="108.0" x2="580" y2="108.0" stroke="#f4f4f4"/>
+<text x="72" y="112.0" text-anchor="end" font-size="9.5" fill="#666">6</text>
+<text x="330" y="422" text-anchor="middle" font-size="10.5" fill="#555">最大回撤（越左越好）</text>
+<text x="24" y="248" font-size="10.5" fill="#555" text-anchor="middle" transform="rotate(-90 24 248)">换手（越低越好）</text>
+<circle cx="308.6" cy="388.0" r="4" fill="#888888" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="173.4" cy="263.5" r="4" fill="#1f77b4" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="280.8" cy="356.9" r="4" fill="#2ca02c" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="227.2" cy="302.4" r="6" fill="#d62728" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<text x="227.2" y="292.4" text-anchor="middle" font-size="10" font-weight="bold" fill="#d62728">SPY</text>
+<circle cx="222.7" cy="388.0" r="4" fill="#888888" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="163.2" cy="240.1" r="4" fill="#1f77b4" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="206.1" cy="356.9" r="4" fill="#2ca02c" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="184.4" cy="282.9" r="6" fill="#d62728" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<text x="184.4" y="272.9" text-anchor="middle" font-size="10" font-weight="bold" fill="#d62728">QQQ</text>
+<circle cx="432.2" cy="388.0" r="4" fill="#888888" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="311.8" cy="177.9" r="4" fill="#1f77b4" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="498.3" cy="356.9" r="4" fill="#2ca02c" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="405.5" cy="228.4" r="6" fill="#d62728" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<text x="405.5" y="218.4" text-anchor="middle" font-size="10" font-weight="bold" fill="#d62728">IWM</text>
+<circle cx="383.4" cy="388.0" r="4" fill="#888888" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="266.5" cy="142.8" r="4" fill="#1f77b4" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="368.5" cy="353.0" r="4" fill="#2ca02c" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<circle cx="323.0" cy="205.1" r="6" fill="#d62728" fill-opacity="0.85" stroke="#fff" stroke-width="1"/>
+<text x="323.0" y="195.1" text-anchor="middle" font-size="10" font-weight="bold" fill="#d62728">EEM</text>
+<circle cx="94" cy="336" r="5" fill="#888888"/>
+<text x="104" y="340" font-size="10" fill="#333">BH(一直持有)</text>
+<circle cx="212" cy="336" r="5" fill="#1f77b4"/>
+<text x="222" y="340" font-size="10" fill="#333">Close→50%</text>
+<circle cx="330" cy="336" r="5" fill="#2ca02c"/>
+<text x="340" y="340" font-size="10" fill="#333">MA50→50%</text>
+<circle cx="448" cy="336" r="5" fill="#d62728"/>
+<text x="458" y="340" font-size="10" fill="#333">H2分层</text>
+<text x="640" y="98" font-size="13.5" font-weight="bold" fill="#111">② 归因：75% 中间态几乎不存在</text>
+<rect x="640" y="108" width="500" height="280" fill="#fcfcfc" stroke="#e0e0e0"/>
+<text x="656" y="132" font-size="11" fill="#333">Close&lt;MA200 的日子里，MA50 已经也在 MA200 下方的比例：</text>
+<text x="656" y="164" font-size="11" fill="#333">SPY</text>
+<rect x="690" y="152" width="265.8" height="14" fill="#1f77b4" fill-opacity="0.75"/>
+<text x="961.8" y="164" font-size="10" fill="#1f77b4">直接50%　95.1%</text>
+<rect x="690" y="168" width="64.2" height="14" fill="#d62728" fill-opacity="0.75"/>
+<text x="760.2" y="180" font-size="10" fill="#d62728">经历75%　4.9%</text>
+<text x="656" y="212" font-size="11" fill="#333">QQQ</text>
+<rect x="690" y="200" width="256.2" height="14" fill="#1f77b4" fill-opacity="0.75"/>
+<text x="952.2" y="212" font-size="10" fill="#1f77b4">直接50%　94.4%</text>
+<rect x="690" y="216" width="73.8" height="14" fill="#d62728" fill-opacity="0.75"/>
+<text x="769.8" y="228" font-size="10" fill="#d62728">经历75%　5.6%</text>
+<text x="656" y="260" font-size="11" fill="#333">IWM</text>
+<rect x="690" y="248" width="237.2" height="14" fill="#1f77b4" fill-opacity="0.75"/>
+<text x="933.2" y="260" font-size="10" fill="#1f77b4">直接50%　93.0%</text>
+<rect x="690" y="264" width="92.8" height="14" fill="#d62728" fill-opacity="0.75"/>
+<text x="788.8" y="276" font-size="10" fill="#d62728">经历75%　7.0%</text>
+<text x="656" y="308" font-size="11" fill="#333">EEM</text>
+<rect x="690" y="296" width="224.3" height="14" fill="#1f77b4" fill-opacity="0.75"/>
+<text x="920.3" y="308" font-size="10" fill="#1f77b4">直接50%　92.0%</text>
+<rect x="690" y="312" width="105.7" height="14" fill="#d62728" fill-opacity="0.75"/>
+<text x="801.7" y="324" font-size="10" fill="#d62728">经历75%　8.0%</text>
+<text x="656" y="354" font-size="10.5" fill="#666">→ 换手只降 25%（未达预注册 30% 阈值），回撤却落在 B 与 C 之间</text>
+<text x="656" y="372" font-size="10.5" fill="#a00" font-weight="bold">→ 结构性失败：两信号高度共线，分层无法解耦</text>
+<text x="80" y="478" font-size="13.5" font-weight="bold" fill="#111">③ 崩盘 episode：H2 的首次减仓时点是否快如 B？（SPY）</text>
+<rect x="80" y="488" width="1060" height="300" fill="#fcfcfc" stroke="#e0e0e0"/>
+<text x="96" y="514" font-size="10.5" font-weight="bold" fill="#555">Episode                     BH   Close→50%    MA50→50%      H2分层</text>
+<text x="96" y="534" font-size="10.5" fill="#333">2000-2002 互联网泡沫</text>
+<text x="310" y="534" font-size="10.5" fill="#555" font-weight="normal">未减仓</text>
+<text x="460" y="534" font-size="10.5" fill="#555" font-weight="normal">15</text>
+<text x="610" y="534" font-size="10.5" fill="#555" font-weight="normal">155</text>
+<text x="760" y="534" font-size="10.5" fill="#d62728" font-weight="bold">15</text>
+<text x="96" y="558" font-size="10.5" fill="#333">2007-2009 金融危机</text>
+<text x="310" y="558" font-size="10.5" fill="#555" font-weight="normal">未减仓</text>
+<text x="460" y="558" font-size="10.5" fill="#555" font-weight="normal">22</text>
+<text x="610" y="558" font-size="10.5" fill="#555" font-weight="normal">56</text>
+<text x="760" y="558" font-size="10.5" fill="#d62728" font-weight="bold">22</text>
+<text x="96" y="582" font-size="10.5" fill="#333">2020 新冠</text>
+<text x="310" y="582" font-size="10.5" fill="#555" font-weight="normal">未减仓</text>
+<text x="460" y="582" font-size="10.5" fill="#555" font-weight="normal">6</text>
+<text x="610" y="582" font-size="10.5" fill="#555" font-weight="normal">未减仓</text>
+<text x="760" y="582" font-size="10.5" fill="#d62728" font-weight="bold">6</text>
+<text x="96" y="606" font-size="10.5" fill="#333">2022 加息熊市</text>
+<text x="310" y="606" font-size="10.5" fill="#555" font-weight="normal">未减仓</text>
+<text x="460" y="606" font-size="10.5" fill="#555" font-weight="normal">13</text>
+<text x="610" y="606" font-size="10.5" fill="#555" font-weight="normal">50</text>
+<text x="760" y="606" font-size="10.5" fill="#d62728" font-weight="bold">13</text>
+<text x="96" y="634" font-size="10.5" fill="#666">（数字 = 峰值之后第几个交易日首次减仓；H2 与 B 完全相同 → 快信号确实生效）</text>
+<text x="96" y="654" font-size="10.5" fill="#a00">但 2020 新冠中 H2 谷底暴露 75% vs B 的 50%（MA50 未确认）→ 保护弱于 B</text>
+<text x="80" y="822" font-size="13.5" font-weight="bold" fill="#a00">★ 判定：不支持 H2（机制假设 0/4）</text>
+<text x="80" y="844" font-size="11.5" fill="#333">· 换手比 B 仅降 23-31%（预注册阈值 30%）—— 多数资产未达标</text>
+<text x="80" y="864" font-size="11.5" fill="#333">· 回撤差(D-B) 在 Validation 层 +1.27~+5.63pp（预注册阈值 3pp）—— 多数资产恶化</text>
+<text x="80" y="884" font-size="11.5" fill="#333">· H2 指标整体落在 B 与 C 之间：4/4 资产在两层都不满足机制假设</text>
+<text x="80" y="904" font-size="11.5" fill="#333">· 但快信号确实生效：崩盘中 H2 与 B 的首次减仓时点完全相同</text>
+<text x="80" y="924" font-size="11.5" fill="#333">· 根因：Close&lt;MA200 的日子里 75-78% 时 MA50 也已跌破 → 分层几乎不展开</text>
+</svg>

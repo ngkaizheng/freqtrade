@@ -1,0 +1,48 @@
+SOURCE_URL: https://r.jina.ai/https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Liquidation-Price-CALC
+HTTP: 200  LEN: 1884
+
+Title: Binance Developer Docs
+
+URL Source: https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Liquidation-Price-CALC
+
+Published Time: Fri, 25 Sep 2026 14:47:19 GMT
+
+Markdown Content:
+Ask AI about this page
+
+Feedback
+
+Welcome to the new Binance API documentation.Looking for the previous version?Switch to the legacy docs
+
+[![Image 1: Binance Developer Docs](https://developers.binance.com/en/docs/binance-logo.svg)![Image 2: Binance Developer Docs](https://developers.binance.com/en/docs/binance-logo.svg)](https://developers.binance.com/en/docs)
+
+Search
+
+Ctrl+K
+
+Ask AI
+
+[Legacy Docs](https://developers.binance.com/legacy-docs)
+
+🇬🇧EN
+
+Resources
+*   [Announcements](https://www.binance.com/en/support/announcement)
+*   [Terms](https://www.binance.com/en/terms)
+*   [Privacy](https://www.binance.com/en/about-legal/privacy-portal)
+
+Support
+*   [24/7 Chat Support](https://www.binance.com/en/chat?sourceEntry=4)
+*   [Support Center](https://www.binance.com/en/support)
+*   [Product Feedback](https://www.binance.com/en/my/user-support/feedback/entry)
+*   [Fees](https://www.binance.com/en/fee/trading)
+
+Agent Native
+*   [llms.txt](https://developers.binance.com/en/docs/llms.txt)
+*   [llms-full.txt](https://developers.binance.com/en/docs/llms-full.txt)
+*   [Agent Native](https://developers.binance.com/en/docs/agent-native/overview)
+
+![Image 3: Binance Developer Docs](https://developers.binance.com/en/docs/binance-logo.svg)![Image 4: Binance Developer Docs](https://developers.binance.com/en/docs/binance-logo.svg)
+© 2026 Binance.com. All rights reserved.
+
+[![Image 5: github](https://cdn.simpleicons.org/github/000000/ffffff)](https://github.com/binance)[![Image 6: x](https://cdn.simpleicons.org/x/000000/ffffff)](https://x.com/binance)[![Image 7: telegram](https://cdn.simpleicons.org/telegram/000000/ffffff)](https://t.me/binance_api_english)

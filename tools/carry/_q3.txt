@@ -1,0 +1,3 @@
+oa-raw filter=raw_author_name.search:Shamshuddeen~per-page=25
+oa-raw filter=raw_author_name.search:Poucet~per-page=25
+oa-raw filter=raw_author_name.search:Pauna~per-page=25

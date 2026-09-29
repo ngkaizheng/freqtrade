@@ -1,0 +1,10 @@
+binance_pm_announce	https://www.binance.com/en/support/announcement/binance-launches-portfolio-margin-mode-on-binance-futures-2022-04-20-360033525211
+binance_pm_faq	https://www.binance.com/en/support/faq/binance-portfolio-margin-mode-faq-360033525211
+binance_cross_margin_new	https://www.binance.com/en/support/faq/introduction-to-binance-futures-cross-margin-mode-360033525211
+devdocs_liqprice_alt	https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Liquidation-Price-CALC
+devdocs_margin_leverage	https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Change-Initial-Leverage
+binance_leverage_tiers	https://www.binance.com/en/futures/trading-rules/liq-price
+binance_pm_overview	https://www.binance.com/en/margin-trade/portfolio-margin
+devdocs_pm	https://developers.binance.com/docs/derivatives/usd-m-portfolio-margin
+binance_spot_margin_sep	https://www.binance.com/en/support/faq/binance-margin-faq-360033749211
+binance_futures_spot_sep	https://www.binance.com/en/support/faq/binance-account-system-360033749231

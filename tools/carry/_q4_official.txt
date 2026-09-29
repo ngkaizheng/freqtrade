@@ -1,0 +1,18 @@
+##### IOSCO-PD747 [200] chars=332566
+
+##### CFTC-9100-24 [200] chars=437
+  (too short / blocked)
+
+##### FSB-GRF [404] chars=181
+  (too short / blocked)
+
+##### BIS-AER-2021-Ch3 [200] chars=77551
+  [not own] 1 hits
+   >>> ...ions is the lack of universal access to digital payment services. Access to bank and non-bank transaction accounts has improved dramatically over the past several decades, in particular in emerging market and developing economies (EMDEs). 12 Yet in many countries, a large share of adults still have no access to digital payment options. Even in advanced economies, some users lack payment cards and smartphones to make digital payments, participate in e-commerce and receive transfers (such as government-to-person payments). For instance, in the United States, over 5% of households were unbanked in 2019, and 14% of adults did not use a payment card in 2017. In France, in 2017, 13% of adults did not own a mobile phone. 13 Lower-income individuals, the homeless, migrants and other vulnerable groups are most likely to rely on cash. Due in part to market power and low expected margins, private PSPs often do not cater sufficiently to these groups. Remedies may necessitate public policy support as digital payments become more dominant. Graph III.3 The availability of massive amounts of user data gives rise to another important issue – that of data governance. Access to data confers competitive advantages that may entrench market power. Beyond the economic consequences, ensuring privacy against unjustified intrusion by both commercial and government actors has the attributes of a basic right. For these reasons, the issue of data governance has emerged as a key public policy concern. When US consumers were asked in a representative survey whom they trust with safeguarding their persona...
+   ---
+
+##### BoE-FSR-2024 [404] chars=1045
+
+##### ESMA-crypto [404] chars=66
+  (too short / blocked)
+

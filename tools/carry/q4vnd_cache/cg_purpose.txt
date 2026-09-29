@@ -1,0 +1,59 @@
+### URL: https://www.coinglass.com/learn/what-is-the-purpose-of-a-funding-rate
+### STATUS: 200 CT: text/html; charset=utf-8
+
+Legend
+ NEW
+
+ API 
+ Download APP 
+
+ Market
+ Stocks
+ Exchanges
+ Open Interest Funding Rate
+ Liquidation
+ Data
+ Supercharts
+ Legend
+ Watchlist More
+
+ Search
+
+ /
+
+ Login 
+
+ Learning Center 
+ ›
+ Cryptocurrency Futures Guide 
+ 
+ What is the purpose of a funding rate?
+
+ Related Content
+
+ What is the purpose of a funding rate?
+ The purpose of a funding rate in perpetual futures contracts is to ensure that the price of the contract stays close to the underlying asset’s price. The funding rate achieves this by adjusting the cost of holding a long or short position in the contract relative to the underlying asset’s price.
+ In a perpetual futures contract, long and short positions are held indefinitely, and their funding costs are periodically adjusted according to the funding rate. If the contract’s price is higher than the underlying asset’s price, long positions pay funding to short positions, and vice versa.
+ The funding rate encourages traders to keep the contract price close to the underlying asset’s price by making it more expensive to hold a long position when the contract’s price is higher than the underlying asset’s price, and vice versa. By doing so, the funding rate helps prevent the contract price from deviating too far from the underlying asset’s price.
+ The funding rate also serves as a mechanism to discourage market manipulation, as traders who attempt to manipulate the contract price will face increased funding costs. This helps maintain market stability and fairness.
+ In summary, the purpose of a funding rate in perpetual futures contracts is to maintain the contract price close to the underlying asset’s price and prevent market manipulation. It achieves this by adjusting the cost of holding a long or short position in the contract relative to the underlying asset’s price.
+
+ Market
+
+ Exchanges
+
+ Search
+
+ More
+
+ APP
+
+ About About Us Contact Us Disclaimer Terms of Use Privacy Policy 
+
+ Products Stocks Legend APP API Chart 
+
+ More Learning Center Alerts Cookie Preferences 
+
+ Community X(Twitter) Telegram 
+
+ © 2026 CoinGlass, all rights reserved

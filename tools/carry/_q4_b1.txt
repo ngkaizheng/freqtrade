@@ -1,0 +1,262 @@
+===== OPENALEX: Tokenomics of perpetual futures [200]
+count=25
+- [2025] Stablecoin devaluation risk | European Journal of Finance | type=article | cites=35 | doi=https://doi.org/10.1080/1351847x.2025.2505757 | oa=https://www.tandfonline.com/doi/pdf/10.1080/1351847X.2025.2505757?needAccess=true
+- [2026] Speculative and circular design applied to oceanic health and wellbeing – Envisioning possible futures with OZEAON project | The Design Journal | type=article | cites=1 | doi=https://doi.org/10.1080/14606925.2026.2653184 | oa=https://www.tandfonline.com/doi/pdf/10.1080/14606925.2026.2653184?needAccess=true
+- [2026] Beyond pure hype: news sentiment and its role in the BTC and ETH futures market | Review of Derivatives Research | type=article | cites=1 | doi=https://doi.org/10.1007/s11147-025-09223-6 | oa=https://link.springer.com/content/pdf/10.1007/s11147-025-09223-6.pdf
+- [2022] Systematization of Knowledge: Synthetic Assets, Derivatives, and On-Chain Portfolio Management | RePEc: Research Papers in Economics | type=preprint | cites=2 | doi=https://doi.org/10.48550/arxiv.2209.09958 | oa=https://arxiv.org/pdf/2209.09958
+- [2026] The Regulatory Waterbed: Unilateral Leverage Caps and the Contamination of a Shared Perpetual-Futures Settlement Index | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.7012398 | oa=https://papers.ssrn.com/sol3/Delivery.cfm/7012398.pdf?abstractid=7012398&mirid=1
+- [2024] Speculating on Blockchain as an Unstoppable ‘Nature’ Towards the Emergence of Artificial Life | None | type=conference-paper | cites=4 | doi=https://doi.org/10.1162/isal_a_00818 | oa=https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/127/2461187/isal_a_00818.pdf
+- [2026] Determinants of wash trading in major cryptoexchanges | International Review of Financial Analysis | type=article | cites=2 | doi=https://doi.org/10.1016/j.irfa.2026.105283 | oa=https://www.sciencedirect.com/science/article/pii/S1057521926002103/pdf
+- [2025] Transactive energy and peer-to-peer energy trading based on blockchain: A comprehensive review and a generalized cyber-physical framework | Energy Strategy Reviews | type=article | cites=12 | doi=https://doi.org/10.1016/j.esr.2025.101949 | oa=https://doi.org/10.1016/j.esr.2025.101949
+- [2024] SoK: Decentralized Finance (DeFi) -- Fundamentals, Taxonomy and Risks | arXiv (Cornell University) | type=preprint | cites=3 | doi=https://doi.org/10.48550/arxiv.2404.11281 | oa=https://arxiv.org/pdf/2404.11281
+- [2025] Establishing a Contribution: Calibration, Contextualization, Construction and Creation | British Journal of Management | type=article | cites=8 | doi=https://doi.org/10.1111/1467-8551.12910 | oa=https://doi.org/10.1111/1467-8551.12910
+
+===== OPENALEX: Transaction Convenience Yield Uncovered Interest Parity cryptocurrency [200]
+count=44
+- [2024] Essays in International Finance | None | type=dissertation | cites=122 | doi=https://doi.org/10.22439/phd.15.2024 | oa=https://research.cbs.dk/files/101779241/julian_fernandez_meji_phd_series_15_2024.pdf
+- [2019] Implementation of technical analysis on selected cryptocurrencies | Dspace Repository (Marmara Üniversitesi) | type=dissertation | cites=2 | doi=None | oa=https://katalog.marmara.edu.tr/veriler/yordambt/cokluortam/3B/5ddbd4a5b3121.pdf
+- [2019] The International Monetary and Financial System | Annual Review of Economics | type=review | cites=124 | doi=https://doi.org/10.1146/annurev-economics-080217-053518 | oa=https://www.annualreviews.org/doi/pdf/10.1146/annurev-economics-080217-053518
+- [2025] The Tokenomics of Staking | National Bureau of Economic Research | type=report | cites=14 | doi=https://doi.org/10.3386/w33640 | oa=https://doi.org/10.3386/w33640
+- [None] Central bank digital currency in an open economy | RePEc: Research Papers in Economics | type=preprint | cites=47 | doi=None | oa=https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp2488~fede33ca65.en.pdf
+- [2022] A Systematic Literature Review of Blockchain Technology Adoption in Bangladesh | Annals of Emerging Technologies in Computing | type=review | cites=18 | doi=https://doi.org/10.33166/aetic.2022.01.001 | oa=http://aetic.theiaer.org/archive/v6/v6n1/p1.pdf
+- [2023] The external financial spillovers of CBDCs | Journal of Economic Dynamics and Control | type=article | cites=16 | doi=https://doi.org/10.1016/j.jedc.2023.104801 | oa=https://www.sciencedirect.com/science/article/pii/S0165188923002075
+- [2023] Quantum Monte Carlo simulations for estimating FOREX markets: a speculative attacks experience | Humanities and Social Sciences Communications | type=article | cites=14 | doi=https://doi.org/10.1057/s41599-023-01836-2 | oa=https://www.nature.com/articles/s41599-023-01836-2.pdf
+- [2019] The International Monetary and Financial System | National Bureau of Economic Research | type=report | cites=20 | doi=https://doi.org/10.3386/w25782 | oa=https://doi.org/10.3386/w25782
+- [2024] Pricing green financial options under the mixed fractal Brownian motions with jump diffusion environment | AIMS Mathematics | type=article | cites=3 | doi=https://doi.org/10.3934/math.20241044 | oa=http://www.aimspress.com/aimspress-data/math/2024/8/PDF/math-09-08-1044.pdf
+
+===== OPENALEX: Crypto Carry Schmeling Schrimpf Todorov [200]
+count=17
+- [2025] The Tokenomics of Staking | National Bureau of Economic Research | type=report | cites=14 | doi=https://doi.org/10.3386/w33640 | oa=https://doi.org/10.3386/w33640
+- [2025] Stablecoin devaluation risk | European Journal of Finance | type=article | cites=35 | doi=https://doi.org/10.1080/1351847x.2025.2505757 | oa=https://www.tandfonline.com/doi/pdf/10.1080/1351847X.2025.2505757?needAccess=true
+- [2024] The second extended model of consumer trust in cryptocurrency payments, CRYPTOTRUST 2 | Frontiers in Blockchain | type=article | cites=11 | doi=https://doi.org/10.3389/fbloc.2024.1220031 | oa=https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2024.1220031/pdf
+- [2024] The Economics of Liquid Staking Derivatives: Basis Determinants and Price Discovery | Journal of Futures Markets | type=article | cites=13 | doi=https://doi.org/10.1002/fut.22556 | oa=https://doi.org/10.1002/fut.22556
+- [2024] Perpetual Futures Pricing | National Bureau of Economic Research | type=report | cites=8 | doi=https://doi.org/10.3386/w32936 | oa=https://doi.org/10.3386/w32936
+- [2024] Market Neutral Liquidity Provision | Ledger | type=article | cites=2 | doi=https://doi.org/10.5195/ledger.2024.389 | oa=https://ledger.pitt.edu/ojs/ledger/article/download/389/281
+- [2026] Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing | arXiv (Cornell University) | type=preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2609.04917 | oa=https://arxiv.org/pdf/2609.04917
+- [2026] Implied ETF Carry Rates and the Limits of Arbitrage in Segmented Bitcoin Markets | arXiv (Cornell University) | type=preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2605.29309 | oa=https://arxiv.org/pdf/2605.29309
+- [2026] Separating Event Intensity from Fixed Funding Carry: Evidence from Perpetual Futures and Credit Markets | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.7143718 | oa=https://doi.org/10.2139/ssrn.7143718
+- [2024] Twitter-Based Attention and the Cross-Section of Cryptocurrency Returns | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.5010136 | oa=https://doi.org/10.2139/ssrn.5010136
+
+===== CROSSREF: Tokenomics of perpetual futures Cong [200]
+- [2020] Tokenomics: Dynamic Adoption and Valuation |  | type=report | doi=10.3386/w27222 | Cong, Li, Wang
+- [2025] The Tokenomics of Staking |  | type=posted-content | doi=10.2139/ssrn.5207587 | Cong, He, Tang
+- [2018] Tokenomics: Dynamic Adoption and Valuation |  | type=posted-content | doi=10.2139/ssrn.3153860 | Cong, Li, Wang
+- [2018] Tokenomics: Dynamic Adoption and Valuation |  | type=posted-content | doi=10.2139/ssrn.3222802 | Cong, Li, Wang
+- [2025] The Tokenomics of Staking |  | type=report | doi=10.3386/w33640 | Cong, He, Tang
+- [2022] The Tokenomics of Staking |  | type=posted-content | doi=10.2139/ssrn.4059460 | Cong, He, Tang
+- [2018] Blockchain and Tokenomics | COJ Reviews and Research | type=journal-article | doi=10.31031/cojrr.2018.01.000505 | Cong
+- [2023] Pricing Perpetual Futures |  | type=posted-content | doi=10.2139/ssrn.4573912 | Jermann
+
+===== CROSSREF: Transaction Convenience Yield Uncovered Interest Parity crypto perpetual futures [429]
+
+
+===== OPENALEX: cryptocurrency perpetual futures liquidations cascade [200]
+count=42
+- [2021] Towards Understanding Cryptocurrency Derivatives:A Case Study of BitMEX | None | type=conference-paper | cites=28 | doi=https://doi.org/10.1145/3442381.3450059 | oa=https://dl.acm.org/doi/pdf/10.1145/3442381.3450059
+- [2022] The Financial Stability Implications of Digital Assets | SSRN Electronic Journal | type=preprint | cites=51 | doi=https://doi.org/10.2139/ssrn.4234695 | oa=https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4234695
+- [2026] Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6639558 | oa=https://doi.org/10.2139/ssrn.6639558
+- [2026] Transparency vs. Liquidity Provision in Perpetual Futures Markets: A Market Design Framework with Hidden Liquidity | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6660119 | oa=https://doi.org/10.2139/ssrn.6660119
+- [2026] Forced Liquidation Cascades in Unregulated Perpetual Futures Markets: Evidence from $176.6 Billion in Forced Position Exits | Zenodo (CERN European Organization for Nuclear Research) | type=article | cites=0 | doi=https://doi.org/10.5281/zenodo.19975148 | oa=https://doi.org/10.5281/zenodo.19975148
+- [2026] Forced Liquidation Cascades in Unregulated Perpetual Futures Markets: Evidence from $176.6 Billion in Forced Position Exits | Zenodo (CERN European Organization for Nuclear Research) | type=article | cites=0 | doi=https://doi.org/10.5281/zenodo.19975149 | oa=https://doi.org/10.5281/zenodo.19975149
+- [2026] When the Underlying Goes Dark: Oracle Forecast Error and Mechanism Failure in Perpetual Futures on Chinese Equities | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.7011358 | oa=https://doi.org/10.2139/ssrn.7011358
+- [2026] Anatomy of a Crypto Cascade: Minute-Level Evidence from the October 2025 Crash | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6579278 | oa=https://doi.org/10.2139/ssrn.6579278
+- [2021] On the Intraday Behavior of Bitcoin | Ledger | type=article | cites=1 | doi=https://doi.org/10.5195/ledger.2021.213 | oa=https://ledger.pitt.edu/ojs/ledger/article/download/213/212
+- [2023] Is your digital neighbor a reliable investment advisor? | None | type=conference-paper | cites=2 | doi=https://doi.org/10.1145/3543507.3583502 | oa=https://dl.acm.org/doi/pdf/10.1145/3543507.3583502
+
+===== OPENALEX: crypto leverage liquidation risk margin calls [200]
+count=387
+- [2022] Hedging with automatic liquidation and leverage selection on bitcoin futures | European Journal of Operational Research | type=article | cites=28 | doi=https://doi.org/10.1016/j.ejor.2022.07.037 | oa=https://doi.org/10.1016/j.ejor.2022.07.037
+- [2009] Deciphering the Liquidity and Credit Crunch 2007–2008 | The Journal of Economic Perspectives | type=article | cites=3443 | doi=https://doi.org/10.1257/jep.23.1.77 | oa=https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.23.1.77
+- [2007] Gender Differences in Risk Aversion and Expected Retirement Benefits | Financial Analysts Journal | type=article | cites=323 | doi=https://doi.org/10.2469/faj.v63.n4.4749 | oa=http://www.cfapubs.org/loi/faj
+- [2020] Regulation of Crypto Assets | Fintech Notes | type=article | cites=30 | doi=https://doi.org/10.5089/9781513520315.063 | oa=https://www.elibrary.imf.org/downloadpdf/journals/063/2019/003/063.2019.issue-003-en.xml
+- [2023] Crypto quanto and inverse options | Mathematical Finance | type=article | cites=27 | doi=https://doi.org/10.1111/mafi.12410 | oa=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mafi.12410
+- [2019] In search for stability in crypto-assets: are stablecoins the solution? | RePEc: Research Papers in Economics | type=preprint | cites=26 | doi=https://doi.org/10.2866/969389 | oa=http://hdl.handle.net/10419/207616
+- [2024] Leverage Is a Double‐Edged Sword | The Journal of Finance | type=article | cites=23 | doi=https://doi.org/10.1111/jofi.13316 | oa=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jofi.13316
+- [2021] Decentralized Finance: On Blockchain- and Smart Contract-Based Financial Markets | None | type=article | cites=591 | doi=https://doi.org/10.20955/r.103.153-74 | oa=https://github.com/aave/aave-protocol/blob/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf
+- [2022] Lessons from the crypto winter | OECD business and finance policy papers | type=report | cites=9 | doi=https://doi.org/10.1787/199edf4f-en | oa=https://www.oecd-ilibrary.org/deliver/199edf4f-en.pdf?itemId=%2Fcontent%2Fpaper%2F199edf4f-en&mimeType=pdf
+- [2020] Decentralized Finance: On Blockchain- and Smart Contract-based Financial Markets | SSRN Electronic Journal | type=preprint | cites=411 | doi=https://doi.org/10.2139/ssrn.3571335 | oa=https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=3571335
+
+===== CROSSREF: liquidations cryptocurrency perpetual futures forced selling [200]
+- [2025] Perpetual Futures Contracts and Cryptocurrency Market Quality |  | type=posted-content | doi=10.2139/ssrn.5323703 | Ruan
+- [2026] Anatomy of Cryptocurrency Perpetual Futures Returns |  | type=posted-content | doi=10.2139/ssrn.6365329 | Cao, Luo, Cheng, Dong
+- [2026] Anatomy of Cryptocurrency Perpetual Futures Returns |  | type=posted-content | doi=10.2139/ssrn.6795783 | Cao, Luo, Cheng, Dong
+- [2026] Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review |  | type=posted-content | doi=10.2139/ssrn.6639558 | Neubert, Rams, Gruhn
+- [2026] Fundamentals of Cryptocurrency Perpetual Futures and Swaps |  | type=posted-content | doi=10.2139/ssrn.7018520 | Neubert, Rams, Gruhn, Lötscher
+- [2026] Cryptocurrency Perpetual Futures and Swaps |  | type=posted-content | doi=10.20944/preprints202607.1592.v1 | Neubert, Rams, Gruhn, Lötscher
+- [2026] Behavioral Finance in Cryptocurrency Perpetual Futures and Swaps: A Systematic Literature Review |  | type=posted-content | doi=10.2139/ssrn.6658879 | Neubert, Rams, Gruhn
+- [2026] A Real Edge that Loses: Anatomy of a Backtest-to-Live Gap in Cryptocurrency Perpetual Futures |  | type=posted-content | doi=10.2139/ssrn.7353678 | Dashyan
+
+===== OPENALEX: cryptocurrency funding rate returns differences of opinion leverage constraints [200]
+count=1123
+- [2018] RETRACTED: Cryptocurrencies as a financial asset: A systematic analysis | International Review of Financial Analysis | type=article | cites=1184 | doi=https://doi.org/10.1016/j.irfa.2018.09.003 | oa=https://eprints.soton.ac.uk/425053/1/cryptocurrencies_financial_asset.pdf
+- [2004] The Capital Asset Pricing Model: Theory and Evidence | The Journal of Economic Perspectives | type=article | cites=1951 | doi=https://doi.org/10.1257/0895330042162430 | oa=https://www.aeaweb.org/articles/pdf/doi/10.1257/0895330042162430
+- [2021] Cryptocurrency Portfolio Selection—A Multicriteria Approach | Mathematics | type=article | cites=36 | doi=https://doi.org/10.3390/math9141677 | oa=https://www.mdpi.com/2227-7390/9/14/1677/pdf?version=1626754732
+- [2018] Cryptocurrencies as a Financial Asset: A Systematic Analysis | SSRN Electronic Journal | type=preprint | cites=33 | doi=https://doi.org/10.2139/ssrn.3143122 | oa=https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=3143122
+- [2024] An Improved Machine Learning-Driven Framework for Cryptocurrencies Price Prediction With Sentimental Cautioning | IEEE Access | type=article | cites=34 | doi=https://doi.org/10.1109/access.2024.3367129 | oa=https://ieeexplore.ieee.org/ielx7/6287639/10380310/10439171.pdf
+- [2023] Collective Dynamics, Diversification and Optimal Portfolio Construction for Cryptocurrencies | Entropy | type=article | cites=25 | doi=https://doi.org/10.3390/e25060931 | oa=https://www.mdpi.com/1099-4300/25/6/931/pdf?version=1686649742
+- [2023] Cryptocurrency Price Prediction Using Frequency Decomposition and Deep Learning | Fractal and Fractional | type=article | cites=29 | doi=https://doi.org/10.3390/fractalfract7100708 | oa=https://www.mdpi.com/2504-3110/7/10/708/pdf?version=1695727418
+- [2022] A multicountry comparison of cryptocurrency vs gold: Portfolio optimization through generalized simulated annealing | Blockchain Research and Applications | type=article | cites=29 | doi=https://doi.org/10.1016/j.bcra.2022.100075 | oa=https://www.sciencedirect.com/science/article/pii/S2096720922000161/pdf
+- [2023] Sequence-Based Target Coin Prediction for Cryptocurrency Pump-and-Dump | Proceedings of the ACM on Management of Data | type=article | cites=21 | doi=https://doi.org/10.1145/3588686 | oa=https://dl.acm.org/doi/pdf/10.1145/3588686
+- [2020] Blockchain, business and the fourth industrial revolution: Whence, whither, wherefore and how? | Technological Forecasting and Social Change | type=article | cites=221 | doi=https://doi.org/10.1016/j.techfore.2020.120254 | oa=https://pure.hud.ac.uk/en/publications/edc4c819-fd20-4644-bc96-5b07287539c2
+
+===== OPENALEX: bitcoin premium alternative currency risk Christin Routledge Soska Zetlin-Jones [200]
+count=5
+- [2024] Perpetual Futures Pricing | National Bureau of Economic Research | type=report | cites=8 | doi=https://doi.org/10.3386/w32936 | oa=https://doi.org/10.3386/w32936
+- [2025] The Tokenomics of Staking | National Bureau of Economic Research | type=report | cites=14 | doi=https://doi.org/10.3386/w33640 | oa=https://doi.org/10.3386/w33640
+- [2026] A unified framework and comparative study of decentralized finance derivatives protocols | Electronic Markets | type=article | cites=1 | doi=https://doi.org/10.1007/s12525-026-00925-9 | oa=https://link.springer.com/content/pdf/10.1007/s12525-026-00925-9.pdf
+- [2023] Perpetual Futures Pricing | arXiv (Cornell University) | type=preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2310.11771 | oa=https://arxiv.org/pdf/2310.11771
+- [2025] A Unified Framework and Comparative Study of Decentralized Finance Derivatives Protocols | Open Repository and Bibliography (University of Luxembourg) | type=report | cites=0 | doi=https://doi.org/10.48550/arxiv.2512.19113 | oa=https://orbilu.uni.lu/bitstream/10993/68422/1/_2512.19113v2.pdf
+
+===== OPENALEX: A Theory of the On-Chain and Off-Chain Design of Permissionless Blockchains Ferko Moin Onur Penick [200]
+count=0
+
+===== CROSSREF: Exploring risk and return profiles of funding rate arbitrage on CEX and DEX [200]
+- [2026] Exploring risk and return profiles of funding rate arbitrage on CEX and DEX | Blockchain: Research and Applications | type=journal-article | doi=10.1016/j.bcra.2025.100354 | Werapun, Karode, Suaboot, Arpornthip, Sangiamkul
+- [None] Figure 5: Top 10 CEX DEX coins. |  | type=component | doi=10.7717/peerj-cs.3686/fig-5 | 
+- [2026] Analysis of CEX-DEX Arbitrage Opportunities with Hidden Markov Models | Proceedings of the ACM Web Conference 2026 | type=proceedings-article | doi=10.1145/3774904.3792185 | Ladóczki
+- [2018] Estimating the Return on a Risk Arbitrage Position | Risk Arbitrage | type=other | doi=10.1002/9781119209720.ch4 | 
+- [2001] Characteristics of Risk and Return in Risk Arbitrage |  | type=posted-content | doi=10.2139/ssrn.268144 | Mitchell, Pulvino
+- [None] Interest Rate Arbitrage in Currency Baskets: Forecasting Weights and Measuring Risk |  | type=component | doi=10.5089/9781451843385.001.a001 | Christoffersen, Giorgianni
+- [2009] Sources of Risk and Return | Merger Arbitrage | type=other | doi=10.1002/9781118273159.ch3 | 
+- [2023] Convertible Bond Arbitrage: Risk and Return |  | type=posted-content | doi=10.2139/ssrn.4357969 | Hutchinson, Gallagher
+
+===== ARXIV: all:"perpetual futures" AND all:"funding rate" [200]
+- [2025-06-10] Designing funding rates for perpetual futures in cryptocurrency markets
+    http://arxiv.org/abs/2506.08573v1
+    authors: Jaehyun Kim, Hyungbin Park
+    ABS: In cryptocurrency markets, a key challenge for perpetual future issuers is maintaining alignment between the perpetual future price and target value. This study addresses this challenge by exploring the relationship between funding rates and perpetual future prices. Our results demonstrate that by appropriately designing funding rates, the perpetual future price can remain aligned with the target value. We develop replicating portfolios for perpetual futures, offering issuers an effective method to hedge their positions. Additionally, we provide path-dependent funding rates as a practical alternative and investigate the difference between the original and path-dependent funding rates. To achieve these results, our study employs path-dependent infinite-horizon BSDEs in conjunction with arbitrage pricing theory. Our main results are obtained by establishing the existence and uniqueness of 
+- [2022-12-13] Fundamentals of Perpetual Futures
+    http://arxiv.org/abs/2212.06888v7
+    authors: Songrun He, Asaf Manela, Omri Ross, Victor von Wachter
+    ABS: Perpetual futures are the most popular cryptocurrency derivatives. Perpetuals offer leveraged exposure to their underlying without rollover or direct ownership. Unlike fixed-maturity futures, perpetuals are not guaranteed to converge to the spot price. To minimize the gap between perpetual and spot prices, long investors periodically pay shorts a funding rate proportional to this difference. We derive no-arbitrage prices for perpetual futures in frictionless markets and bounds in markets with trading costs. Empirically, deviations from these prices in crypto are larger than in traditional currency markets, comove across currencies, and diminish over time. An implied arbitrage strategy yields high Sharpe ratios.
+- [2026-06-22] Perpetual Futures for Stocks: The SpaceX Pre-IPO Market
+    http://arxiv.org/abs/2609.05433v1
+    authors: Aditya Gupta, Nick Polson
+    ABS: Robert Shiller proposed perpetual futures in 1993 to create derivative markets for assets that are illiquid or whose price cannot be observed directly, such as single family homes, human capital, and the consumer price index. The crypto markets later built the instrument for a different reason and with a different funding rule. We give a single no arbitrage result that nests both designs: the perpetual price is the present value of a benchmark flow discounted at the funding rate, so the funding rule chooses both the benchmark and the discount. We give a random time change representation in which the price is the expected spot at the first event of a clock whose intensity is the funding rate, use it to show that stochastic volatility moves the basis only through the carry, so a volatility risk premium and not volatility itself can break the peg, read price discovery as the convergence of 
+- [2026-04-05] Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets
+    http://arxiv.org/abs/2607.11888v1
+    authors: Minmin Zeng, Yi Liu
+    ABS: We develop a rigorous theoretical framework for optimal market making in perpetual futures markets with zero maker fees. We model the market maker's problem as a stochastic optimal control problem on a filtered probability space, where the controls are adaptive bid-ask spreads and inventory hedging decisions across two exchanges. Our contributions include: (i) a PnL decomposition theorem separating revenue into spread income, adverse selection loss, inventory carrying cost, hedging friction, and funding rate exposure; (ii) the Hamilton-Jacobi-Bellman equation for the joint spread-inventory-hedging control problem under CARA utility with a verification theorem; (iii) High-APY Regime Theorems characterizing profitable regions via five dimensionless parameters, culminating in a Master APY Formula; (iv) analysis of zero-fee economics on decentralized perpetual exchanges with optimal entry-ex
+- [2026-05-11] Optimal Control of the Ethena Yield-Bearing Stablecoin
+    http://arxiv.org/abs/2605.11263v1
+    authors: Matthew Lorig
+    ABS: We formulate and solve stochastic control problems that model the core yield-generating strategy of the Ethena protocol, a decentralized finance (DeFi) stablecoin that earns yield by combining a long position in staked Ethereum (stETH) with an equal-sized short position in ETH perpetual futures. The combined position is delta-neutral with respect to the ETH spot price, yet earns carry from two sources: staking rewards on the stETH leg, and funding-rate payments received from long perpetual holders when the perpetual trades at a premium to spot. A key feature of our model is that the control -- the rate of simultaneously buying stETH and shorting the perpetual -- exerts two distinct types of price impact. \textit{Permanent} impact shifts the mid-market prices of both legs, compressing the basis and permanently eroding future funding income. \textit{Temporary} impact reflects execution sli
+
+===== ARXIV: all:"Crypto Carry" [200]
+
+===== ARXIV: all:"perpetual futures" AND all:"liquidation" [200]
+- [2026-03-10] Slippage-at-Risk (SaR): A Forward-Looking Liquidity Risk Framework for Perpetual Futures Exchanges
+    http://arxiv.org/abs/2603.09164v1
+    authors: Otar Sepper
+    ABS: We introduce $\textbf{Slippage-at-Risk (SaR)}$, a quantitative framework for measuring liquidity risk in perpetual futures exchanges. Unlike backward-looking metrics such as Value-at-Risk computed on historical returns or realized deficit distributions, SaR provides a \emph{forward-looking} assessment of liquidation execution risk derived from current order book microstructure. The framework comprises three complementary metrics: $SaR(α)$, the cross-sectional slippage quantile; $ESaR(α)$, the expected slippage in the distributional tail; and $TSaR(α)$, the aggregate dollar-denominated tail slippage. We extend the base framework with a \emph{concentration adjustment} that penalizes fragile liquidity structures where a small number of market makers dominate quote provision. Drawing on recent work by Chitra et al. (2025) on autodeleveraging mechanisms and insurance fund optimization, we est
+- [2026-04-05] Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets
+    http://arxiv.org/abs/2607.11888v1
+    authors: Minmin Zeng, Yi Liu
+    ABS: We develop a rigorous theoretical framework for optimal market making in perpetual futures markets with zero maker fees. We model the market maker's problem as a stochastic optimal control problem on a filtered probability space, where the controls are adaptive bid-ask spreads and inventory hedging decisions across two exchanges. Our contributions include: (i) a PnL decomposition theorem separating revenue into spread income, adverse selection loss, inventory carrying cost, hedging friction, and funding rate exposure; (ii) the Hamilton-Jacobi-Bellman equation for the joint spread-inventory-hedging control problem under CARA utility with a verification theorem; (iii) High-APY Regime Theorems characterizing profitable regions via five dimensionless parameters, culminating in a Master APY Formula; (iv) analysis of zero-fee economics on decentralized perpetual exchanges with optimal entry-ex
+- [2026-05-11] Resolution-Aware Perpetual Futures on Binary Prediction Markets: Failure Modes and Mechanical Stress Tests Using Polymarket Data
+    http://arxiv.org/abs/2605.10400v2
+    authors: Maksym Nechepurenko
+    ABS: We study whether crypto-style perpetual-futures mechanics can be applied to a binary event claim that ultimately pays 0 or 1. A synthetic long entered at price p0 with collateral xp0/L has terminal equity -xp0(1-1/L) when the claim pays 0, if the position survives to resolution without a top-up, close, or conversion. Thus any L &gt; 1 creates an adverse-outcome account shortfall under these conditions, independent of the pre-resolution mark. We also derive a funding trilemma: basis-only funding loses relative force near a boundary, while uniform relative-basis correction requires unbounded transfers and conflicts with payer solvency or participation. We then apply a mechanical stress test to observed Polymarket paths from 21-27 April 2026. Of 61,087 enriched candidate markets, 13,298 pass the stated adequacy gates. Two structural diagnostics pass, but three of five pre-specified material
+- [2024-02-06] Exploring the Impact: How Decentralized Exchange Designs Shape Traders' Behavior on Perpetual Future Contracts
+    http://arxiv.org/abs/2402.03953v4
+    authors: Erdong Chen, Mengzhong Ma, Zixin Nie
+    ABS: In this paper, we analyze traders' behavior within both centralized exchanges (CEXs) and decentralized exchanges (DEXs), focusing on the volatility of Bitcoin prices and the trading activity of investors engaged in perpetual future contracts. We categorize the architecture of perpetual future exchanges into three distinct models, each exhibiting unique patterns of trader behavior in relation to trading volume, open interest, liquidation, and leverage. Our detailed examination of DEXs, especially those utilizing the Virtual Automated Market Making (VAMM) Model, uncovers a differential impact of open interest on long versus short positions. In exchanges which operate under the Oracle Pricing Model, we find that traders primarily act as price takers, with their trading actions reflecting direct responses to price movements of the underlying assets. Furthermore, our research highlights a sig
+- [2026-07-29] Where does the criticality live? Early-warning signals are event-heterogeneous across seven crypto-perpetual liquidation cascades
+    http://arxiv.org/abs/2607.27070v1
+    authors: Ramon Marc Garcia Seuma
+    ABS: Do crypto perpetual-futures crashes carry a reproducible early-warning fingerprint of a critical transition, and in which state variable? We study seven major BTC liquidation cascades (2022-2025, including the record 19B USD event of 10 October 2025) using minute-level price and 5-minute leverage/order-flow data. On detrended residuals we compute rolling variance and lag-1 autocorrelation and test their pre-cascade trend with the Kendall-tau statistic, sweeping 39 analysis configurations per variable per event. No variable is event-invariant. Price carries the critical-slowing-down signature in five of seven events but is silent in exactly the two sudden-news (tariff) shocks, suggesting a two-type structure: endogenous-buildup versus exogenous-shock cascades. The October 2025 event, whose in-sample analysis suggests the signature lives in leverage rather than price, turns out to be the o
+- [2026-02-16] Autodeleveraging as Online Learning
+    http://arxiv.org/abs/2602.15182v1
+    authors: Tarun Chitra, Nagu Thogiti, Mauricio Jean Pieer Trujillo Ramirez, Victor Xu
+    ABS: Autodeleveraging (ADL) is a last-resort loss socialization mechanism used by perpetual futures venues when liquidation and insurance buffers are insufficient to restore solvency. Despite the scale of perpetual futures markets, ADL has received limited formal treatment as a sequential control problem. This paper provides a concise formalization of ADL as online learning on a PNL-haircut domain: at each round, the venue selects a solvency budget and a set of profitable trader accounts. The profitable accounts are liquidated to cover shortfalls up to the solvency budget, with the aim of recovering exchange-wide solvency. In this model, ADL haircuts apply to positive PNL (unrealized gains), not to posted collateral principal. Using our online learning model, we provide robustness results and theoretical upper bounds on how poorly a mechanism can perform at recovering solvency. We apply our m
+- [2025-11-30] Autodeleveraging: Impossibilities and Optimization
+    http://arxiv.org/abs/2512.01112v3
+    authors: Tarun Chitra
+    ABS: Autodeleveraging (ADL) is a last-resort loss socialization mechanism for perpetual futures venues. It is triggered when solvency-preserving liquidations fail. Despite the dominance of perpetual futures in the crypto derivatives market, with over \$60 trillion of volume in 2024, there has been no formal study of ADL. In this paper, we provide the first rigorous model of ADL. We prove that ADL mechanisms face a fundamental \emph{trilemma}: no policy can simultaneously satisfy exchange \emph{solvency}, \emph{revenue}, and \emph{fairness} to traders. This impossibility theorem implies that as participation scales, a novel form of \emph{moral hazard} grows asymptotically, rendering `zero-loss' socialization impossible. On the positive side, we show that three classes of ADL mechanisms can optimally navigate this trilemma to provide fairness, robustness to price shocks, and maximal exchange re
+- [2025-12-31] Who sets the range? Funding mechanics and 4h context in crypto markets
+    http://arxiv.org/abs/2601.06084v1
+    authors: Habib Badawi, Mohamed Hani, Taufikin Taufikin
+    ABS: Financial markets often appear chaotic, yet ranges are rarely accidental. They emerge from structured interactions between market context and capital conditions. The four-hour timeframe provides a critical lens for observing this equilibrium zone where institutional positioning, leveraged exposure, and liquidity management converge. Funding mechanisms, especially in perpetual futures, act as disciplinary forces that regulate trader behavior, impose economic costs, and shape directional commitment. When funding aligns with the prevailing 4H context, price expansion becomes possible; when it diverges, compression and range-bound behavior dominate. Ranges therefore represent controlled balance rather than indecision, reflecting strategic positioning by informed participants. Understanding how 4H context and funding operate as market governors is essential for interpreting cryptocurrency pri
+- [2025-02-09] Perpetual Demand Lending Pools
+    http://arxiv.org/abs/2502.06028v2
+    authors: Tarun Chitra, Theo Diamandis, Nathan Sheng, Luke Sterle, Kamil Yusubov
+    ABS: Decentralized perpetuals protocols have collectively reached billions of dollars of daily trading volume, yet are still not serious competitors on the basis of trading volume with centralized venues such as Binance. One of the main reasons for this is the high cost of capital for market makers and sophisticated traders in decentralized settings. Recently, numerous decentralized finance protocols have been used to improve borrowing costs for perpetual futures traders. We formalize this class of mechanisms utilized by protocols such as Jupiter, Hyperliquid, and GMX, which we term~\emph{Perpetual Demand Lending Pools} (PDLPs). We then formalize a general target weight mechanism that generalizes what GMX and Jupiter are using in practice. We explicitly describe pool arbitrage and expected payoffs for arbitrageurs and liquidity providers within these mechanisms. Using this framework, we show 
+- [2026-06-14] Trading in the Sunshine or in the Shade: Market Impact and Adverse Selection on Hyperliquid
+    http://arxiv.org/abs/2606.15715v1
+    authors: Davide Barone, Fabrizio Lillo
+    ABS: Sunshine trading theory predicts that publicly disclosing trading intentions can reduce adverse selection and attract liquidity provision, lowering execution costs. Evidence is scarce, because explicit preannouncement of large orders is rare in traditional markets. We study Hyperliquid, a fully on-chain limit order book for cryptocurrency perpetual futures, where protocol-native TWAP orders disclose their terms from inception and remain visible while active, a natural form of sunshine trading. Using address-level data, we reconstruct 4.3 million hidden metaorders and compare them with 465,000 visible TWAP executions. The two execution styles differ sharply: hidden metaorders follow front-loaded, U-shaped schedules consistent with transient-impact optimal execution, whereas TWAPs trade nearly uniformly. We test the preannouncement predictions of Admati and Pfleiderer (1991). Visible TWAPs
+- [2026-05-11] Optimal Control of the Ethena Yield-Bearing Stablecoin
+    http://arxiv.org/abs/2605.11263v1
+    authors: Matthew Lorig
+    ABS: We formulate and solve stochastic control problems that model the core yield-generating strategy of the Ethena protocol, a decentralized finance (DeFi) stablecoin that earns yield by combining a long position in staked Ethereum (stETH) with an equal-sized short position in ETH perpetual futures. The combined position is delta-neutral with respect to the ETH spot price, yet earns carry from two sources: staking rewards on the stETH leg, and funding-rate payments received from long perpetual holders when the perpetual trades at a premium to spot. A key feature of our model is that the control -- the rate of simultaneously buying stETH and shorting the perpetual -- exerts two distinct types of price impact. \textit{Permanent} impact shifts the mid-market prices of both legs, compressing the basis and permanently eroding future funding income. \textit{Temporary} impact reflects execution sli
+- [2026-05-11] A Taxonomy of Event-Linked Perpetual Futures: Design Axes, Failure Modes, and Empirical Evaluability
+    http://arxiv.org/abs/2605.10428v2
+    authors: Maksym Nechepurenko
+    ABS: The label event-linked perpetual often conflates mathematically different contracts. We replace a flat product list with a four-axis taxonomy: underlying geometry, temporal structure, settlement structure, and venue-oracle composition. The taxonomy covers a single binary probability, conditional ratios, event spreads, baskets, path functionals, liquidity indices, rolling sequences, and flow-only swaps. We derive a corrected inheritance map from the single-event case and prove six narrow results. Terminal shortfall depends on exact settlement support and collateral, not on a generic bounded-event label. Conditional ratios become locally ill-conditioned as the conditioning value approaches zero. Once one spread leg is final, the residual position is an affine single-leg exposure. Basket risk depends on feasible joint outcomes and weights, not leg count. Binary entropy settles deterministic
+- [2022-08-09] Perpetual Contract NFT as Collateral for DeFi Composability
+    http://arxiv.org/abs/2208.06472v1
+    authors: HyoungSung Kim, Hyun-Sik Kim, Yong-Suk Park
+    ABS: Ethereum and its standardized token interface have formed decentralized finance (DeFi), an open financial system based on blockchain smart contracts. The DeFi ecosystem has become richer with the introduction of DeFi composability projects, such as Lido finance and Curve finance. DeFi composability denotes the concatenation of DeFi services in which each DeFi service locks assets as collateral and gives another asset as liquidity of locked assets to providers. Providers use the tokens given for other concatenated DeFi services, such as lending, decentralized exchanges (DEXs), and derivatives. The DeFi ecosystem uses ERC-20 tokens which can represent the value of an asset. ERC-721 non-fungible tokens (NFTs) are not widely adopted in DeFi, since they represent rights to an asset and are not considered appropriate for valuation. In this paper, we propose a new concept, perpetual contract NF
+
+===== OPENALEX: funding rate arbitrage crypto exchanges risk return [200]
+count=1521
+- [2019] Trading and arbitrage in cryptocurrency markets | Journal of Financial Economics | type=article | cites=870 | doi=https://doi.org/10.1016/j.jfineco.2019.07.001 | oa=https://researchonline.lse.ac.uk/id/eprint/100409/1/Cryptocurrency_Markets_JFE_final_v4.pdf
+- [2020] Risks and Returns of Cryptocurrency | Review of Financial Studies | type=article | cites=985 | doi=https://doi.org/10.1093/rfs/hhaa113 | oa=http://www.nber.org/papers/w24877.pdf
+- [2022] Common Risk Factors in Cryptocurrency | The Journal of Finance | type=article | cites=627 | doi=https://doi.org/10.1111/jofi.13119 | oa=http://www.nber.org/papers/w25882.pdf
+- [1987] The Arbitrage Principle in Financial Economics | The Journal of Economic Perspectives | type=article | cites=156 | doi=https://doi.org/10.1257/jep.1.2.55 | oa=https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.1.2.55
+- [2004] The Capital Asset Pricing Model: Theory and Evidence | The Journal of Economic Perspectives | type=article | cites=1951 | doi=https://doi.org/10.1257/0895330042162430 | oa=https://www.aeaweb.org/articles/pdf/doi/10.1257/0895330042162430
+- [2022] The impact of the FinTech revolution on the future of banking: Opportunities and risks | International Review of Financial Analysis | type=article | cites=690 | doi=https://doi.org/10.1016/j.irfa.2022.102103 | oa=https://www.sciencedirect.com/science/article/pii/S1057521922000734/pdf
+- [2021] Key Roles of Crypto-Exchanges in Generating Arbitrage Opportunities | Entropy | type=article | cites=19 | doi=https://doi.org/10.3390/e23040455 | oa=https://www.mdpi.com/1099-4300/23/4/455/pdf?version=1618304958
+- [2021] The volatility of Bitcoin and its role as a medium of exchange and a store of value | Empirical Economics | type=article | cites=235 | doi=https://doi.org/10.1007/s00181-020-01990-5 | oa=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7783506/
+- [2007] Gender Differences in Risk Aversion and Expected Retirement Benefits | Financial Analysts Journal | type=article | cites=323 | doi=https://doi.org/10.2469/faj.v63.n4.4749 | oa=http://www.cfapubs.org/loi/faj
+- [2022] Cryptocurrency trading: a comprehensive survey | Financial Innovation | type=article | cites=418 | doi=https://doi.org/10.1186/s40854-021-00321-6 | oa=https://jfin-swufe.springeropen.com/counter/pdf/10.1186/s40854-021-00321-6
+
+===== OPENALEX: perpetual futures funding rate manipulation price discovery [200]
+count=548
+- [2020] Price discovery in Bitcoin: The impact of unregulated markets | Journal of Financial Stability | type=article | cites=107 | doi=https://doi.org/10.1016/j.jfs.2020.100776 | oa=https://sussex.figshare.com/articles/journal_contribution/Price_discovery_in_Bitcoin_the_impact_of_unregulated_markets/23308262/1/files/41093948.pdf
+- [2022] SoK: Decentralized Finance (DeFi) | None | type=conference-paper | cites=402 | doi=https://doi.org/10.1145/3558535.3559780 | oa=https://dl.acm.org/doi/pdf/10.1145/3558535.3559780
+- [2025] Do Bitcoin ETFs Lead Price Discovery Following their Introduction in the Bitcoin Market? | Computational Economics | type=book-chapter | cites=10 | doi=https://doi.org/10.1007/s10614-025-10998-x | oa=https://link.springer.com/content/pdf/10.1007/s10614-025-10998-x.pdf
+- [2000] The perpetual forest: Using lessons from the past to sustain Canada's forests in the future | The Forestry Chronicle | type=article | cites=18 | doi=https://doi.org/10.5558/tfc76029-1 | oa=https://pubs.cif-ifc.org/doi/pdf/10.5558/tfc76029-1
+- [2020] The Impact of Derivatives on Spot Markets: Evidence From the Introduction of Bitcoin Futures Contracts | SSRN Electronic Journal | type=preprint | cites=7 | doi=https://doi.org/10.2139/ssrn.3648406 | oa=https://doi.org/10.2139/ssrn.3648406
+- [1999] The Siskel and Ebert of Financial Markets?: Two Thumbs Down for the Credit Rating Agencies | Open Scholarship Institutional Repository (Washington University in St. Louis) | type=article | cites=210 | doi=None | oa=https://journals.library.wustl.edu/lawreview/article/id/5968/download/pdf/
+- [2013] Quantitative Analysis of Technology Futures. Part I: Techniques, Contexts, and Organizations | DIGITAL.CSIC (Spanish National Research Council (CSIC)) | type=report | cites=6 | doi=None | oa=http://hdl.handle.net/10261/161559
+- [2011] The Outlook for U.S. Gas Prices in 2020 | None | type=report | cites=7 | doi=https://doi.org/10.26889/9781907555398 | oa=https://www.oxfordenergy.org/wpcms/wp-content/uploads/2011/12/NG_58.pdf
+- [2014] Physics and financial economics (1776–2014): puzzles, Ising and agent-based models | Reports on Progress in Physics | type=article | cites=225 | doi=https://doi.org/10.1088/0034-4885/77/6/062001 | oa=https://iopscience.iop.org/article/10.1088/0034-4885/77/6/062001/pdf
+- [2005] Jews and modern capitalism | Classiques des sciences sociales. | type=book | cites=251 | doi=https://doi.org/10.1522/cla.sow.jew | oa=http://classiques.uqac.ca/classiques/sombart_werner/Jews_and_modern_capitalism/sombart_jews_capitalism.pdf
+
+===== OPENALEX: bitcoin futures basis sentiment risk premium Alexander Choi Park Sohn [200]
+count=10
+- [2022] Trading behavior in bitcoin futures: Following the “smart money” | Journal of Futures Markets | type=article | cites=24 | doi=https://doi.org/10.1002/fut.22332 | oa=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/fut.22332
+- [2019] A critical investigation of cryptocurrency data and analysis | Quantitative Finance | type=article | cites=197 | doi=https://doi.org/10.1080/14697688.2019.1641347 | oa=https://sussex.figshare.com/articles/journal_contribution/A_critical_investigation_of_cryptocurrency_data_and_analysis/23470910/1/files/41179505.pdf
+- [2024] The Economics of Liquid Staking Derivatives: Basis Determinants and Price Discovery | Journal of Futures Markets | type=article | cites=13 | doi=https://doi.org/10.1002/fut.22556 | oa=https://doi.org/10.1002/fut.22556
+- [2022] A Review of China's Financial Markets | Annual Review of Financial Economics | type=review | cites=83 | doi=https://doi.org/10.1146/annurev-financial-111620-010537 | oa=https://www.annualreviews.org/doi/pdf/10.1146/annurev-financial-111620-010537
+- [2025] The impact of futures trade on the informational efficiency of the U.S. REIT market | Financial Innovation | type=article | cites=4 | doi=https://doi.org/10.1186/s40854-024-00715-2 | oa=https://jfin-swufe.springeropen.com/counter/pdf/10.1186/s40854-024-00715-2
+- [2023] Jump-Robust Realized-GARCH-MIDAS-X Estimators for Bitcoin and Ethereum Volatility Indices | Stats | type=article | cites=1 | doi=https://doi.org/10.3390/stats6040082 | oa=https://www.mdpi.com/2571-905X/6/4/82/pdf?version=1702373316
+- [2026] Extreme Perpetual Futures Funding and Subsequent Bitcoin Returns: Intraday Evidence from Binance | Advanced International Journal of Multidisciplinary Research | type=article | cites=0 | doi=https://doi.org/10.62127/aijmr.2026.v04i04.1493 | oa=https://www.aijmr.com/papers/2026/4/1493.pdf
+- [2026] Systemic Risk from Financial Leverage in Digital Asset Markets: Evidence From Perpetual Futures | International Journal of Economics Business and Management Research | type=article | cites=0 | doi=https://doi.org/10.51505/ijebmr.2026.10315 | oa=https://doi.org/10.51505/ijebmr.2026.10315
+- [2026] Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing | arXiv (Cornell University) | type=preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2609.04917 | oa=https://arxiv.org/pdf/2609.04917
+- [2025] AN EXPLORATORY STUDY ON THE RECONCEPTUALİZATİON OF INCLUSİVİTY AS A MANAGEMENT PRACTİCE İN THE TURKİSH INSTİTUTİONAL CONTEXT | Ege Akademik Bakis (Ege Academic Review) | type=article | cites=0 | doi=https://doi.org/10.21121/eab.20250308 | oa=https://dergipark.org.tr/en/download/article-file/4439243
+
+===== OPENALEX: perpetual futures pricing Ackerer Hugonnier Jermann [200]
+count=29
+- [2023] Pricing Perpetual Futures | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.4573912 | oa=https://doi.org/10.2139/ssrn.4573912
+- [2026] From Perpetual Contracts to Islamic Credit: The Random Stopping Time Equivalence and a Riba-Free Foundation for Sukuk, Takaful, and Credit Protection | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6322858 | oa=https://doi.org/10.2139/ssrn.6322858
+- [2026] The Two-Tiered Structure of Cryptocurrency Funding Rate Markets | Mathematics | type=article | cites=1 | doi=https://doi.org/10.3390/math14020346 | oa=https://www.mdpi.com/2227-7390/14/2/346/pdf?version=1768916036
+- [2022] Fundamentals of Perpetual Futures | RePEc: Research Papers in Economics | type=preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2212.06888 | oa=https://arxiv.org/pdf/2212.06888
+- [2026] A unified framework and comparative study of decentralized finance derivatives protocols | Electronic Markets | type=article | cites=1 | doi=https://doi.org/10.1007/s12525-026-00925-9 | oa=https://link.springer.com/content/pdf/10.1007/s12525-026-00925-9.pdf
+- [2026] Inaction Regions in Perpetual Futures: Deadband Funding and Price Convergence | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.7205749 | oa=https://doi.org/10.2139/ssrn.7205749
+- [2026] The Rate That Wasn't There: A Narrative Companion to the Kappa-Rate Research Programme (Seventeen Collected Papers, with Full Replication Archive) | Zenodo (CERN European Organization for Nuclear Research) | type=book | cites=0 | doi=https://doi.org/10.5281/zenodo.21290557 | oa=https://doi.org/10.5281/zenodo.21290557
+- [2026] The κ-Chain: A Sovereign Islamic Financial Infrastructure Layer | SSRN Electronic Journal | type=preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6924600 | oa=https://doi.org/10.2139/ssrn.6924600
+- [2026] Perpetual Futures for Stocks: The SpaceX Pre-IPO Market | Entropy | type=article | cites=0 | doi=https://doi.org/10.3390/e28090950 | oa=https://doi.org/10.3390/e28090950
+- [2026] The Rate That Wasn't There: A Narrative Companion to the Kappa-Rate Research Programme (Seventeen Collected Papers, with Full Replication Archive) | Zenodo (CERN European Organization for Nuclear Research) | type=book | cites=0 | doi=https://doi.org/10.5281/zenodo.21406049 | oa=https://doi.org/10.5281/zenodo.21406049
+
+===== OPENALEX: perpetual futures for stocks Gupta Polson [200]
+count=1
+- [2024] Cryptocurrency volatility: A review, synthesis, and research agenda | Research in International Business and Finance | type=article | cites=38 | doi=https://doi.org/10.1016/j.ribaf.2024.102472 | oa=https://pure.coventry.ac.uk/ws/files/116284875/Elmasr2024AAM.pdf
+
+===== ARXIV: all:"perpetual futures" AND all:"volatility risk premium" [200]
+- [2026-06-22] Perpetual Futures for Stocks: The SpaceX Pre-IPO Market
+    http://arxiv.org/abs/2609.05433v1
+    authors: Aditya Gupta, Nick Polson
+    ABS: Robert Shiller proposed perpetual futures in 1993 to create derivative markets for assets that are illiquid or whose price cannot be observed directly, such as single family homes, human capital, and the consumer price index. The crypto markets later built the instrument for a different reason and with a different funding rule. We give a single no arbitrage result that nests both designs: the perpetual price is the present value of a benchmark flow discounted at the funding rate, so the funding rule chooses both the benchmark and the discount. We give a random time change representation in which the price is the expected spot at the first event of a clock whose intensity is the funding rate, use it to show that stochastic volatility moves the basis only through the carry, so a volatility risk premium and not volatility itself can break the peg, read price discovery as the convergence of 
+

@@ -1,0 +1,737 @@
+{
+ "L1 (Layer 1)|SOL": {
+  "px": 118.9,
+  "chg7": 0.0,
+  "chg30": 12.6,
+  "chg90": 61.4,
+  "from_ath": -4.8
+ },
+ "L1 (Layer 1)|BNB": {
+  "px": 765.02,
+  "chg7": -4.3,
+  "chg30": 10.5,
+  "chg90": 40.0,
+  "from_ath": -5.3
+ },
+ "L1 (Layer 1)|AVAX": {
+  "px": 10.408,
+  "chg7": -7.3,
+  "chg30": 42.0,
+  "chg90": 59.2,
+  "from_ath": -11.8
+ },
+ "L1 (Layer 1)|DOT": {
+  "px": 1.179,
+  "chg7": -2.3,
+  "chg30": 39.4,
+  "chg90": 43.4,
+  "from_ath": -9.7
+ },
+ "L1 (Layer 1)|ADA": {
+  "px": 0.2456,
+  "chg7": 0.2,
+  "chg30": 21.7,
+  "chg90": 70.1,
+  "from_ath": -7.5
+ },
+ "L1 (Layer 1)|NEAR": {
+  "px": 4.785,
+  "chg7": 12.0,
+  "chg30": 156.2,
+  "chg90": 168.5,
+  "from_ath": -14.2
+ },
+ "L1 (Layer 1)|SUI": {
+  "px": 1.1547,
+  "chg7": 10.7,
+  "chg30": 55.0,
+  "chg90": 67.2,
+  "from_ath": -10.8
+ },
+ "L1 (Layer 1)|APT": {
+  "px": 0.8207,
+  "chg7": 3.2,
+  "chg30": 51.1,
+  "chg90": 43.5,
+  "from_ath": -7.8
+ },
+ "L1 (Layer 1)|TRX": {
+  "px": 0.3359,
+  "chg7": -2.6,
+  "chg30": -1.5,
+  "chg90": 6.5,
+  "from_ath": -4.1
+ },
+ "L1 (Layer 1)|TON": {
+  "px": 1.6,
+  "chg7": 1.5,
+  "chg30": -15.6,
+  "chg90": 29.3,
+  "from_ath": -45.0
+ },
+ "L1 (Layer 1)|HBAR": {
+  "px": 0.12044,
+  "chg7": 29.0,
+  "chg30": 59.5,
+  "chg90": 73.2,
+  "from_ath": -8.0
+ },
+ "L1 (Layer 1)|ICP": {
+  "px": 3.036,
+  "chg7": 0.2,
+  "chg30": 22.2,
+  "chg90": 44.6,
+  "from_ath": -9.6
+ },
+ "L1 (Layer 1)|ALGO": {
+  "px": 0.1335,
+  "chg7": 18.7,
+  "chg30": 52.1,
+  "chg90": 60.8,
+  "from_ath": -4.6
+ },
+ "L1 (Layer 1)|EGLD": {
+  "px": 4.537,
+  "chg7": 3.9,
+  "chg30": 25.2,
+  "chg90": 80.0,
+  "from_ath": -21.5
+ },
+ "L1 (Layer 1)|ATOM": {
+  "px": 1.745,
+  "chg7": -3.8,
+  "chg30": 16.2,
+  "chg90": 15.3,
+  "from_ath": -14.1
+ },
+ "L1 (Layer 1)|XLM": {
+  "px": 0.2292,
+  "chg7": 6.4,
+  "chg30": 27.5,
+  "chg90": 21.1,
+  "from_ath": -2.3
+ },
+ "L2 (Layer 2)|ARB": {
+  "px": 0.2027,
+  "chg7": -10.2,
+  "chg30": 131.1,
+  "chg90": 166.4,
+  "from_ath": -20.7
+ },
+ "L2 (Layer 2)|OP": {
+  "px": 0.1345,
+  "chg7": 5.5,
+  "chg30": 51.6,
+  "chg90": 39.4,
+  "from_ath": -10.9
+ },
+ "L2 (Layer 2)|STRK": {
+  "px": 0.04112,
+  "chg7": -6.1,
+  "chg30": 62.4,
+  "chg90": 41.3,
+  "from_ath": -19.2
+ },
+ "L2 (Layer 2)|ZK": {
+  "px": 0.01228,
+  "chg7": 3.6,
+  "chg30": 49.6,
+  "chg90": 23.4,
+  "from_ath": -9.6
+ },
+ "L2 (Layer 2)|ZRO": {
+  "px": 1.557,
+  "chg7": 31.9,
+  "chg30": 40.7,
+  "chg90": 89.2,
+  "from_ath": -9.8
+ },
+ "L2 (Layer 2)|IMX": {
+  "px": 0.1717,
+  "chg7": 13.4,
+  "chg30": 33.4,
+  "chg90": 50.5,
+  "from_ath": -12.2
+ },
+ "L2 (Layer 2)|MANTA": {
+  "px": 0.06693,
+  "chg7": -5.9,
+  "chg30": 13.7,
+  "chg90": 0.8,
+  "from_ath": -58.0
+ },
+ "L2 (Layer 2)|METIS": {
+  "px": 3.46,
+  "chg7": -3.6,
+  "chg30": 26.7,
+  "chg90": 31.6,
+  "from_ath": -10.1
+ },
+ "L2 (Layer 2)|LDO": {
+  "px": 0.444,
+  "chg7": 2.9,
+  "chg30": 24.1,
+  "chg90": 85.1,
+  "from_ath": -12.4
+ },
+ "DeFi|ENA": {
+  "px": 0.2607,
+  "chg7": 22.6,
+  "chg30": 63.3,
+  "chg90": 261.1,
+  "from_ath": -11.5
+ },
+ "DeFi|PENDLE": {
+  "px": 2.371,
+  "chg7": -6.0,
+  "chg30": 39.6,
+  "chg90": 79.9,
+  "from_ath": -15.3
+ },
+ "DeFi|UNI": {
+  "px": 8.795,
+  "chg7": -2.2,
+  "chg30": 87.8,
+  "chg90": 216.6,
+  "from_ath": -19.6
+ },
+ "DeFi|AAVE": {
+  "px": 147.89,
+  "chg7": 1.4,
+  "chg30": 16.7,
+  "chg90": 73.6,
+  "from_ath": -6.1
+ },
+ "DeFi|LDO": {
+  "px": 0.444,
+  "chg7": 2.9,
+  "chg30": 24.1,
+  "chg90": 85.1,
+  "from_ath": -12.4
+ },
+ "DeFi|MKR": {
+  "px": 1813.7,
+  "chg7": 8.8,
+  "chg30": 1.5,
+  "chg90": -10.3,
+  "from_ath": -24.4
+ },
+ "DeFi|SKY": {
+  "px": 0.07802,
+  "chg7": 10.5,
+  "chg30": 14.1,
+  "chg90": 49.2,
+  "from_ath": -9.7
+ },
+ "DeFi|CRV": {
+  "px": 0.3675,
+  "chg7": -0.1,
+  "chg30": 20.7,
+  "chg90": 99.2,
+  "from_ath": -9.5
+ },
+ "DeFi|CVX": {
+  "px": 2.176,
+  "chg7": 5.1,
+  "chg30": -2.6,
+  "chg90": 105.1,
+  "from_ath": -13.2
+ },
+ "DeFi|GMX": {
+  "px": 7.87,
+  "chg7": -3.2,
+  "chg30": 0.0,
+  "chg90": 48.5,
+  "from_ath": -8.6
+ },
+ "DeFi|JUP": {
+  "px": 0.3295,
+  "chg7": 10.3,
+  "chg30": 50.0,
+  "chg90": 55.5,
+  "from_ath": -12.1
+ },
+ "DeFi|CAKE": {
+  "px": 2.596,
+  "chg7": 1.8,
+  "chg30": 50.9,
+  "chg90": 97.9,
+  "from_ath": -9.3
+ },
+ "DeFi|MORPHO": {
+  "px": 2.532,
+  "chg7": -4.8,
+  "chg30": 5.1,
+  "chg90": 33.3,
+  "from_ath": -15.6
+ },
+ "DeFi|EIGEN": {
+  "px": 0.2512,
+  "chg7": 3.2,
+  "chg30": 29.6,
+  "chg90": 23.8,
+  "from_ath": -20.5
+ },
+ "Meme|DOGE": {
+  "px": 0.09393,
+  "chg7": -5.9,
+  "chg30": 10.1,
+  "chg90": 30.3,
+  "from_ath": -11.3
+ },
+ "Meme|SHIB": {
+  "px": 5.67e-06,
+  "chg7": -6.3,
+  "chg30": 10.1,
+  "chg90": 35.0,
+  "from_ath": -9.6
+ },
+ "Meme|PEPE": {
+  "px": 4.19e-06,
+  "chg7": -12.2,
+  "chg30": 14.8,
+  "chg90": 79.8,
+  "from_ath": -21.8
+ },
+ "Meme|WIF": {
+  "px": 0.2299,
+  "chg7": -6.2,
+  "chg30": 13.9,
+  "chg90": 38.6,
+  "from_ath": -17.9
+ },
+ "Meme|BONK": {
+  "px": 3.49e-06,
+  "chg7": 3.6,
+  "chg30": 17.1,
+  "chg90": -15.1,
+  "from_ath": -32.4
+ },
+ "Meme|FLOKI": {
+  "px": 2.727e-05,
+  "chg7": -6.1,
+  "chg30": 7.3,
+  "chg90": 26.7,
+  "from_ath": -12.9
+ },
+ "Meme|TRUMP": {
+  "px": 1.994,
+  "chg7": -8.8,
+  "chg30": -25.6,
+  "chg90": 20.3,
+  "from_ath": -45.8
+ },
+ "Meme|TURBO": {
+  "px": 0.001011,
+  "chg7": -4.2,
+  "chg30": -2.5,
+  "chg90": 25.1,
+  "from_ath": -12.8
+ },
+ "Meme|BOME": {
+  "px": 0.0009804,
+  "chg7": -7.7,
+  "chg30": -1.1,
+  "chg90": 139.3,
+  "from_ath": -37.5
+ },
+ "Meme|NEIRO": {
+  "px": 8.788e-05,
+  "chg7": -9.5,
+  "chg30": 0.9,
+  "chg90": 43.2,
+  "from_ath": -23.9
+ },
+ "AI|FET": {
+  "px": 0.2289,
+  "chg7": 11.7,
+  "chg30": 53.2,
+  "chg90": 33.2,
+  "from_ath": -12.0
+ },
+ "AI|RENDER": {
+  "px": 1.93,
+  "chg7": 3.0,
+  "chg30": 32.5,
+  "chg90": 27.8,
+  "from_ath": -7.9
+ },
+ "AI|TAO": {
+  "px": 306.7,
+  "chg7": -4.0,
+  "chg30": 30.1,
+  "chg90": 51.7,
+  "from_ath": -10.1
+ },
+ "AI|VIRTUAL": {
+  "px": 0.8172,
+  "chg7": 11.7,
+  "chg30": 17.9,
+  "chg90": 55.5,
+  "from_ath": -4.3
+ },
+ "AI|WLD": {
+  "px": 0.4855,
+  "chg7": 6.0,
+  "chg30": 27.3,
+  "chg90": 19.4,
+  "from_ath": -25.9
+ },
+ "AI|ARKM": {
+  "px": 0.1311,
+  "chg7": 2.7,
+  "chg30": 16.3,
+  "chg90": 19.1,
+  "from_ath": -10.3
+ },
+ "AI|SNT": {
+  "px": 0.0272,
+  "chg7": 47.7,
+  "chg30": 10.4,
+  "chg90": -43.3,
+  "from_ath": -63.7
+ },
+ "AI|IO": {
+  "px": 0.1578,
+  "chg7": 3.5,
+  "chg30": 21.7,
+  "chg90": -4.7,
+  "from_ath": -26.9
+ },
+ "RWA|ONDO": {
+  "px": 0.5155,
+  "chg7": 12.6,
+  "chg30": 46.0,
+  "chg90": 67.2,
+  "from_ath": -15.3
+ },
+ "RWA|CFG": {
+  "px": 0.1602,
+  "chg7": 15.8,
+  "chg30": 30.1,
+  "chg90": -17.9,
+  "from_ath": -32.4
+ },
+ "RWA|PENDLE": {
+  "px": 2.374,
+  "chg7": -5.8,
+  "chg30": 39.8,
+  "chg90": 80.1,
+  "from_ath": -15.2
+ },
+ "RWA|SYRUP": {
+  "px": 0.2204,
+  "chg7": -4.7,
+  "chg30": 25.2,
+  "chg90": 59.7,
+  "from_ath": -8.0
+ },
+ "RWA|PLUME": {
+  "px": 0.01771,
+  "chg7": 17.2,
+  "chg30": 24.9,
+  "chg90": 84.5,
+  "from_ath": -11.5
+ },
+ "RWA|TRUMP": {
+  "px": 1.998,
+  "chg7": -8.6,
+  "chg30": -25.4,
+  "chg90": 20.5,
+  "from_ath": -45.7
+ },
+ "RWA|XAUT": {
+  "px": 4126.47,
+  "chg7": -5.5,
+  "chg30": -7.4,
+  "chg90": 3.1,
+  "from_ath": -11.8
+ },
+ "RWA|PAXG": {
+  "px": 4132.54,
+  "chg7": -5.3,
+  "chg30": -7.4,
+  "chg90": 3.2,
+  "from_ath": -11.9
+ },
+ "Gaming|IMX": {
+  "px": 0.172,
+  "chg7": 13.6,
+  "chg30": 33.6,
+  "chg90": 50.7,
+  "from_ath": -12.1
+ },
+ "Gaming|GALA": {
+  "px": 0.002133,
+  "chg7": 2.3,
+  "chg30": 20.2,
+  "chg90": -4.5,
+  "from_ath": -23.0
+ },
+ "Gaming|SAND": {
+  "px": 0.04277,
+  "chg7": 2.2,
+  "chg30": 10.3,
+  "chg90": -8.1,
+  "from_ath": -33.6
+ },
+ "Gaming|AXS": {
+  "px": 1.1,
+  "chg7": 1.5,
+  "chg30": 22.2,
+  "chg90": 14.1,
+  "from_ath": -14.0
+ },
+ "Gaming|ENJ": {
+  "px": 0.0292,
+  "chg7": 3.1,
+  "chg30": 16.4,
+  "chg90": 4.4,
+  "from_ath": -19.4
+ },
+ "Gaming|BEAM": {
+  "px": 0.0652,
+  "chg7": -29.1,
+  "chg30": -44.0,
+  "chg90": -62.6,
+  "from_ath": -65.6
+ },
+ "Gaming|MAGIC": {
+  "px": 0.0521,
+  "chg7": 3.2,
+  "chg30": 13.5,
+  "chg90": 28.0,
+  "from_ath": -19.1
+ },
+ "Gaming|PIXEL": {
+  "px": 0.00559,
+  "chg7": 2.0,
+  "chg30": 12.5,
+  "chg90": 22.6,
+  "from_ath": -15.9
+ },
+ "Gaming|YGG": {
+  "px": 0.02607,
+  "chg7": -0.3,
+  "chg30": 18.1,
+  "chg90": 20.2,
+  "from_ath": -11.6
+ },
+ "Gaming|BIGTIME": {
+  "px": 0.00898,
+  "chg7": 7.4,
+  "chg30": 38.2,
+  "chg90": 26.8,
+  "from_ath": -12.8
+ },
+ "DePIN|RENDER": {
+  "px": 1.938,
+  "chg7": 3.5,
+  "chg30": 33.0,
+  "chg90": 28.3,
+  "from_ath": -7.5
+ },
+ "DePIN|HNT": {
+  "px": 4.67,
+  "chg7": -4.1,
+  "chg30": 10.7,
+  "chg90": -47.9,
+  "from_ath": -56.1
+ },
+ "DePIN|LPT": {
+  "px": 1.675,
+  "chg7": -3.5,
+  "chg30": 24.7,
+  "chg90": 10.6,
+  "from_ath": -12.4
+ },
+ "DePIN|STORJ": {
+  "px": 0.0298,
+  "chg7": -25.7,
+  "chg30": -32.3,
+  "chg90": -60.9,
+  "from_ath": -72.8
+ },
+ "DePIN|NKN": {
+  "px": 0.0073,
+  "chg7": 28.1,
+  "chg30": -47.5,
+  "chg90": -52.9,
+  "from_ath": -61.2
+ },
+ "DePIN|THETA": {
+  "px": 0.2236,
+  "chg7": -0.8,
+  "chg30": 31.1,
+  "chg90": 75.6,
+  "from_ath": -6.6
+ },
+ "DePIN|SC": {
+  "px": 0.001099,
+  "chg7": 13.5,
+  "chg30": 75.8,
+  "chg90": 73.6,
+  "from_ath": -23.3
+ },
+ "Restaking|EIGEN": {
+  "px": 0.2516,
+  "chg7": 3.4,
+  "chg30": 29.8,
+  "chg90": 24.0,
+  "from_ath": -20.4
+ },
+ "Restaking|OM": {
+  "px": 0.0669,
+  "chg7": 2.6,
+  "chg30": 32.0,
+  "chg90": -11.2,
+  "from_ath": -32.6
+ },
+ "Restaking|KERNEL": {
+  "px": 0.0512,
+  "chg7": 7.3,
+  "chg30": 34.0,
+  "chg90": 33.3,
+  "from_ath": -31.6
+ },
+ "Restaking|BNT": {
+  "px": 0.352,
+  "chg7": 3.2,
+  "chg30": 10.3,
+  "chg90": 43.2,
+  "from_ath": -2.8
+ },
+ "Privacy|ZEC": {
+  "px": 1473.86,
+  "chg7": 0.2,
+  "chg30": 75.1,
+  "chg90": 268.9,
+  "from_ath": -13.2
+ },
+ "Privacy|XMR": {
+  "px": 118.7,
+  "chg7": -7.1,
+  "chg30": -24.7,
+  "chg90": -27.2,
+  "from_ath": -34.3
+ },
+ "Privacy|SCRT": {
+  "px": 0.0071,
+  "chg7": -43.7,
+  "chg30": -77.7,
+  "chg90": -88.5,
+  "from_ath": -91.6
+ },
+ "Privacy|DASH": {
+  "px": 64.53,
+  "chg7": 9.1,
+  "chg30": 56.4,
+  "chg90": 98.3,
+  "from_ath": -18.0
+ },
+ "Privacy|ZEN": {
+  "px": 6.892,
+  "chg7": -11.4,
+  "chg30": 34.4,
+  "chg90": 71.5,
+  "from_ath": -19.8
+ },
+ "Privacy|KEEP": {
+  "px": 0.6251,
+  "chg7": -14.7,
+  "chg30": 1.3,
+  "chg90": -2.9,
+  "from_ath": -45.2
+ },
+ "Payments|XLM": {
+  "px": 0.2294,
+  "chg7": 6.5,
+  "chg30": 27.6,
+  "chg90": 21.2,
+  "from_ath": -2.3
+ },
+ "Payments|HBAR": {
+  "px": 0.12004,
+  "chg7": 28.6,
+  "chg30": 59.0,
+  "chg90": 72.6,
+  "from_ath": -8.3
+ },
+ "Payments|ALGO": {
+  "px": 0.134,
+  "chg7": 19.1,
+  "chg30": 52.6,
+  "chg90": 61.4,
+  "from_ath": -4.3
+ },
+ "Payments|ICP": {
+  "px": 3.039,
+  "chg7": 0.3,
+  "chg30": 22.3,
+  "chg90": 44.7,
+  "from_ath": -9.5
+ },
+ "Payments|IOTA": {
+  "px": 0.0562,
+  "chg7": 15.6,
+  "chg30": 41.6,
+  "chg90": 59.2,
+  "from_ath": -1.6
+ },
+ "Payments|XRP": {
+  "px": 1.4937,
+  "chg7": -2.8,
+  "chg30": 7.0,
+  "chg90": 43.6,
+  "from_ath": -12.1
+ },
+ "Payments|LTC": {
+  "px": 69.22,
+  "chg7": 11.6,
+  "chg30": 41.2,
+  "chg90": 65.1,
+  "from_ath": -7.7
+ },
+ "Payments|BCH": {
+  "px": 309.1,
+  "chg7": 15.6,
+  "chg30": 25.0,
+  "chg90": 54.6,
+  "from_ath": -15.6
+ },
+ "Payments|DOGE": {
+  "px": 0.09408,
+  "chg7": -5.8,
+  "chg30": 10.3,
+  "chg90": 30.5,
+  "from_ath": -11.2
+ },
+ "PredictionMkt|PUMP": {
+  "px": 0.005182,
+  "chg7": 18.4,
+  "chg30": 2.4,
+  "chg90": 266.2,
+  "from_ath": -6.9
+ },
+ "PredictionMkt|JUP": {
+  "px": 0.33,
+  "chg7": 10.5,
+  "chg30": 50.3,
+  "chg90": 55.7,
+  "from_ath": -12.0
+ },
+ "PredictionMkt|PNUT": {
+  "px": 0.0524,
+  "chg7": -7.1,
+  "chg30": 3.1,
+  "chg90": 27.2,
+  "from_ath": -15.5
+ },
+ "PredictionMkt|WIF": {
+  "px": 0.2306,
+  "chg7": -6.0,
+  "chg30": 14.3,
+  "chg90": 39.0,
+  "from_ath": -17.7
+ }
+}

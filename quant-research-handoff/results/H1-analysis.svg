@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1120" viewBox="0 0 1220 1120" font-family="Microsoft YaHei, Segoe UI, SimHei, sans-serif">
+<rect width="1220" height="1120" fill="#ffffff"/>
+<text x="610.0" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">H1 检验：MA50&lt;MA200 能否减少 whipsaw？</text>
+<text x="610.0" y="52" text-anchor="middle" font-size="12" fill="#666">预注册假设　MA200 固定　减仓固定 50%　四资产 × 三层数据　成本 10/20/50bps</text>
+<text x="610.0" y="72" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#a00">判定：部分支持 H1 —— 主要终点（换手/whipsaw）4/4 达成，但 Validation 层回撤非劣性未达成</text>
+<text x="80" y="98" font-size="13.5" font-weight="bold" fill="#111">① 主要终点：换手率（越低越好）</text>
+<rect x="80" y="108" width="520" height="250" fill="#fcfcfc" stroke="#e0e0e0"/>
+<text x="88" y="132" font-size="11" font-weight="bold" fill="#555">Research</text>
+<text x="94" y="147" font-size="10" fill="#666">SPY</text>
+<rect x="132.0" y="138" width="225.4" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="147" width="26.7" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="363.4" y="152" font-size="9.5" fill="#2ca02c">-88%</text>
+<text x="94" y="168" font-size="10" fill="#666">QQQ</text>
+<rect x="132.0" y="159" width="263.1" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="168" width="41.1" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="401.1" y="173" font-size="9.5" fill="#2ca02c">-84%</text>
+<text x="94" y="189" font-size="10" fill="#666">IWM</text>
+<rect x="132.0" y="180" width="311.7" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="189" width="49.0" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="449.7" y="194" font-size="9.5" fill="#2ca02c">-84%</text>
+<text x="94" y="210" font-size="10" fill="#666">EEM</text>
+<rect x="132.0" y="201" width="313.5" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="210" width="52.7" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="451.5" y="215" font-size="9.5" fill="#2ca02c">-83%</text>
+<text x="88" y="238" font-size="11" font-weight="bold" fill="#555">Validation</text>
+<text x="94" y="253" font-size="10" fill="#666">SPY</text>
+<rect x="132.0" y="244" width="173.5" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="253" width="43.4" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="311.5" y="258" font-size="9.5" fill="#2ca02c">-75%</text>
+<text x="94" y="274" font-size="10" fill="#666">QQQ</text>
+<rect x="132.0" y="265" width="206.0" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="274" width="43.4" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="344.0" y="279" font-size="9.5" fill="#2ca02c">-79%</text>
+<text x="94" y="295" font-size="10" fill="#666">IWM</text>
+<rect x="132.0" y="286" width="292.7" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="295" width="43.4" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="430.7" y="300" font-size="9.5" fill="#2ca02c">-85%</text>
+<text x="94" y="316" font-size="10" fill="#666">EEM</text>
+<rect x="132.0" y="307" width="341.5" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="316" width="48.8" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="479.5" y="321" font-size="9.5" fill="#2ca02c">-86%</text>
+<text x="88" y="344" font-size="11" font-weight="bold" fill="#555">Holdout</text>
+<text x="94" y="359" font-size="10" fill="#666">SPY</text>
+<rect x="132.0" y="350" width="171.0" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="359" width="22.8" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="309.0" y="364" font-size="9.5" fill="#2ca02c">-87%</text>
+<text x="94" y="380" font-size="10" fill="#666">QQQ</text>
+<rect x="132.0" y="371" width="114.0" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="380" width="22.8" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="252.0" y="385" font-size="9.5" fill="#2ca02c">-80%</text>
+<text x="94" y="401" font-size="10" fill="#666">IWM</text>
+<rect x="132.0" y="392" width="228.1" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="401" width="45.6" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="366.1" y="406" font-size="9.5" fill="#2ca02c">-80%</text>
+<text x="94" y="422" font-size="10" fill="#666">EEM</text>
+<rect x="132.0" y="413" width="193.9" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="132.0" y="422" width="34.2" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="331.9" y="427" font-size="9.5" fill="#2ca02c">-82%</text>
+<text x="132" y="374" font-size="10" fill="#666">上=Close&lt;MA200　下=MA50&lt;MA200　右侧=换手降幅</text>
+<text x="660" y="98" font-size="13.5" font-weight="bold" fill="#111">② risk-off 事件数（减仓区间个数）</text>
+<rect x="660" y="108" width="480" height="250" fill="#fcfcfc" stroke="#e0e0e0"/>
+<text x="668" y="132" font-size="11" font-weight="bold" fill="#555">Research</text>
+<text x="674" y="147" font-size="10" fill="#666">SPY</text>
+<rect x="712.0" y="138" width="351.5" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="147" width="41.6" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="1069.5" y="152" font-size="9.5" fill="#555">76→9</text>
+<text x="674" y="168" font-size="10" fill="#666">QQQ</text>
+<rect x="712.0" y="159" width="296.0" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="168" width="46.2" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="1014.0" y="173" font-size="9.5" fill="#555">64→10</text>
+<text x="674" y="189" font-size="10" fill="#666">IWM</text>
+<rect x="712.0" y="180" width="323.8" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="189" width="50.9" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="1041.8" y="194" font-size="9.5" fill="#555">70→11</text>
+<text x="674" y="210" font-size="10" fill="#666">EEM</text>
+<rect x="712.0" y="201" width="263.6" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="210" width="46.2" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="981.6" y="215" font-size="9.5" fill="#555">57→10</text>
+<text x="668" y="238" font-size="11" font-weight="bold" fill="#555">Validation</text>
+<text x="674" y="253" font-size="10" fill="#666">SPY</text>
+<rect x="712.0" y="244" width="74.0" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="253" width="18.5" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="792.0" y="258" font-size="9.5" fill="#555">16→4</text>
+<text x="674" y="274" font-size="10" fill="#666">QQQ</text>
+<rect x="712.0" y="265" width="87.9" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="274" width="18.5" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="805.9" y="279" font-size="9.5" fill="#555">19→4</text>
+<text x="674" y="295" font-size="10" fill="#666">IWM</text>
+<rect x="712.0" y="286" width="124.9" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="295" width="18.5" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="842.9" y="300" font-size="9.5" fill="#555">27→4</text>
+<text x="674" y="316" font-size="10" fill="#666">EEM</text>
+<rect x="712.0" y="307" width="148.0" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="316" width="23.1" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="866.0" y="321" font-size="9.5" fill="#555">32→5</text>
+<text x="668" y="344" font-size="11" font-weight="bold" fill="#555">Holdout</text>
+<text x="674" y="359" font-size="10" fill="#666">SPY</text>
+<rect x="712.0" y="350" width="69.4" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="359" width="9.2" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="787.4" y="364" font-size="9.5" fill="#555">15→2</text>
+<text x="674" y="380" font-size="10" fill="#666">QQQ</text>
+<rect x="712.0" y="371" width="46.2" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="380" width="9.2" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="764.2" y="385" font-size="9.5" fill="#555">10→2</text>
+<text x="674" y="401" font-size="10" fill="#666">IWM</text>
+<rect x="712.0" y="392" width="92.5" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="401" width="18.5" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="810.5" y="406" font-size="9.5" fill="#555">20→4</text>
+<text x="674" y="422" font-size="10" fill="#666">EEM</text>
+<rect x="712.0" y="413" width="78.6" height="8" fill="#1f77b4" fill-opacity="0.8"/>
+<rect x="712.0" y="422" width="13.9" height="8" fill="#d62728" fill-opacity="0.8"/>
+<text x="796.6" y="427" font-size="9.5" fill="#555">17→3</text>
+<text x="80" y="440" font-size="13.5" font-weight="bold" fill="#111">③ 假警报率 vs 随机基线（超出部分才是信号的问题）</text>
+<rect x="80" y="450" width="520" height="230" fill="#fcfcfc" stroke="#e0e0e0"/>
+<line x1="140" y1="458" x2="140" y2="672" stroke="#999"/>
+<line x1="-172.0" y1="458" x2="-172.0" y2="672" stroke="#eee"/>
+<text x="-172.0" y="680" text-anchor="middle" font-size="9.5" fill="#777">-40pp</text>
+<line x1="-16.0" y1="458" x2="-16.0" y2="672" stroke="#eee"/>
+<text x="-16.0" y="680" text-anchor="middle" font-size="9.5" fill="#777">-20pp</text>
+<line x1="140.0" y1="458" x2="140.0" y2="672" stroke="#eee"/>
+<text x="140.0" y="680" text-anchor="middle" font-size="9.5" fill="#777">+0pp</text>
+<line x1="296.0" y1="458" x2="296.0" y2="672" stroke="#eee"/>
+<text x="296.0" y="680" text-anchor="middle" font-size="9.5" fill="#777">+20pp</text>
+<line x1="452.0" y1="458" x2="452.0" y2="672" stroke="#eee"/>
+<text x="452.0" y="680" text-anchor="middle" font-size="9.5" fill="#777">+40pp</text>
+<text x="88" y="475" font-size="10.5" font-weight="bold" fill="#555">Research</text>
+<rect x="140.0" y="481" width="295.7" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="105.2" y="491" width="34.8" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="503" width="276.5" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="513" width="114.1" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="525" width="292.3" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="535" width="219.9" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="547" width="280.0" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="557" width="110.5" height="8" fill="#d62728" fill-opacity="0.85"/>
+<text x="88" y="582" font-size="10.5" font-weight="bold" fill="#555">Validation</text>
+<rect x="140.0" y="588" width="203.5" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="598" width="183.5" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="610" width="240.4" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="620" width="190.9" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="632" width="227.4" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="642" width="70.5" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="654" width="271.0" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="664" width="3.3" height="8" fill="#d62728" fill-opacity="0.85"/>
+<text x="88" y="689" font-size="10.5" font-weight="bold" fill="#555">Holdout</text>
+<rect x="140.0" y="695" width="157.2" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="-98.8" y="705" width="238.8" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="717" width="233.9" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="-77.7" y="727" width="217.7" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="739" width="223.9" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="749" width="103.4" height="8" fill="#d62728" fill-opacity="0.85"/>
+<rect x="140.0" y="761" width="316.5" height="8" fill="#1f77b4" fill-opacity="0.85"/>
+<rect x="140.0" y="771" width="53.1" height="8" fill="#d62728" fill-opacity="0.85"/>
+<text x="140" y="696" font-size="10" fill="#666">蓝=Close&lt;MA200　红=MA50&lt;MA200　越靠右 = 假警报越多</text>
+<text x="660" y="440" font-size="13.5" font-weight="bold" fill="#111">④ 按预注册 §4 的判定</text>
+<rect x="660" y="450" width="480" height="230" fill="#fcfcfc" stroke="#e0e0e0"/>
+<text x="674" y="472" font-size="11" font-weight="bold" fill="#333">层　　主要终点　非劣性　次要终点</text>
+<text x="674" y="504" font-size="11" fill="#333">Research</text>
+<text x="770" y="504" font-size="11" fill="#2ca02c" font-weight="bold">4/4 ✓</text>
+<text x="888" y="504" font-size="11" fill="#2ca02c" font-weight="bold">4/4 ✓</text>
+<text x="1006" y="504" font-size="11" fill="#2ca02c" font-weight="bold">4/4 ✓</text>
+<text x="674" y="526" font-size="11" fill="#333">Validation</text>
+<text x="770" y="526" font-size="11" fill="#2ca02c" font-weight="bold">4/4 ✓</text>
+<text x="888" y="526" font-size="11" fill="#2ca02c" font-weight="bold">4/4 ✓</text>
+<text x="1006" y="526" font-size="11" fill="#2ca02c" font-weight="bold">4/4 ✓</text>
+<text x="674" y="552" font-size="10.5" fill="#a00" font-weight="bold">→ 判定：部分支持 H1</text>
+<text x="674" y="570" font-size="10" fill="#666">主要终点三层均 4/4；非劣性仅 Validation 层未达成（1/4）</text>
+<text x="674" y="586" font-size="10" fill="#666">Holdout 仅报告，未用于修改任何阈值</text>
+<text x="80" y="732" font-size="13.5" font-weight="bold" fill="#a00">★ 结论：机制预测被强力验证，但回撤保护的非劣性不稳定</text>
+<text x="80" y="754" font-size="11.5" fill="#333">· 换手：四资产、三层全部大幅下降 75-88% —— 机制预测「慢确认减少 whipsaw」成立</text>
+<text x="80" y="774" font-size="11.5" fill="#333">· 事件数：SPY 76→9（Research）、16→4（Validation）、15→2（Holdout），减少 80-87%</text>
+<text x="80" y="794" font-size="11.5" fill="#333">· 假警报（基线校正后）：Close&lt;MA200 超出随机基线 +20~+41pp，MA50&lt;MA200 仅 -31~+28pp</text>
+<text x="80" y="814" font-size="11.5" fill="#333">· 但回撤：Validation 层 SPY +6.44pp、IWM +11.19pp 恶化 → 非劣性未达成</text>
+<text x="80" y="834" font-size="11.5" fill="#333">· 成本：MA50&lt;MA200 在 50bps 下仍优于 Close&lt;MA200（换手低，成本敏感度小）</text>
+</svg>

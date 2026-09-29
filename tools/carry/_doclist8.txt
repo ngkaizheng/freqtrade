@@ -1,0 +1,6 @@
+binance_pm_params	https://www.binance.com/en/futures/trading-parameters/perpetual/portfolio-margin
+binance_levmargin_params	https://www.binance.com/en/futures/trading-parameters/perpetual/leverage-margin
+binance_contract_specs	https://www.binance.com/en/about-legal/contract-specifications
+binance_arb_data	https://www.binance.com/en/futures/funding-history/perpetual/arbitrage-data
+binance_oi_ls_ratio	https://www.binance.com/en/futures/data/globalLongShortAccountRatio
+binance_insurance	https://www.binance.com/en/futures/funding-history/perpetual/insurance-fund-history

@@ -1,0 +1,36 @@
+SOURCE_URL: https://r.jina.ai/https://developers.binance.com/docs/derivatives/usds-margined-futures/account/rest-api/Change-Margin-Type
+HTTP: 200  LEN: 1463
+
+Title: Binance Developer Docs
+
+URL Source: https://developers.binance.com/docs/derivatives/usds-margined-futures/account/rest-api/Change-Margin-Type
+
+Published Time: Fri, 25 Sep 2026 14:47:19 GMT
+
+Markdown Content:
+Welcome to the new Binance API documentation.Looking for the previous version?
+
+[![Image 1: Binance Developer Docs](https://developers.binance.com/en/docs/binance-logo.svg)![Image 2: Binance Developer Docs](https://developers.binance.com/en/docs/binance-logo.svg)](https://developers.binance.com/en/docs)
+
+[Legacy Docs](https://developers.binance.com/legacy-docs)
+
+*   [Documentation](https://developers.binance.com/en/docs/introduction)
+*   [API Reference](https://developers.binance.com/en/docs/catalog)
+*   [SDKs & Tools](https://developers.binance.com/en/docs/sdks-tools/overview)
+*   [Agent Native](https://developers.binance.com/en/docs/agent-native/overview)
+
+[Dev Forum](https://dev.binance.vision/)[Binance.com](https://www.binance.com/en)
+
+We value your privacy
+
+We use cookies to analyze site usage and improve the documentation experience. Analytics are aggregated and do not include sensitive personal data.
+
+[Privacy & cookies](https://www.binance.com/en/about-legal/privacy-portal)
+
+404
+
+## Page not found
+
+It seems that the page you are looking for does not exist or may have been moved. Please check the URL for any typos or use the navigation menu to find the correct page.
+
+[Go back home](https://developers.binance.com/en/docs)

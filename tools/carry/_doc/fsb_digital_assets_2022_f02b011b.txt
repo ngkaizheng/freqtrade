@@ -1,0 +1,104 @@
+SOURCE_URL: https://r.jina.ai/https://www.fsb.org/2022/07/the-financial-stability-implications-of-digital-assets/
+HTTP: 200  LEN: 6995
+
+Title: Page not found - Financial Stability Board
+
+URL Source: https://www.fsb.org/2022/07/the-financial-stability-implications-of-digital-assets/
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+*   [![Image 1](https://www.fsb.org/uploads/fsb-logo.svg)](https://www.fsb.org/)
+*   [](https://www.fsb.org/)
+*   [About the FSB](https://www.fsb.org/about/)
+    *           *               *   #### [About the FSB](https://www.fsb.org/about/)
+
+                *   [Mandate](https://www.fsb.org/about/#mandate)
+                *   [Work Programme](https://www.fsb.org/2026/02/fsb-work-programme-for-2026/)
+                *   [Members of the FSB](https://www.fsb.org/about/organisation-and-governance/members-of-the-financial-stability-board/)
+                *   [Regional Consultative Groups](https://www.fsb.org/about/rcgs/)
+                *   [History](https://www.fsb.org/about/history-of-the-fsb/)
+                *   [Contact](https://www.fsb.org/about/contact/)
+
+        *               *   ![Image 2: FSB Organisation](https://www.fsb.org/uploads/IMG_iStock_000021203601_Full-e1678470776566-500x250.jpg)
+
+#### Organisational Structure and Governance
+
+Find out more about the committees and composition of the FSB.  
+
+        *               *   ![Image 3](https://www.fsb.org/uploads/Carousel-implementation-and-effects-report-500x250.jpg)
+
+#### Leading by Example
+
+Read about FSB members’ commitment to lead by example in terms of their adherence to international standards.  
+
+*   [Work of the FSB](https://www.fsb.org/work-of-the-fsb/)
+    *           *               *   #### [Vulnerabilities Assessment](https://www.fsb.org/work-of-the-fsb/vulnerabilities-assessment/)
+
+            *   #### [Monitoring Implementation of Reforms](https://www.fsb.org/work-of-the-fsb/implementation-monitoring/)
+
+            *   #### [Assessing the effects of reforms](https://www.fsb.org/work-of-the-fsb/assessing-the-effects-of-reforms/)
+
+            *   #### [Compendium of Standards](https://www.fsb.org/work-of-the-fsb/about-the-compendium-of-standards/)
+
+        *               *   #### [Financial innovation and structural change](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/)
+
+                *   [Climate-related Risks](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/climate-related-risks/)
+                *   [Cross-border Payments](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/cross-border-payments/)
+                *   [Crypto-assets and Global Stablecoins](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/crypto-assets-and-global-stablecoins/)
+                *   [Cyber Resilience](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/cyber-resilience/)
+                *   [Financial Innovation](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/financial-innovation/)
+                *   [Non-Bank Financial Intermediation](https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/non-bank-financial-intermediation/)
+
+        *               *   #### [market and institutional resilience](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/)
+
+                *   [Accounting and Auditing](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/accounting-and-auditing/)
+                *   [Crisis Management and Resolution](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/crisis-management-and-resolution/)
+                *   [Derivatives Markets and Central Counterparties](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/derivatives-markets-and-central-counterparties/)
+                *   [Global Systemically Important Financial Institutions](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/global-systemically-important-financial-institutions-g-sifis/)
+                *   [LIBOR and Other Benchmarks](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/libor-and-other-benchmarks/)
+                *   [Market Fragmentation](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/market-fragmentation/)
+                *   [Post-2008 Financial Crisis Reforms](https://www.fsb.org/work-of-the-fsb/market-and-institutional-resilience/post-2008-financial-crisis-reforms/)
+
+*   [Publications](https://www.fsb.org/publications/)
+    *           *               *   #### [All Publications](https://www.fsb.org/publications/)
+
+                *   [Policy Documents](https://www.fsb.org/publications/policy-documents/)
+                *   [Progress Reports](https://www.fsb.org/publications/progress-reports/)
+                *   [Evaluation Reports](https://www.fsb.org/publications/evaluation-reports/)
+                *   [Reports to the G20](https://www.fsb.org/publications/g20-reports/)
+                *   [Peer Review Reports](https://www.fsb.org/publications/peer-review-reports/)
+                *   [Key Regular Publications](https://www.fsb.org/publications/key-regular-publications/)
+                *   [Regional Consultative Group Reports](https://www.fsb.org/publications/regional-consultative-group-reports/)
+
+        *               *   ![Image 4: Annual report 2026 cover callout](https://www.fsb.org/uploads/ar-cover-callout.jpg)
+
+### Promoting Global Financial Stability: 2025 FSB Annual Report 
+
+        *   
+
+*   [Consultations](https://www.fsb.org/consultations/)
+    *           *               *   #### [All Consultations](https://www.fsb.org/consultations/browse-all-consultations/)
+
+                *   [Current Consultations](https://www.fsb.org/consultations/current-consultations/)
+                *   [Past Consultations](https://www.fsb.org/consultations/past-consultations/)
+                *   [Past consultation responses](https://www.fsb.org/consultations/responses-to-past-consultations/)
+
+        *               *   #### [Current Consultations](https://www.fsb.org/consultations/current-consultations/)
+
+*   [Press](https://www.fsb.org/press/)
+    *           *               *   #### [All Press](https://www.fsb.org/press/)
+
+                *   [Plenary Meetings](https://www.fsb.org/press/plenary-meetings/)
+                *   [Announcements](https://www.fsb.org/press/announcements/)
+                *   [Press Releases](https://www.fsb.org/press/press-releases/)
+                *   [Speeches and Statements](https://www.fsb.org/press/speeches-and-statements/)
+                *   [Video and Audio](https://www.fsb.org/press/video-and-audio/)
+
+        *               *   ![Image 5: JS Insurance Europe speech](https://www.fsb.org/uploads/js-insurance-europe-speech-500x250.jpg)
+
+### 28 May 2026 Building resilience in an uncertain world
+
+Keynote speech by FSB Secertary General, John Schindler, at Insurance Europe’s 16th International Conference.  
+
+        *

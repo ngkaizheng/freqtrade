@@ -1,0 +1,30 @@
+import pandas as pd, json
+pd.set_option("display.width", 250)
+pd.set_option("display.max_rows", 300)
+pd.set_option("display.max_columns", 60)
+R = r"E:\FreqTrader\freqtrade\shark_results"
+
+df = pd.read_csv(rf"{R}\strategy_summary.csv")
+g = df.groupby(["split", "strategy"])["total_trades"].sum().unstack()
+print("=== 5m TOTAL trades by split x strategy (9 symbols) ===")
+print(g.to_string())
+print()
+print("=== 5m per-symbol per-split SHARK-01 ===")
+s1 = df[df["strategy"] == "SHARK-01"]
+piv = s1.pivot_table(index="symbol", columns="split", values="total_trades", aggfunc="sum")
+print(piv.to_string())
+print("split totals:", s1.groupby("split")["total_trades"].sum().to_dict())
+print("split duration (years) from elapsed_years:")
+print(s1.groupby("split")["elapsed_years"].mean().to_dict())
+print()
+print("=== 5m SHARK-01, trades per symbol per YEAR, per split (split length from elapsed_years mean) ===")
+for split, sub in s1.groupby("split"):
+    yrs = sub["elapsed_years"].mean()
+    tot = sub["total_trades"].sum()
+    print(f"  {split}: years={yrs:.4f} total={tot} -> {tot/yrs:,.0f} trades/yr across 9 symbols = {tot/yrs/9:,.0f} per symbol/yr")
+alltot = s1["total_trades"].sum()
+allyrs = s1.groupby("split")["elapsed_years"].mean().sum()
+print(f"  FULL: years={allyrs:.4f} total={alltot} -> {alltot/allyrs:,.0f} trades/yr = {alltot/allyrs/9:,.0f} per symbol/yr")
+print()
+print("=== 5m all-strategy total trades, full sample ===")
+print(f"  grand total trades = {df['total_trades'].sum():,}")

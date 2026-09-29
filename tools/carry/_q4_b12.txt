@@ -1,0 +1,23 @@
+===== CR: delta neutral cryptocurrency funding rate strategy drawdown tail risk [429]
+
+
+===== CR: funding rate arbitrage cryptocurrency leverage risk adjusted return [429]
+
+
+===== GET nber-33640-pdf [200] chars=1698014
+  [carry premi] 0 hits
+  [convenience yield] 0 hits
+  [UIP violation] 0 hits
+  [funding] 0 hits
+
+===== GET s2-x [404] chars=299
+Skip to search form Skip to main content Skip to account menu Semantic Scholar Semantic Scholar s Logo Search 238,338,358 papers from all fields of science Search We can t find the page you re looking for. You may have mistyped the address or the page has been moved. Error: 404 Go back to home page
+
+===== GET bing-ccarry [200] chars=222
+Skip to content Accessibility Feedback Melayu There are no results for crypto carry trade Christin Routledge Soska Zetlin-Jones Check your spelling or try different keywords All Past 24 hours Past week Past month Past year
+
+===== GET ddglite-ccarry [202] chars=277
+DuckDuckGo Unfortunately, bots use DuckDuckGo too. Please complete the following challenge to confirm this search was made by a human. Select all squares containing a duck: Submit Images not loading? Please email the following code to: error-lite+8f20@duckduckgo.com Code: 8f20
+
+===== GET x ERR HTTPSConnectionPool(host='search.marcia.io', port=443): Max retries exceeded with url: /search?q=test (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1006)')))
+

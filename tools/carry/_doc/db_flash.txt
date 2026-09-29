@@ -1,0 +1,105 @@
+SOURCE_URL: https://insights.deribit.com/industry/weekend-of-chaos-leverage-liquidity-and-flash-crash/
+HTTP: 200 LEN: 120426
+ Weekend of Chaos: Leverage, Liquidity and Flash Crash - Deribit Insights 
+ Skip to content 
+ Search for: 
+ Categories 
+ Industry 
+ Option Flows 
+ Exchange Updates 
+ Market Research 
+ Education 
+ Podcast 
+ Out of Office 
+ Options Course 
+ Trading Tools 
+ Partners 
+ Dev Hub 
+ KB 
+ English 
+ Categories 
+ Industry 
+ Option Flows 
+ Exchange Updates 
+ Market Research 
+ Education 
+ Podcast 
+ Out of Office 
+ Options Course 
+ Trading Tools 
+ Partners 
+ Dev Hub 
+ KB 
+ English 
+ Search for: 
+Weekend of Chaos: Leverage, Liquidity and Flash Crash
+ Imran Lakha 2025-10-15T12:40:55+00:00 October 15, 2025 | Industry | 
+Macro: Structural Fragility Exposed
+The weekend meltdown began with Trump’s shock announcement of 100% tariffs on Chinese imports – igniting a global selloff and sending Bitcoin briefly down to $102K before rebounding. Nearly $19 billion in leverage was wiped out as liquidity evaporated and stablecoins depegged, particularly on Binance.
+While panic spread fast, the episode revealed more about the system’s fragility than its fundamentals – excessive leverage, weak collateral, and unreliable infrastructure. With tensions easing and officials softening their tone, this may prove to be a painful but healthy purge that strengthens the market’s foundations.
+Realized Vol: A Violent Reset
+Volatility exploded on Friday’s plunge – BTC realized vol spiked near 50, ETH touched 90. The front end of the vol curve inverted as traders rushed for protection, flipping carry to negative. Most of the damage was done in one session, but markets remain jittery after breaching implied ranges again.
+The key test ahead: whether prices can hold on a second retest of the lows without reigniting panic.
+Skew Term Structure: Short-Term Fear, Long-Term Composure
+Short-dated put skew surged – BTC’s front-end put premium hit 10 vols, ETH’s 12 – before easing as markets stabilized. Yet further out, call skew remains firm, especially beyond December 2025. That resilience signals institutional investors still view the long-term crypto outlook as constructive.
+Tactically, spot rallies may offer opportunities to add downside protection via risk reversals while maintaining bullish long-term positioning.
+ETH/BTC Dynamics: High Beta and Justified Premium
+ETH/BTC briefly collapsed to 0.032 before recovering to trend resistance. The vol spread between ETH and BTC ballooned back to 30 vols on the front end, underscoring ETH’s high beta nature – sharp moves both ways. The long-end spread narrowed to around 20 vols, while skew shows short- term defensive demand for ETH puts but renewed bullish sentiment into 2026.
+In short, the volatility premium on ETH looks warranted – and likely to persist as traders rebuild exposure post-flush.
+ To get full access to Options Insight Research including our proprietary crypto volatility and skew dashboards, options flows, crypto stocks screener, visit the Alpha Pod . We also run Crypto Vaults, a smarter, safer, and more profitable crypto trading approach. Whether you want to hedge risk, earn steady yields, or create a long-term income stream, there’s a vault for you. All our products are purely for educational purposes and should not be considered financial advice. 
+ Disclaimer 
+This article reflects the personal views of its author, not Deribit or its affiliates. Deribit has neither reviewed nor endorsed its content.
+Deribit does not offer investment advice or endorsements. The information herein is informational and shouldn’t be seen as financial advice. Always do your own research and consult professionals before investing.
+Financial investments carry risks, including capital loss. Neither Deribit nor the article’s author assumes liability for decisions based on this content.
+ AUTHOR(S) 
+ Imran Lakha 
+ Imran Lakha is an expert at using institutional options strategies to capitalize on investment opportunities across global macro asset classes. Learn more here . 
+ + Show profile 
+ - Hide profile 
+ RECENT ARTICLES 
+ Block Scholes 2026-09-17T06:39:50+00:00 
+ Crypto Derivatives: Analytics Report – Week 38 
+ Block Scholes 2026-09-17T06:39:50+00:00 September 17, 2026 | Industry | 
+ Block Scholes 2026-08-27T11:05:27+00:00 
+ Crypto Derivatives: Analytics Report – Week 35 
+ Block Scholes 2026-08-27T11:05:27+00:00 August 27, 2026 | Industry | 
+ Block Scholes 2026-08-19T08:51:13+00:00 
+ Crypto Derivatives: Analytics Report – Week 34 
+ Block Scholes 2026-08-19T08:51:13+00:00 August 19, 2026 | Industry | 
+ Join our Newsletter 
+Sign up and stay up to date with the latest news.
+ Subscribe 
+ Subscribe 
+ × 
+ Exchange notifications via email 
+Get all Exchange notifications directly in your inbox.
+ Subscribe 
+ Subscribe 
+ × 
+Start Trading
+Visit our platform here or download our app:
+Sitemap
+ Home 
+ Market Research 
+ Education 
+ Exchange Updates 
+ Industry 
+ Option Flows 
+ Trading Tools 
+ Partners 
+ Developer Hub 
+ Contact us 
+Links
+ Bug bounty 
+ Portfolio Margin 
+ Privacy Policy 
+ Terms of service 
+ Fees 
+ For Developers 
+ Knowledge Base 
+Get Support
+Visit our Contact page here on Insights or go to our Official Support page here .
+ Copyright © 2015-2025 l All Rights Reserved by Deribit 
+ Facebook X Reddit LinkedIn YouTube 
+ Page load link 
+ Go to Top

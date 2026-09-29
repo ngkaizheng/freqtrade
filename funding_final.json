@@ -1,0 +1,23 @@
+{
+ "BTCUSDT": {
+  "markPx": 83511.49308696,
+  "lastFundingRate": 3.728e-05,
+  "annPct": 4.08,
+  "nextFunding": "2026-09-29T00:00:00+00:00",
+  "asof": "2026-09-28T20:37:00+00:00"
+ },
+ "ETHUSDT": {
+  "markPx": 2680.47,
+  "lastFundingRate": 8.728e-05,
+  "annPct": 9.56,
+  "nextFunding": "2026-09-29T00:00:00+00:00",
+  "asof": "2026-09-28T20:37:00+00:00"
+ },
+ "SOLUSDT": {
+  "markPx": 118.90726738,
+  "lastFundingRate": 4.032e-05,
+  "annPct": 4.42,
+  "nextFunding": "2026-09-29T00:00:00+00:00",
+  "asof": "2026-09-28T20:37:01.004000+00:00"
+ }
+}

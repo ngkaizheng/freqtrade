@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1000" viewBox="0 0 1220 1000" font-family="Microsoft YaHei, Segoe UI, SimHei, sans-serif">
+<rect width="1220" height="1000" fill="#ffffff"/>
+<text x="610.0" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">H3 检验：不同信息维度的信号能否提供增量信息？</text>
+<text x="610.0" y="52" text-anchor="middle" font-size="12" fill="#666">预注册冻结　VIX百分位 / HYG÷LQD变化 / 广度&lt;40%　四资产 × 三层　200 次置换安慰剂</text>
+<text x="610.0" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#a00">判定：不支持 H3 —— 三个类别在 Research 与 Validation 两层均 0/4</text>
+<text x="80" y="98" font-size="13.5" font-weight="bold" fill="#111">① 条件子样本：触发组 vs 未触发组的未来 63 日收益差</text>
+<rect x="80" y="108" width="520" height="280" fill="#fcfcfc" stroke="#e0e0e0"/>
+<line x1="340.0" y1="116" x2="340.0" y2="380" stroke="#999"/>
+<line x1="180.0" y1="116" x2="180.0" y2="380" stroke="#f0f0f0"/>
+<text x="180.0" y="388" text-anchor="middle" font-size="9" fill="#777">-8pp</text>
+<line x1="260.0" y1="116" x2="260.0" y2="380" stroke="#f0f0f0"/>
+<text x="260.0" y="388" text-anchor="middle" font-size="9" fill="#777">-4pp</text>
+<line x1="340.0" y1="116" x2="340.0" y2="380" stroke="#f0f0f0"/>
+<text x="340.0" y="388" text-anchor="middle" font-size="9" fill="#777">+0pp</text>
+<line x1="420.0" y1="116" x2="420.0" y2="380" stroke="#f0f0f0"/>
+<text x="420.0" y="388" text-anchor="middle" font-size="9" fill="#777">+4pp</text>
+<line x1="500.0" y1="116" x2="500.0" y2="380" stroke="#f0f0f0"/>
+<text x="500.0" y="388" text-anchor="middle" font-size="9" fill="#777">+8pp</text>
+<text x="150" y="408" font-size="10" fill="#555">左 = 触发后更差（假设方向）　右 = 触发后更好（与假设相反）</text>
+<text x="90" y="136" font-size="10.5" font-weight="bold" fill="#1f77b4">H3-A 波动率</text>
+<rect x="340.0" y="142" width="62.9" height="12" fill="#1f77b4" fill-opacity="0.8"/>
+<text x="94" y="152" font-size="9.5" fill="#333">SPY</text>
+<text x="407.9" y="152" font-size="9" fill="#1f77b4">+3.1</text>
+<rect x="340.0" y="157" width="60.7" height="12" fill="#1f77b4" fill-opacity="0.8"/>
+<text x="94" y="167" font-size="9.5" fill="#333">QQQ</text>
+<text x="405.7" y="167" font-size="9" fill="#1f77b4">+3.0</text>
+<rect x="340.0" y="172" width="0.8" height="12" fill="#1f77b4" fill-opacity="0.8"/>
+<text x="94" y="182" font-size="9.5" fill="#333">IWM</text>
+<text x="345.8" y="182" font-size="9" fill="#1f77b4">+0.0</text>
+<rect x="340.0" y="187" width="0.1" height="12" fill="#1f77b4" fill-opacity="0.8"/>
+<text x="94" y="197" font-size="9.5" fill="#333">EEM</text>
+<text x="345.1" y="197" font-size="9" fill="#1f77b4">+0.0</text>
+<text x="90" y="218" font-size="10.5" font-weight="bold" fill="#2ca02c">H3-B 信用</text>
+<rect x="340.0" y="224" width="44.9" height="12" fill="#2ca02c" fill-opacity="0.8"/>
+<text x="94" y="234" font-size="9.5" fill="#333">SPY</text>
+<text x="389.9" y="234" font-size="9" fill="#2ca02c">+2.2</text>
+<rect x="340.0" y="239" width="174.3" height="12" fill="#2ca02c" fill-opacity="0.8"/>
+<text x="94" y="249" font-size="9.5" fill="#333">QQQ</text>
+<text x="519.3" y="249" font-size="9" fill="#2ca02c">+8.7</text>
+<rect x="328.7" y="254" width="11.3" height="12" fill="#2ca02c" fill-opacity="0.8"/>
+<text x="94" y="264" font-size="9.5" fill="#333">IWM</text>
+<text x="294.7" y="264" font-size="9" fill="#2ca02c">-0.6</text>
+<rect x="340.0" y="269" width="23.0" height="12" fill="#2ca02c" fill-opacity="0.8"/>
+<text x="94" y="279" font-size="9.5" fill="#333">EEM</text>
+<text x="368.0" y="279" font-size="9" fill="#2ca02c">+1.1</text>
+<text x="90" y="300" font-size="10.5" font-weight="bold" fill="#d62728">H3-C 广度</text>
+<rect x="340.0" y="306" width="128.6" height="12" fill="#d62728" fill-opacity="0.8"/>
+<text x="94" y="316" font-size="9.5" fill="#333">SPY</text>
+<text x="473.6" y="316" font-size="9" fill="#d62728">+6.4</text>
+<rect x="340.0" y="321" width="159.8" height="12" fill="#d62728" fill-opacity="0.8"/>
+<text x="94" y="331" font-size="9.5" fill="#333">QQQ</text>
+<text x="504.8" y="331" font-size="9" fill="#d62728">+8.0</text>
+<rect x="340.0" y="336" width="85.4" height="12" fill="#d62728" fill-opacity="0.8"/>
+<text x="94" y="346" font-size="9.5" fill="#333">IWM</text>
+<text x="430.4" y="346" font-size="9" fill="#d62728">+4.3</text>
+<rect x="340.0" y="351" width="71.2" height="12" fill="#d62728" fill-opacity="0.8"/>
+<text x="94" y="361" font-size="9.5" fill="#333">EEM</text>
+<text x="416.2" y="361" font-size="9" fill="#d62728">+3.6</text>
+<text x="640" y="98" font-size="13.5" font-weight="bold" fill="#111">② 置换检验：真实改善在安慰剂分布中的分位</text>
+<rect x="640" y="108" width="500" height="280" fill="#fcfcfc" stroke="#e0e0e0"/>
+<line x1="690" y1="358" x2="1120" y2="358" stroke="#999"/>
+<line x1="1098.5" y1="118" x2="1098.5" y2="358" stroke="#d62728" stroke-dasharray="4,3"/>
+<text x="1098.5" y="116" text-anchor="middle" font-size="9.5" fill="#d62728">95% 阈值</text>
+<circle cx="1049.0" cy="134" r="5" fill="#1f77b4" fill-opacity="0.85"/>
+<text x="654" y="138" font-size="9.5" fill="#333">H3-A /SPY</text>
+<text x="1070" y="138" font-size="9" fill="#666">84%</text>
+<circle cx="1077.0" cy="151" r="5" fill="#1f77b4" fill-opacity="0.85"/>
+<text x="654" y="155" font-size="9.5" fill="#333">H3-A /QQQ</text>
+<text x="1070" y="155" font-size="9" fill="#666">90%</text>
+<circle cx="1092.0" cy="168" r="5" fill="#1f77b4" fill-opacity="0.85"/>
+<text x="654" y="172" font-size="9.5" fill="#333">H3-A /IWM</text>
+<text x="1070" y="172" font-size="9" fill="#666">94%</text>
+<circle cx="1074.8" cy="185" r="5" fill="#1f77b4" fill-opacity="0.85"/>
+<text x="654" y="189" font-size="9.5" fill="#333">H3-A /EEM</text>
+<text x="1070" y="189" font-size="9" fill="#666">90%</text>
+<circle cx="1055.5" cy="206" r="5" fill="#2ca02c" fill-opacity="0.85"/>
+<text x="654" y="210" font-size="9.5" fill="#333">H3-B /SPY</text>
+<text x="1070" y="210" font-size="9" fill="#666">85%</text>
+<circle cx="1036.2" cy="223" r="5" fill="#2ca02c" fill-opacity="0.85"/>
+<text x="654" y="227" font-size="9.5" fill="#333">H3-B /QQQ</text>
+<text x="1070" y="227" font-size="9" fill="#666">80%</text>
+<circle cx="1001.8" cy="240" r="5" fill="#2ca02c" fill-opacity="0.85"/>
+<text x="654" y="244" font-size="9.5" fill="#333">H3-B /IWM</text>
+<text x="1070" y="244" font-size="9" fill="#666">72%</text>
+<circle cx="933.0" cy="257" r="5" fill="#2ca02c" fill-opacity="0.85"/>
+<text x="654" y="261" font-size="9.5" fill="#333">H3-B /EEM</text>
+<text x="1070" y="261" font-size="9" fill="#666">56%</text>
+<circle cx="1085.6" cy="278" r="5" fill="#d62728" fill-opacity="0.85"/>
+<text x="654" y="282" font-size="9.5" fill="#333">H3-C /SPY</text>
+<text x="1070" y="282" font-size="9" fill="#666">92%</text>
+<circle cx="1109.2" cy="295" r="5" fill="#d62728" fill-opacity="0.85"/>
+<text x="654" y="299" font-size="9.5" fill="#333">H3-C /QQQ</text>
+<text x="1070" y="299" font-size="9" fill="#666">98%</text>
+<circle cx="1034.0" cy="312" r="5" fill="#d62728" fill-opacity="0.85"/>
+<text x="654" y="316" font-size="9.5" fill="#333">H3-C /IWM</text>
+<text x="1070" y="316" font-size="9" fill="#666">80%</text>
+<circle cx="808.2" cy="329" r="5" fill="#d62728" fill-opacity="0.85"/>
+<text x="654" y="333" font-size="9.5" fill="#333">H3-C /EEM</text>
+<text x="1070" y="333" font-size="9" fill="#666">28%</text>
+<text x="690" y="376" font-size="10" fill="#555">Validation 层，仅 1/12 超出 95% 分位</text>
+<text x="80" y="474" font-size="13.5" font-weight="bold" fill="#111">③ 最大回撤对照：叠加层并未显著优于基线 A0（Validation 层）</text>
+<rect x="80" y="484" width="1060" height="250" fill="#fcfcfc" stroke="#e0e0e0"/>
+<text x="94" y="504" font-size="10.5" font-weight="bold" fill="#555">资产              BH      A0基线      H3-A      H3-B      H3-C</text>
+<text x="94" y="536" font-size="11" fill="#333">SPY</text>
+<text x="170" y="536" font-size="10.5" fill="#888888">-33.72%</text>
+<text x="310" y="536" font-size="10.5" fill="#333333">-25.61%</text>
+<text x="450" y="536" font-size="10.5" fill="#1f77b4">-22.38%</text>
+<text x="590" y="536" font-size="10.5" fill="#2ca02c">-22.38%</text>
+<text x="730" y="536" font-size="10.5" fill="#d62728">-24.12%</text>
+<text x="94" y="560" font-size="11" fill="#333">QQQ</text>
+<text x="170" y="560" font-size="10.5" fill="#888888">-28.56%</text>
+<text x="310" y="560" font-size="10.5" fill="#333333">-24.99%</text>
+<text x="450" y="560" font-size="10.5" fill="#1f77b4">-23.75%</text>
+<text x="590" y="560" font-size="10.5" fill="#2ca02c">-23.75%</text>
+<text x="730" y="560" font-size="10.5" fill="#d62728">-23.75%</text>
+<text x="94" y="584" font-size="11" fill="#333">IWM</text>
+<text x="170" y="584" font-size="10.5" fill="#888888">-41.13%</text>
+<text x="310" y="584" font-size="10.5" fill="#333333">-33.91%</text>
+<text x="450" y="584" font-size="10.5" fill="#1f77b4">-27.91%</text>
+<text x="590" y="584" font-size="10.5" fill="#2ca02c">-30.84%</text>
+<text x="730" y="584" font-size="10.5" fill="#d62728">-33.05%</text>
+<text x="94" y="608" font-size="11" fill="#333">EEM</text>
+<text x="170" y="608" font-size="10.5" fill="#888888">-38.20%</text>
+<text x="310" y="608" font-size="10.5" fill="#333333">-31.19%</text>
+<text x="450" y="608" font-size="10.5" fill="#1f77b4">-27.85%</text>
+<text x="590" y="608" font-size="10.5" fill="#2ca02c">-30.52%</text>
+<text x="730" y="608" font-size="10.5" fill="#d62728">-31.41%</text>
+<text x="94" y="634" font-size="10.5" fill="#666">→ H3 各臂相对 A0 基线的改善多在 0~3pp，且全部未超出安慰剂 95% 分位</text>
+<text x="80" y="768" font-size="13.5" font-weight="bold" fill="#a00">★ 判定：不支持 H3（三个类别在两层均 0/4）</text>
+<text x="80" y="790" font-size="11.5" fill="#333">· 条件子样本：触发组未来 63 日收益反而更高（+0.01 ~ +8.72pp），方向与假设相反</text>
+<text x="80" y="810" font-size="11.5" fill="#333">· 即：这些信号标记的是「已下跌后的反弹区」，而非「进一步下跌区」</text>
+<text x="80" y="830" font-size="11.5" fill="#333">· 置换检验：Validation 层 12 个组合中仅 1 个超出 95% 分位（约等于随机）</text>
+<text x="80" y="850" font-size="11.5" fill="#333">· 因此叠加层带来的回撤差异，无法与「随机减仓的机械效果」区分</text>
+<text x="80" y="870" font-size="11.5" fill="#333">· 唯二超出者为 QQQ/广度（97.5% / 96.5%），但其他三个资产均未超出</text>
+</svg>

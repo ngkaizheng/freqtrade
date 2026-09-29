@@ -1,0 +1,1220 @@
+
+
+===== PAGE 1 =====
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+RESEARCH ARTICLE
+Exploring the Impact: How Decentralized
+Exchange Designs Shape Traders’ Behavior
+on Perpetual Future Contracts
+Erdong Chen*, Mengzhong Ma†, Zixin Nie‡
+Abstract. In this paper, we analyze traders’ behavior within both centralized exchanges
+(CEXs) and decentralized exchanges (DEXs), focusing on the volatility of Bitcoin prices
+and the trading activity of investors engaged in perpetual future contracts. We categorize
+the architecture of perpetual future exchanges into three distinct models, each exhibiting
+unique patterns of trader behavior in relation to trading volume, open interest, liquidation, and
+leverage. Our detailed examination of DEXs, especially those utilizing the Virtual Automated
+Market Making (VAMM) Model, uncovers a differential impact of open interest on long versus
+short positions. In exchanges which operate under the Oracle Pricing Model, we find that
+traders primarily act as price takers, with their trading actions reflecting direct responses to
+price movements of the underlying assets. Furthermore, our research highlights a significant
+propensity among less informed traders to overreact to positive news, as demonstrated by an
+increase in long positions. This study contributes to the understanding of market dynamics in
+digital asset exchanges, offering insights into the behavioral finance for future innovation of
+decentralized finance.
+KEY WORDS
+1. Blockchain.
+2. Perpetual Futures.
+3. Volatility.
+4. DeFi.
+1.
+Introduction
+Over the past decade, blockchain technology has seen rapid development, attracting over 200
+million users globally. Among its applications, cryptocurrency derivative trading, particularly
+perpetual futures, has become prominent, with daily trading volumes exceeding $100 billion.
+Perpetual futures, introduced into the cryptocurrency market by BitMEX (https://bitmex.com/) in
+2016 and conceptualized by Robert J. Shiller,19 represent a novel variant of traditional futures
+contracts. Unlike their traditional counterparts, perpetual futures do not have a fixed delivery
+date with their prices pegged to spot prices of the underlying assets, allowing for indefinite
+trading without the need for contract rollovers.Investors show a preference for perpetual futures
+over traditional futures due to their efficiency in hedging and speculation, high leverage, and
+*E. Chen (ed1@e.ntu.edu.sg) is from School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+†M. Ma (mengzhon001@e.ntu.edu.sg) is from Interdisciplinary Graduate School, Nanyang Technological University, Singapore.
+‡Z. Nie (s230135@e.ntu.edu.sg) is from School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+arXiv:2402.03953v4  [q-fin.TR]  25 Apr 2024
+
+
+===== PAGE 2 =====
+LEDGER VOL X (201X) 1-5
+the absence of delivery and rollover requirements. Before 2022, investors trade perpetual
+futures on centralized exchanges (CEXs), but following the collapse of FTX there emerged
+many decentralized exchanges (DEXs) carrying perpetual futures, which are operated with
+more elements on-chain. Since the DEXs are constructed with smart contracts involved, more
+transparency can be ensured, helping guard against the fraudulence incurred in CEXs.
+Although both running perpetual futures, CEXs and DEXs are considerably different in
+terms of their order matching and price discovering, leading to different traders’ behavior and
+implications on the market micro-structure. The design of the current CEXs and DEXs can be
+classified into three exchange models according to the way orders are matched: Limit-Order-Book
+(LOB) Model, Virtual Market Making (VAMM) Model, and Oracle Pricing Model. Unlike the
+case of LOB Model, which adopt the limit-order book to form prices, orders submitted by traders
+in exchanges of VAMM Model are matched with liquidity providers1 and the prices are formed
+based on the relative abundance of assets in the liquidity pool. While in exchanges of LOB and
+VAMM Model traders’ trading activity help form the price, traders in exchanges of Oracle Pricing
+Model accept the price offered by the Oracle and thus act as pure price takers. Although liquidity
+providers are still passively act as the trading counterparty, the pricing is governed by a Price
+Oracle, which assimilates prices from various spot exchanges, thereby rendering transactions
+in exchanges of Oracle Pricing Model incapable of impacting the price directly.2 Therefore, in
+this paper we ask how those differences in exchanges of difference exchange models affect price
+formation and investors’ behavior and what kinds of empirical implications can be provided to
+the potential theoretical models for those exchange models.
+We investigate the distinct behaviors of traders on exchanges within different models by
+examining the relationship between the price volatility of the underlying asset, i.e., Bitcoin, and
+various trading activities, i.e., trading volume, open interest, liquidation, and leverage. Our study
+encompasses prominent exchanges of LOB Model such as Binance (https://www.binance.com/en)
+and Bybit (https://www.bybit.com), alongside exchanges of Oracle Pricing Model like GMX
+(https://gmx.io) and GNS (https://gains.trade), and Perpetual Protocol V2 (https://perp.com)
+which employs VAMM Model. The empirical evidence shows that, for exchanges of LOB Model
+(Binance and Bybit), price volatility is positively related with trading volumes but negatively
+related with open interests, consistent with findings in the traditional future markets. While
+the effects of trading activity on price volatility in exchanges of LOB Model reflect the market
+depth and can be explained by Kyle’s model,13 the VAMM Model (Perpetual Protocol V2)
+introduces a nuanced dynamic in the impact of open interest, varying between long and short
+positions. This asymmetry is attributable to the VAMM’s price formation mechanism, where the
+rate of change in an asset’s relative price inversely correlates with its abundance in the liquidity
+pool. Consequently, market depth increases with rising open interests in short positions, as the
+underlying asset accumulates in the liquidity pool, and the reverse holds true for long positions.
+While in exchanges of LOB and VAMM Model traders’ trading activity help form the price,
+traders in exchanges of Oracle Pricing Model (GMX and GNS) accept the price offered by the
+Oracle and thus act as pure price takers. Therefore, trading activity should be interpreted as
+purely traders’ reaction to the price change of the underlying asset. When the price become
+more volatile, trading volumes increase while open interests decrease, with change in long and
+1 Liquidity providers deposit assets in liquidity pools facilitated by smart contracts, where traders execute transactions.
+2 Details about the design of different exchange models can be found in Appendix A or the Systems of Knowledge paper.8
+2
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 3 =====
+LEDGER VOL X (201X) 1-5
+short positions different. These empirical estimations can be explained by the predictions based
+on Shalen’s dispersion of beliefs model (1993),18 which address the asymmetry of information
+traders can access. We also find that uninformed traders tend to overreact more to positive news
+than negative, evidenced by more of the long positions accumulated.
+Existing literature evaluates cryptocurrency future contracts mainly in terms of their rela-
+tionship with the spot market. Akyildirim et al.1 studied the impact of Bitcoin futures on the
+cryptocurrency market, especially the introduction of CME and CBOE futures contracts in De-
+cember 2017. Alexander et al.2 found that BitMEX derivatives lead the price discovery process
+over Bitcoin spot markets. Hung et al.12 identifies substantial pricing effects and breakpoints in
+market efficiency, indicating the dominant role of Bitcoin futures in price discovery compared
+to spot markets. As a special case of future contracts, perpetual future contracts are scarcely
+investigated, although with much higher trading volume. Besides the theoretical discussion on
+the arbitrage between perpetual future markets and spot markets,11 there lacks enough empirical
+works examining perpetual future traders’ behavior, especially in DEXs. After the pioneering
+work by Soska et al.,20 which conducted the first analysis on the trader profile for perpetual future
+contracts in BitMEX, i.e., a CEX, Alexander et al.4 constructed the optimal hedging strategy
+with empirical corroboration.
+Since some DEXs of perpetual futures adopt VAMM Model, which utilize Automated Market
+Making (AMM) as the core, our study also shed lights on the effect of traders specifically derived
+by AMM. There is a emerging sort of research on the economic implication of AMM, most of
+which, however, focus on the incentive of liquidity provision, driven by the relationship between
+transaction fee and impermanent loss.6,10,14,16 While the limited existing empirical studies are
+based on the spot market,9,14 i.e., Uniswap, our study contribute to the understanding of AMM
+by conducting the first analysis on the future market supported by AMM from the perspective of
+traders, enlightening the effect driven by AMM in a new context.
+While the primary focus of our research is on Decentralized Exchanges (DEXs) operating with
+perpetual future contracts, the findings and theoretical frameworks developed herein have broader
+applicability, extending to other trading paradigms within DEXs that exhibit the fundamental
+bifurcation between Traders and Liquidity Providers. This is exemplified in platforms such as
+PancakeSwap (https://pancakeswap.finance) and Uniswap (https://uniswap.org). Furthermore,
+as the Decentralized Finance (DeFi) ecosystem evolves, the proliferation of synthetic assets is
+anticipated to enhance the diversification of portfolios managed on DEXs. The insights gleaned
+from this study are thus of paramount importance to both academic researchers and industry
+practitioners.
+2.
+Data and Methodology
+GMX constructs its trading system on Arbitrum and Avalanche,3 and we focus on tradings
+on Arbitrum from 31 August 2021 to 26 September 2023, the data of which are retrieved
+from Dune (https://dune.com/queries/3110823). Similarly, GNS is based on Arbitrum and
+Polygon,4 and we choose the perpetual futures on Polygon from 20 December 2021 to 26
+September 2023 to examine, the data of which are retrieved by our constructed queries on Dune
+3 Arbitrum and Avalanche are two chains to address scalability of Ethereum (https://vitalik.eth.limo/general/2023/10/31/l2types.html),
+while detailed explanation can be found at: arbitrum.io and www.avax.network.
+4 Information about Polygon can be found at: polygon.technology.
+3
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 4 =====
+LEDGER VOL X (201X) 1-5
+(https://dune.com/queries/2829105 and https://dune.com/queries/2825251). We also retrieve data
+for Perpetual Protocol V2 (based on Etherum mainnet) from 27 November 2021 to 26 September
+2023 by constructing the query on Dune (https://dune.com/queries/3039245).
+We retrieve data on Binance and Bybit at the daily-level frequency using API provided by
+Coinalyze (https://coinalyze.net/) from 05 August 2020. Data of BTC pricing at the daily-level
+are collected from CryptoCompare with API (https://cryptocompare.com/).
+It is paramount to recognize that the pricing mechanisms governing perpetual futures contracts
+are intentionally designed to approximate the spot price of the underlying asset. Consequently,
+traders engaged in the trading of perpetual futures are confronted with prices inherently tethered
+to the underlying asset’s market valuation.11 For the purpose of our analysis, and without loss
+of generality, we direct our focus toward an examination of how traders operating within the
+perpetual futures market respond to variations in the price of the underlying asset, specifically
+Bitcoin.
+To establish an estimation for the daily volatility of Bitcoin’s price, this study employs the
+extreme-value volatility estimator, proposed by Garman and Klass (1980),21 as follows:
+ˆσt =
+n
+0.5×(ln(Pt,H/Pt,L))2 −(2ln(2)−1)(ln(Pt,O/Pt,C))2o1/2
+,
+(1)
+where Pt,H,Pt,L,Pt,O, and Pt,C are the high, low, opening, and closing prices of Bitcoin on date t,
+respectively.
+Previous research has consistently shown that variables related to traders’ activities, such as
+trading volumes and open interests, exhibit significant correlation,5 suggesting their predictability
+based on the previous values. Consequently, these variables are often analyzed by dividing them
+into expected and unexpected components. The expected component encompasses information
+about current trends, while the unexpected component captures unforeseen changes in traders’
+behavior. Hedgers, who adjust positions infrequently with a long-term focus, exhibit predictable
+behavior captured in the expected component. In contrast, speculators, who frequently adjust
+positions to manage risk, are represented by the unpredictable, unexpected component of activity.
+Following the methodology of Bessembinder and Seguin (1993),5 we partition trading volume,
+open interest, volume of liquidated positions, and daily average leverage using ARIMA(p,k,q)
+model, where fitted values are regarded as the expected component and its residuals as the
+unexpected component.
+To explore how investors’ behavior vary with volatility, we adapt the model proposed by
+Wang and Yau (2002)24 to include daily volumes of liquidated short and long positions separately:
+ˆσt =µ +
+m
+∑
+i=1
+φi ˆσt−i +
+3
+∑
+j=1
+αjEA j,t +
+3
+∑
+j=1
+β jUAj,t +
+2
+∑
+k=1
+γkELk,t+
+2
+∑
+k=1
+λjULk,t +εt,
+(2)
+where ˆσt is the estimated volatility on day t. EA j,t and UAj,t denote the expected and unexpected
+trading activity respectively, with j represents different trading activity when assigned different
+values: j = 1 for open interest on long positions, j = 2 for open interest on short positions, and
+j = 3 for trading volumes. ELk,t and ULk,t denote represent the expected and unexpected daily
+liquidated volumes for long (k = 1) and short (k = 2) positions. The model accounts for volatility
+4
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 5 =====
+LEDGER VOL X (201X) 1-5
+persistence through lagged volatility estimates, with the lag structure (m) determined by the
+Akaike Information Criterion. Given the established correlation between trading activities and
+volatility,24 these variables are included as controls. This analysis using Eq. (2) is applied to
+perpetual futures from all three DEXs and two CEXs, given the availability of trading volume,
+open interest, and liquidation data.
+Anticipating that traders are inclined to modify their leverage strategies in response to
+heightened liquidation risks under increased price volatility of the underlying asset, this study
+incorporates an analysis of leverage adjustments. Research focusing on centralized exchanges
+(CEXs) often omits leverage considerations due to the general unavailability of such data.20,22
+However, leveraging transaction-level data from GMX and GNS, this investigation calculates
+and integrates the daily average leverages for both long and short positions into the analytical
+framework. This is achieved by adapting the existing volatility estimation model, as delineated
+in Equation (2):
+ˆσt =µ +
+m
+∑
+i=1
+φi ˆσt−i +
+3
+∑
+j=1
+αjEA j,t +
+3
+∑
+j=1
+β jUAj,t +
+2
+∑
+k=1
+γkELk,t+
+2
+∑
+j=k
+λ jULk,t +
+2
+∑
+k=1
+ρkELVk,t +
+2
+∑
+k=1
+ωkULVk,t +εt,
+(3)
+where ELVk,t and ULVk,t denote expected and unexpected average leverage for long (k = 1) and
+short positions (k = 2), respectively, on day t. Notably, due to the cross-margining feature in
+Perpetual Protocol v2, where a collective pool of funds backs each position,5 the specific leverage
+level for each position remains undefined. Consequently, the leverage analysis using Equation
+(3) is confined to perpetual futures from GMX and GNS.
+3.
+Empirical Results
+3.1.
+Empirical results and analysis for LOB Model (Binance and Bybit)—Table 1 aggregates
+regression results on Eq. (2). Coefficient estimates for expected and unexpected trading volume
+are positive across all the five exchanges, consistent with the findings in the previous studies on
+traditional futures market.5,24
+For exchanges of LOB Model, i.e., Binance and Bybit, all the estimated coefficients measuring
+the marginal effects of expected and unexpected open interest are negative and significant, while
+the estimated coefficients for the unexpected portion are also larger in magnitude than those
+for the expected portion. Since in these exchanges each seller is matched with a buyer of the
+perpetual futures, aggregated value of long positions equals to that of short positions, so do the
+open interests. We only include open interests on short in Eq. (2), as open interests on long are
+of the same value. Since exchanges of LOB Model adopt the limit-order-books, it relates to
+the determinants of market depth, which Kyle (1985)13 defines as the volume of unanticipated
+order flow required to move price by one unit. When capital inflows into the market, the liquidity
+increases, which is reflected by higher level of open interests, making the price less volatile
+in response to new orders. Consequently, it is expected that when open interest is large the
+price volatility conditional on contemporaneous trading volume, which proxies market depth,
+5 Documents of Leverage and Margin Ratio for Perpetual Protocol v2: support.perp.com/hc/en-us/articles/5257393633945-Leverage-
+Margin-Ratio.
+5
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 6 =====
+LEDGER VOL X (201X) 1-5
+Table 1. Regression Results on Eq. (2)
+Variables
+Exchanges with Perpetual Contracts on Bitcoina,b
+Binance
+Bybitc
+Perpetual
+Protocol V2
+GMX
+GNS
+Interceptd
+0.011
+(6.27)***
+2.145
+(0.15)
+0.009
+(3.48)***
+1.438e-12
+(16.82)***
+0.017
+(8.82)***
+Lagged volatility
+0.200
+(10.16)***
+0.210
+(17.19)***
+0.252
+(8.19)***
+0.256
+(8.10)***
+0.371
+(10.57)***
+Trading Activity:
+Expected trading
+volume
+3.06e-08
+(12.87)***
+6.041e-08
+(8.91)***
+2.59e-09
+(8.76)***
+1.186e-10
+(6.30)***
+1.222e-11
+(0.19)
+Unexpected trading
+volume
+5.943e-08
+(24.07)***
+1.409e-07
+(15.62)***
+3.62e-09
+(14.42)***
+1.29e-10
+(9.83)***
+4.53e-10
+(6.65)***
+Expected OI on short
+-1.11e-12
+(-2.24)***
+-8.55e-12
+(-8.69)***
+-1.678e-09
+(-4.40)***
+-4.765e-10
+(-7.36)***
+-2.059e-10
+(-1.99)**
+Unexpected OI on short
+-2.365e-11
+(-8.93)***
+-3.138e-11
+(-4.65)***
+1.125e-08
+(4.53)***
+-2.808e-10
+(-3.27)***
+-4.654e-10
+(-3.08)***
+Expected OI on long
+-
+-
+3.569e-09
+(3.98)***
+-1.88e-10
+(-5.99)***
+2.98e-11
+(0.44)
+Unexpected OI on long
+-
+-
+1.481e-09
+(0.161)
+-1.75e-10
+(-2.16)**
+-4.261e-11
+(-0.29)
+Liquidation:
+Expected liquidated
+volume on short positions
+2.864e-10
+(5.46)***
+-2.832e-10
+(-2.32)**
+-5.983e-07
+(-2.09)**
+2.449e-09
+(1.09)
+-1.483e-09
+(-1.26)
+Unexpected liquidated
+volume on short positions
+1.655e-10
+(6.95)***
+5.098e-10
+(7.22)***
+-3.032e-08
+(-1.61)
+2.007e-09
+(1.61)
+3.386e-10
+(0.835)
+Expected liquidated
+volume on long positions
+8.534e-11
+(3.00)***
+1.672e-09
+(11.96)**
+5.008e-07
+(4.16)***
+1.82e-07
+(17.71)***
+7.295e-09
+(3.26)***
+Unexpected liquidated
+volume on long positions
+7.143e-11
+(6.82)***
+1.278e-09
+(16.62)***
+1.482e-07
+(5.39)***
+2.593e-09
+(5.08)***
+1.448e-09
+(1.46)
+Adjusted R2
+0.600
+0.600
+0.466
+0.380
+0.282
+AIC
+-6435
+-6511
+-4018
+-4389
+-3649
+No. of obs.
+1147
+1147
+668
+747
+628
+a This table reports the regression results of Eq. (2).
+b For perpetual futures on both DEXs and CEXs, contract size is undefined and traders trade perpetual futures with arbitrary units of
+Bitcoins, so trading volumes and open interests are measured in USD.
+c Since for CEXs each future contract is matched with a buyer and a seller, resulting in the same dollar value of open interests for long and
+short, we regress price volatility only on open interest on short.
+d In each cell, the t-statistics are in the parentheses. ∗, ∗∗, and ∗∗∗denote significance at 0.1, 0.05, and 0.01 level, respectively.
+6
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 7 =====
+LEDGER VOL X (201X) 1-5
+would be lower. Therefore, those negative estimated coefficients imply that an increase in
+unexpected open interest, e.g., inflow of speculative capital, lessens the impact of trading volume
+shock (unexpected volume) on price volatility. In our case, for Binance, when a trader increase
+his/her position by 1 USD, the marginal effect of the 1 USD increase in trading volume on
+price volatility is 5.943×10−8, while mitigated by the effect of 1 USD increase in open interest
+(−2.365×10−11), resulting in a smaller aggregated effect (5.943×10−8 −2.365×10−11). On
+the one hand, estimated coefficients for trading volumes and open interests have opposite signs,
+while on the other hand, whether the marginal effect of volume on price volatility is enlarged or
+mitigated depends on whether open interest is reduced or increased. Trades closing, decreasing,
+or liquidating positions actually reduce open interest, enlarging the effect of trading volume on
+price volatility.6 Price would move with larger distance, as less liquidity reacts to absorb a trade.
+This is reflected by that seven out of eight coefficients for liquidated volume in Binance and
+Bybit are significant and positive, with expected liquidated volume on short positions for Bybit
+as the exception. Thus, all else being equal, an unexpected rise in liquidation reduces market
+depth, via lowering open interest and liquidity.
+3.2.
+Empirical results and analysis for VAMM Model (Perpetual Protocol V2).—Different
+from the case of LOB Model, where traders are matched by the market maker and provide
+liquidity, traders in exchanges of VAMM Model are matched with liquidity pools, in which
+liquidity providers act passively as the counterparty. Traders’ open interest thus does not
+necessarily influence the market depth in the same way as in LOB Model and the theory of
+market depth by Kyle (1985)13 for traditional futures market is inapplicable in this context. For
+Perpetual Protocol V2, which adopts VAMM as the pricing mechanism, liquidity providers
+deposit stable coins in the vault based on which the clearing house mints virtual tokens and places
+those virtual tokens into the Uniswap v3 AMM.7 For illustration, assume the price of the Bitcoin
+perpetual is determined by the exchange function:
+QvUSDC ×QvBTC = k
+(4)
+where QvUSDC and QvBTC denote the quantities of virtual USDC (vUSDC) and virtual Bitcoin
+(vBTC) in the liquidity pool, and k reflects the depth of liquidity, which is determined by liquidity
+providers. With constant k, the price of virtual Bitcoin is determined by the ratio of QvUSDC and
+QvBTC:
+PvBTC = QvUSDC
+QvBTC
+= k ×Q−2
+vBTC.
+(5)
+The absolute value of the first derivative of PvBTC with respect to QvBTC is monotonously decreas-
+ing, which can be derived as:
+
+∂PvBTC
+∂QvBTC
+ =
+−2×k ×Q−3
+vBTC
+ = 2×k ×Q−3
+vBTC,
+(6)
+indicating the decreasing rate of change in pricing as vBTC goes abundant in the liquidity pool.
+The more vBTC there are in the liquidity pool, the lower volatile its price is. When a trader
+opens a long position, the clearing house swaps vUSDC for vBTC from the liquidity pool, adding
+6 Trades opening positions or rising positions increases open interests.
+7 Details of how VAMM works in Perpetual Protocol V2 can be found in https://support.perp.com/hc/en-us/articles/9594157347481-How-
+It-Works.
+7
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 8 =====
+LEDGER VOL X (201X) 1-5
+QvBTC
+QvUSDC
+k
+ˆk
+A
+B
+QB
+vUSDC
+QA
+vUSDC
+QB
+vBTC QA
+vBTC
+O
+\
+QvUSDC
+\
+QvBTC
+ˆO
+Fig. 1. A Uniswap v3 pool with a single liquidity provider.
+vUSDC to and withdrawing vBTC from the pool. QvBTC decreases while PvBTC becomes more
+volatile.
+Besides, Uniswap v3 AMM implements concentrated liquidity to enhance capital efficiency,
+where liquidity providers specify a price range, [P, ¯P], within which to add liquidity.8 If there
+is only a single liquidity provider specifying the price interval
+
+PA
+vBTC,PB
+vBTC
+
+to add liquidity,
+where PA
+vBTC = QA
+vUSDC
+QA
+vBTC and PB
+vBTC = QB
+vUSDC
+QB
+vBTC , this concentrated liquidity can be characterized
+by drawing a new set of axes, i.e., \
+QvBTC and \
+QvUSDC with the origin ˆO as shown in Fig. 1,
+to track the real reserve offered in range AB. While the exchange function is defined in the
+QvBTC −QvUSDC space (virtual reserve termed by Unisawp v3), the actual reserve specified in the
+price range is called real. Any point (QvBTC,QvUSDC) in the virtual space can be transformed to
+a point (\
+QvBTC, \
+QvUSDC) = (QvBTC −QB
+vBTC,QvUSDC −QA
+vUSDC) in the real space. The liquidity
+provider actually defines the coordinate of the real origin ˆO, which is a function of the interval
+
+PA
+vBTC,PB
+vBTC
+
+.
+In practice, liquidity offered by multiple liquidity providers cumulates around the current
+price level, as illustrated in Fig. 2. Trades at the tails of the distribution lead to larger price move,
+i.e., thus larger price volatility, due to lower liquidity than at the center. Therefore, while the
+design of concentrated liquidity determines market depth locally, the exchange function Eq. (4)
+forms price globally. In the long-run, (QvBTC,QvUSDC) moves along the exchange function and
+the change in slope determines the price volatility. In the short-run, the liquidity distribution
+centered at the current average price determines price volatility.
+The implication of Uniswap v3 AMM on pricing volatility is consistent with our empirical
+findings. In Table 1, the coefficient for expected open interest on short is estimated to be
+significantly negative (−1.678×10−9) while that on long is estimated to be significantly positive
+(3.569×10−9), indicating a negative association between expected open interest on short and
+price volatility while a positive association for long. Since the expected portion of open interest
+reflects traders’ long-run behavior, e.g., hedgers, in cope with the trend, the change could be
+8 For details of geometric explanation on concentrated liquidity, readers can refer to.17
+8
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 9 =====
+LEDGER VOL X (201X) 1-5
+Fig. 2.
+Example of Liquidity Distribution on Uniswap v3 AMM. This fig-
+ure shows the liquidity distribution for the pool of the pair WBTC/USDC
+on Uniswap V3.
+This snapshot is made on 7 Nov 2023.
+Source:
+https://dune.com/queries/65034/129883.
+mainly be described by Eq. (4). When the expected open interest on short rises, the clearing
+house retrieve vBTC from traders’ account and credit to the balance of the liquidity pool. The
+increased vBTC balance in the liquidity pool helps decrease the rate of pricing change and thus
+reducing price volatility according to Eq. (6). Besides, when expected open interest on long
+increases, the clearing house withdraw vBTC from the pool and credit to traders’, decreasing
+vBTC balance in the liquidity pool and thus increasing price volatility.
+While the expected portion of open interest captures how market status moves along the
+exchange function specified by Eq. (4), the unexpected portion reflects traders’ unanticipated
+behavior, e.g., speculation, on the basis of liquidity distribution. In the short-run, liquidity
+providers are lagged to adjust their bound of price within which to add liquidity, i.e., [P, ¯P],
+especially when facing unanticipated change. Therefore, open interest on both long and short
+positions would drive price to the tails of the liquidity distribution, enlarging pricing volatility due
+to lower liquidity. In Table 1, the estimated coefficients for the association between price volatility
+and unexpected open interest are all positive, i.e., 1.125×10−8 for short and 1.481×10−9 for
+long, substantiating our prediction based on the Uniswap v3 AMM pricing mechanism.
+In the context of Perpetual Protocol V2, liquidity providers have the capability to contribute
+liquidity utilizing leverage, thereby incurring a risk of passive liquidation when counterparties
+are liquidated. Transactions that liquidate liquidity providers’ positions during a price increase
+are categorized as liquidation on short, whereas those during a price decline are classified as
+liquidation on long. The liquidation of liquidity providers’ positions results in a reduction of
+market depth, which is hypothesized to have a direct correlation with increased price volatility
+and the frequency of liquidations among liquidity providers.
+Regarding the expected liquidation volume of traders’ positions, its impact on price volatility
+is anticipated to be inversely proportional to the effect of increasing expected open interest.
+Specifically, an expected increase in liquidation on short positions, which reduces open interest
+in these positions, is posited to have a positive correlation with price volatility, and the converse
+holds true for long positions. In the case of the unexpected component of liquidation, its influence
+on price volatility aligns with that of unexpected open interest, with all unforeseen trading
+activities driving price movements towards the extremities of the liquidity distribution, thereby
+exacerbating price volatility.
+Overall, an increase in unexpected liquidation in both long and short positions is expected to
+elevate price volatility. This is empirically corroborated in Table 1, where the estimated coefficient
+for unexpected liquidated volume on long positions is significantly positive (5.008 × 10−7).
+Conversely, the aggregated effect of an increase in expected liquidation on short positions should
+9
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 10 =====
+LEDGER VOL X (201X) 1-5
+theoretically be positive. However, this is contradicted by the negative sign of the estimated
+coefficient for expected liquidated volume on short positions (−5.983 × 10−7). A plausible
+explanation for this anomaly is that a price rise, typically accompanying an increase in short
+position liquidations, may attract additional liquidity providers. This influx of liquidity providers
+potentially mitigates price volatility, with their dampening effect on volatility surpassing the
+amplifying impact of liquidations. We have conducted the Granger Causality Test to examine
+the relationship between between the return on Bitcoin and the net change in liquidity in the
+vBTC-vUSDC pool on Perpetual Protocol V2, which you can find in Appendix B. It is shown
+that return on Bitcoin Granger-cause the net change in liquidity in the vBTC-vUSDC pool, while
+the reversed relationship does not hold.
+The asymmetrical effect of open interest on long and short positions is also predicted in the
+theoretical work by,3 which suggests that consuming liquidity involves a larger price impact than
+adding it, resulting in the larger marginal cost of a ETH buy order than the marginal benefit of a
+ETH sell order. The model proposed in3 implies an ambiguous reaction of AMM liquidity to
+asset price volatility, driven by the migration of both traders and liquidity providers between
+CEXs and DEXs. In our test, since liquidation explicitly includes behavior of both traders and
+liquidity providers, the ambiguity mentioned in3 may help explain the inconsistency between our
+predicted effect of expected liquidation on short positions and the estimated coefficient.
+3.3.
+Empirical results and analysis for Oracle Pricing Model (GMX and GNS).—In ex-
+changes of Oracle Pricing Model such as GMX and GNS, traders accept prices as a given, lacking
+the capacity to exert direct influence on price movements. The pricing mechanism in these
+DEXs is governed by a Price Oracle, which assimilates prices from various exchanges, thereby
+rendering transactions on GMX and GNS incapable of impacting the price directly.9 As a result,
+trading activities on these platforms, encompassing trading volume and open interest, merely
+reflect traders’ interpretations and reactions to the information encapsulated within the Price
+Oracle’s determined prices.
+Drawing upon Shalen’s dispersion of beliefs model (1993),18 which posits a market dichotomy
+between asymmetrically informed traders, market participants can be categorized into informed
+and uninformed traders. Uninformed traders, lacking access to private information, often engage
+in irrational trading based on market noise and tend to overreact to information. They strive, albeit
+unsuccessfully, to discern private information and market trends from current price fluctuations,
+leading to heightened position-taking during periods of increased price volatility. In contrast,
+informed traders, operating on the basis of their private information, exhibit relatively consistent
+beliefs over time and typically engage in trading within a constrained price range, resulting in a
+negative correlation between their positions and price volatility.24
+In Table 1, the estimated coefficients that measure the relationship between open interest and
+price volatility are predominantly negative, except the case of long open interests in GNS. This
+indicates a more pronounced influence of informed traders’ behavior, leading to the negative
+signs in these estimations. The impact of uninformed traders on open interest is effectively
+counterbalanced by the actions of informed traders. Notably, traders’ behaviors exhibit asym-
+metry between buyers and sellers, as evidenced by less negative (in the case of GMX) or even
+insignificant (for GNS) coefficients for long positions. This asymmetry could be attributed to
+9
+The
+code
+for
+GMX’s
+price
+feeding
+smart
+contract
+is
+publicly
+accessible
+at:
+https://github.com/gmx-io/gmx-
+contracts/blob/master/contracts/oracle/FastPriceFeed.sol.
+10
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 11 =====
+LEDGER VOL X (201X) 1-5
+uninformed traders’ tendency to overreact more to positive news than negative, leading to an
+increased propensity for long position accumulation.10 This asymmetry is further evidenced by
+variations in liquidated volume in relation to price volatility. As indicated in Table 1, for GMX
+and GNS, the coefficients linking liquidated volume on long positions are significantly positive,
+whereas those for short positions are not statistically significant.
+Aligned with Shalen’s model, it is anticipated that uninformed traders are more likely to
+increase leverage during periods of heightened price volatility to maximize capital efficiency,
+thereby enlarging their positions at a lower cost. In contrast, informed traders are less inclined
+to risk capital under volatile conditions, leading to a negative correlation between leverage and
+price volatility. Table 2 delineates the estimated results for Eq.(3). All eight coefficients relating
+price volatility and average leverage are estimated to be negative, indicating a more pronounced
+change in leverage as influenced by informed traders compared to uninformed traders.
+Table 2. Regression results on Eq. (3)
+Exchanges with Perpetual Contracts on Bitcoina,b
+Variables
+GMX
+GNS
+Variables
+GMX
+GNS
+Interceptc
+2.287e-12
+(9.47)***
+0.028
+(3.84)***
+Lagged volatility
+0.229
+(7.26)***
+0.369
+(10.66)***
+Expected portion
+Unexpected portion
+Trading Activity:
+Trading volume
+1.051e-10
+(5.60)***
+5.201e-11
+(0.83)
+1.359e-10
+(10.41)***
+4.593e-10
+(6.86)***
+OI on short
+-4.405e-10
+(-6.52)***
+-1.626e-10
+(-1.58)
+-2.485e-10
+(-2.89)***
+-4.423e-10
+(-2.98)***
+OI on long
+-1.373e-10
+(-4.11)***
+3.964e-11
+(0.58)
+-1.091e-10
+(-1.36)
+-5.505e-11
+(-0.38)
+Liquidation:
+Liquidated volume
+on short positions
+2.538e-09
+(1.15)
+-1.467e-09
+(-1.27)
+1.891e-09
+(1.55)
+3.177e-10
+(0.80)
+Liquidated volume
+on long positions
+2.77e-07
+(9.14)***
+7.573e-09
+(3.45)***
+2.539e-09
+(5.06)***
+1.384e-09
+(1.42)
+Leverage (average level):
+Average leverage
+on short positions
+-0.0004
+(-2.21)**
+-0.0001
+(-1.40)
+-0.0002
+(-3.00)***
+-0.0002
+(-4.37)***
+Average leverage
+on long positions
+-0.0004
+(-2.15)**
+-1.193e-05
+(-0.36)
+-0.0003
+(-3.65)***
+-7.237e-05
+(-1.93)**
+Adjusted R2
+0.398
+0.339
+AIC
+-4405
+-3693
+No. of obs.
+747
+628
+a This table reports the regression results of Eq. (3).
+b For perpetual futures on both DEXs and CEXs, contract size is undefined and traders trade perpetual futures with arbitrary units of
+Bitcoins, so trading volumes and open interests are measured in USD.
+c In each cell, the t-statistics are in the parentheses. ∗, ∗∗, and ∗∗∗denote significance at 0.1, 0.05, and 0.01 level, respectively.
+In summary, the analysis reveals that informed traders exhibit a higher level of activity
+compared to their uninformed counterparts on GMX and GNS, a conclusion substantiated by
+empirical data pertaining to the dynamics of open interests and leverages. Additionally, the
+10 Existing literature on traditional spot and future markets provides evidence of traders’ asymmetric reactions to positive and negative
+news.15,24
+11
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 12 =====
+LEDGER VOL X (201X) 1-5
+observed asymmetry in open interests and liquidations between long and short positions suggests
+a tendency among traders to disproportionately overreact to good news. However, it is imperative
+to acknowledge a critical distinction for analytical purposes: unlike GMX and GNS, centralized
+exchanges (CEXs) possess a price discovery function, leading to a reciprocal influence between
+traders’ behavior and market prices. Under Efficient-Market Hypothesis,23 the price aggregate
+and reflect all the current private information and information contained in the past pricing
+history. Consequently, it is methodologically unsound to interpret changes in trading activities,
+e.g., volume, open interest, liquidation, and leverage, solely as reactions to price fluctuations.
+This perspective challenges the conclusions drawn by,20 who posited that changes in liquidation
+are merely passive responses to price movements, thereby overlooking the role of liquidation
+as a contributory factor in price formation within BitMEX, a CEX. This oversight underscores
+the necessity for a nuanced understanding of the interplay between trader behavior and price
+dynamics, particularly in the context of CEXs where the price discovery process is inherently
+more complex.
+4.
+Conclusion
+This study underscores the necessity of developing new theoretical models, moving beyond
+conventional frameworks like Kyle’s model,13 to aptly comprehend the intricacies of DEXs. Our
+empirical results uncover distinct variations in DEXs, particularly under the VAMM Model, where
+open interest impacts long and short positions differently. The behavior of traders in exchanges
+of Oracle Pricing Model (GMX and GNS), who act as price takers, is found to be consistent
+with Shalen’s dispersion of beliefs model.18 Our study highlights the significant fundamental
+difference between CEXs and DEXs, based on which theoretical frameworks specifically for
+DEX design can be derived in the future works. Table 3 encapsulates a summary of the unique
+trading behaviors elicited by the varied designs of these models. Any exchange classified into
+one of our three exchange models is believed to derive distinctive behavior of the traders caused
+by the design of the exchange model.
+Table 3. Summary of Empirical Results
+Exchange Modela
+Price
+Discovering
+Price Volatility &
+Trading Volume
+Price Volatility &
+Open Interest
+Symmetry;
+Explanation
+b
+Exchange
+Analyzed
+LOB Model
+Yes
+Positively
+correlated
+Negatively
+correlated
+Symmetrical;
+Kyle’s model13
+Binance; Bybit
+VAMM Model
+Yes
+Positively
+correlated
+Mixed
+Asymmetrical;
+Uniswap v3 AMM
+Perpetual
+Prorocol V2
+Oracle Pricing
+Model
+No
+Positively
+correlated
+Negatively
+correlated
+Asymmetrical;
+Shalen’s dispersion
+of beliefs model18
+GMX; GNS
+a This table summarizes our empirical results regarding traders’ behavior in exchanges of different exchange models.
+b In this table, we care about the symmetry of effects between buyers and sellers.
+5.
+Acknowledgement
+ChatGPT has been used in the writing for the purpose of spelling, syntax and grammar checks.
+The authors take full responsibility of the output.
+12
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 13 =====
+LEDGER VOL X (201X) 1-5
+Notes and References
+1 Akyildirim, E., Corbet, S., Katsiampa, P., Kellard, N., Sensoy, A.: The development of bitcoin futures:
+Exploring the interactions between cryptocurrency derivatives. Finance Research Letters 34, 101234 (2020)
+2 Alexander, C., Choi, J., Park, H., Sohn, S.: Bitmex bitcoin derivatives: Price discovery, informational
+efficiency, and hedging effectiveness. Journal of Futures Markets 40(1), 23–43 (2020)
+3 Aoyagi, Jun and Ito, Yuki:Coexisting Exchange Platforms: Limit Order Books and Automated Market
+Makers. Available at SSRN 3808755 (2021)
+4 Alexander, C., Deng, J., Zou, B.: Hedging with automatic liquidation and leverage selection on bitcoin
+futures. European Journal of Operational Research 306(1), 478–493 (2023)
+5 Bessembinder, H., Seguin, P.J.: Price volatility, trading volume, and market depth: Evidence from futures
+markets. Journal of financial and Quantitative Analysis 28(1), 21–39 (1993)
+6 Capponi, A., Jia, R.:
+The adoption of blockchain-based decentralized exchanges. arXiv preprint
+arXiv:2103.08842 (2021)
+7 Chen, E., Ma, M., Nie, Z.: Perpetual future contracts in centralized and decentralized exchanges: Mechanism
+and traders’ behavior (2024)
+8 Erdong Chen, Mengzhong Ma, Zixin Nie. Perpetual Future Contracts in Centralized and Decentralized
+Exchanges: Mechanism and Traders’ Behavior. arXiv preprint arXiv:2402.03953, 2024.
+9 Han, J., Huang, S., Zhong, Z.: Trust in defi: an empirical study of the decentralized exchange. Available at
+SSRN 3896461 (2022)
+10 Hasbrouck, J., Rivera, T.J., Saleh, F.: An economic model of a decentralized exchange with concentrated
+liquidity. Available at SSRN 4529513 (2023)
+11 He, S., Manela, A., Ross, O., von Wachter, V.: Fundamentals of perpetual futures. arXiv preprint
+arXiv:2212.06888 (2022)
+12 Hung, J.C., Liu, H.C., Yang, J.J.: Trading activity and price discovery in bitcoin futures markets. Journal of
+Empirical Finance 62, 107–120 (2021)
+13 Kyle, A.S.: Continuous auctions and insider trading. Econometrica: Journal of the Econometric Society pp.
+1315–1335 (1985)
+14 Lehar, A., Parlour, C.: Decentralized exchange: The uniswap automated market maker. Preprint, submitted
+August 14 (2021)
+15 McQueen, G., Pinegar, M., Thorley, S.: Delayed reaction to good news and the cross-autocorrelation of
+portfolio returns. The Journal of Finance 51(3), 889–919 (1996)
+16 Milionis, J., Moallemi, C.C., Roughgarden, T., Zhang, A.L.: Automated market making and loss-versus-
+rebalancing. arXiv preprint arXiv:2208.06046 (2022)
+17 Mohan, V.: Automated market makers and decentralized exchanges: A defi primer. Financial Innovation
+8(1), 20 (2022)
+18 Shalen, C.T.: Volume, volatility, and the dispersion of beliefs. The Review of Financial Studies 6(2), 405–434
+(1993)
+19 Shiller, R.J.: Measuring asset values for cash settlement in derivative markets: hedonic repeated measures
+indices and perpetual futures. The Journal of Finance 48(3), 911–931 (1993)
+20 Soska, K., Dong, J.D., Khodaverdian, A., Zetlin-Jones, A., Routledge, B., Christin, N.: Towards understand-
+ing cryptocurrency derivatives: a case study of bitmex. In: Proceedings of the Web Conference 2021. pp. 45–57
+(2021)
+21 Garman, Mark B and Klass, Michael J: On the estimation of security price volatilities from historical
+data.Journal of business, 67–78 (1980)
+13
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 14 =====
+LEDGER VOL X (201X) 1-5
+22 Alexander, Carol and Deng, Jun and Zou, Bin: Hedging with automatic liquidation and leverage selection on
+bitcoin futures. European Journal of Operational Research, Volumn 306, pp. 478–493 (2023)
+23 Fama, Eugene F: Efficient capital markets: A review of theory and empirical work. The journal of Finance,
+Volume 25, pp. 383–417 (1970)
+24 Wang, C.: The effect of net positions by type of trader on volatility in foreign currency futures markets.
+Journal of Futures Markets 22(5), 427–450 (2002)
+14
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 15 =====
+LEDGER VOL X (201X) 1-5
+Fig. 3. Elements of Exchange Systems
+Appendix A
+In this section, we illustrate designs of the perpetual future contracts trading system for DEXs
+and CEXs, with emphasis on their differences and similarities.
+6.1.
+Perpetual Futures—Perpetual futures, introduced into the cryptocurrency market by
+BitMEX (https://bitmex.com/) in 2016 and conceptualized by Robert J. Shiller,19 represent a novel
+variant of traditional futures contracts. Unlike their traditional counterparts, perpetual futures
+do not have a fixed delivery date, allowing for indefinite trading without the need for contract
+rollovers. These contracts employ a funding fee mechanism to align their trading prices with the
+underlying spot prices, a process dependent on the price disparity between the perpetual futures
+and spot markets. This unique feature, along with the absence of a predetermined expiration
+date, distinguishes perpetual futures from traditional futures, where the price differential (basis)
+narrows as the expiration date approaches. Recently, perpetual futures have emerged as the
+most popular financial derivative in the cryptocurrency market, with trading volumes in 2021
+and 2022 reaching $51,989bn and $39,806bn,11 respectively, surpassing other derivatives like
+options.11 Despite a significant portion of this trading occurring on centralized platforms, the
+rise of Decentralized Finance (DeFi) has enabled trading on decentralized platforms, with DEXs
+experiencing a faster growth rate in trading volume compared to CEXs. The main models for
+perpetual futures trading on DEXs include the Hybrid Model, Oracle Pricing Model, and Virtual
+Automated Market Making (VAMM) Model, each offering different approaches to managing and
+executing trades in the evolving landscape of digital asset trading.
+6.2.
+Models of Exchange Systems—The key stakeholders and elements are as follows:
+• Trader: Individuals or entities engaged in the purchase and sale of perpetual contracts.
+These traders furnish collateral to maintain and manage their positions through the trading
+of such contracts.
+• Custody Module: This module is responsible for ensuring the security of assets across all
+trader accounts. It consistently updates and retains the latest balance details and facilitates
+both deposit and withdrawal operations initiated by traders.
+• Matching Module: This module is entrusted with storing, correlating, and executing
+purchase and sale orders of contracts.
+11 https://www.theblock.co/data/crypto-markets/options.
+15
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 16 =====
+LEDGER VOL X (201X) 1-5
+Table 4. Comparison of different exchange models
+Type
+Custody
+Matching
+Risk Control
+Counterparty
+Pricing
+CEX
+Hot &
+Cold Wallet
+Off-chain
+Server
+Off-chain
+Server
+Traders
+Traders
+Hybrid
+Smart
+contract
+Off-chain
+Server
+Off-chain
+Server
+Traders
+Traders
+Oracle
+Pricing
+Smart
+contract
+Smart
+contract
+Off-chain
+Keepers
+Liquidity
+Providers
+Oracle
+VAMM
+Smart
+contract
+Smart
+contract
+Off-chain
+Keepers
+Liquidity
+Providers
+AMM
+Algorithm
+Fig. 4. CEX Model. In this diagram, diamonds represent on-chain smart contracts,
+rectangles represent off-chain databases, and ellipses represent off-chain servers.
+16
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 17 =====
+LEDGER VOL X (201X) 1-5
+Fig. 5. Hybrid Model. In this diagram, diamonds represent on-chain smart
+contracts, rectangles represent off-chain databases, and ellipses represent off-
+chain servers. We use blue background to indicate elements differentiating Hybrid
+Model from the CEX Model.
+Fig. 6. Oracle Pricing Model. In this diagram, diamonds represent on-chain
+smart contracts, rectangles represent off-chain databases, and ellipses represent
+off-chain servers. Blue background is used to indicate elements differentiating
+Oracle Pricing Model from the CEX Model.
+17
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 18 =====
+LEDGER VOL X (201X) 1-5
+Fig. 7. VAMM Model. In this diagram, diamonds represent on-chain smart
+contracts, rectangles represent off-chain databases, and ellipses represent off-chain
+servers. Blue background is used to indicate elements differentiating VAMM
+Model from the CEX Model.
+• Risk Control Module: This module is vital for assessing and supervising the position
+of every trader account, contingent on the orders that have been executed. Its role is
+pivotal in ascertaining that the provided collateral is sufficient to offset potential deficits.
+Furthermore, in specific scenarios, it assumes control of a trader’s position and proceeds
+with its liquidation.
+How those four parts interact is illustrated in Fig. 3.
+The modules employed by different trading systems (models) vary significantly. In Table 4,
+we provide a horizontal comparison across five dimensions: Custody, Matching, Risk Control,
+Counterparty, and Pricing.
+The Custody Module assumes a central role in demarcating the distinct classifications within
+the realm of perpetual futures exchanges. Those that employ centralized custody solutions are
+classified as Centralized Exchanges (CEX Model) (Fig. 4), whereas those that abstain from
+such practices fall under the rubric of Decentralized Exchanges (DEX). Within the domain of
+DEX, further subdivisions emerge contingent upon factors encompassing order matching, price
+determination, and counterpart matching, resulting in to the Hybrid Model (Fig. 5), Oracle
+Pricing Model (Fig. 6), and Virtual Auto Market Making (VAMM) Model (Fig. 7). Since both
+CEX Model and Hybrid Model adopt limit-order-book, these two categories of exchanges could
+also be regarded as Limit-Order-Book (LOB) Model.
+The CEX Model(Fig. 4) closely resembles traditional financial practices. Apart from deposits
+and withdrawals, it makes limited use of blockchain technology. The technology stack used for
+custody of client funds, order matching, settlement, risk assessment, and control closely aligns
+with traditional financial practices. Due to the imperfect state of infrastructure and regulatory
+rules in the cryptocurrency trading industry, CEX Model often combines the functions of custody
+18
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 19 =====
+LEDGER VOL X (201X) 1-5
+banks, traditional exchanges, clearinghouses, and brokerages entities.
+In contrast, the Hybrid Model(Fig. 5) harnesses smart contracts for custody and settlement
+processes, ameliorating the centralization quandaries that typify the CEX Model while retaining
+certain centralized elements. Notably, off-chain servers persist in facilitating order matching and
+counterpart matching functions.
+The Oracle Pricing Model(Fig. 6) and VAMM Model (Fig. 7) gravitate toward a greater
+degree of decentralization. Both models leverage smart contracts for order matching, with
+Liquidity Providers assuming the role of direct counterparties to traders, engendering an indirect
+mode of trade execution among traders. Nevertheless, it is imperative to acknowledge that both
+models still rely upon centralized constituents. The involvement of Oracles and Keepers in the
+Risk Control Module remains a requisite for effecting the liquidation process. Moreover, the
+Oracle Pricing Model hinges upon Oracles for the determination of precise trade prices.
+The augmentation of decentralization engenders certain trade-offs. While diminishing re-
+liance on centralized components can mitigate specific security vulnerabilities and fortify re-
+sistance against censorship, it concurrently imposes constraints on the exchange’s transaction
+processing capacity per second (TPS). As one progresses from the CEX Model to the Hybrid
+Model, Oracle Pricing Model, and VAMM Model, the degrees of centralization diminish. How-
+ever, correspondingly, the ability to handle transactions experiences a commensurate decline due
+to the TPS limitations inherent in the underlying blockchain network. Consequently, blockchain
+developers have embarked upon the development of diverse technologies aimed at enhancing
+throughput and efficiency. Examples include zero-knowledge scaling solutions for Ethereum
+(zkEVM), which offer reduced costs, faster transaction speeds, and scalable solutions, all while
+maintaining the core principles of security and decentralization.
+Appendix B
+As conjectured in our analysis on liquidation in Perpetual Protocol V2, we hypothesis that price
+rise in Bitcoin attract liquidity providers in offering liquidity. To detect empirical evidence to
+our conjecture, we conduct the Granger Causality Test to see the relationship between the return
+on Bitcoin and the net change in liquidity in the vBTC-vUSDC pool on Perpetual Protocol V2,
+where the net change is calculated by subtracting the daily added liquidity by the daily withdrawn
+liquidity from the pool (measured in Bitcoin). Return on Bitcoin is calculated in daily frequency
+with the log-form return as follows: Rt = log
+ Pt
+
+−log
+ Pt
+
+, where Pt and Pt denote the close
+and open price of Bitcoin on day t. We retrieve data from 15 May 2023 to 15 Oct 2023 on
+Table 5. Granger Causality Test of Return on Bitcoin and the Net Change in
+Liquidity in the vBTC-vUSDC Pool on Perpetual Protocol V2
+H0a
+Max-lag
+F-statistics
+p-value
+(Prob > F)
+Return on BTC does not Granger-cause
+net change in liquidity pool
+15
+1.624
+0.079
+Net change in liquidity pool
+does not Granger-cause Return on BTC
+15
+1.164
+0.311
+a This table reports the results of Granger Causality Test in dectacting the relationship between return on Bitcoin and the net change in the
+liquidity contained in vBTC-vUSDC pool on Perpetual Protocol V2.
+19
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X
+
+
+===== PAGE 20 =====
+LEDGER VOL X (201X) 1-5
+Etherscan (https://optimistic.etherscan.io/). The testing results are reported in Table 5. There
+exists Granger-causality from the return on Bitcoin to the net change in vBTC-vUSDC liquidity
+pool, indicated by the statistically significant F-statistic with p-value of 0.079. However, the
+causality in reversed direction (net change in vBTC-vUSDC liquidity pool Granger-cause return
+on Bitcoin) is not evidenced, with p-value of 0.311, supporting our hypothesis that more liquidity
+is injected when Bitcoin price jump. The large lag, i.e., 15 days in this case, may suggests that
+traders need time to adjust positions in the liquidity pool in reaction to the rise in Bitcoin price.
+The empirical evidence here shows a rough picture of how traders change their deposit in the
+liquidity pool while future studies are needed with more factors controlled.
+20
+SSN 2379-5980 (online)
+DOI 10.5195/LEDGER.201X.X

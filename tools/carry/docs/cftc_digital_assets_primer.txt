@@ -1,0 +1,676 @@
+
+
+=== PAGE 1 ===
+Digital Assets Primer
+December 2020
+
+=== PAGE 2 ===
+DISCLAIMER
+This primer format is intended to be an educational tool regarding emerging 
+fintech innovations.  It is not intended to state the official policy or position of 
+the CFTC, or to limit the CFTC’s current or future positions or actions.  The 
+CFTC does not endorse the use or effectiveness of any of the financial 
+products or technologies in this presentation.  The CFTC’s jurisdiction over any 
+particular digital asset will depend on specific facts and circumstances.  Any 
+examples included in this Primer are illustrative only and do not indicate a 
+determination by the Commodity Futures Trading Commission or its staff of 
+jurisdiction.  CFTC staff, including LabCFTC, cannot and will not provide legal 
+advice.  If you have specific questions regarding your activities and whether 
+they conform to legal or regulatory requirements, you should consult with a 
+qualified lawyer or appropriate expert.  LabCFTC has no independent authority 
+or decision-making power, and cannot independently provide, or create an 
+expectation for, legal or regulatory relief.  Communications from LabCFTC
+shall not create estoppel against CFTC or other enforcement actions.  Any 
+formal requests for relief must be addressed by relevant CFTC staff or, as 
+necessary, by the Commission.  LabCFTC will work with entities on such 
+requests with the appropriate offices through established processes.
+2
+
+=== PAGE 3 ===
+CONTENTS
+This Primer is a publication of LabCFTC. In service to the CFTC’s goal of encouraging 
+innovation and enhancing the regulatory experience for market participants at home and 
+abroad, LabCFTC’smission is to promote responsible innovation among financial industry, 
+stakeholders, and policymakers.
+Overview of Digital Assets
+Digital Asset Markets
+Regulatory Response
+Digital Assets and the CFTC
+CFTC-Regulated Digital Asset Derivatives
+Digital Assets Moving Forward
+3
+
+=== PAGE 4 ===
+OVERVIEW OF DIGITAL ASSETS
+
+=== PAGE 5 ===
+What is a “Digital Asset”?
+Digital assets continue to evolve.  They 
+vary in terms of design and application.
+A single, widely-accepted definition of 
+“digital asset” has yet to emerge.  
+Conceptually, however, a digital asset 
+can be understood as:
+Anything that can be stored and 
+transmitted electronically, and has 
+associated ownership or use rights. 
+* One of the world’s first digital scans produced by NIST’s Standards Eastern Automatic Computer 
+in 1957,  https://www.nist.gov/image/5940462465bca0791f6dojpg
+Digital Photograph*
+5
+Smart Contract
+Bitcoin
+
+
+=== PAGE 6 ===
+Key Features of Digital Assets
+• A digital asset can represent physical or virtual assets, a value, or a use 
+right
+/service (e.g., computer storage space). 
+• Digital assets may take many forms and may utilize various underlying 
+technol
+ogies, including distributed ledger technology (DLT). 
+• Digital assets have a varied set of features and applications that touch a 
+range of
+ regulatory domains.
+• Digital assets are created and maintained with software (code), and exist 
+as data on 
+a network.  The software and network together enable digital 
+asset transactions.
+• Depending on its design, function, and use, a digital asset may be 
+charac
+terized differently, including as a commodity, swap or other 
+derivative.
+6
+
+=== PAGE 7 ===
+Digital Asset Ecosystem
+• A digital asset ecosystem consists of those elements that enable the 
+creati
+on, propagation, and use of digital assets.
+• At a minimum, this ecosystem must include a digital platform to build 
+upon, developer
+s to create and support the code that defines a digital 
+asset, a network to enable the transfer of the digital asset, and entities to 
+track and verify transactions.
+• Additional ecosystem components can facilitate the use, trading, and 
+functi
+onality of digital assets, for example, by providing links or 
+connectivity to the physical world.
+7
+• On-/Off-ramps
+• Exchanges
+• Custodians 
+• Wallet providers
+• Repositories
+• Dealers
+• Oracles
+• Internet of Things 
+(IoT) Sensors
+Digital assets require basic technology building blocks to function 
+and they are inextricably linked to a broader ecosystem.
+7
+
+=== PAGE 8 ===
+Virtual Currencies
+• A virtual currency is a digital representation of value that functions as a 
+medium 
+of exchange, a unit of account, and/or a store of value.*
+• Launched in 2009, bitcoin was among the first virtual currencies to 
+gain wi
+despread public attention.  
+• Public virtual currency systems like the bitcoin platform seek to 
+provide “
+an electronic payment system based on cryptographic proof 
+instead of trust, allowing any two willing parties to transact directly with 
+each other without the need for a trusted third party.”†
+• Bitcoin is described as “convertible” because it can be readily 
+exchanged f
+or fiat currency.  Bitcoin remains the largest convertible 
+virtual currency by market capitalization. 
+* See Retail Commodity Transactions Involving Certain Digital Assets (Final Interpretive Guidance), 85 FR 37734 (June 24, 2020), 
+available at https://www.cftc.gov/sites/default/files/2020/06/2020-11827a.pdf. † Satoshi Nakamoto, Bitcoin: A Peer-to-Peer 
+Electronic Cash System (Oct. 31, 2008), available at https://bitcoin.org/bitcoin.pdf. 8
+
+=== PAGE 9 ===
+Digital Assets vs. Virtual Currency
+• Virtual currencies – sometim es called “coins,” “native 
+tokens,” or “intrinsic tokens” – continue to be an 
+important part of the digital asset landscape, which 
+include markets the CFTC oversees.  A common 
+feature of virtual currencies is their intended purpose to 
+serve as a medium of exchange.
+• Digital token refers to a digital asset that requires 
+another bl
+ockchain network to operate and may serve a 
+variety of functions beyond virtual currency, e.g., utility 
+tokens.
+• Digital asset is a broader term that encompasses 
+additional
+ applications, including ownership, transaction 
+tracking, identity management, and smart contracts.  A 
+digital asset may express characteristics of a 
+commodity or commodity derivative.
+9
+Digital Assets
+Digital Tokens
+Virtual 
+Currency
+
+=== PAGE 10 ===
+DIGITAL ASSET MARKETS
+
+=== PAGE 11 ===
+The Digital Asset Marketplace
+• In terms of market capitalization, 
+bit
+coin dominates.  Its current 
+market capitalization is many 
+times that of other virtual 
+currencies.  
+• The number of digital assets is 
+grow
+ing.  Tokens have been 
+developed to address a wide 
+range of uses.   Many now trade 
+through a variety of platforms.
+The bitcoin price is based on daily settlements for the most active 
+CME bitcoin futures contract.  Source:  CME and CFTC. 
+$0
+$2,500
+$5,000
+$7,500
+$10,000
+$12,500
+$15,000
+$17,500
+$20,000
+$22,500
+01 2019 04 2019 07 2019 10 2019 01 2020 04 2020 07 2020 10 2020
+CME Bitcoin Futures: 
+Jan. 2, 2019 to Nov. 30, 2020
+11
+
+=== PAGE 12 ===
+Digital Asset Market Development
+Interest in trading digital asset derivatives is growing.  Nevertheless, as a class, 
+digital asset markets remain small relative to other traditional assets.
+Source:  CFTC analysis of daily futures settlement data. 
+BITCOIN, 
+$0.97
+CRUDE 
+OIL, LIGHT 
+SWEET, 
+$88.05
+CORN, 
+$36.32GOLD, 
+$103.57
+Futures Open Interest 
+($bn avg notional value)
+November 2020
+$0.00
+$0.40
+$0.80
+$1.20
+$1.60
+$0
+$40
+$80
+$120
+$160
+Jan-19 Jun-19 Nov-19 Apr-20 Sep-20
+Comparative Futures Open Interest
+($bn notional value) 
+Jan. 2, 2019 to Nov. 30, 2020
+CORN
+CRUDE OIL, LIGHT SWEET
+GOLD
+BITCOIN (right axis)
+12
+
+=== PAGE 13 ===
+Measuring Digital Asset Markets
+13
+A variety of metrics can be utilized to evaluate digital asset markets.  A 
+non-exhaustive list of metrics includes:
+– Digital asset values relative to currency or conventional 
+assets.
+– N
+umber of digital asset users.
+– Value of cash market and derivatives transactions.
+– Transaction volumes in cash and derivatives markets.
+– Overall market liquidity.
+– Number of active or open digital asset derivatives contracts.
+– Number of tokens and/or total value locked in smart contracts.
+– Value of the marketplace (ecosystem) supporting digital 
+assets.
+
+
+=== PAGE 14 ===
+REGULATORY RESPONSE
+
+=== PAGE 15 ===
+15
+Digital Assets:  Benefits and Risks
+• Increased transaction speed, 
+effic
+iency, and certainty. 
+• “Democratization” of markets and 
+financial inclusion.
+• Automation through smart contracts.
+• Simplified compliance.
+• Enhanced security.
+• Greater liquidity for assets.
+• Market manipulation (e.g., insider 
+trading,
+ market corners, fraud).
+• Lack of transparency, accountability 
+and governance 
+issues.
+• Illicit transactions and activity.
+• Cybersecurity, systems failure.
+• Macroprudential economic risk.
+• Resource consumption.
+Digit
+al assets offer significant potential. Yet, they also may present risks. 
+Reflecting its commitment to encourage and keep pace with innovation, the CFTC has set a goal in its 
+Strategic Plan to develop a holistic framework to promote responsible innovation in digital assets.*
+Benefits Risks
+* See CFTC Strategic Plan 2020-2024, Goal 3.4, available at
+https://www.cftc.gov/media/3871/CFTC202024_2024StrategicPlan/download
+
+=== PAGE 16 ===
+Building Blocks for a 
+Regulatory Framework
+A number of elements may contribute to a robust regulatory framework for digital 
+assets.  These building blocks may include:
+Native 
+Governance
+Mechanisms that 
+determine how 
+digital assets 
+operate, including 
+the coding process 
+and the transaction 
+verification process.  
+Community 
+Standards and 
+Best Practices
+Standards and 
+best practices 
+governing digital 
+assets and their 
+ecosystems 
+established by the 
+user community.
+Legal
+Agreements
+Legally enforceable 
+agreements 
+between two or 
+more parties that 
+can facilitate the 
+adoption and use of 
+digital assets.
+Government
+Regulation
+Principles, rules, 
+and regulatory 
+practice created 
+and enforced by 
+government 
+authorities.
+16
+
+=== PAGE 17 ===
+Key Builders: 
+Government Authorities
+• A variety of government authorities – federal,  state, and international –
+are contributing to the regulatory framework for digital assets.  
+• In the U.S., many federal authorities are engaging.  Examples include:
+– Commodity Futures Trading Commission (CFTC):  Regulates futures and 
+swaps mar
+kets, and certain other categories of commodity transactions.
+– Securities and Exchange Commission (SEC):  Regulates U.S. capital 
+markets and 
+enforces federal securities laws.
+– Financial Crimes Enforcement Network (FinCEN) :  Oversees money service 
+businesses and enforces anti-money laundering laws.
+– Office of the Comptroller of the Currency (OCC):  Regulates national and 
+foreign banks 
+operating in the United States.
+– Federal Reserve System: Central Bank of the U.S. and regulates, among 
+other areas,
+ the payments industry.
+.  
+17
+
+=== PAGE 18 ===
+Key Builders:
+Non-Government Stakeholders
+• Working together with agencies like the CFTC, a variety of non-government 
+stak
+eholders are contributing to the regulatory framework for digital assets.
+• These stakeholders include a variety of representatives from within the 
+digit
+al asset industry as well as the broader financial services sector.
+– Developers and Developer Groups.
+– Digital Asset Businesses.
+– Industry and Digital Asset Users.
+– Financial Markets Participants.
+– Trade Associations.
+– Self-Regulatory Organizations.
+18
+
+=== PAGE 19 ===
+Regulatory Engagement
+• Regulatory authorities have a variety of tools to facilitate engagement:  
+– Use of convening power to host internal, inter-a gency, and public events.
+– Participation in working groups, task forces, and similar initiatives.
+– Contests, hackathons, and sandboxes. 
+– Sponsored projects and partnerships.
+– Regulatory guidance on jurisdiction and applicable requirements.
+• Proactive engagement benefits both regulators and stakeholders and promotes 
+responsibl
+e innovation.  It can enable:
+– Dedicated points of contact and mechanisms to provide non-b inding guidance.
+– Opportunity to keep pace with innovation; insight on new products, technology,              
+and
+ services.
+– Understanding the existing regulatory framework and its application to digital assets; 
+id
+entification of potential friction points and risks.
+– Improved coordination among regulatory authorities and stakeholder groups.
+19
+
+=== PAGE 20 ===
+Regulatory Coordination
+• Current rules largely originated before the advent of digital assets.  Given 
+t
+heir novel features and characteristics, digital assets expose gaps and 
+overlaps in existing regulatory frameworks. 
+• Digital asset markets are global.
+• Regulatory coordination is necessary for effective oversight and for the 
+dev
+elopment of a coherent, harmonized framework. 
+• Effective coordination enables regulators to share information, advance 
+c
+ommon interests, and leverage resources.  Coordination efforts also 
+build trust and understanding among regulators.
+• Mechanisms for coordination include formal agreements, inter- agency 
+work groups, staff level initiatives, and multilateral organizations.
+20
+
+=== PAGE 21 ===
+Classification of Digital Assets
+• A deliberate evaluation of a digital asset can determine which 
+regulat
+ory frameworks may apply.
+• The design, stated purpose, and observed use of a digital asset 
+are each usef
+ul for an assessment.
+ Do existing regulations adequately apply to a particular 
+?
+digital 
+asset?
+• A taxonomy can help distinguish different groups of digital 
+assets
+ based on these criteria, and structure a regulatory 
+framework.
+ Which digital assets or which aspects of their use should be 
+subjec
+t to oversight?  What rules or principles should apply?
+ How should oversight be implemented?  Should multiple 
+regulat
+ory frameworks apply to a digital asset at the same 
+time?  Should a single regulator have primary authority?  
+21
+
+=== PAGE 22 ===
+DIGITAL ASSETS AND THE CFTC
+
+=== PAGE 23 ===
+CFTC + Digital Assets
+• The Commodity Exchange Act (CEA) defines “commodity” broadly to 
+include al
+l “goods and articles, … and all services, rights, and interests … 
+in which contracts for future delivery are presently or in the future dealt in.”  
+7 U.S.C. § 1a(9).
+• The statutory definition of “commodity” is not limited to tangible (physical) 
+commodit
+ies.
+• Under the CEA, the CFTC has regulatory authority over most categories of 
+derivati
+ves transactions.
+• Depending on their structure and use, digital assets may be deemed to be 
+a commodit
+y, swap, or other derivative.
+• The CFTC also oversees certain derivatives market participants (e.g., 
+dealers and int
+ermediaries) and market infrastructure (e.g., exchanges and 
+clearinghouses).*
+23
+* Note that clearinghouses may engage third party custodians to safeguard customer assets.  The CFTC 
+does not regulate or supervise these entities.
+
+=== PAGE 24 ===
+CFTC’s Jurisdiction
+• In 2015, the CFTC found: “Bitcoin and other virtual currencies are 
+encompassed i
+n the [commodity] definition and properly defined as 
+commodities.” See In the Matter of: Coinflip, Inc., d/b/a Derivabit, and 
+Francisco Riordan, CFTC Docket No. 15-29.*
+• In 2016, the CFTC took action against a bitcoin exchange that was offering 
+fut
+ures in the U.S. without registering with the agency.  In the Matter of:   
+BFXNA INC. d/b/a BITFINEX, CFTC Docket No. 16-19.Ϯ
+• In 2017, the CFTC proposed guidance regarding its jurisdiction over certain 
+ty
+pes of retail transactions involving virtual currency.  It finalized this guidance 
+in 2020.  See “Retail Commodity Transactions Involving Certain Digital 
+Assets,” 85 FR 37734 (June 24, 2020).  
+• In 2018, federal courts affirm the CFTC’s jurisdiction over digital assets in two 
+cases,
+ CFTC v. McDonnell, 287 F. Supp. 3d 213 (E.D.N.Y. 2018)and CFTC v. 
+My Big Coin Pay, Inc. et al., 334 F. Supp. 3d 492 (D. Mass. 2018).
+• In 2019, CFTC Chairman Heath Tarbert expressed his view that ether is a 
+commodity, as defined by the CEA.†
+24
+*  https://www.cftc.gov/idc/groups/public/@lrenforcementactions/documents/legalpleading/enfcoinfliprorder09172015.pdf
+Ϯ https://www.cftc.gov/sites/default/files/idc/groups/public/@lrenforcementactions/documents/legalpleading/enfbfxnaorder060216.pdf
+† See, e.g., CFTC Press Release 8051-19, available at https://www.cftc.gov/PressRoom/PressReleases/8051-19.
+
+=== PAGE 25 ===
+Digital Asset Market Oversight
+• To function as intended, digital asset markets must be transparent, safe, 
+and res
+ilient.  A key objective of governance for digital assets is to 
+promote and ensure market integrity.
+• Market regulators like the CFTC have been committed to combatting 
+fraud 
+and abuse, as it relates to: 
+– Unfair and deceptive sales practices.
+– Market manipulation.
+– “Pump and dump” and other fraudulent schemes.
+• Digital asset stakeholders have also contributed by developing industry 
+init
+iatives such as: 
+– Codes of Conduct.
+– Compliance Protocols and Tools.
+– Market Surveillance Tools.
+25
+
+=== PAGE 26 ===
+Joint Statement on Activities 
+Involving Digital Assets
+• Issued October 2019 by leaders of the CFTC, SEC, and FinCEN.*
+• Reminder for entities engaging in digital asset transactions to comply 
+with 
+the anti-money laundering and countering the financing of terrorism 
+(AML/CFT) requirements in the Bank Secrecy Act (BSA).
+• The facts and circumstances of an entity’s digital asset-relat ed activities 
+is the key factor in determining whether and how that person must 
+register with the CFTC, SEC, or FinCEN. 
+• The Joint Statement notes “any person ‘registered with, and functionally 
+regulated 
+or examined by, the SEC or the CFTC,’ would not be subject to 
+the BSA obligations applicable to MSBs, but instead . . . would be subject 
+to the BSA obligations of such a type of regulated entity.”†
+26
+* See https://www.cftc.gov/PressRoom/SpeechesTestimony/cftcfincensecjointstatement101119. † Id. 
+((citing 31 CFR § 1010.100(f)(8)(ii)).
+
+=== PAGE 27 ===
+Leveraged Retail Transactions
+• In the Dodd-Frank Act, Congress extended CFTC jurisdiction to include 
+leveraged 
+retail commodity transactions entered into with, or offered to,
+parties that are not Eligible Contract Participants (ECPs).  
+• CEA Section 2(c)(2)(D) provides that such transactions, defined as "Retail 
+Commodi
+ty Transactions," shall be treated as futures, except with respect 
+to any contract of sale that results in “actual delivery” within 28 days.
+• The Commission unanimously approved final interpretative guidance in 
+March 2020 
+on the meaning of actual delivery for virtual currency 
+transactions.†
+– Actual delivery means the transfer of possession and control and the ability to 
+use the v
+irtual currency freely.
+– Actual delivery would not be satisfied solely by a mere book entry by the 
+counterpar
+ty seller or the offeror purporting to show delivery to the purchaser.
+– Nor is actual delivery satisfied merely by rolling or offsetting the transaction or 
+settli
+ng the transaction in cash or another virtual currency.
+† Retail Commodity Transactions Involving Certain Digital Assets, 85 FR 37734 (2020), available at 
+https://www.cftc.gov/sites/default/files/2020/06/2020-11827a.pdf. 27
+
+=== PAGE 28 ===
+CFTC-REGULATED 
+DIGITAL ASSET DERIVATIVES
+
+=== PAGE 29 ===
+Digital Asset Derivatives
+• As digital assets continue to develop, market participants may find 
+deriv
+atives useful instruments for:
+– Hedging/Risk Management, e.g., a bitcoin miner or merchant that accepts bitcoin.
+– Speculation, directional, or volatility trading.
+• Digital Asset derivatives offer a variety of potential benefits:
+– Provide a means to exchange value among different digital assets and fiat 
+currenci
+es.
+– May be cash-settl ed, enabling price exposure without having to own the virtual 
+currency.
+– May be traded and cleared through CFTC-regulat ed platforms.
+– Help establish relative prices of digital assets, both limiting price fluctuations and 
+provi
+ding a means to hedge the risk of price fluctuations.
+29
+
+=== PAGE 30 ===
+Digital Asset Listed Products
+• Digital asset derivatives markets are developing alongside the 
+growt
+h of underlying digital asset markets.
+• A number of CFTC-regi stered platforms have listed digital asset 
+derivative products, primarily based on bitcoin.
+– The first bitcoin derivative – a swap on its price – was listed for trading 
+by TeraExchange in 2014.  Other exchanges have also listed both cash 
+settled and physically settled bitcoin derivatives.
+– In 2020, ErisX li sted for trading the first futures contract based on ether.
+• The number of products, listing exchanges, and aggregate average 
+daily
+ trading volume for digital asset derivatives listed on CFTC-
+registered platforms has increased over time.
+30
+
+=== PAGE 31 ===
+Product Certification and 
+Review Process
+• Given their novel features, the CFTC released a staff advisory in 2018 
+that set
+ out guidance for CFTC-registered entities seeking to list or clear 
+virtual currency derivatives products.†
+• That guidance stated trading platforms and clearinghouses should: 
+1. Partner with spot mar ket platforms that follow KYC/AML rules;
+2. Have information shari ng agreements with spot market platforms; 
+3. Monitor price settlem ent data from spot markets and identify/investigate 
+anomalies and disproportionate moves;
+4. Set large trader reporting thresholds at five bitcoins or less; 
+5. Regularly coordinate with CFTC surveillance staff and provide trade data; and
+6. Allow CFTC staff to r eview initial and maintenance margin for virtual currency 
+futures.
+† CFTC Staff Advisory No. 18-14, available at 
+https://www.cftc.gov/sites/default/files/idc/groups/public/%40lrlettergeneral/documents/letter/2018-05/18-14_0.pdf. 31
+
+=== PAGE 32 ===
+Self-Certification Process
+• The Commodity Exchange Act provides designated contract markets 
+(“D
+CMs”) and swap execution facilities (“SEFs”) with the option to either: 
+– Submit a certification to the CFTC, or 
+– Submit the contract for Commission approval. 
+• DCMs/SEFs bring the vast majority of new products to market through the 
+cert
+ification process.  
+• When a DCM/SEF certifies a new contract it must determine that the 
+offer
+ing complies with the CEA and Commission regulations, including 
+that the new contract is not readily susceptible to manipulation (DCM/SEF 
+Core Principle 3). 
+• To date, all virtual currency derivatives have been self-cer tified by trading 
+venues.
+32
+See CFTC Staff Advisory No. 18-14, available at 
+https://www.cftc.gov/sites/default/files/idc/groups/public/%40lrlettergeneral/documents/letter/2018-05/18-14_0.pdf.
+
+=== PAGE 33 ===
+CFTC Staff Review of Listed 
+Digital Asset Derivatives
+For cash-settled digital asset derivatives, the primary focus is to ensure that the 
+contract settlement prices are reliable.  Among the issues, CFTC staff consider:
+– What is the quality and liquidity of the underlying market and pricing data?
+– Are there safeguards in place to ensure fraud and manipulation risk is mitigated?
+– How robust is the methodology for calculating the settlement price?
+For physically-settled digital asset derivatives, CFTC staff consider:
+– Physical transfer and storage (custody).  Are there appropriate protocols, 
+safeguards,
+ and security?  Does the exchange have clear rules around the 
+delivery process?  Is it consistent with prevailing cash market practices?
+– For cleared products, what is the role of the clearinghouse in the delivery process?
+– What may be the impact of delivery on underlying cash markets?  Could traders 
+engage in 
+squeezes, corners or other manipulative behavior?
+– What protocols are in place to ensure fraud and manipulation risk is mitigated?
+33
+See CFTC Regulations, 17 CFR Parts 37, 38,  39, and Appendix C to Part 38; and CFTC Staff Advisory No. 18-
+14, available at https://www.cftc.gov/sites/default/files/idc/groups/public/%40lrlettergeneral/documents/letter/2018-
+05/18-14_0.pdf.
+
+=== PAGE 34 ===
+DIGITAL ASSETS 
+MOVING FORWARD
+
+=== PAGE 35 ===
+Digital assets are still new and evolving rapidly.  How will digital 
+assets and their ecosystems develop over time?  What impact 
+might decentralized finance have?
+Digital assets offer potential in a range of contexts, as well as 
+challenges and vulnerabilities.  What are the opportunities and 
+risks?  What safeguards and protections are appropriate? 
+Good governance for digital assets is vital for their continued 
+growth.  What does an effective regulatory framework look like?  
+Digital asset markets are also rapidly developing.  How can 
+regulators support transparent, liquid markets and help ensure 
+their integrity?
+35
+Topics for Further Consideration
+
+=== PAGE 36 ===
+Questions?  
+Contact Us
+LabCFTC@cftc.gov 
+www.cftc.gov/LabCFTC 
+36

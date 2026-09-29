@@ -1,0 +1,2 @@
+cftc_8478	https://r.jina.ai/https://www.cftc.gov/PressRoom/PressReleases/8478-22
+cftc_doj_binance	https://r.jina.ai/https://www.justice.gov/opa/pr/binance-and-former-ceo-plead-guilty-federal-charges

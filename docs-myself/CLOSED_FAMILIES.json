@@ -1,0 +1,94 @@
+{
+  "_about": "Machine-readable registry of research lines this project has CLOSED, and why. Read this before scouting or screening any new mechanism family. A family listed here must not be re-researched without new, independent evidence - see docs-myself/RESEARCH_GOAL.md and AGENTS.md.",
+  "_generated": "2026-09-30",
+  "_format": "one entry per family: name, what_it_was, verdict, evidence, reopened_only_by",
+
+  "optimisation_axes_on_the_delivered_4h_book": [
+    {
+      "axis": "cost",
+      "verdict": "closed",
+      "finding": "fees + funding are 11% of gross; the edge clears its own cost bar by 9x",
+      "evidence": "RESEARCH_STATE.md section 15b, FUNDING_DECOMPOSITION_2026-09-30.md",
+      "reopened_only_by": "a change in the measured cost regimes, not by tuning"
+    },
+    {
+      "axis": "universe_width",
+      "verdict": "closed",
+      "finding": "N approx 25-200 positive at measured COVID costs; N=300 is NEGATIVE (-6.4%); N=439 clearly negative (-34.1%)",
+      "evidence": "LADDER_REPRICED_2026-09-30.md, WIDENED_UNIVERSE_RESULT_2026-09-28.md",
+      "reopened_only_by": "a liquidity filter that survives the 2026 tradable universe"
+    },
+    {
+      "axis": "horizon",
+      "verdict": "closed",
+      "finding": "cost_R is ~2.07x worse at 1h than 4h and the 1h gross edge is SMALLER, so intraday is worse on both sides of the ledger",
+      "evidence": "RESEARCH_STATE.md sections 18a and 18c, INTRADAY_GATE0_2026-09-30.md",
+      "reopened_only_by": "a venue whose round trip is far below the measured 12-35 bps"
+    },
+    {
+      "axis": "event_count",
+      "verdict": "closed",
+      "finding": "relaxing any of the three filters multiplies events by at most 1.88x against 11.9x needed; the three conditions are 5.6x more coincident than independence",
+      "evidence": "EVENT_RATE_RESULT_2026-09-30.md",
+      "reopened_only_by": "a signal family with a genuinely different trigger"
+    },
+    {
+      "axis": "event_quality_threshold",
+      "verdict": "closed",
+      "finding": "trading only rvol>=3.0 takes the by-timestamp t from 0.58 to 0.36 and the return from +90.3% to +29.0%, because it removes 2.5x of the trades",
+      "evidence": "STRENGTH_THRESHOLD_RESULT_2026-09-30.md",
+      "reopened_only_by": "a rule that keeps every trade"
+    },
+    {
+      "axis": "event_weighting",
+      "verdict": "closed",
+      "finding": "realised R is NOT monotone in rvol (the two middle buckets are statistically indistinguishable), so there is no scale to weight on; what survives is a coarse cut, and the cut family is already closed",
+      "evidence": "WEIGHT_AXIS_RESULT_2026-09-30.md",
+      "reopened_only_by": "a monotone, cost-surviving ranking of signals by some OTHER variable"
+    },
+    {
+      "axis": "leverage",
+      "verdict": "closed",
+      "finding": "3x is a hard geometric ceiling; at 5x only 38 of 50 symbols keep a reachable stop, at 8x it is 9 of 50",
+      "evidence": "LEVERAGE_AND_RISK_UNIT_2026-09-30.md",
+      "reopened_only_by": "a narrower stop, which is the STOP_MULTIPLE line and is itself closed"
+    },
+    {
+      "axis": "risk_per_trade",
+      "verdict": "closed",
+      "finding": "0.5% is the return maximum AND the only rung where the 25% per-position cap never fires; above it the 24-slot cap and the free balance take over as the binding constraint",
+      "evidence": "RISK_FRONTIER_RESULT_2026-09-30.md, BALANCE_LIMIT_RESULT_2026-09-30.md, EFFECTIVE_RISK_RESULT_2026-09-30.md",
+      "reopened_only_by": "a change in max_open_trade, which C-1 measured as worth 4 trades out of 1,111"
+    }
+  ],
+
+  "mechanism_families": [
+    {"family": "trend following (SMA/EMA/Supertrend/Bollinger)", "verdict": "CLOSED", "why": "PerpTrendSlow +12.8% / Sharpe 0.21 against buy-and-hold +177%; 111 of 170 trades were stop-outs, none profitable", "source": "COMMUNITY_STRATEGY_REVIEW_2026-09-27.md section 3"},
+    {"family": "5m mean reversion", "verdict": "CLOSED twice", "why": "gross approximately zero (fees were 99.2% of the loss); and RegimeVolBreakout5m's cost frontier STARTS NEGATIVE AT ZERO COST", "source": "COMMUNITY_STRATEGY_REVIEW_2026-09-27.md section 3"},
+    {"family": "btc_regime_filter (bull/bear long/short switch)", "verdict": "CLOSED", "why": "PerpShort4hSwitch +52.4% -> -58.7%, and 2023 came out WORSE than the bleed it was built to fix; Hurst/Ooi/Pedersen 2017 (JPM 44(1)) is the canonical null", "source": "DIRECTION_SWITCH_RESULT_2026-09-28.md"},
+    {"family": "funding rate signals and carry", "verdict": "CLOSED", "why": "funding excess -0.88 to -1.56 %/yr; and it is only 1-2% of this book's gross (t -1.30 to +1.09)", "source": "RESEARCH_STATE.md sections 2 and 15a"},
+    {"family": "cross-sectional momentum / reversal ranking", "verdict": "CLOSED", "why": "X-1 measured 21 of 21 cells net-NEGATIVE after 12-35 bps; corroborated by Arefev 2026 on the same venue", "source": "XSECT_SCREEN_RESULT_2026-09-30.md"},
+    {"family": "FreqAI / ML", "verdict": "CLOSED", "why": "three independent priors: rank IC +0.0243 with net Sharpe -2.91; freqtrade's own docs warn of overfitting; Freqle excludes ML from its own League", "source": "COMMUNITY_STRATEGY_REVIEW_2026-09-27.md section 3"},
+    {"family": "on-chain exchange flows", "verdict": "CLOSED", "why": "an EXTERNAL pre-registered replication rejected it twice; the data is EVM-only, ~18 months, daily", "source": "RESEARCH_STATE.md section 1"},
+    {"family": "options variance risk premium", "verdict": "CLOSED", "why": "the spread is INVERTED for BTC as of September 2026", "source": "GATE0_OPTIONS_VRP_2026-09-28.md"},
+    {"family": "new-listing microstructure", "verdict": "CLOSED", "why": "power arithmetic: ~200 events in the whole window against a t>=2.0 bar", "source": "NEW_LISTING_SCOUT_2026-09-28.md"},
+    {"family": "order-book imbalance / OFI", "verdict": "CLOSED BY COST before research", "why": "a 1-minute round trip costs 0.348-1.011 R against a 0.15 R documented effect; the effect is a minute-scale phenomenon", "source": "FAMILY_PRESCREEN_2026-09-30.md"},
+    {"family": "taker-flow / trade-sign imbalance", "verdict": "CLOSED BY COST before research", "why": "measured 5m cost_R 0.081 calm / 0.245 stress against a 0.08 R documented effect - the calm margin is under 1x", "source": "FIVE_MIN_RESULT_2026-09-30.md section 40 (the 0.155-0.452 figures in FAMILY_PRESCREEN were an EXTRAPOLATION, now measured and ~1.85x lower)"},
+    {"family": "cross-venue basis arbitrage", "verdict": "NOT TESTABLE", "why": "OKX and Bybit publish no historical funding; six plausible bulk-archive paths all 404", "source": "VENUE_CLOSED_2026-09-29.md"},
+    {"family": "liquidation cascade timing", "verdict": "CLOSED 2026-09-30 BY MEASUREMENT (was: OPEN calm-only, on an extrapolation)", "why": "the 5m/4h ATR ratio is MEASURED at 0.126 on 40 of 40 deployed symbols and 0.123 in the 2020 COVID crash, so cost_R at 5m is 0.0806 calm but 0.2451 at the 34.9 bps stress bar - and a cascade exists only in the stress regime. Pre-registered gate: open iff r >= 0.2053; measured 0.1256, short by 1.63x. The sqrt-t extrapolation it replaces (0.155/0.452) was ~1.85x too PESSIMISTIC, i.e. against the family, and it is still closed", "source": "FIVE_MIN_RESULT_2026-09-30.md section 40; tool tools/perp_short/five_min_horizon.py; prereg PREREG_FIVE_MIN_2026-09-30.md"},
+    {"family": "any NEW intraday hypothesis (sub-5m, 5m, 15m, 1h)", "verdict": "must clear a MEASURED cost bar, not an extrapolated one", "why": "the measured round trip in R on this universe is 4h 0.0106 calm / 0.0308 stress, 1h 0.0223 / 0.0650, 5m 0.0806 / 0.2451. Section 18c's measured 1h gross edges were 0.32-1.50 bps, so the cost is the binding bar and it is no longer a guess", "source": "FIVE_MIN_RESULT_2026-09-30.md section 40"},
+    {"family": "correlation pairs / cointegration", "verdict": "CLOSED", "why": "an honest OOS audit found stat-arb does not survive realistic costs", "source": "RESEARCH_STATE.md section 11"},
+    {"family": "calendar / seasonality", "verdict": "CLOSED", "why": "Monday effect faded after 2015; month-of-year is reversed; volatility IS seasonal but returns are not", "source": "RESEARCH_STATE.md section 11"},
+    {"family": "stablecoin peg deviation", "verdict": "CLOSED", "why": "the 41.9 bps figure is a within-day high-low RANGE, not a capturable return, and it sits where execution is worst", "source": "RESEARCH_STATE.md section 12a"},
+    {"family": "DeFi liquidity provision", "verdict": "CLOSED", "why": "negative after impermanent loss; not a 4h perp book", "source": "RESEARCH_STATE.md section 11"},
+    {"family": "MEV / cross-chain arbitrage", "verdict": "CLOSED", "why": "structurally not retail-tradeable: needs private mempools / multi-chain infrastructure this project will not build", "source": "RESEARCH_STATE.md change log 2026-09-28"},
+    {"family": "sentiment / social-media signals", "verdict": "CLOSED", "why": "no paper includes transaction costs; data is expensive or rate-limited", "source": "RESEARCH_STATE.md change log 2026-09-28"},
+    {"family": "execution algorithms (TWAP / Almgren-Chriss)", "verdict": "NOT APPLICABLE at the deployed size, and now on a MEASUREMENT", "why": "the deployed book turns ~$651 of notional per day (positions median $733, p95 $1,834, median hold 168 h, from its 1,111 real trades). Of the 12.0 bps calm round trip, 10.0 bps is the size-independent taker fee and the measured spread+roll at aggregate market volume is 1.02 bps calm / 12.47 bps COVID, against a measured gross edge of 182 bps of notional per trade - so impact would have to reach ~168x the market's own aggregate flow before the edge is consumed. The earlier '$0.8M-3.9M/day impact budget' was REMOVED as unsupported: shark_data/costs/depth_cache has only ten bands at +/-1% to +/-5% from the mid, so its finest observation is 48.8-156.6 bps and it cannot produce a capacity figure at all; impact_by_size.csv's 261 rows of exactly 100.0 bps ARE that +/-1% floor. Also the freqtrade backtester has no slippage or impact model, so this could not have been settled by backtesting", "source": "CAPACITY_RESULT_2026-09-30.md section 42; tool tools/perp_short/capacity.py; prereg PREREG_CAPACITY_2026-09-30.md"}
+  ],
+
+  "how_to_use_this_file": [
+    "Before scouting or screening: read mechanism_families and do not return any of them.",
+    "Before opening a new line on the delivered book: read optimisation_axes_on_the_delivered_4h_book and confirm the new line is not one of them re-parameterised.",
+    "A closed line reopens only with NEW INDEPENDENT EVIDENCE - a new paper, new data, a structural change - not with a better-looking backtest."
+  ]
+}

@@ -1,0 +1,80 @@
+===== TASK s2(('The crypto carry trade',),) FAILED: TypeError('quote_from_bytes() expected bytes')
+
+===== TASK s2(('Christin Routledge Soska Zetlin-Jones crypto carry trade differences of opinion',),) FAILED: TypeError('quote_from_bytes() expected bytes')
+
+===== GET ('https://nick-soska.github.io/', 'soska-home', 3000) ERR No connection adapters were found for "('https://nick-soska.github.io/', 'soska-home', 3000)"
+
+===== GET ('https://www.nick-soska.com/crypto-carry-trade.pdf', 'soska-ccarry', 0, ['differences of opinion', 'leverage', 'funding', 'premium', 'abstract', 'Abstract']) ERR No connection adapters were found for "('https://www.nick-soska.com/crypto-carry-trade.pdf', 'soska-ccarry', 0, ['differences of opinion', 'leverage', 'funding', 'premium', 'abstract', 'Abstract'])"
+
+===== OA: funding rate arbitrage perpetual futures drawdown tail risk [200]
+count=33
+- [2022] SoK: Decentralized Finance (DeFi) | None | conference-paper | cites=402 | doi=https://doi.org/10.1145/3558535.3559780 | oa=https://dl.acm.org/doi/pdf/10.1145/3558535.3559780
+    AU: Sam M. Werner, Daniel A. Perez, Lewis Gudgeon, Ariah Klages‐Mundt, Dominik Harz
+- [2014] Physics and financial economics (1776–2014): puzzles, Ising and agent-based models | Reports on Progress in Physics | article | cites=225 | doi=https://doi.org/10.1088/0034-4885/77/6/062001 | oa=https://iopscience.iop.org/article/10.1088/0034-4885/77/6/062001/pdf
+    AU: Didier Sornette
+- [2018] The term structure of exchange rate predictability: Commonality, scapegoat, and disagreement | Journal of International Money and Finance | article | cites=10 | doi=https://doi.org/10.1016/j.jimonfin.2018.03.013 | oa=https://doi.org/10.2139/ssrn.5112387
+    AU: Shuo Cao, Huichou Huang, Ruirui Liu, Ronald R. MacDonald
+- [2024] Global Financial Stability Report, April 2024 | None | book | cites=8 | doi=https://doi.org/10.5089/9798400257704.082 | oa=https://www.elibrary.imf.org/downloadpdf/display/book/9798400257704/9798400257704.pdf
+    AU: International Monetary Fund. Monetary and Capital Markets Department
+- [2026] Design of Cross-Platform Cryptocurrency Futures-Spot Arbitrage Strategies and Risk Optimization Analysis | Economics and Public Policy | article | cites=0 | doi=https://doi.org/10.63313/epp.9043 | oa=https://doi.org/10.63313/epp.9043
+    AU: Jiayi Zhu
+- [2026] Separating Event Intensity from Fixed Funding Carry: Evidence from Perpetual Futures and Credit Markets | SSRN Electronic Journal | preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.7143718 | oa=https://doi.org/10.2139/ssrn.7143718
+    AU: Shehzad Ahmed, Rafiqul Bhuyan
+- [2023] Copula-Based Trading of Cointegrated Cryptocurrency Pairs | RePEc: Research Papers in Economics | preprint | cites=1 | doi=https://doi.org/10.48550/arxiv.2305.06961 | oa=https://arxiv.org/pdf/2305.06961
+    AU: Masood Tadi, Jiří Witzany
+- [2026] AutoQuant: An auditable expert-system framework for execution-constrained auto-tuning in cryptocurrency perpetual futures | Expert Systems with Applications | article | cites=0 | doi=https://doi.org/10.1016/j.eswa.2026.133924 | oa=https://arxiv.org/pdf/2512.22476
+    AU: Kaihong Deng
+- [2026] Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets | arXiv (Cornell University) | preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2607.11888 | oa=https://arxiv.org/pdf/2607.11888
+    AU: Minmin Zeng, Yi Liu
+- [2011] Agents in the market place an exploratory study on using intelligent agents to trade financial instruments | Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT) | dissertation | cites=2 | doi=None | oa=http://hdl.handle.net/1822/19744
+    AU: Rui Pedro Barbosa
+
+===== OA: bitcoin perpetual futures funding rate bear market bull market procyclical [200]
+count=0
+
+===== OA: October 2025 crypto flash crash liquidation [200]
+count=38
+- [2025] Crypto Security in the Aftermath of the Bybit Hack: Evaluating Risk Management Strategies for Digital Assets | International Journal of Cryptocurrency Research | article | cites=1 | doi=https://doi.org/10.51483/ijccr.5.1.2025.92-101 | oa=https://doi.org/10.51483/ijccr.5.1.2025.92-101
+    AU: David Krause
+- [2026] Anatomy of a Crypto Cascade: Minute-Level Evidence from the October 2025 Crash | SSRN Electronic Journal | preprint | cites=0 | doi=https://doi.org/10.2139/ssrn.6579278 | oa=https://doi.org/10.2139/ssrn.6579278
+    AU: Boon Chuan Lim
+- [2023] Understanding Blockchain Governance: Analyzing Decentralized Voting to Amend DeFi Smart Contracts | arXiv (Cornell University) | preprint | cites=13 | doi=https://doi.org/10.48550/arxiv.2305.17655 | oa=https://arxiv.org/pdf/2305.17655
+    AU: Johnnatan Messias, Vabuk Pahari, B. Chandrasekaran, Krishna P. Gummadi, Patrick Loiseau
+- [2025] An integrated decision-making process for risk analysis of decentralized finance | Neural Computing and Applications | article | cites=11 | doi=https://doi.org/10.1007/s00521-024-10839-2 | oa=https://link.springer.com/content/pdf/10.1007/s00521-024-10839-2.pdf
+    AU: Murat Ki̇ri̇şçi̇
+- [2025] FinTech 4.0 and the Future of Global Finance: Blockchain, Artificial Intelligence, and Big Data as Catalysts of Digital Financial Innovation | Inverge Journal of Social Sciences | article | cites=7 | doi=https://doi.org/10.63544/ijss.v4i3.173 | oa=https://invergejournals.com/index.php/ijss/article/download/173/320
+    AU: Sanya Shahid, Sheeraz Ahmed, Ghulam Nabi, M. Murtaza, Abdullah Solangi
+- [2026] Stablecoins: Fundamentals, emerging issues, and open challenges | International Review of Economics & Finance | article | cites=4 | doi=https://doi.org/10.1016/j.iref.2026.105665 | oa=https://www.sciencedirect.com/science/article/pii/S1059056026007781/pdf
+    AU: Ahmed Mahrous, Maurantonio Caprolu, Roberto Di Pietro
+- [2024] Regulating DeFi: Safeguarding Market Integrity While Managing High Expectations | Croatian Yearbook of European Law and Policy | article | cites=1 | doi=https://doi.org/10.3935/cyelp.20.2024.575 | oa=https://www.cyelp.com/index.php/cyelp/article/download/575/299
+    AU: Luka Orešković, Ivana Bajakić
+- [2025] Permissionless Blockchain Recent Trends, Privacy Concerns, Potential Solutions and Secure Development Lifecycle | Future Internet | article | cites=2 | doi=https://doi.org/10.3390/fi17120547 | oa=https://www.mdpi.com/1999-5903/17/12/547/pdf?version=1764298144
+    AU: Talgar Bayan, Adnan Yazıcı, Richard Banach
+- [2026] Measuring the engine of a liquidation cascade: subcritical branching inside a first-order transition | arXiv (Cornell University) | preprint | cites=0 | doi=https://doi.org/10.48550/arxiv.2608.03616 | oa=https://arxiv.org/pdf/2608.03616
+    AU: Ramon Marc Garcia Seuma
+- [2026] Detect Bot Amplified Trends: 2% vs 22.9% Error in 2026 Tests | Figshare | preprint | cites=0 | doi=https://doi.org/10.6084/m9.figshare.33467383.v1 | oa=https://doi.org/10.6084/m9.figshare.33467383.v1
+    AU: Lewis Linden, Jordan Blake
+
+===== TASK s2(('bitcoin flash crash October 2025 liquidation cascade',),) FAILED: TypeError('quote_from_bytes() expected bytes')
+
+===== OA: leveraged crypto futures default risk creditors [200]
+count=176
+- [2009] Deciphering the Liquidity and Credit Crunch 2007–2008 | The Journal of Economic Perspectives | article | cites=3443 | doi=https://doi.org/10.1257/jep.23.1.77 | oa=https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.23.1.77
+    AU: Markus Konrad Brunnermeier
+- [2007] Gender Differences in Risk Aversion and Expected Retirement Benefits | Financial Analysts Journal | article | cites=323 | doi=https://doi.org/10.2469/faj.v63.n4.4749 | oa=http://www.cfapubs.org/loi/faj
+    AU: John Scott Watson, Mark McNaughton
+- [2020] Operations‐Finance Interface in Risk Management: Research Evolution and Opportunities | Production and Operations Management | article | cites=111 | doi=https://doi.org/10.1111/poms.13269 | oa=https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/poms.13269
+    AU: Jiao Wang, Lima Zhao, Arnd Huchzermeier
+- [2024] The financialisation of Crypto: Designing an international regulatory consensus | Computer law & security review | article | cites=12 | doi=https://doi.org/10.1016/j.clsr.2024.105970 | oa=https://orbilu.uni.lu/bitstream/10993/64088/1/1-s2.0-S0267364924000372-main.pdf
+    AU: Douglas W. Arner, Dirk Andreas Zetzsche, Ross P. Buckley, Jamieson M. Kirkwood
+- [2023] Legal Construction of Crypto Assets as Objects of Fiduciary Collateral | LAW REFORM | article | cites=6 | doi=https://doi.org/10.14710/lr.v19i1.52697 | oa=https://ejournal.undip.ac.id/index.php/lawreform/article/download/52697/pdf
+    AU: Sri Mulyani, Siti Mariyam, Le Ho Trung Hieu
+- [2019] Pathways to European Policy and Regulation in the Crypto-economy | European Journal of Risk Regulation | article | cites=8 | doi=https://doi.org/10.1017/err.2019.48 | oa=https://discovery.ucl.ac.uk/10080381/3/Chiu%20Pathways%20to%20European%20Policy%20and%20Regulation%20EJRR%20rev.pdf
+    AU: Iris H‐Y Chiu
+- [2024] Opportunity or opportunism? Blockchain technology adoption and corporate default risk | Humanities and Social Sciences Communications | article | cites=8 | doi=https://doi.org/10.1057/s41599-024-03727-6 | oa=https://www.nature.com/articles/s41599-024-03727-6.pdf
+    AU: Yonggen Luo, Miaomiao Fang, Antai Li, Shiqiang Chen
+- [2024] The Financial Stability Implications of Digital Assets | Federal Reserve Bank of New York Economic policy review | article | cites=7 | doi=https://doi.org/10.59576/epr.30.2.1-48 | oa=http://dx.doi.org/10.59576/epr.30.2.1-48
+    AU: Pablo Daniel Azar, Garth Baughman, Francesca Carapella, Jacob Gerszten, Arazi Lubis
+
+===== GET ('https://arxiv.org/abs/2506.08573', 'kim-park-funding', 4000) ERR No connection adapters were found for "('https://arxiv.org/abs/2506.08573', 'kim-park-funding', 4000)"
+

@@ -1,0 +1,20 @@
+{
+  "universe": "top 50 by median daily quote volume",
+  "n_symbols": 50,
+  "observations": 2432,
+  "ic": -0.00603,
+  "iat": 1.0,
+  "t_naive": -0.992,
+  "t_adjusted": -0.992,
+  "significant_at_2": false,
+  "gross_daily_pct": 0.077,
+  "measured_book_bps": {
+    "10000": 3.1,
+    "50000": 7.65,
+    "250000": 18.36,
+    "1000000": 38.05
+  },
+  "fee_bps_per_side": 5.0,
+  "breakeven_bps": 26.6,
+  "status": "EXPLORATORY - not pre-registered"
+}

@@ -1,0 +1,88 @@
+### URL: https://www.coinglass.com/learn/funding-rate-legend-en
+### STATUS: 200 CT: text/html; charset=utf-8
+
+Legend
+ NEW
+
+ API 
+ Download APP 
+
+ Market
+ Stocks
+ Exchanges
+ Open Interest Funding Rate
+ Liquidation
+ Data
+ Supercharts
+ Legend
+ Watchlist More
+
+ Search
+
+ /
+
+ Login 
+
+ Learning Center 
+ ›
+ Legend 
+ 
+ Funding rate
+
+ Related Content
+
+ Funding rate
+ In traditional futures contracts, the convergence of contract prices and spot prices is achieved through the mechanism of expiry and settlement. However, perpetual contracts, which are widely popular in the cryptocurrency market, have no expiration date. This means that traditional settlement methods cannot be used to tether the contract price. To address this issue, perpetual contracts incorporate a funding rate mechanism. By periodically adjusting the holding costs for long and short positions, funding rates incentivize market participants to engage in arbitrage activities, thereby pulling the perpetual contract price back towards the underlying spot price and maintaining market stability and efficiency. 
+ Definition and Composition of Funding Rates 
+ A funding rate is essentially a fee exchange mechanism between long and short position holders. It is not collected by the exchange but is settled directly between traders holding long positions and those holding short positions. Funding rates are typically calculated and settled at regular intervals, for example, every few hours (e.g., Binance exchange typically uses an 8-hour interval).
+ The calculation of a funding rate generally comprises two main components:
+ Interest Rate Component: Because perpetual contract trading involves a lending relationship between different currencies (e.g., trading a BTC/USDT perpetual contract can be understood as one party borrowing USDT to buy BTC, and the other party borrowing BTC to sell USDT), interest costs are incurred. The interest rate component usually depends on the lending rates between the quote currency and the base currency of the contract. For instance, in a BTC/USDT perpetual contract, the interest rate typically reflects the difference in borrowing costs between USDT and BTC. Generally, exchanges set a fixed daily interest rate, such as 0.03%, which is then adjusted according to the funding rate settlement period (e.g., 0.03% / 3 = 0.01% per 8 hours).
+ Premium/Discount Index Component: This is the more critical and dynamic part of the funding rate. It reflects the degree of deviation of the perpetual contract price from its underlying spot price.
+ Premium: When the perpetual contract price is higher than the spot price, it indicates strong bullish sentiment in the market, with long positions being dominant. In this case, the premium index is positive.
+ Discount: When the perpetual contract price is lower than the spot price, it indicates strong bearish sentiment in the market, with short positions being dominant. In this case, the premium index is negative.
+ Exchanges calculate a fair "Index Price" by taking a weighted average of prices from several major spot exchanges. This Index Price is then compared with the latest traded price or Mark Price of the perpetual contract to determine the extent of the premium or discount. The specific calculation method for the premium index may vary between exchanges, but its core objective is to quantify the gap between the contract price and the spot price.
+ Combining the interest rate and the premium/discount index, a general formula for the funding rate can be expressed as:
+ Funding Rate = Average Premium Index + clamp(Interest Rate - Average Premium Index, Upper Limit, Lower Limit) 
+ The "clamp" function is used to ensure that the interest rate adjustment component does not excessively influence the funding rate, keeping it within a reasonable range (e.g., +/- 0.05%). The Average Premium Index is an average of the premium index over a period (e.g., within the funding rate calculation period) to smooth out the impact of short-term price fluctuations.
+ How Funding Rates Balance Contract and Spot Prices 
+ The core function of funding rates is to guide market forces through economic incentives, thereby narrowing the gap between the perpetual contract price and the spot price. This balancing mechanism is primarily achieved through the following two scenarios:
+ When the Funding Rate is Positive 
+ Meaning: This usually signifies that the perpetual contract price is higher than the underlying spot price (a premium exists), or that overall market borrowing costs are high (in the rare cases where the interest rate component dominates). In the vast majority of cases, a positive funding rate is driven by a premium in the contract price.
+ Flow of Funds: In this situation, traders holding long positions are required to pay the funding fee to traders holding short positions.
+ Impact on Shorts: Holding a short position generates income. Traders with short positions receive the funding fee periodically, which effectively lowers their holding cost and may even lead to additional profit. This incentivizes more traders to open short positions.
+ Arbitrage Opportunity: When the perpetual contract price is significantly higher than the spot price, arbitrageurs can engage in risk-free or low-risk arbitrage by "selling (shorting) the perpetual contract while simultaneously buying an equivalent amount of the spot asset." Shorting the perpetual contract allows them to earn the positive funding rate, while the long position in the spot asset hedges against price risk. Such arbitrage activity increases selling pressure on the perpetual contract and buying demand for the spot asset, thereby pushing the perpetual contract price down and the spot price up, ultimately narrowing the spread between them.
+ When the Funding Rate is Negative 
+ Meaning: This usually indicates that the perpetual contract price is lower than the underlying spot price (a discount exists), or that overall market borrowing costs are extremely low or even negative (in very rare cases where the interest rate component dominates). In most instances, a negative funding rate is driven by a discount in the contract price.
+ Flow of Funds: In this scenario, traders holding short positions are required to pay the funding fee to traders holding long positions.
+ Impact on Shorts: The cost of holding a short position increases. Traders wishing to maintain their short positions incur an additional funding expense, reducing their potential profit or increasing potential loss. This discourages the opening of new short positions and motivates some existing short holders to close their positions.
+ Impact on Longs: Holding a long position generates income. Traders with long positions receive the funding fee periodically, which effectively lowers their holding cost and may even lead to additional profit. This incentivizes more traders to open long positions.
+ Arbitrage Opportunity: When the perpetual contract price is significantly lower than the spot price, arbitrageurs can engage in risk-free or low-risk arbitrage by "buying (longing) the perpetual contract while simultaneously selling an equivalent amount of the spot asset." Longing the perpetual contract allows them to receive funding rate payments (from short sellers due to the negative funding rate), while the short position in the spot asset hedges against price risk. This arbitrage activity increases buying demand for the perpetual contract and selling pressure on the spot asset, thereby pushing the perpetual contract price up and the spot price down, ultimately narrowing the spread between them.
+ Characteristics and Implications of Funding Rates 
+ Periodicity: Funding rates are calculated and settled at fixed time intervals (e.g., every 1, 4, or 8 hours). Traders should pay attention to the specific settlement times, as holding a position at the moment of settlement will result in either paying or receiving the funding fee.
+ Volatility: Funding rates are not fixed; they adjust dynamically based on market conditions (primarily the deviation between contract and spot prices). During periods of high market volatility, funding rates can also experience significant changes.
+ Impact on Trading Strategies: 
+ Short-Term Traders: For intraday or short-term traders, the impact of a single funding fee payment may be small, but its cumulative effect should still be considered, especially when funding rates are high.
+ Long-Term Trend Traders: For traders holding positions for extended periods, the cumulative effect of funding rates cannot be ignored. If the direction of a long-term position aligns with the payment direction of the funding rate (e.g., holding a long position while the funding rate is consistently positive), the holding cost will increase significantly. Conversely, if the direction is opposite, continuous funding rate income can be generated.
+ Arbitrage Traders: Funding rates are central to certain arbitrage strategies, such as the spot-futures arbitrage mentioned earlier. Arbitrageurs closely monitor changes in funding rates to identify profitable arbitrage opportunities.
+ Conclusion 
+ The funding rate is an ingenious innovation in the design of perpetual contract markets. It effectively addresses the potential price deviation problem that arises from the lack of an expiration date in perpetual contracts, doing so in a decentralized, market-driven manner. By establishing a direct fee transfer mechanism between long and short parties, funding rates incentivize market participants to spontaneously engage in arbitrage activities, thereby anchoring the price of perpetual contracts to their underlying spot prices. For any investor involved in perpetual contract trading, a thorough understanding of the calculation logic, influencing factors, and market-balancing function of funding rates is fundamental to developing sound trading strategies, managing risk, and identifying potential trading opportunities.
+
+ Market
+
+ Exchanges
+
+ Search
+
+ More
+
+ APP
+
+ About About Us Contact Us Disclaimer Terms of Use Privacy Policy 
+
+ Products Stocks Legend APP API Chart 
+
+ More Learning Center Alerts Cookie Preferences 
+
+ Community X(Twitter) Telegram 
+
+ © 2026 CoinGlass, all rights reserved

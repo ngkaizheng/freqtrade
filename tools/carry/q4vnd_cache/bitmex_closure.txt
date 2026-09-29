@@ -1,0 +1,51 @@
+### URL: https://www.bitmex.com/blog/bitmex-closure-live/
+### STATUS: 200 CT: text/html
+
+Log In 
+
+ ⚠ 
+ 
+ BitMEX will never ask for your private keys, seed phrases, or any
+ payment in connection with fund distributions. If someone has
+ contacted you claiming to help recover your funds, do not engage.
+ Report it to
+ support@bitmex.com .
+
+ [Notice] BitMEX Exchange Now Closed
+
+ Published 23 September 2026 
+
+ Today BitMEX has ceased all exchange operations, as
+ announced on 23 July 2026
+ and has communicated to users by email regularly since the
+ announcement. Trading, deposits, and new positions are no longer
+ available on the platform.
+
+ Your funds remain safe. Login and withdrawal
+ capabilities remain available, and we strongly encourage all users to
+ withdraw their remaining withdrawable balances as soon as possible.
+ Please check your account e-mail inbox for withdrawal instructions and
+ upcoming operational changes.
+
+ Thank you to everyone who has been part of the BitMEX community. It
+ has been an honour building the platform that defined crypto
+ derivatives trading.
+
+ Read more about the closure
+ here .
+
+ If you have any questions regarding this announcement, please contact
+ Support .
+
+ © BitMEX 
+ 
+ Closure notice ·
+ FAQ ·
+ Contact Support 
+ · Legal ·
+ Compliance ·
+ Blog 
+
+ HDR Global Trading Limited, incorporated in the Republic of Seychelles.
+ For legal and compliance matters see
+ our legal page .

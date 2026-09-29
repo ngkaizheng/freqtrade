@@ -1,0 +1,31 @@
+SOURCE_URL: https://r.jina.ai/https://www.cftc.gov/PressRoom/PressReleases/8478-22
+HTTP: 200  LEN: 4853
+
+Title: CFTC Orders Event-Based Binary Options Markets Operator to Pay $1.4 Million Penalty
+
+URL Source: https://www.cftc.gov/PressRoom/PressReleases/8478-22
+
+Published Time: Fri, 25 Sep 2026 19:30:32 GMT
+
+Markdown Content:
+**Washington, D.C.**— The Commodity Futures Trading Commission today entered an order filing and simultaneously settling charges against Delaware-registered **Blockratize, Inc. d/b/a Polymarket,**based in New York City,for offering off-exchange event-based binary options contracts and failure to obtain designation as a designated contract market (DCM) or registration as a swap execution facility (SEF).
+
+The order requires that Polymarket pay a $1.4 million civil monetary penalty, facilitate the resolution (i.e. wind down) of all markets displayed on Polymarket.com that do not comply with the Commodity Exchange Act (CEA) and applicable CFTC regulations, and cease and desist from violating the CEA and CFTC regulations, as charged.
+
+“All derivatives markets must operate within the bounds of the law regardless of the technology used, and particularly including those in the so-called decentralized finance or ‘DeFi’ space,” said Acting Director of Enforcement Vincent McGonagle. “Market participants should proactively engage with the CFTC to ensure that our markets remain robust, transparent, and afford customers the protection provided under the CEA and our regulations.”
+
+**Case Background**
+
+The order finds that, beginning in approximately June 2020, Polymarket had been operating an illegal unregistered or non-designated facility for event-based binary options online trading contracts, known as “event markets.” According to the order, through its website, Polymarket offered the public the opportunity to “bet on your beliefs” by buying and selling binary options contracts related to an event taking place in the future that are susceptible to a “yes” or “no” resolution, such as: “Will $ETH (Ethereum) be above $2,500 on July 22?”; “Will the 7-day average COVID-19 case count in the U.S. be less than 15,000 for the day of July 22”; “Will Trump win the 2020 presidential election?”. The order further finds that Polymarket has offered more than 900 separate event markets since its inception, while deploying smart contracts hosted on a blockchain to operate the markets. Polymarket creates, defines, hosts, and resolves the trading and execution of contracts for the event-based binary option markets offered on its website.
+
+According to the order, such event market contracts, each of which is composed of a pair of binary options, constitute swaps under the CFTC’s jurisdiction, and therefore can only be offered on a registered exchange in accordance with the CEA and CFTC regulations.
+
+As stated in the order, the CFTC recognizes Polymarket’s substantial cooperation with the Division of Enforcement’s investigation of this matter in the form of a reduced civil monetary penalty.
+
+The Division of Enforcement staff members responsible for this case are Nina Ruvinsky, Joseph Platt, Heather Dasso, Allison Passman, Scott Williamson, and Robert Howell. Staff from the Division of Market Oversight, Market Participants Division, Division of Clearing and Risk, and LabCFTC assisted in this matter.
+
+**CFTC’s Advisory to Avoid Unregistered Binary Options Trading Platforms**
+
+The CFTC has issued several customer advisory protection warnings, including [Avoid Unregistered Binary Options Trading Platforms](https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/avoid_unregistered_binary_options_platforms.htm) and [Beware of Off-Exchange Binary Options Trades](https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/beware_of_off_exchange_binary_options.htm), which advise customers that there are registered binary options exchanges in the U.S. The CFTC strongly urges the public to verify a company’s registration with the CFTC before committing funds. Registration means the exchange meets specific regulatory requirements for liquidity, safety and customer protection that are enforced by the CFTC or the U.S. Securities Exchange Commission. If unregistered, a customer should be wary of providing funds to that entity. A company’s registration status can be found using [NFA BASIC](https://www.nfa.futures.org/basicnet/).
+
+Customers and other individuals can report suspicious activities or information, such as possible violations of commodity trading laws, to the Division of Enforcement via a toll-free hotline 866-FON-CFTC (866-366-2382),[file a tip or complaint](https://www.cftc.gov/complaint)online or contact the[Whistleblower Office](https://www.whistleblower.gov/). Whistleblowers are eligible to receive between 10 and 30 percent of the monetary sanctions collected paid from the Customer Protection Fund financed through monetary sanctions paid to the CFTC by violators of the CEA.

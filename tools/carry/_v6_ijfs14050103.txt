@@ -1,0 +1,964 @@
+
+
+=== PAGE 1 ===
+Academic Editor: Giuseppe Orlando
+Received: 12 March 2026
+Revised: 11 April 2026
+Accepted: 16 April 2026
+Published: 23 April 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+Article
+Temporal Dynamics of Market Microstructure in Cryptocurrency
+Perpetual Futures: Econometric Evidence from Centralized and
+Decentralized Exchanges
+Petar Zhivkov 1,2,3,*, Venelin Todorov 1,2
+and Slavi Georgiev 4,5
+1
+Department of Parallel Algorithms and Machine Learning with Neurotechnology Laboratory,
+Institute of Information and Communication Technologies, Bulgarian Academy of Sciences,
+25A Acad. Georgi Bonchev Str., 1113 Sofia, Bulgaria; venelin@parallel.bas.bg
+2
+Centre of Excellence in Informatics and Information and Communication Technologies, Acad. G. Bonchev Str.
+Bl. 25A, 1113 Sofia, Bulgaria
+3
+Scientific Group 3.1.6, “Angel Kanchev” University of Ruse, 7004 Ruse, Bulgaria
+4
+Department of Informational Modeling, Institute of Mathematics and Informatics,
+Bulgarian Academy of Sciences, 8 Acad. Georgi Bonchev Str., 1113 Sofia, Bulgaria; sggeorgiev@math.bas.bg
+5
+Department of Applied Mathematics and Statistics, Angel Kanchev University of Ruse, 8 Studentska Str.,
+7004 Ruse, Bulgaria
+*
+Correspondence: petar.zhivkov@iict.bas.bg
+Abstract
+We apply rolling-window econometric methods, including GARCH(1,1) estimation,
+Bai–Perron structural break detection, CUSUM stability testing, and Granger causality anal-
+ysis in bivariate VAR frameworks, to analyze the temporal dynamics of market integration
+in cryptocurrency perpetual futures, tracking funding rate correlations, arbitrage preva-
+lence, and volatility persistence across 26 exchanges and 812 symbols over two months
+(November 2025 through January 2026). Using 53 overlapping seven-day rolling windows
+on 9.1 million hourly observations, we find that the two-tiered market structure previously
+documented in a static snapshot (centralized exchanges tightly integrated, decentralized
+exchanges fragmented) persists qualitatively but varies substantially in magnitude, with
+the integration gap ranging from −0.041 to 0.222. Structural break tests detect no discrete
+regime shifts; the market evolves through gradual drift. GARCH(1,1) analysis reveals that
+near-integrated (IGARCH) volatility behavior, previously reported as a general property,
+appears in only 24.5% of windows, concentrated in specific time periods. Granger causality
+tests show that mid-tier exchanges lead the largest venue (Binance) more frequently than
+the reverse, challenging a simple size-based price discovery hierarchy. Intraday spread
+patterns are statistically significant and linked to funding rate settlement mechanics, with
+spreads peaking approximately two hours after standard settlement times. These findings
+have implications for systemic risk assessment: market surveillance frameworks that focus
+on the largest venue may miss price discovery signals originating from mid-tier exchanges.
+Keywords: cryptocurrency markets; perpetual futures; funding rates; market microstructure;
+financial econometrics; GARCH; Granger causality; structural breaks; price discovery;
+systemic risk
+1. Introduction
+Cryptocurrency perpetual futures have become the dominant derivatives instrument
+in digital asset markets, with daily trading volumes routinely exceeding those of the un-
+derlying spot markets (Makarov & Schoar, 2020). Unlike traditional futures, perpetual
+Int. J. Financial Stud. 2026, 14, 103
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 2 ===
+Int. J. Financial Stud. 2026, 14, 103
+2 of 18
+contracts have no expiry date and are anchored to spot through a periodic funding rate
+mechanism: when the perpetual trades above spot, longs pay shorts, and vice versa. These
+rates, set independently by each exchange, encode information about market sentiment,
+leverage demand, and cross-venue price efficiency. A companion study (Zhivkov, 2026),
+which analyzes the same market using a static eight-day snapshot and is published along-
+side this work, provided the first comprehensive analysis of funding rate dynamics across
+centralized (CEX) and decentralized (DEX) exchanges, documenting a two-tiered structure
+in which CEX venues are tightly integrated while DEX venues remain fragmented, with
+CEX platforms leading price discovery.
+The practical relevance of understanding how these dynamics evolve over time ex-
+tends well beyond academic interest. Regulatory bodies and risk managers increasingly
+rely on estimates of market integration and price leadership to calibrate surveillance frame-
+works, set margining requirements, and assess systemic exposure; if those parameters shift
+substantially over a two-month horizon, a framework calibrated to a historical snapshot
+may systematically mischaracterize current market conditions (ESRB, 2025). Concerns
+about the adequacy of existing monitoring infrastructure are not hypothetical: the Bank
+for International Settlements has noted that financial authorities face serious challenges
+in monitoring cryptoasset markets and assessing the associated financial stability risks,
+partly due to persistent data and coverage gaps (BIS, 2023). Documenting the extent and
+character of temporal variation in market integration is therefore a prerequisite for de-
+signing more reliable surveillance and risk management frameworks in cryptocurrency
+derivatives markets.
+We address five questions: does the CEX–DEX integration gap persist over a two-
+month horizon? Does it evolve through discrete structural breaks (Bai & Perron, 1998,
+2003) or gradual drift? Do intraday and day-of-week patterns exist in funding rate spreads
+(Caporale & Plastun, 2019)? Is the near-IGARCH volatility (Bollerslev, 1986; Engle, 1982)
+from the companion study a stable property or a short-sample artifact? Does Granger
+causality (Granger, 1969) between exchanges change over time?
+These questions motivate four formal hypotheses.
+H1: The two-tiered integration structure, with CEX-CEX correlations exceeding DEX-DEX
+correlations, persists qualitatively over the two-month sample, though its magnitude may vary.
+H2: The integration gap evolves through gradual drift rather than discrete structural breaks.
+H3: Intraday and day-of-week patterns in funding rate spreads are statistically significant and
+linked to the settlement mechanism.
+H4: Granger causality between exchanges is not determined solely by exchange size. Each hypothesis
+is examined in Section 4 using the methods described in Section 3.
+We analyze 9.1 million hourly funding rate observations across 26 exchanges and
+812 symbols over 14 November 2025 through 13 January 2026. Using 53 overlapping
+seven-day rolling windows, we track the evolution of cross-exchange correlations, arbi-
+trage prevalence, GARCH volatility persistence, and Granger causality. We complement
+this with Bai–Perron structural break detection (Bai & Perron, 1998, 2003), CUSUM sta-
+bility tests (Brown et al., 1975), and seasonal decomposition of intraday and day-of-week
+spread patterns.
+The study makes five contributions. First, we provide the first temporal analysis of
+multi-venue funding rate dynamics: the two-tiered structure persists qualitatively but the
+integration gap ranges from −0.041 to 0.222, evolving through gradual drift rather than dis-
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 3 ===
+Int. J. Financial Stud. 2026, 14, 103
+3 of 18
+crete regime shifts. Second, we resolve the IGARCH puzzle (Bollerslev, 1986; Engle, 1982)
+from the companion study, showing that near-unit GARCH persistence is episodic (24.5%
+of windows) rather than a fundamental property. Third, we show that Granger causality
+(Granger, 1969) does not follow exchange size: mid-tier CEXs lead Binance more frequently
+than the reverse. Fourth, we identify statistically significant intraday spread patterns linked
+to the settlement mechanism (Aharon & Qadan, 2019; Caporale & Plastun, 2019). Fifth,
+we report a window-width sensitivity analysis suggesting that the qualitative conclusions
+tend to hold across five-day, seven-day, and ten-day rolling windows, which may increase
+confidence in the robustness of the findings.
+The remainder of this paper is organized as follows. Section 2 reviews related work
+on time-varying integration, structural breaks, and calendar effects. Section 3 describes the
+data, rolling-window framework, and econometric methods. Section 4 presents results across
+seven subsections. Section 5 discusses implications and limitations. Section 6 concludes.
+2. Related Work
+2.1. Time-Varying Market Integration
+Bekaert and Harvey (Bekaert & Harvey, 1995) showed that world market integration
+fluctuates with capital flows and institutional conditions, establishing rolling-window
+correlation tracking as the standard measurement approach. Forbes and Rigobon (Forbes
+& Rigobon, 2002) caution that correlation increases during volatile periods can reflect
+heteroskedasticity rather than genuine contagion, motivating our use of multiple metrics.
+Makarov and Schoar (Makarov & Schoar, 2020) documented large persistent price devia-
+tions across Bitcoin spot exchanges but treated integration as static; how it evolves across
+CEX and DEX venues over time remains unexplored.
+2.2. Structural Breaks and Regime Stability
+Andrews (Andrews, 1993) and Bai and Perron (Bai & Perron, 1998, 2003) provide the
+standard toolkit for detecting discrete parameter shifts at unknown dates; the CUSUM test
+(Brown et al., 1975) complements these by tracking gradual drift visually. Hamilton’s (Hamil-
+ton, 1989) Markov-switching framework formalizes alternating integration regimes but im-
+poses a parametric transition structure; our rolling-window approach is a nonparametric
+alternative that lets the data reveal whether dynamics shift abruptly or continuously.
+2.3. Seasonal and Calendar Effects
+Day-of-week effects in Bitcoin returns are well documented (Aharon & Qadan, 2019;
+Caporale & Plastun, 2019; Ma & Tanizaki, 2019), but these studies focus on returns and
+volatility, not on the funding rate mechanism or within-day settlement-driven patterns.
+Whether funding rate spreads (and hence arbitrage opportunities) concentrate during
+specific trading sessions or around settlement times has not been investigated.
+2.4. Rolling-Window Methods
+Pesaran and Timmermann (Pesaran & Timmermann, 2005) established the bias-
+variance trade-off governing window width selection under structural breaks. Zivot
+and Andrews (Zivot & Andrews, 1992) extended unit root testing to endogenous break
+detection, relevant to assessing whether spread stationarity holds throughout our sample.
+No study has tracked how funding rate dynamics across CEX and DEX venues evolve
+over time, nor decomposed seasonal spread patterns by exchange pair type. We fill this gap
+through the first rolling-window temporal analysis of multi-venue funding rate dynamics.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 4 ===
+Int. J. Financial Stud. 2026, 14, 103
+4 of 18
+3. Data and Methodology
+3.1. Data
+We use a dataset of funding rate observations collected at one-minute intervals from
+26 cryptocurrency exchanges, comprising 11 centralized exchanges (CEX) and 15 decentral-
+ized exchanges (DEX), over the period 14 November 2025 through 13 January 2026. The data
+collection infrastructure and normalization procedures are described in (Zhivkov, 2026);
+we summarize the key aspects here.
+Funding rates are reported at exchange-specific intervals: one hour, four hours, or
+eight hours. All rates are expressed as 8 h normalized equivalents in basis points, using
+the convention r8h = rh × (8/h) where h is the native reporting interval. The data source
+returns rates already normalized to this convention, so we use the original_rate field
+directly to avoid double-normalization.
+3.1.1. Data Processing Pipeline
+The raw dataset comprises 61 daily files totaling 26 GB and approximately 543 million
+observations across 812 unique cryptocurrency symbols. Since funding rates change only
+at their respective interval boundaries (every 1, 4, or 8 h), one-minute observations contain
+substantial redundancy. We aggregate to hourly resolution by taking the last observation
+per (hour, symbol, exchange) tuple, reducing the dataset to 9.1 million rows (a 60-fold
+compression) with zero information loss for analytical purposes. The resulting hourly
+panel occupies 13.4 MB in compressed columnar format.
+3.1.2. Data Quality
+Table 1 summarizes the data quality assessment. Of 61 calendar days, 56 contain complete
+24 h coverage across all exchanges. Four days exhibit partial coverage due to scraping
+interruptions (14, 23, 24, and 25 November), and one day (22 November) is excluded entirely
+due to near-total data loss (13,481 of approximately 9.6 million expected rows). Beginning
+3 January, one exchange ceased reporting, reducing the exchange count from 26 to 25.
+A data quality audit identified 22 anomalous observations on the VEST exchange
+(a DEX) on 26 November, 12:00–16:00 UTC, in which reported funding rates reached
+magnitudes exceeding 284,000 basis points, approximately 180 times the 99.99th percentile
+of the distribution (1596 bps). These are consistent with an API reporting error rather than
+genuine market conditions, as the affected rates appeared exclusively on a single exchange
+during a four-hour window. Spreads exceeding 5000 bps are excluded from the analysis,
+following the outlier filtering threshold established in the companion study.
+Table 1. Dataset summary for the extended sample period.
+Characteristic
+Value
+Sample period
+14 November 2025–13 January 2026
+Calendar days
+61 (60 usable)
+Full coverage days (24 h)
+56
+Partial coverage days
+4
+Excluded days
+1 (22 November)
+Raw observations
+543,195,787
+Hourly observations (after aggregation)
+9,119,614
+Unique symbols
+812
+Exchanges (CEX / DEX)
+26 (11/15)
+CEX observations (%)
+7,084,211 (77.7%)
+DEX observations (%)
+2,035,403 (22.3%)
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 5 ===
+Int. J. Financial Stud. 2026, 14, 103
+5 of 18
+3.1.3. Cross-Exchange Spreads
+For each symbol–hour pair observed on at least two exchanges, we compute the
+funding rate spread as
+Spreads,t = max
+e∈Es
+re,s,t −min
+e∈Es
+re,s,t,
+(1)
+where re,s,t is the 8 h normalized funding rate for symbol s on exchange e at hour t, and
+Es is the set of exchanges listing symbol s. This yields 994,100 spread observations before
+outlier filtering; after applying the 5000 bps cap, 994,088 observations remain, of which
+68.8% involve CEX–CEX pairings, 27.1% CEX–DEX pairings, and 4.0% DEX–DEX pairings.
+We classify spreads exceeding 20 bps as high-arbitrage opportunities; 18.7% of observations
+meet this threshold. The 20 bps level approximates a plausible round-trip transaction
+cost floor for institutional perpetual futures arbitrage, combining typical maker fees on
+the relevant venues (roughly 2 to 4 bps per leg), funding rate timing uncertainty, and
+execution slippage; spreads below this level are unlikely to yield positive expected profit
+net costs, under most realistic assumptions. The threshold is consistent with that used in the
+companion study (Zhivkov, 2026), enabling direct comparability of arbitrage-prevalence
+estimates across the two samples.
+3.2. Rolling-Window Framework
+To track the temporal evolution of market integration, we define a sequence of over-
+lapping estimation windows. Each window spans seven consecutive days and advances
+by one day, producing 53 windows covering 15 November 2025 through 12 January 2026.
+The seven-day width was chosen as a balance between temporal resolution and statistical
+stability: shorter windows may yield noisier correlation estimates given the number of
+exchange pairs, while longer windows risk averaging over the gradual changes that the
+analysis aims to detect. Section 4.5 reports a sensitivity analysis suggesting that the main
+findings are not materially sensitive to this choice. Let Wk = [tk, tk + 7d) denote the k-th
+window, k = 0, . . . , 52.
+Within each window, we compute three integration metrics based on pairwise funding
+rate correlations. For a given window Wk, let ρ(k)
+ij
+denote the Pearson correlation between
+the hourly funding rate series of exchanges i and j, computed over all symbols observed on
+both exchanges during that window. We define:
+¯ρ(k)
+CEX-CEX =
+1
+|PCC|
+∑
+(i,j)∈PCC
+ρ(k)
+ij ,
+(2)
+¯ρ(k)
+DEX-DEX =
+1
+|PDD|
+∑
+(i,j)∈PDD
+ρ(k)
+ij ,
+(3)
+¯ρ(k)
+CEX-DEX =
+1
+|PCD|
+∑
+(i,j)∈PCD
+ρ(k)
+ij ,
+(4)
+where PCC, PDD, and PCD are the sets of CEX–CEX, DEX–DEX, and CEX–DEX exchange
+pairs, respectively.
+The integration gap is the central metric of this study:
+∆(k)
+int = ¯ρ(k)
+CEX-CEX −¯ρ(k)
+DEX-DEX.
+(5)
+A positive and stable ∆int across windows would confirm that the two-tiered structure
+persists over the extended sample. A declining ∆int would indicate convergence between
+exchange types, while abrupt shifts would suggest regime changes in market integration.
+Within each window, we also compute:
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 6 ===
+Int. J. Financial Stud. 2026, 14, 103
+6 of 18
+•
+Arbitrage prevalence: The fraction of spread observations exceeding 20 bps.
+•
+GARCH persistence: ˆα + ˆβ from GARCH(1,1) models estimated on the top three
+symbols (BTC, ETH, SOL) using the specification:
+σ2
+s,t = ω + αε2
+s,t−1 + βσ2
+s,t−1.
+(6)
+•
+Stationarity: Augmented Dickey–Fuller test statistics (Dickey & Fuller, 1979) for
+spread series within each window.
+•
+Granger causality: Bivariate VAR models (Granger, 1969) testing directional informa-
+tion flow between the top CEX–DEX exchange pairs, with lag length selected by AIC
+(Akaike, 1974).
+3.3. Structural Break Detection
+We apply two complementary approaches to test whether the integration gap ∆(k)
+int and
+other rolling-window metrics exhibit structural breaks.
+The first is the Bai–Perron multiple structural change test (Bai & Perron, 1998, 2003),
+which estimates break dates in the regression
+∆(k)
+int = µj + uk,
+k ∈[kj−1 + 1, kj],
+j = 1, . . . , m + 1,
+(7)
+where m is the number of structural breaks and k1, . . . , km are the break dates. The procedure
+sequentially tests m + 1 versus m breaks using the sup F statistic, with break dates estimated
+by minimizing the sum of squared residuals globally across all possible partitions.
+The second is the CUSUM test (Brown et al., 1975), which tracks the cumulative sum of
+recursive residuals:
+CUSUMk =
+k
+∑
+t=1
+wt
+ˆσw
+,
+(8)
+where wt are recursive residuals from the regression of ∆(k)
+int on a constant, and ˆσw is
+their estimated standard deviation. The CUSUM statistic is plotted against significance
+bands; departures beyond the bands indicate parameter instability. This provides a visual
+complement to the Bai–Perron test and is useful for identifying gradual drift as well as
+abrupt breaks.
+3.4. Seasonal Decomposition
+To test for systematic intraday and day-of-week patterns in arbitrage opportunities,
+we estimate dummy variable regressions on the hourly spread data. For intraday patterns:
+Spreads,t =
+23
+∑
+h=0
+γh · 1[H(t) = h] + x′
+tδ + εs,t,
+(9)
+where H(t) is the UTC hour of observation t, γh captures the hour-specific mean spread, and
+xt includes controls for symbol fixed effects and exchange pair type (CEX–CEX, CEX–DEX,
+and DEX–DEX). The 24 hourly coefficients are then mapped to three global trading sessions:
+Asia (00:00–07:59 UTC), Europe (08:00–15:59 UTC), and North America (16:00–23:59 UTC).
+For day-of-week patterns:
+Spreads,t =
+6
+∑
+d=0
+λd · 1[D(t) = d] + x′
+tδ + εs,t,
+(10)
+where D(t) ∈{0, . . . , 6} denotes Monday through Sunday. Joint significance of the day
+dummies is tested via an F-test; pairwise comparisons identify which days exhibit sig-
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 7 ===
+Int. J. Financial Stud. 2026, 14, 103
+7 of 18
+nificantly larger or smaller spreads. Unlike traditional equity markets, cryptocurrency
+exchanges operate continuously, so any day-of-week effects reflect endogenous liquidity
+cycles rather than institutional market closures.
+4. Results
+4.1. Dataset Overview
+The extended dataset spans 60 usable days and yields 9.1 million hourly observations
+after aggregation. Table 1 in Section 3.1 summarizes the key characteristics. The spread
+distribution across 994,088 symbol–hour pairs (after the 5000 bps outlier cap) has a mean
+of 15.3 bps and median of 7.5 bps, with 18.7% of observations exceeding the 20 bps high-
+arbitrage threshold. CEX–CEX pairings dominate the spread observations (68.8%), followed
+by CEX–DEX (27.1%) and DEX–DEX (4.0%), reflecting the larger number of centralized
+exchanges in the sample.
+4.2. Rolling-Window Integration Evolution
+The rolling-window analysis across 53 overlapping seven-day windows reveals that
+the two-tiered market structure persists throughout the two-month sample, but with
+substantial temporal variation. The integration gap ∆int is positive in 52 of 53 windows,
+with a mean of 0.110, a standard deviation of 0.056, and a range from −0.041 to 0.222.
+CEX–CEX correlations average 0.226 across windows, approximately twice the level
+of DEX–DEX correlations (mean 0.117) and substantially above CEX–DEX correlations
+(mean 0.132). Figure 1 tracks these three correlation series and the integration gap over
+time. The CEX–CEX correlation is consistently the highest of the three, though its level
+fluctuates considerably, from 0.149 in window 29 (14–20 December) to 0.355 in window 6
+(21–27 November). DEX–DEX and CEX–DEX correlations follow broadly similar trajectories
+but at lower levels.
+Figure 1. Evolution of pairwise funding rate correlations and the integration gap across 53 rolling
+seven-day windows. The upper panels show mean correlations by pair type (CEX–CEX, DEX–DEX,
+and CEX–DEX); the lower panel shows the integration gap ∆int = ¯ρCEX-CEX −¯ρDEX-DEX. The dashed
+horizontal line indicates zero.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 8 ===
+Int. J. Financial Stud. 2026, 14, 103
+8 of 18
+The single reversal occurs in window 21 (6–12 December), when the DEX–DEX corre-
+lation (0.212) briefly exceeds the CEX–CEX correlation (0.172), producing the only negative
+integration gap (−0.041). This reversal is short-lived: the gap returns to positive territory
+in the following window and remains there for the rest of the sample.
+Two temporal trends are visible. First, the integration gap widens over the sample
+period, from an average of 0.069 across the first 17 windows (mid-November through early
+December) to 0.143 across the last 17 windows (late December through mid-January). This
+widening is driven primarily by declining DEX–DEX correlations rather than increasing
+CEX–CEX correlations, suggesting that decentralized venues became less synchronized
+with each other over the sample period. Across the first 17 windows, the mean CEX–CEX
+correlation is 0.265 and the mean DEX–DEX correlation is 0.170; across the last 17 windows,
+the mean CEX–CEX correlation falls modestly to 0.225 while the mean DEX–DEX correlation
+declines more sharply to 0.064. The gap therefore widens from 0.095 to 0.161, with the DEX–
+DEX decline accounting for the larger share of the change. Second, arbitrage prevalence
+exhibits a parallel upward trend, rising from 16–17% in November to 19–21% in late
+December and early January (Figure 2). The concurrent widening of the integration gap
+and increase in arbitrage prevalence is consistent with growing market fragmentation,
+particularly among decentralized venues.
+Figure 2. Arbitrage prevalence (fraction of spread observations exceeding 20 bps) across rolling
+windows. The upward trend from 16% to 21% over the two-month sample indicates a growing share
+of high-arbitrage opportunities.
+Mean spreads are relatively stable across windows, averaging 15.4 bps with a standard
+deviation of 0.7 bps across the 53 windows, indicating that the level of cross-exchange price
+differences remains consistent even as the correlation structure evolves. Table 2 summarizes
+the key rolling-window statistics.
+Table 2. Summary statistics for rolling-window metrics across 53 seven-day windows.
+Metric
+Mean
+Std
+Min
+Max
+¯ρCEX-CEX
+0.226
+0.048
+0.149
+0.355
+¯ρDEX-DEX
+0.117
+0.049
+0.042
+0.212
+¯ρCEX-DEX
+0.132
+0.037
+0.075
+0.239
+∆int
+0.110
+0.056
+−0.041
+0.222
+Arbitrage prevalence (%)
+18.8
+1.3
+15.8
+20.9
+Mean spread (bps)
+15.4
+0.7
+14.6
+16.5
+4.3. Structural Break Results
+The structural break analysis produces a clear but qualified result: ∆int is not stationary
+over the sample, yet it evolves gradually rather than through discrete regime shifts.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 9 ===
+Int. J. Financial Stud. 2026, 14, 103
+9 of 18
+The CUSUM test rejects the null hypothesis of parameter stability at the 5% significance
+level (maximum CUSUM statistic 7.27, critical value 6.90). Figure 3 shows the CUSUM
+path crossing the significance band early in the sample and remaining outside it, indicating
+a persistent departure from the initial mean level rather than a localized structural break.
+The trajectory of the CUSUM is consistent with the upward trend in the integration gap
+documented in Section 4.2.
+Figure 3. CUSUM test for the integration gap ∆int across 53 rolling windows. The solid line shows the
+cumulative sum of recursive residuals; dashed lines indicate the 5% significance bands. The CUSUM
+path crosses the band early and remains outside it, indicating instability driven by a gradual trend
+rather than a discrete break.
+The Bai–Perron multiple structural change test, implemented via the Pelt algorithm,
+detects zero statistically significant breaks across all penalty levels tested (λ ∈{1, 2, 5, 10}).
+This result does not contradict the CUSUM finding; rather, it indicates that the integration
+gap evolves smoothly enough that no single date constitutes a statistically significant
+discontinuity. The absence of discrete breaks is itself informative: it rules out the hypothesis
+that market integration shifts abruptly in response to isolated events such as exchange
+listings, regulatory announcements, or liquidity crises.
+When the BinSeg algorithm is constrained to identify exactly two breaks, the estimated
+dates are window 15 (30 November) and window 30 (15 December), dividing the sample
+into approximate thirds. The mean integration gap in the three resulting sub-periods is
+0.096 (15 November through 30 November), 0.058 (1 December through 15 December),
+and 0.152 (16 December through 12 January). The middle period coincides with the brief
+convergence episode visible in Figure 1, during which DEX–DEX correlations temporarily
+rose, while the final period captures the sustained widening of the two-tiered gap.
+Gradual drift, not regime switching, is the better characterization of funding rate
+market structure. The two-tiered hierarchy contracts and expands over time; it does not
+transition abruptly.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 10 ===
+Int. J. Financial Stud. 2026, 14, 103
+10 of 18
+4.4. Seasonal Patterns
+Both hour-of-day and day-of-week effects are statistically significant in funding rate
+spreads, though the economic magnitudes are modest.
+The hour-of-day analysis reveals a systematic pattern linked to funding rate settlement
+times. An F-test for equality of hourly mean spreads rejects the null decisively (F = 8.95,
+p < 10−30). The peak spread occurs at 02:00 UTC (16.85 bps mean, 21.4% arbitrage preva-
+lence) during the Asian trading session, while the trough occurs at 17:00 UTC (14.35 bps,
+16.5% arbitrage prevalence) during the early North American session. The spread between
+peak and trough hours is approximately 2.5 bps, or 17% of the trough value.
+Mapping hourly coefficients to settlement schedules reveals a pattern worth noting.
+Exchanges with 8 h settlement intervals typically process payments at 00:00, 08:00, and
+16:00 UTC. Spreads spike approximately two hours after each settlement time (at 02:00,
+10:00, and 18:00 UTC), consistent with rates diverging immediately after payments are
+processed and before the market converges to a new equilibrium. Figure 4 displays this
+pattern decomposed by exchange pair type, showing that the settlement-driven pattern is
+most pronounced for CEX–DEX pairings.
+Figure 4. Intraday funding rate spread by hour of day (UTC) and exchange pair type. Vertical lines
+mark the boundaries between the Asia (00:00–07:59), Europe (08:00–15:59), and North American
+(16:00–23:59) trading sessions. Spreads systematically peak approximately two hours after the
+standard 8 h settlement times (00:00, 08:00, 16:00 UTC).
+Day-of-week effects are also statistically significant (F = 9.69, p < 10−9), though
+economically smaller. Friday exhibits the highest mean spread (15.78 bps) and Tuesday
+the lowest (14.73 bps), a difference of approximately 1 bps. The pattern does not show
+a clear weekday-versus-weekend divide, consistent with the continuous operation of
+cryptocurrency markets. Figure 5 shows the spread distribution by day of week and
+pair type.
+Figure 5. Day-of-week spread distribution by exchange pair type. Box plots show median, interquar-
+tile range, and whiskers at 1.5 × IQR. Spreads capped at 100 bps for visualization. Day-of-week
+effects are statistically significant but economically small.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 11 ===
+Int. J. Financial Stud. 2026, 14, 103
+11 of 18
+Across the three trading sessions, mean spreads are similar: Asia 15.35 bps, Europe
+15.47 bps, and North America 15.10 bps. The absence of large session-level differences
+indicates that arbitrage opportunities do not systematically concentrate in a single global
+trading session, despite the significant within-session hourly variation driven by settle-
+ment times.
+4.5. Window Width Sensitivity
+A natural concern with rolling-window analysis is that the results may depend on
+the specific window width chosen. To assess whether the key findings are sensitive to
+this choice, we repeated the correlation and arbitrage-prevalence analysis for five-day and
+ten-day windows alongside the seven-day baseline. Across all three widths the mean
+integration gap varies by less than 0.02 (0.103 for five days, 0.109 for seven days, 0.120 for
+ten days), and mean arbitrage prevalence is almost unchanged (18.8%, 18.8%, and 18.9%,
+respectively). As might be expected, wider windows smooth idiosyncratic fluctuations: the
+standard deviation of the integration gap falls from 0.065 at five days to 0.049 at ten days.
+The qualitative pattern of a positive, time-varying integration gap that evolves gradually
+rather than through discrete breaks appears broadly consistent across all three window
+widths examined, which may increase confidence that the seven-day baseline is not driving
+the conclusions (Figure 6).
+Figure 6. Sensitivity of three key metrics (integration gap ∆int, mean CEX-CEX correlation, and
+arbitrage prevalence) to rolling-window width. The solid blue line shows the seven-day baseline;
+dashed red and dotted green lines show five-day and ten-day alternatives. Qualitative patterns
+appear broadly consistent across all three widths, suggesting that the choice of a seven-day window
+is unlikely to be the primary driver of the main conclusions.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 12 ===
+Int. J. Financial Stud. 2026, 14, 103
+12 of 18
+4.6. GARCH Persistence and Stationarity
+The GARCH(1,1) analysis across rolling windows resolves an ambiguity from the
+companion study, which found integrated GARCH (IGARCH) behavior (α + β ≈1.0) for
+BTC over its eight-day sample. Figure 7 plots the persistence parameter ˆα + ˆβ for BTC,
+ETH, and SOL across all 53 windows.
+Figure 7. GARCH(1,1) persistence parameter (ˆα + ˆβ) for BTC, ETH, and SOL across 53 rolling seven-day
+windows. The dashed horizontal line at 1.0 marks the IGARCH threshold. Near-IGARCH behavior for
+BTC is concentrated in two clusters: late November and late December through early January.
+For BTC, the mean persistence across windows is 0.815 with a standard deviation
+of 0.160, substantially below the IGARCH threshold of 1.0. Near-IGARCH behavior
+(ˆα + ˆβ > 0.95) appears in only 13 of 53 windows (24.5%), and these cluster in two dis-
+tinct periods: late November (windows 3–4, covering 18–25 November) and late December
+through early January (windows 44–51, covering 29 December through 11 January). Be-
+tween these clusters, persistence ranges from 0.407 to 0.930, well below unity. This pattern
+indicates that the IGARCH finding in the companion study reflected transient market
+conditions rather than a fundamental property of funding rate volatility. The two IGARCH-
+prone periods may correspond to episodes of elevated market uncertainty, during which
+volatility shocks propagate more persistently across the funding rate surface.
+ETH and SOL exhibit even greater variability in GARCH persistence. ETH persistence
+ranges from near zero (in windows where the optimizer concentrates all persistence in
+the β term) to 1.0, with a mean of approximately 0.77. SOL persistence is more consistent,
+averaging approximately 0.86, but still shows substantial window-to-window fluctuation.
+The lower and more variable persistence of ETH may reflect the more heterogeneous
+composition of Ethereum-based perpetual futures, which span a wider range of trading
+venues and liquidity profiles than BTC.
+Stationarity analysis via ADF tests provides complementary evidence. BTC funding
+rate spreads are stationary at the 5% level in 52 of 53 windows, with only one borderline
+exception (window 36, 21–27 December, p = 0.053). This consistent rejection of the
+unit root null confirms that BTC spreads are mean-reverting across virtually all market
+conditions in the sample. ETH shows more variability: approximately seven windows
+concentrated in late November through early December fail to reject the unit root null at
+5%, suggesting episodes of persistent trending behavior in ETH funding rate dynamics.
+SOL is stationary in all but two windows. BTC stationarity is, in this sense, more durable
+than its GARCH persistence: the mean-reverting property of spreads holds consistently
+even across windows where the speed of volatility shock decay fluctuates considerably.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 13 ===
+Int. J. Financial Stud. 2026, 14, 103
+13 of 18
+4.7. Granger Causality Evolution
+Table 3 presents the fraction of rolling windows in which bivariate Granger causality
+tests are significant at the 5% level, estimated with a maximum lag of six hours (one
+complete funding cycle for hourly data). The results challenge the straightforward “large
+CEX leads all” narrative.
+Table 3. Granger causality significance across 53 rolling windows. Each cell shows the number (and
+percentage) of windows in which the row exchange Granger-causes the column exchange at the 5%
+level. Lag length selected by AIC with a maximum of six lags.
+Pair Type
+Direction
+Significant Windows
+Fraction
+CEX–CEX
+BYBIT →BINANCE
+33/53
+62%
+BINANCE →BYBIT
+11/53
+21%
+CEX–CEX
+OKX →BINANCE
+29/53
+55%
+BINANCE →OKX
+13/53
+25%
+CEX–CEX
+KUCOIN →MEXC
+18/53
+34%
+MEXC →KUCOIN
+14/53
+26%
+CEX–DEX
+HYPERLIQUID →BINANCE
+13/53
+25%
+BINANCE →HYPERLIQUID
+7/53
+13%
+DEX–DEX
+DRIFT →HYPERLIQUID
+19/53
+36%
+HYPERLIQUID →DRIFT
+16/53
+30%
+Among CEX–CEX pairs, information flow is strongly asymmetric, but in a direction
+opposite to what exchange size alone would predict. Bybit Granger-causes Binance funding
+rates in 62% of windows, while the reverse direction is significant in only 21%. Simi-
+larly, OKX Granger-causes Binance in 55% of windows, compared to 25% in the reverse
+direction. The smaller CEX–CEX pair (KuCoin–MEXC) shows a more balanced pattern
+(34% versus 26%), consistent with similarly-sized exchanges exhibiting roughly symmetric
+information flow.
+For the CEX–DEX pair (Binance–Hyperliquid), the DEX-to-CEX direction is twice as
+prevalent: Hyperliquid Granger-causes Binance in 25% of windows, while the reverse
+is significant in only 13%. This suggests that the decentralized venue, despite lower
+volume, contains incremental information about funding rate dynamics that is subsequently
+reflected in Binance’s rates. The DEX–DEX pair (Drift–Hyperliquid) exhibits roughly
+symmetric causality (36% versus 30%), consistent with neither venue systematically leading
+the other.
+These patterns suggest that information discovery in perpetual futures funding rates
+does not follow a simple hierarchy in which the largest exchange leads. Concretely, if price
+discovery were determined by size alone, we would expect Binance, as the largest venue by
+volume, to Granger-cause other exchanges in the majority of windows. The data show the
+opposite: Bybit leads Binance in 62% of windows versus 21% in the reverse direction, and
+OKX leads Binance in 55% of windows versus 25% in the reverse direction. A size-based
+model has no ready explanation for this asymmetry. Instead, mid-tier centralized exchanges
+and even decentralized venues contain information that propagates to larger platforms.
+One explanation is compositional: exchanges that attract more speculative or informed
+trading may set rates that are subsequently reflected at higher-volume venues, even when
+those venues dominate aggregate trading activity. The BYBIT →BINANCE relationship is
+significant in a majority of windows throughout the sample; that consistency distinguishes
+it from a transient episode and suggests something more durable about how funding
+rates propagate across venues. Throughout, the term “Granger-causes” denotes statistical
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 14 ===
+Int. J. Financial Stud. 2026, 14, 103
+14 of 18
+predictive precedence: lagged values of the first exchange’s rate improve forecasts of the
+second’s, conditional on its own history, with no claim of structural or economic causation.
+5. Discussion
+This study tested whether the two-tiered market structure documented in the com-
+panion study is a stable feature of cryptocurrency perpetual futures or an artifact of a short
+observation window. The results point to two main findings with direct implications for
+market participants, regulators, and researchers who study market microstructure from
+static snapshots.
+5.1. Main Findings
+The first main finding is that the CEX–DEX integration hierarchy is real but not fixed.
+The integration gap ∆int is positive in 52 of 53 windows, confirming the qualitative two-
+tiered structure, but its magnitude varies by more than a factor of five: from −0.041 to 0.222.
+Specific windows illustrate the practical stakes. In window 21 (6–12 December), DEX–DEX
+correlations (0.212) exceeded CEX–CEX correlations (0.172); a researcher sampling the
+market that week would have concluded that decentralized exchanges are more integrated
+than centralized ones. Three weeks later, in window 45 (30 December through 5 January),
+the gap reached 0.222. The same market, sampled three weeks apart, yields qualitatively
+opposite conclusions. Any regulatory assessment of market fragmentation, any risk model
+conditioning on a static integration parameter, or any arbitrage strategy calibrated to a fixed
+correlation regime will be unreliable if it ignores this temporal dimension. The eight-day
+estimate reported in (Zhivkov, 2026) fell within the first few windows of our sample, where
+the gap was low (0.03–0.07); had that study been conducted in late December, its headline
+conclusions about the magnitude of CEX–DEX divergence would have been three to four
+times larger. The economic interpretation of this finding is twofold. For arbitrageurs,
+a hierarchy that is real but variable implies that strategies calibrated to a fixed spread
+regime may be well-suited to some periods and poorly suited to others; position sizing
+and threshold selection should ideally incorporate estimates of current integration rather
+than relying on historical averages. For regulators and risk managers, it implies that a
+surveillance framework conditioned on a static characterization of CEX–DEX fragmentation
+may periodically underestimate or overestimate the degree to which price dislocations can
+propagate across venue types, depending on where in the integration cycle the market
+currently sits.
+The structural break analysis sharpens this interpretation. The CUSUM test rejects
+parameter stability, confirming that the gap is not stationary, but the Bai–Perron test detects
+zero significant discrete breaks at any penalty level. The market does not alternate between
+regimes of integration and fragmentation in the manner suggested by Markov-switching
+models (Hamilton, 1989). Instead, it drifts gradually, driven primarily by declining DEX–
+DEX correlations over the sample period. The widening from a mean of 0.069 in November
+to 0.143 in late December through January may reflect growing liquidity fragmentation
+among decentralized venues, though distinguishing this from seasonal effects would
+require a longer sample.
+The second main finding resolves the IGARCH puzzle from the companion study.
+That study reported GARCH(1,1) persistence near unity (α + β ≈1.0) for BTC funding rate
+spreads, implying that volatility shocks are permanent and that spread variance grows
+without bound. If true, this would fundamentally undermine the viability of funding rate
+arbitrage, since permanent volatility means spread convergence cannot be relied upon. Our
+extended analysis shows that this characterization is episodic, not general. The mean BTC
+persistence across 53 windows is 0.815 with a standard deviation of 0.160. Near-IGARCH
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 15 ===
+Int. J. Financial Stud. 2026, 14, 103
+15 of 18
+behavior (α + β > 0.95) appears in only 13 windows (24.5%), concentrated in two clusters:
+late November (windows 3–4) and late December through early January (windows 44–51).
+In the remaining 75% of windows, persistence ranges from 0.407 to 0.930, well below the
+threshold at which volatility shocks become permanent. For practitioners, the implication
+is concrete: risk models and position-sizing algorithms that assume permanent volatility
+will systematically overestimate spread risk during three-quarters of market conditions.
+The episodic clustering suggests that near-IGARCH behavior is associated with specific
+market conditions, likely elevated uncertainty or reduced liquidity, rather than being an
+inherent property of funding rate dynamics.
+5.2. Additional Results
+The Granger causality results challenge a simplistic price-discovery hierarchy. The
+companion study found that CEX platforms lead DEX platforms in a static sense, which
+might suggest that the largest exchange (Binance) sets funding rates that other venues
+follow. The rolling-window analysis complicates that picture: Bybit Granger-causes Binance
+in 62% of windows and OKX does so in 55%, while the reverse directions are significant
+far less frequently (21% and 25%, respectively). This asymmetry is consistent with the
+hypothesis advanced by Makarov and Schoar (Makarov & Schoar, 2020) that smaller
+venues with more concentrated informed trading can lead price discovery, even when they
+represent a smaller share of aggregate volume. In the perpetual futures context, this may
+reflect differences in the composition of speculative positioning across platforms: exchanges
+that attract directional traders may generate funding rate signals that are subsequently
+reflected at higher-volume venues where hedging activity dominates. The BYBIT →
+BINANCE relationship holds across a majority of windows throughout the sample, which
+argues against treating it as a transient episode. This interpretation is speculative; the
+Granger tests establish predictive precedence only, and the underlying mechanism warrants
+investigation with structural identification.
+The seasonal analysis reveals statistically significant but economically modest intraday
+patterns linked to the funding rate settlement process. The 2.5 bps spread between peak and
+trough hours, and the systematic post-settlement spikes at 02:00, 10:00, and 18:00 UTC, are
+consistent with a brief divergence window after each settlement in which exchanges have
+not yet converged on a new rate equilibrium. The magnitude is small relative to transaction
+costs on most platforms, suggesting that these patterns are unlikely to support profitable
+trading strategies in isolation. The absence of a strong weekend effect is consistent with the
+continuous operation of cryptocurrency markets and distinguishes funding rate dynamics
+from the calendar anomalies documented in equity markets.
+5.3. Limitations and Future Research
+Several limitations constrain the interpretation of these results. First, the two-month
+sample period, while substantially longer than the companion study’s eight days, remains
+short by the standards of financial econometrics. The trends we identify, particularly the
+widening integration gap, could reflect transient conditions specific to the November 2025
+through January 2026 period rather than durable structural features. Extending the sample
+to six months or longer would clarify whether the observed widening represents a genuine
+trend toward greater DEX fragmentation or a temporary fluctuation. Cryptocurrency
+markets are highly regime-dependent; the November 2025–January 2026 window spans
+a specific phase of market conditions that may not be representative of other periods,
+and generalization of the quantitative findings should be approached with caution until
+confirmed on a longer panel. Second, our rolling-window framework uses a fixed seven-day
+window width. Section 4.5 reports a sensitivity analysis with five-day and ten-day windows;
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 16 ===
+Int. J. Financial Stud. 2026, 14, 103
+16 of 18
+the key metrics appear broadly stable across the three widths, though wider windows
+naturally smooth some of the short-run variation visible in the baseline. Third, the Granger
+causality tests are bivariate and do not control for information flow through third-party
+exchanges. A multivariate VAR approach encompassing all 26 exchanges simultaneously
+would provide a more complete map of the information network, but was computationally
+prohibitive given the number of exchange pairs and rolling windows. Future work should
+explore sparse VAR or network-based methods that can scale to this dimensionality. Finally,
+the seasonal analysis uses simple F-tests and does not control for time-varying volatility or
+cross-sectional dependence, which may affect inference in panel settings with correlated
+observations. Panel-corrected standard errors or hierarchical models would provide more
+reliable inference on the magnitude of seasonal effects. Fifth, our integration measure relies
+on rolling Pearson correlations rather than cointegration-based methods. Cointegration
+and error-correction models would provide a more formal test of long-run integration, but
+require sample sizes (typically ≥200 observations) that exceed what our seven-day rolling
+windows provide (approximately 168 hourly observations per pair). More fundamentally,
+cointegration assumes a stable long-run equilibrium, which our results call into question;
+applying it at the window level would be conceptually inconsistent with the temporal-
+dynamics focus of this study. Panel cointegration over the full two-month sample is a
+natural extension for future work.
+6. Conclusions
+This study extends the static market structure analysis of cryptocurrency perpetual
+futures funding rates to a temporal setting, tracking integration dynamics across 53 rolling
+seven-day windows over a two-month sample of 26 exchanges and 812 symbols.
+The two-tiered structure, in which centralized exchanges form a tightly integrated
+core while decentralized exchanges remain fragmented, persists as a qualitative feature
+but varies substantially in magnitude. The integration gap averages 0.110 and ranges from
+−0.041 to 0.222, evolving through gradual drift rather than discrete regime shifts. Structural
+break tests detect no statistically significant discontinuities, ruling out the hypothesis that
+integration changes abruptly in response to market events.
+Three additional findings emerge. First, IGARCH behavior in funding rate volatility,
+previously reported as a general characteristic, is shown to be episodic: BTC GARCH
+persistence averages 0.815 across windows, with near-IGARCH episodes (>0.95) appearing
+in only 24.5% of windows and clustering in specific time periods. Second, Granger causality
+analysis reveals that information flow does not follow exchange size: mid-tier exchanges
+(Bybit, OKX) Granger-cause Binance more frequently than the reverse, suggesting that
+directional trading on smaller venues generates funding rate signals that propagate to
+larger platforms. Third, intraday funding rate spreads exhibit statistically significant
+patterns linked to settlement mechanics, with spreads peaking approximately two hours
+after standard settlement times.
+A window-width sensitivity analysis suggests that these findings are broadly robust to
+the choice of rolling-window length, with key metrics remaining qualitatively stable across
+five-day, seven-day, and ten-day windows. These results have implications for both market
+participants and regulators. Arbitrage strategies should account for the time-varying nature
+of cross-exchange spreads and the episodic character of volatility persistence, rather than
+relying on parameters calibrated from short observation windows. Market surveillance
+frameworks should recognize that smaller exchanges can lead price discovery, complicating
+the assumption that monitoring the largest venue is sufficient for systemic risk assessment.
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 17 ===
+Int. J. Financial Stud. 2026, 14, 103
+17 of 18
+Author Contributions: Conceptualization, P.Z.; methodology, P.Z., V.T. and S.G.; software, P.Z.;
+formal analysis, P.Z.; data curation, P.Z.; writing—original draft preparation, P.Z.; writing—review
+and editing, V.T. and S.G.; and supervision, V.T. and S.G. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This study is financed by the European Union–NextGenerationEU, through the National
+Recovery and Resilience Plan of the Republic of Bulgaria, project number BG-RRP-2.013-0001 and
+supported by the Centre of Excellence in Informatics and ICT under the Grant No. BG16RFPR002-
+1.014-0018, financed by the Research, Innovation and Digitalization for Smart Transformation Pro-
+gramme 2021–2027 and co-financed by the European Union. The work is also partially supported by
+Bulgarian National Science Fund under Projects KP-06-N62/6 “Machine learning through physics-
+informed neural networks” and KP-06-N82/4 “Artificial intelligence for investigation and modeling
+of real processes”.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data supporting the reported results are available upon reasonable
+request from the corresponding author.
+Conflicts of Interest: The authors declare no conflicts of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+ADF
+Augmented Dickey–Fuller
+AIC
+Akaike Information Criterion
+CEX
+Centralized Exchange
+CUSUM
+Cumulative Sum
+DEX
+Decentralized Exchange
+GARCH
+Generalized Autoregressive Conditional Heteroskedasticity
+IGARCH
+Integrated GARCH
+VAR
+Vector Autoregression
+References
+Aharon, D. Y., & Qadan, M. (2019). Bitcoin and the day-of-the-week effect. Finance Research Letters, 31, 415–424. [CrossRef]
+Akaike, H. (1974). A new look at the statistical model identification. IEEE Transactions on Automatic Control, 19(6), 716–723. [CrossRef]
+Andrews, D. W. K. (1993). Tests for parameter instability and structural change with unknown change point. Econometrica, 61(4),
+821–856. [CrossRef]
+Bai, J., & Perron, P. (1998). Estimating and testing linear models with multiple structural changes, Econometrica, 66(1), 47–78. [CrossRef]
+Bai, J., & Perron, P. (2003). Computation and analysis of multiple structural change models. Journal of Applied Econometrics, 18(1), 1–22.
+[CrossRef]
+Bekaert, G., & Harvey, C. R. (1995). Time-varying world market integration. Journal of Finance, 50(2), 403–444. [CrossRef]
+Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. Journal of Econometrics, 31(3), 307–327. [CrossRef]
+Brown, R. L., Durbin, J., & Evans, J. M. (1975). Techniques for testing the constancy of regression relationships over time. Journal of the
+Royal Statistical Society: Series B (Methodological), 37(2), 149–163. [CrossRef]
+Caporale, G. M., & Plastun, A. (2019). The day of the week effect in the cryptocurrency market. Finance Research Letters, 31, 258–269.
+[CrossRef]
+Consultative Group of Directors of Financial Stability. (2023). Financial stability risks from cryptoassets in emerging market economies
+(BIS Papers, No. 138). Bank for International Settlements. Available online: https://www.bis.org/publ/bppdf/bispap138.pdf
+(accessed on 1 August 2023).
+Dickey, D. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. Journal of the American Statistical
+Association, 74(366), 427–431. [CrossRef] [PubMed]
+Engle, R. F. (1982). Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation.
+Econometrica, 50(4), 987–1007. [CrossRef]
+https://doi.org/10.3390/ijfs14050103
+
+
+=== PAGE 18 ===
+Int. J. Financial Stud. 2026, 14, 103
+18 of 18
+European Systemic Risk Board. (2025). Crypto-assets and decentralised finance: Financial stability assessment and policy recommendations,
+ESRB report, European systemic risk board, Frankfurt am main. Available online: https://www.esrb.europa.eu/pub/pdf/reports/
+esrb.report202510_cryptoassets.en.pdf (accessed on 20 October 2025).
+Forbes, K. J., Rigobon, R., & Contagion, N. (2002). Only interdependence: Measuring stock market comovements. Journal of Finance,
+57(5), 2223–2261. [CrossRef]
+Granger, C. W. J. (1969). Investigating causal relations by econometric models and cross-spectral methods. Econometrica, 37(3), 424–438.
+[CrossRef]
+Hamilton, J. D. (1989). A New approach to the economic analysis of nonstationary time series and the business cycle. Econometrica,
+57(2), 357–384. [CrossRef]
+Ma, D., & Tanizaki, H. (2019). The day-of-the-week effect on bitcoin return and volatility. Research in International Business and Finance,
+49, 127–136. [CrossRef]
+Makarov, I., & Schoar, A. (2020). Trading and arbitrage in cryptocurrency markets. Journal of Financial Economics, 135(2), 293–319.
+[CrossRef]
+Pesaran, M. H., & Timmermann, A. (2005). Small sample properties of forecasts from autoregressive models under structural breaks.
+Journal of Econometrics, 129(1), 183–217. [CrossRef]
+Zhivkov, P. (2026). The two-tiered structure of cryptocurrency funding rate markets. Mathematics, 14(2), 346. [CrossRef]
+Zivot, E., & Andrews, D. W. K. (1992). Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis. Journal of
+Business & Economic Statistics, 10(3), 251–270. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+https://doi.org/10.3390/ijfs14050103

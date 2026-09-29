@@ -1,0 +1,1152 @@
+{
+ "aave": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[TEMP CHECK] Aave Will Win Framework",
+   "created": "2026-09-20T10:57:28.342Z",
+   "blurb": "...answers. The community has shown plenty of patience, particularly after absorbing the KelpDAO/LayerZero fallout where token holders bore the cost and buybacks were halted to cover the deficit. Despite not fully regain",
+   "id": 24055,
+   "slug": "temp-check-aave-will-win-framework"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[GHO Stewards] August 2026 - GHO Borrow Rate and Aave Savings Rate Update",
+   "created": "2026-08-27T12:34:50.910Z",
+   "blurb": "...uld support corporate adoption. On August 19 the Treasury https://home.treasury.gov/news/press-releases/sb0607 doubled its long-end liquidity-support buybacks . The operation is not quantitative easing, but the market",
+   "id": 25534,
+   "slug": "gho-stewards-august-2026-gho-borrow-rate-and-aave-savings-rate-update"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Core Wallet on Avalanche V3 forces unnecessary Ethereum network switch",
+   "created": "2026-08-15T12:35:30.367Z",
+   "blurb": "I am posting this here because I could not find an existing issue describing this exact Core + Avalanche V3 connection behavior. I am using Aave V3 on Avalanche exclusively , with the Core browser extension . There appea",
+   "id": 25487,
+   "slug": "core-wallet-on-avalanche-v3-forces-unnecessary-ethereum-network-switch"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "[ARFC] Unified Handling of the Isolated Flag in Aave V3.7 E-Modes",
+   "created": "2026-09-11T12:26:56.987Z",
+   "blurb": "Summary https://governance.aave.com/t/arfc-bgd-aave-v3-7/24075 Aave v3.7 introduced a per-E-Mode isolated flag that determines whether collateral outside an E-Mode's collateral set can back borrows inside it. We recommen",
+   "id": 25621,
+   "slug": "arfc-unified-handling-of-the-isolated-flag-in-aave-v3-7-e-modes"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Paxos Gold (PAXG) on Aave Ethereum Assessments",
+   "created": "2026-08-19T08:15:57.563Z",
+   "blurb": "1. Asset Fundamental Characteristics 1.1 Asset Pax Gold (PAXG) is an ERC-20 token issued by Paxos Trust Company, National Association, a national trust bank supervised by the Office of the Comptroller of the Currency (OC",
+   "id": 25359,
+   "slug": "paxos-gold-paxg-on-aave-ethereum-assessments"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Coinbase B20 Equities on Base Assessments",
+   "created": "2026-09-24T09:18:33.639Z",
+   "blurb": "Summary This document is the technical review behind the initial parameters proposed for the tokenized equities market on Aave V4 Base. It covers the legal structure of the certificates, the issuance and redemption mecha",
+   "id": 25690,
+   "slug": "coinbase-b20-equities-on-base-assessments"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[GHO Stewards] August 2026 - GHO Borrow Rate and Aave Savings Rate Update",
+   "created": "2026-08-27T12:34:50.910Z",
+   "blurb": "title: [GHO Stewards] August 2026 - GHO Borrow Rate and Aave Savings Rate Update author: @TokenLogic created: 2026-08-27 Overview This update adjusts rates on both sides of GHO's balance sheet. The GHO borrow rate on Eth",
+   "id": 25534,
+   "slug": "gho-stewards-august-2026-gho-borrow-rate-and-aave-savings-rate-update"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "LlamaRisk - Monthly Community Update",
+   "created": "2026-09-04T18:53:08.071Z",
+   "blurb": "LlamaRisk - Monthly Community Update August 2026 Overview LlamaRisk presents our August 2026 monthly update, summarizing key activities and outlining upcoming priorities. Highlights Recommendations and inputs Asset onboa",
+   "id": 17935,
+   "slug": "llamarisk-monthly-community-update"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[ARFC] Umbrella on Aave v4: Coverage Framework and Initial Market Parametrization",
+   "created": "2026-09-11T14:29:29.121Z",
+   "blurb": "Overview Aave v4 on Ethereum has grown rapidly since launch, with borrowing now concentrated in WETH, USDG, USDC, USDT, and frxUSD. This analysis evaluates these markets under the V4 Umbrella framework, considering loan ",
+   "id": 25623,
+   "slug": "arfc-umbrella-on-aave-v4-coverage-framework-and-initial-market-parametrization"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[Risk Stewards] September 2026 - WETH Interest Rate Adjustment on Base",
+   "created": "2026-09-18T09:37:36.298Z",
+   "blurb": "title: [Risk Stewards] September 2026 - WETH Interest Rate Adjustment on Base author: @TokenLogic created: 2026-09-17 Summary In August, WETH Slope1 was reduced to 2.20% on Ethereum Core, Arbitrum, and Optimism, while Ba",
+   "id": 25667,
+   "slug": "risk-stewards-september-2026-weth-interest-rate-adjustment-on-base"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[ARFC] Onboard HINC (Neuberger Securitize High Income Tokenized Fund) to Aave Horizon",
+   "created": "2026-08-18T13:58:18.826Z",
+   "blurb": "[ARFC] Onboard HINC (Neuberger Securitize High Income Tokenized Fund) to Aave Horizon Author: Securitize Date: 2026-08-18 Target instance: Aave Horizon (Ethereum) Asset: HINC (Neuberger Securitize High Income Tokenized F",
+   "id": 25500,
+   "slug": "arfc-onboard-hinc-neuberger-securitize-high-income-tokenized-fund-to-aave-horizon"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[ARFC] Aave Institutional",
+   "created": "2026-09-24T13:21:21.048Z",
+   "blurb": "image Summary Aave Institutional is the DAO's offchain over-collateralised lending business. It lends dollar stablecoins to institutional borrowers against BTC and ETH held at qualified custodians, at rates materially ab",
+   "id": 25692,
+   "slug": "arfc-aave-institutional"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Paxos Gold (PAXG) on Aave Ethereum Assessments",
+   "created": "2026-08-19T08:15:57.563Z",
+   "blurb": "1. Asset Fundamental Characteristics 1.1 Asset Pax Gold (PAXG) is an ERC-20 token issued by Paxos Trust Company, National Association, a national trust bank supervised by the Office of the Comptroller of the Currency (OC",
+   "id": 25359,
+   "slug": "paxos-gold-paxg-on-aave-ethereum-assessments"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[Risk Stewards] August 2026 - Stablecoin Interest Rate Adjustments",
+   "created": "2026-08-24T08:48:47.942Z",
+   "blurb": "title: [Risk Stewards] August 2026 - Stablecoin Interest Rate Adjustments author: @TokenLogic created: 2026-08-24 Overview TokenLogic proposes updating Aave stablecoin interest-rate curves. The proposal raises Slope1 whe",
+   "id": 25519,
+   "slug": "risk-stewards-august-2026-stablecoin-interest-rate-adjustments"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Ethena USDe on Aave Avalanche Assessments",
+   "created": "2026-09-18T19:00:26.421Z",
+   "blurb": "Summary LlamaRisk supports onboarding USDe to the Aave V4 Core Hub on Avalanche. USDe is already listed on multiple Aave markets, including V3 and V4. Native USDe minting is not available on Avalanche, and USDe is instea",
+   "id": 25669,
+   "slug": "ethena-usde-on-aave-avalanche-assessments"
+  }
+ ],
+ "lido": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restructuring",
+   "created": "2026-09-14T19:51:56.470Z",
+   "blurb": "...staking sector, our current burn rate is unsustainable. This restructuring will instantly lower our ongoing OpEx and safeguard the treasury. 3. NEST Buyback Framework Reform The current NEST smart-contract parameters ",
+   "id": 11921,
+   "slug": "proposal-for-comprehensive-expense-optimization-and-nest-steth-buyback-parameter-restructuring"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Liquid Buybacks: NEST execution with LDO/wstETH liquidity",
+   "created": "2026-09-16T03:02:37.748Z",
+   "blurb": "...ed for it, and their calls have been met with every kind of brush-off. Countless proposals were made, and what finally shipped was NEST \u2014 a toothless buyback \u2014 which only passed because there was nothing else left on ",
+   "id": 10894,
+   "slug": "liquid-buybacks-nest-execution-with-ldo-wsteth-liquidity"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "A message to the Lido team",
+   "created": "2026-09-13T06:34:28.144Z",
+   "blurb": ".... As for the delegates, they vote on or discuss *only* those ideas that originate from the project team itself. Batching, delays, low rates to reduce buybacks \u2014 these are all ways to minimize returns to holders. But p",
+   "id": 11915,
+   "slug": "a-message-to-the-lido-team"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "PGov Delegate Thread",
+   "created": "2026-09-14T16:25:11.489Z",
+   "blurb": "...apshot.eth/proposal/0x517a6972a1b5ac20b4237b83a794f1ec4230ebe2cd35c293d6c03dafee40980f Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restructuring We voted Against : The concern unde",
+   "id": 8232,
+   "slug": "pgov-delegate-thread"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Utilizing Market Opportunities: stETH / LDO trade",
+   "created": "2026-08-22T12:02:36.588Z",
+   "blurb": "Are this buybacks currently running and planning to continue? LDO/ETH drops 0.000135",
+   "id": 11358,
+   "slug": "utilizing-market-opportunities-steth-ldo-trade"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "PRO Delegators - Delegate Thread",
+   "created": "2026-09-22T08:37:04.046Z",
+   "blurb": "Proposal: Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restructuring Our Vote: AGAINST Rationale: While we strongly support the call for independent financial audits and transparency, ",
+   "id": 11461,
+   "slug": "pro-delegators-delegate-thread"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Anthony Leuts - Delegate Thread",
+   "created": "2026-09-22T05:46:38.838Z",
+   "blurb": "...apshot.eth/proposal/0x517a6972a1b5ac20b4237b83a794f1ec4230ebe2cd35c293d6c03dafee40980f Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restructuring Vote: Against Rationale: The propos",
+   "id": 8019,
+   "slug": "anthony-leuts-delegate-thread"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Kuzmich Delegate Thread",
+   "created": "2026-09-24T08:13:04.221Z",
+   "blurb": "...apshot.eth/proposal/0x517a6972a1b5ac20b4237b83a794f1ec4230ebe2cd35c293d6c03dafee40980f Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restructuring Decision: Vote Against I've been ar",
+   "id": 10191,
+   "slug": "kuzmich-delegate-thread"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "RFC] LDO as Operator Bond: Linking Token Demand to Protocol Growth via stVaults Security Deposits",
+   "created": "2026-09-17T15:19:25.140Z",
+   "blurb": "...the DAO. Fees flow to operators for verifiable work. The bond functions like a performance deposit in any service industry. Does not compete with the buyback program. Buybacks are discretionary treasury allocation; bo",
+   "id": 11937,
+   "slug": "rfc-ldo-as-operator-bond-linking-token-demand-to-protocol-growth-via-stvaults-security-deposits"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Cost Discipline and Accountability: Questions Following the H1 2026 GOOSE Report",
+   "created": "2026-08-29T06:55:44.610Z",
+   "blurb": "...(Jun 2026). Halved in ten months. \u2022 Budget vs. revenue: ~$60M annual spend against ~$43M revenue \u2014 structurally loss-making at current ETH prices. \u2022 Buybacks: 10,000 stETH authorized in April; roughly 20% executed in ",
+   "id": 11838,
+   "slug": "cost-discipline-and-accountability-questions-following-the-h1-2026-goose-report"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Accountability question for Lido Labs leadership",
+   "created": "2026-08-27T10:41:03.762Z",
+   "blurb": "Yes, I'm interested in this question too. 1. Since the launch of NEST, not a single buyback has taken place. The parameters need to be adjusted to be more aggressive. 2. stETH/LDO buybacks. There hasn't been a single ans",
+   "id": 11830,
+   "slug": "accountability-question-for-lido-labs-leadership"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Authorize a Contingent LDO CEX Liquidity Market-Making Mandate",
+   "created": "2026-09-09T13:59:46.657Z",
+   "blurb": "...all-time lows without any meaningful relative strength compared to the broader market. The lack of market reaction to the NEST proposal and stETH/LDO buyback mechanics signals a key takeaway: market participants do no",
+   "id": 11839,
+   "slug": "authorize-a-contingent-ldo-cex-liquidity-market-making-mandate"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Reporting & Discussion",
+   "created": "2026-08-28T06:49:22.047Z",
+   "blurb": "GOOSE-2026 &amp; EGGs-2026 H1 Report Executive Summary This report summarizes progress toward the https://snapshot.org/#/s:lido-snapshot.eth/proposal/0x9504d26771291e011ff54c2e0d7665e79621aa0225c0d573697f1c4061401938 Lid",
+   "id": 11836,
+   "slug": "reporting-discussion"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "LIP-37: Execution Delegation Framework (EDF)",
+   "created": "2026-09-11T15:34:34.559Z",
+   "blurb": "Upgrade process The vote is a single Aragon vote with two items. Item 1 submits one Dual Governance proposal that atomically switches the protocol to EDF and DepositSecurityModule v5 in a single Agent.forward call (78 ac",
+   "id": 11746,
+   "slug": "lip-37-execution-delegation-framework-edf"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "RFC] LDO as Operator Bond: Linking Token Demand to Protocol Growth via stVaults Security Deposits",
+   "created": "2026-09-17T15:19:25.140Z",
+   "blurb": "Context Following tonight's Poolside Institutional call, one thing is clear: the institutional pipeline is real (SharpLink, MetaMask, Curated Module growth). What remains unclear is how LDO holders participate in that gr",
+   "id": 11937,
+   "slug": "rfc-ldo-as-operator-bond-linking-token-demand-to-protocol-growth-via-stvaults-security-deposits"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Accountability question for Lido Labs leadership",
+   "created": "2026-08-27T10:05:42.735Z",
+   "blurb": "I'm a long-term LDO holder. I want to raise an uncomfortable but legitimate governance point. In 2026, on every metric the DAO itself chose, performance has deteriorated: \u2022 Market share: 23% \u2192 20.8%, all-time-high stake ",
+   "id": 11830,
+   "slug": "accountability-question-for-lido-labs-leadership"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Discussion on LDO Value Accrual and Long-Term Future \u2014 Inviting Community Suggestions",
+   "created": "2026-09-04T16:44:34.402Z",
+   "blurb": "The biggest problem with LDO right now is not the product, not TVL, but value accrual. stETH is successful, and protocol revenue is stable, but none of that translates into LDO value. In the long run, this will cause Lid",
+   "id": 11858,
+   "slug": "discussion-on-ldo-value-accrual-and-long-term-future-inviting-community-suggestions"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Reporting & Discussion",
+   "created": "2026-08-28T06:49:22.047Z",
+   "blurb": "GOOSE-2026 &amp; EGGs-2026 H1 Report Executive Summary This report summarizes progress toward the https://snapshot.org/#/s:lido-snapshot.eth/proposal/0x9504d26771291e011ff54c2e0d7665e79621aa0225c0d573697f1c4061401938 Lid",
+   "id": 11836,
+   "slug": "reporting-discussion"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Proposal for Comprehensive Expense Optimization and NEST/stETH Buyback Parameter Restructuring",
+   "created": "2026-09-14T19:51:56.470Z",
+   "blurb": "I am putting forward a comprehensive proposal for community discussion and subsequent Snapshot voting. The goal is to aggressively optimize the DAO's operational expenditures and realign our token support mechanisms with",
+   "id": 11921,
+   "slug": "proposal-for-comprehensive-expense-optimization-and-nest-steth-buyback-parameter-restructuring"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "A message to the Lido team",
+   "created": "2026-09-13T06:34:28.144Z",
+   "blurb": "Let's talk about @LidoFinanceLidoFinanceLidoFinanceLidoFinance $LDO 1. They position themselves as a \"top-tier staking\" project\u2014boasting the largest amount of staked $ETH and a long-standing, proven track record. However",
+   "id": 11915,
+   "slug": "a-message-to-the-lido-team"
+  }
+ ],
+ "ethena": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "ENA Fee Switch Activation",
+   "created": "2026-08-27T13:59:31.579Z",
+   "blurb": "...place any suggested parameters previously suggested by the Risk Committee. Under the proposed schedule, the share of protocol revenue directed to ENA buybacks increases at each USDe circulating supply milestone, and i",
+   "id": 830,
+   "slug": "ena-fee-switch-activation"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "ENA Fee Switch Activation",
+   "created": "2026-08-27T13:59:31.579Z",
+   "blurb": "In collaboration with the Ethena Risk Committee, we propose the following milestones for ENA fee switch activation. These milestones will be subject to an ENA tokenholder vote, which will follow immediately after this po",
+   "id": 830,
+   "slug": "ena-fee-switch-activation"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "ENA Fee Switch Activation",
+   "created": "2026-08-27T13:59:31.579Z",
+   "blurb": "In collaboration with the Ethena Risk Committee, we propose the following milestones for ENA fee switch activation. These milestones will be subject to an ENA tokenholder vote, which will follow immediately after this po",
+   "id": 830,
+   "slug": "ena-fee-switch-activation"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "GHO and sGHO as Eligible Backing Assets for USDe",
+   "created": "2026-09-21T16:53:32.357Z",
+   "blurb": "GHO and sGHO as Backing Assets for USDe Kairos Research, for the Ethena Risk Committee. Onchain state read September 8th 2026 unless stated otherwise. Sources, contracts, methodology, and verification status are set out ",
+   "id": 847,
+   "slug": "gho-and-sgho-as-eligible-backing-assets-for-usde"
+  }
+ ],
+ "uniswap": [
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "[Temp Check] Activate v4 Protocol Fees",
+   "created": "2026-08-18T11:10:54.343Z",
+   "blurb": "...liquidity. The Core Vulnerability: Operating Without Telemetry As highlighted in the LVR (Loss Versus Rebalancing) and IV/RV spread debates, a 10-25% fee switch does not just reduce LP income; it fundamentally alters ",
+   "id": 26162,
+   "slug": "temp-check-activate-v4-protocol-fees"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "PGov Delegate Platform",
+   "created": "2026-09-18T17:04:12.222Z",
+   "blurb": "...rotocol fee and UNI burn system to Arc, Circle's layer 1 that went live on September 16 with v2, v3, v4 and UniswapX deployed from launch, taking the fee switch beyond mainnet and the eleven chains already live. The b",
+   "id": 22271,
+   "slug": "pgov-delegate-platform"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Axia Network Delegate Platform",
+   "created": "2026-09-22T18:37:46.387Z",
+   "blurb": "...ts extending the protocol-fee and UNI-burn infrastructure to Arc, using the same search and burn system already enabled on other chains that have the fee switch turned on.",
+   "id": 26036,
+   "slug": "axia-network-delegate-platform"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "[RFC] Native Execution Privacy in the Uniswap Interface via v4 Hooks and UniswapX",
+   "created": "2026-08-19T09:18:56.446Z",
+   "blurb": "I think an opt-in privacy path could be useful, especially for users who are used to more guided trading environments. Many users first trade through centralized platforms like BYDFi before moving on-chain. On a CEX, the",
+   "id": 26208,
+   "slug": "rfc-native-execution-privacy-in-the-uniswap-interface-via-v4-hooks-and-uniswapx"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Uniswap-Arbitrum Delegate Program (UADP) Communication Thread",
+   "created": "2026-08-28T01:08:15.353Z",
+   "blurb": "August 2026 Voting Updates https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x666a31ac239818a8b90f9d5784adad5974009fe6254da9c3be7f39aed57391bc Arbitrum Security Program Vote: For Type: Snapshot We backed the cont",
+   "id": 22185,
+   "slug": "uniswap-arbitrum-delegate-program-uadp-communication-thread"
+  }
+ ],
+ "curve": [
+  {
+   "q": "buyback after:2026-08-15",
+   "err": 403
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "err": 403
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "err": 403
+  }
+ ],
+ "pendle": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.pendle.finance', port=443): Max retries exceeded"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.pendle.finance', port=443): Max retries exceeded"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.pendle.finance', port=443): Max retries exceeded"
+  }
+ ],
+ "morpho": [],
+ "sky": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Treasury Management Function (TMF) Configurations",
+   "created": "2026-09-04T13:33:13.422Z",
+   "blurb": "...pital): 6,298,118.40 USDS Step 3 &amp; 4 Allocation Step 3 Capital = 6,298,118.40 USDS USDS Staking Rewards ( 45% of Step 3 Capital): 2,834,153.28 USDS . Buyback distributed to SKY stakers ( 45% of Step 3 Capital): 2,",
+   "id": 28153,
+   "slug": "treasury-management-function-tmf-configurations"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "BONAPUBLICA Aligned Delegate Communication",
+   "created": "2026-09-14T16:56:45.038Z",
+   "blurb": "...am parameters are modified through an Executive Vote. The SKY Accumulation \u258e Percentage may not be set below the share of Step 3 Capital allocated to buyback and burn. \"SKY Accumulation Percentage\" is defined: A.3.5.2",
+   "id": 20451,
+   "slug": "bonapublica-aligned-delegate-communication"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-09-14",
+   "created": "2026-09-12T19:14:55.977Z",
+   "blurb": "...am parameters are modified through an Executive Vote. The SKY Accumulation \u258e Percentage may not be set below the share of Step 3 Capital allocated to buyback and burn. \"SKY Accumulation Percentage\" is defined: A.3.5.2",
+   "id": 28234,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-09-14"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "SAEP-23: Update SubDAO Proxy Management Artifact Section",
+   "created": "2026-09-11T23:46:29.916Z",
+   "blurb": "...82-c97cf4d0f74e A.6.1.1.1.3.4.2.3.2 : calculate the value of the Spark SubDAO Proxy as of 16:00 UTC on the first (1st) day of each month; include the buyback transfer in the next available Spark proxy Spell with a vot",
+   "id": 28235,
+   "slug": "saep-23-update-subdao-proxy-management-artifact-section"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[September 24, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-09-14T13:06:08.237Z",
+   "blurb": "...tober 2026 monthly grants to the Spark Foundation and the Spark Assets Foundation (Exec, recurring). [Ethereum] Spark Treasury \u2014 Transfer USDS to the buyback executor to fund SPK buybacks (Exec, recurring). [Ethereum]",
+   "id": 28237,
+   "slug": "september-24-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Max Staking Yield AD Recognition Submission",
+   "created": "2026-09-10T18:24:13.766Z",
+   "blurb": "...d across the same reward pool, which is a real cost even if a modest one. We support the direction because a sh orter cycle tightens the link between buyback activity and what a staker actually sees, and because the b",
+   "id": 26462,
+   "slug": "max-staking-yield-ad-recognition-submission"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[ChainFundamentals AI Research] A month for Tokenholders - August2026",
+   "created": "2026-09-01T22:07:44.814Z",
+   "blurb": "...nance's implementation of a rules-based mechanism allocating a percentage of monthly Net Revenue directly to Tokenholder value accrual in the form of buybacks and staking rewards. Net Revenue for the MSC-11 settlement",
+   "id": 28212,
+   "slug": "chainfundamentals-ai-research-a-month-for-tokenholders-august2026"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "AegisD AD Recognition Submission",
+   "created": "2026-09-11T13:01:01.570Z",
+   "blurb": "...a an Executive Vote without a prior Governance Poll, with rewardsDuration required to track hop . The practical effect is a further shortening of the buyback and staking-reward cycle, continuing the cadence increase m",
+   "id": 26145,
+   "slug": "aegisd-ad-recognition-submission"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "BA Labs: Sky Ecosystem Product Updates",
+   "created": "2026-09-01T13:55:30.360Z",
+   "blurb": "...enance is a cost of running the ecosystem rather than a use of the surplus, but the income statement was deducting it below the line, next to the SKY buyback. Expenses therefore understated what the protocol actually ",
+   "id": 26631,
+   "slug": "ba-labs-sky-ecosystem-product-updates"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Tango AD Recognition Submission",
+   "created": "2026-09-15T04:07:26.746Z",
+   "blurb": "...Treasury Management Function will be executed, including burning SKY from the Pause Proxy, updating LSSKY- &gt; SKY staking rewards, and shortening the buyback and LSSKY- &gt; USDS reward cycles. The MKR-SKY Delayed U",
+   "id": 26310,
+   "slug": "tango-ad-recognition-submission"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "NeoNode\u2019s Spark Delegate Communications",
+   "created": "2026-09-16T21:36:49.707Z",
+   "blurb": "...ortable with the direction, and I want to be explicit that the three changes together mean less SPK bought and bought later. That is the right trade. Buybacks should be a residual claim on capital that is genuinely sp",
+   "id": 27329,
+   "slug": "neonode-s-spark-delegate-communications"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[August 27, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-08-21T20:10:28.487Z",
+   "blurb": "...iption. The auto-generated CodeRabbit summary in the PR body lists \"Uniswap V4 and Curve pool integrations\" and \"Transferred excess USDS for treasury buyback operations\". Neither is in this payload. Those lines descri",
+   "id": 28181,
+   "slug": "august-27-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "[October 8, 2026] Proposed changes to Osero for upcoming Spell",
+   "created": "2026-09-28T18:05:29.734Z",
+   "blurb": "bona_AD internal notes and agentic findings for the upcoming 2026-10-08 Exec_Spell : ## TL;DR - On a mainnet fork, the six Osero calls produce exactly the stated end state. The Stablewatch candidate payload (`osero-io/os",
+   "id": 28253,
+   "slug": "october-8-2026-proposed-changes-to-osero-for-upcoming-spell"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "PBG Aligned Delegate Communication Platform",
+   "created": "2026-09-14T16:26:38.560Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - September 14, 2026 In Support: A documentation and readiness week, with one new framework written down, one artifact brought forward to meet a dated spell, the recurring foundation gran",
+   "id": 20471,
+   "slug": "pbg-aligned-delegate-communication-platform"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "AegisD AD Recognition Submission",
+   "created": "2026-08-24T17:52:30.462Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - August 24, 2026 Vote: Yes Sources: https://github.com/sky-ecosystem/next-gen-atlas/pull/308 Atlas Edit PR #308 \u00b7 Forum Discussion \u00b7 https://vote.sky.money/polling/Qmas6XKB Poll page We ",
+   "id": 26145,
+   "slug": "aegisd-ad-recognition-submission"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "BONAPUBLICA Aligned Delegate Communication",
+   "created": "2026-08-25T14:03:08.342Z",
+   "blurb": "Summary of Vote for Bonapublica AD - Active Polls Ending on August 27, 2026 https://vote.sky.money/polling/Qmas6XKB Atlas Edit Weekly Cycle Proposal - August 24, 2026 Our PRIMARY PDM Voted YES to POLL ID 1647 The Atlas e",
+   "id": 20451,
+   "slug": "bonapublica-aligned-delegate-communication"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-08-24",
+   "created": "2026-08-22T12:32:48.444Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-08-24 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28189,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-08-24"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-09-28",
+   "created": "2026-09-26T14:26:27.492Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-09-28 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28262,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-09-28"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[September 10, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-08-31T13:07:13.313Z",
+   "blurb": "[September 10, 2026] Proposed Changes to Spark for Upcoming Spell Introduction Goal of this update This update proposes six changes (five new items plus one recurring item), across Ethereum mainnet and Gnosis Chain: [Eth",
+   "id": 28208,
+   "slug": "september-10-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Spark, August 2026: Deposits up 10.9%, Net Revenue down 26.0%, Liquidity Layer spread at 6 bps",
+   "created": "2026-09-02T09:08:21.379Z",
+   "blurb": "Independent review of the Spark family (SparkLend, Liquidity Layer, Savings) for the month of August 2026. Fee, revenue, spread and allocation figures come from Spark's own published financials at data.spark.finance; dep",
+   "id": 28213,
+   "slug": "spark-august-2026-deposits-up-10-9-net-revenue-down-26-0-liquidity-layer-spread-at-6-bps"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "AegisD AD Recognition Submission",
+   "created": "2026-08-24T17:52:30.462Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - August 24, 2026 Vote: Yes Sources: https://github.com/sky-ecosystem/next-gen-atlas/pull/308 Atlas Edit PR #308 \u00b7 Forum Discussion \u00b7 https://vote.sky.money/polling/Qmas6XKB Poll page We ",
+   "id": 26145,
+   "slug": "aegisd-ad-recognition-submission"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Max Staking Yield AD Recognition Submission",
+   "created": "2026-09-14T18:08:56.856Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - September 14, 2026 YES: A week with one genuine change to how staker yield is set, one framework that puts a capital charge behind vault standards, and the recurring Prime foundation gr",
+   "id": 26462,
+   "slug": "max-staking-yield-ad-recognition-submission"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "MSC #12 - Settlement Summary (August 2026)",
+   "created": "2026-09-03T22:07:36.510Z",
+   "blurb": "MSC #12 - Settlement Summary (August 2026) Methodology The Monthly Settlement Cycle (MSC) is a recurring process that synchronizes core financial operations, governance functions, and risk management activities across th",
+   "id": 28217,
+   "slug": "msc-12-settlement-summary-august-2026"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "BONAPUBLICA Aligned Delegate Communication",
+   "created": "2026-08-25T14:03:08.342Z",
+   "blurb": "Summary of Vote for Bonapublica AD - Active Polls Ending on August 27, 2026 https://vote.sky.money/polling/Qmas6XKB Atlas Edit Weekly Cycle Proposal - August 24, 2026 Our PRIMARY PDM Voted YES to POLL ID 1647 The Atlas e",
+   "id": 20451,
+   "slug": "bonapublica-aligned-delegate-communication"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-08-24",
+   "created": "2026-08-22T12:32:48.444Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-08-24 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28189,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-08-24"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Treasury Management Function (TMF) Configurations",
+   "created": "2026-09-04T13:33:13.422Z",
+   "blurb": "Treasury Management Function (TMF) Configuration - September 10 Spell Core Council Directives The Core Council has requested BA Labs to calculate the Treasury Management Function parameter configuration implementing http",
+   "id": 28153,
+   "slug": "treasury-management-function-tmf-configurations"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-09-14",
+   "created": "2026-09-12T19:14:55.977Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-09-14 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28234,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-09-14"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[August 27, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-08-21T20:10:28.487Z",
+   "blurb": "[August 27, 2026] Proposed Changes to Spark for Upcoming Spell Introduction Goal of this update This update proposes six changes (four new items plus two recurring items), all on Ethereum: [Ethereum] SparkLend \u2014 Onboard ",
+   "id": 28181,
+   "slug": "august-27-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[September 24, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-09-14T13:06:08.237Z",
+   "blurb": "[September 24, 2026] Proposed Changes to Spark for Upcoming Spell Introduction Goal of this update This update proposes three changes, all recurring, all on Ethereum mainnet: [Ethereum] Spark Treasury \u2014 Transfer the Octo",
+   "id": 28237,
+   "slug": "september-24-2026-proposed-changes-to-spark-for-upcoming-spell"
+  }
+ ],
+ "jupiter": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Proposal: Make JUP an Economic Membership Token \u2014 Staking Tiers, Fee Discounts, and a 70% Buyback-and-Burn",
+   "created": "2026-09-03T08:57:03.792Z",
+   "blurb": "...roducts without holding JUP. I believe this is one of the biggest opportunities for Jupiter to improve JUP's long-term value accrual. 1. Increase the Buyback Allocation from 50% to 70% I would like to propose increasi",
+   "id": 40223,
+   "slug": "proposal-make-jup-an-economic-membership-token-staking-tiers-fee-discounts-and-a-70-buyback-and-burn"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Make Buybacks actually reduce supply: Burn a Percentage",
+   "created": "2026-08-30T12:23:07.718Z",
+   "blurb": "This topic was automatically closed 30 days after the last reply. New replies are no longer allowed.",
+   "id": 40178,
+   "slug": "make-buybacks-actually-reduce-supply-burn-a-percentage"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "JUP FLYWHEEL, Growth \u2192 Demand \u2192 Scarcity \u2192 JUP",
+   "created": "2026-09-03T08:57:55.564Z",
+   "blurb": "...is becoming much more than a DEX: Jupnet \u2022 GUM \u2022 Lend \u2022 Perps \u2022 JupUSD \u2022 RWAs Now JUP must capture that growth. If Jupiter wins, JUP must win. :fire: BUYBACK + BURN Move progressively from 50% toward 70% of sustainabl",
+   "id": 40225,
+   "slug": "jup-flywheel-growth-demand-scarcity-jup"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Proposal: Make JUP an Economic Membership Token \u2014 Staking Tiers, Fee Discounts, and a 70% Buyback-and-Burn",
+   "created": "2026-09-03T16:28:50.552Z",
+   "blurb": "[Feedback on JUP Tokenomics Proposal] The core direction of using protocol revenue for buyback and burn to offset FDV dilution (2.1x) is solid and aligns with proven models like Uniswap, Aave, and dYdX. However, to maxim",
+   "id": 40223,
+   "slug": "proposal-make-jup-an-economic-membership-token-staking-tiers-fee-discounts-and-a-70-buyback-and-burn"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "JUP FLYWHEEL, Growth \u2192 Demand \u2192 Scarcity \u2192 JUP",
+   "created": "2026-09-03T08:57:55.564Z",
+   "blurb": ":ringed_planet: JUP FLYWHEEL Jupiter is becoming much more than a DEX: Jupnet \u2022 GUM \u2022 Lend \u2022 Perps \u2022 JupUSD \u2022 RWAs Now JUP must capture that growth. If Jupiter wins, JUP must win. :fire: BUYBACK + BURN Move progressively",
+   "id": 40225,
+   "slug": "jup-flywheel-growth-demand-scarcity-jup"
+  }
+ ],
+ "kamino": [],
+ "dydx": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "dYdX Treasury SubDAO Community Update \u2014 H1 2026",
+   "created": "2026-08-16T03:14:19.403Z",
+   "blurb": "...n our https://dydx.forum/t/dydx-treasury-subdao-community-update-year-2025/4965 2025 Review &amp; 2026 Outlook we set out three goals for 2026: expanding buyback activity under the distribution framework introduced by",
+   "id": 5142,
+   "slug": "dydx-treasury-subdao-community-update-h1-2026"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "dYdX Treasury SubDAO Community Update - August 2026",
+   "created": "2026-09-09T16:02:34.862Z",
+   "blurb": "...s/en/blogs/digital-assets/matthew-sigel-node-monthly-commentary-august-2026/ weaker dollar and lower long-term yields , alongside the Treasury's debt-buyback announcement. Institutional Flows Institutional demand stre",
+   "id": 5151,
+   "slug": "dydx-treasury-subdao-community-update-august-2026"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Staking Programme - Ad Hoc Review",
+   "created": "2026-09-11T09:39:19.497Z",
+   "blurb": "...ss/dydx1vx93pwuxf7j5c90tukj084ka26fclcjuqdmw2a Staking address , the https://www.mintscan.io/dydx/address/dydx1zc0jd76vfluauk6pc6rsq5dkwyjz9h8uqgppj6 Buyback address and the https://www.mintscan.io/dydx/address/dydx1l",
+   "id": 5154,
+   "slug": "staking-programme-ad-hoc-review"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "dYdX Treasury SubDAO Community Update \u2014 H1 2026",
+   "created": "2026-08-16T03:14:19.403Z",
+   "blurb": "https://kpk.io/ KPK is pleased to present the dYdX Treasury SubDAO's H1 2026 Community Update, highlighting key developments and initiatives for the last 6 months. In our https://dydx.forum/t/dydx-treasury-subdao-communi",
+   "id": 5142,
+   "slug": "dydx-treasury-subdao-community-update-h1-2026"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[DRC] Reduce Active Set to 21",
+   "created": "2026-09-11T06:32:39.529Z",
+   "blurb": "Summary This proposal seeks to reduce the size of the dYdX Chain's active validator set from 31 to 21. Abstract Following the https://www.mintscan.io/dydx/proposals/360 reduction in the dYdX Chain validator set to 31 in ",
+   "id": 5153,
+   "slug": "drc-reduce-active-set-to-21"
+  }
+ ],
+ "gmx": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[GMLabs-002] GT Airdrop for GMX Stakers and GT Buyback Season 2",
+   "created": "2026-09-21T13:52:07.796Z",
+   "blurb": "...2: daily average of at least 100 staked GMX Allocation: 1 GT per daily-average staked GMX (1:1) Source: the airdropped GT comes from the GMX Vault GT Buyback Season 2 Season 2 of the GT buyback launches shortly: Refer",
+   "id": 5159,
+   "slug": "gmlabs-002-gt-airdrop-for-gmx-stakers-and-gt-buyback-season-2"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[GMLabs-001] Establishing a $10M GMX Market Making Fund",
+   "created": "2026-09-16T13:25:21.734Z",
+   "blurb": "...'s combined Open Interest across all chains as its reference: when GMX circulating market cap is below combined Open Interest, the fund will focus on buybacks; when circulating market cap is at or above combined Open ",
+   "id": 5154,
+   "slug": "gmlabs-001-establishing-a-10m-gmx-market-making-fund"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[GMLabs-001] Establishing a $10M GMX Market Making Fund",
+   "created": "2026-09-24T12:58:18.025Z",
+   "blurb": "Jonezee: Like I said, the treasury is vast. As I said the treasury is almost completely depleted if you include all liabilities. Don't forget we approved \" https://www.tally.xyz/gov/gmx/proposal/1039824025941825145289461",
+   "id": 5154,
+   "slug": "gmlabs-001-establishing-a-10m-gmx-market-making-fund"
+  }
+ ],
+ "aerodrome": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='gov.aerodrome.finance', port=443): Max retries exceede"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='gov.aerodrome.finance', port=443): Max retries exceede"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='gov.aerodrome.finance', port=443): Max retries exceede"
+  }
+ ],
+ "frax": [
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Open discussion on the mechanics of the forthcoming veFRAX revenue share governance vote",
+   "created": "2026-09-01T06:24:15.883Z",
+   "blurb": "We are now in September - what happened with the July vote?",
+   "id": 3852,
+   "slug": "open-discussion-on-the-mechanics-of-the-forthcoming-vefrax-revenue-share-governance-vote"
+  }
+ ],
+ "balancer": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[BIP-928] Orderly Winddown of Balancer and Distribution of the Treasury",
+   "created": "2026-09-14T19:28:31.084Z",
+   "blurb": "...es into BAL, is excluded, other than the BAL that goes to tetuBAL holders. The https://forum.balancer.fi/t/bip-919-bal-tokenomics-revamp/7001 BIP-919 buyback is cancelled. Contributor notice runs to 31 October 2026. P",
+   "id": 7107,
+   "slug": "bip-928-orderly-winddown-of-balancer-and-distribution-of-the-treasury"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[BIP-XXX] KEEP BALANCER ALIVE! Partner with Wise, put treasury stables to work",
+   "created": "2026-09-15T02:17:35.687Z",
+   "blurb": "...s from the first deposit, or until ROI is reached. This means Balancer has received at least as much USDC as it deposited. After that point the extra revenue share stops, but the regular pool rate keeps going. Small t",
+   "id": 7108,
+   "slug": "bip-xxx-keep-balancer-alive-partner-with-wise-put-treasury-stables-to-work"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[BIP-929] Fork and Reincarnate",
+   "created": "2026-09-20T19:44:38.706Z",
+   "blurb": "TL;DR A wind-down of Balancer has been https://forum.balancer.fi/t/bip-xxx-orderly-winddown-of-balancer-and-distribution-of-the-treasury/7107 proposed . Whether it passes or not, we would like to make sure that the spiri",
+   "id": 7112,
+   "slug": "bip-929-fork-and-reincarnate"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[BIP-928] Orderly Winddown of Balancer and Distribution of the Treasury",
+   "created": "2026-09-14T19:28:31.084Z",
+   "blurb": "TL;DR I propose an orderly winddown of Balancer: no new business development, a phased sunset of the protocol with a defined exit window, and the DAO closed to the extent legally and practically possible. The treasury go",
+   "id": 7107,
+   "slug": "bip-928-orderly-winddown-of-balancer-and-distribution-of-the-treasury"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[BIP-XXX] Reallocate excess mainnet buffer liquidity to the Innovation Fund",
+   "created": "2026-08-18T15:11:34.218Z",
+   "blurb": "Summary This proposal seeks to withdraw ~$250k of DAO-owned liquidity currently sitting idle in six Balancer v3 ERC4626 liquidity buffers on Ethereum mainnet, and transfer those proceeds to the Innovation Fund multisig a",
+   "id": 7097,
+   "slug": "bip-xxx-reallocate-excess-mainnet-buffer-liquidity-to-the-innovation-fund"
+  }
+ ],
+ "compound": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='comp.xyz', port=443): Max retries exceeded with url: /"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='comp.xyz', port=443): Max retries exceeded with url: /"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='comp.xyz', port=443): Max retries exceeded with url: /"
+  }
+ ],
+ "spark": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Treasury Management Function (TMF) Configurations",
+   "created": "2026-09-04T13:33:13.422Z",
+   "blurb": "...pital): 6,298,118.40 USDS Step 3 &amp; 4 Allocation Step 3 Capital = 6,298,118.40 USDS USDS Staking Rewards ( 45% of Step 3 Capital): 2,834,153.28 USDS . Buyback distributed to SKY stakers ( 45% of Step 3 Capital): 2,",
+   "id": 28153,
+   "slug": "treasury-management-function-tmf-configurations"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "BONAPUBLICA Aligned Delegate Communication",
+   "created": "2026-09-14T16:56:45.038Z",
+   "blurb": "...am parameters are modified through an Executive Vote. The SKY Accumulation \u258e Percentage may not be set below the share of Step 3 Capital allocated to buyback and burn. \"SKY Accumulation Percentage\" is defined: A.3.5.2",
+   "id": 20451,
+   "slug": "bonapublica-aligned-delegate-communication"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-09-14",
+   "created": "2026-09-12T19:14:55.977Z",
+   "blurb": "...am parameters are modified through an Executive Vote. The SKY Accumulation \u258e Percentage may not be set below the share of Step 3 Capital allocated to buyback and burn. \"SKY Accumulation Percentage\" is defined: A.3.5.2",
+   "id": 28234,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-09-14"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "SAEP-23: Update SubDAO Proxy Management Artifact Section",
+   "created": "2026-09-11T23:46:29.916Z",
+   "blurb": "...82-c97cf4d0f74e A.6.1.1.1.3.4.2.3.2 : calculate the value of the Spark SubDAO Proxy as of 16:00 UTC on the first (1st) day of each month; include the buyback transfer in the next available Spark proxy Spell with a vot",
+   "id": 28235,
+   "slug": "saep-23-update-subdao-proxy-management-artifact-section"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[September 24, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-09-14T13:06:08.237Z",
+   "blurb": "...tober 2026 monthly grants to the Spark Foundation and the Spark Assets Foundation (Exec, recurring). [Ethereum] Spark Treasury \u2014 Transfer USDS to the buyback executor to fund SPK buybacks (Exec, recurring). [Ethereum]",
+   "id": 28237,
+   "slug": "september-24-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Max Staking Yield AD Recognition Submission",
+   "created": "2026-09-10T18:24:13.766Z",
+   "blurb": "...d across the same reward pool, which is a real cost even if a modest one. We support the direction because a sh orter cycle tightens the link between buyback activity and what a staker actually sees, and because the b",
+   "id": 26462,
+   "slug": "max-staking-yield-ad-recognition-submission"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[ChainFundamentals AI Research] A month for Tokenholders - August2026",
+   "created": "2026-09-01T22:07:44.814Z",
+   "blurb": "...nance's implementation of a rules-based mechanism allocating a percentage of monthly Net Revenue directly to Tokenholder value accrual in the form of buybacks and staking rewards. Net Revenue for the MSC-11 settlement",
+   "id": 28212,
+   "slug": "chainfundamentals-ai-research-a-month-for-tokenholders-august2026"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "AegisD AD Recognition Submission",
+   "created": "2026-09-11T13:01:01.570Z",
+   "blurb": "...a an Executive Vote without a prior Governance Poll, with rewardsDuration required to track hop . The practical effect is a further shortening of the buyback and staking-reward cycle, continuing the cadence increase m",
+   "id": 26145,
+   "slug": "aegisd-ad-recognition-submission"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "BA Labs: Sky Ecosystem Product Updates",
+   "created": "2026-09-01T13:55:30.360Z",
+   "blurb": "...enance is a cost of running the ecosystem rather than a use of the surplus, but the income statement was deducting it below the line, next to the SKY buyback. Expenses therefore understated what the protocol actually ",
+   "id": 26631,
+   "slug": "ba-labs-sky-ecosystem-product-updates"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Tango AD Recognition Submission",
+   "created": "2026-09-15T04:07:26.746Z",
+   "blurb": "...Treasury Management Function will be executed, including burning SKY from the Pause Proxy, updating LSSKY- &gt; SKY staking rewards, and shortening the buyback and LSSKY- &gt; USDS reward cycles. The MKR-SKY Delayed U",
+   "id": 26310,
+   "slug": "tango-ad-recognition-submission"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "NeoNode\u2019s Spark Delegate Communications",
+   "created": "2026-09-16T21:36:49.707Z",
+   "blurb": "...ortable with the direction, and I want to be explicit that the three changes together mean less SPK bought and bought later. That is the right trade. Buybacks should be a residual claim on capital that is genuinely sp",
+   "id": 27329,
+   "slug": "neonode-s-spark-delegate-communications"
+  },
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "[August 27, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-08-21T20:10:28.487Z",
+   "blurb": "...iption. The auto-generated CodeRabbit summary in the PR body lists \"Uniswap V4 and Curve pool integrations\" and \"Transferred excess USDS for treasury buyback operations\". Neither is in this payload. Those lines descri",
+   "id": 28181,
+   "slug": "august-27-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "[October 8, 2026] Proposed changes to Osero for upcoming Spell",
+   "created": "2026-09-28T18:05:29.734Z",
+   "blurb": "bona_AD internal notes and agentic findings for the upcoming 2026-10-08 Exec_Spell : ## TL;DR - On a mainnet fork, the six Osero calls produce exactly the stated end state. The Stablewatch candidate payload (`osero-io/os",
+   "id": 28253,
+   "slug": "october-8-2026-proposed-changes-to-osero-for-upcoming-spell"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "PBG Aligned Delegate Communication Platform",
+   "created": "2026-09-14T16:26:38.560Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - September 14, 2026 In Support: A documentation and readiness week, with one new framework written down, one artifact brought forward to meet a dated spell, the recurring foundation gran",
+   "id": 20471,
+   "slug": "pbg-aligned-delegate-communication-platform"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "AegisD AD Recognition Submission",
+   "created": "2026-08-24T17:52:30.462Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - August 24, 2026 Vote: Yes Sources: https://github.com/sky-ecosystem/next-gen-atlas/pull/308 Atlas Edit PR #308 \u00b7 Forum Discussion \u00b7 https://vote.sky.money/polling/Qmas6XKB Poll page We ",
+   "id": 26145,
+   "slug": "aegisd-ad-recognition-submission"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "BONAPUBLICA Aligned Delegate Communication",
+   "created": "2026-08-25T14:03:08.342Z",
+   "blurb": "Summary of Vote for Bonapublica AD - Active Polls Ending on August 27, 2026 https://vote.sky.money/polling/Qmas6XKB Atlas Edit Weekly Cycle Proposal - August 24, 2026 Our PRIMARY PDM Voted YES to POLL ID 1647 The Atlas e",
+   "id": 20451,
+   "slug": "bonapublica-aligned-delegate-communication"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-08-24",
+   "created": "2026-08-22T12:32:48.444Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-08-24 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28189,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-08-24"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-09-28",
+   "created": "2026-09-26T14:26:27.492Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-09-28 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28262,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-09-28"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[September 10, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-08-31T13:07:13.313Z",
+   "blurb": "[September 10, 2026] Proposed Changes to Spark for Upcoming Spell Introduction Goal of this update This update proposes six changes (five new items plus one recurring item), across Ethereum mainnet and Gnosis Chain: [Eth",
+   "id": 28208,
+   "slug": "september-10-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Spark, August 2026: Deposits up 10.9%, Net Revenue down 26.0%, Liquidity Layer spread at 6 bps",
+   "created": "2026-09-02T09:08:21.379Z",
+   "blurb": "Independent review of the Spark family (SparkLend, Liquidity Layer, Savings) for the month of August 2026. Fee, revenue, spread and allocation figures come from Spark's own published financials at data.spark.finance; dep",
+   "id": 28213,
+   "slug": "spark-august-2026-deposits-up-10-9-net-revenue-down-26-0-liquidity-layer-spread-at-6-bps"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "AegisD AD Recognition Submission",
+   "created": "2026-08-24T17:52:30.462Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - August 24, 2026 Vote: Yes Sources: https://github.com/sky-ecosystem/next-gen-atlas/pull/308 Atlas Edit PR #308 \u00b7 Forum Discussion \u00b7 https://vote.sky.money/polling/Qmas6XKB Poll page We ",
+   "id": 26145,
+   "slug": "aegisd-ad-recognition-submission"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Max Staking Yield AD Recognition Submission",
+   "created": "2026-09-14T18:08:56.856Z",
+   "blurb": "Atlas Edit Weekly Cycle Proposal - September 14, 2026 YES: A week with one genuine change to how staker yield is set, one framework that puts a capital charge behind vault standards, and the recurring Prime foundation gr",
+   "id": 26462,
+   "slug": "max-staking-yield-ad-recognition-submission"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "MSC #12 - Settlement Summary (August 2026)",
+   "created": "2026-09-03T22:07:36.510Z",
+   "blurb": "MSC #12 - Settlement Summary (August 2026) Methodology The Monthly Settlement Cycle (MSC) is a recurring process that synchronizes core financial operations, governance functions, and risk management activities across th",
+   "id": 28217,
+   "slug": "msc-12-settlement-summary-august-2026"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "BONAPUBLICA Aligned Delegate Communication",
+   "created": "2026-08-25T14:03:08.342Z",
+   "blurb": "Summary of Vote for Bonapublica AD - Active Polls Ending on August 27, 2026 https://vote.sky.money/polling/Qmas6XKB Atlas Edit Weekly Cycle Proposal - August 24, 2026 Our PRIMARY PDM Voted YES to POLL ID 1647 The Atlas e",
+   "id": 20451,
+   "slug": "bonapublica-aligned-delegate-communication"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-08-24",
+   "created": "2026-08-22T12:32:48.444Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-08-24 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28189,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-08-24"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Treasury Management Function (TMF) Configurations",
+   "created": "2026-09-04T13:33:13.422Z",
+   "blurb": "Treasury Management Function (TMF) Configuration - September 10 Spell Core Council Directives The Core Council has requested BA Labs to calculate the Treasury Management Function parameter configuration implementing http",
+   "id": 28153,
+   "slug": "treasury-management-function-tmf-configurations"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Atlas Edit Weekly Cycle Proposal - Week Of 2026-09-14",
+   "created": "2026-09-12T19:14:55.977Z",
+   "blurb": "bonapublica_AD hereby triggers the Atlas_Edit_Weekly_Proposal for the week of 2026-09-14 in accordance with subdocument A.1.11.2.1.3 - Triggering Requirement of the Sky_Atlas UUID delta accounting and structural verifica",
+   "id": 28234,
+   "slug": "atlas-edit-weekly-cycle-proposal-week-of-2026-09-14"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[August 27, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-08-21T20:10:28.487Z",
+   "blurb": "[August 27, 2026] Proposed Changes to Spark for Upcoming Spell Introduction Goal of this update This update proposes six changes (four new items plus two recurring items), all on Ethereum: [Ethereum] SparkLend \u2014 Onboard ",
+   "id": 28181,
+   "slug": "august-27-2026-proposed-changes-to-spark-for-upcoming-spell"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "[September 24, 2026] Proposed Changes to Spark for Upcoming Spell",
+   "created": "2026-09-14T13:06:08.237Z",
+   "blurb": "[September 24, 2026] Proposed Changes to Spark for Upcoming Spell Introduction Goal of this update This update proposes three changes, all recurring, all on Ethereum mainnet: [Ethereum] Spark Treasury \u2014 Transfer the Octo",
+   "id": 28237,
+   "slug": "september-24-2026-proposed-changes-to-spark-for-upcoming-spell"
+  }
+ ],
+ "instadapp": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.instadapp.io', port=443): Max retries exceeded w"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.instadapp.io', port=443): Max retries exceeded w"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.instadapp.io', port=443): Max retries exceeded w"
+  }
+ ],
+ "euler": [
+  {
+   "q": "buyback after:2026-08-15",
+   "title": "Euler in August 2026: Monad ended the month larger than Ethereum, deposits fell 2.7% at August 1 prices, and the protocol accrued $51.7K on $2.0M of interest",
+   "created": "2026-09-08T14:26:06.801Z",
+   "blurb": "...nth since June. The $51.7K is what accrued, not what reached the protocol, and a further $107.7K sits accrued and unconverted across four vaults. The buyback is paused by policy, not stalled. The last EUL purchase on ",
+   "id": 1869,
+   "slug": "euler-in-august-2026-monad-ended-the-month-larger-than-ethereum-deposits-fell-2-7-at-august-1-prices-and-the-protocol-accrued-51-7k-on-2-0m-of-interest"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "title": "Euler in August 2026: Monad ended the month larger than Ethereum, deposits fell 2.7% at August 1 prices, and the protocol accrued $51.7K on $2.0M of interest",
+   "created": "2026-09-08T14:26:06.801Z",
+   "blurb": "Independent Analysis of Euler V2 for the month of August. Deposits and loans come from DefiLlama's public API; token quantities from the vault contracts on Ethereum and Monad; fees and revenue rebuilt from Euler's own co",
+   "id": 1869,
+   "slug": "euler-in-august-2026-monad-ended-the-month-larger-than-ethereum-deposits-fell-2-7-at-august-1-prices-and-the-protocol-accrued-51-7k-on-2-0m-of-interest"
+  }
+ ],
+ "resupply": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.resupply.fi', port=443): Max retries exceeded wi"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.resupply.fi', port=443): Max retries exceeded wi"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.resupply.fi', port=443): Max retries exceeded wi"
+  }
+ ],
+ "usual": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='gov.usual.money', port=443): Max retries exceeded with"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='gov.usual.money', port=443): Max retries exceeded with"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='gov.usual.money', port=443): Max retries exceeded with"
+  }
+ ],
+ "ondo": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.ondo.finance', port=443): Max retries exceeded w"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.ondo.finance', port=443): Max retries exceeded w"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.ondo.finance', port=443): Max retries exceeded w"
+  }
+ ],
+ "drift": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.drift.trade', port=443): Max retries exceeded wi"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.drift.trade', port=443): Max retries exceeded wi"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.drift.trade', port=443): Max retries exceeded wi"
+  }
+ ],
+ "zora": [
+  {
+   "q": "buyback after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.zora.co', port=443): Max retries exceeded with u"
+  },
+  {
+   "q": "fee switch after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.zora.co', port=443): Max retries exceeded with u"
+  },
+  {
+   "q": "revenue share after:2026-08-15",
+   "exc": "HTTPSConnectionPool(host='forum.zora.co', port=443): Max retries exceeded with u"
+  }
+ ]
+}

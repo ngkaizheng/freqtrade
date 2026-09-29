@@ -1,0 +1,13 @@
+binance_levmargin_table	https://www.binance.com/en/futures/trading-rules/perpetual/leverage-margin
+binance_crossmargin_detail	https://www.binance.com/en/support/faq/detail/360033525211
+binance_crossmargin_usdm	https://www.binance.com/en/support/faq/introduction-to-binance-futures-cross-margin-360033525211
+binance_markprice_index2	https://www.binance.com/en/support/faq/detail/360033525071
+binance_isolated_intro	https://www.binance.com/en/support/faq/introduction-to-binance-futures-isolated-margin-360033525231
+ghdocs_liqprice	https://binance-docs.github.io/apidocs/futures/en/#liquidation-price
+ghdocs_fundinginfo	https://binance-docs.github.io/apidocs/futures/en/#get-notional-and-leverage-brackets
+binance_usdm_account	https://www.binance.com/en/support/faq/binance-futures-account-and-margin-system-360033525251
+binance_funding_fee	https://www.binance.com/en/support/faq/funding-fee-for-perpetual-futures-contracts-360033525031
+binance_staking_usdt	https://www.binance.com/en/support/faq/simple-earn-flexible-product-guide-360033525211
+binance_perp_liq	https://www.binance.com/en/support/faq/forced-liquidation-of-futures-accounts-360033525231
+binance_withdraw_restriction	https://www.binance.com/en/support/faq/why-does-my-account-have-a-withdrawal-restriction-360034784492
+binance_mark_index_rule	https://www.binance.com/en/support/faq/mark-price-and-index-price-aggregation-rules-360033525071

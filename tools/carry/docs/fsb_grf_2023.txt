@@ -1,0 +1,672 @@
+
+
+=== PAGE 1 ===
+ 
+ 
+ 
+ 
+ 
+FSB Global Regulatory Framework for 
+Crypto-Asset Activities 
+Umbrella public note to accompany final framework  
+  
+17 July 2023 
+ 
+
+=== PAGE 2 ===
+ 
+ 
+ 
+The Financial Stability Board (FSB) coordinate s at the international level the work of national 
+financial authorities and international standard -setting bodies in order to develop and promote 
+the implementation of effective regulatory, supervisory and other financial sector policies. Its 
+mandate is set out in the FSB Charter, which governs the policymaking and related activities of 
+the FSB. These activities, including any decisions reached in their context, shall not be binding 
+or give rise to any legal rights or obligations. 
+ 
+Contact the Financial Stability Board 
+Sign up for e-mail alerts:  www.fsb.org/emailalert 
+Follow the FSB on Twitter:  @FinStbBoard 
+E-mail the FSB at:  fsb@fsb.org 
+Copyright © 2023 Financial Stability Board. Please refer to the terms and conditions
+
+=== PAGE 3 ===
+ 
+ 
+iii 
+ 
+Table of Contents 
+Overview ................................ ................................ ................................ ...............................  1 
+1. Background ................................ ................................ ................................ ..................... 2 
+2. The FSB’s approach to establishing a comprehensive regulatory framework .................. 3 
+3. Recent events and implications for the regulation and supervision of crypto -asset 
+activities and stablecoins ................................ ................................ ................................  5 
+4. Next steps ................................ ................................ ................................ ....................... 6 
+5. Annex: FSB-SSB shared workplan ................................ ................................ ................. 8 
+ 
+ 
+ 
+  
+
+=== PAGE 4 ===
+ 
+iv 
+ 
+
+=== PAGE 5 ===
+ 
+ 
+1 
+ 
+Overview 
+The FSB is finalising its global regulatory framework for crypto -asset activities to promote the 
+comprehensiveness and international consistency of regulatory and supervisory approaches. It 
+consists of two distinct sets of recommendations: 
+(i) High-level recommendations for the regulation, supervision and oversight of crypto-
+asset activities and markets (CA recommendations); 
+(ii) Revised high-level recommendations for the regulation, supervision, and oversight of 
+“global stablecoin” arrangements (GSC recommendations). 
+The framework is based on the principle of “same activity, same risk, same regulation ” and 
+provides a strong basi s for ensuring that crypto -asset activities and so -called stablecoins are 
+subject to consistent and comprehensive regulation, commensurate to the risks they pose, while 
+supporting responsible innovations potentially brought by the technological change.  The 
+recommendations focus on addressing risks to financial stability, and they do not 
+comprehensively cover all specific risk categories related to crypto -asset activities .1 It takes 
+account of lessons from recent events in crypto-asset markets. Central Bank Digital Currencies 
+(CBDCs), envisaged as digitalised central bank liabilities, are not subject to these 
+recommendations.  
+The events of the past year  have highlighted the intrinsic volatility and structural vulnerabilities 
+of crypto-assets and related players. They have also illustrated that the failure of a key service 
+provider in the crypto -asset ecosystem can quickly transmit risks to other parts of th at 
+ecosystem. As r ecent events have illustrated,  if linkages to traditional finance  were to grow 
+further, spillovers from crypto-asset markets into the broader financial system could increase.  
+The G20 has asked the FSB to coordinate the delivery of an effective regulatory, supervisory 
+and oversight framework for crypto -assets2, including finalising the FSB’s high -level 
+recommendations for the supervision and regulation of crypto-asset activities, and of so-called 
+global stablecoins (GSCs), by July 2023. In addition, these r ecommendations, constituting a 
+regulatory and supervisory framework for crypto-assets and stablecoins, will provide input to a 
+joint paper with the International Monetary Fund (IMF) to be delivered to the G20 in September 
+2023, which will support a coordinated and comprehensive policy approach to crypto-assets by 
+synthesising the policy findings from IMF work on macroeconomic and monetary issues and 
+FSB work on supervisory and regulatory issues. 
+The FSB and the sectoral standard -setting bodies (SSBs) have d eveloped a shared workplan 
+for 2023 and beyond, through which they will continue to coordinate work under their respective 
+mandates to promote the development of a comprehensive and coherent global regulatory 
+framework commensurate to the risks crypto-asset markets activities may pose to jurisdictions 
+ 
+1  Other risks include AML/CFT; data privacy; cyber security; consumer and investor protection; market integrity; competition policy; 
+taxation; monetary policy; monetary sovereignty and other macroeconomic concerns. 
+2  Communiqué G20 Finance Ministers and Central Bank Governors Meeting, 17-18 February, Jakarta, Indonesia. 
+
+=== PAGE 6 ===
+ 
+2 
+worldwide, including through the provision of more granular guidance by SSBs, monitoring and 
+public reporting. 
+1. Background 
+Crypto-asset activities are global in nature, and these various activities transcend sectoral lines 
+that divide traditional financial activities. The FSB, with its core mandate to coordinate the 
+development of regulatory, supervisory, and other financial sector policies , was tasked by the 
+G20 to promote cooperation among jurisdictional finan cial authorities and SSBs to ensure that 
+crypto-asset activities are subject to robust regulation and supervision commensurate to the 
+financial stability risks that they pose, while supporting responsible innovation.3  
+In October 2022, the FSB published a proposed version of this framework, in the form of two 
+separate sets of recommendations, for a public consultation that ran until 15 December 2022. A 
+summary of the consultation responses, together with the individual r esponses, has been 
+published separately. The FSB has carefully considered the responses, and held an outreach 
+meeting in February 2023 to further discuss the responses from different viewpoints4. In light of 
+that consideration and a review of recent event s in crypto -asset markets, the FSB is now 
+publishing the final versions of the recommendations.  
+This document (i) describes how the two distinct sets of recommendations build a framework for 
+the regulation, supervision and oversight of global stablecoins arrangements and other crypto-
+asset activities, that also addresses lessons from the events in 2022 and early 2023 in crypto -
+asset markets; and (ii) sets out next steps.  
+The FSB has been working closely with the Basel Committee on Banking Supervision (BCBS), 
+Bank for International Settlements’ Committee on Payments and Market Infrastructures (CPMI), 
+International Organization of Securities Commissions (IOSCO), Financial Action Task Force 
+(FATF), IMF, World Bank , and  Organization for Economic Cooperation an d Development 
+(OECD) to ensure that the work underway regarding the monitoring and regulation of crypto -
+asset activities and markets is coordinated, mutually supportive, and complementary.  
+The FSB high-level recommendations take a broad approach to global stablecoins. International 
+standards designed for specific sectors focus on distinct functions within the remit of the relevant 
+standard setting bodies  (SSBs). Where international sectoral standards apply to a GSC for a 
+particular economic function, those standards will address risks specific to the economic function 
+and, as such, authorities should implement those international standards. 
+To provide a holistic view of the crypto -asset regulatory and supervisory policy initiatives, the 
+FSB and SSBs have developed a shared workplan that brings together their completed, ongoing, 
+ 
+3  Communiqué G20 Finance Ministers and Central Bank Governors Meeting: “We encourage the FSB, in close coordination with 
+other standard-setting bodies, to accelerate and deepen its work to monitor and share information on regulatory and supervisory 
+approaches to unbacked cryptoassets, stablecoins, decentralized finance, and other forms of crypto-assets and to address any 
+gaps and arbitrage, including by recommending coordinated and timely policy actions to preserve global financial stability, thus 
+creating the necessary conditions for safe innovation.” G20, 17-18 February 2022, Jakarta, Indonesia. 
+4  Comments on the consistency between both sets of recommendations have been addressed. In several cases difference s in 
+wording between the two sets of recommendations exist to account for differences between stablecoins and crypto-assets. 
+
+=== PAGE 7 ===
+ 
+3 
+and planned work. The SSBs are taking forward work, either individually or jointly , to help 
+regulators tackle risks arising from crypto -assets and GSCs within their mandates and avoid  
+over- and under-laps in the regulation of the sector. The SSBs’ work is critical in in taking forward 
+more detailed sectoral standard setting, where needed, and exploring issues unique to each 
+SSB’s mandate that may necessitate additional analytical work or policy measures in due 
+course. A table reflecting a preliminary round of inputs by the FSB and SSBs is included in the 
+Annex to this document.  
+2. The FSB’s approach to establishing a comprehensive 
+regulatory framework 
+Since the publication of the FSB consultative reports, jurisdictional authorities have continued to 
+work to strengthen the regulation and supervision of crypto-asset activities. Several jurisdictions 
+have made progress in developing regulatory frameworks for crypto-assets and stablecoins and 
+related activities. In some other jurisdictions, authorities continue to apply and enforce existing 
+applicable requirements, laws and regulations on crypto-asset market participants that had been 
+conducting activities in non-compliance with these existing requirements, laws and regulations. 
+The development of regulations and implementation of requirements, and application and 
+enforcement of existing requirements are consistent with the FSB’s framework and demonstrate 
+that crypto -asset activities do not oper ate in a regulation -free space. C rypto-asset service 
+providers must not commence operations in any jurisdiction unless any such service provider 
+meets all applicable regulatory requirements. 
+Taking into account the responses to the public consultation, the  final recommendations 
+continue to build on the principles that informed the consultative framework, while integrating 
+key aspects drawing on the experiences of the implementation of international standards by 
+jurisdictional authorities. These principles are: 
+■ “Same activity, same risk, same regulation” 
+The FSB recommendations aim at ensuring that regulatory frameworks are applied to 
+global stablecoin and crypto -asset activities commensurate to the risks that they may 
+pose to financial stability. Regulatory frameworks should also ensure that any crypto -
+asset activities seeking to perform an equivalent economic function to one in the 
+traditional financial system are subject to the same or equivalent regulation irrespective 
+of the way crypto -asset activities are conducted or the way these activities are 
+marketed. 
+■ High-level and flexible 
+The FSB recommendations are high -level and allow for sufficient flexibility for 
+jurisdictional authorities to implement them by applying relevant current regulations or 
+developing new domestic regulatory frameworks, and to adapt to a currently rapidly 
+evolving market. This approach also leaves adequate room for SSBs to develop 
+granular standards that address sectoral issues within their respective mandates.  
+
+=== PAGE 8 ===
+ 
+4 
+■ Technology neutral 
+The FSB recommendations focus on addressing financial stability risks associated with 
+global stablecoin and crypto-asset activities and are designed to be applicable across 
+the different technologies that may be employed . Crypto-asset activities  must be 
+regulated based on their economic functions and the risks they pose, irrespective of the 
+technological means used. 
+While the CA recommendations apply to any type of crypto-asset activity, including stablecoins, 
+those stablecoins that could be widely used as a means of payment and/or store of value across 
+multiple jurisdictions – GSCs – could pose particular risks to financial stability. Therefore, 
+separate and complementary recommendations for crypto-asset activities that meet the 
+definition of a GSC have been published to reflect their particular risks and heightened regulatory 
+and supervisory requirements. The table below clarifies which regulatory principle is covered in 
+each of the two sets of recommendations. In response to the public consultation, the language 
+in each set of recommendations has been made more consistent with the other. 
+Table 1: Coverage of the CA and GSC Recommendations 
+Regulatory principle Coverage in GSC 
+recommendations 
+Coverage in CA 
+recommendations 
+Regulatory powers GSC Rec 1 CA Rec 1 
+Comprehensive oversight GSC Rec 2 CA Rec 2 
+Cross-border cooperation  GSC Rec 3 with an Annex CA Rec 3 
+Governance GSC Rec 4 CA Rec 4 
+Risk management GSC Rec 5 CA Rec 5 
+Data management GSC Rec 6 CA Rec 6 
+Recovery and resolution 
+planning 
+GSC Rec 7 CA Rec 5 
+Disclosures GSC Rec 8 with an Annex CA Rec 7 
+Monitoring of 
+interconnections within the 
+crypto-asset ecosystem and 
+with the wider financial 
+system 
+[N/A] CA Rec 8 
+Compliance before operation GSC Rec 10 CA Rec 1 
+Redemption rights and 
+stabilisation mechanisms 
+GSC Rec 9 [N/A] 
+Multiple functions [N/A] CA Rec 9 
+
+=== PAGE 9 ===
+ 
+5 
+3. Recent events and implications for the regulation and 
+supervision of crypto-asset activities and stablecoins  
+The crypto-asset market has experienced significant turmoil since early 2022. In May 2022, a 
+sharp decrease of crypto-asset prices demonstrated that the inherently high volatility of crypto-
+asset markets can lead to sudden market strains and failures of crypto-asset intermediaries. The 
+demise of the TerraUSD/LUNA coins and the de -pegging of a number of so -called stablecoins 
+also highlighted their ineffective stabilisation mechanisms. The crypto-asset market was shaken 
+again in November when FTX, one of the largest crypto -asset trading platforms at that time, 
+went into bankruptcy. The FTX event has revealed a number of vulnerabilities that may arise 
+from the vertical integration of business activities that are not adequately regulated  in all 
+jurisdictions in which they operate, or are in non-compliance with existing regulations, as well as 
+risks arising from non-compliance with existing requirements, including: a lack of transparency 
+of corporate structure, key function holders and financial positions; misappropriation of clients’ 
+funds; reliance on self-issued crypto-assets; and interconnectedness with affiliated entities. More 
+recently in the US, the decline in  crypto-asset prices and activity led to one  bank that 
+offered services to crypto -asset clients to  close and may have contr ibuted to the failure of 
+another bank. Conversely, the failure of a  regional bank that offered deposit services to a 
+stablecoin issuer contributed to a temporary de-pegging of its stablecoin because of uncertainty 
+about the issuer’s access to its deposits. 
+These events demonstrate interlinkages between crypto -asset markets and the traditional 
+financial system. Although spillovers to the traditional financial system have been limited, stress 
+events in crypto-asset markets caused significant losses to investo rs and shook confidence in 
+these markets. Given the speed of developments in this area, interlinkages and possible 
+spillovers between the crypto -asset and traditional financial systems  could markedly increase, 
+reinforcing the need to be forward -looking and the importance of ensuring that the risks posed 
+by crypto -assets to financial stability are addressed by appropriate and comprehensive 
+regulation and supervision.  
+These events have further highlighted that many crypto -asset activities involve economic 
+functions similar to those in traditional finance and should be comprehensively regulated and/or 
+brought into compliance with new or existing rules as appropriate. Most failed market 
+participants, including those behind Terr aUSD/LUNA, Celsius Network, and FT X, engaged in 
+functions similar to those of traditional finance. Those functions, when carried out without 
+appropriate governance structures or in non -compliance with regulatory requirements, created 
+vulnerabilities that have been identified by the FSB. They include liquidity and maturity mismatch, 
+the build-up of leverage, the creation of complex interrelationships between service providers, 
+and the integration of multiple functions under one or more related entities without appropriate 
+governance structures, regulatory oversight, or in non -compliance with applicable regulatory 
+frameworks. In light of these lessons learned, the FSB has strengthened both sets of high-level 
+recommendations in three areas: 
+■ Safeguarding of client assets: Financial service providers that hold or take control of 
+assets from clients must ensure that these assets are effectively segregated from their 
+own assets. Many crypto-asset service providers, however, are observed to extensively 
+commingle proprietary assets with client assets,  often without consent of the clients. 
+This enables these service providers to misuse customer assets and to amplify leverage 
+
+=== PAGE 10 ===
+ 
+6 
+and liquidity transformation by the re -use of the commingled assets. When some of 
+these intermediaries failed, significant losses to clients and investors resulted, and the 
+failure to clarify ownership rights added complexity to insolvency proceedings. The high-
+level recommendations have been strengthened by stating that authorities should 
+require that crypto-asset service providers maintain adequate safeguarding of customer 
+assets and protect ownership rights, including in insolvency. 
+■ Conflicts of interest: Various crypto-asset intermediaries combine multiple functions. 
+In some cases, they operate in ways that do  not comply with exis ting requirements, 
+which typically require  that certain functions be conducted by different entities and 
+subject to specific sectoral standards. Some entities are not transparent about their 
+governance structures and set up complex structures of affiliated  entities that often 
+finance each other, leading to acute conflicts of interest and increasing 
+interconnectedness and the risk of contagion within crypto-asset markets. The FSB has 
+strengthened the high-level recommendations by stating that authorities should have in 
+place requirements to address the risks associated with conflicts of interest. Crypto-
+asset service providers, including their affiliates, that combine multiple functions and 
+activities must be subject to, or should be brought into compliance w ith, appropriate 
+regulation, supervision and oversight, including, as appropriate, legal separation of 
+certain functions. 
+■ Cross-border cooperation : The borderless nature of crypto -assets underlines the 
+importance of strong and consistent jurisdictional reg ulatory, supervisory and 
+enforcement practices. Crypto-asset issuers and service providers may seek to evade 
+regulation and oversight by migrating to places where regulation is lighter. This requires 
+strong measures to address regulatory arbitrage. The FSB ’s high -level 
+recommendations have been strengthened on information sharing, including about the 
+level of compliance of activities spanning multiple jurisdictions, especially those in 
+jurisdictions that have not implemented international standards.  
+4. Next steps 
+The FSB and the IMF will deliver a joint report  to the G20 in September  2023, which will 
+synthesise the policy findings from IMF work on macroeconomic and monetary issues (as set 
+out in its February 2023 note to the G20 on Macrofinancial Implications of Crypto Assets5) and 
+FSB work on supervisory and regulatory issues published today. This will support a coordinated 
+and comprehensive policy approach to crypto-assets by considering macroeconomic and 
+regulatory perspectives, including the full range of risks posed by crypto-assets. 
+As an important part of this approach, the FSB and the SSBs will continue to work on enhancing 
+effectiveness and international  consistency of the regulation, supervision and oversight of 
+crypto-asset and stablecoin activities. While the high-level recommendations apply to so-called 
+decentralised finance and service providers that combine multiple functions, the FSB will also 
+conduct follow-up policy work, as appropriate, on these areas to determine if additional guidance 
+or recommendations are necessary. The FSB will also explore ways to address the cross-border 
+ 
+5  IMF (2023), G20 Note on the Macrofinancial Implications of Crypto Assets, February. 
+
+=== PAGE 11 ===
+ 
+7 
+risks GSCs pose to emerging market and developing economies and consi der ways to 
+strengthen supervisory and regulatory coordination. 
+The SSBs will, within their respective mandates continue to examine how existing standards 
+apply to crypto -assets and stablecoin arrangements, and make revisions, as needed, to their 
+sectoral international standards and guidance or, if necessary, provide additional guidance that 
+supplements existing standards and principles in light of the FSB recommendations. Any 
+additional granular guidance from SSBs will further articulate regulatory expecta tions at the 
+global level, contributing to consistent outcomes under  their respective mandates while 
+mitigating the risk of regulatory arbitrage. 
+As many crypto -asset activities are still operating without being subject to comprehensive 
+regulation, or being undertaken in non-compliance with applicable jurisdictional regulations, it is 
+important that FSB members implement these high -level recommendations and relevant 
+international standards fully and consistently. Jurisdictional authorities may apply and enf orce 
+existing requirements and laws, as well as develop new  or additional regulatory approaches. 
+The FSB will continue to facilitate discussions and information sharing amongst FSB members 
+where such coordination supports an effective collective supervisory response to developments 
+in crypto-asset markets. FSB will also regularly assess the need for further international policy 
+work on crypto-asset activities, such as ways to support jurisdictional implementation.  
+The FSB will, by end -2025, conduct a revie w of the status of the implementation of these two 
+sets of recommendations at the jurisdictional level. Considering that many crypto-asset activities 
+are taking place, licensed or registered in non-FSB member jurisdictions, the FSB will, alongside 
+the SSBs and other international agencies, take steps to promote  and monitor the effective 
+implementation in jurisdictions beyond the FSB’s membership, including engaging  with 
+jurisdictions with material crypto-asset activities to reduce the scope for regulatory arbitrage. As 
+part of this work, the FSB, together with the IMF, the Work Bank, and the SSBs, will  
+■ engage with a wider set of jurisdictions to encourage implementation of the FSB 
+recommendations and international standards,  
+■ take stock of regulatory progress and challenges among non-FSB member jurisdictions 
+through the FSB’s Regional Consultative Groups, and  
+■ monitor and address cross -border issues related to stablecoins and other  crypto-
+assets. 
+
+=== PAGE 12 ===
+ 
+ 
+8 
+ 
+ 
+5. Annex: FSB-SSB shared workplan 
+Initiative 
+(Responsible Body) 
+Objective/Scope Status/Timeline 
+Risks and regulation of crypto-assets and markets 
+Finalisation of FSB high-level 
+recommendations for regulation, 
+supervision and oversight of 
+crypto-assets and markets 
+(FSB) 
+Recommendations to address financial stability risks of 
+crypto-asset markets and activities, including issuers and 
+service providers. They cover regulatory power, cross-
+border cooperation, governance, risk management, data, 
+disclosure, systemic risk and multi-function intermediaries. 
+Publication of finalised high-level recommendations in 
+July 2023 (G20), review of the status of implementation 
+at a jurisdictional level by end-2025. 
+Crypto-Assets and Digital Assets 
+Recommendations 
+(IOSCO) 
+Apply IOSCO Principles and Standards to economically 
+equivalent crypto-assets and activities to address the 
+sizeable and proximate market integrity and investor 
+protection risks in the sector, covering conflicts of interest, 
+client asset protection, market manipulation, operational 
+risk, retail access suitability, and cross-border issues, 
+among others. 
+Together with the IOSCO DeFi Recommendations and 
+Guidance (see below), this will promote greater 
+consistency with respect to how IOSCO members  
+approach the regulation and oversight of crypto-asset 
+activities, given the cross-border nature of the  
+markets, the risks of regulatory arbitrage and the 
+significant risk of harm to which retail investors  
+continue to be exposed. 
+IOSCO Fintech Task Force (FTF) issued a consultation 
+on proposed CDA policy recommendations in May 
+2023, focusing on crypto-asset service providers 
+(CASPs). Following the consultation period, IOSCO will 
+review feedback and finalise policy recommendations to 
+address investor protection and market integrity risks in 
+crypto-asset markets. The CDA policy 
+recommendations will be finalised by end of -2023. 
+
+=== PAGE 13 ===
+ 
+9 
+Initiative 
+(Responsible Body) 
+Objective/Scope Status/Timeline 
+Financial stability risks of 
+decentralised finance 
+(FSB) 
+To assess financial stability implications of DeFi (and 
+associated trading, lending, and borrowing practices, 
+services and platforms, protocols, and market participants) 
+and draw policy implications that SRC could consider. 
+Report published and submitted to G20FMCBG in 
+February. 
+Policy implications of DeFi 
+(FSB) 
+To consider regulatory implications of DeFi and assess 
+whether additional policy work is warranted. 
+Preliminary work underway and is expected to be 
+completed by end-2024. 
+DeFi Recommendations  
+(IOSCO) 
+Updates on the state of the DeFi market and provide 
+recommendations on applying existing IOSCO principles to 
+DeFi by mapping them against key aspects of DeFi 
+activities and protocols, covering emerging issues, risks 
+and considerations. 
+The IOSCO FTF, through its DeFi workstream, will 
+consult on proposed DeFi policy recommendations 
+during Q3 2023. Following the consultation period, 
+IOSCO will review feedback and finalise policy 
+recommendations to address investor protection and 
+market integrity risks in DeFi. The DeFi policy 
+recommendations will be finalised by end-2023. 
+Exploratory work on DeFi in the 
+insurance sector 
+(IAIS) 
+To explore recent developments in the area of 
+Decentralised Insurance, analyse supervisory challenges 
+and identify areas of future work. 
+Following initial analysis during 2021-2022, the IAIS 
+Fintech Forum will continue analysis of developments 
+related to decentralized insurance business models. 
+Non-public note to be finalised in 2023. FSI-IAIS-EIOPA 
+joint webinar in October 2023. 
+Multifunction crypto-asset 
+intermediaries 
+(FSB) 
+To assess financial stability implications of multifunction 
+crypto-asset intermediaries, building on the lessons learnt 
+from recent failures of such intermediaries, and draw policy 
+implications that the FSB could consider. 
+Work underway.  
+Policy implications of multi-function 
+crypto-asset intermediaries 
+(FSB) 
+Consider regulatory implications and assess whether 
+additional policy work is warranted arising from 
+multifunction crypto-asset intermediaries that may give rise 
+to compounded risks, conflict of interests, and opaque 
+transactions with related parties that may not typically be 
+allowed in traditional financial companies 
+Work to begin depending on the outcome of the FSB’s 
+analytic work and will be completed by end- 2024.  
+
+=== PAGE 14 ===
+ 
+10 
+Initiative 
+(Responsible Body) 
+Objective/Scope Status/Timeline 
+Regular monitoring and 
+assessment of vulnerabilities in 
+crypto-asset markets 
+(FSB) 
+To keep track of crypto-asset market developments 
+(including stablecoins and DeFi) and assess their financial 
+stability implications and conduct on-the-spot analysis of 
+major crypto-asset market events. 
+Work underway. 
+Risks and regulation of Stablecoins 
+Finalisation of FSB high-level 
+recommendations for global 
+stablecoins (GSCs) 
+(FSB) 
+The FSB’s recommendations for GSCs seek to promote 
+consistent and effective regulation, supervision and 
+oversight of GSCs across jurisdictions to address the 
+potential financial stability risks posed by GSCs. 
+Publication of finalised high-level recommendations in 
+July 2023 (G20), review of the status of implementation 
+at a jurisdictional level by end-2025. 
+Authorities’ responsibilities for 
+stablecoin arrangements under the 
+Principles for financial market 
+infrastructure (PFMI) 
+(CPMI-IOSCO) 
+To analyse challenges for relevant regulatory, supervisory 
+and oversight authorities in implementing their PFMI 
+Responsibilities for stablecoin arrangements, especially on 
+Responsibility E (cooperation with other authorities) and 
+identify potential approaches to addressing these 
+challenges. 
+As appropriate, the key findings of the report will be 
+shared with the wider international regulatory 
+community 
+Risks associated with multi-
+currency and asset-linked 
+stablecoins 
+(CPMI-IOSCO) 
+To identify issues for multicurrency or asset-linked 
+stablecoins that may require additional clarifications or 
+additions to the July 2022 CPMI-IOSCO guidance on the 
+application of the PFMI to SAs, including notable features 
+of such stablecoin arrangements that might affect their 
+compliance with the PFMI. 
+Publication on issues potentially requiring further 
+clarifications related to multicurrency stablecoins used 
+as a settlement asset is envisaged for H2 2023. The 
+work on the asset-linked stablecoins is in the early 
+stage 
+Cross-border regulatory 
+coordination for GSCs in emerging 
+market and developing economies 
+(EMDEs) 
+(FSB) 
+To explore how to address the unique cross-border 
+financial stability risks posed by GSCs, including risks 
+specific to EMDEs, and consider ways to enhance 
+supervisory and regulatory coordination. 
+Work to begin in late Q3 2023 and continue into 2024.  
+
+=== PAGE 15 ===
+ 
+11 
+Initiative 
+(Responsible Body) 
+Objective/Scope Status/Timeline 
+Banks’ stablecoin exposures and 
+related activities  
+(BCBS) 
+See related BCBS activities in the section on Financial 
+sector exposures to crypto-assets; in particular: criteria to 
+identify stablecoins eligible for “Group 1b” prudential 
+treatment, the composition of stablecoin reserve assets 
+and banks as stablecoin issuers. 
+Ongoing as part of the BCBS 2023-24 work 
+programme. 
+Regular monitoring of 
+developments in stablecoins 
+(CPMI secretariat) 
+To monitor the key trends in the stablecoin market, e.g., 
+market capitalisation, deviations from peg and composition 
+of backing assets. 
+Data being collected on an ongoing basis to support the 
+work of the CPMI, BIS and the FSB. 
+Potential of SAs for cross-border 
+payments as part of Building block 
+18 in the cross-border payments 
+programme 
+(CPMI) 
+To help central banks and regulatory authorities to better 
+understand how SAs, if properly designed and regulated, 
+could contribute to the objective of making cross-border 
+payments faster, cheaper, more transparent and more 
+inclusive. To analyse potential benefits and challenges 
+from cross-border use of SAs, as well as potential 
+implications for central banks’ key functions. 
+The report is envisaged for publication in September 
+2023. 
+Financial sector exposures to crypto-assets   
+Banks’ exposures to crypto-assets 
+(BCBS) 
+Monitor the implementation of BCBS’s prudential treatment 
+of banks' crypto-asset exposures. Review by end-2023 the 
+treatment of permissionless blockchains with additional 
+safeguards and the criteria to identify stablecoins eligible 
+for the "Group 1b" prudential treatment, including the 
+appropriate composition of reserve assets and the 
+effectiveness of statistical tests. 
+Ongoing as part of the BCBS 2023-24 work 
+programme. 
+
+=== PAGE 16 ===
+ 
+12 
+Initiative 
+(Responsible Body) 
+Objective/Scope Status/Timeline 
+Assessment of bank-related 
+developments and activities in 
+crypto-asset markets 
+(BCBS) 
+To assess bank-related developments and activities in 
+crypto-asset markets, - including the role of banks as 
+stablecoin issuers, custodians of crypto-assets and 
+broader potential channels of interconnections with the 
+crypto-asset ecosystem – and develop proposals to 
+address any risks that are not adequately captured. 
+Ongoing as part of the BCBS 2023-24 work 
+programme. 
+Monitoring of insurer-related 
+developments in crypto-asset 
+markets 
+(IAIS) 
+To monitor the extent to which developments in crypto-
+asset markets may impact the insurance sector. 
+The IAIS Fintech Forum and IAIS Macroprudential 
+Supervision Working Group undertook initial monitoring 
+during 2022 – and concluded that the usage of and 
+exposure to crypto-assets in the insurance sector is 
+currently very limited. Further monitoring is planned for 
+2023. 
+Next Fintech Forum roundtable on crypto-assets is 
+planned for H2 2023. 
+Implications of distributed ledger 
+technology (DLT) and DeFi for 
+financial market infrastructures 
+(FMIs) 
+(CPMI-IOSCO) 
+To identify emerging risks associated with the use of DLT 
+by FMIs and interaction between FMIs and Defi. 
+A workshop with industry and academics is envisaged 
+for H2 2023. 
+Other areas of related work 
+Tokenisation  
+(FSB) 
+To take stock of recent developments, including ongoing or 
+planned projects, regarding tokenisation of assets with the 
+aim of identifying potential financial stability implications 
+and exploring policy implications that warrant further 
+consideration by the SCAV, SRC and other relevant 
+bodies. 
+Work is underway, expected completion in 2024. 
+
+=== PAGE 17 ===
+ 
+13 
+Initiative 
+(Responsible Body) 
+Objective/Scope Status/Timeline 
+Future of Payments - Tokenisation 
+(CPMI) 
+Analytical exploration of the characteristics of tokenisation 
+of money and payments, and the benefits, risks and 
+challenges to central banks of a tokenised financial 
+ecosystem 
+The work is at an early stage. Deliverables to be 
+determined.  
+Annual CBDC and crypto-asset 
+survey 
+(CPMI) 
+To monitor the central banks’ involvement in CBDC work 
+as well as their perceptions regarding usage of stablecoins 
+and other crypto-assets in their jurisdictions. 
+6th survey conducted with responses from over 80 
+central banks.  
+Published in July 2023.]  
+ 
+ 
