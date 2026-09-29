@@ -125,7 +125,7 @@ rounds found no cost-surviving retail edge across the mechanisms that were tried
 
 ## 1a. DOCUMENT INDEX — every round's record, mechanically regenerated
 
-**159 documents, 1379 KB, in `docs-myself/`.** This table is produced by `tools/state_index.py`, which reads the documents' own summary lines. It is a **table of contents, not a set of verdicts** — open the file to get the finding. Regenerate with `.venv\Scripts\python.exe tools\state_index.py`.
+**164 documents, 1417 KB, in `docs-myself/`.** This table is produced by `tools/state_index.py`, which reads the documents' own summary lines. It is a **table of contents, not a set of verdicts** — open the file to get the finding. Regenerate with `.venv\Scripts\python.exe tools\state_index.py`.
 
 | date | document | kind | what it says (its own summary line) |
 |---|---|---|---|
@@ -146,6 +146,7 @@ rounds found no cost-surviving retail edge across the mechanisms that were tried
 | 2026-09-30 | [`PREREG_SIGNAL_STRENGTH_2026-09-30.md`](PREREG_SIGNAL_STRENGTH_2026-09-30.md) | prereg | 预注册 Q-1：信号强度是不是一个排序维度？——测「同样这些信号，强的更强吗」 |
 | 2026-09-30 | [`PREREG_SCALE_2026-09-30.md`](PREREG_SCALE_2026-09-30.md) | prereg | Motivation: every axis is closed, the apparatus is verified, capacity does not bind. The |
 | 2026-09-30 | [`PREREG_RISK_FRONTIER_2026-09-30.md`](PREREG_RISK_FRONTIER_2026-09-30.md) | prereg | 预注册 D-1：部署风险前沿——每笔该冒多少风险？用修正后的工具，在部署配置上 |
+| 2026-09-30 | [`PREREG_OI_2026-09-30.md`](PREREG_OI_2026-09-30.md) | prereg | > 通过线：至少一个特征在 12h 上 \|IC\| ≥ 0.02 且 NW-t ≥ 2.5。 |
 | 2026-09-30 | [`PREREG_LEVERAGE_2026-09-30.md`](PREREG_LEVERAGE_2026-09-30.md) | prereg | 失败条件：L3 在所有候选杠杆上都不通过 → 杠杆线关闭， |
 | 2026-09-30 | [`PREREG_HORIZON_2026-09-30.md`](PREREG_HORIZON_2026-09-30.md) | prereg | §5b forbids "re-running a closed line with different parameters, timeframes or symbols |
 | 2026-09-30 | [`PREREG_FORWARD_PATH_2026-09-30.md`](PREREG_FORWARD_PATH_2026-09-30.md) | prereg | > Positive control. A check that has never been shown to fail is decoration, so F1 is |
@@ -154,6 +155,8 @@ rounds found no cost-surviving retail edge across the mechanisms that were tried
 | 2026-09-30 | [`PREREG_EFFECTIVE_RISK_2026-09-30.md`](PREREG_EFFECTIVE_RISK_2026-09-30.md) | prereg | 预注册 V-1：risk_per_trade 到底有没有真的等于风险？以及交易数为什么随风险下降 |
 | 2026-09-30 | [`PREREG_DIVERSITY_2026-09-30.md`](PREREG_DIVERSITY_2026-09-30.md) | prereg | verdict is claimed from it; |
 | 2026-09-30 | [`PREREG_CAPACITY_2026-09-30.md`](PREREG_CAPACITY_2026-09-30.md) | prereg | Every other axis is closed by measurement: universe width (§20b, N≈25–200 positive), |
+| 2026-09-30 | [`PREREG_BULL_STOPHOLE_2026-09-30.md`](PREREG_BULL_STOPHOLE_2026-09-30.md) | prereg | PREREG — B-5: THE LONG BOOK'S STOP CAN FAIL TO BE SET AT ALL |
+| 2026-09-30 | [`PREREG_BULL_FLOOR_2026-09-30.md`](PREREG_BULL_FLOOR_2026-09-30.md) | prereg | PREREG — B-6: THE LONG BOOK IGNORES ITS OWN atr_stop. THE FLOOR IS 1.5, NOT 4.0 |
 | 2026-09-30 | [`PREREG_BULL_2026-09-30.md`](PREREG_BULL_2026-09-30.md) | prereg | 1. The objective, and the two things that are already closed |
 | 2026-09-30 | [`PREREG_BULL4_2026-09-30.md`](PREREG_BULL4_2026-09-30.md) | prereg | C4 (chandelier 6.0) is the first arm in this project to pass the second half of the |
 | 2026-09-30 | [`PREREG_BULL3_2026-09-30.md`](PREREG_BULL3_2026-09-30.md) | prereg | PREREG — B-3: THE RISK CURVE AND THE CHANDELIER CURVE FOR A1 (both published whole) |
@@ -163,6 +166,7 @@ rounds found no cost-surviving retail edge across the mechanisms that were tried
 | 2026-09-30 | [`LADDER_REPRICED_2026-09-30.md`](LADDER_REPRICED_2026-09-30.md) | other | 日期：2026-09-30 · 工具：tools/perp_short/cost_reprice.py（每个阶梯点都先通过 0.00 pp 的复现验证） |
 | 2026-09-30 | [`INTRADAY_GATE0_2026-09-30.md`](INTRADAY_GATE0_2026-09-30.md) | gate0 | 因子结构是用收盘到收盘、4h 及以上测的，因此不关闭盘中线路。 |
 | 2026-09-30 | [`HORIZON_AXIS_RESULT_2026-09-30.md`](HORIZON_AXIS_RESULT_2026-09-30.md) | result | 113.74 % — the deployed book's number, to the printed precision. H0 PASSES, so the |
+| 2026-09-30 | [`GAP_ANALYSIS_2026-09-30.md`](GAP_ANALYSIS_2026-09-30.md) | other | 日期: 2026-09-30 · 依据: CLOSED_FAMILIES.json（21 条已关闭家族）+ 本轮实测的数据清单 |
 | 2026-09-30 | [`FORWARD_PATH_RESULT_2026-09-30.md`](FORWARD_PATH_RESULT_2026-09-30.md) | result | Every research axis is closed. The delivered book's remaining weakness is not an axis — it is |
 | 2026-09-30 | [`FIVE_MIN_RESULT_2026-09-30.md`](FIVE_MIN_RESULT_2026-09-30.md) | result | in the closed-list machinery. |
 | 2026-09-30 | [`FINAL_STATUS_2026-09-30.md`](FINAL_STATUS_2026-09-30.md) | other | 最终状态（2026-09-30）——找到了什么，它是什么，它不是什么，还剩什么 |
@@ -173,6 +177,7 @@ rounds found no cost-surviving retail edge across the mechanisms that were tried
 | 2026-09-30 | [`DEPLOYED_BOOK_RESULT_2026-09-30.md`](DEPLOYED_BOOK_RESULT_2026-09-30.md) | result | 部署版账本的权威数字，以及一个必须更正的旧工具 |
 | 2026-09-30 | [`DELIVERABLE_SPEC_2026-09-30.md`](DELIVERABLE_SPEC_2026-09-30.md) | other | 交付物规格：4h 永续空头账本（可复现的完整记录） |
 | 2026-09-30 | [`CAPACITY_RESULT_2026-09-30.md`](CAPACITY_RESULT_2026-09-30.md) | result | coarser than 5 bps. On this data it returns BLOCKED, exit 3, and says so in those words. |
+| 2026-09-30 | [`BULL_DELIVERABLE_SPEC_2026-09-30.md`](BULL_DELIVERABLE_SPEC_2026-09-30.md) | other | 这一节是本文最重要的部分。多头账本在 2026-09-30 发布时带着一个已发布结论、一份配置、零道闸门。 |
 | 2026-09-30 | [`BULL_BOOK_RESULT_2026-09-30.md`](BULL_BOOK_RESULT_2026-09-30.md) | result | 2. What was already closed before I wrote anything |
 | 2026-09-30 | [`BULL_BOOK_B4_RESULT_2026-09-30.md`](BULL_BOOK_B4_RESULT_2026-09-30.md) | result | the highest rung below 200 % — because otherwise the rule could not be failed. |
 | 2026-09-30 | [`BULL_BOOK_B3_RESULT_2026-09-30.md`](BULL_BOOK_B3_RESULT_2026-09-30.md) | result | 1. Both self-consistency checks passed before any arm was read |
@@ -289,7 +294,7 @@ rounds found no cost-surviving retail edge across the mechanisms that were tried
 | (undated) | [`E11_RESULT.md`](E11_RESULT.md) | result | E#11 — the actual Moskowitz-Ooi-Pedersen construction: it protects the bear |
 | (undated) | [`E10_RESULT.md`](E10_RESULT.md) | result | E#10 — signal exits help the RETURN and do nothing for the DRAWDOWN |
 
-**By date:** 2026-09-30 50, 2026-09-29 15, 2026-09-28 35, 2026-09-27 19, 2026-09-26 5, (undated) 35
+**By date:** 2026-09-30 55, 2026-09-29 15, 2026-09-28 35, 2026-09-27 19, 2026-09-26 5, (undated) 35
 
 
 ## 2. Funding / basis carry
@@ -505,6 +510,7 @@ because nothing in the output said so.
 
 | date | change |
 |---|---|
+| 2026-09-30 | **THE LONG BOOK HAD ZERO GATES, AND ITS PUBLISHED NUMBER WAS A DEFECT. THE FLOOR WAS THE CLASS DEFAULT 1.5, NOT THE CONFIGURED 4.0 — SO IT WAS SIZED FOR 4xATR AND STOPPED AT 1.5xATR, AND §49's ENTIRE CHANDELIER CURVE WAS MEASURED AT 37.5 % OF THE RISK ITS CONFIG SPECIFIES.** §51, `BULL_DELIVERABLE_SPEC_2026-09-30.md`, preregs `PREREG_BULL_FLOOR_2026-09-30.md` + `PREREG_BULL_STOPHOLE_2026-09-30.md`. **(1) `PerpShort4hStop` reads the config key `atr_stop` into a property called `stop_mult`; `atr_stop` stays frozen at 1.5. The short branch of `PerpLong4h._anchor_stop_price` delegates to `super()` and gets 4.0 — the long branch used `self.atr_stop` and got 1.5. Sizing is not overridden and uses `stop_mult` = 4.0. EVIDENCE: 797 of 835 floor-bound stops sit at exactly 1.5 and ZERO at 4.0; the stake recomputes to 6.6 % median error assuming 4.0 and 159 % assuming 1.5. Realised risk = 1.5/4.0 = 37.5 % of the intended 0.5 %.** **(2) THE PUBLISHED NUMBER IS REPLACED: +95.43 % → +40.66 % engine, +70.6 % → +26.2 % at measured COVID 34.9 bps, Sharpe 0.96 → 0.54, maxDD 37.8 % → 49.6 %, 2025 −9.5 % → −18.4 %, 1,000 → 741 trades. Re-pricer reproduced the engine to 0.00 pp first.** **(3) ⚠ TWO PRE-REGISTERED PREDICTIONS REFUTED, IN THE SAME DIRECTION: the trade count was predicted to RISE and FELL 26 % (1,000 → 741), the return was predicted to RISE and FELL. MECHANISM: with no time stop a wider stop means longer holds, the 24 slots stay busy longer, fewer trades fit. Drawdown rose as predicted (27.6 → 43.3 %).** **(4) ⚠⚠ THE BUG WAS MAKING THE LEDGER LOOK BETTER AND IT IS NOT BEING DELIVERED AS A CONFIGURATION: at MATCHED risk 0.1875 %/trade the 1.5xATR floor returns +95.43 % / PF 1.37 / 27.61 % DD against 4.0xATR's +42.09 % / 1.31 / 23.70 %. The defect more than doubled the backtested return at equal risk. 1.5 is still not shipped because it was chosen after seeing the result, because the short book measured the stop-multiple frontier on this same panel and CHOSE 4.0, and because a wanted 1.5 belongs in the config explicitly and re-gated. Trap 27: a bug that improves the result is the one most likely to be kept.** **(5) THREE MORE DEFECTS: the delivered long config was MISSING `initial_state` (the documented silent failure — heartbeats every 60 s in STOPPED, no number, no error); `exportfilename` is a DEAD KEY for backtesting in this freqtrade version, so the backtest command published in `DELIVERABLE_SPEC` §4 passed no `--export` and produced NO ARCHIVE at all (this affects the short book's command too — corrected in place) and `--backtest-directory` at a non-existent path silently writes a FILE named after the path; and `custom_stoploss`'s `return None` can leave a trade with NO stop installed (1/993 before the fix, 1/734 after) — the clamp written for it was MEASURED TO CHANGE NOTHING and is not claimed to fix anything, and FARTCOIN's remaining case is a different cause (its 4xATR floor is 31.2 %, WIDER than the −30 % backstop, so the backstop binds — reported as a warning because it is TIGHTER than intended).** **(6) A NEW GATE THE SHORT BOOK DOES NOT NEED: `get_analyzed_dataframe` slices to the last 1000 bars in backtest and does NOT slice in dry-run/live, so the chandelier's running peak could in principle differ between backtest and live. `bull_causality.py` asserts the stop is bit-identical under all three framings and re-derives the path from candles truncated at bar k. ALL PASS ON 8 SYMBOLS — NO LOOKAHEAD, a clean negative obtained by testing. Max trade duration 422 bars, inside the window.** **(7) ⚠ TWO OF THE SHORT BOOK'S OWN GATES WERE ALREADY RED WHEN THIS ROUND BEGAN — `state_gate` (5 documents unindexed, 2 not written by this round) and `verify_collector` (the short collector was not running while the documents said it was). Neither was caused by this round and both would have shipped. Both now addressed.** **(8) The short book's three frozen files are BYTE-IDENTICAL to git HEAD. New traps 26 (a property named for what it configures is not the attribute it configures), 27 (a bug that improves the result), 28 (stop, sizing and document read the same value from three different places with no assertion binding them).** |
 | 2026-09-30 | **THE COMPLEMENT CLAIM IS NOW MEASURED, NOT ASSERTED: DAILY CORRELATION +0.007, AND THE COMBINED BOOK BEATS BOTH SINGLES ON SHARPE WITH A SMALLER DRAWDOWN.** `DIVERSITY_RESULT_2026-09-30.md`, §50, prereg `PREREG_DIVERSITY_2026-09-30.md`. **(1) §49 measured the two books SEPARATELY and called them a complement; a table of two annual numbers is NOT a measurement of complementarity, and that was the one claim in this objective with no evidence behind it. THIS ROUND IS THE EVIDENCE.** **(2) D1: daily Pearson r = +0.007 over 1,247 common daily returns (2023-04-03 → 2026-08-31), monthly r = −0.124, monthly SIGN AGREEMENT 55.0 % — a coin flip. THE TWO BOOKS' DAILY RETURNS ARE UNCORRELATED. §15c measured that the perp cross-section is one factor at every horizon; this is what it means for a portfolio: a short timing book and a long timing book on the same 40 names are not two reads of the same bet.** **(3) D2/D3, the deciding comparison, every Sharpe recomputed from the SAME daily series so the three are on one basis: short alone +113.9 % / Sharpe 1.03 / maxDD −18.2 % · long alone +95.4 % / 0.88 / −27.6 % · COMBINED 50/50 +104.7 % / 1.29 / −14.9 %. THE COMBINED SHARPE EXCEEDS BOTH SINGLES AND THE COMBINED DRAWDOWN IS SMALLER THAN EITHER — the complement claim supported per unit of risk, and it is the statistic the preregistration named precisely because it could have come out 'between the two' and forced a retraction.** **(4) By year: 2023 short +11.8 / long +32.3 / combined +22.0 · 2024 +26.7 / +42.9 / +35.5 · 2025 +35.5 / −5.1 / +12.3 · 2026 +12.9 / +9.2 / +11.1. THE COMBINED BOOK IS POSITIVE IN 4 OF 4 YEARS, and the built-in sanity check fires correctly — the short book is +35.5 % in 2025, the year the panel fell 56.8 %, as a short book must be. That one line is why the table can be believed.** **(5) ⚠ THE 50/50 ROW IS A CONSTRUCTION, NOT AN ENGINE BACKTEST: the equal-weighted average of the two daily returns, exact only because both books are risk-sized as a fraction of equity and near-linear in size. A deployed pair would share capital, share the 24-slot cap and free balance rather than doubling them, and rebalance for real. IT IS AN UPPER BOUND, and the tool says so in its own output.** **(6) ⚠ WHAT IT DOES NOT SAY: the pair is NOT better than the short book alone (+104.7 % vs +113.9 %). It TRADES TOTAL RETURN FOR A SMALLER DRAWDOWN AND INDEPENDENCE — a different and legitimate thing to want, and the user's call, not the project's.** The delivered short book is untouched and B0 reproduces 113.74 % on every run of the long-book family.** |
 | 2026-09-30 | **A BULL-MARKET BOOK EXISTS: THE CHANDELIER CURVE PEAKS IN THE INTERIOR AT 8.0, AND THE BOOK IS A COMPLEMENT, NOT AN UPGRADE.** `BULL_BOOK_B4_RESULT_2026-09-30.md`, §49, prereg `PREREG_BULL4_2026-09-30.md`. **(1) B0 GATE 113.74 % ✓. THE PRE-REGISTERED B-4 RULE FIRED — 'flattens toward 100%' was given an operational meaning BEFORE the run (last three rungs within 25pp AND the highest rung below 200%), and the verdict is `PEAK-AND-FALL: 8.0 is a real INTERIOR peak.` The full curve: 2.0 +15.81 % · 3.0 +45.47 % · 4.0 +32.48 % · 6.0 +71.38 % · 8.0 +95.43 % · 10.0 +94.99 % · 12.0 +79.78 % · 20.0 +69.13 % · 50.0 +18.54 %. RISES then FALLS, with data on BOTH sides, and 8.0/10.0 are TIED to two decimals — a broad peak, not a knife edge.** **(2) THE ASYMPTOTE PROBES EARNED THEIR PLACE: at 20-50 ATR the 2023 capture goes NEGATIVE (−104 %), so the far tail is NOT buy-and-hold — it is out of the market for 2023 entirely. That kills B-3's objection that the peak was really just buy-and-hold.** **(3) RE-PRICED AT MEASURED COVID COSTS (34.9 bps) after the re-pricer reproduced the engine at 10 bps: the long book is +70.6 % / CAGR 16.9 % / Sharpe 0.96 / maxDD 37.8 %, with 2023 +28.1 %, 2024 +39.0 %, 2025 −9.5 %, 2026 +5.8 %, against the DEPLOYED SHORT book at +90.3 % / 20.7 % / 2.10 / 18.43 % with 2023 +11.7 % and 2024 +27.1 %. BETTER IN BOTH BULL YEARS, WORSE ON TOTAL, SHARPE AND DRAWDOWN — which is precisely what a COMPLEMENT is and precisely what was asked for.** **(4) IT CLEARS BOTH HALVES OF THE PREREGISTERED BAR AT REALISTIC COST: 2023 +28.1 % vs +12.7 % for the panel at the same 6.4 % exposure (2.2x) and 2024 +39.0 % vs +6.6 % (5.9x). It is NOT beta: in 2025 the panel fell −56.8 % and this book lost only −9.5 %, where a 6.4 %-exposure beta book would have made −3.6 %.** **(5) ⚠ THE LIMIT, STATED: the chandelier was selected on the only two up regimes AND THEY DISAGREE — 2023 wants 8.0 (+32.3 %) and is violently sensitive to the parameter (32.3 → 10.7 → −6.9 at 8/10/12), while 2024 wants 12.0 (42.9 → 80.6 → 117.8). 8.0 is the 2023-legitimate choice out of a family, selected on n=2 regimes. Mitigations stated, not asserted: interior peak, 8.0 and 10.0 tied, and the regimes that did NOT choose it degrade gracefully (2025 −9.5 %, 2026 +5.8 %).** **(6) CLOSED ALONG THE WAY: long breakout with the short book's risk architecture (B-1); panel-trend high-exposure long, 8x worse (B-2); risk fraction 0.25-1.5 % (B-3, whose pre-registered invariance prediction was REFUTED and no rung closes the gap). Only the chandelier axis remains open, with an interior peak. Delivered as `user_data/config_perp_bull_dry.json` + `PerpLong4h` (side=long, exit_mode=run, chandelier 8.0). The deployed short book is NOT touched and B0 reproduces 113.74 % on every run.** |
 | 2026-09-30 | **A PRE-REGISTERED PREDICTION REFUTED, THE CHANDELIER TURNS OUT TO BE THE LEVER, AND THE BEST CELL SITS ON THE EDGE OF THE RANGE.** `BULL_BOOK_B3_RESULT_2026-09-30.md`, §48, prereg `PREREG_BULL3_2026-09-30.md`. **(1) BOTH SELF-CONSISTENCY CHECKS PASSED BEFORE ANY ARM WAS READ: B0 control 113.74 % ✓, and R2 reproduced B-2's A1 EXACTLY (1,168 trades / +45.47 % / PF 1.29 / 20.25 %) on a separate run.** **(2) ⚠ I PREDICTED "the capture ratio is roughly INVARIANT to risk, because doubling the risk doubles the arm AND its matched-exposure benchmark" — IT IS FALSE. Capture runs 67.8 / 72.9 / 48.9 / 60.8 across risk 0.25→1.5 %, a 24 pp spread, AND THE ARM WITH THE BEST TOTAL (+61.96 % at 1.0 %) HAS THE WORST CAPTURE (48.9 %). The risk axis does not close the gap. Recorded as a refutation, not re-derived after the fact.** **(3) THE CHANDELIER IS THE LIVE AXIS: 2.0 → +15.81 % (capture −13.0 %) · 3.0 → +45.47 % (72.9 %) · 4.0 → +32.48 % (72.9 %) · 6.0 → +71.38 % (245.5 % in 2023, 357.3 % in 2024). C4 IS THE FIRST ARM TO PASS THE SECOND HALF OF THE PREREGISTERED BAR — it beats buy-and-hold at matched exposure by 2.5x in 2023 and 3.6x in 2024.** **(4) ⚠ AND IT IS AN ARTEFACT UNTIL PROVEN OTHERWISE, ON THREE COUNTS: 6.0 is the BOUNDARY cell (§20c — a best value at the edge is a direction, not a peak); the curve is NON-MONOTONE (down at 4.0, up at 6.0) so noise and signal are not yet separable; and a 6-ATR chandelier is a very loose stop, so the trade converges on BUY-AND-HOLD WITH A CRASH EXIT — which is exactly what the matched-exposure benchmark measures. The 2025 tell: the panel fell −56.8 % and C4 made EXACTLY 0.0 %, against A1's +17.9 %. A loose chandelier buys its 2023 number by staying long, not by timing.** **(5) ⚠ THE OBJECTIVE IS MOSTLY ANSWERED BY SOMETHING ALREADY DELIVERED: at matched exposure the DEPLOYED SHORT BOOK captures 110.8 % of the panel in 2023 and 492.7 % in 2024 — it ALREADY passes both halves of the preregistered bar. "The delivered book is bad in bull markets" is wrong in the form that matters: it captures little of the upside and it is SHORT, so it is a poor way to HOLD a bull market, but it is not a losing one and at matched exposure it is a better one.** **(6) VERDICT: the risk axis CLOSES; the chandelier axis stays open at exactly the wrong place. A1/C4 IS NOT PROMOTED — a boundary best on a non-monotone curve, two regimes deep, with a mechanism that reduces to buy-and-hold, is the next experiment, not a deliverable. NEXT RUN, ONE THING: chandelier 8.0 / 10.0 / 12.0, same risk, same entry, B0 as the gate, whole curve published. If capture climbs then flattens toward the 100 % buy-and-hold asymptote, C4's edge was never an edge and the family is answered; if it peaks and falls, 6.0 is real.** The delivered book is untouched and B0 proves it.** |
@@ -2481,6 +2487,161 @@ legitimate thing to want, and the user's call.
 
 **The delivered short book is untouched and B0 reproduces 113.74 % on every run of the
 long-book family — the control that made all of this trustworthy.**
+
+## 51. G-1: THE LONG BOOK HAD NO GATE. FOUR DEFECTS, AND THE PUBLISHED NUMBER WAS ONE OF THEM (2026-09-30)
+
+Detail `docs-myself/BULL_DELIVERABLE_SPEC_2026-09-30.md`.
+Preregs `PREREG_BULL_FLOOR_2026-09-30.md` (B-6), `PREREG_BULL_STOPHOLE_2026-09-30.md` (B-5).
+Tools `bull_config_gate.py`, `bull_verify_stop.py`, `bull_causality.py`, `bull_release_check.py`,
+`bull_collector.py`. **The short book's three frozen files are byte-identical to git HEAD.**
+
+### 51a. The gap
+
+§49/§50 delivered a long book with a published result (+95.43 %) and a config file, and **not one
+gate**. The short book has thirteen. Three of the four defects below are in files a reader would
+have run without question, and **every one of them produced a completely normal-looking table.**
+
+### 51b. ⚠⚠ THE FLOOR WAS THE CLASS DEFAULT 1.5, NOT THE CONFIGURED 4.0
+
+`PerpShort4hStop` reads the config into a property called **`stop_mult`**; `atr_stop` stays frozen
+at its class constant of **1.5**. The short branch of `PerpLong4h._anchor_stop_price` delegates to
+`super()` and gets 4.0. The long branch used `self.atr_stop` and got **1.5**.
+
+> **So the long book was SIZED for a 4.0xATR stop and STOPPED at 1.5xATR.** `custom_stake_amount`
+> is not overridden and uses `stop_mult`; the stop used `atr_stop`. Realised risk =
+> **1.5/4.0 = 37.5 % of the intended 0.5 %, i.e. ~0.1875 % per trade.**
+
+| evidence | result |
+|---|---|
+| floor-bound stop exits sitting at **1.5** | **797 of 835** |
+| floor-bound stop exits sitting at **4.0** | **0** |
+| stake recomputed assuming 4.0 | median rel. error **6.6 %** |
+| stake recomputed assuming 1.5 | median rel. error **159 %** |
+
+**§49's entire chandelier curve was measured at 37.5 % of the risk its config specifies.**
+The two lines of code differ by one identifier and read identically.
+
+### 51c. ⚠ TWO OF MY OWN PRE-REGISTERED PREDICTIONS WERE WRONG, IN THE SAME DIRECTION
+
+B-6 predicted the trade count would RISE (a wider stop keeps trades alive) and that the return
+would RISE (more risk actually deployed).
+
+| | predicted | measured |
+|---|---|---|
+| floor moves to 4.0 | yes | **yes — max multiple exactly 4.000, 325/734 on the floor** |
+| trade count | **rises** | **1,000 → 741, FELL 26 %** |
+| return | **rises** | **+95.43 % → +40.66 %, FELL** |
+| drawdown | rises | **27.6 % → 43.3 %, rose** |
+| the UNI backstop fallthrough disappears | yes | **it moved to FARTCOIN** |
+
+**Mechanism: with no time stop, a wider stop means longer holds, the 24 slots stay occupied
+longer, and fewer trades fit.** Both wrong predictions point the same way — a wider stop does
+not buy more of this signal, it buys less of it.
+
+### 51d. ⚠ THE BUG WAS MAKING THE LEDGER LOOK BETTER — reported, not adopted
+
+At **matched realised risk (0.1875 %/trade)**:
+
+| book | trades | total | PF | maxDD | win % |
+|---|---:|---:|---:|---:|---:|
+| **1.5xATR floor (the bug)** | 1,000 | **+95.43 %** | 1.37 | 27.61 % | 16.0 |
+| 4.0xATR floor (configured) | 921 | +42.09 % | 1.31 | **23.70 %** | 26.1 |
+
+**The defect more than doubled the backtested return at equal risk.** It is still not delivered
+as a configuration, for three reasons: 1.5 was chosen **after seeing the result**, which is the
+one thing this apparatus exists to prevent; the short book measured the stop-multiple frontier on
+this same panel and **chose 4.0** (`PREREG_STOP_MULTIPLE_2026-09-28.md`), so 1.5 would break the
+shared risk architecture; and if 1.5 is wanted it should be written in the config explicitly and
+re-gated, so that it is a declared decision and not an accident.
+
+### 51e. The other three defects
+
+1. **The delivered long config was missing `initial_state`.** `DELIVERABLE_SPEC` §3 lists it as
+   one of four keys whose absence is silent: the process heartbeats every 60 s **in state
+   STOPPED** and produces no number and no error. Fixed.
+2. **`exportfilename` is a DEAD key for backtesting** in this freqtrade version — deprecated with
+   the log line *"has no impact when backtesting"* (`configuration.py:219-246`). The export
+   directory is `--backtest-directory`. So the backtest command published in
+   `DELIVERABLE_SPEC` §4, which passed **no `--export` at all**, produced **no archive** and
+   therefore nothing for `cost_reprice.py` to read. And `--backtest-directory` pointed at a
+   non-existent directory writes a **FILE named after the path** into its parent
+   (`bt_storage.py:32-46` tests `is_dir()` and silently takes the other branch). This affects the
+   SHORT book's published command too; corrected in place.
+3. **The stop could fail to be installed at all.** `custom_stoploss`'s `return None` means "leave
+   the existing stop", which is right only if one exists; on a trade whose entry-bar move already
+   exceeds the floor, no bar can place one and the trade rides to the −30 % class backstop. **1 of
+   993** before the floor fix (UNI, −30.00 % against a next-worst of −8.14 % — a stop-distance
+   distribution has no hole in it), **1 of 734** after (FARTCOIN). The same structure is on the
+   short side at `PerpShort4h.py:341` and recorded **0 in 1,111**.
+
+> **⚠ AND THE FIX FOR (3) WAS MEASURED TO DO NOTHING.** The clamp ("if the trail is already
+> violated, exit at the market") changed **not one number** in the backtest, because on the entry
+> bar `since` is always empty (freqtrade's frame excludes the current bar) and from bar 2 the
+> floor is placeable. It is kept as a correctness guard and **is not claimed to fix anything.**
+> FARTCOIN's remaining case is a different cause: its 4xATR floor is **31.2 %**, WIDER than the
+> −30 % backstop, which therefore binds — the gate now reports that as a **warning**, not a
+> failure, because the backstop is *tighter* than intended and the realised risk is below target.
+
+### 51f. The corrected numbers, and they REPLACE §49's
+
+| | §49 published | **corrected** |
+|---|---:|---:|
+| engine total | +95.43 % | **+40.66 %** |
+| measured COVID 34.9 bps | +70.6 % | **+26.2 %** |
+| Sharpe (re-priced) | 0.96 | **0.54** |
+| maxDD | 37.8 % | **49.6 %** |
+| 2025 | −9.5 % | **−18.4 %** |
+| trades | 1,000 | 741 |
+
+By year at COVID: 2023 +7.7 % (152) · 2024 +38.3 % (204) · 2025 **−18.4 %** (239) · 2026 +3.8 %
+(146) — **3 of 4 positive.** The re-pricer reproduced the engine to **0.00 pp** before printing
+any cost tier.
+
+### 51g. A check the long book needed and the short book does not: the frame WINDOW
+
+`DataProvider.get_analyzed_dataframe` **slices to the last 1000 bars in backtest and does not
+slice at all in dry-run/live** (`dataprovider.py`). The short book anchors its stop at the ENTRY
+bar and never looks forward, so this cannot bite it. The long book's chandelier reads a running
+peak off that frame, so **if the value depended on where the window started, a live bot and the
+backtest would place different stops on the same trade.**
+
+`bull_causality.py` asserts the stop is bit-identical under all three framings, and additionally
+rebuilds the indicators from candles truncated at bar k and walks the stop path again.
+**All pass on 8 symbols. There is no lookahead** — a clean negative, obtained by testing rather
+than by reading the code. Max trade duration is **422 bars, well inside the 1000-bar window**, so
+the backtest/live divergence is latent rather than active.
+
+### 51h. New traps
+
+* **26. A property named for what it configures is not the attribute it configures.**
+  `PerpShort4hStop.stop_mult` reads the config key `atr_stop`; `atr_stop` itself remains the
+  frozen 1.5. A subclass that reads the *obvious* name gets the default. **Every sibling line
+  looked interchangeable.**
+* **27. A bug that improves the result is still a bug, and is the one most likely to be kept.**
+  Here it more than doubled the return at matched risk (§51d). Nothing in the return column
+  distinguishes "correct and good" from "broken and flattering".
+* **28. Two numbers that must agree can disagree silently because they are read from different
+  places.** Stop from `self.atr_stop`, sizing from `self.stop_mult`, document from the config:
+  three sources, one intended value, no assertion anywhere.
+
+### 51i. Verdict — and what this does NOT establish
+
+**The long book is now at the same evidence level as the short one: a config gate, a per-trade
+stop gate, a causality gate, a cost re-pricing, a collector and a one-command release check.**
+The delivery reproduces from its own config, the collector is running in dry-run with no
+credentials and heartbeating in RUNNING, and the short book passes its own check unchanged.
+
+**It is still a timing tool, not alpha. Its own significance has never been tested and must not
+be assumed better than the short book's t ≈ 0.58. The chandelier 8.0 was still selected on n = 2
+up regimes that disagree with each other, and 2025 is −18.4 %. A 49.6 % drawdown for a 7.0 % CAGR
+is the actual shape of this thing.** The forward test still needs 6.8 years and the final holdout
+was burned on 2026-09-26.
+
+**Two of the six gates in the short book's release check were ALREADY RED when this round began**
+(`state_gate`: five documents unindexed, two of them not written by this round; `verify_collector`:
+the short collector was not running while the documents said it was). Both are now addressed —
+the state index is rebuilt from `_STATE_HEADER.md` by `tools/state_index.py --build`, and the
+short collector is restarted. **Neither was caused by this round, and both would have shipped.**
 
 ## 49. B-4: THE PEAK IS REAL AND INTERIOR — A BULL-MARKET BOOK EXISTS, AND IT IS A COMPLEMENT (2026-09-30)
 

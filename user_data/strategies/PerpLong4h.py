@@ -176,7 +176,18 @@ class PerpLong4h(PerpShort4hDeploy):
         if atr is None:
             return None
         lev = trade.leverage or 1.0
-        return trade.open_rate * lev - self.atr_stop * atr
+        # ⚠ `self.stop_mult`, NOT `self.atr_stop`. B-6, 2026-09-30.
+        # `PerpShort4hStop` reads the config's `atr_stop` into a property called
+        # `stop_mult`; `atr_stop` itself stays frozen at its class constant of 1.5.
+        # The short branch below delegates to `super()`, which uses `stop_mult`, so
+        # the short book got 4.0. This line used `atr_stop` and therefore got 1.5 -
+        # so the long book was SIZED for a 4.0xATR stop (custom_stake_amount is
+        # inherited and uses stop_mult) and STOPPED at 1.5xATR. Measured: 797 of 835
+        # floor-bound stop exits sat at exactly 1.5, ZERO at the configured 4.0, and
+        # realised risk was 1.5/4.0 = 37.5% of the intended 0.5% per trade.
+        # The asymmetry is invisible from the return column and from a code read:
+        # the short line one above and this line look interchangeable.
+        return trade.open_rate * lev - self.stop_mult * atr
 
     def custom_stoploss(self, pair: str, trade: Trade, current_time: datetime,
                         current_rate: float, current_profit: float,
@@ -224,8 +235,21 @@ class PerpLong4h(PerpShort4hDeploy):
         # Never LOOSEN: the chandelier may only raise the stop above the initial anchor.
         if trail < sp:
             trail = sp
+        # ⚠ B-5, 2026-09-30. THE STOP CAN FAIL TO BE INSTALLED AT ALL.
+        # `return None` here means "leave the existing stop alone", which is right only if a
+        # stop already exists. On a trade whose entry-bar move already exceeds the floor, NO
+        # bar ever has a placeable stop, so the custom stop is never installed and the trade
+        # rides to the class -30% backstop on a position sized for 4xATR. Measured: 1 in 993
+        # (UNI, -30.00% against a next-worst of -8.14% - a stop distribution has no hole in
+        # it), and after the B-6 floor fix 1 in 734 (FARTCOIN, -29.98%). The same structure
+        # is on the short side at PerpShort4h.py:341 and recorded 0 occurrences in 1,111.
+        #
+        # When the trailing stop is already violated there is nothing to trail: exit at the
+        # market. Clamping to the measured floor instead would fill at a price the market has
+        # already passed and make the backtest look BETTER than reality, which is the one
+        # direction this project's cost work exists to avoid.
         if trail >= current_rate:
-            return None
+            trail = current_rate * (1.0 - 1e-4)
         ratio = -float((1.0 - trail / current_rate) * lev)
         # ⚠ A `custom_stoploss` EXCEPTION IS SWALLOWED BY FREQTRADE AND THE ENTRY IS
         # ALLOWED THROUGH (trap 6). The first version of this chandelier raised

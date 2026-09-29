@@ -101,11 +101,13 @@ BTC · ETH · SOL · XRP · DOGE · 1000PEPE · HYPE · BNB · SUI · WIF · …
 ## 4. 怎么跑
 
 ```powershell
+# 0) 目录必须先建。freqtrade 的 _generate_filename 先测 is_dir()，为假时**不报错**，
+#    而是把整条路径当文件名，在其父目录下写出一个「长得像目录」的文件。
+New-Item -ItemType Directory -Force -Path user_data\deployed_out
+
 # 1) 回测（就是部署配置本身）
-.venv\Scripts\python.exe -m freqtrade backtesting `
-  --config user_data\config_perp_forward_dry.json `
-  --datadir user_data\data\wide526 `
-  --timerange 20230101-20260928 --cache none
+.\tools\perp_short\run_capped.ps1 -CapGB 4 -Cmd `
+  '.venv\Scripts\python.exe -m freqtrade backtesting --config user_data\config_perp_forward_dry.json --datadir user_data\data\wide526 --export trades --cache none --backtest-directory user_data\deployed_out'
 
 # 2) 模拟盘（无凭证、无真实订单）
 .venv\Scripts\python.exe -m freqtrade trade --config user_data\config_perp_forward_dry.json
@@ -113,6 +115,22 @@ BTC · ETH · SOL · XRP · DOGE · 1000PEPE · HYPE · BNB · SUI · WIF · …
 # 3) 确认交付物完好（一条命令）
 .venv\Scripts\python.exe tools\perp_short\release_check.py
 ```
+
+> ⚠ **CORRECTION 2026-09-30 — `exportfilename` IS A DEAD KEY FOR BACKTESTING.**
+> This config carries `"exportfilename": "user_data/forward_exports"`, and the §3 table
+> above lists it as part of the deployment configuration. **It does nothing.**
+> In this freqtrade version it is deprecated with the log line
+> *"DEPRECATED: Using `--export-filename` has no impact when backtesting"*; the export
+> directory is `--backtest-directory`, defaulting to `user_data/backtest_results`
+> (`configuration.py:219-246`, `bt_storage.py:32-46`).
+>
+> Two consequences, both silent: (1) the backtest command as originally published passed
+> **no `--export` at all**, so a reader following it got a table and **no archive** — and
+> therefore nothing for `cost_reprice.py` to read; (2) `--backtest-directory` pointing at a
+> directory that does not exist writes a FILE named after the path into its parent.
+> Found while giving the long book the same gates; see `BULL_DELIVERABLE_SPEC_2026-09-30.md` §2.3.
+> The `exportfilename` line is left in the config because removing it would change a
+> byte-verified artefact, and it is harmless outside backtesting.
 
 **内存**：所有回测走 `tools/perp_short/run_capped.ps1 -CapGB 4`。
 **实测峰值 119 MB**，远低于 4 GB 上限。
